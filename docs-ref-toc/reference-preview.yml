@@ -174,6 +174,10 @@
     href: ~/api/overview/azure/preview/attestation.md
     landingPageType: Service
     items:
+    - name: Attestation
+      href: ~/api/overview/azure/preview/security.attestation-readme.md
+      children:
+      - Azure.Security.Attestation
     - name: Management
       items:
       - name: Resource Management - Attestation
@@ -346,13 +350,13 @@
       - Azure.AI.ContentSafety
       - Microsoft.Extensions.Azure
     - name: Form Recognizer
+      href: ~/api/overview/azure/preview/ai.formrecognizer-readme.md
       children:
       - Azure.AI.FormRecognizer
       - Azure.AI.FormRecognizer.DocumentAnalysis
       - Azure.AI.FormRecognizer.Models
       - Azure.AI.FormRecognizer.Training
       - Microsoft.Extensions.Azure
-      landingPageType: Service
     - name: Conversational Language Understanding
       children:
       - Azure.AI.Language.Conversations
@@ -430,6 +434,14 @@
       - Microsoft.Azure.CognitiveServices.Vision.Face
       - Microsoft.Azure.CognitiveServices.Vision.Face.Models
       landingPageType: Service
+    - name: Management
+      items:
+      - name: Resource Management - Cognitive Services
+        href: ~/api/overview/azure/preview/resourcemanager.cognitiveservices-readme.md
+        children:
+        - Azure.ResourceManager.CognitiveServices
+        - Azure.ResourceManager.CognitiveServices.Mocking
+        - Azure.ResourceManager.CognitiveServices.Models
   - name: Communication
     href: ~/api/overview/azure/preview/communication.md
     landingPageType: Service
@@ -637,6 +649,18 @@
         - Azure.ResourceManager.CustomerInsights
         - Azure.ResourceManager.CustomerInsights.Mocking
         - Azure.ResourceManager.CustomerInsights.Models
+  - name: Data Box
+    href: ~/api/overview/azure/preview/data-box.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Data Box
+        href: ~/api/overview/azure/preview/resourcemanager.databox-readme.md
+        children:
+        - Azure.ResourceManager.DataBox
+        - Azure.ResourceManager.DataBox.Mocking
+        - Azure.ResourceManager.DataBox.Models
   - name: Data Box Edge
     href: ~/api/overview/azure/preview/data-box-edge.md
     landingPageType: Service
@@ -1917,6 +1941,10 @@
       children:
       - Azure.Data.SchemaRegistry
       - Azure.Data.SchemaRegistry.Serialization
+    - name: Schema Registry - Avro
+      href: ~/api/overview/azure/preview/microsoft.azure.data.schemaregistry.apacheavro-readme.md
+      children:
+      - Microsoft.Azure.Data.SchemaRegistry.ApacheAvro
   - name: Search
     href: ~/api/overview/azure/preview/search.md
     landingPageType: Service
@@ -2255,7 +2283,7 @@
       href: ~/api/overview/azure/preview/analytics.synapse.accesscontrol-readme.md
       children:
       - Azure.Analytics.Synapse.AccessControl
-      - Azure.Analytics.Synapse.AccessControl.Models
+      - Microsoft.Extensions.Azure
     - name: Synapse - Artifacts
       href: ~/api/overview/azure/preview/analytics.synapse.artifacts-readme.md
       children:
@@ -2322,20 +2350,24 @@
     landingPageType: Service
     items:
     - name: Web PubSub
+      href: ~/api/overview/azure/preview/messaging.webpubsub-readme.md
       children:
       - Azure.Messaging.WebPubSub
       - Microsoft.Extensions.Azure
-      landingPageType: Service
     - name: Web PubSub Client
       href: ~/api/overview/azure/preview/messaging.webpubsub.client-readme.md
       children:
       - Azure.Messaging.WebPubSub.Clients
     - name: Microsoft.Azure.WebPubSub.AspNetCore
+      href: ~/api/overview/azure/preview/microsoft.azure.webpubsub.aspnetcore-readme.md
       children:
       - Microsoft.AspNetCore.Builder
       - Microsoft.Azure.WebPubSub.AspNetCore
       - Microsoft.Extensions.DependencyInjection
-      landingPageType: Service
+    - name: Microsoft.Azure.WebPubSub.Common
+      href: ~/api/overview/azure/preview/microsoft.azure.webpubsub.common-readme.md
+      children:
+      - Microsoft.Azure.WebPubSub.Common
     - name: Management
       items:
       - name: Resource Management - Web PubSub

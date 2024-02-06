@@ -58,11 +58,11 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ArmOperation (Azure.ResourceManager.ArmClient client, string id);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.ArmClient client, string id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmOperation.#ctor(Azure.ResourceManager.ArmClient,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (client As ArmClient, id As String)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.ArmOperation : Azure.ResourceManager.ArmClient * string -&gt; Azure.ResourceManager.ArmOperation" Usage="new Azure.ResourceManager.ArmOperation (client, id)" />
+      <MemberSignature Language="C#" Value="public ArmOperation (Azure.ResourceManager.ArmClient client, Azure.Core.RehydrationToken? rehydrationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.ResourceManager.ArmClient client, valuetype System.Nullable`1&lt;valuetype Azure.Core.RehydrationToken&gt; rehydrationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmOperation.#ctor(Azure.ResourceManager.ArmClient,System.Nullable{Azure.Core.RehydrationToken})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (client As ArmClient, rehydrationToken As Nullable(Of RehydrationToken))" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.ArmOperation : Azure.ResourceManager.ArmClient * Nullable&lt;Azure.Core.RehydrationToken&gt; -&gt; Azure.ResourceManager.ArmOperation" Usage="new Azure.ResourceManager.ArmOperation (client, rehydrationToken)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
@@ -70,12 +70,33 @@
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="rehydrationToken" Type="System.Nullable&lt;Azure.Core.RehydrationToken&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="client"> The client parameters to use in these operations. </param>
-        <param name="id"> The id of the ArmOperation. </param>
+        <param name="rehydrationToken"> The id of the ArmOperation. </param>
         <summary> Create an instance of the <see cref="T:Azure.ResourceManager.ArmOperation" /> class from rehydration. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_rehydrationToken">
+      <MemberSignature Language="C#" Value="protected Azure.Core.RehydrationToken? _rehydrationToken;" />
+      <MemberSignature Language="ILAsm" Value=".field family valuetype System.Nullable`1&lt;valuetype Azure.Core.RehydrationToken&gt; _rehydrationToken" />
+      <MemberSignature Language="DocId" Value="F:Azure.ResourceManager.ArmOperation._rehydrationToken" />
+      <MemberSignature Language="VB.NET" Value="Protected _rehydrationToken As Nullable(Of RehydrationToken) " />
+      <MemberSignature Language="F#" Value="val mutable _rehydrationToken : Nullable&lt;Azure.Core.RehydrationToken&gt;" Usage="Azure.ResourceManager.ArmOperation._rehydrationToken" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.11.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.Core.RehydrationToken&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The token to rehydration the operation.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -104,6 +125,29 @@
             An instance of <see cref="T:Azure.Operation`1" /> sends requests to a server in UpdateStatusAsync, UpdateStatus, and other methods.
             Responses from these requests can be accessed using GetRawResponse.
             </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRehydrationToken">
+      <MemberSignature Language="C#" Value="public override Azure.Core.RehydrationToken? GetRehydrationToken ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance valuetype System.Nullable`1&lt;valuetype Azure.Core.RehydrationToken&gt; GetRehydrationToken() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArmOperation.GetRehydrationToken" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetRehydrationToken () As Nullable(Of RehydrationToken)" />
+      <MemberSignature Language="F#" Value="abstract member GetRehydrationToken : unit -&gt; Nullable&lt;Azure.Core.RehydrationToken&gt;&#xA;override this.GetRehydrationToken : unit -&gt; Nullable&lt;Azure.Core.RehydrationToken&gt;" Usage="armOperation.GetRehydrationToken " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.11.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.Core.RehydrationToken&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Get a token that can be used to rehydrate the operation.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="HasCompleted">

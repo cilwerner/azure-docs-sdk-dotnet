@@ -63,7 +63,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateLinkScopeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -95,7 +95,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateLinkScopeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -175,7 +175,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a Azure Arc PrivateLinkScope.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Delete</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateLinkScopeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -204,7 +204,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a Azure Arc PrivateLinkScope.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Delete</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateLinkScopeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -230,7 +230,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a Azure Arc PrivateLinkScope.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateLinkScopeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -256,7 +256,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a Azure Arc PrivateLinkScope.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateLinkScopeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -284,7 +284,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a private endpoint connection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -316,7 +316,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a private endpoint connection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -369,7 +369,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the private link resources that need to be created for a Azure Monitor PrivateLinkScope.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}/privateLinkResources/{groupName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}/privateLinkResources/{groupName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -401,7 +401,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the private link resources that need to be created for a Azure Monitor PrivateLinkScope.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}/privateLinkResources/{groupName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}/privateLinkResources/{groupName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -474,7 +474,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateLinkScopeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -504,7 +504,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateLinkScopeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -553,7 +553,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateLinkScopeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -583,7 +583,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateLinkScopeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -613,7 +613,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an existing PrivateLinkScope's tags. To update other fields use the CreateOrUpdate method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_UpdateTags</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_UpdateTags</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateLinkScopeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -643,7 +643,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an existing PrivateLinkScope's tags. To update other fields use the CreateOrUpdate method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_UpdateTags</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_UpdateTags</description></item><item><term>Default Api Version</term><description>2023-10-03-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridCompute.HybridComputePrivateLinkScopeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

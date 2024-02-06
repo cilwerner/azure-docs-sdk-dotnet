@@ -69,7 +69,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Copy an existing long term retention backup.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}/copy</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Copy</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}/copy</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Copy</description></item><item><term>Default Api Version</term><description>2021-05-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sql.SubscriptionLongTermRetentionBackupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -103,7 +103,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Copy an existing long term retention backup.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}/copy</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Copy</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}/copy</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Copy</description></item><item><term>Default Api Version</term><description>2021-05-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sql.SubscriptionLongTermRetentionBackupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -190,7 +190,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a long term retention backup.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Delete</description></item><item><term>Default Api Version</term><description>2021-05-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sql.SubscriptionLongTermRetentionBackupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -220,7 +220,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a long term retention backup.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Delete</description></item><item><term>Default Api Version</term><description>2021-05-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sql.SubscriptionLongTermRetentionBackupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -247,7 +247,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a long term retention backup.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Get</description></item><item><term>Default Api Version</term><description>2021-05-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sql.SubscriptionLongTermRetentionBackupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -274,7 +274,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a long term retention backup.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Get</description></item><item><term>Default Api Version</term><description>2021-05-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sql.SubscriptionLongTermRetentionBackupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -347,7 +347,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an existing long term retention backup.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}/update</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}/update</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Update</description></item><item><term>Default Api Version</term><description>2021-05-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sql.SubscriptionLongTermRetentionBackupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -381,7 +381,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an existing long term retention backup.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}/update</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Sql/locations/{locationName}/longTermRetentionServers/{longTermRetentionServerName}/longTermRetentionDatabases/{longTermRetentionDatabaseName}/longTermRetentionBackups/{backupName}/update</description></item><item><term>Operation Id</term><description>LongTermRetentionBackups_Update</description></item><item><term>Default Api Version</term><description>2021-05-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sql.SubscriptionLongTermRetentionBackupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
