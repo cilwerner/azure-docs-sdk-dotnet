@@ -1,12 +1,12 @@
 ---
 title: Azure Monitor Query client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Monitor.Query, monitor
-ms.date: 12/02/2023
+ms.date: 02/08/2024
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: monitor
 ---
-# Azure Monitor Query client library for .NET - version 1.3.0-beta.2 
+# Azure Monitor Query client library for .NET - version 1.3.0-alpha.20240208.1 
 
 
 The Azure Monitor Query client library is used to execute read-only queries against [Azure Monitor][azure_monitor_overview]'s two data platforms:
@@ -85,11 +85,11 @@ All client instance methods are thread-safe and independent of each other ([guid
 ### Additional concepts
 
 <!-- CLIENT COMMON BAR -->
-[Client options](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Query_1.3.0-beta.2/sdk/core/Azure.Core/README.md#configuring-service-clients-using-clientoptions) |
-[Accessing the response](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Query_1.3.0-beta.2/sdk/core/Azure.Core/README.md#accessing-http-response-details-using-responset) |
-[Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Query_1.3.0-beta.2/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
-[Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Query_1.3.0-beta.2/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
-[Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Query_1.3.0-beta.2/sdk/core/Azure.Core/samples/Diagnostics.md) |
+[Client options](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#configuring-service-clients-using-clientoptions) |
+[Accessing the response](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#accessing-http-response-details-using-responset) |
+[Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
+[Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
+[Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/Diagnostics.md) |
 [Mocking](https://learn.microsoft.com/dotnet/azure/sdk/unit-testing-mocking) |
 [Client lifetime](https://devblogs.microsoft.com/azure-sdk/lifetime-management-and-thread-safety-guarantees-of-azure-sdk-net-clients/)
 <!-- CLIENT COMMON BAR -->
@@ -110,6 +110,7 @@ All client instance methods are thread-safe and independent of each other ([guid
 - [Metrics query](#metrics-query)
   - [Handle metrics query response](#handle-metrics-query-response)
   - [Query metrics with options](#query-metrics-with-options)
+  - [Get metrics namespaces](#get-metrics-namespaces)
   - [Split a metric by dimension](#split-a-metric-by-dimension)
 - [Register the client with dependency injection](#register-the-client-with-dependency-injection)
 
@@ -555,6 +556,22 @@ foreach (MetricTimeSeriesElement element in metric.TimeSeries)
 }
 ```
 
+#### Get metrics namespaces
+
+To programmatically retrieve metrics namespaces, use the following code:
+    
+```C# Snippet:GetMetricsNamespaces
+string resourceId =
+    "/subscriptions/<subscription_id>/resourceGroups/<resource_group_name>/providers/Microsoft.Web/sites/TestWebApp";
+var client = new MetricsQueryClient(new DefaultAzureCredential());
+AsyncPageable<MetricNamespace> metricNamespaces = client.GetMetricNamespacesAsync(resourceId);
+
+await foreach (var metricNamespace in metricNamespaces)
+{
+    Console.WriteLine($"Metric namespace = {metricNamespace.Name}");
+}
+```
+
 #### Split a metric by dimension
 
 The [MetricsQueryOptions.Filter](https://learn.microsoft.com/dotnet/api/azure.monitor.query.metricsqueryoptions.filter?view=azure-dotnet#azure-monitor-query-metricsqueryoptions-filter) property can be used for [splitting a metric](https://learn.microsoft.com/azure/azure-monitor/essentials/metrics-charts#metric-splitting) by a dimension when its filter value is set to an asterisk. Consider the following example for an App Service resource named *TestWebApp*. The code queries the resource's `Http2xx` metric and splits it by the `Instance` dimension.
@@ -595,37 +612,13 @@ foreach (MetricResult metric in result.Value.Metrics)
 }
 ```
 
-#### Metrics batch query
-
-A user can also query metrics from multiple resources at once using the `QueryBatch` method of `MetricsBatchQueryClient`. This uses a different API than the `MetricsQueryClient` and requires that a user pass in a regional endpoint when instantiating the client (for example, "https://westus3.metrics.monitor.azure.com").
-
-Note, each resource must be in the same region as the endpoint passed in when instantiating the client, and each resource must be in the same Azure subscription. Furthermore, the metric namespace that contains the metrics to be queried must also be passed. A list of metric namespaces can be found [here][metric_namespaces].
-
-```C# Snippet:QueryBatchMetrics
-string resourceId =
-    "/subscriptions/<id>/resourceGroups/<rg-name>/providers/<source>/storageAccounts/<resource-name-1>";
-MetricsBatchQueryClient client = new MetricsBatchQueryClient(new Uri("https://metrics.monitor.azure.com/.default"), new DefaultAzureCredential());
-Response<MetricResultsResponse> metricsResultsResponse = await client.QueryBatchAsync(
-    resourceIds: new List<string> { resourceId },
-    metricNames: new List<string> { "Ingress" },
-    metricNamespace: "Microsoft.Storage/storageAccounts").ConfigureAwait(false);
-
-MetricResultsResponse metricsQueryResults = metricsResultsResponse.Value;
-foreach (var value in metricsQueryResults.Values)
-{
-    Console.WriteLine(value.Interval);
-}
-```
-
-For an inventory of metrics and dimensions available for each Azure resource type, see [Supported metrics with Azure Monitor](https://learn.microsoft.com/azure/azure-monitor/essentials/metrics-supported).
-
 #### Register the client with dependency injection
 
 To register `LogsQueryClient` with the dependency injection (DI) container, invoke the `AddLogsQueryClient` method. To register `MetricsQueryClient` with the dependency injection (DI) container, invoke the `AddMetricsQueryClient` method. For more information, see [Register client](https://learn.microsoft.com/dotnet/azure/sdk/dependency-injection#register-client).
 
 ## Troubleshooting
 
-To diagnose various failure scenarios, see the [troubleshooting guide](https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Query_1.3.0-beta.2/sdk/monitor/Azure.Monitor.Query/TROUBLESHOOTING.md).
+To diagnose various failure scenarios, see the [troubleshooting guide](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/monitor/Azure.Monitor.Query/TROUBLESHOOTING.md).
 
 ## Next steps
 
@@ -642,13 +635,13 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [azure_monitor_create_using_portal]: https://learn.microsoft.com/azure/azure-monitor/logs/quick-create-workspace
 [azure_monitor_overview]: https://learn.microsoft.com/azure/azure-monitor/overview
 [azure_subscription]: https://azure.microsoft.com/free/dotnet/
-[changelog]: https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Query_1.3.0-beta.2/sdk/monitor/Azure.Monitor.Query/CHANGELOG.md
+[changelog]: https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/monitor/Azure.Monitor.Query/CHANGELOG.md
 [kusto_query_language]: https://learn.microsoft.com/azure/data-explorer/kusto/query/
 [migration_guide_app_insights]: https://aka.ms/azsdk/net/migrate/ai-monitor-query
 [migration_guide_opp_insights]: https://aka.ms/azsdk/net/migrate/monitor-query
 [msdocs_apiref]: https://learn.microsoft.com/dotnet/api/overview/azure/monitor.query-readme?view=azure-dotnet
 [package]: https://www.nuget.org/packages/Azure.Monitor.Query
-[source]: https://github.com/Azure/azure-sdk-for-net/blob/Azure.Monitor.Query_1.3.0-beta.2/sdk/monitor/Azure.Monitor.Query/src
+[source]: https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/monitor/Azure.Monitor.Query/src
 [metric_namespaces]: https://learn.microsoft.com/azure/azure-monitor/reference/supported-metrics/metrics-index#metrics-by-resource-provider
 
 [cla]: https://cla.microsoft.com
