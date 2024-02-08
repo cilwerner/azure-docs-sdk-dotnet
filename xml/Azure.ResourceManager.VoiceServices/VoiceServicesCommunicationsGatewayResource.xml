@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource&gt;</ReturnType>
@@ -64,7 +67,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item><item><term>Default Api Version</term><description>2023-01-31</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -81,6 +84,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource&gt;&gt;</ReturnType>
@@ -96,7 +100,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item><item><term>Default Api Version</term><description>2023-01-31</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -113,6 +117,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -141,6 +146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayData</ReturnType>
@@ -162,6 +168,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -176,7 +183,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a CommunicationsGateway
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Delete</description></item><item><term>Default Api Version</term><description>2023-01-31</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -191,6 +198,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -205,7 +213,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a CommunicationsGateway
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Delete</description></item><item><term>Default Api Version</term><description>2023-01-31</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -220,6 +228,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource&gt;</ReturnType>
@@ -231,7 +240,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a CommunicationsGateway
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item><item><term>Default Api Version</term><description>2023-01-31</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -246,6 +255,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource&gt;&gt;</ReturnType>
@@ -257,7 +267,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a CommunicationsGateway
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item><item><term>Default Api Version</term><description>2023-01-31</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -272,6 +282,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.VoiceServices.VoiceServicesTestLineResource&gt;</ReturnType>
@@ -285,7 +296,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a TestLine
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}/testLines/{testLineName}</description></item><item><term>Operation Id</term><description>TestLines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}/testLines/{testLineName}</description></item><item><term>Operation Id</term><description>TestLines_Get</description></item><item><term>Default Api Version</term><description>2023-01-31</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.VoiceServices.VoiceServicesTestLineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -304,6 +315,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.VoiceServices.VoiceServicesTestLineResource&gt;&gt;</ReturnType>
@@ -317,7 +329,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a TestLine
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}/testLines/{testLineName}</description></item><item><term>Operation Id</term><description>TestLines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}/testLines/{testLineName}</description></item><item><term>Operation Id</term><description>TestLines_Get</description></item><item><term>Default Api Version</term><description>2023-01-31</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.VoiceServices.VoiceServicesTestLineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -336,6 +348,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.VoiceServices.VoiceServicesTestLineCollection</ReturnType>
@@ -357,6 +370,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -377,6 +391,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource&gt;</ReturnType>
@@ -390,7 +405,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item><item><term>Default Api Version</term><description>2023-01-31</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -407,6 +422,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource&gt;&gt;</ReturnType>
@@ -420,7 +436,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item><item><term>Default Api Version</term><description>2023-01-31</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -437,6 +453,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -456,6 +473,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource&gt;</ReturnType>
@@ -469,7 +487,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item><item><term>Default Api Version</term><description>2023-01-31</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -486,6 +504,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource&gt;&gt;</ReturnType>
@@ -499,7 +518,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Get</description></item><item><term>Default Api Version</term><description>2023-01-31</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -516,6 +535,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource&gt;</ReturnType>
@@ -529,7 +549,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a CommunicationsGateway
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Update</description></item><item><term>Default Api Version</term><description>2023-01-31</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -546,6 +566,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.VoiceServices</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource&gt;&gt;</ReturnType>
@@ -559,7 +580,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a CommunicationsGateway
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.VoiceServices/communicationsGateways/{communicationsGatewayName}</description></item><item><term>Operation Id</term><description>CommunicationsGateways_Update</description></item><item><term>Default Api Version</term><description>2023-01-31</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.VoiceServices.VoiceServicesCommunicationsGatewayResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

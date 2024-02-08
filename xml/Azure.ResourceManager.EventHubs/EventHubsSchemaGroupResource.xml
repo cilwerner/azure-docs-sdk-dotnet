@@ -126,6 +126,16 @@
               <term>Operation Id</term>
               <description>SchemaRegistry_Delete</description>
             </item>
+            <item>
+              <term>Default Api Version</term>
+              <description>2022-10-01-preview</description>
+            </item>
+            <item>
+              <term>Resource</term>
+              <description>
+                <see cref="T:Azure.ResourceManager.EventHubs.EventHubsSchemaGroupResource" />
+              </description>
+            </item>
           </list>
         </summary>
         <returns>To be added.</returns>
@@ -165,6 +175,16 @@
               <term>Operation Id</term>
               <description>SchemaRegistry_Delete</description>
             </item>
+            <item>
+              <term>Default Api Version</term>
+              <description>2022-10-01-preview</description>
+            </item>
+            <item>
+              <term>Resource</term>
+              <description>
+                <see cref="T:Azure.ResourceManager.EventHubs.EventHubsSchemaGroupResource" />
+              </description>
+            </item>
           </list>
         </summary>
         <returns>To be added.</returns>
@@ -201,6 +221,16 @@
               <term>Operation Id</term>
               <description>SchemaRegistry_Get</description>
             </item>
+            <item>
+              <term>Default Api Version</term>
+              <description>2022-10-01-preview</description>
+            </item>
+            <item>
+              <term>Resource</term>
+              <description>
+                <see cref="T:Azure.ResourceManager.EventHubs.EventHubsSchemaGroupResource" />
+              </description>
+            </item>
           </list>
         </summary>
         <returns>To be added.</returns>
@@ -236,6 +266,16 @@
             <item>
               <term>Operation Id</term>
               <description>SchemaRegistry_Get</description>
+            </item>
+            <item>
+              <term>Default Api Version</term>
+              <description>2022-10-01-preview</description>
+            </item>
+            <item>
+              <term>Resource</term>
+              <description>
+                <see cref="T:Azure.ResourceManager.EventHubs.EventHubsSchemaGroupResource" />
+              </description>
             </item>
           </list>
         </summary>
@@ -319,6 +359,16 @@
               <term>Operation Id</term>
               <description>SchemaRegistry_CreateOrUpdate</description>
             </item>
+            <item>
+              <term>Default Api Version</term>
+              <description>2022-10-01-preview</description>
+            </item>
+            <item>
+              <term>Resource</term>
+              <description>
+                <see cref="T:Azure.ResourceManager.EventHubs.EventHubsSchemaGroupResource" />
+              </description>
+            </item>
           </list>
         </summary>
         <returns>To be added.</returns>
@@ -361,6 +411,16 @@
             <item>
               <term>Operation Id</term>
               <description>SchemaRegistry_CreateOrUpdate</description>
+            </item>
+            <item>
+              <term>Default Api Version</term>
+              <description>2022-10-01-preview</description>
+            </item>
+            <item>
+              <term>Resource</term>
+              <description>
+                <see cref="T:Azure.ResourceManager.EventHubs.EventHubsSchemaGroupResource" />
+              </description>
             </item>
           </list>
         </summary>

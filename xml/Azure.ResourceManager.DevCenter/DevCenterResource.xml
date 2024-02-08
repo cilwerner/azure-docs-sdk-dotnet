@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterResource&gt;</ReturnType>
@@ -64,7 +67,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -81,6 +84,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterResource&gt;&gt;</ReturnType>
@@ -96,7 +100,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -113,6 +117,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -141,6 +146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevCenter.DevCenterData</ReturnType>
@@ -162,6 +168,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -176,7 +183,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a devcenter
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Delete</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -191,6 +198,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -205,7 +213,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a devcenter
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Delete</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -220,6 +228,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterResource&gt;</ReturnType>
@@ -231,7 +240,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a devcenter.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -246,6 +255,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterResource&gt;&gt;</ReturnType>
@@ -257,7 +267,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a devcenter.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -272,6 +282,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.AttachedNetworkConnectionResource&gt;</ReturnType>
@@ -285,7 +296,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an attached NetworkConnection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/attachednetworks/{attachedNetworkConnectionName}</description></item><item><term>Operation Id</term><description>AttachedNetworks_GetByDevCenter</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/attachednetworks/{attachedNetworkConnectionName}</description></item><item><term>Operation Id</term><description>AttachedNetworks_GetByDevCenter</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.AttachedNetworkConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -304,6 +315,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.AttachedNetworkConnectionResource&gt;&gt;</ReturnType>
@@ -317,7 +329,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an attached NetworkConnection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/attachednetworks/{attachedNetworkConnectionName}</description></item><item><term>Operation Id</term><description>AttachedNetworks_GetByDevCenter</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/attachednetworks/{attachedNetworkConnectionName}</description></item><item><term>Operation Id</term><description>AttachedNetworks_GetByDevCenter</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.AttachedNetworkConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -336,6 +348,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevCenter.AttachedNetworkConnectionCollection</ReturnType>
@@ -357,6 +370,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevBoxDefinitionResource&gt;</ReturnType>
@@ -370,7 +384,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Dev Box definition
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/devboxdefinitions/{devBoxDefinitionName}</description></item><item><term>Operation Id</term><description>DevBoxDefinitions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/devboxdefinitions/{devBoxDefinitionName}</description></item><item><term>Operation Id</term><description>DevBoxDefinitions_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevBoxDefinitionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -389,6 +403,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevBoxDefinitionResource&gt;&gt;</ReturnType>
@@ -402,7 +417,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Dev Box definition
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/devboxdefinitions/{devBoxDefinitionName}</description></item><item><term>Operation Id</term><description>DevBoxDefinitions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/devboxdefinitions/{devBoxDefinitionName}</description></item><item><term>Operation Id</term><description>DevBoxDefinitions_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevBoxDefinitionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -421,6 +436,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevCenter.DevBoxDefinitionCollection</ReturnType>
@@ -442,6 +458,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterCatalogResource&gt;</ReturnType>
@@ -455,7 +472,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a catalog
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -474,6 +491,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterCatalogResource&gt;&gt;</ReturnType>
@@ -487,7 +505,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a catalog
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -506,6 +524,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevCenter.DevCenterCatalogCollection</ReturnType>
@@ -527,6 +546,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterEnvironmentTypeResource&gt;</ReturnType>
@@ -540,7 +560,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an environment type.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/environmentTypes/{environmentTypeName}</description></item><item><term>Operation Id</term><description>EnvironmentTypes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/environmentTypes/{environmentTypeName}</description></item><item><term>Operation Id</term><description>EnvironmentTypes_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterEnvironmentTypeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -559,6 +579,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterEnvironmentTypeResource&gt;&gt;</ReturnType>
@@ -572,7 +593,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an environment type.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/environmentTypes/{environmentTypeName}</description></item><item><term>Operation Id</term><description>EnvironmentTypes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/environmentTypes/{environmentTypeName}</description></item><item><term>Operation Id</term><description>EnvironmentTypes_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterEnvironmentTypeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -591,6 +612,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevCenter.DevCenterEnvironmentTypeCollection</ReturnType>
@@ -612,6 +634,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevCenter.DevCenterGalleryCollection</ReturnType>
@@ -633,6 +656,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterGalleryResource&gt;</ReturnType>
@@ -646,7 +670,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a gallery
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterGalleryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -665,6 +689,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterGalleryResource&gt;&gt;</ReturnType>
@@ -678,7 +703,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a gallery
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterGalleryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -697,6 +722,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.DevCenter.DevCenterImageResource&gt;</ReturnType>
@@ -710,7 +736,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists images for a devcenter.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/images</description></item><item><term>Operation Id</term><description>Images_ListByDevCenter</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/images</description></item><item><term>Operation Id</term><description>Images_ListByDevCenter</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterImageResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DevCenter.DevCenterImageResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -725,6 +751,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.DevCenter.DevCenterImageResource&gt;</ReturnType>
@@ -738,7 +765,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists images for a devcenter.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/images</description></item><item><term>Operation Id</term><description>Images_ListByDevCenter</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/images</description></item><item><term>Operation Id</term><description>Images_ListByDevCenter</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterImageResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DevCenter.DevCenterImageResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -753,6 +780,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -773,6 +801,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterResource&gt;</ReturnType>
@@ -786,7 +815,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -803,6 +832,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterResource&gt;&gt;</ReturnType>
@@ -816,7 +846,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -833,6 +863,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -852,6 +883,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterResource&gt;</ReturnType>
@@ -865,7 +897,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -882,6 +914,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterResource&gt;&gt;</ReturnType>
@@ -895,7 +928,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -912,6 +945,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DevCenter.DevCenterResource&gt;</ReturnType>
@@ -928,7 +962,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Partially updates a devcenter.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Update</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -945,6 +979,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DevCenter.DevCenterResource&gt;&gt;</ReturnType>
@@ -961,7 +996,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Partially updates a devcenter.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}</description></item><item><term>Operation Id</term><description>DevCenters_Update</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

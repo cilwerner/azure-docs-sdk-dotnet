@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -77,6 +80,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsAccountData</ReturnType>
@@ -98,6 +102,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -112,7 +117,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Begins the delete process for the Data Lake Analytics account object specified by the account name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Delete</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -127,6 +132,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -141,7 +147,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Begins the delete process for the Data Lake Analytics account object specified by the account name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Delete</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -156,6 +162,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsAccountResource&gt;</ReturnType>
@@ -167,7 +174,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets details of the specified Data Lake Analytics account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Get</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -182,6 +189,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageAccountInformationCollection</ReturnType>
@@ -203,6 +211,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataLakeAnalytics.DataLakeStoreAccountInformationCollection</ReturnType>
@@ -224,6 +233,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsAccountResource&gt;&gt;</ReturnType>
@@ -235,7 +245,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets details of the specified Data Lake Analytics account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Get</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -250,6 +260,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsComputePolicyCollection</ReturnType>
@@ -271,6 +282,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsComputePolicyResource&gt;</ReturnType>
@@ -284,7 +296,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified Data Lake Analytics compute policy.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/computePolicies/{computePolicyName}</description></item><item><term>Operation Id</term><description>ComputePolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/computePolicies/{computePolicyName}</description></item><item><term>Operation Id</term><description>ComputePolicies_Get</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsComputePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -303,6 +315,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsComputePolicyResource&gt;&gt;</ReturnType>
@@ -316,7 +329,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified Data Lake Analytics compute policy.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/computePolicies/{computePolicyName}</description></item><item><term>Operation Id</term><description>ComputePolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/computePolicies/{computePolicyName}</description></item><item><term>Operation Id</term><description>ComputePolicies_Get</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsComputePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -335,6 +348,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsFirewallRuleResource&gt;</ReturnType>
@@ -348,7 +362,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified Data Lake Analytics firewall rule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsFirewallRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -367,6 +381,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsFirewallRuleResource&gt;&gt;</ReturnType>
@@ -380,7 +395,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified Data Lake Analytics firewall rule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsFirewallRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -399,6 +414,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsFirewallRuleCollection</ReturnType>
@@ -420,6 +436,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageAccountInformationResource&gt;</ReturnType>
@@ -433,7 +450,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified Azure Storage account linked to the given Data Lake Analytics account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Get</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageAccountInformationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -452,6 +469,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageAccountInformationResource&gt;&gt;</ReturnType>
@@ -465,7 +483,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified Azure Storage account linked to the given Data Lake Analytics account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Get</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageAccountInformationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -484,6 +502,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeStoreAccountInformationResource&gt;</ReturnType>
@@ -497,7 +516,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified Data Lake Store account details in the specified Data Lake Analytics account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/dataLakeStoreAccounts/{dataLakeStoreAccountName}</description></item><item><term>Operation Id</term><description>DataLakeStoreAccounts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/dataLakeStoreAccounts/{dataLakeStoreAccountName}</description></item><item><term>Operation Id</term><description>DataLakeStoreAccounts_Get</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeStoreAccountInformationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -516,6 +535,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeStoreAccountInformationResource&gt;&gt;</ReturnType>
@@ -529,7 +549,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified Data Lake Store account details in the specified Data Lake Analytics account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/dataLakeStoreAccounts/{dataLakeStoreAccountName}</description></item><item><term>Operation Id</term><description>DataLakeStoreAccounts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/dataLakeStoreAccounts/{dataLakeStoreAccountName}</description></item><item><term>Operation Id</term><description>DataLakeStoreAccounts_Get</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeStoreAccountInformationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -548,6 +568,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -568,6 +589,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -587,6 +609,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsAccountResource&gt;</ReturnType>
@@ -603,7 +626,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the Data Lake Analytics account object specified by the accountName with the contents of the account object.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Update</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -620,6 +643,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsAccountResource&gt;&gt;</ReturnType>
@@ -636,7 +660,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the Data Lake Analytics account object specified by the accountName with the contents of the account object.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Update</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

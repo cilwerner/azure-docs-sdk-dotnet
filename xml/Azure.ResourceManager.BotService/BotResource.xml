@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -33,6 +34,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.BotResource&gt;</ReturnType>
@@ -65,7 +68,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -82,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.BotResource&gt;&gt;</ReturnType>
@@ -97,7 +101,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -114,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.Models.BotCreateEmailSignInUriResult&gt;</ReturnType>
@@ -125,7 +130,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates an email channel sign in url for a Bot Service
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/createEmailSignInUrl</description></item><item><term>Operation Id</term><description>Email_CreateSignInUrl</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/createEmailSignInUrl</description></item><item><term>Operation Id</term><description>Email_CreateSignInUrl</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -140,6 +145,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.Models.BotCreateEmailSignInUriResult&gt;&gt;</ReturnType>
@@ -151,7 +157,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates an email channel sign in url for a Bot Service
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/createEmailSignInUrl</description></item><item><term>Operation Id</term><description>Email_CreateSignInUrl</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/createEmailSignInUrl</description></item><item><term>Operation Id</term><description>Email_CreateSignInUrl</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -166,6 +172,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -194,6 +201,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.BotService.BotData</ReturnType>
@@ -215,6 +223,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -229,7 +238,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a Bot Service from the resource group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Delete</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -244,6 +253,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -258,7 +268,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a Bot Service from the resource group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Delete</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -273,6 +283,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.BotResource&gt;</ReturnType>
@@ -284,7 +295,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a BotService specified by the parameters.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -299,6 +310,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.BotResource&gt;&gt;</ReturnType>
@@ -310,7 +322,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a BotService specified by the parameters.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -325,6 +337,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.BotChannelResource&gt;</ReturnType>
@@ -338,7 +351,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a BotService Channel registration specified by the parameters.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Get</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotChannelResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -353,6 +366,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.BotChannelResource&gt;&gt;</ReturnType>
@@ -366,7 +380,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a BotService Channel registration specified by the parameters.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Get</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotChannelResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -381,6 +395,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.BotService.BotChannelCollection</ReturnType>
@@ -402,6 +417,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.BotChannelResource&gt;</ReturnType>
@@ -417,7 +433,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Regenerates secret keys and returns them for the DirectLine Channel of a particular BotService resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}/regeneratekeys</description></item><item><term>Operation Id</term><description>DirectLine_RegenerateKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}/regeneratekeys</description></item><item><term>Operation Id</term><description>DirectLine_RegenerateKeys</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -434,6 +450,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.BotChannelResource&gt;&gt;</ReturnType>
@@ -449,7 +466,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Regenerates secret keys and returns them for the DirectLine Channel of a particular BotService resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}/regeneratekeys</description></item><item><term>Operation Id</term><description>DirectLine_RegenerateKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}/regeneratekeys</description></item><item><term>Operation Id</term><description>DirectLine_RegenerateKeys</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -466,6 +483,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.BotConnectionSettingResource&gt;</ReturnType>
@@ -479,7 +497,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Connection Setting registration for a Bot Service
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}</description></item><item><term>Operation Id</term><description>BotConnection_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}</description></item><item><term>Operation Id</term><description>BotConnection_Get</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotConnectionSettingResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -498,6 +516,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.BotConnectionSettingResource&gt;&gt;</ReturnType>
@@ -511,7 +530,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Connection Setting registration for a Bot Service
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}</description></item><item><term>Operation Id</term><description>BotConnection_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}</description></item><item><term>Operation Id</term><description>BotConnection_Get</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotConnectionSettingResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -530,6 +549,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.BotService.BotConnectionSettingCollection</ReturnType>
@@ -551,6 +571,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.BotServicePrivateEndpointConnectionResource&gt;</ReturnType>
@@ -564,7 +585,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified private endpoint connection associated with the Bot.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotServicePrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -583,6 +604,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.BotServicePrivateEndpointConnectionResource&gt;&gt;</ReturnType>
@@ -596,7 +618,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified private endpoint connection associated with the Bot.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotServicePrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -615,6 +637,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.BotService.BotServicePrivateEndpointConnectionCollection</ReturnType>
@@ -636,6 +659,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.BotService.Models.BotServicePrivateLinkResourceData&gt;</ReturnType>
@@ -647,7 +671,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the private link resources that need to be created for a Bot.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/privateLinkResources</description></item><item><term>Operation Id</term><description>PrivateLinkResources_ListByBotResource</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/privateLinkResources</description></item><item><term>Operation Id</term><description>PrivateLinkResources_ListByBotResource</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.BotService.Models.BotServicePrivateLinkResourceData" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -662,6 +686,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.BotService.Models.BotServicePrivateLinkResourceData&gt;</ReturnType>
@@ -673,7 +698,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the private link resources that need to be created for a Bot.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/privateLinkResources</description></item><item><term>Operation Id</term><description>PrivateLinkResources_ListByBotResource</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/privateLinkResources</description></item><item><term>Operation Id</term><description>PrivateLinkResources_ListByBotResource</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.BotService.Models.BotServicePrivateLinkResourceData" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -688,6 +713,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -708,6 +734,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.BotResource&gt;</ReturnType>
@@ -721,7 +748,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -738,6 +765,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.BotResource&gt;&gt;</ReturnType>
@@ -751,7 +779,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -768,6 +796,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -787,6 +816,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.BotResource&gt;</ReturnType>
@@ -800,7 +830,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -817,6 +847,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.BotResource&gt;&gt;</ReturnType>
@@ -830,7 +861,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -847,6 +878,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.BotResource&gt;</ReturnType>
@@ -860,7 +892,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a Bot Service
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Update</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -877,6 +909,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.BotResource&gt;&gt;</ReturnType>
@@ -890,7 +923,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a Bot Service
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}</description></item><item><term>Operation Id</term><description>Bots_Update</description></item><item><term>Default Api Version</term><description>2022-09-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BotService.BotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

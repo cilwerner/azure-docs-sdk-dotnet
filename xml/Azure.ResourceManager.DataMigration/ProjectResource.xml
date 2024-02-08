@@ -63,7 +63,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ProjectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -95,7 +95,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ProjectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -179,7 +179,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The project resource is a nested resource representing a stored migration project. The DELETE method deletes a project.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Delete</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ProjectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -210,7 +210,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The project resource is a nested resource representing a stored migration project. The DELETE method deletes a project.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Delete</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ProjectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -236,7 +236,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The project resource is a nested resource representing a stored migration project. The GET method retrieves information about a project.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ProjectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -262,7 +262,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The project resource is a nested resource representing a stored migration project. The GET method retrieves information about a project.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ProjectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -290,7 +290,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The files resource is a nested, proxy-only resource representing a file stored under the project resource. This method retrieves information about a file.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}/files/{fileName}</description></item><item><term>Operation Id</term><description>Files_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}/files/{fileName}</description></item><item><term>Operation Id</term><description>Files_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ProjectFileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -322,7 +322,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The files resource is a nested, proxy-only resource representing a file stored under the project resource. This method retrieves information about a file.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}/files/{fileName}</description></item><item><term>Operation Id</term><description>Files_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}/files/{fileName}</description></item><item><term>Operation Id</term><description>Files_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ProjectFileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -377,7 +377,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The tasks resource is a nested, proxy-only resource representing work performed by a DMS instance. The GET method retrieves information about a task.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}/tasks/{taskName}</description></item><item><term>Operation Id</term><description>Tasks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}/tasks/{taskName}</description></item><item><term>Operation Id</term><description>Tasks_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ServiceProjectTaskResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -411,7 +411,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The tasks resource is a nested, proxy-only resource representing work performed by a DMS instance. The GET method retrieves information about a task.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}/tasks/{taskName}</description></item><item><term>Operation Id</term><description>Tasks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}/tasks/{taskName}</description></item><item><term>Operation Id</term><description>Tasks_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ServiceProjectTaskResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -484,7 +484,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ProjectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -514,7 +514,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ProjectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -563,7 +563,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ProjectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -593,7 +593,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ProjectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -623,7 +623,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The project resource is a nested resource representing a stored migration project. The PATCH method updates an existing project.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Update</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ProjectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -653,7 +653,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The project resource is a nested resource representing a stored migration project. The PATCH method updates an existing project.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{groupName}/providers/Microsoft.DataMigration/services/{serviceName}/projects/{projectName}</description></item><item><term>Operation Id</term><description>Projects_Update</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.ProjectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

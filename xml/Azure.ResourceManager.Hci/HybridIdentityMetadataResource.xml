@@ -104,7 +104,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements HybridIdentityMetadata GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/hybridIdentityMetadata/default</description></item><item><term>Operation Id</term><description>HybridIdentityMetadata_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/hybridIdentityMetadata/default</description></item><item><term>Operation Id</term><description>HybridIdentityMetadata_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.HybridIdentityMetadataResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -130,7 +130,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements HybridIdentityMetadata GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/hybridIdentityMetadata/default</description></item><item><term>Operation Id</term><description>HybridIdentityMetadata_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/hybridIdentityMetadata/default</description></item><item><term>Operation Id</term><description>HybridIdentityMetadata_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.HybridIdentityMetadataResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

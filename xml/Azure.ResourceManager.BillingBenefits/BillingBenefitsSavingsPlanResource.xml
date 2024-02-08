@@ -108,7 +108,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get savings plan.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.BillingBenefits/savingsPlanOrders/{savingsPlanOrderId}/savingsPlans/{savingsPlanId}</description></item><item><term>Operation Id</term><description>SavingsPlan_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.BillingBenefits/savingsPlanOrders/{savingsPlanOrderId}/savingsPlans/{savingsPlanId}</description></item><item><term>Operation Id</term><description>SavingsPlan_Get</description></item><item><term>Default Api Version</term><description>2022-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BillingBenefits.BillingBenefitsSavingsPlanResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -136,7 +136,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get savings plan.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.BillingBenefits/savingsPlanOrders/{savingsPlanOrderId}/savingsPlans/{savingsPlanId}</description></item><item><term>Operation Id</term><description>SavingsPlan_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.BillingBenefits/savingsPlanOrders/{savingsPlanOrderId}/savingsPlans/{savingsPlanId}</description></item><item><term>Operation Id</term><description>SavingsPlan_Get</description></item><item><term>Default Api Version</term><description>2022-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BillingBenefits.BillingBenefitsSavingsPlanResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -203,7 +203,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update savings plan.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.BillingBenefits/savingsPlanOrders/{savingsPlanOrderId}/savingsPlans/{savingsPlanId}</description></item><item><term>Operation Id</term><description>SavingsPlan_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.BillingBenefits/savingsPlanOrders/{savingsPlanOrderId}/savingsPlans/{savingsPlanId}</description></item><item><term>Operation Id</term><description>SavingsPlan_Update</description></item><item><term>Default Api Version</term><description>2022-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BillingBenefits.BillingBenefitsSavingsPlanResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -233,7 +233,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update savings plan.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.BillingBenefits/savingsPlanOrders/{savingsPlanOrderId}/savingsPlans/{savingsPlanId}</description></item><item><term>Operation Id</term><description>SavingsPlan_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.BillingBenefits/savingsPlanOrders/{savingsPlanOrderId}/savingsPlans/{savingsPlanId}</description></item><item><term>Operation Id</term><description>SavingsPlan_Update</description></item><item><term>Default Api Version</term><description>2022-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BillingBenefits.BillingBenefitsSavingsPlanResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -263,7 +263,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Validate savings plan patch.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.BillingBenefits/savingsPlanOrders/{savingsPlanOrderId}/savingsPlans/{savingsPlanId}/validate</description></item><item><term>Operation Id</term><description>SavingsPlan_ValidateUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.BillingBenefits/savingsPlanOrders/{savingsPlanOrderId}/savingsPlans/{savingsPlanId}/validate</description></item><item><term>Operation Id</term><description>SavingsPlan_ValidateUpdate</description></item><item><term>Default Api Version</term><description>2022-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BillingBenefits.BillingBenefitsSavingsPlanResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.BillingBenefits.Models.SavingsPlanValidateResult" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -293,7 +293,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Validate savings plan patch.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.BillingBenefits/savingsPlanOrders/{savingsPlanOrderId}/savingsPlans/{savingsPlanId}/validate</description></item><item><term>Operation Id</term><description>SavingsPlan_ValidateUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.BillingBenefits/savingsPlanOrders/{savingsPlanOrderId}/savingsPlans/{savingsPlanId}/validate</description></item><item><term>Operation Id</term><description>SavingsPlan_ValidateUpdate</description></item><item><term>Default Api Version</term><description>2022-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.BillingBenefits.BillingBenefitsSavingsPlanResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.BillingBenefits.Models.SavingsPlanValidateResult" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

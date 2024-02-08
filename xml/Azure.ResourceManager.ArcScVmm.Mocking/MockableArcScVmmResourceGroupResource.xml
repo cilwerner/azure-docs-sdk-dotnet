@@ -56,7 +56,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements AvailabilitySet GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/availabilitySets/{availabilitySetName}</description></item><item><term>Operation Id</term><description>AvailabilitySets_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/availabilitySets/{availabilitySetName}</description></item><item><term>Operation Id</term><description>AvailabilitySets_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmAvailabilitySetResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -88,7 +88,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements AvailabilitySet GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/availabilitySets/{availabilitySetName}</description></item><item><term>Operation Id</term><description>AvailabilitySets_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/availabilitySets/{availabilitySetName}</description></item><item><term>Operation Id</term><description>AvailabilitySets_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmAvailabilitySetResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -141,7 +141,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements Cloud GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/clouds/{cloudName}</description></item><item><term>Operation Id</term><description>Clouds_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/clouds/{cloudName}</description></item><item><term>Operation Id</term><description>Clouds_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmCloudResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -173,7 +173,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements Cloud GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/clouds/{cloudName}</description></item><item><term>Operation Id</term><description>Clouds_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/clouds/{cloudName}</description></item><item><term>Operation Id</term><description>Clouds_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmCloudResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -226,7 +226,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements VMMServer GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -258,7 +258,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements VMMServer GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -311,7 +311,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements VirtualMachine GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -343,7 +343,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements VirtualMachine GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -396,7 +396,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements VirtualMachineTemplate GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachineTemplates/{virtualMachineTemplateName}</description></item><item><term>Operation Id</term><description>VirtualMachineTemplates_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachineTemplates/{virtualMachineTemplateName}</description></item><item><term>Operation Id</term><description>VirtualMachineTemplates_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineTemplateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -428,7 +428,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements VirtualMachineTemplate GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachineTemplates/{virtualMachineTemplateName}</description></item><item><term>Operation Id</term><description>VirtualMachineTemplates_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachineTemplates/{virtualMachineTemplateName}</description></item><item><term>Operation Id</term><description>VirtualMachineTemplates_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineTemplateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -481,7 +481,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements VirtualNetwork GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualNetworks/{virtualNetworkName}</description></item><item><term>Operation Id</term><description>VirtualNetworks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualNetworks/{virtualNetworkName}</description></item><item><term>Operation Id</term><description>VirtualNetworks_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualNetworkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -513,7 +513,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements VirtualNetwork GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualNetworks/{virtualNetworkName}</description></item><item><term>Operation Id</term><description>VirtualNetworks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualNetworks/{virtualNetworkName}</description></item><item><term>Operation Id</term><description>VirtualNetworks_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualNetworkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

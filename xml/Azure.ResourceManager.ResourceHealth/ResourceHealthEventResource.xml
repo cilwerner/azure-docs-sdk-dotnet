@@ -111,7 +111,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Service health event details in the subscription by event tracking id. This can be used to fetch sensitive properties for Security Advisory events
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/fetchEventDetails</description></item><item><term>Operation Id</term><description>Event_fetchDetailsBySubscriptionIdAndTrackingId</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/fetchEventDetails</description></item><item><term>Operation Id</term><description>Event_fetchDetailsBySubscriptionIdAndTrackingId</description></item><item><term>Default Api Version</term><description>2023-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceHealth.ResourceHealthEventResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -138,7 +138,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Service health event details in the subscription by event tracking id. This can be used to fetch sensitive properties for Security Advisory events
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/fetchEventDetails</description></item><item><term>Operation Id</term><description>Event_fetchDetailsBySubscriptionIdAndTrackingId</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/fetchEventDetails</description></item><item><term>Operation Id</term><description>Event_fetchDetailsBySubscriptionIdAndTrackingId</description></item><item><term>Default Api Version</term><description>2023-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceHealth.ResourceHealthEventResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -169,7 +169,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Service health event in the subscription by event tracking id
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}</description></item><item><term>Operation Id</term><description>Event_GetBySubscriptionIdAndTrackingId</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}</description></item><item><term>Operation Id</term><description>Event_GetBySubscriptionIdAndTrackingId</description></item><item><term>Default Api Version</term><description>2023-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceHealth.ResourceHealthEventResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -200,7 +200,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Service health event in the subscription by event tracking id
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}</description></item><item><term>Operation Id</term><description>Event_GetBySubscriptionIdAndTrackingId</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}</description></item><item><term>Operation Id</term><description>Event_GetBySubscriptionIdAndTrackingId</description></item><item><term>Default Api Version</term><description>2023-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceHealth.ResourceHealthEventResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -229,7 +229,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specific impacted resource in the subscription by an event.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/impactedResources/{impactedResourceName}</description></item><item><term>Operation Id</term><description>ImpactedResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/impactedResources/{impactedResourceName}</description></item><item><term>Operation Id</term><description>ImpactedResources_Get</description></item><item><term>Default Api Version</term><description>2023-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceHealth.ResourceHealthEventImpactedResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -262,7 +262,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specific impacted resource in the subscription by an event.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/impactedResources/{impactedResourceName}</description></item><item><term>Operation Id</term><description>ImpactedResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/impactedResources/{impactedResourceName}</description></item><item><term>Operation Id</term><description>ImpactedResources_Get</description></item><item><term>Default Api Version</term><description>2023-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceHealth.ResourceHealthEventImpactedResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -317,7 +317,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists impacted resources in the subscription by an event (Security Advisory).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/listSecurityAdvisoryImpactedResources</description></item><item><term>Operation Id</term><description>SecurityAdvisoryImpactedResources_ListBySubscriptionIdAndEventId</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/listSecurityAdvisoryImpactedResources</description></item><item><term>Operation Id</term><description>SecurityAdvisoryImpactedResources_ListBySubscriptionIdAndEventId</description></item><item><term>Default Api Version</term><description>2023-10-01-preview</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.ResourceHealth.ResourceHealthEventImpactedResourceData" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -346,7 +346,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists impacted resources in the subscription by an event (Security Advisory).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/listSecurityAdvisoryImpactedResources</description></item><item><term>Operation Id</term><description>SecurityAdvisoryImpactedResources_ListBySubscriptionIdAndEventId</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ResourceHealth/events/{eventTrackingId}/listSecurityAdvisoryImpactedResources</description></item><item><term>Operation Id</term><description>SecurityAdvisoryImpactedResources_ListBySubscriptionIdAndEventId</description></item><item><term>Default Api Version</term><description>2023-10-01-preview</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.ResourceHealth.ResourceHealthEventImpactedResourceData" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>

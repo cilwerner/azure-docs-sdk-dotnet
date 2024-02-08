@@ -68,7 +68,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -101,7 +101,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -137,7 +137,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates an HDInsight cluster extension.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}</description></item><item><term>Operation Id</term><description>Extensions_Create</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}</description></item><item><term>Operation Id</term><description>Extensions_Create</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -175,7 +175,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates an HDInsight cluster extension.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}</description></item><item><term>Operation Id</term><description>Extensions_Create</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}</description></item><item><term>Operation Id</term><description>Extensions_Create</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -260,7 +260,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Delete</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -290,7 +290,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Delete</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -322,7 +322,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified extension for HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}</description></item><item><term>Operation Id</term><description>Extensions_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}</description></item><item><term>Operation Id</term><description>Extensions_Delete</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -358,7 +358,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified extension for HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}</description></item><item><term>Operation Id</term><description>Extensions_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}</description></item><item><term>Operation Id</term><description>Extensions_Delete</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -391,7 +391,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a specified persisted script action of the cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptActions/{scriptName}</description></item><item><term>Operation Id</term><description>ScriptActions_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptActions/{scriptName}</description></item><item><term>Operation Id</term><description>ScriptActions_Delete</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -424,7 +424,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a specified persisted script action of the cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptActions/{scriptName}</description></item><item><term>Operation Id</term><description>ScriptActions_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptActions/{scriptName}</description></item><item><term>Operation Id</term><description>ScriptActions_Delete</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -458,7 +458,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Disables the Azure Monitor on the HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/azureMonitor</description></item><item><term>Operation Id</term><description>Extensions_DisableAzureMonitor</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/azureMonitor</description></item><item><term>Operation Id</term><description>Extensions_DisableAzureMonitor</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -488,7 +488,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Disables the Azure Monitor on the HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/azureMonitor</description></item><item><term>Operation Id</term><description>Extensions_DisableAzureMonitor</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/azureMonitor</description></item><item><term>Operation Id</term><description>Extensions_DisableAzureMonitor</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -518,7 +518,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Disables the Operations Management Suite (OMS) on the HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/clustermonitoring</description></item><item><term>Operation Id</term><description>Extensions_DisableMonitoring</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/clustermonitoring</description></item><item><term>Operation Id</term><description>Extensions_DisableMonitoring</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -548,7 +548,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Disables the Operations Management Suite (OMS) on the HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/clustermonitoring</description></item><item><term>Operation Id</term><description>Extensions_DisableMonitoring</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/clustermonitoring</description></item><item><term>Operation Id</term><description>Extensions_DisableMonitoring</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -580,7 +580,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Enables the Azure Monitor on the HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/azureMonitor</description></item><item><term>Operation Id</term><description>Extensions_EnableAzureMonitor</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/azureMonitor</description></item><item><term>Operation Id</term><description>Extensions_EnableAzureMonitor</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -614,7 +614,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Enables the Azure Monitor on the HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/azureMonitor</description></item><item><term>Operation Id</term><description>Extensions_EnableAzureMonitor</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/azureMonitor</description></item><item><term>Operation Id</term><description>Extensions_EnableAzureMonitor</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -648,7 +648,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Enables the Operations Management Suite (OMS) on the HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/clustermonitoring</description></item><item><term>Operation Id</term><description>Extensions_EnableMonitoring</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/clustermonitoring</description></item><item><term>Operation Id</term><description>Extensions_EnableMonitoring</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -682,7 +682,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Enables the Operations Management Suite (OMS) on the HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/clustermonitoring</description></item><item><term>Operation Id</term><description>Extensions_EnableMonitoring</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/clustermonitoring</description></item><item><term>Operation Id</term><description>Extensions_EnableMonitoring</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -716,7 +716,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Executes script actions on the specified HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/executeScriptActions</description></item><item><term>Operation Id</term><description>Clusters_ExecuteScriptActions</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/executeScriptActions</description></item><item><term>Operation Id</term><description>Clusters_ExecuteScriptActions</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -750,7 +750,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Executes script actions on the specified HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/executeScriptActions</description></item><item><term>Operation Id</term><description>Clusters_ExecuteScriptActions</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/executeScriptActions</description></item><item><term>Operation Id</term><description>Clusters_ExecuteScriptActions</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -779,7 +779,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -806,7 +806,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -835,7 +835,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The the async operation status.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/azureasyncoperations/{operationId}</description></item><item><term>Operation Id</term><description>Clusters_GetAzureAsyncOperationStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/azureasyncoperations/{operationId}</description></item><item><term>Operation Id</term><description>Clusters_GetAzureAsyncOperationStatus</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -868,7 +868,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The the async operation status.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/azureasyncoperations/{operationId}</description></item><item><term>Operation Id</term><description>Clusters_GetAzureAsyncOperationStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/azureasyncoperations/{operationId}</description></item><item><term>Operation Id</term><description>Clusters_GetAzureAsyncOperationStatus</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -899,7 +899,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the status of Azure Monitor on the HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/azureMonitor</description></item><item><term>Operation Id</term><description>Extensions_GetAzureMonitorStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/azureMonitor</description></item><item><term>Operation Id</term><description>Extensions_GetAzureMonitorStatus</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -926,7 +926,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the status of Azure Monitor on the HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/azureMonitor</description></item><item><term>Operation Id</term><description>Extensions_GetAzureMonitorStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/azureMonitor</description></item><item><term>Operation Id</term><description>Extensions_GetAzureMonitorStatus</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -953,7 +953,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the status of Operations Management Suite (OMS) on the HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/clustermonitoring</description></item><item><term>Operation Id</term><description>Extensions_GetMonitoringStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/clustermonitoring</description></item><item><term>Operation Id</term><description>Extensions_GetMonitoringStatus</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -980,7 +980,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the status of Operations Management Suite (OMS) on the HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/clustermonitoring</description></item><item><term>Operation Id</term><description>Extensions_GetMonitoringStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/clustermonitoring</description></item><item><term>Operation Id</term><description>Extensions_GetMonitoringStatus</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1007,7 +1007,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all configuration information for an HDI cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/configurations</description></item><item><term>Operation Id</term><description>Configurations_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/configurations</description></item><item><term>Operation Id</term><description>Configurations_List</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1036,7 +1036,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The configuration object for the specified cluster. This API is not recommended and might be removed in the future. Please consider using List configurations API instead.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1067,7 +1067,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all configuration information for an HDI cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/configurations</description></item><item><term>Operation Id</term><description>Configurations_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/configurations</description></item><item><term>Operation Id</term><description>Configurations_List</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1096,7 +1096,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The configuration object for the specified cluster. This API is not recommended and might be removed in the future. Please consider using List configurations API instead.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1129,7 +1129,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the extension properties for the specified HDInsight cluster extension.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}</description></item><item><term>Operation Id</term><description>Extensions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}</description></item><item><term>Operation Id</term><description>Extensions_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1162,7 +1162,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the extension properties for the specified HDInsight cluster extension.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}</description></item><item><term>Operation Id</term><description>Extensions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}</description></item><item><term>Operation Id</term><description>Extensions_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1197,7 +1197,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the async operation status.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}/azureAsyncOperations/{operationId}</description></item><item><term>Operation Id</term><description>Extensions_GetAzureAsyncOperationStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}/azureAsyncOperations/{operationId}</description></item><item><term>Operation Id</term><description>Extensions_GetAzureAsyncOperationStatus</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1232,7 +1232,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the async operation status.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}/azureAsyncOperations/{operationId}</description></item><item><term>Operation Id</term><description>Extensions_GetAzureAsyncOperationStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/extensions/{extensionName}/azureAsyncOperations/{operationId}</description></item><item><term>Operation Id</term><description>Extensions_GetAzureAsyncOperationStatus</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1263,7 +1263,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the gateway settings for the specified cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/getGatewaySettings</description></item><item><term>Operation Id</term><description>Clusters_GetGatewaySettings</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/getGatewaySettings</description></item><item><term>Operation Id</term><description>Clusters_GetGatewaySettings</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1290,7 +1290,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the gateway settings for the specified cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/getGatewaySettings</description></item><item><term>Operation Id</term><description>Clusters_GetGatewaySettings</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/getGatewaySettings</description></item><item><term>Operation Id</term><description>Clusters_GetGatewaySettings</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1319,7 +1319,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets properties of the specified application.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/applications/{applicationName}</description></item><item><term>Operation Id</term><description>Applications_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/applications/{applicationName}</description></item><item><term>Operation Id</term><description>Applications_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightApplicationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1352,7 +1352,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets properties of the specified application.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/applications/{applicationName}</description></item><item><term>Operation Id</term><description>Applications_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/applications/{applicationName}</description></item><item><term>Operation Id</term><description>Applications_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightApplicationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1407,7 +1407,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specific private endpoint connection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1440,7 +1440,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specific private endpoint connection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1495,7 +1495,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specific private link resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/privateLinkResources/{privateLinkResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/privateLinkResources/{privateLinkResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightPrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1528,7 +1528,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specific private link resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/privateLinkResources/{privateLinkResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/privateLinkResources/{privateLinkResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightPrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1583,7 +1583,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the async operation status of execution operation.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/executeScriptActions/azureasyncoperations/{operationId}</description></item><item><term>Operation Id</term><description>ScriptActions_GetExecutionAsyncOperationStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/executeScriptActions/azureasyncoperations/{operationId}</description></item><item><term>Operation Id</term><description>ScriptActions_GetExecutionAsyncOperationStatus</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1616,7 +1616,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the async operation status of execution operation.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/executeScriptActions/azureasyncoperations/{operationId}</description></item><item><term>Operation Id</term><description>ScriptActions_GetExecutionAsyncOperationStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/executeScriptActions/azureasyncoperations/{operationId}</description></item><item><term>Operation Id</term><description>ScriptActions_GetExecutionAsyncOperationStatus</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1649,7 +1649,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the script execution detail for the given script execution ID.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptExecutionHistory/{scriptExecutionId}</description></item><item><term>Operation Id</term><description>ScriptActions_GetExecutionDetail</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptExecutionHistory/{scriptExecutionId}</description></item><item><term>Operation Id</term><description>ScriptActions_GetExecutionDetail</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1682,7 +1682,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the script execution detail for the given script execution ID.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptExecutionHistory/{scriptExecutionId}</description></item><item><term>Operation Id</term><description>ScriptActions_GetExecutionDetail</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptExecutionHistory/{scriptExecutionId}</description></item><item><term>Operation Id</term><description>ScriptActions_GetExecutionDetail</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1713,7 +1713,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the persisted script actions for the specified cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptActions</description></item><item><term>Operation Id</term><description>ScriptActions_ListByCluster</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptActions</description></item><item><term>Operation Id</term><description>ScriptActions_ListByCluster</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.HDInsight.Models.RuntimeScriptActionDetail" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1740,7 +1740,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the persisted script actions for the specified cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptActions</description></item><item><term>Operation Id</term><description>ScriptActions_ListByCluster</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptActions</description></item><item><term>Operation Id</term><description>ScriptActions_ListByCluster</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.HDInsight.Models.RuntimeScriptActionDetail" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1767,7 +1767,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all scripts' execution history for the specified cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptExecutionHistory</description></item><item><term>Operation Id</term><description>ScriptExecutionHistory_ListByCluster</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptExecutionHistory</description></item><item><term>Operation Id</term><description>ScriptExecutionHistory_ListByCluster</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.HDInsight.Models.RuntimeScriptActionDetail" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1794,7 +1794,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all scripts' execution history for the specified cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptExecutionHistory</description></item><item><term>Operation Id</term><description>ScriptExecutionHistory_ListByCluster</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptExecutionHistory</description></item><item><term>Operation Id</term><description>ScriptExecutionHistory_ListByCluster</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.HDInsight.Models.RuntimeScriptActionDetail" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1823,7 +1823,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the async operation status.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/restartHosts/azureasyncoperations/{operationId}</description></item><item><term>Operation Id</term><description>VirtualMachines_GetAsyncOperationStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/restartHosts/azureasyncoperations/{operationId}</description></item><item><term>Operation Id</term><description>VirtualMachines_GetAsyncOperationStatus</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1856,7 +1856,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the async operation status.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/restartHosts/azureasyncoperations/{operationId}</description></item><item><term>Operation Id</term><description>VirtualMachines_GetAsyncOperationStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/restartHosts/azureasyncoperations/{operationId}</description></item><item><term>Operation Id</term><description>VirtualMachines_GetAsyncOperationStatus</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1887,7 +1887,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the HDInsight clusters hosts
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/listHosts</description></item><item><term>Operation Id</term><description>VirtualMachines_ListHosts</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/listHosts</description></item><item><term>Operation Id</term><description>VirtualMachines_ListHosts</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.HDInsight.Models.HDInsightClusterHostInfo" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1914,7 +1914,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the HDInsight clusters hosts
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/listHosts</description></item><item><term>Operation Id</term><description>VirtualMachines_ListHosts</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/listHosts</description></item><item><term>Operation Id</term><description>VirtualMachines_ListHosts</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.HDInsight.Models.HDInsightClusterHostInfo" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1964,7 +1964,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Promotes the specified ad-hoc script execution to a persisted script.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptExecutionHistory/{scriptExecutionId}/promote</description></item><item><term>Operation Id</term><description>ScriptExecutionHistory_Promote</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptExecutionHistory/{scriptExecutionId}/promote</description></item><item><term>Operation Id</term><description>ScriptExecutionHistory_Promote</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1997,7 +1997,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Promotes the specified ad-hoc script execution to a persisted script.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptExecutionHistory/{scriptExecutionId}/promote</description></item><item><term>Operation Id</term><description>ScriptExecutionHistory_Promote</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/scriptExecutionHistory/{scriptExecutionId}/promote</description></item><item><term>Operation Id</term><description>ScriptExecutionHistory_Promote</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -2030,7 +2030,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2061,7 +2061,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2097,7 +2097,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Resizes the specified HDInsight cluster to the specified size.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/roles/{roleName}/resize</description></item><item><term>Operation Id</term><description>Clusters_Resize</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/roles/{roleName}/resize</description></item><item><term>Operation Id</term><description>Clusters_Resize</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2133,7 +2133,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Resizes the specified HDInsight cluster to the specified size.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/roles/{roleName}/resize</description></item><item><term>Operation Id</term><description>Clusters_Resize</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/roles/{roleName}/resize</description></item><item><term>Operation Id</term><description>Clusters_Resize</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2187,7 +2187,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restarts the specified HDInsight cluster hosts.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/restartHosts</description></item><item><term>Operation Id</term><description>VirtualMachines_RestartHosts</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/restartHosts</description></item><item><term>Operation Id</term><description>VirtualMachines_RestartHosts</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2221,7 +2221,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restarts the specified HDInsight cluster hosts.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/restartHosts</description></item><item><term>Operation Id</term><description>VirtualMachines_RestartHosts</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/restartHosts</description></item><item><term>Operation Id</term><description>VirtualMachines_RestartHosts</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2255,7 +2255,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Rotate disk encryption key of the specified HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/rotatediskencryptionkey</description></item><item><term>Operation Id</term><description>Clusters_RotateDiskEncryptionKey</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/rotatediskencryptionkey</description></item><item><term>Operation Id</term><description>Clusters_RotateDiskEncryptionKey</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2289,7 +2289,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Rotate disk encryption key of the specified HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/rotatediskencryptionkey</description></item><item><term>Operation Id</term><description>Clusters_RotateDiskEncryptionKey</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/rotatediskencryptionkey</description></item><item><term>Operation Id</term><description>Clusters_RotateDiskEncryptionKey</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2320,7 +2320,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2351,7 +2351,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2382,7 +2382,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Patch HDInsight cluster with the specified parameters.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2413,7 +2413,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Patch HDInsight cluster with the specified parameters.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2449,7 +2449,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the Autoscale Configuration for HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/roles/{roleName}/autoscale</description></item><item><term>Operation Id</term><description>Clusters_UpdateAutoScaleConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/roles/{roleName}/autoscale</description></item><item><term>Operation Id</term><description>Clusters_UpdateAutoScaleConfiguration</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2485,7 +2485,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the Autoscale Configuration for HDInsight cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/roles/{roleName}/autoscale</description></item><item><term>Operation Id</term><description>Clusters_UpdateAutoScaleConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/roles/{roleName}/autoscale</description></item><item><term>Operation Id</term><description>Clusters_UpdateAutoScaleConfiguration</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2521,7 +2521,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Configures the HTTP settings on the specified cluster. This API is deprecated, please use UpdateGatewaySettings in cluster endpoint instead.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Update</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -2559,7 +2559,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Configures the HTTP settings on the specified cluster. This API is deprecated, please use UpdateGatewaySettings in cluster endpoint instead.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Update</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -2595,7 +2595,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Configures the gateway settings on the specified cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/updateGatewaySettings</description></item><item><term>Operation Id</term><description>Clusters_UpdateGatewaySettings</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/updateGatewaySettings</description></item><item><term>Operation Id</term><description>Clusters_UpdateGatewaySettings</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2629,7 +2629,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Configures the gateway settings on the specified cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/updateGatewaySettings</description></item><item><term>Operation Id</term><description>Clusters_UpdateGatewaySettings</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/updateGatewaySettings</description></item><item><term>Operation Id</term><description>Clusters_UpdateGatewaySettings</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2663,7 +2663,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the cluster identity certificate.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/updateClusterIdentityCertificate</description></item><item><term>Operation Id</term><description>Clusters_UpdateIdentityCertificate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/updateClusterIdentityCertificate</description></item><item><term>Operation Id</term><description>Clusters_UpdateIdentityCertificate</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2697,7 +2697,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the cluster identity certificate.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/updateClusterIdentityCertificate</description></item><item><term>Operation Id</term><description>Clusters_UpdateIdentityCertificate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HDInsight/clusters/{clusterName}/updateClusterIdentityCertificate</description></item><item><term>Operation Id</term><description>Clusters_UpdateIdentityCertificate</description></item><item><term>Default Api Version</term><description>2023-04-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HDInsight.HDInsightClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

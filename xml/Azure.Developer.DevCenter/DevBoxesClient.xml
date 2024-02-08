@@ -2450,18 +2450,18 @@ await foreach (BinaryData item in client.GetSchedulesAsync("<projectName>", "<po
       </Docs>
     </Member>
     <Member MemberName="RestartDevBox">
-      <MemberSignature Language="C#" Value="public virtual Azure.Operation&lt;BinaryData&gt; RestartDevBox (Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, Azure.RequestContext context);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Operation`1&lt;class System.BinaryData&gt; RestartDevBox(valuetype Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Operation RestartDevBox (Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Operation RestartDevBox(valuetype Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, class Azure.RequestContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Developer.DevCenter.DevBoxesClient.RestartDevBox(Azure.WaitUntil,System.String,System.String,System.String,Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function RestartDevBox (waitUntil As WaitUntil, projectName As String, userId As String, devBoxName As String, context As RequestContext) As Operation(Of BinaryData)" />
-      <MemberSignature Language="F#" Value="abstract member RestartDevBox : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; Azure.Operation&lt;BinaryData&gt;&#xA;override this.RestartDevBox : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; Azure.Operation&lt;BinaryData&gt;" Usage="devBoxesClient.RestartDevBox (waitUntil, projectName, userId, devBoxName, context)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function RestartDevBox (waitUntil As WaitUntil, projectName As String, userId As String, devBoxName As String, Optional context As RequestContext = Nothing) As Operation" />
+      <MemberSignature Language="F#" Value="abstract member RestartDevBox : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; Azure.Operation&#xA;override this.RestartDevBox : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; Azure.Operation" Usage="devBoxesClient.RestartDevBox (waitUntil, projectName, userId, devBoxName, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Operation&lt;System.BinaryData&gt;</ReturnType>
+        <ReturnType>Azure.Operation</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
@@ -2490,54 +2490,37 @@ await foreach (BinaryData item in client.GetSchedulesAsync("<projectName>", "<po
           <paramref name="projectName" />, <paramref name="userId" /> or <paramref name="devBoxName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call RestartDevBox and parse the result.
+This sample shows how to call RestartDevBox.
 <code><![CDATA[
 Uri endpoint = new Uri("<https://my-service.azure.com>");
 TokenCredential credential = new DefaultAzureCredential();
 DevBoxesClient client = new DevBoxesClient(endpoint, credential);
 
-Operation<BinaryData> operation = client.RestartDevBox(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>", null);
-BinaryData responseData = operation.Value;
-
-JsonElement result = JsonDocument.Parse(responseData.ToStream()).RootElement;
-Console.WriteLine(result.GetProperty("status").ToString());
+Operation operation = client.RestartDevBox(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>");
 ]]></code>
-This sample shows how to call RestartDevBox with all parameters and parse the result.
+This sample shows how to call RestartDevBox with all parameters.
 <code><![CDATA[
 Uri endpoint = new Uri("<https://my-service.azure.com>");
 TokenCredential credential = new DefaultAzureCredential();
 DevBoxesClient client = new DevBoxesClient(endpoint, credential);
 
-Operation<BinaryData> operation = client.RestartDevBox(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>", null);
-BinaryData responseData = operation.Value;
-
-JsonElement result = JsonDocument.Parse(responseData.ToStream()).RootElement;
-Console.WriteLine(result.GetProperty("id").ToString());
-Console.WriteLine(result.GetProperty("name").ToString());
-Console.WriteLine(result.GetProperty("status").ToString());
-Console.WriteLine(result.GetProperty("resourceId").ToString());
-Console.WriteLine(result.GetProperty("startTime").ToString());
-Console.WriteLine(result.GetProperty("endTime").ToString());
-Console.WriteLine(result.GetProperty("percentComplete").ToString());
-Console.WriteLine(result.GetProperty("properties").ToString());
-Console.WriteLine(result.GetProperty("error").GetProperty("code").ToString());
-Console.WriteLine(result.GetProperty("error").GetProperty("message").ToString());
+Operation operation = client.RestartDevBox(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>");
 ]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="RestartDevBoxAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt; RestartDevBoxAsync (Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, Azure.RequestContext context);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Operation`1&lt;class System.BinaryData&gt;&gt; RestartDevBoxAsync(valuetype Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Operation&gt; RestartDevBoxAsync (Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Operation&gt; RestartDevBoxAsync(valuetype Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, class Azure.RequestContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Developer.DevCenter.DevBoxesClient.RestartDevBoxAsync(Azure.WaitUntil,System.String,System.String,System.String,Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function RestartDevBoxAsync (waitUntil As WaitUntil, projectName As String, userId As String, devBoxName As String, context As RequestContext) As Task(Of Operation(Of BinaryData))" />
-      <MemberSignature Language="F#" Value="abstract member RestartDevBoxAsync : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt;&#xA;override this.RestartDevBoxAsync : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt;" Usage="devBoxesClient.RestartDevBoxAsync (waitUntil, projectName, userId, devBoxName, context)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function RestartDevBoxAsync (waitUntil As WaitUntil, projectName As String, userId As String, devBoxName As String, Optional context As RequestContext = Nothing) As Task(Of Operation)" />
+      <MemberSignature Language="F#" Value="abstract member RestartDevBoxAsync : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&gt;&#xA;override this.RestartDevBoxAsync : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&gt;" Usage="devBoxesClient.RestartDevBoxAsync (waitUntil, projectName, userId, devBoxName, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Operation&lt;System.BinaryData&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Operation&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
@@ -2566,38 +2549,21 @@ Console.WriteLine(result.GetProperty("error").GetProperty("message").ToString())
           <paramref name="projectName" />, <paramref name="userId" /> or <paramref name="devBoxName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call RestartDevBoxAsync and parse the result.
+This sample shows how to call RestartDevBoxAsync.
 <code><![CDATA[
 Uri endpoint = new Uri("<https://my-service.azure.com>");
 TokenCredential credential = new DefaultAzureCredential();
 DevBoxesClient client = new DevBoxesClient(endpoint, credential);
 
-Operation<BinaryData> operation = await client.RestartDevBoxAsync(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>", null);
-BinaryData responseData = operation.Value;
-
-JsonElement result = JsonDocument.Parse(responseData.ToStream()).RootElement;
-Console.WriteLine(result.GetProperty("status").ToString());
+Operation operation = await client.RestartDevBoxAsync(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>");
 ]]></code>
-This sample shows how to call RestartDevBoxAsync with all parameters and parse the result.
+This sample shows how to call RestartDevBoxAsync with all parameters.
 <code><![CDATA[
 Uri endpoint = new Uri("<https://my-service.azure.com>");
 TokenCredential credential = new DefaultAzureCredential();
 DevBoxesClient client = new DevBoxesClient(endpoint, credential);
 
-Operation<BinaryData> operation = await client.RestartDevBoxAsync(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>", null);
-BinaryData responseData = operation.Value;
-
-JsonElement result = JsonDocument.Parse(responseData.ToStream()).RootElement;
-Console.WriteLine(result.GetProperty("id").ToString());
-Console.WriteLine(result.GetProperty("name").ToString());
-Console.WriteLine(result.GetProperty("status").ToString());
-Console.WriteLine(result.GetProperty("resourceId").ToString());
-Console.WriteLine(result.GetProperty("startTime").ToString());
-Console.WriteLine(result.GetProperty("endTime").ToString());
-Console.WriteLine(result.GetProperty("percentComplete").ToString());
-Console.WriteLine(result.GetProperty("properties").ToString());
-Console.WriteLine(result.GetProperty("error").GetProperty("code").ToString());
-Console.WriteLine(result.GetProperty("error").GetProperty("message").ToString());
+Operation operation = await client.RestartDevBoxAsync(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>");
 ]]></code></example>
       </Docs>
     </Member>
@@ -2726,18 +2692,18 @@ Console.WriteLine(response.Status);
       </Docs>
     </Member>
     <Member MemberName="StartDevBox">
-      <MemberSignature Language="C#" Value="public virtual Azure.Operation&lt;BinaryData&gt; StartDevBox (Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, Azure.RequestContext context);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Operation`1&lt;class System.BinaryData&gt; StartDevBox(valuetype Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Operation StartDevBox (Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Operation StartDevBox(valuetype Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, class Azure.RequestContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Developer.DevCenter.DevBoxesClient.StartDevBox(Azure.WaitUntil,System.String,System.String,System.String,Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartDevBox (waitUntil As WaitUntil, projectName As String, userId As String, devBoxName As String, context As RequestContext) As Operation(Of BinaryData)" />
-      <MemberSignature Language="F#" Value="abstract member StartDevBox : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; Azure.Operation&lt;BinaryData&gt;&#xA;override this.StartDevBox : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; Azure.Operation&lt;BinaryData&gt;" Usage="devBoxesClient.StartDevBox (waitUntil, projectName, userId, devBoxName, context)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartDevBox (waitUntil As WaitUntil, projectName As String, userId As String, devBoxName As String, Optional context As RequestContext = Nothing) As Operation" />
+      <MemberSignature Language="F#" Value="abstract member StartDevBox : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; Azure.Operation&#xA;override this.StartDevBox : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; Azure.Operation" Usage="devBoxesClient.StartDevBox (waitUntil, projectName, userId, devBoxName, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Operation&lt;System.BinaryData&gt;</ReturnType>
+        <ReturnType>Azure.Operation</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
@@ -2766,54 +2732,37 @@ Console.WriteLine(response.Status);
           <paramref name="projectName" />, <paramref name="userId" /> or <paramref name="devBoxName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call StartDevBox and parse the result.
+This sample shows how to call StartDevBox.
 <code><![CDATA[
 Uri endpoint = new Uri("<https://my-service.azure.com>");
 TokenCredential credential = new DefaultAzureCredential();
 DevBoxesClient client = new DevBoxesClient(endpoint, credential);
 
-Operation<BinaryData> operation = client.StartDevBox(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>", null);
-BinaryData responseData = operation.Value;
-
-JsonElement result = JsonDocument.Parse(responseData.ToStream()).RootElement;
-Console.WriteLine(result.GetProperty("status").ToString());
+Operation operation = client.StartDevBox(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>");
 ]]></code>
-This sample shows how to call StartDevBox with all parameters and parse the result.
+This sample shows how to call StartDevBox with all parameters.
 <code><![CDATA[
 Uri endpoint = new Uri("<https://my-service.azure.com>");
 TokenCredential credential = new DefaultAzureCredential();
 DevBoxesClient client = new DevBoxesClient(endpoint, credential);
 
-Operation<BinaryData> operation = client.StartDevBox(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>", null);
-BinaryData responseData = operation.Value;
-
-JsonElement result = JsonDocument.Parse(responseData.ToStream()).RootElement;
-Console.WriteLine(result.GetProperty("id").ToString());
-Console.WriteLine(result.GetProperty("name").ToString());
-Console.WriteLine(result.GetProperty("status").ToString());
-Console.WriteLine(result.GetProperty("resourceId").ToString());
-Console.WriteLine(result.GetProperty("startTime").ToString());
-Console.WriteLine(result.GetProperty("endTime").ToString());
-Console.WriteLine(result.GetProperty("percentComplete").ToString());
-Console.WriteLine(result.GetProperty("properties").ToString());
-Console.WriteLine(result.GetProperty("error").GetProperty("code").ToString());
-Console.WriteLine(result.GetProperty("error").GetProperty("message").ToString());
+Operation operation = client.StartDevBox(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>");
 ]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="StartDevBoxAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt; StartDevBoxAsync (Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, Azure.RequestContext context);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Operation`1&lt;class System.BinaryData&gt;&gt; StartDevBoxAsync(valuetype Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Operation&gt; StartDevBoxAsync (Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Operation&gt; StartDevBoxAsync(valuetype Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, class Azure.RequestContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Developer.DevCenter.DevBoxesClient.StartDevBoxAsync(Azure.WaitUntil,System.String,System.String,System.String,Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartDevBoxAsync (waitUntil As WaitUntil, projectName As String, userId As String, devBoxName As String, context As RequestContext) As Task(Of Operation(Of BinaryData))" />
-      <MemberSignature Language="F#" Value="abstract member StartDevBoxAsync : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt;&#xA;override this.StartDevBoxAsync : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt;" Usage="devBoxesClient.StartDevBoxAsync (waitUntil, projectName, userId, devBoxName, context)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartDevBoxAsync (waitUntil As WaitUntil, projectName As String, userId As String, devBoxName As String, Optional context As RequestContext = Nothing) As Task(Of Operation)" />
+      <MemberSignature Language="F#" Value="abstract member StartDevBoxAsync : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&gt;&#xA;override this.StartDevBoxAsync : Azure.WaitUntil * string * string * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&gt;" Usage="devBoxesClient.StartDevBoxAsync (waitUntil, projectName, userId, devBoxName, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Operation&lt;System.BinaryData&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Operation&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
@@ -2842,54 +2791,37 @@ Console.WriteLine(result.GetProperty("error").GetProperty("message").ToString())
           <paramref name="projectName" />, <paramref name="userId" /> or <paramref name="devBoxName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call StartDevBoxAsync and parse the result.
+This sample shows how to call StartDevBoxAsync.
 <code><![CDATA[
 Uri endpoint = new Uri("<https://my-service.azure.com>");
 TokenCredential credential = new DefaultAzureCredential();
 DevBoxesClient client = new DevBoxesClient(endpoint, credential);
 
-Operation<BinaryData> operation = await client.StartDevBoxAsync(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>", null);
-BinaryData responseData = operation.Value;
-
-JsonElement result = JsonDocument.Parse(responseData.ToStream()).RootElement;
-Console.WriteLine(result.GetProperty("status").ToString());
+Operation operation = await client.StartDevBoxAsync(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>");
 ]]></code>
-This sample shows how to call StartDevBoxAsync with all parameters and parse the result.
+This sample shows how to call StartDevBoxAsync with all parameters.
 <code><![CDATA[
 Uri endpoint = new Uri("<https://my-service.azure.com>");
 TokenCredential credential = new DefaultAzureCredential();
 DevBoxesClient client = new DevBoxesClient(endpoint, credential);
 
-Operation<BinaryData> operation = await client.StartDevBoxAsync(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>", null);
-BinaryData responseData = operation.Value;
-
-JsonElement result = JsonDocument.Parse(responseData.ToStream()).RootElement;
-Console.WriteLine(result.GetProperty("id").ToString());
-Console.WriteLine(result.GetProperty("name").ToString());
-Console.WriteLine(result.GetProperty("status").ToString());
-Console.WriteLine(result.GetProperty("resourceId").ToString());
-Console.WriteLine(result.GetProperty("startTime").ToString());
-Console.WriteLine(result.GetProperty("endTime").ToString());
-Console.WriteLine(result.GetProperty("percentComplete").ToString());
-Console.WriteLine(result.GetProperty("properties").ToString());
-Console.WriteLine(result.GetProperty("error").GetProperty("code").ToString());
-Console.WriteLine(result.GetProperty("error").GetProperty("message").ToString());
+Operation operation = await client.StartDevBoxAsync(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>");
 ]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="StopDevBox">
-      <MemberSignature Language="C#" Value="public virtual Azure.Operation&lt;BinaryData&gt; StopDevBox (Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, bool? hibernate, Azure.RequestContext context);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Operation`1&lt;class System.BinaryData&gt; StopDevBox(valuetype Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, valuetype System.Nullable`1&lt;bool&gt; hibernate, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Operation StopDevBox (Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, bool? hibernate = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Operation StopDevBox(valuetype Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, valuetype System.Nullable`1&lt;bool&gt; hibernate, class Azure.RequestContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Developer.DevCenter.DevBoxesClient.StopDevBox(Azure.WaitUntil,System.String,System.String,System.String,System.Nullable{System.Boolean},Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function StopDevBox (waitUntil As WaitUntil, projectName As String, userId As String, devBoxName As String, hibernate As Nullable(Of Boolean), context As RequestContext) As Operation(Of BinaryData)" />
-      <MemberSignature Language="F#" Value="abstract member StopDevBox : Azure.WaitUntil * string * string * string * Nullable&lt;bool&gt; * Azure.RequestContext -&gt; Azure.Operation&lt;BinaryData&gt;&#xA;override this.StopDevBox : Azure.WaitUntil * string * string * string * Nullable&lt;bool&gt; * Azure.RequestContext -&gt; Azure.Operation&lt;BinaryData&gt;" Usage="devBoxesClient.StopDevBox (waitUntil, projectName, userId, devBoxName, hibernate, context)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StopDevBox (waitUntil As WaitUntil, projectName As String, userId As String, devBoxName As String, Optional hibernate As Nullable(Of Boolean) = Nothing, Optional context As RequestContext = Nothing) As Operation" />
+      <MemberSignature Language="F#" Value="abstract member StopDevBox : Azure.WaitUntil * string * string * string * Nullable&lt;bool&gt; * Azure.RequestContext -&gt; Azure.Operation&#xA;override this.StopDevBox : Azure.WaitUntil * string * string * string * Nullable&lt;bool&gt; * Azure.RequestContext -&gt; Azure.Operation" Usage="devBoxesClient.StopDevBox (waitUntil, projectName, userId, devBoxName, hibernate, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Operation&lt;System.BinaryData&gt;</ReturnType>
+        <ReturnType>Azure.Operation</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
@@ -2920,54 +2852,37 @@ Console.WriteLine(result.GetProperty("error").GetProperty("message").ToString())
           <paramref name="projectName" />, <paramref name="userId" /> or <paramref name="devBoxName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call StopDevBox and parse the result.
+This sample shows how to call StopDevBox.
 <code><![CDATA[
 Uri endpoint = new Uri("<https://my-service.azure.com>");
 TokenCredential credential = new DefaultAzureCredential();
 DevBoxesClient client = new DevBoxesClient(endpoint, credential);
 
-Operation<BinaryData> operation = client.StopDevBox(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>", null, null);
-BinaryData responseData = operation.Value;
-
-JsonElement result = JsonDocument.Parse(responseData.ToStream()).RootElement;
-Console.WriteLine(result.GetProperty("status").ToString());
+Operation operation = client.StopDevBox(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>");
 ]]></code>
-This sample shows how to call StopDevBox with all parameters and parse the result.
+This sample shows how to call StopDevBox with all parameters.
 <code><![CDATA[
 Uri endpoint = new Uri("<https://my-service.azure.com>");
 TokenCredential credential = new DefaultAzureCredential();
 DevBoxesClient client = new DevBoxesClient(endpoint, credential);
 
-Operation<BinaryData> operation = client.StopDevBox(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>", true, null);
-BinaryData responseData = operation.Value;
-
-JsonElement result = JsonDocument.Parse(responseData.ToStream()).RootElement;
-Console.WriteLine(result.GetProperty("id").ToString());
-Console.WriteLine(result.GetProperty("name").ToString());
-Console.WriteLine(result.GetProperty("status").ToString());
-Console.WriteLine(result.GetProperty("resourceId").ToString());
-Console.WriteLine(result.GetProperty("startTime").ToString());
-Console.WriteLine(result.GetProperty("endTime").ToString());
-Console.WriteLine(result.GetProperty("percentComplete").ToString());
-Console.WriteLine(result.GetProperty("properties").ToString());
-Console.WriteLine(result.GetProperty("error").GetProperty("code").ToString());
-Console.WriteLine(result.GetProperty("error").GetProperty("message").ToString());
+Operation operation = client.StopDevBox(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>", hibernate: true);
 ]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="StopDevBoxAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt; StopDevBoxAsync (Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, bool? hibernate, Azure.RequestContext context);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Operation`1&lt;class System.BinaryData&gt;&gt; StopDevBoxAsync(valuetype Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, valuetype System.Nullable`1&lt;bool&gt; hibernate, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Operation&gt; StopDevBoxAsync (Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, bool? hibernate = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Operation&gt; StopDevBoxAsync(valuetype Azure.WaitUntil waitUntil, string projectName, string userId, string devBoxName, valuetype System.Nullable`1&lt;bool&gt; hibernate, class Azure.RequestContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Developer.DevCenter.DevBoxesClient.StopDevBoxAsync(Azure.WaitUntil,System.String,System.String,System.String,System.Nullable{System.Boolean},Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function StopDevBoxAsync (waitUntil As WaitUntil, projectName As String, userId As String, devBoxName As String, hibernate As Nullable(Of Boolean), context As RequestContext) As Task(Of Operation(Of BinaryData))" />
-      <MemberSignature Language="F#" Value="abstract member StopDevBoxAsync : Azure.WaitUntil * string * string * string * Nullable&lt;bool&gt; * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt;&#xA;override this.StopDevBoxAsync : Azure.WaitUntil * string * string * string * Nullable&lt;bool&gt; * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&lt;BinaryData&gt;&gt;" Usage="devBoxesClient.StopDevBoxAsync (waitUntil, projectName, userId, devBoxName, hibernate, context)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StopDevBoxAsync (waitUntil As WaitUntil, projectName As String, userId As String, devBoxName As String, Optional hibernate As Nullable(Of Boolean) = Nothing, Optional context As RequestContext = Nothing) As Task(Of Operation)" />
+      <MemberSignature Language="F#" Value="abstract member StopDevBoxAsync : Azure.WaitUntil * string * string * string * Nullable&lt;bool&gt; * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&gt;&#xA;override this.StopDevBoxAsync : Azure.WaitUntil * string * string * string * Nullable&lt;bool&gt; * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Operation&gt;" Usage="devBoxesClient.StopDevBoxAsync (waitUntil, projectName, userId, devBoxName, hibernate, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Operation&lt;System.BinaryData&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Operation&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
@@ -2998,38 +2913,21 @@ Console.WriteLine(result.GetProperty("error").GetProperty("message").ToString())
           <paramref name="projectName" />, <paramref name="userId" /> or <paramref name="devBoxName" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
         <example>
-This sample shows how to call StopDevBoxAsync and parse the result.
+This sample shows how to call StopDevBoxAsync.
 <code><![CDATA[
 Uri endpoint = new Uri("<https://my-service.azure.com>");
 TokenCredential credential = new DefaultAzureCredential();
 DevBoxesClient client = new DevBoxesClient(endpoint, credential);
 
-Operation<BinaryData> operation = await client.StopDevBoxAsync(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>", null, null);
-BinaryData responseData = operation.Value;
-
-JsonElement result = JsonDocument.Parse(responseData.ToStream()).RootElement;
-Console.WriteLine(result.GetProperty("status").ToString());
+Operation operation = await client.StopDevBoxAsync(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>");
 ]]></code>
-This sample shows how to call StopDevBoxAsync with all parameters and parse the result.
+This sample shows how to call StopDevBoxAsync with all parameters.
 <code><![CDATA[
 Uri endpoint = new Uri("<https://my-service.azure.com>");
 TokenCredential credential = new DefaultAzureCredential();
 DevBoxesClient client = new DevBoxesClient(endpoint, credential);
 
-Operation<BinaryData> operation = await client.StopDevBoxAsync(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>", true, null);
-BinaryData responseData = operation.Value;
-
-JsonElement result = JsonDocument.Parse(responseData.ToStream()).RootElement;
-Console.WriteLine(result.GetProperty("id").ToString());
-Console.WriteLine(result.GetProperty("name").ToString());
-Console.WriteLine(result.GetProperty("status").ToString());
-Console.WriteLine(result.GetProperty("resourceId").ToString());
-Console.WriteLine(result.GetProperty("startTime").ToString());
-Console.WriteLine(result.GetProperty("endTime").ToString());
-Console.WriteLine(result.GetProperty("percentComplete").ToString());
-Console.WriteLine(result.GetProperty("properties").ToString());
-Console.WriteLine(result.GetProperty("error").GetProperty("code").ToString());
-Console.WriteLine(result.GetProperty("error").GetProperty("message").ToString());
+Operation operation = await client.StopDevBoxAsync(WaitUntil.Completed, "<projectName>", "<userId>", "<devBoxName>", hibernate: true);
 ]]></code></example>
       </Docs>
     </Member>

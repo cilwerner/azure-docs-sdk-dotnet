@@ -58,7 +58,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             This API is used to check the uniqueness of a resource name used for a diagnostic, troubleshooter or solutions
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailability_Post</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailability_Post</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -90,7 +90,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             This API is used to check the uniqueness of a resource name used for a diagnostic, troubleshooter or solutions
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailability_Post</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailability_Post</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -122,7 +122,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the diagnostics using the 'diagnosticsResourceName' you chose while creating the diagnostic.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/diagnostics/{diagnosticsResourceName}</description></item><item><term>Operation Id</term><description>Diagnostics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/diagnostics/{diagnosticsResourceName}</description></item><item><term>Operation Id</term><description>Diagnostics_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.SelfHelpDiagnosticResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -156,7 +156,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the diagnostics using the 'diagnosticsResourceName' you chose while creating the diagnostic.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/diagnostics/{diagnosticsResourceName}</description></item><item><term>Operation Id</term><description>Diagnostics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/diagnostics/{diagnosticsResourceName}</description></item><item><term>Operation Id</term><description>Diagnostics_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.SelfHelpDiagnosticResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -243,7 +243,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the relevant Azure diagnostics and solutions using [problemClassification API](https://learn.microsoft.com/rest/api/support/problem-classifications/list?tabs=HTTP)) AND  resourceUri or resourceType.&lt;br/&gt; Discovery Solutions is the initial entry point within Help API, which identifies relevant Azure diagnostics and solutions. We will do our best to return the most effective solutions based on the type of inputs, in the request URL  &lt;br/&gt;&lt;br/&gt; Mandatory input :  problemClassificationId (Use the [problemClassification API](https://learn.microsoft.com/rest/api/support/problem-classifications/list?tabs=HTTP)) &lt;br/&gt;Optional input: resourceUri OR resource Type &lt;br/&gt;&lt;br/&gt; &lt;b&gt;Note: &lt;/b&gt;  ‘requiredInputs’ from Discovery solutions response must be passed via ‘additionalParameters’ as an input to Diagnostics and Solutions API.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/discoverySolutions</description></item><item><term>Operation Id</term><description>DiscoverySolution_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/discoverySolutions</description></item><item><term>Operation Id</term><description>DiscoverySolution_List</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.SelfHelp.Models.SelfHelpSolutionMetadata" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -277,7 +277,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the relevant Azure diagnostics and solutions using [problemClassification API](https://learn.microsoft.com/rest/api/support/problem-classifications/list?tabs=HTTP)) AND  resourceUri or resourceType.&lt;br/&gt; Discovery Solutions is the initial entry point within Help API, which identifies relevant Azure diagnostics and solutions. We will do our best to return the most effective solutions based on the type of inputs, in the request URL  &lt;br/&gt;&lt;br/&gt; Mandatory input :  problemClassificationId (Use the [problemClassification API](https://learn.microsoft.com/rest/api/support/problem-classifications/list?tabs=HTTP)) &lt;br/&gt;Optional input: resourceUri OR resource Type &lt;br/&gt;&lt;br/&gt; &lt;b&gt;Note: &lt;/b&gt;  ‘requiredInputs’ from Discovery solutions response must be passed via ‘additionalParameters’ as an input to Diagnostics and Solutions API.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/discoverySolutions</description></item><item><term>Operation Id</term><description>DiscoverySolution_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/discoverySolutions</description></item><item><term>Operation Id</term><description>DiscoverySolution_List</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.SelfHelp.Models.SelfHelpSolutionMetadata" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -336,7 +336,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the solution using the applicable solutionResourceName while creating the solution.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/solutions/{solutionResourceName}</description></item><item><term>Operation Id</term><description>Solution_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/solutions/{solutionResourceName}</description></item><item><term>Operation Id</term><description>Solution_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.SolutionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -370,7 +370,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the solution using the applicable solutionResourceName while creating the solution.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/solutions/{solutionResourceName}</description></item><item><term>Operation Id</term><description>Solution_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/solutions/{solutionResourceName}</description></item><item><term>Operation Id</term><description>Solution_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.SolutionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -455,7 +455,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets troubleshooter instance result which includes the step status/result of the troubleshooter resource name that is being executed.&lt;br/&gt; Get API is used to retrieve the result of a Troubleshooter instance, which includes the status and result of each step in the Troubleshooter workflow. This API requires the Troubleshooter resource name that was created using the Create API.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}</description></item><item><term>Operation Id</term><description>Troubleshooters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}</description></item><item><term>Operation Id</term><description>Troubleshooters_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.TroubleshooterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -489,7 +489,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets troubleshooter instance result which includes the step status/result of the troubleshooter resource name that is being executed.&lt;br/&gt; Get API is used to retrieve the result of a Troubleshooter instance, which includes the status and result of each step in the Troubleshooter workflow. This API requires the Troubleshooter resource name that was created using the Create API.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}</description></item><item><term>Operation Id</term><description>Troubleshooters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}</description></item><item><term>Operation Id</term><description>Troubleshooters_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.TroubleshooterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

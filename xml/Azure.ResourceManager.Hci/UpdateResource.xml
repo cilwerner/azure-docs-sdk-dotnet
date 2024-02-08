@@ -119,7 +119,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete specified Update
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}</description></item><item><term>Operation Id</term><description>Updates_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}</description></item><item><term>Operation Id</term><description>Updates_Delete</description></item><item><term>Default Api Version</term><description>2023-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.UpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -149,7 +149,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete specified Update
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}</description></item><item><term>Operation Id</term><description>Updates_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}</description></item><item><term>Operation Id</term><description>Updates_Delete</description></item><item><term>Default Api Version</term><description>2023-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.UpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -176,7 +176,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get specified Update
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}</description></item><item><term>Operation Id</term><description>Updates_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}</description></item><item><term>Operation Id</term><description>Updates_Get</description></item><item><term>Default Api Version</term><description>2023-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.UpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -203,7 +203,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get specified Update
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}</description></item><item><term>Operation Id</term><description>Updates_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}</description></item><item><term>Operation Id</term><description>Updates_Get</description></item><item><term>Default Api Version</term><description>2023-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.UpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -232,7 +232,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the Update run for a specified update
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}/updateRuns/{updateRunName}</description></item><item><term>Operation Id</term><description>UpdateRuns_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}/updateRuns/{updateRunName}</description></item><item><term>Operation Id</term><description>UpdateRuns_Get</description></item><item><term>Default Api Version</term><description>2023-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.UpdateRunResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -265,7 +265,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the Update run for a specified update
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}/updateRuns/{updateRunName}</description></item><item><term>Operation Id</term><description>UpdateRuns_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}/updateRuns/{updateRunName}</description></item><item><term>Operation Id</term><description>UpdateRuns_Get</description></item><item><term>Default Api Version</term><description>2023-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.UpdateRunResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -342,7 +342,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Apply Update
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}/apply</description></item><item><term>Operation Id</term><description>Updates_Post</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}/apply</description></item><item><term>Operation Id</term><description>Updates_Post</description></item><item><term>Default Api Version</term><description>2023-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.UpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -372,7 +372,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Apply Update
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}/apply</description></item><item><term>Operation Id</term><description>Updates_Post</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}/apply</description></item><item><term>Operation Id</term><description>Updates_Post</description></item><item><term>Default Api Version</term><description>2023-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.UpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -424,7 +424,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Put specified Update
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}</description></item><item><term>Operation Id</term><description>Updates_Put</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}</description></item><item><term>Operation Id</term><description>Updates_Put</description></item><item><term>Default Api Version</term><description>2023-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.UpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -458,7 +458,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Put specified Update
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}</description></item><item><term>Operation Id</term><description>Updates_Put</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/updates/{updateName}</description></item><item><term>Operation Id</term><description>Updates_Put</description></item><item><term>Default Api Version</term><description>2023-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.UpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

@@ -25,6 +25,7 @@
     <AssemblyVersion>5.9.2.0</AssemblyVersion>
     <AssemblyVersion>5.9.3.0</AssemblyVersion>
     <AssemblyVersion>5.10.0.0</AssemblyVersion>
+    <AssemblyVersion>5.11.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -47,6 +48,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -64,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Net.Security.RemoteCertificateValidationCallback</ReturnType>
@@ -87,6 +90,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -118,6 +122,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -145,6 +150,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -178,6 +184,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -207,6 +214,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Net.IWebProxy</ReturnType>
@@ -232,6 +240,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -240,10 +249,12 @@
         <summary>
                The size of the buffer used for receiving information via the active transport.
              </summary>
-        <value>The size of the buffer, in bytes.  The default size is 8,192 bytes.</value>
+        <value>The size of the buffer, in bytes.  The default value is -1, which instructs the transport to use the host's default buffer size.</value>
         <remarks>
                This value is used to configure the <see cref="P:System.Net.Sockets.Socket.ReceiveBufferSize" /> used by
-               the active transport.
+               the active transport.  It is recommended that the host's default buffer size be used
+               unless there is a specific application scenario that requires it to be adjusted and
+               the new value has been tested thoroughly.
              </remarks>
       </Docs>
     </Member>
@@ -257,6 +268,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -265,10 +277,12 @@
         <summary>
                The size of the buffer used for sending information via the active transport.
              </summary>
-        <value>The size of the buffer, in bytes.  The default size is 8,192 bytes.</value>
+        <value>The size of the buffer, in bytes.  The default value is -1, which instructs the transport to use the host's default buffer size.</value>
         <remarks>
                This value is used to configure the <see cref="P:System.Net.Sockets.Socket.SendBufferSize" /> used by
-               the active transport.
+               the active transport.  It is recommended that the host's default buffer size be used
+               unless there is a specific application scenario that requires it to be adjusted and
+               the new value has been tested thoroughly.
              </remarks>
       </Docs>
     </Member>
@@ -282,6 +296,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -311,6 +326,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.EventHubsTransportType</ReturnType>

@@ -112,7 +112,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a specific network security perimeter configuration with a topic or domain.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/{resourceType}/{resourceName}/networkSecurityPerimeterConfigurations/{perimeterGuid}.{associationName}</description></item><item><term>Operation Id</term><description>NetworkSecurityPerimeterConfigurations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/{resourceType}/{resourceName}/networkSecurityPerimeterConfigurations/{perimeterGuid}.{associationName}</description></item><item><term>Operation Id</term><description>NetworkSecurityPerimeterConfigurations_Get</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.DomainNetworkSecurityPerimeterConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -138,7 +138,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a specific network security perimeter configuration with a topic or domain.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/{resourceType}/{resourceName}/networkSecurityPerimeterConfigurations/{perimeterGuid}.{associationName}</description></item><item><term>Operation Id</term><description>NetworkSecurityPerimeterConfigurations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/{resourceType}/{resourceName}/networkSecurityPerimeterConfigurations/{perimeterGuid}.{associationName}</description></item><item><term>Operation Id</term><description>NetworkSecurityPerimeterConfigurations_Get</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.DomainNetworkSecurityPerimeterConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -187,7 +187,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Reconcile a specific network security perimeter configuration for a given network security perimeter association with a topic or domain.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/{resourceType}/{resourceName}/networkSecurityPerimeterConfigurations/{perimeterGuid}.{associationName}/reconcile</description></item><item><term>Operation Id</term><description>NetworkSecurityPerimeterConfigurations_Reconcile</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/{resourceType}/{resourceName}/networkSecurityPerimeterConfigurations/{perimeterGuid}.{associationName}/reconcile</description></item><item><term>Operation Id</term><description>NetworkSecurityPerimeterConfigurations_Reconcile</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.DomainNetworkSecurityPerimeterConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -216,7 +216,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Reconcile a specific network security perimeter configuration for a given network security perimeter association with a topic or domain.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/{resourceType}/{resourceName}/networkSecurityPerimeterConfigurations/{perimeterGuid}.{associationName}/reconcile</description></item><item><term>Operation Id</term><description>NetworkSecurityPerimeterConfigurations_Reconcile</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/{resourceType}/{resourceName}/networkSecurityPerimeterConfigurations/{perimeterGuid}.{associationName}/reconcile</description></item><item><term>Operation Id</term><description>NetworkSecurityPerimeterConfigurations_Reconcile</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.DomainNetworkSecurityPerimeterConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

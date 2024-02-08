@@ -66,7 +66,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -99,7 +99,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -130,7 +130,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the give namespace name availability.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/disasterRecoveryConfigs/CheckNameAvailability</description></item><item><term>Operation Id</term><description>DisasterRecoveryConfigs_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/disasterRecoveryConfigs/CheckNameAvailability</description></item><item><term>Operation Id</term><description>DisasterRecoveryConfigs_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusDisasterRecoveryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -161,7 +161,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the give namespace name availability.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/disasterRecoveryConfigs/CheckNameAvailability</description></item><item><term>Operation Id</term><description>DisasterRecoveryConfigs_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/disasterRecoveryConfigs/CheckNameAvailability</description></item><item><term>Operation Id</term><description>DisasterRecoveryConfigs_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusDisasterRecoveryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -244,7 +244,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes an existing namespace. This operation also removes all associated resources under the namespace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Delete</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -274,7 +274,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes an existing namespace. This operation also removes all associated resources under the namespace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Delete</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -301,7 +301,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a description for the specified namespace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -328,7 +328,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a description for the specified namespace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -357,7 +357,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieves Migration Config
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/migrationConfigurations/{configName}</description></item><item><term>Operation Id</term><description>MigrationConfigs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/migrationConfigurations/{configName}</description></item><item><term>Operation Id</term><description>MigrationConfigs_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.MigrationConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -386,7 +386,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieves Migration Config
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/migrationConfigurations/{configName}</description></item><item><term>Operation Id</term><description>MigrationConfigs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/migrationConfigurations/{configName}</description></item><item><term>Operation Id</term><description>MigrationConfigs_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.MigrationConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -435,7 +435,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets lists of resources that supports Privatelinks.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/privateLinkResources</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/privateLinkResources</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.ServiceBus.Models.ServiceBusPrivateLinkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -462,7 +462,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets lists of resources that supports Privatelinks.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/privateLinkResources</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/privateLinkResources</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.ServiceBus.Models.ServiceBusPrivateLinkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -513,7 +513,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieves Alias(Disaster Recovery configuration) for primary or secondary namespace
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/disasterRecoveryConfigs/{alias}</description></item><item><term>Operation Id</term><description>DisasterRecoveryConfigs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/disasterRecoveryConfigs/{alias}</description></item><item><term>Operation Id</term><description>DisasterRecoveryConfigs_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusDisasterRecoveryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -546,7 +546,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieves Alias(Disaster Recovery configuration) for primary or secondary namespace
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/disasterRecoveryConfigs/{alias}</description></item><item><term>Operation Id</term><description>DisasterRecoveryConfigs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/disasterRecoveryConfigs/{alias}</description></item><item><term>Operation Id</term><description>DisasterRecoveryConfigs_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusDisasterRecoveryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -579,7 +579,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an authorization rule for a namespace by rule name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/AuthorizationRules/{authorizationRuleName}</description></item><item><term>Operation Id</term><description>NamespaceAuthorizationRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/AuthorizationRules/{authorizationRuleName}</description></item><item><term>Operation Id</term><description>NamespaceAuthorizationRules_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceAuthorizationRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -612,7 +612,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an authorization rule for a namespace by rule name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/AuthorizationRules/{authorizationRuleName}</description></item><item><term>Operation Id</term><description>NamespaceAuthorizationRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/AuthorizationRules/{authorizationRuleName}</description></item><item><term>Operation Id</term><description>NamespaceAuthorizationRules_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceAuthorizationRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -689,7 +689,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a description for the specified Private Endpoint Connection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -722,7 +722,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a description for the specified Private Endpoint Connection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -777,7 +777,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a description for the specified queue.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/queues/{queueName}</description></item><item><term>Operation Id</term><description>Queues_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/queues/{queueName}</description></item><item><term>Operation Id</term><description>Queues_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusQueueResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -810,7 +810,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a description for the specified queue.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/queues/{queueName}</description></item><item><term>Operation Id</term><description>Queues_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/queues/{queueName}</description></item><item><term>Operation Id</term><description>Queues_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusQueueResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -865,7 +865,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a description for the specified topic.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}</description></item><item><term>Operation Id</term><description>Topics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}</description></item><item><term>Operation Id</term><description>Topics_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -898,7 +898,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a description for the specified topic.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}</description></item><item><term>Operation Id</term><description>Topics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}/topics/{topicName}</description></item><item><term>Operation Id</term><description>Topics_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -974,7 +974,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1005,7 +1005,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1056,7 +1056,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1087,7 +1087,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1118,7 +1118,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a service namespace. Once created, this namespace's resource manifest is immutable. This operation is idempotent.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Update</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1149,7 +1149,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a service namespace. Once created, this namespace's resource manifest is immutable. This operation is idempotent.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceBus/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Update</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

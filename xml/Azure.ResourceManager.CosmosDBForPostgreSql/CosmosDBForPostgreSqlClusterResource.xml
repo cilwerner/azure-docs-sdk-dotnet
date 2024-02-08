@@ -66,7 +66,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -99,7 +99,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -182,7 +182,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a cluster together with servers in it.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Delete</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -212,7 +212,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a cluster together with servers in it.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Delete</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -239,7 +239,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a cluster such as compute and storage configuration and cluster lifecycle metadata such as cluster creation date and time.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -266,7 +266,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a cluster such as compute and storage configuration and cluster lifecycle metadata such as cluster creation date and time.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -295,7 +295,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a server in cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -328,7 +328,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a server in cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -383,7 +383,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information of a configuration for coordinator and nodes.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -416,7 +416,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information of a configuration for coordinator and nodes.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -471,7 +471,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information of a configuration for coordinator.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/coordinatorConfigurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_GetCoordinator</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/coordinatorConfigurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_GetCoordinator</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlCoordinatorConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -504,7 +504,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information of a configuration for coordinator.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/coordinatorConfigurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_GetCoordinator</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/coordinatorConfigurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_GetCoordinator</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlCoordinatorConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -559,7 +559,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a cluster firewall rule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlFirewallRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -592,7 +592,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a cluster firewall rule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlFirewallRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -647,7 +647,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information of a configuration for worker nodes.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/nodeConfigurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_GetNode</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/nodeConfigurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_GetNode</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlNodeConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -680,7 +680,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information of a configuration for worker nodes.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/nodeConfigurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_GetNode</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/nodeConfigurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_GetNode</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlNodeConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -735,7 +735,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets private endpoint connection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -768,7 +768,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets private endpoint connection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -823,7 +823,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a private link resource for cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/privateLinkResources/{privateLinkResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/privateLinkResources/{privateLinkResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlPrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -856,7 +856,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a private link resource for cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/privateLinkResources/{privateLinkResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/privateLinkResources/{privateLinkResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlPrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -911,7 +911,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a cluster role.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlRoleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -944,7 +944,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a cluster role.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlRoleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1021,7 +1021,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Promotes read replica cluster to an independent read-write cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/promote</description></item><item><term>Operation Id</term><description>Clusters_PromoteReadReplica</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/promote</description></item><item><term>Operation Id</term><description>Clusters_PromoteReadReplica</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1051,7 +1051,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Promotes read replica cluster to an independent read-write cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/promote</description></item><item><term>Operation Id</term><description>Clusters_PromoteReadReplica</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/promote</description></item><item><term>Operation Id</term><description>Clusters_PromoteReadReplica</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1080,7 +1080,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1111,7 +1111,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1163,7 +1163,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restarts all nodes in the cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/restart</description></item><item><term>Operation Id</term><description>Clusters_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/restart</description></item><item><term>Operation Id</term><description>Clusters_Restart</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1193,7 +1193,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restarts all nodes in the cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/restart</description></item><item><term>Operation Id</term><description>Clusters_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/restart</description></item><item><term>Operation Id</term><description>Clusters_Restart</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1222,7 +1222,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1253,7 +1253,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1285,7 +1285,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Starts stopped compute on all cluster nodes.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/start</description></item><item><term>Operation Id</term><description>Clusters_Start</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/start</description></item><item><term>Operation Id</term><description>Clusters_Start</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1315,7 +1315,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Starts stopped compute on all cluster nodes.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/start</description></item><item><term>Operation Id</term><description>Clusters_Start</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/start</description></item><item><term>Operation Id</term><description>Clusters_Start</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1345,7 +1345,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Stops compute on all cluster nodes.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/stop</description></item><item><term>Operation Id</term><description>Clusters_Stop</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/stop</description></item><item><term>Operation Id</term><description>Clusters_Stop</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1375,7 +1375,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Stops compute on all cluster nodes.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/stop</description></item><item><term>Operation Id</term><description>Clusters_Stop</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/stop</description></item><item><term>Operation Id</term><description>Clusters_Stop</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1407,7 +1407,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an existing cluster. The request body can contain one or several properties from the cluster definition.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1441,7 +1441,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an existing cluster. The request body can contain one or several properties from the cluster definition.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

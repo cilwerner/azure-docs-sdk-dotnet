@@ -46,7 +46,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of name for resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailability_Execute</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlSubscriptionResource.CheckPostgreSqlNameAvailability(Azure.ResourceManager.PostgreSql.Models.PostgreSqlNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailability_Execute</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlSubscriptionResource.CheckPostgreSqlNameAvailability(Azure.ResourceManager.PostgreSql.Models.PostgreSqlNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -79,7 +79,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of name for resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailability_Execute</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlSubscriptionResource.CheckPostgreSqlNameAvailability(Azure.ResourceManager.PostgreSql.Models.PostgreSqlNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/checkNameAvailability</description></item><item><term>Operation Id</term><description>CheckNameAvailability_Execute</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlSubscriptionResource.CheckPostgreSqlNameAvailability(Azure.ResourceManager.PostgreSql.Models.PostgreSqlNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -112,7 +112,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the performance tiers at specified location in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/performanceTiers</description></item><item><term>Operation Id</term><description>LocationBasedPerformanceTier_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlSubscriptionResource.GetLocationBasedPerformanceTiers(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/performanceTiers</description></item><item><term>Operation Id</term><description>LocationBasedPerformanceTier_List</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlSubscriptionResource.GetLocationBasedPerformanceTiers(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.PostgreSql.Models.PostgreSqlPerformanceTierProperties" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -145,7 +145,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the performance tiers at specified location in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/performanceTiers</description></item><item><term>Operation Id</term><description>LocationBasedPerformanceTier_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlSubscriptionResource.GetLocationBasedPerformanceTiers(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/locations/{locationName}/performanceTiers</description></item><item><term>Operation Id</term><description>LocationBasedPerformanceTier_List</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlSubscriptionResource.GetLocationBasedPerformanceTiers(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.PostgreSql.Models.PostgreSqlPerformanceTierProperties" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -338,7 +338,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlResourceGroupResource.GetPostgreSqlServer(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlResourceGroupResource.GetPostgreSqlServer(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -405,7 +405,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlResourceGroupResource.GetPostgreSqlServerAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlResourceGroupResource.GetPostgreSqlServerAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -531,7 +531,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the servers in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/servers</description></item><item><term>Operation Id</term><description>Servers_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlSubscriptionResource.GetPostgreSqlServers(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/servers</description></item><item><term>Operation Id</term><description>Servers_List</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlSubscriptionResource.GetPostgreSqlServers(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -562,7 +562,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the servers in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/servers</description></item><item><term>Operation Id</term><description>Servers_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlSubscriptionResource.GetPostgreSqlServers(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DBforPostgreSQL/servers</description></item><item><term>Operation Id</term><description>Servers_List</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.PostgreSql.Mocking.MockablePostgreSqlSubscriptionResource.GetPostgreSqlServers(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

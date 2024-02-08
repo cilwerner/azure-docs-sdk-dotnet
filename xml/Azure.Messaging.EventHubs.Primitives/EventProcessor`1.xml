@@ -25,6 +25,7 @@
     <AssemblyVersion>5.9.2.0</AssemblyVersion>
     <AssemblyVersion>5.9.3.0</AssemblyVersion>
     <AssemblyVersion>5.10.0.0</AssemblyVersion>
+    <AssemblyVersion>5.11.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="TPartition">
@@ -66,6 +67,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -85,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBatchMaximumCount" Type="System.Int32" />
@@ -121,6 +124,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBatchMaximumCount" Type="System.Int32" />
@@ -156,6 +160,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBatchMaximumCount" Type="System.Int32" />
@@ -189,6 +194,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBatchMaximumCount" Type="System.Int32" />
@@ -222,6 +228,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBatchMaximumCount" Type="System.Int32" />
@@ -255,6 +262,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.Messaging.EventHubs.Primitives.EventProcessorPartitionOwnership&gt;&gt;</ReturnType>
@@ -285,6 +293,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -308,6 +317,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.EventHubConnection</ReturnType>
@@ -331,6 +341,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -364,6 +375,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -387,6 +399,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -410,6 +423,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Messaging.EventHubs.Primitives.EventProcessorCheckpoint&gt;</ReturnType>
@@ -448,6 +462,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -477,6 +492,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -486,7 +502,16 @@
                A unique name used to identify this event processor.
              </summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <remarks>
+               The identifier can be set using the <see cref="P:Azure.Messaging.EventHubs.Primitives.EventProcessorOptions.Identifier" /> property on the
+               <see cref="T:Azure.Messaging.EventHubs.Primitives.EventProcessorOptions" /> passed when constructing the processor.  If not specified, a
+               random identifier will be generated.
+            
+               It is recommended that you set a stable unique identifier for processor instances, as this allows
+               the processor to recover partition ownership when an application or host instance is restarted.  It
+               also aids readability in Azure SDK logs and allows for more easily correlating logs to a specific
+               processor instance.
+             </remarks>
       </Docs>
     </Member>
     <Member MemberName="IsRunning">
@@ -499,6 +524,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -521,6 +547,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -559,6 +586,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.Messaging.EventHubs.Primitives.EventProcessorPartitionOwnership&gt;&gt;</ReturnType>
@@ -588,6 +616,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.String[]&gt;</ReturnType>
@@ -616,6 +645,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -653,6 +683,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -691,6 +722,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -743,6 +775,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -795,6 +828,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.Consumer.LastEnqueuedEventProperties</ReturnType>
@@ -829,6 +863,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.EventHubsRetryPolicy</ReturnType>
@@ -851,6 +886,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -883,6 +919,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -916,6 +953,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -947,6 +985,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -979,6 +1018,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -999,6 +1039,37 @@
       </Docs>
     </Member>
     <Member MemberName="UpdateCheckpointAsync">
+      <MemberSignature Language="C#" Value="protected virtual System.Threading.Tasks.Task UpdateCheckpointAsync (string partitionId, Azure.Messaging.EventHubs.Processor.CheckpointPosition checkpointStartingPosition, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Threading.Tasks.Task UpdateCheckpointAsync(string partitionId, valuetype Azure.Messaging.EventHubs.Processor.CheckpointPosition checkpointStartingPosition, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventHubs.Primitives.EventProcessor`1.UpdateCheckpointAsync(System.String,Azure.Messaging.EventHubs.Processor.CheckpointPosition,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function UpdateCheckpointAsync (partitionId As String, checkpointStartingPosition As CheckpointPosition, cancellationToken As CancellationToken) As Task" />
+      <MemberSignature Language="F#" Value="abstract member UpdateCheckpointAsync : string * Azure.Messaging.EventHubs.Processor.CheckpointPosition * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&#xA;override this.UpdateCheckpointAsync : string * Azure.Messaging.EventHubs.Processor.CheckpointPosition * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="eventProcessor.UpdateCheckpointAsync (partitionId, checkpointStartingPosition, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="partitionId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="checkpointStartingPosition" Type="Azure.Messaging.EventHubs.Processor.CheckpointPosition" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="partitionId">The identifier of the partition the checkpoint is for.</param>
+        <param name="checkpointStartingPosition">The starting position to associate with the checkpoint, indicating that a processor should begin reading from the next event in the stream.</param>
+        <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> instance to signal a request to cancel the operation.</param>
+        <summary>
+               Creates or updates a checkpoint for a specific partition, identifying a position in the partition's event stream
+               that an event processor should begin reading from.
+             </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateCheckpointAsync">
       <MemberSignature Language="C#" Value="protected virtual System.Threading.Tasks.Task UpdateCheckpointAsync (string partitionId, long offset, long? sequenceNumber, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Threading.Tasks.Task UpdateCheckpointAsync(string partitionId, int64 offset, valuetype System.Nullable`1&lt;int64&gt; sequenceNumber, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventHubs.Primitives.EventProcessor`1.UpdateCheckpointAsync(System.String,System.Int64,System.Nullable{System.Int64},System.Threading.CancellationToken)" />
@@ -1008,7 +1079,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -1020,15 +1098,18 @@
       </Parameters>
       <Docs>
         <param name="partitionId">The identifier of the partition the checkpoint is for.</param>
-        <param name="offset">The offset to associate with the checkpoint, indicating that a processor should begin reading form the next event in the stream.</param>
-        <param name="sequenceNumber">An optional sequence number to associate with the checkpoint, intended as informational metadata.  The <paramref name="offset" /> will be used for positioning when events are read.</param>
+        <param name="offset">The offset to associate with the checkpoint, intended as informational metadata. This will only be used for positioning if there is no value provided for <paramref name="sequenceNumber" />.</param>
+        <param name="sequenceNumber">The sequence number to associate with the checkpoint, indicating that a processor should begin reading from the next event in the stream.</param>
         <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> instance to signal a request to cancel the operation.</param>
         <summary>
                Creates or updates a checkpoint for a specific partition, identifying a position in the partition's event stream
                that an event processor should begin reading from.
              </summary>
         <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <remarks>
+               This overload exists to preserve backwards compatibility; it is highly recommended that <see cref="M:Azure.Messaging.EventHubs.Primitives.EventProcessor`1.UpdateCheckpointAsync(System.String,Azure.Messaging.EventHubs.Processor.CheckpointPosition,System.Threading.CancellationToken)" />
+               be called instead.
+             </remarks>
       </Docs>
     </Member>
     <Member MemberName="ValidateProcessingPreconditions">
@@ -1041,6 +1122,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>

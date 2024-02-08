@@ -118,7 +118,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a cluster role.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Delete</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlRoleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -148,7 +148,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a cluster role.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Delete</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlRoleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -175,7 +175,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a cluster role.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlRoleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -202,7 +202,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a cluster role.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Get</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlRoleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -275,7 +275,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates a new role or updates an existing role.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Create</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Create</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlRoleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -309,7 +309,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates a new role or updates an existing role.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Create</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/{clusterName}/roles/{roleName}</description></item><item><term>Operation Id</term><description>Roles_Create</description></item><item><term>Default Api Version</term><description>2022-11-08</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDBForPostgreSql.CosmosDBForPostgreSqlRoleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

@@ -63,7 +63,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -95,7 +95,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -175,7 +175,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes an Appliance with the specified Resource Name, Resource Group, and Subscription Id.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Delete</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -204,7 +204,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes an Appliance with the specified Resource Name, Resource Group, and Subscription Id.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Delete</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -230,7 +230,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of an Appliance with a specified resource group and name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -256,7 +256,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of an Appliance with a specified resource group and name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -282,7 +282,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the cluster user credentials for the dedicated appliance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}/listClusterUserCredential</description></item><item><term>Operation Id</term><description>Appliances_ListClusterUserCredential</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}/listClusterUserCredential</description></item><item><term>Operation Id</term><description>Appliances_ListClusterUserCredential</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -308,7 +308,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the cluster user credentials for the dedicated appliance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}/listClusterUserCredential</description></item><item><term>Operation Id</term><description>Appliances_ListClusterUserCredential</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}/listClusterUserCredential</description></item><item><term>Operation Id</term><description>Appliances_ListClusterUserCredential</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -336,7 +336,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the cluster customer credentials for the dedicated appliance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}/listkeys</description></item><item><term>Operation Id</term><description>Appliances_ListKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}/listkeys</description></item><item><term>Operation Id</term><description>Appliances_ListKeys</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -364,7 +364,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the cluster customer credentials for the dedicated appliance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}/listkeys</description></item><item><term>Operation Id</term><description>Appliances_ListKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}/listkeys</description></item><item><term>Operation Id</term><description>Appliances_ListKeys</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -392,7 +392,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the upgrade graph of an Appliance with a specified resource group and name and specific release train.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}/upgradeGraphs/{upgradeGraph}</description></item><item><term>Operation Id</term><description>Appliances_GetUpgradeGraph</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}/upgradeGraphs/{upgradeGraph}</description></item><item><term>Operation Id</term><description>Appliances_GetUpgradeGraph</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -424,7 +424,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the upgrade graph of an Appliance with a specified resource group and name and specific release train.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}/upgradeGraphs/{upgradeGraph}</description></item><item><term>Operation Id</term><description>Appliances_GetUpgradeGraph</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}/upgradeGraphs/{upgradeGraph}</description></item><item><term>Operation Id</term><description>Appliances_GetUpgradeGraph</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -476,7 +476,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -506,7 +506,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -555,7 +555,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -585,7 +585,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Get</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -615,7 +615,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an Appliance with the specified Resource Name in the specified Resource Group and Subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Update</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -645,7 +645,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an Appliance with the specified Resource Name in the specified Resource Group and Subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ResourceConnector/appliances/{resourceName}</description></item><item><term>Operation Id</term><description>Appliances_Update</description></item><item><term>Default Api Version</term><description>2022-10-27</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ResourceConnector.ResourceConnectorApplianceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

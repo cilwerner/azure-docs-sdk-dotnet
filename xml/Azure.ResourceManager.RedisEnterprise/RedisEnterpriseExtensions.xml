@@ -45,7 +45,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a RedisEnterprise cluster
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redisEnterprise/{clusterName}</description></item><item><term>Operation Id</term><description>RedisEnterprise_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseResourceGroupResource.GetRedisEnterpriseCluster(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redisEnterprise/{clusterName}</description></item><item><term>Operation Id</term><description>RedisEnterprise_Get</description></item><item><term>Default Api Version</term><description>2023-03-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RedisEnterprise.RedisEnterpriseClusterResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseResourceGroupResource.GetRedisEnterpriseCluster(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -80,7 +80,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a RedisEnterprise cluster
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redisEnterprise/{clusterName}</description></item><item><term>Operation Id</term><description>RedisEnterprise_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseResourceGroupResource.GetRedisEnterpriseClusterAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Cache/redisEnterprise/{clusterName}</description></item><item><term>Operation Id</term><description>RedisEnterprise_Get</description></item><item><term>Default Api Version</term><description>2023-03-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RedisEnterprise.RedisEnterpriseClusterResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseResourceGroupResource.GetRedisEnterpriseClusterAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -174,7 +174,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all RedisEnterprise clusters in the specified subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cache/redisEnterprise</description></item><item><term>Operation Id</term><description>RedisEnterprise_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseSubscriptionResource.GetRedisEnterpriseClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cache/redisEnterprise</description></item><item><term>Operation Id</term><description>RedisEnterprise_List</description></item><item><term>Default Api Version</term><description>2023-03-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RedisEnterprise.RedisEnterpriseClusterResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseSubscriptionResource.GetRedisEnterpriseClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RedisEnterprise.RedisEnterpriseClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -205,7 +205,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all RedisEnterprise clusters in the specified subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cache/redisEnterprise</description></item><item><term>Operation Id</term><description>RedisEnterprise_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseSubscriptionResource.GetRedisEnterpriseClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cache/redisEnterprise</description></item><item><term>Operation Id</term><description>RedisEnterprise_List</description></item><item><term>Default Api Version</term><description>2023-03-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RedisEnterprise.RedisEnterpriseClusterResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseSubscriptionResource.GetRedisEnterpriseClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RedisEnterprise.RedisEnterpriseClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -272,7 +272,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the status of operation.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cache/locations/{location}/operationsStatus/{operationId}</description></item><item><term>Operation Id</term><description>OperationsStatus_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseSubscriptionResource.GetRedisEnterpriseOperationsStatus(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cache/locations/{location}/operationsStatus/{operationId}</description></item><item><term>Operation Id</term><description>OperationsStatus_Get</description></item><item><term>Default Api Version</term><description>2023-03-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseSubscriptionResource.GetRedisEnterpriseOperationsStatus(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -309,7 +309,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the status of operation.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cache/locations/{location}/operationsStatus/{operationId}</description></item><item><term>Operation Id</term><description>OperationsStatus_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseSubscriptionResource.GetRedisEnterpriseOperationsStatus(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cache/locations/{location}/operationsStatus/{operationId}</description></item><item><term>Operation Id</term><description>OperationsStatus_Get</description></item><item><term>Default Api Version</term><description>2023-03-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseSubscriptionResource.GetRedisEnterpriseOperationsStatus(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -375,7 +375,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about skus in specified location for the given subscription id
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cache/locations/{location}/skus</description></item><item><term>Operation Id</term><description>Skus_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseSubscriptionResource.GetRedisEnterpriseSkus(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cache/locations/{location}/skus</description></item><item><term>Operation Id</term><description>Skus_List</description></item><item><term>Default Api Version</term><description>2023-03-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseSubscriptionResource.GetRedisEnterpriseSkus(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RedisEnterprise.Models.RedisEnterpriseRegionSkuDetail" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -407,7 +407,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about skus in specified location for the given subscription id
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cache/locations/{location}/skus</description></item><item><term>Operation Id</term><description>Skus_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseSubscriptionResource.GetRedisEnterpriseSkus(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Cache/locations/{location}/skus</description></item><item><term>Operation Id</term><description>Skus_List</description></item><item><term>Default Api Version</term><description>2023-03-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.RedisEnterprise.Mocking.MockableRedisEnterpriseSubscriptionResource.GetRedisEnterpriseSkus(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RedisEnterprise.Models.RedisEnterpriseRegionSkuDetail" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

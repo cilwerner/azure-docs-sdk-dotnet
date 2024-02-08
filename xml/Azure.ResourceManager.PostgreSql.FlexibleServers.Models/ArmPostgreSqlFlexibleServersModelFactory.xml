@@ -651,6 +651,32 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="PostgreSqlFlexibleServerNameAvailabilityContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerNameAvailabilityContent PostgreSqlFlexibleServerNameAvailabilityContent (string name = default, Azure.Core.ResourceType? resourceType = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerNameAvailabilityContent PostgreSqlFlexibleServerNameAvailabilityContent(string name, valuetype System.Nullable`1&lt;valuetype Azure.Core.ResourceType&gt; resourceType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ArmPostgreSqlFlexibleServersModelFactory.PostgreSqlFlexibleServerNameAvailabilityContent(System.String,System.Nullable{Azure.Core.ResourceType})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function PostgreSqlFlexibleServerNameAvailabilityContent (Optional name As String = Nothing, Optional resourceType As Nullable(Of ResourceType) = Nothing) As PostgreSqlFlexibleServerNameAvailabilityContent" />
+      <MemberSignature Language="F#" Value="static member PostgreSqlFlexibleServerNameAvailabilityContent : string * Nullable&lt;Azure.Core.ResourceType&gt; -&gt; Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerNameAvailabilityContent" Usage="Azure.ResourceManager.PostgreSql.FlexibleServers.Models.ArmPostgreSqlFlexibleServersModelFactory.PostgreSqlFlexibleServerNameAvailabilityContent (name, resourceType)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.PostgreSql</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerNameAvailabilityContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="System.Nullable&lt;Azure.Core.ResourceType&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="name"> The name of the resource for which availability needs to be checked. </param>
+        <param name="resourceType"> The resource type. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerNameAvailabilityContent" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerNameAvailabilityContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="PostgreSqlFlexibleServerNameAvailabilityResponse">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerNameAvailabilityResponse PostgreSqlFlexibleServerNameAvailabilityResponse (bool? isNameAvailable = default, Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerNameUnavailableReason? reason = default, string message = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerNameAvailabilityResponse PostgreSqlFlexibleServerNameAvailabilityResponse(valuetype System.Nullable`1&lt;bool&gt; isNameAvailable, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.PostgreSql.FlexibleServers.Models.PostgreSqlFlexibleServerNameUnavailableReason&gt; reason, string message) cil managed" />

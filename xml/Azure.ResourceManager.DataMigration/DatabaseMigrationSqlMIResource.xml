@@ -64,7 +64,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Stop in-progress database migration to SQL Managed Instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}/cancel</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_cancel</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}/cancel</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_cancel</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlMIResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -97,7 +97,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Stop in-progress database migration to SQL Managed Instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}/cancel</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_cancel</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}/cancel</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_cancel</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlMIResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -160,7 +160,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Initiate cutover for in-progress online database migration to SQL Managed Instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}/cutover</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_cutover</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}/cutover</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_cutover</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlMIResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -193,7 +193,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Initiate cutover for in-progress online database migration to SQL Managed Instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}/cutover</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_cutover</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}/cutover</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_cutover</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlMIResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -246,7 +246,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieve the specified database migration for a given SQL Managed Instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlMIResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -276,7 +276,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieve the specified database migration for a given SQL Managed Instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlMIResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -346,7 +346,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create a new database migration to a given SQL Managed Instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlMIResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -379,7 +379,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create a new database migration to a given SQL Managed Instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/managedInstances/{managedInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlMi_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlMIResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

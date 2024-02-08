@@ -63,7 +63,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DefenderEasm.EasmWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -95,7 +95,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DefenderEasm.EasmWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -175,7 +175,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a Workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Delete</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DefenderEasm.EasmWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -204,7 +204,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a Workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Delete</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DefenderEasm.EasmWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -230,7 +230,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a workspace with the given name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DefenderEasm.EasmWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -256,7 +256,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a workspace with the given name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DefenderEasm.EasmWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -284,7 +284,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a label in the given workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}/labels/{labelName}</description></item><item><term>Operation Id</term><description>Labels_GetByWorkspace</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}/labels/{labelName}</description></item><item><term>Operation Id</term><description>Labels_GetByWorkspace</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DefenderEasm.EasmLabelResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -316,7 +316,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a label in the given workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}/labels/{labelName}</description></item><item><term>Operation Id</term><description>Labels_GetByWorkspace</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}/labels/{labelName}</description></item><item><term>Operation Id</term><description>Labels_GetByWorkspace</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DefenderEasm.EasmLabelResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -369,7 +369,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a task in the given workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}/tasks/{taskId}</description></item><item><term>Operation Id</term><description>Tasks_GetByWorkspace</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}/tasks/{taskId}</description></item><item><term>Operation Id</term><description>Tasks_GetByWorkspace</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -401,7 +401,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a task in the given workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}/tasks/{taskId}</description></item><item><term>Operation Id</term><description>Tasks_GetByWorkspace</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}/tasks/{taskId}</description></item><item><term>Operation Id</term><description>Tasks_GetByWorkspace</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -453,7 +453,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DefenderEasm.EasmWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -483,7 +483,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DefenderEasm.EasmWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -532,7 +532,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DefenderEasm.EasmWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -562,7 +562,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DefenderEasm.EasmWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -592,7 +592,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a Workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Update</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DefenderEasm.EasmWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -622,7 +622,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a Workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Easm/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Update</description></item><item><term>Default Api Version</term><description>2023-04-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DefenderEasm.EasmWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

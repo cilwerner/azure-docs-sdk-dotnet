@@ -61,7 +61,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Uses ‘stepId’ and ‘responses’ as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name. &lt;br/&gt;Continue API is used to provide inputs that are required for the specific troubleshooter to progress into the next step in the process. This API is used after the Troubleshooter has been created using the Create API.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}/continue</description></item><item><term>Operation Id</term><description>Troubleshooters_Continue</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}/continue</description></item><item><term>Operation Id</term><description>Troubleshooters_Continue</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.TroubleshooterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -89,7 +89,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Uses ‘stepId’ and ‘responses’ as the trigger to continue the troubleshooting steps for the respective troubleshooter resource name. &lt;br/&gt;Continue API is used to provide inputs that are required for the specific troubleshooter to progress into the next step in the process. This API is used after the Troubleshooter has been created using the Create API.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}/continue</description></item><item><term>Operation Id</term><description>Troubleshooters_Continue</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}/continue</description></item><item><term>Operation Id</term><description>Troubleshooters_Continue</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.TroubleshooterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -162,7 +162,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Ends the troubleshooter action
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}/end</description></item><item><term>Operation Id</term><description>Troubleshooters_End</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}/end</description></item><item><term>Operation Id</term><description>Troubleshooters_End</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.TroubleshooterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -188,7 +188,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Ends the troubleshooter action
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}/end</description></item><item><term>Operation Id</term><description>Troubleshooters_End</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}/end</description></item><item><term>Operation Id</term><description>Troubleshooters_End</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.TroubleshooterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -214,7 +214,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets troubleshooter instance result which includes the step status/result of the troubleshooter resource name that is being executed.&lt;br/&gt; Get API is used to retrieve the result of a Troubleshooter instance, which includes the status and result of each step in the Troubleshooter workflow. This API requires the Troubleshooter resource name that was created using the Create API.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}</description></item><item><term>Operation Id</term><description>Troubleshooters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}</description></item><item><term>Operation Id</term><description>Troubleshooters_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.TroubleshooterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -240,7 +240,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets troubleshooter instance result which includes the step status/result of the troubleshooter resource name that is being executed.&lt;br/&gt; Get API is used to retrieve the result of a Troubleshooter instance, which includes the status and result of each step in the Troubleshooter workflow. This API requires the Troubleshooter resource name that was created using the Create API.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}</description></item><item><term>Operation Id</term><description>Troubleshooters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}</description></item><item><term>Operation Id</term><description>Troubleshooters_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.TroubleshooterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -305,7 +305,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restarts the troubleshooter API using applicable troubleshooter resource name as the input.&lt;br/&gt; It returns new resource name which should be used in subsequent request. The old resource name is obsolete after this API is invoked.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}/restart</description></item><item><term>Operation Id</term><description>Troubleshooters_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}/restart</description></item><item><term>Operation Id</term><description>Troubleshooters_Restart</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.TroubleshooterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -331,7 +331,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restarts the troubleshooter API using applicable troubleshooter resource name as the input.&lt;br/&gt; It returns new resource name which should be used in subsequent request. The old resource name is obsolete after this API is invoked.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}/restart</description></item><item><term>Operation Id</term><description>Troubleshooters_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}/restart</description></item><item><term>Operation Id</term><description>Troubleshooters_Restart</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.TroubleshooterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -362,7 +362,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates the specific troubleshooter action under a resource or subscription using the ‘solutionId’ and  ‘properties.parameters’ as the trigger. &lt;br/&gt; Troubleshooters are step-by-step interactive guidance that scope the problem by collecting additional inputs from you in each stage while troubleshooting an Azure issue. You will be guided down decision tree style workflow and the best possible solution will be presented at the end of the workflow. &lt;br/&gt; Create API creates the Troubleshooter API using ‘parameters’ and ‘solutionId’ &lt;br/&gt; After creating the Troubleshooter instance, the following APIs can be used:&lt;br/&gt; CONTINUE API: to move to the next step in the flow &lt;br/&gt;GET API: to identify the next step after executing the CONTINUE API.   &lt;br/&gt;&lt;br/&gt; &lt;b&gt;Note:&lt;/b&gt; ‘requiredParameters’ from solutions response must be passed via ‘properties. parameters’ in the request body of Troubleshooters API.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}</description></item><item><term>Operation Id</term><description>Troubleshooters_Create</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}</description></item><item><term>Operation Id</term><description>Troubleshooters_Create</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.TroubleshooterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -395,7 +395,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates the specific troubleshooter action under a resource or subscription using the ‘solutionId’ and  ‘properties.parameters’ as the trigger. &lt;br/&gt; Troubleshooters are step-by-step interactive guidance that scope the problem by collecting additional inputs from you in each stage while troubleshooting an Azure issue. You will be guided down decision tree style workflow and the best possible solution will be presented at the end of the workflow. &lt;br/&gt; Create API creates the Troubleshooter API using ‘parameters’ and ‘solutionId’ &lt;br/&gt; After creating the Troubleshooter instance, the following APIs can be used:&lt;br/&gt; CONTINUE API: to move to the next step in the flow &lt;br/&gt;GET API: to identify the next step after executing the CONTINUE API.   &lt;br/&gt;&lt;br/&gt; &lt;b&gt;Note:&lt;/b&gt; ‘requiredParameters’ from solutions response must be passed via ‘properties. parameters’ in the request body of Troubleshooters API.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}</description></item><item><term>Operation Id</term><description>Troubleshooters_Create</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Help/troubleshooters/{troubleshooterName}</description></item><item><term>Operation Id</term><description>Troubleshooters_Create</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SelfHelp.TroubleshooterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

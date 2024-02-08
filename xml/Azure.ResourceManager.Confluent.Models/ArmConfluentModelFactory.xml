@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Confluent.Models.ConfluentAgreement</ReturnType>
@@ -58,7 +60,7 @@
         <param name="retrieveOn"> Date and time in UTC of when the terms were accepted. This is empty if Accepted is false. </param>
         <param name="signature"> Terms signature. </param>
         <param name="isAccepted"> If any version of the terms have been accepted, otherwise false. </param>
-        <summary> Initializes a new instance of ConfluentAgreement. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Confluent.Models.ConfluentAgreement" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Confluent.Models.ConfluentAgreement" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -73,6 +75,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Confluent.Models.ConfluentOfferDetail</ReturnType>
@@ -92,7 +95,7 @@
         <param name="planName"> Offer Plan Name. </param>
         <param name="termUnit"> Offer Plan Term unit. </param>
         <param name="status"> SaaS Offer Status. </param>
-        <summary> Initializes a new instance of ConfluentOfferDetail. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Confluent.Models.ConfluentOfferDetail" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Confluent.Models.ConfluentOfferDetail" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,6 +110,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Confluent</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Confluent.ConfluentOrganizationData</ReturnType>
@@ -138,7 +142,7 @@
         <param name="ssoUri"> SSO url for the Confluent organization. </param>
         <param name="offerDetail"> Confluent offer detail. </param>
         <param name="userDetail"> Subscriber detail. </param>
-        <summary> Initializes a new instance of ConfluentOrganizationData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Confluent.ConfluentOrganizationData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Confluent.ConfluentOrganizationData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>

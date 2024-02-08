@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -33,6 +34,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource&gt;</ReturnType>
@@ -65,7 +68,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -82,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource&gt;&gt;</ReturnType>
@@ -97,7 +101,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -114,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.StateUpdateCommonPostActionResult&gt;</ReturnType>
@@ -128,7 +133,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Commits the configuration of the given resources.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}/commitConfiguration</description></item><item><term>Operation Id</term><description>RoutePolicies_CommitConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}/commitConfiguration</description></item><item><term>Operation Id</term><description>RoutePolicies_CommitConfiguration</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,6 +148,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.StateUpdateCommonPostActionResult&gt;&gt;</ReturnType>
@@ -157,7 +163,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Commits the configuration of the given resources.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}/commitConfiguration</description></item><item><term>Operation Id</term><description>RoutePolicies_CommitConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}/commitConfiguration</description></item><item><term>Operation Id</term><description>RoutePolicies_CommitConfiguration</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -172,6 +178,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -200,6 +207,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyData</ReturnType>
@@ -221,6 +229,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -235,7 +244,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements Route Policy DELETE method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Delete</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -250,6 +259,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -264,7 +274,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements Route Policy DELETE method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Delete</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -279,6 +289,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource&gt;</ReturnType>
@@ -290,7 +301,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements Route Policy GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -305,6 +316,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource&gt;&gt;</ReturnType>
@@ -316,7 +328,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements Route Policy GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -331,6 +343,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -351,6 +364,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource&gt;</ReturnType>
@@ -364,7 +378,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -381,6 +395,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource&gt;&gt;</ReturnType>
@@ -394,7 +409,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -411,6 +426,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -430,6 +446,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource&gt;</ReturnType>
@@ -443,7 +460,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -460,6 +477,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource&gt;&gt;</ReturnType>
@@ -473,7 +491,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -490,6 +508,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource&gt;</ReturnType>
@@ -506,7 +525,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             API to update certain properties of the Route Policy resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Update</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -523,6 +542,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.DeviceUpdateCommonPostActionResult&gt;</ReturnType>
@@ -539,7 +559,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updated the admin state for this Route Policy.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}/updateAdministrativeState</description></item><item><term>Operation Id</term><description>RoutePolicies_UpdateAdministrativeState</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}/updateAdministrativeState</description></item><item><term>Operation Id</term><description>RoutePolicies_UpdateAdministrativeState</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -556,6 +576,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.DeviceUpdateCommonPostActionResult&gt;&gt;</ReturnType>
@@ -572,7 +593,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updated the admin state for this Route Policy.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}/updateAdministrativeState</description></item><item><term>Operation Id</term><description>RoutePolicies_UpdateAdministrativeState</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}/updateAdministrativeState</description></item><item><term>Operation Id</term><description>RoutePolicies_UpdateAdministrativeState</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -589,6 +610,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource&gt;&gt;</ReturnType>
@@ -605,7 +627,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             API to update certain properties of the Route Policy resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}</description></item><item><term>Operation Id</term><description>RoutePolicies_Update</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -622,6 +644,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.ValidateConfigurationResult&gt;</ReturnType>
@@ -636,7 +659,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Validates the configuration of the resources.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}/validateConfiguration</description></item><item><term>Operation Id</term><description>RoutePolicies_ValidateConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}/validateConfiguration</description></item><item><term>Operation Id</term><description>RoutePolicies_ValidateConfiguration</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -651,6 +674,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.ValidateConfigurationResult&gt;&gt;</ReturnType>
@@ -665,7 +689,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Validates the configuration of the resources.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}/validateConfiguration</description></item><item><term>Operation Id</term><description>RoutePolicies_ValidateConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/routePolicies/{routePolicyName}/validateConfiguration</description></item><item><term>Operation Id</term><description>RoutePolicies_ValidateConfiguration</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricRoutePolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

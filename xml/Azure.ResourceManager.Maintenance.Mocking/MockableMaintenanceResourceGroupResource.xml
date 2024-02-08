@@ -60,7 +60,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Apply maintenance updates to resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/default</description></item><item><term>Operation Id</term><description>ApplyUpdates_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/default</description></item><item><term>Operation Id</term><description>ApplyUpdates_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Maintenance.MaintenanceApplyUpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -96,7 +96,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Apply maintenance updates to resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/default</description></item><item><term>Operation Id</term><description>ApplyUpdates_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/default</description></item><item><term>Operation Id</term><description>ApplyUpdates_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Maintenance.MaintenanceApplyUpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -136,7 +136,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Apply maintenance updates to resource with parent
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/default</description></item><item><term>Operation Id</term><description>ApplyUpdates_CreateOrUpdateParent</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/default</description></item><item><term>Operation Id</term><description>ApplyUpdates_CreateOrUpdateParent</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Maintenance.MaintenanceApplyUpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -176,7 +176,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Apply maintenance updates to resource with parent
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/default</description></item><item><term>Operation Id</term><description>ApplyUpdates_CreateOrUpdateParent</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/default</description></item><item><term>Operation Id</term><description>ApplyUpdates_CreateOrUpdateParent</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Maintenance.MaintenanceApplyUpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -216,7 +216,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Register configuration for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -256,7 +256,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Register configuration for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -288,7 +288,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Register configuration for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_CreateOrUpdateParent</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_CreateOrUpdateParent</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -362,7 +362,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Register configuration for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_CreateOrUpdateParent</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_CreateOrUpdateParent</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -438,7 +438,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Register configuration for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -472,7 +472,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Register configuration for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -510,7 +510,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Unregister configuration for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_Delete</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -548,7 +548,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Unregister configuration for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_Delete</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -580,7 +580,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Unregister configuration for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_DeleteParent</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_DeleteParent</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -652,7 +652,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Unregister configuration for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_DeleteParent</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_DeleteParent</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -724,7 +724,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Unregister configuration for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_Delete</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -756,7 +756,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Unregister configuration for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_Delete</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -788,7 +788,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Track maintenance updates to resource with parent
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_GetParent</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_GetParent</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Maintenance.MaintenanceApplyUpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -860,7 +860,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Track maintenance updates to resource with parent
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_GetParent</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_GetParent</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Maintenance.MaintenanceApplyUpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -938,7 +938,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get configuration assignment for resource..
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -976,7 +976,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get configuration assignment for resource..
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1008,7 +1008,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get configuration assignment for resource..
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_GetParent</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_GetParent</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1038,7 +1038,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get configuration assignment for resource..
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_GetParent</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_GetParent</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1068,7 +1068,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get configuration assignment for resource..
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1100,7 +1100,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get configuration assignment for resource..
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1136,7 +1136,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List configurationAssignments for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_List</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationAssignmentData" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1172,7 +1172,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List configurationAssignments for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_List</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationAssignmentData" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1212,7 +1212,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List configurationAssignments for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_ListParent</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_ListParent</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationAssignmentData" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1252,7 +1252,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List configurationAssignments for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_ListParent</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/configurationAssignments</description></item><item><term>Operation Id</term><description>ConfigurationAssignments_ListParent</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationAssignmentData" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1290,7 +1290,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Track maintenance updates to resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Maintenance.MaintenanceApplyUpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1328,7 +1328,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Track maintenance updates to resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Maintenance.MaintenanceApplyUpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1379,7 +1379,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Configuration records within a subscription and resource group
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Maintenance/applyUpdates</description></item><item><term>Operation Id</term><description>ApplyUpdateForResourceGroup_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Maintenance/applyUpdates</description></item><item><term>Operation Id</term><description>ApplyUpdateForResourceGroup_List</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Maintenance.MaintenanceApplyUpdateResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1405,7 +1405,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Configuration records within a subscription and resource group
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Maintenance/applyUpdates</description></item><item><term>Operation Id</term><description>ApplyUpdateForResourceGroup_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Maintenance/applyUpdates</description></item><item><term>Operation Id</term><description>ApplyUpdateForResourceGroup_List</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Maintenance.MaintenanceApplyUpdateResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1433,7 +1433,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Configuration record
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/maintenanceConfigurations/{resourceName}</description></item><item><term>Operation Id</term><description>MaintenanceConfigurations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/maintenanceConfigurations/{resourceName}</description></item><item><term>Operation Id</term><description>MaintenanceConfigurations_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Maintenance.MaintenanceConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1465,7 +1465,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Configuration record
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/maintenanceConfigurations/{resourceName}</description></item><item><term>Operation Id</term><description>MaintenanceConfigurations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/maintenanceConfigurations/{resourceName}</description></item><item><term>Operation Id</term><description>MaintenanceConfigurations_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Maintenance.MaintenanceConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1522,7 +1522,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get updates to resources.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/updates</description></item><item><term>Operation Id</term><description>Updates_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/updates</description></item><item><term>Operation Id</term><description>Updates_List</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Maintenance.Models.MaintenanceUpdate" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1558,7 +1558,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get updates to resources.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/updates</description></item><item><term>Operation Id</term><description>Updates_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/updates</description></item><item><term>Operation Id</term><description>Updates_List</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Maintenance.Models.MaintenanceUpdate" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1598,7 +1598,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get updates to resources.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/updates</description></item><item><term>Operation Id</term><description>Updates_ListParent</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/updates</description></item><item><term>Operation Id</term><description>Updates_ListParent</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Maintenance.Models.MaintenanceUpdate" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1638,7 +1638,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get updates to resources.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/updates</description></item><item><term>Operation Id</term><description>Updates_ListParent</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceParentType}/{resourceParentName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/updates</description></item><item><term>Operation Id</term><description>Updates_ListParent</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Maintenance.Models.MaintenanceUpdate" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1672,7 +1672,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Register configuration for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_Update</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1706,7 +1706,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Register configuration for resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Maintenance/configurationAssignments/{configurationAssignmentName}</description></item><item><term>Operation Id</term><description>ConfigurationAssignmentsForResourceGroup_Update</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">

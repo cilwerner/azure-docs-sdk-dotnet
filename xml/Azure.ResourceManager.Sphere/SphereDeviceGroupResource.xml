@@ -64,7 +64,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Bulk claims the devices. Use '.unassigned' or '.default' for the device group and product names when bulk claiming devices to a catalog only.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/claimDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_ClaimDevices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/claimDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_ClaimDevices</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -97,7 +97,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Bulk claims the devices. Use '.unassigned' or '.default' for the device group and product names when bulk claiming devices to a catalog only.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/claimDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_ClaimDevices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/claimDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_ClaimDevices</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -125,7 +125,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Counts devices in device group. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/countDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_CountDevices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/countDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_CountDevices</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -151,7 +151,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Counts devices in device group. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/countDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_CountDevices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/countDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_CountDevices</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -233,7 +233,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a DeviceGroup. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Delete</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -262,7 +262,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a DeviceGroup. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Delete</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -288,7 +288,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a DeviceGroup. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -314,7 +314,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a DeviceGroup. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -342,7 +342,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Deployment. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -374,7 +374,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Deployment. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -427,7 +427,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Device. Use '.unassigned' or '.default' for the device group and product names when a device does not belong to a device group and product.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/devices/{deviceName}</description></item><item><term>Operation Id</term><description>Devices_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/devices/{deviceName}</description></item><item><term>Operation Id</term><description>Devices_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -459,7 +459,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Device. Use '.unassigned' or '.default' for the device group and product names when a device does not belong to a device group and product.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/devices/{deviceName}</description></item><item><term>Operation Id</term><description>Devices_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/devices/{deviceName}</description></item><item><term>Operation Id</term><description>Devices_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -554,7 +554,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a DeviceGroup. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Update</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -587,7 +587,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a DeviceGroup. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Update</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

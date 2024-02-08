@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -33,6 +34,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -82,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Logic.LogicWorkflowRunActionData</ReturnType>
@@ -103,6 +107,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowRunActionResource&gt;</ReturnType>
@@ -114,7 +119,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a workflow run action.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}</description></item><item><term>Operation Id</term><description>WorkflowRunActions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}</description></item><item><term>Operation Id</term><description>WorkflowRunActions_Get</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowRunActionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -129,6 +134,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowRunActionResource&gt;&gt;</ReturnType>
@@ -140,7 +146,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a workflow run action.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}</description></item><item><term>Operation Id</term><description>WorkflowRunActions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}</description></item><item><term>Operation Id</term><description>WorkflowRunActions_Get</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowRunActionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -155,6 +161,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Logic.Models.LogicExpressionRoot&gt;</ReturnType>
@@ -166,7 +173,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists a workflow run expression trace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/listExpressionTraces</description></item><item><term>Operation Id</term><description>WorkflowRunActions_ListExpressionTraces</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/listExpressionTraces</description></item><item><term>Operation Id</term><description>WorkflowRunActions_ListExpressionTraces</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowRunActionResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Logic.Models.LogicExpressionRoot" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -181,6 +188,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Logic.Models.LogicExpressionRoot&gt;</ReturnType>
@@ -192,7 +200,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists a workflow run expression trace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/listExpressionTraces</description></item><item><term>Operation Id</term><description>WorkflowRunActions_ListExpressionTraces</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/listExpressionTraces</description></item><item><term>Operation Id</term><description>WorkflowRunActions_ListExpressionTraces</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowRunActionResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Logic.Models.LogicExpressionRoot" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -207,6 +215,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowRunActionRepetitionResource&gt;</ReturnType>
@@ -220,7 +229,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a workflow run action repetition.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/repetitions/{repetitionName}</description></item><item><term>Operation Id</term><description>WorkflowRunActionRepetitions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/repetitions/{repetitionName}</description></item><item><term>Operation Id</term><description>WorkflowRunActionRepetitions_Get</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowRunActionRepetitionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -239,6 +248,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowRunActionRepetitionResource&gt;&gt;</ReturnType>
@@ -252,7 +262,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a workflow run action repetition.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/repetitions/{repetitionName}</description></item><item><term>Operation Id</term><description>WorkflowRunActionRepetitions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/repetitions/{repetitionName}</description></item><item><term>Operation Id</term><description>WorkflowRunActionRepetitions_Get</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowRunActionRepetitionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -271,6 +281,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Logic.LogicWorkflowRunActionRepetitionCollection</ReturnType>
@@ -292,6 +303,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Logic.LogicWorkflowRunActionRequestHistoryCollection</ReturnType>
@@ -313,6 +325,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowRunActionRequestHistoryResource&gt;</ReturnType>
@@ -326,7 +339,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a workflow run request history.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/requestHistories/{requestHistoryName}</description></item><item><term>Operation Id</term><description>WorkflowRunActionRequestHistories_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/requestHistories/{requestHistoryName}</description></item><item><term>Operation Id</term><description>WorkflowRunActionRequestHistories_Get</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowRunActionRequestHistoryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -345,6 +358,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowRunActionRequestHistoryResource&gt;&gt;</ReturnType>
@@ -358,7 +372,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a workflow run request history.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/requestHistories/{requestHistoryName}</description></item><item><term>Operation Id</term><description>WorkflowRunActionRequestHistories_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/requestHistories/{requestHistoryName}</description></item><item><term>Operation Id</term><description>WorkflowRunActionRequestHistories_Get</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowRunActionRequestHistoryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -377,6 +391,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowRunActionScopeRepetitionResource&gt;</ReturnType>
@@ -390,7 +405,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a workflow run action scoped repetition.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/scopeRepetitions/{repetitionName}</description></item><item><term>Operation Id</term><description>WorkflowRunActionScopeRepetitions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/scopeRepetitions/{repetitionName}</description></item><item><term>Operation Id</term><description>WorkflowRunActionScopeRepetitions_Get</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowRunActionScopeRepetitionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -409,6 +424,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowRunActionScopeRepetitionResource&gt;&gt;</ReturnType>
@@ -422,7 +438,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a workflow run action scoped repetition.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/scopeRepetitions/{repetitionName}</description></item><item><term>Operation Id</term><description>WorkflowRunActionScopeRepetitions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/scopeRepetitions/{repetitionName}</description></item><item><term>Operation Id</term><description>WorkflowRunActionScopeRepetitions_Get</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowRunActionScopeRepetitionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -441,6 +457,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Logic.LogicWorkflowRunActionScopeRepetitionCollection</ReturnType>
@@ -462,6 +479,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -482,6 +500,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>

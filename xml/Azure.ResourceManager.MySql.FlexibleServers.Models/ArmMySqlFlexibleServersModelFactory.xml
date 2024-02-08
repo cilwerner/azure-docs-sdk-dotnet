@@ -167,6 +167,32 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="MySqlFlexibleServerBackupSettings">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerBackupSettings MySqlFlexibleServerBackupSettings (string backupName = default, Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerBackupFormat? backupFormat = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerBackupSettings MySqlFlexibleServerBackupSettings(string backupName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerBackupFormat&gt; backupFormat) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MySql.FlexibleServers.Models.ArmMySqlFlexibleServersModelFactory.MySqlFlexibleServerBackupSettings(System.String,System.Nullable{Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerBackupFormat})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function MySqlFlexibleServerBackupSettings (Optional backupName As String = Nothing, Optional backupFormat As Nullable(Of MySqlFlexibleServerBackupFormat) = Nothing) As MySqlFlexibleServerBackupSettings" />
+      <MemberSignature Language="F#" Value="static member MySqlFlexibleServerBackupSettings : string * Nullable&lt;Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerBackupFormat&gt; -&gt; Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerBackupSettings" Usage="Azure.ResourceManager.MySql.FlexibleServers.Models.ArmMySqlFlexibleServersModelFactory.MySqlFlexibleServerBackupSettings (backupName, backupFormat)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.MySql</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerBackupSettings</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="backupName" Type="System.String" />
+        <Parameter Name="backupFormat" Type="System.Nullable&lt;Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerBackupFormat&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="backupName"> The name of the backup. </param>
+        <param name="backupFormat"> Backup Format for the current backup. (CollatedFormat is INTERNAL – DO NOT USE). </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerBackupSettings" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerBackupSettings" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="MySqlFlexibleServerCapabilityProperties">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerCapabilityProperties MySqlFlexibleServerCapabilityProperties (string zone = default, System.Collections.Generic.IEnumerable&lt;string&gt; supportedHAMode = default, System.Collections.Generic.IEnumerable&lt;string&gt; supportedGeoBackupRegions = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerEditionCapability&gt; supportedFlexibleServerEditions = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerCapabilityProperties MySqlFlexibleServerCapabilityProperties(string zone, class System.Collections.Generic.IEnumerable`1&lt;string&gt; supportedHAMode, class System.Collections.Generic.IEnumerable`1&lt;string&gt; supportedGeoBackupRegions, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerEditionCapability&gt; supportedFlexibleServerEditions) cil managed" />
@@ -536,6 +562,32 @@
         <param name="uri"> The url to download the log file from. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerLogFile" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerLogFile" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MySqlFlexibleServerNameAvailabilityContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerNameAvailabilityContent MySqlFlexibleServerNameAvailabilityContent (string name = default, Azure.Core.ResourceType? resourceType = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerNameAvailabilityContent MySqlFlexibleServerNameAvailabilityContent(string name, valuetype System.Nullable`1&lt;valuetype Azure.Core.ResourceType&gt; resourceType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MySql.FlexibleServers.Models.ArmMySqlFlexibleServersModelFactory.MySqlFlexibleServerNameAvailabilityContent(System.String,System.Nullable{Azure.Core.ResourceType})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function MySqlFlexibleServerNameAvailabilityContent (Optional name As String = Nothing, Optional resourceType As Nullable(Of ResourceType) = Nothing) As MySqlFlexibleServerNameAvailabilityContent" />
+      <MemberSignature Language="F#" Value="static member MySqlFlexibleServerNameAvailabilityContent : string * Nullable&lt;Azure.Core.ResourceType&gt; -&gt; Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerNameAvailabilityContent" Usage="Azure.ResourceManager.MySql.FlexibleServers.Models.ArmMySqlFlexibleServersModelFactory.MySqlFlexibleServerNameAvailabilityContent (name, resourceType)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.MySql</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerNameAvailabilityContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="System.Nullable&lt;Azure.Core.ResourceType&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="name"> Resource name to verify. </param>
+        <param name="resourceType"> Resource type used for verification. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerNameAvailabilityContent" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerNameAvailabilityContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

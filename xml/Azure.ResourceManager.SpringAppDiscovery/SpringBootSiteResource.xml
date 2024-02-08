@@ -63,7 +63,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -95,7 +95,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -175,7 +175,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a springbootsites resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Delete</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -204,7 +204,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a springbootsites resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Delete</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -230,7 +230,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a springbootsites resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -256,7 +256,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a springbootsites resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -284,7 +284,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a springbootapps resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/springbootapps/{springbootappsName}</description></item><item><term>Operation Id</term><description>springbootapps_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/springbootapps/{springbootappsName}</description></item><item><term>Operation Id</term><description>springbootapps_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootAppResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -316,7 +316,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a springbootapps resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/springbootapps/{springbootappsName}</description></item><item><term>Operation Id</term><description>springbootapps_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/springbootapps/{springbootappsName}</description></item><item><term>Operation Id</term><description>springbootapps_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootAppResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -369,7 +369,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List springbootservers resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/springbootservers/{springbootserversName}</description></item><item><term>Operation Id</term><description>springbootservers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/springbootservers/{springbootserversName}</description></item><item><term>Operation Id</term><description>springbootservers_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -401,7 +401,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List springbootservers resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/springbootservers/{springbootserversName}</description></item><item><term>Operation Id</term><description>springbootservers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/springbootservers/{springbootserversName}</description></item><item><term>Operation Id</term><description>springbootservers_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -475,7 +475,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the ErrorSummaries resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/errorSummaries/{errorSummaryName}</description></item><item><term>Operation Id</term><description>ErrorSummaries_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/errorSummaries/{errorSummaryName}</description></item><item><term>Operation Id</term><description>ErrorSummaries_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteErrorSummaryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -507,7 +507,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the ErrorSummaries resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/errorSummaries/{errorSummaryName}</description></item><item><term>Operation Id</term><description>ErrorSummaries_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/errorSummaries/{errorSummaryName}</description></item><item><term>Operation Id</term><description>ErrorSummaries_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteErrorSummaryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -560,7 +560,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the Summaries resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/summaries/{summaryName}</description></item><item><term>Operation Id</term><description>Summaries_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/summaries/{summaryName}</description></item><item><term>Operation Id</term><description>Summaries_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteSummaryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -592,7 +592,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the Summaries resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/summaries/{summaryName}</description></item><item><term>Operation Id</term><description>Summaries_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{siteName}/summaries/{summaryName}</description></item><item><term>Operation Id</term><description>Summaries_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteSummaryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -644,7 +644,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -674,7 +674,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -723,7 +723,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -753,7 +753,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Get</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -784,7 +784,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Trigger refresh springbootsites action
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}/refreshSite</description></item><item><term>Operation Id</term><description>springbootsites_TriggerRefreshSite</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}/refreshSite</description></item><item><term>Operation Id</term><description>springbootsites_TriggerRefreshSite</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -813,7 +813,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Trigger refresh springbootsites action
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}/refreshSite</description></item><item><term>Operation Id</term><description>springbootsites_TriggerRefreshSite</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}/refreshSite</description></item><item><term>Operation Id</term><description>springbootsites_TriggerRefreshSite</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -844,7 +844,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a springbootsites resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Update</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -877,7 +877,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a springbootsites resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OffAzureSpringBoot/springbootsites/{springbootsitesName}</description></item><item><term>Operation Id</term><description>springbootsites_Update</description></item><item><term>Default Api Version</term><description>2023-01-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SpringAppDiscovery.SpringBootSiteResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

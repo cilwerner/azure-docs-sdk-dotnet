@@ -40,8 +40,108 @@
         <param name="cpuCount"> CPUCount specifies the maximum number of CPUs that can be allocated in the cloud. </param>
         <param name="memoryMB"> MemoryMB specifies a memory usage limit in megabytes. </param>
         <param name="vmCount"> VMCount gives the max number of VMs that can be deployed in the cloud. </param>
-        <summary> Initializes a new instance of CloudCapacity. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.Models.CloudCapacity" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.Models.CloudCapacity" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloudInventoryItem">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ArcScVmm.Models.CloudInventoryItem CloudInventoryItem (string managedResourceId = default, string uuid = default, string inventoryItemName = default, string provisioningState = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ArcScVmm.Models.CloudInventoryItem CloudInventoryItem(string managedResourceId, string uuid, string inventoryItemName, string provisioningState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArcScVmm.Models.ArmArcScVmmModelFactory.CloudInventoryItem(System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CloudInventoryItem (Optional managedResourceId As String = Nothing, Optional uuid As String = Nothing, Optional inventoryItemName As String = Nothing, Optional provisioningState As String = Nothing) As CloudInventoryItem" />
+      <MemberSignature Language="F#" Value="static member CloudInventoryItem : string * string * string * string -&gt; Azure.ResourceManager.ArcScVmm.Models.CloudInventoryItem" Usage="Azure.ResourceManager.ArcScVmm.Models.ArmArcScVmmModelFactory.CloudInventoryItem (managedResourceId, uuid, inventoryItemName, provisioningState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ArcScVmm</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ArcScVmm.Models.CloudInventoryItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="managedResourceId" Type="System.String" />
+        <Parameter Name="uuid" Type="System.String" />
+        <Parameter Name="inventoryItemName" Type="System.String" />
+        <Parameter Name="provisioningState" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="managedResourceId"> Gets the tracked resource id corresponding to the inventory resource. </param>
+        <param name="uuid"> Gets the UUID (which is assigned by VMM) for the inventory item. </param>
+        <param name="inventoryItemName"> Gets the Managed Object name in VMM for the inventory item. </param>
+        <param name="provisioningState"> Gets the provisioning state. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.Models.CloudInventoryItem" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.Models.CloudInventoryItem" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InventoryItemData">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ArcScVmm.InventoryItemData InventoryItemData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, Azure.ResourceManager.ArcScVmm.Models.InventoryItemProperties properties = default, string kind = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ArcScVmm.InventoryItemData InventoryItemData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class Azure.ResourceManager.ArcScVmm.Models.InventoryItemProperties properties, string kind) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArcScVmm.Models.ArmArcScVmmModelFactory.InventoryItemData(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,Azure.ResourceManager.ArcScVmm.Models.InventoryItemProperties,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function InventoryItemData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional properties As InventoryItemProperties = Nothing, Optional kind As String = Nothing) As InventoryItemData" />
+      <MemberSignature Language="F#" Value="static member InventoryItemData : Azure.Core.ResourceIdentifier * string * Azure.Core.ResourceType * Azure.ResourceManager.Models.SystemData * Azure.ResourceManager.ArcScVmm.Models.InventoryItemProperties * string -&gt; Azure.ResourceManager.ArcScVmm.InventoryItemData" Usage="Azure.ResourceManager.ArcScVmm.Models.ArmArcScVmmModelFactory.InventoryItemData (id, name, resourceType, systemData, properties, kind)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ArcScVmm</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ArcScVmm.InventoryItemData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.ArcScVmm.Models.InventoryItemProperties" />
+        <Parameter Name="kind" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The id. </param>
+        <param name="name"> The name. </param>
+        <param name="resourceType"> The resourceType. </param>
+        <param name="systemData"> The systemData. </param>
+        <param name="properties">
+            Resource properties.
+            Please note <see cref="T:Azure.ResourceManager.ArcScVmm.Models.InventoryItemProperties" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.ArcScVmm.Models.CloudInventoryItem" />, <see cref="T:Azure.ResourceManager.ArcScVmm.Models.VirtualMachineInventoryItem" />, <see cref="T:Azure.ResourceManager.ArcScVmm.Models.VirtualMachineTemplateInventoryItem" /> and <see cref="T:Azure.ResourceManager.ArcScVmm.Models.VirtualNetworkInventoryItem" />.
+            </param>
+        <param name="kind"> Metadata used by portal/tooling/etc to render different UX experiences for resources of the same type; e.g. ApiApps are a kind of Microsoft.Web/sites type.  If supported, the resource provider must validate and persist this value. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.InventoryItemData" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.InventoryItemData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InventoryItemProperties">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ArcScVmm.Models.InventoryItemProperties InventoryItemProperties (string inventoryType = &quot;Unknown&quot;, string managedResourceId = default, string uuid = default, string inventoryItemName = default, string provisioningState = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ArcScVmm.Models.InventoryItemProperties InventoryItemProperties(string inventoryType, string managedResourceId, string uuid, string inventoryItemName, string provisioningState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArcScVmm.Models.ArmArcScVmmModelFactory.InventoryItemProperties(System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function InventoryItemProperties (Optional inventoryType As String = &quot;Unknown&quot;, Optional managedResourceId As String = Nothing, Optional uuid As String = Nothing, Optional inventoryItemName As String = Nothing, Optional provisioningState As String = Nothing) As InventoryItemProperties" />
+      <MemberSignature Language="F#" Value="static member InventoryItemProperties : string * string * string * string * string -&gt; Azure.ResourceManager.ArcScVmm.Models.InventoryItemProperties" Usage="Azure.ResourceManager.ArcScVmm.Models.ArmArcScVmmModelFactory.InventoryItemProperties (inventoryType, managedResourceId, uuid, inventoryItemName, provisioningState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ArcScVmm</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ArcScVmm.Models.InventoryItemProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inventoryType" Type="System.String" />
+        <Parameter Name="managedResourceId" Type="System.String" />
+        <Parameter Name="uuid" Type="System.String" />
+        <Parameter Name="inventoryItemName" Type="System.String" />
+        <Parameter Name="provisioningState" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="inventoryType"> They inventory type. </param>
+        <param name="managedResourceId"> Gets the tracked resource id corresponding to the inventory resource. </param>
+        <param name="uuid"> Gets the UUID (which is assigned by VMM) for the inventory item. </param>
+        <param name="inventoryItemName"> Gets the Managed Object name in VMM for the inventory item. </param>
+        <param name="provisioningState"> Gets the provisioning state. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.Models.InventoryItemProperties" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.Models.InventoryItemProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -84,7 +184,7 @@
         <param name="ipv6AddressType"> Gets or sets the ipv6 address type. </param>
         <param name="macAddressType"> Gets or sets the mac address type. </param>
         <param name="nicId"> Gets or sets the nic id. </param>
-        <summary> Initializes a new instance of NetworkInterfaces. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.Models.NetworkInterfaces" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.Models.NetworkInterfaces" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -114,7 +214,7 @@
         <param name="computerName"> Gets or sets computer name. </param>
         <param name="osType"> Gets or sets the type of the os. </param>
         <param name="osName"> Gets or sets os name. </param>
-        <summary> Initializes a new instance of OSProfile. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.Models.OSProfile" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.Models.OSProfile" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -156,7 +256,7 @@
         <param name="availabilitySetName"> Name of the availability set. </param>
         <param name="vmmServerId"> ARM Id of the vmmServer resource in which this resource resides. </param>
         <param name="provisioningState"> Gets or sets the provisioning state. </param>
-        <summary> Initializes a new instance of ScVmmAvailabilitySetData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmAvailabilitySetData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmAvailabilitySetData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -206,7 +306,7 @@
         <param name="cloudCapacity"> Capacity of the cloud. </param>
         <param name="storageQoSPolicies"> List of QoS policies available for the cloud. </param>
         <param name="provisioningState"> Gets or sets the provisioning state. </param>
-        <summary> Initializes a new instance of ScVmmCloudData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmCloudData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmCloudData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -258,7 +358,7 @@
         <param name="uuid"> Unique ID of vmmServer. </param>
         <param name="version"> Version is the version of the vmmSever. </param>
         <param name="provisioningState"> Gets or sets the provisioning state. </param>
-        <summary> Initializes a new instance of ScVmmServerData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -326,7 +426,7 @@
         <param name="generation"> Gets or sets the generation for the vm. </param>
         <param name="powerState"> Gets the power state of the virtual machine. </param>
         <param name="provisioningState"> Gets or sets the provisioning state. </param>
-        <summary> Initializes a new instance of ScVmmVirtualMachineData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -398,7 +498,7 @@
         <param name="networkInterfaces"> Gets or sets the network interfaces of the template. </param>
         <param name="disks"> Gets or sets the disks of the template. </param>
         <param name="provisioningState"> Gets or sets the provisioning state. </param>
-        <summary> Initializes a new instance of ScVmmVirtualMachineTemplateData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineTemplateData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineTemplateData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -444,7 +544,7 @@
         <param name="vmmServerId"> ARM Id of the vmmServer resource in which this resource resides. </param>
         <param name="networkName"> Name of the virtual network in vmmServer. </param>
         <param name="provisioningState"> Gets or sets the provisioning state. </param>
-        <summary> Initializes a new instance of ScVmmVirtualNetworkData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualNetworkData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualNetworkData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -478,7 +578,7 @@
         <param name="iopsMinimum"> The minimum IO operations per second. </param>
         <param name="bandwidthLimit"> The Bandwidth Limit for internet traffic. </param>
         <param name="policyId"> The underlying policy. </param>
-        <summary> Initializes a new instance of StorageQoSPolicy. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.Models.StorageQoSPolicy" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.Models.StorageQoSPolicy" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -528,8 +628,116 @@
         <param name="templateDiskId"> Gets or sets the disk id in the template. </param>
         <param name="storageQoSPolicy"> The QoS policy for the disk. </param>
         <param name="createDiffDisk"> Gets or sets a value indicating diff disk. </param>
-        <summary> Initializes a new instance of VirtualDisk. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.Models.VirtualDisk" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.Models.VirtualDisk" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualMachineInventoryItem">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ArcScVmm.Models.VirtualMachineInventoryItem VirtualMachineInventoryItem (string managedResourceId = default, string uuid = default, string inventoryItemName = default, string provisioningState = default, Azure.ResourceManager.ArcScVmm.Models.OSType? osType = default, string osName = default, string powerState = default, System.Collections.Generic.IEnumerable&lt;string&gt; ipAddresses = default, Azure.ResourceManager.ArcScVmm.Models.InventoryItemDetails cloud = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ArcScVmm.Models.VirtualMachineInventoryItem VirtualMachineInventoryItem(string managedResourceId, string uuid, string inventoryItemName, string provisioningState, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ArcScVmm.Models.OSType&gt; osType, string osName, string powerState, class System.Collections.Generic.IEnumerable`1&lt;string&gt; ipAddresses, class Azure.ResourceManager.ArcScVmm.Models.InventoryItemDetails cloud) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArcScVmm.Models.ArmArcScVmmModelFactory.VirtualMachineInventoryItem(System.String,System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.ArcScVmm.Models.OSType},System.String,System.String,System.Collections.Generic.IEnumerable{System.String},Azure.ResourceManager.ArcScVmm.Models.InventoryItemDetails)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function VirtualMachineInventoryItem (Optional managedResourceId As String = Nothing, Optional uuid As String = Nothing, Optional inventoryItemName As String = Nothing, Optional provisioningState As String = Nothing, Optional osType As Nullable(Of OSType) = Nothing, Optional osName As String = Nothing, Optional powerState As String = Nothing, Optional ipAddresses As IEnumerable(Of String) = Nothing, Optional cloud As InventoryItemDetails = Nothing) As VirtualMachineInventoryItem" />
+      <MemberSignature Language="F#" Value="static member VirtualMachineInventoryItem : string * string * string * string * Nullable&lt;Azure.ResourceManager.ArcScVmm.Models.OSType&gt; * string * string * seq&lt;string&gt; * Azure.ResourceManager.ArcScVmm.Models.InventoryItemDetails -&gt; Azure.ResourceManager.ArcScVmm.Models.VirtualMachineInventoryItem" Usage="Azure.ResourceManager.ArcScVmm.Models.ArmArcScVmmModelFactory.VirtualMachineInventoryItem (managedResourceId, uuid, inventoryItemName, provisioningState, osType, osName, powerState, ipAddresses, cloud)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ArcScVmm</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ArcScVmm.Models.VirtualMachineInventoryItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="managedResourceId" Type="System.String" />
+        <Parameter Name="uuid" Type="System.String" />
+        <Parameter Name="inventoryItemName" Type="System.String" />
+        <Parameter Name="provisioningState" Type="System.String" />
+        <Parameter Name="osType" Type="System.Nullable&lt;Azure.ResourceManager.ArcScVmm.Models.OSType&gt;" />
+        <Parameter Name="osName" Type="System.String" />
+        <Parameter Name="powerState" Type="System.String" />
+        <Parameter Name="ipAddresses" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="cloud" Type="Azure.ResourceManager.ArcScVmm.Models.InventoryItemDetails" />
+      </Parameters>
+      <Docs>
+        <param name="managedResourceId"> Gets the tracked resource id corresponding to the inventory resource. </param>
+        <param name="uuid"> Gets the UUID (which is assigned by VMM) for the inventory item. </param>
+        <param name="inventoryItemName"> Gets the Managed Object name in VMM for the inventory item. </param>
+        <param name="provisioningState"> Gets the provisioning state. </param>
+        <param name="osType"> Gets or sets the type of the os. </param>
+        <param name="osName"> Gets or sets os name. </param>
+        <param name="powerState"> Gets the power state of the virtual machine. </param>
+        <param name="ipAddresses"> Gets or sets the nic ip addresses. </param>
+        <param name="cloud"> Cloud inventory resource details where the VM is present. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.Models.VirtualMachineInventoryItem" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.Models.VirtualMachineInventoryItem" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualMachineTemplateInventoryItem">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ArcScVmm.Models.VirtualMachineTemplateInventoryItem VirtualMachineTemplateInventoryItem (string managedResourceId = default, string uuid = default, string inventoryItemName = default, string provisioningState = default, int? cpuCount = default, int? memoryMB = default, Azure.ResourceManager.ArcScVmm.Models.OSType? osType = default, string osName = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ArcScVmm.Models.VirtualMachineTemplateInventoryItem VirtualMachineTemplateInventoryItem(string managedResourceId, string uuid, string inventoryItemName, string provisioningState, valuetype System.Nullable`1&lt;int32&gt; cpuCount, valuetype System.Nullable`1&lt;int32&gt; memoryMB, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.ArcScVmm.Models.OSType&gt; osType, string osName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArcScVmm.Models.ArmArcScVmmModelFactory.VirtualMachineTemplateInventoryItem(System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{Azure.ResourceManager.ArcScVmm.Models.OSType},System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function VirtualMachineTemplateInventoryItem (Optional managedResourceId As String = Nothing, Optional uuid As String = Nothing, Optional inventoryItemName As String = Nothing, Optional provisioningState As String = Nothing, Optional cpuCount As Nullable(Of Integer) = Nothing, Optional memoryMB As Nullable(Of Integer) = Nothing, Optional osType As Nullable(Of OSType) = Nothing, Optional osName As String = Nothing) As VirtualMachineTemplateInventoryItem" />
+      <MemberSignature Language="F#" Value="static member VirtualMachineTemplateInventoryItem : string * string * string * string * Nullable&lt;int&gt; * Nullable&lt;int&gt; * Nullable&lt;Azure.ResourceManager.ArcScVmm.Models.OSType&gt; * string -&gt; Azure.ResourceManager.ArcScVmm.Models.VirtualMachineTemplateInventoryItem" Usage="Azure.ResourceManager.ArcScVmm.Models.ArmArcScVmmModelFactory.VirtualMachineTemplateInventoryItem (managedResourceId, uuid, inventoryItemName, provisioningState, cpuCount, memoryMB, osType, osName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ArcScVmm</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ArcScVmm.Models.VirtualMachineTemplateInventoryItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="managedResourceId" Type="System.String" />
+        <Parameter Name="uuid" Type="System.String" />
+        <Parameter Name="inventoryItemName" Type="System.String" />
+        <Parameter Name="provisioningState" Type="System.String" />
+        <Parameter Name="cpuCount" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="memoryMB" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="osType" Type="System.Nullable&lt;Azure.ResourceManager.ArcScVmm.Models.OSType&gt;" />
+        <Parameter Name="osName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="managedResourceId"> Gets the tracked resource id corresponding to the inventory resource. </param>
+        <param name="uuid"> Gets the UUID (which is assigned by VMM) for the inventory item. </param>
+        <param name="inventoryItemName"> Gets the Managed Object name in VMM for the inventory item. </param>
+        <param name="provisioningState"> Gets the provisioning state. </param>
+        <param name="cpuCount"> Gets or sets the desired number of vCPUs for the vm. </param>
+        <param name="memoryMB"> MemoryMB is the desired size of a virtual machine's memory, in MB. </param>
+        <param name="osType"> Gets or sets the type of the os. </param>
+        <param name="osName"> Gets or sets os name. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.Models.VirtualMachineTemplateInventoryItem" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.Models.VirtualMachineTemplateInventoryItem" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VirtualNetworkInventoryItem">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ArcScVmm.Models.VirtualNetworkInventoryItem VirtualNetworkInventoryItem (string managedResourceId = default, string uuid = default, string inventoryItemName = default, string provisioningState = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ArcScVmm.Models.VirtualNetworkInventoryItem VirtualNetworkInventoryItem(string managedResourceId, string uuid, string inventoryItemName, string provisioningState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArcScVmm.Models.ArmArcScVmmModelFactory.VirtualNetworkInventoryItem(System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function VirtualNetworkInventoryItem (Optional managedResourceId As String = Nothing, Optional uuid As String = Nothing, Optional inventoryItemName As String = Nothing, Optional provisioningState As String = Nothing) As VirtualNetworkInventoryItem" />
+      <MemberSignature Language="F#" Value="static member VirtualNetworkInventoryItem : string * string * string * string -&gt; Azure.ResourceManager.ArcScVmm.Models.VirtualNetworkInventoryItem" Usage="Azure.ResourceManager.ArcScVmm.Models.ArmArcScVmmModelFactory.VirtualNetworkInventoryItem (managedResourceId, uuid, inventoryItemName, provisioningState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ArcScVmm</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ArcScVmm.Models.VirtualNetworkInventoryItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="managedResourceId" Type="System.String" />
+        <Parameter Name="uuid" Type="System.String" />
+        <Parameter Name="inventoryItemName" Type="System.String" />
+        <Parameter Name="provisioningState" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="managedResourceId"> Gets the tracked resource id corresponding to the inventory resource. </param>
+        <param name="uuid"> Gets the UUID (which is assigned by VMM) for the inventory item. </param>
+        <param name="inventoryItemName"> Gets the Managed Object name in VMM for the inventory item. </param>
+        <param name="provisioningState"> Gets the provisioning state. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.Models.VirtualNetworkInventoryItem" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.ArcScVmm.Models.VirtualNetworkInventoryItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
