@@ -63,7 +63,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.HubResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -95,7 +95,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.HubResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -175,7 +175,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Delete</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.HubResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -204,7 +204,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Delete</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.HubResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -230,7 +230,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.HubResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -256,7 +256,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.HubResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -284,7 +284,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an authorization policy in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/authorizationPolicies/{authorizationPolicyName}</description></item><item><term>Operation Id</term><description>AuthorizationPolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/authorizationPolicies/{authorizationPolicyName}</description></item><item><term>Operation Id</term><description>AuthorizationPolicies_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.AuthorizationPolicyResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -316,7 +316,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an authorization policy in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/authorizationPolicies/{authorizationPolicyName}</description></item><item><term>Operation Id</term><description>AuthorizationPolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/authorizationPolicies/{authorizationPolicyName}</description></item><item><term>Operation Id</term><description>AuthorizationPolicies_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.AuthorizationPolicyResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -369,7 +369,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a connector in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}</description></item><item><term>Operation Id</term><description>Connectors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}</description></item><item><term>Operation Id</term><description>Connectors_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.ConnectorResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -401,7 +401,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a connector in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}</description></item><item><term>Operation Id</term><description>Connectors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}</description></item><item><term>Operation Id</term><description>Connectors_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.ConnectorResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -456,7 +456,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified interaction.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}</description></item><item><term>Operation Id</term><description>Interactions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}</description></item><item><term>Operation Id</term><description>Interactions_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.InteractionResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -490,7 +490,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified interaction.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}</description></item><item><term>Operation Id</term><description>Interactions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}</description></item><item><term>Operation Id</term><description>Interactions_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.InteractionResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -543,7 +543,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a KPI in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.KpiResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -575,7 +575,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a KPI in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.KpiResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -628,7 +628,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a link in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/links/{linkName}</description></item><item><term>Operation Id</term><description>Links_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/links/{linkName}</description></item><item><term>Operation Id</term><description>Links_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.LinkResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -660,7 +660,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a link in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/links/{linkName}</description></item><item><term>Operation Id</term><description>Links_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/links/{linkName}</description></item><item><term>Operation Id</term><description>Links_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.LinkResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -713,7 +713,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Prediction in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/predictions/{predictionName}</description></item><item><term>Operation Id</term><description>Predictions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/predictions/{predictionName}</description></item><item><term>Operation Id</term><description>Predictions_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.PredictionResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -745,7 +745,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Prediction in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/predictions/{predictionName}</description></item><item><term>Operation Id</term><description>Predictions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/predictions/{predictionName}</description></item><item><term>Operation Id</term><description>Predictions_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.PredictionResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -800,7 +800,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/profiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/profiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.ProfileResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -834,7 +834,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/profiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/profiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.ProfileResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -887,7 +887,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified relationship Link.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/relationshipLinks/{relationshipLinkName}</description></item><item><term>Operation Id</term><description>RelationshipLinks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/relationshipLinks/{relationshipLinkName}</description></item><item><term>Operation Id</term><description>RelationshipLinks_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.RelationshipLinkResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -919,7 +919,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified relationship Link.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/relationshipLinks/{relationshipLinkName}</description></item><item><term>Operation Id</term><description>RelationshipLinks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/relationshipLinks/{relationshipLinkName}</description></item><item><term>Operation Id</term><description>RelationshipLinks_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.RelationshipLinkResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -972,7 +972,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified relationship.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/relationships/{relationshipName}</description></item><item><term>Operation Id</term><description>Relationships_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/relationships/{relationshipName}</description></item><item><term>Operation Id</term><description>Relationships_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.RelationshipResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1004,7 +1004,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified relationship.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/relationships/{relationshipName}</description></item><item><term>Operation Id</term><description>Relationships_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/relationships/{relationshipName}</description></item><item><term>Operation Id</term><description>Relationships_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.RelationshipResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1057,7 +1057,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the role assignment in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/roleAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>RoleAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/roleAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>RoleAssignments_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.RoleAssignmentResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1089,7 +1089,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the role assignment in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/roleAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>RoleAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/roleAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>RoleAssignments_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.RoleAssignmentResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1140,7 +1140,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all the roles for the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/roles</description></item><item><term>Operation Id</term><description>Roles_ListByHub</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/roles</description></item><item><term>Operation Id</term><description>Roles_ListByHub</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.CustomerInsights.Models.RoleResourceFormat" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1166,7 +1166,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all the roles for the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/roles</description></item><item><term>Operation Id</term><description>Roles_ListByHub</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/roles</description></item><item><term>Operation Id</term><description>Roles_ListByHub</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.CustomerInsights.Models.RoleResourceFormat" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1194,7 +1194,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets data image upload URL.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/images/getDataImageUploadUrl</description></item><item><term>Operation Id</term><description>Images_GetUploadUrlForData</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/images/getDataImageUploadUrl</description></item><item><term>Operation Id</term><description>Images_GetUploadUrlForData</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1224,7 +1224,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets data image upload URL.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/images/getDataImageUploadUrl</description></item><item><term>Operation Id</term><description>Images_GetUploadUrlForData</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/images/getDataImageUploadUrl</description></item><item><term>Operation Id</term><description>Images_GetUploadUrlForData</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1254,7 +1254,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets entity type (profile or interaction) image upload URL.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/images/getEntityTypeImageUploadUrl</description></item><item><term>Operation Id</term><description>Images_GetUploadUrlForEntityType</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/images/getEntityTypeImageUploadUrl</description></item><item><term>Operation Id</term><description>Images_GetUploadUrlForEntityType</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1284,7 +1284,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets entity type (profile or interaction) image upload URL.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/images/getEntityTypeImageUploadUrl</description></item><item><term>Operation Id</term><description>Images_GetUploadUrlForEntityType</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/images/getEntityTypeImageUploadUrl</description></item><item><term>Operation Id</term><description>Images_GetUploadUrlForEntityType</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1316,7 +1316,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a view in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/views/{viewName}</description></item><item><term>Operation Id</term><description>Views_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/views/{viewName}</description></item><item><term>Operation Id</term><description>Views_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.ViewResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1350,7 +1350,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a view in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/views/{viewName}</description></item><item><term>Operation Id</term><description>Views_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/views/{viewName}</description></item><item><term>Operation Id</term><description>Views_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.ViewResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1403,7 +1403,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a widget type in the specified hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/widgetTypes/{widgetTypeName}</description></item><item><term>Operation Id</term><description>WidgetTypes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/widgetTypes/{widgetTypeName}</description></item><item><term>Operation Id</term><description>WidgetTypes_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.WidgetTypeResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1435,7 +1435,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a widget type in the specified hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/widgetTypes/{widgetTypeName}</description></item><item><term>Operation Id</term><description>WidgetTypes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/widgetTypes/{widgetTypeName}</description></item><item><term>Operation Id</term><description>WidgetTypes_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.WidgetTypeResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1508,7 +1508,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.HubResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1538,7 +1538,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.HubResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1587,7 +1587,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.HubResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1617,7 +1617,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.HubResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1647,7 +1647,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a Hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Update</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.HubResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1677,7 +1677,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a Hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}</description></item><item><term>Operation Id</term><description>Hubs_Update</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.HubResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

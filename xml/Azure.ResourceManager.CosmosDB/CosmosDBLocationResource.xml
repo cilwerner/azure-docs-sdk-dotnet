@@ -68,7 +68,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of name for resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}/checkMongoClusterNameAvailability</description></item><item><term>Operation Id</term><description>MongoClusters_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}/checkMongoClusterNameAvailability</description></item><item><term>Operation Id</term><description>MongoClusters_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -98,7 +98,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of name for resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}/checkMongoClusterNameAvailability</description></item><item><term>Operation Id</term><description>MongoClusters_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}/checkMongoClusterNameAvailability</description></item><item><term>Operation Id</term><description>MongoClusters_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -176,7 +176,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of an existing Cosmos DB location
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}</description></item><item><term>Operation Id</term><description>Locations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}</description></item><item><term>Operation Id</term><description>Locations_Get</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBLocationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -203,7 +203,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of an existing Cosmos DB location
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}</description></item><item><term>Operation Id</term><description>Locations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}</description></item><item><term>Operation Id</term><description>Locations_Get</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBLocationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -232,7 +232,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieves the properties of an existing Azure Cosmos DB restorable database account.  This call requires 'Microsoft.DocumentDB/locations/restorableDatabaseAccounts/read/*' permission.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}/restorableDatabaseAccounts/{instanceId}</description></item><item><term>Operation Id</term><description>RestorableDatabaseAccounts_GetByLocation</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}/restorableDatabaseAccounts/{instanceId}</description></item><item><term>Operation Id</term><description>RestorableDatabaseAccounts_GetByLocation</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.RestorableCosmosDBAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -261,7 +261,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieves the properties of an existing Azure Cosmos DB restorable database account.  This call requires 'Microsoft.DocumentDB/locations/restorableDatabaseAccounts/read/*' permission.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}/restorableDatabaseAccounts/{instanceId}</description></item><item><term>Operation Id</term><description>RestorableDatabaseAccounts_GetByLocation</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}/restorableDatabaseAccounts/{instanceId}</description></item><item><term>Operation Id</term><description>RestorableDatabaseAccounts_GetByLocation</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.RestorableCosmosDBAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
