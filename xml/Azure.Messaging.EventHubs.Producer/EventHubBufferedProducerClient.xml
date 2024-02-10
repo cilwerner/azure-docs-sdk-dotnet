@@ -19,6 +19,7 @@
     <AssemblyVersion>5.9.2.0</AssemblyVersion>
     <AssemblyVersion>5.9.3.0</AssemblyVersion>
     <AssemblyVersion>5.10.0.0</AssemblyVersion>
+    <AssemblyVersion>5.11.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -67,6 +68,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -86,6 +88,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -115,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connection" Type="Azure.Messaging.EventHubs.EventHubConnection" />
@@ -139,6 +143,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -170,6 +175,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -198,6 +204,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -228,6 +235,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="fullyQualifiedNamespace" Type="System.String" />
@@ -256,6 +264,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="fullyQualifiedNamespace" Type="System.String" />
@@ -284,6 +293,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="fullyQualifiedNamespace" Type="System.String" />
@@ -312,6 +322,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -346,6 +357,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
@@ -375,6 +387,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Int32&gt;</ReturnType>
@@ -400,6 +413,7 @@
                can no longer be changed.
              </remarks>
         <exception cref="T:System.InvalidOperationException">Occurs when no <see cref="E:Azure.Messaging.EventHubs.Producer.EventHubBufferedProducerClient.SendEventBatchFailedAsync" /> handler is currently registered.</exception>
+        <exception cref="T:Azure.Messaging.EventHubs.EventHubsException">Occurs when querying Event Hub metadata took longer than expected.</exception>
       </Docs>
     </Member>
     <Member MemberName="EnqueueEventAsync">
@@ -412,6 +426,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Int32&gt;</ReturnType>
@@ -439,6 +454,7 @@
                can no longer be changed.
              </remarks>
         <exception cref="T:System.InvalidOperationException">Occurs when an invalid partition identifier has been specified in the <paramref name="options" />.</exception>
+        <exception cref="T:Azure.Messaging.EventHubs.EventHubsException">Occurs when querying Event Hub metadata took longer than expected.</exception>
       </Docs>
     </Member>
     <Member MemberName="EnqueueEventsAsync">
@@ -451,6 +467,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Int32&gt;</ReturnType>
@@ -481,6 +498,7 @@
                can no longer be changed.
              </remarks>
         <exception cref="T:System.InvalidOperationException">Occurs when no <see cref="E:Azure.Messaging.EventHubs.Producer.EventHubBufferedProducerClient.SendEventBatchFailedAsync" /> handler is currently registered.</exception>
+        <exception cref="T:Azure.Messaging.EventHubs.EventHubsException">Occurs when querying Event Hub metadata took longer than expected.</exception>
       </Docs>
     </Member>
     <Member MemberName="EnqueueEventsAsync">
@@ -493,6 +511,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Int32&gt;</ReturnType>
@@ -525,6 +544,7 @@
                can no longer be changed.
              </remarks>
         <exception cref="T:System.InvalidOperationException">Occurs when an invalid partition identifier has been specified in the <paramref name="options" />.</exception>
+        <exception cref="T:Azure.Messaging.EventHubs.EventHubsException">Occurs when the <see cref="T:Azure.Messaging.EventHubs.Producer.EventHubBufferedProducerClient" /> was unable to start within the configured timeout period.</exception>
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -537,6 +557,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -570,6 +591,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -592,6 +614,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -622,6 +645,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -645,6 +669,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -671,6 +696,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Messaging.EventHubs.EventHubProperties&gt;</ReturnType>
@@ -698,6 +724,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -727,6 +754,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.String[]&gt;</ReturnType>
@@ -757,6 +785,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Messaging.EventHubs.PartitionProperties&gt;</ReturnType>
@@ -786,6 +815,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -808,6 +838,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -832,6 +863,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -867,6 +899,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.String[]&gt;</ReturnType>
@@ -895,6 +928,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -928,6 +962,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -959,6 +994,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Func&lt;Azure.Messaging.EventHubs.Producer.SendEventBatchFailedEventArgs,System.Threading.Tasks.Task&gt;</ReturnType>
@@ -1008,6 +1044,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Func&lt;Azure.Messaging.EventHubs.Producer.SendEventBatchSucceededEventArgs,System.Threading.Tasks.Task&gt;</ReturnType>
@@ -1043,6 +1080,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1072,6 +1110,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.10.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>

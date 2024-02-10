@@ -65,7 +65,7 @@
         <param name="suburb"> Unofficial neighborhood name, like Chinatown. </param>
         <param name="house"> Build name, such as World Trade Center. </param>
         <param name="level"> Floor number, such as 3F. </param>
-        <summary> Initializes a new instance of AddressValue. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.AddressValue" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.AddressValue" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -97,7 +97,7 @@
         <param name="spans"> Location of the document in the reading order concatenated content. </param>
         <param name="fields"> Dictionary of named field values. </param>
         <param name="confidence"> Confidence of correctly extracting the document. </param>
-        <summary> Initializes a new instance of AnalyzedDocument. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.AnalyzedDocument" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.AnalyzedDocument" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -152,8 +152,36 @@
         <param name="styles"> Extracted font styles. </param>
         <param name="languages"> Detected languages. </param>
         <param name="documents"> Extracted documents. </param>
-        <summary> Initializes a new instance of AnalyzeResult. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.AnalyzeResult" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.AnalyzeResult" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AuthorizeCopyContent">
+      <MemberSignature Language="C#" Value="public static Azure.AI.DocumentIntelligence.AuthorizeCopyContent AuthorizeCopyContent (string modelId = default, string description = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.DocumentIntelligence.AuthorizeCopyContent AuthorizeCopyContent(string modelId, string description, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.DocumentIntelligence.AIDocumentIntelligenceModelFactory.AuthorizeCopyContent(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function AuthorizeCopyContent (Optional modelId As String = Nothing, Optional description As String = Nothing, Optional tags As IDictionary(Of String, String) = Nothing) As AuthorizeCopyContent" />
+      <MemberSignature Language="F#" Value="static member AuthorizeCopyContent : string * string * System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.AI.DocumentIntelligence.AuthorizeCopyContent" Usage="Azure.AI.DocumentIntelligence.AIDocumentIntelligenceModelFactory.AuthorizeCopyContent (modelId, description, tags)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.DocumentIntelligence</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.DocumentIntelligence.AuthorizeCopyContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modelId" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="modelId"> Unique document model name. </param>
+        <param name="description"> Document model description. </param>
+        <param name="tags"> List of key-value tag attributes associated with the document model. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.AuthorizeCopyContent" />. </summary>
+        <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.AuthorizeCopyContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -183,8 +211,106 @@
             represent the x, y values of the polygon vertices, clockwise from the left
             (-180 degrees inclusive) relative to the element orientation.
             </param>
-        <summary> Initializes a new instance of BoundingRegion. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.BoundingRegion" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.BoundingRegion" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildDocumentClassifierContent">
+      <MemberSignature Language="C#" Value="public static Azure.AI.DocumentIntelligence.BuildDocumentClassifierContent BuildDocumentClassifierContent (string classifierId = default, string description = default, System.Collections.Generic.IDictionary&lt;string,Azure.AI.DocumentIntelligence.ClassifierDocumentTypeDetails&gt; docTypes = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.DocumentIntelligence.BuildDocumentClassifierContent BuildDocumentClassifierContent(string classifierId, string description, class System.Collections.Generic.IDictionary`2&lt;string, class Azure.AI.DocumentIntelligence.ClassifierDocumentTypeDetails&gt; docTypes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.DocumentIntelligence.AIDocumentIntelligenceModelFactory.BuildDocumentClassifierContent(System.String,System.String,System.Collections.Generic.IDictionary{System.String,Azure.AI.DocumentIntelligence.ClassifierDocumentTypeDetails})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BuildDocumentClassifierContent (Optional classifierId As String = Nothing, Optional description As String = Nothing, Optional docTypes As IDictionary(Of String, ClassifierDocumentTypeDetails) = Nothing) As BuildDocumentClassifierContent" />
+      <MemberSignature Language="F#" Value="static member BuildDocumentClassifierContent : string * string * System.Collections.Generic.IDictionary&lt;string, Azure.AI.DocumentIntelligence.ClassifierDocumentTypeDetails&gt; -&gt; Azure.AI.DocumentIntelligence.BuildDocumentClassifierContent" Usage="Azure.AI.DocumentIntelligence.AIDocumentIntelligenceModelFactory.BuildDocumentClassifierContent (classifierId, description, docTypes)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.DocumentIntelligence</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.DocumentIntelligence.BuildDocumentClassifierContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="classifierId" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="docTypes" Type="System.Collections.Generic.IDictionary&lt;System.String,Azure.AI.DocumentIntelligence.ClassifierDocumentTypeDetails&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="classifierId"> Unique document classifier name. </param>
+        <param name="description"> Document classifier description. </param>
+        <param name="docTypes"> List of document types to classify against. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.BuildDocumentClassifierContent" />. </summary>
+        <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.BuildDocumentClassifierContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildDocumentModelContent">
+      <MemberSignature Language="C#" Value="public static Azure.AI.DocumentIntelligence.BuildDocumentModelContent BuildDocumentModelContent (string modelId = default, string description = default, Azure.AI.DocumentIntelligence.DocumentBuildMode buildMode = default, Azure.AI.DocumentIntelligence.AzureBlobContentSource azureBlobSource = default, Azure.AI.DocumentIntelligence.AzureBlobFileListContentSource azureBlobFileListSource = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.DocumentIntelligence.BuildDocumentModelContent BuildDocumentModelContent(string modelId, string description, valuetype Azure.AI.DocumentIntelligence.DocumentBuildMode buildMode, class Azure.AI.DocumentIntelligence.AzureBlobContentSource azureBlobSource, class Azure.AI.DocumentIntelligence.AzureBlobFileListContentSource azureBlobFileListSource, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.DocumentIntelligence.AIDocumentIntelligenceModelFactory.BuildDocumentModelContent(System.String,System.String,Azure.AI.DocumentIntelligence.DocumentBuildMode,Azure.AI.DocumentIntelligence.AzureBlobContentSource,Azure.AI.DocumentIntelligence.AzureBlobFileListContentSource,System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BuildDocumentModelContent (Optional modelId As String = Nothing, Optional description As String = Nothing, Optional buildMode As DocumentBuildMode = Nothing, Optional azureBlobSource As AzureBlobContentSource = Nothing, Optional azureBlobFileListSource As AzureBlobFileListContentSource = Nothing, Optional tags As IDictionary(Of String, String) = Nothing) As BuildDocumentModelContent" />
+      <MemberSignature Language="F#" Value="static member BuildDocumentModelContent : string * string * Azure.AI.DocumentIntelligence.DocumentBuildMode * Azure.AI.DocumentIntelligence.AzureBlobContentSource * Azure.AI.DocumentIntelligence.AzureBlobFileListContentSource * System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.AI.DocumentIntelligence.BuildDocumentModelContent" Usage="Azure.AI.DocumentIntelligence.AIDocumentIntelligenceModelFactory.BuildDocumentModelContent (modelId, description, buildMode, azureBlobSource, azureBlobFileListSource, tags)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.DocumentIntelligence</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.DocumentIntelligence.BuildDocumentModelContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modelId" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="buildMode" Type="Azure.AI.DocumentIntelligence.DocumentBuildMode" />
+        <Parameter Name="azureBlobSource" Type="Azure.AI.DocumentIntelligence.AzureBlobContentSource" />
+        <Parameter Name="azureBlobFileListSource" Type="Azure.AI.DocumentIntelligence.AzureBlobFileListContentSource" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="modelId"> Unique document model name. </param>
+        <param name="description"> Document model description. </param>
+        <param name="buildMode"> Custom document model build mode. </param>
+        <param name="azureBlobSource">
+            Azure Blob Storage location containing the training data.  Either
+            azureBlobSource or azureBlobFileListSource must be specified.
+            </param>
+        <param name="azureBlobFileListSource">
+            Azure Blob Storage file list specifying the training data.  Either
+            azureBlobSource or azureBlobFileListSource must be specified.
+            </param>
+        <param name="tags"> List of key-value tag attributes associated with the document model. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.BuildDocumentModelContent" />. </summary>
+        <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.BuildDocumentModelContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ComposeDocumentModelContent">
+      <MemberSignature Language="C#" Value="public static Azure.AI.DocumentIntelligence.ComposeDocumentModelContent ComposeDocumentModelContent (string modelId = default, string description = default, System.Collections.Generic.IEnumerable&lt;Azure.AI.DocumentIntelligence.ComponentDocumentModelDetails&gt; componentModels = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.DocumentIntelligence.ComposeDocumentModelContent ComposeDocumentModelContent(string modelId, string description, class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.DocumentIntelligence.ComponentDocumentModelDetails&gt; componentModels, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.DocumentIntelligence.AIDocumentIntelligenceModelFactory.ComposeDocumentModelContent(System.String,System.String,System.Collections.Generic.IEnumerable{Azure.AI.DocumentIntelligence.ComponentDocumentModelDetails},System.Collections.Generic.IDictionary{System.String,System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ComposeDocumentModelContent (Optional modelId As String = Nothing, Optional description As String = Nothing, Optional componentModels As IEnumerable(Of ComponentDocumentModelDetails) = Nothing, Optional tags As IDictionary(Of String, String) = Nothing) As ComposeDocumentModelContent" />
+      <MemberSignature Language="F#" Value="static member ComposeDocumentModelContent : string * string * seq&lt;Azure.AI.DocumentIntelligence.ComponentDocumentModelDetails&gt; * System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; Azure.AI.DocumentIntelligence.ComposeDocumentModelContent" Usage="Azure.AI.DocumentIntelligence.AIDocumentIntelligenceModelFactory.ComposeDocumentModelContent (modelId, description, componentModels, tags)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.DocumentIntelligence</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.DocumentIntelligence.ComposeDocumentModelContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="modelId" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="componentModels" Type="System.Collections.Generic.IEnumerable&lt;Azure.AI.DocumentIntelligence.ComponentDocumentModelDetails&gt;" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="modelId"> Unique document model name. </param>
+        <param name="description"> Document model description. </param>
+        <param name="componentModels"> List of component document models to compose. </param>
+        <param name="tags"> List of key-value tag attributes associated with the document model. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.ComposeDocumentModelContent" />. </summary>
+        <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.ComposeDocumentModelContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -211,7 +337,7 @@
         <param name="amount"> Currency amount. </param>
         <param name="currencySymbol"> Currency symbol label, if any. </param>
         <param name="currencyCode"> Resolved currency code (ISO 4217), if any. </param>
-        <summary> Initializes a new instance of CurrencyValue. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.CurrencyValue" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.CurrencyValue" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -237,7 +363,7 @@
       <Docs>
         <param name="count"> Number of custom document models in the current resource. </param>
         <param name="limit"> Maximum number of custom document models supported in the current resource. </param>
-        <summary> Initializes a new instance of CustomDocumentModelsDetails. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.CustomDocumentModelsDetails" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.CustomDocumentModelsDetails" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -274,7 +400,7 @@
             </param>
         <param name="span"> Location of the barcode in the reading order concatenated content. </param>
         <param name="confidence"> Confidence of correctly extracting the barcode. </param>
-        <summary> Initializes a new instance of DocumentBarcode. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentBarcode" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentBarcode" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -304,7 +430,7 @@
         <param name="boundingRegions"> Bounding regions covering the caption. </param>
         <param name="spans"> Location of the caption in the reading order concatenated content. </param>
         <param name="elements"> Child elements of the caption. </param>
-        <summary> Initializes a new instance of DocumentCaption. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentCaption" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentCaption" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -346,7 +472,7 @@
         <param name="tags"> List of key-value tag attributes associated with the document model. </param>
         <param name="error"> Encountered error. </param>
         <param name="result"> Operation result upon success. </param>
-        <summary> Initializes a new instance of DocumentClassifierBuildOperationDetails. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentClassifierBuildOperationDetails" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentClassifierBuildOperationDetails" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -380,7 +506,7 @@
         <param name="expirationDateTime"> Date and time (UTC) when the document classifier will expire. </param>
         <param name="apiVersion"> API version used to create this document classifier. </param>
         <param name="docTypes"> List of document types to classify against. </param>
-        <summary> Initializes a new instance of DocumentClassifierDetails. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentClassifierDetails" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentClassifierDetails" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -440,7 +566,7 @@
         <param name="boundingRegions"> Bounding regions covering the field. </param>
         <param name="spans"> Location of the field in the reading order concatenated content. </param>
         <param name="confidence"> Confidence of correctly extracting the field. </param>
-        <summary> Initializes a new instance of DocumentField. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentField" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentField" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -472,7 +598,7 @@
         <param name="example"> Example field content. </param>
         <param name="items"> Field type schema of each array element. </param>
         <param name="properties"> Named sub-fields of the object field. </param>
-        <summary> Initializes a new instance of DocumentFieldSchema. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentFieldSchema" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentFieldSchema" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -504,7 +630,7 @@
         <param name="elements"> Child elements of the figure, excluding any caption or footnotes. </param>
         <param name="caption"> Caption associated with the figure. </param>
         <param name="footnotes"> List of footnotes associated with the figure. </param>
-        <summary> Initializes a new instance of DocumentFigure. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentFigure" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentFigure" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -534,7 +660,7 @@
         <param name="boundingRegions"> Bounding regions covering the footnote. </param>
         <param name="spans"> Location of the footnote in the reading order concatenated content. </param>
         <param name="elements"> Child elements of the footnote. </param>
-        <summary> Initializes a new instance of DocumentFootnote. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentFootnote" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentFootnote" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -571,7 +697,7 @@
             </param>
         <param name="span"> Location of the formula in the reading order concatenated content. </param>
         <param name="confidence"> Confidence of correctly extracting the formula. </param>
-        <summary> Initializes a new instance of DocumentFormula. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentFormula" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentFormula" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -603,7 +729,7 @@
         <param name="target"> The target of the error. </param>
         <param name="details"> An array of details about specific errors that led to this reported error. </param>
         <param name="innererror"> An object containing more specific information than the current object about the error. </param>
-        <summary> Initializes a new instance of DocumentIntelligenceError. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentIntelligenceError" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentIntelligenceError" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -631,7 +757,7 @@
         <param name="content"> Concatenated content of the key-value element in reading order. </param>
         <param name="boundingRegions"> Bounding regions covering the key-value element. </param>
         <param name="spans"> Location of the key-value element in the reading order concatenated content. </param>
-        <summary> Initializes a new instance of DocumentKeyValueElement. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentKeyValueElement" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentKeyValueElement" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -659,7 +785,7 @@
         <param name="key"> Field label of the key-value pair. </param>
         <param name="value"> Field value of the key-value pair. </param>
         <param name="confidence"> Confidence of correctly extracting the key-value pair. </param>
-        <summary> Initializes a new instance of DocumentKeyValuePair. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentKeyValuePair" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentKeyValuePair" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -693,7 +819,7 @@
             to.
             </param>
         <param name="confidence"> Confidence of correctly identifying the language. </param>
-        <summary> Initializes a new instance of DocumentLanguage. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentLanguage" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentLanguage" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -726,7 +852,7 @@
             element orientation.
             </param>
         <param name="spans"> Location of the line in the reading order concatenated content. </param>
-        <summary> Initializes a new instance of DocumentLine. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentLine" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentLine" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -752,7 +878,7 @@
       <Docs>
         <param name="spans"> Location of the list in the reading order concatenated content. </param>
         <param name="items"> Items in the list. </param>
-        <summary> Initializes a new instance of DocumentList. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentList" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentList" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -784,7 +910,7 @@
         <param name="boundingRegions"> Bounding regions covering the list item. </param>
         <param name="spans"> Location of the list item in the reading order concatenated content. </param>
         <param name="elements"> Child elements of the list item. </param>
-        <summary> Initializes a new instance of DocumentListItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentListItem" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentListItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -826,7 +952,7 @@
         <param name="tags"> List of key-value tag attributes associated with the document model. </param>
         <param name="error"> Encountered error. </param>
         <param name="result"> Operation result upon success. </param>
-        <summary> Initializes a new instance of DocumentModelBuildOperationDetails. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentModelBuildOperationDetails" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentModelBuildOperationDetails" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -868,7 +994,7 @@
         <param name="tags"> List of key-value tag attributes associated with the document model. </param>
         <param name="error"> Encountered error. </param>
         <param name="result"> Operation result upon success. </param>
-        <summary> Initializes a new instance of DocumentModelComposeOperationDetails. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentModelComposeOperationDetails" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentModelComposeOperationDetails" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -910,7 +1036,7 @@
         <param name="tags"> List of key-value tag attributes associated with the document model. </param>
         <param name="error"> Encountered error. </param>
         <param name="result"> Operation result upon success. </param>
-        <summary> Initializes a new instance of DocumentModelCopyToOperationDetails. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentModelCopyToOperationDetails" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentModelCopyToOperationDetails" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -958,7 +1084,7 @@
             azureBlobSource or azureBlobFileListSource must be specified.
             </param>
         <param name="docTypes"> Supported document types. </param>
-        <summary> Initializes a new instance of DocumentModelDetails. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentModelDetails" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentModelDetails" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1011,7 +1137,7 @@
             </param>
         <param name="barcodes"> Extracted barcodes from the page. </param>
         <param name="formulas"> Extracted formulas from the page. </param>
-        <summary> Initializes a new instance of DocumentPage. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentPage" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentPage" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1041,7 +1167,7 @@
         <param name="content"> Concatenated content of the paragraph in reading order. </param>
         <param name="boundingRegions"> Bounding regions covering the paragraph. </param>
         <param name="spans"> Location of the paragraph in the reading order concatenated content. </param>
-        <summary> Initializes a new instance of DocumentParagraph. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentParagraph" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentParagraph" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1067,7 +1193,7 @@
       <Docs>
         <param name="spans"> Location of the section in the reading order concatenated content. </param>
         <param name="elements"> Child elements of the section. </param>
-        <summary> Initializes a new instance of DocumentSection. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentSection" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentSection" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1102,7 +1228,7 @@
             </param>
         <param name="span"> Location of the selection mark in the reading order concatenated content. </param>
         <param name="confidence"> Confidence of correctly extracting the selection mark. </param>
-        <summary> Initializes a new instance of DocumentSelectionMark. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentSelectionMark" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentSelectionMark" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1128,7 +1254,7 @@
       <Docs>
         <param name="offset"> Zero-based index of the content represented by the span. </param>
         <param name="length"> Number of characters in the content represented by the span. </param>
-        <summary> Initializes a new instance of DocumentSpan. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentSpan" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentSpan" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1169,7 +1295,7 @@
         <param name="backgroundColor"> Background color in #rrggbb hexadecimal format.. </param>
         <param name="spans"> Location of the text elements in the concatenated content the style applies to. </param>
         <param name="confidence"> Confidence of correctly identifying the style. </param>
-        <summary> Initializes a new instance of DocumentStyle. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentStyle" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentStyle" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1205,7 +1331,7 @@
         <param name="spans"> Location of the table in the reading order concatenated content. </param>
         <param name="caption"> Caption associated with the table. </param>
         <param name="footnotes"> List of footnotes associated with the table. </param>
-        <summary> Initializes a new instance of DocumentTable. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentTable" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentTable" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1245,7 +1371,7 @@
         <param name="boundingRegions"> Bounding regions covering the table cell. </param>
         <param name="spans"> Location of the table cell in the reading order concatenated content. </param>
         <param name="elements"> Child elements of the table cell. </param>
-        <summary> Initializes a new instance of DocumentTableCell. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentTableCell" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentTableCell" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1275,7 +1401,7 @@
         <param name="buildMode"> Custom document model build mode. </param>
         <param name="fieldSchema"> Description of the document semantic schema using a JSON Schema style syntax. </param>
         <param name="fieldConfidence"> Estimated confidence for each field. </param>
-        <summary> Initializes a new instance of DocumentTypeDetails. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentTypeDetails" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentTypeDetails" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1310,7 +1436,7 @@
             </param>
         <param name="span"> Location of the word in the reading order concatenated content. </param>
         <param name="confidence"> Confidence of correctly extracting the word. </param>
-        <summary> Initializes a new instance of DocumentWord. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.DocumentWord" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.DocumentWord" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1338,7 +1464,7 @@
         <param name="code"> One of a server-defined set of error codes. </param>
         <param name="message"> A human-readable representation of the error. </param>
         <param name="innerErrorObject"> Inner error. </param>
-        <summary> Initializes a new instance of InnerError. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.InnerError" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.InnerError" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1380,7 +1506,7 @@
         <param name="apiVersion"> API version used to create this operation. </param>
         <param name="tags"> List of key-value tag attributes associated with the document model. </param>
         <param name="error"> Encountered error. </param>
-        <summary> Initializes a new instance of OperationDetails. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.OperationDetails" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.OperationDetails" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1408,7 +1534,7 @@
         <param name="used"> Amount of the resource quota used. </param>
         <param name="quota"> Resource quota limit. </param>
         <param name="quotaResetDateTime"> Date/time when the resource quota usage will be reset. </param>
-        <summary> Initializes a new instance of QuotaDetails. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.QuotaDetails" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.QuotaDetails" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1434,7 +1560,7 @@
       <Docs>
         <param name="customDocumentModels"> Details regarding custom document models. </param>
         <param name="customNeuralDocumentModelBuilds"> Quota used, limit, and next reset date/time. </param>
-        <summary> Initializes a new instance of ResourceDetails. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.DocumentIntelligence.ResourceDetails" />. </summary>
         <returns> A new <see cref="T:Azure.AI.DocumentIntelligence.ResourceDetails" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

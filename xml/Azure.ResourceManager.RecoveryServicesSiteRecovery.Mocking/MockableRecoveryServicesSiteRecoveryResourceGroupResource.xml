@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -26,6 +27,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -43,6 +45,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ProtectionContainerMappingResource&gt;</ReturnType>
@@ -56,7 +59,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the protection container mappings in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainerMappings</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainerMappings_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainerMappings</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainerMappings_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ProtectionContainerMappingResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ProtectionContainerMappingResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -75,6 +78,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ProtectionContainerMappingResource&gt;</ReturnType>
@@ -88,7 +92,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the protection container mappings in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainerMappings</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainerMappings_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainerMappings</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainerMappings_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ProtectionContainerMappingResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ProtectionContainerMappingResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -107,6 +111,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.SiteRecoveryReplicationAppliance&gt;</ReturnType>
@@ -122,7 +127,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of Azure Site Recovery appliances for the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAppliances</description></item><item><term>Operation Id</term><description>ReplicationAppliances_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAppliances</description></item><item><term>Operation Id</term><description>ReplicationAppliances_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.SiteRecoveryReplicationAppliance" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -141,6 +146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.SiteRecoveryReplicationAppliance&gt;</ReturnType>
@@ -156,7 +162,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of Azure Site Recovery appliances for the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAppliances</description></item><item><term>Operation Id</term><description>ReplicationAppliances_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAppliances</description></item><item><term>Operation Id</term><description>ReplicationAppliances_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.SiteRecoveryReplicationAppliance" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -175,6 +181,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationEligibilityResultResource&gt;</ReturnType>
@@ -188,7 +195,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Validates whether a given VM can be protected or not in which case returns list of errors.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{virtualMachineName}/providers/Microsoft.RecoveryServices/replicationEligibilityResults/default</description></item><item><term>Operation Id</term><description>ReplicationEligibilityResults_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{virtualMachineName}/providers/Microsoft.RecoveryServices/replicationEligibilityResults/default</description></item><item><term>Operation Id</term><description>ReplicationEligibilityResults_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationEligibilityResultResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -207,6 +214,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationEligibilityResultResource&gt;&gt;</ReturnType>
@@ -220,7 +228,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Validates whether a given VM can be protected or not in which case returns list of errors.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{virtualMachineName}/providers/Microsoft.RecoveryServices/replicationEligibilityResults/default</description></item><item><term>Operation Id</term><description>ReplicationEligibilityResults_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{virtualMachineName}/providers/Microsoft.RecoveryServices/replicationEligibilityResults/default</description></item><item><term>Operation Id</term><description>ReplicationEligibilityResults_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationEligibilityResultResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -239,6 +247,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationEligibilityResultCollection</ReturnType>
@@ -267,6 +276,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectedItemResource&gt;</ReturnType>
@@ -284,7 +294,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of ASR replication protected items in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectedItems</description></item><item><term>Operation Id</term><description>ReplicationProtectedItems_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectedItems</description></item><item><term>Operation Id</term><description>ReplicationProtectedItems_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectedItemResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectedItemResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -303,6 +313,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectedItemResource&gt;</ReturnType>
@@ -320,7 +331,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of ASR replication protected items in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectedItems</description></item><item><term>Operation Id</term><description>ReplicationProtectedItems_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectedItems</description></item><item><term>Operation Id</term><description>ReplicationProtectedItems_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectedItemResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectedItemResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -339,6 +350,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectionIntentResource&gt;</ReturnType>
@@ -354,7 +366,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of an ASR replication protection intent.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionIntents/{intentObjectName}</description></item><item><term>Operation Id</term><description>ReplicationProtectionIntents_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionIntents/{intentObjectName}</description></item><item><term>Operation Id</term><description>ReplicationProtectionIntents_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectionIntentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -373,6 +385,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectionIntentResource&gt;&gt;</ReturnType>
@@ -388,7 +401,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of an ASR replication protection intent.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionIntents/{intentObjectName}</description></item><item><term>Operation Id</term><description>ReplicationProtectionIntents_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionIntents/{intentObjectName}</description></item><item><term>Operation Id</term><description>ReplicationProtectionIntents_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectionIntentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -407,6 +420,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.ReplicationProtectionIntentCollection</ReturnType>
@@ -435,6 +449,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.VaultHealthDetails&gt;</ReturnType>
@@ -448,7 +463,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the health details of the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -467,6 +482,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.VaultHealthDetails&gt;&gt;</ReturnType>
@@ -480,7 +496,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the health details of the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -499,6 +515,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryAlertResource&gt;</ReturnType>
@@ -514,7 +531,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the specified email notification(alert) configuration.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAlertSettings/{alertSettingName}</description></item><item><term>Operation Id</term><description>ReplicationAlertSettings_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAlertSettings/{alertSettingName}</description></item><item><term>Operation Id</term><description>ReplicationAlertSettings_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryAlertResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -533,6 +550,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryAlertResource&gt;&gt;</ReturnType>
@@ -548,7 +566,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the specified email notification(alert) configuration.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAlertSettings/{alertSettingName}</description></item><item><term>Operation Id</term><description>ReplicationAlertSettings_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationAlertSettings/{alertSettingName}</description></item><item><term>Operation Id</term><description>ReplicationAlertSettings_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryAlertResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -567,6 +585,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryAlertCollection</ReturnType>
@@ -595,6 +614,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryEventResource&gt;</ReturnType>
@@ -610,7 +630,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to get the details of an Azure Site recovery event.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationEvents/{eventName}</description></item><item><term>Operation Id</term><description>ReplicationEvents_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationEvents/{eventName}</description></item><item><term>Operation Id</term><description>ReplicationEvents_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryEventResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -629,6 +649,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryEventResource&gt;&gt;</ReturnType>
@@ -644,7 +665,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to get the details of an Azure Site recovery event.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationEvents/{eventName}</description></item><item><term>Operation Id</term><description>ReplicationEvents_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationEvents/{eventName}</description></item><item><term>Operation Id</term><description>ReplicationEvents_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryEventResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -663,6 +684,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryEventCollection</ReturnType>
@@ -691,6 +713,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryFabricResource&gt;</ReturnType>
@@ -708,7 +731,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of an Azure Site Recovery fabric.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}</description></item><item><term>Operation Id</term><description>ReplicationFabrics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}</description></item><item><term>Operation Id</term><description>ReplicationFabrics_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -727,6 +750,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryFabricResource&gt;&gt;</ReturnType>
@@ -744,7 +768,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of an Azure Site Recovery fabric.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}</description></item><item><term>Operation Id</term><description>ReplicationFabrics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}</description></item><item><term>Operation Id</term><description>ReplicationFabrics_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -763,6 +787,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryFabricCollection</ReturnType>
@@ -791,6 +816,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource&gt;</ReturnType>
@@ -806,7 +832,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the details of an Azure Site Recovery job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}</description></item><item><term>Operation Id</term><description>ReplicationJobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}</description></item><item><term>Operation Id</term><description>ReplicationJobs_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -825,6 +851,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource&gt;&gt;</ReturnType>
@@ -840,7 +867,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the details of an Azure Site Recovery job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}</description></item><item><term>Operation Id</term><description>ReplicationJobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}</description></item><item><term>Operation Id</term><description>ReplicationJobs_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -859,6 +886,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobCollection</ReturnType>
@@ -887,6 +915,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryMigrationItemResource&gt;</ReturnType>
@@ -906,7 +935,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of migration items in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationMigrationItems</description></item><item><term>Operation Id</term><description>ReplicationMigrationItems_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationMigrationItems</description></item><item><term>Operation Id</term><description>ReplicationMigrationItems_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryMigrationItemResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryMigrationItemResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -925,6 +954,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryMigrationItemResource&gt;</ReturnType>
@@ -944,7 +974,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the list of migration items in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationMigrationItems</description></item><item><term>Operation Id</term><description>ReplicationMigrationItems_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationMigrationItems</description></item><item><term>Operation Id</term><description>ReplicationMigrationItems_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryMigrationItemResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryMigrationItemResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -963,6 +993,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkMappingResource&gt;</ReturnType>
@@ -976,7 +1007,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all ASR network mappings in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworkMappings</description></item><item><term>Operation Id</term><description>ReplicationNetworkMappings_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworkMappings</description></item><item><term>Operation Id</term><description>ReplicationNetworkMappings_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkMappingResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkMappingResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -995,6 +1026,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkMappingResource&gt;</ReturnType>
@@ -1008,7 +1040,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all ASR network mappings in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworkMappings</description></item><item><term>Operation Id</term><description>ReplicationNetworkMappings_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworkMappings</description></item><item><term>Operation Id</term><description>ReplicationNetworkMappings_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkMappingResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkMappingResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1027,6 +1059,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkResource&gt;</ReturnType>
@@ -1040,7 +1073,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the networks available in a vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworks</description></item><item><term>Operation Id</term><description>ReplicationNetworks_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworks</description></item><item><term>Operation Id</term><description>ReplicationNetworks_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1059,6 +1092,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkResource&gt;</ReturnType>
@@ -1072,7 +1106,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the networks available in a vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworks</description></item><item><term>Operation Id</term><description>ReplicationNetworks_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationNetworks</description></item><item><term>Operation Id</term><description>ReplicationNetworks_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryNetworkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1091,6 +1125,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPolicyCollection</ReturnType>
@@ -1119,6 +1154,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPolicyResource&gt;</ReturnType>
@@ -1134,7 +1170,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of a replication policy.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationPolicies/{policyName}</description></item><item><term>Operation Id</term><description>ReplicationPolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationPolicies/{policyName}</description></item><item><term>Operation Id</term><description>ReplicationPolicies_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1153,6 +1189,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPolicyResource&gt;&gt;</ReturnType>
@@ -1168,7 +1205,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of a replication policy.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationPolicies/{policyName}</description></item><item><term>Operation Id</term><description>ReplicationPolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationPolicies/{policyName}</description></item><item><term>Operation Id</term><description>ReplicationPolicies_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryPolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1187,6 +1224,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectionContainerResource&gt;</ReturnType>
@@ -1200,7 +1238,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the protection containers in a vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainers</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainers_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainers</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainers_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectionContainerResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectionContainerResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1219,6 +1257,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectionContainerResource&gt;</ReturnType>
@@ -1232,7 +1271,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the protection containers in a vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainers</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainers_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectionContainers</description></item><item><term>Operation Id</term><description>ReplicationProtectionContainers_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectionContainerResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryProtectionContainerResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1251,6 +1290,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryRecoveryPlanResource&gt;</ReturnType>
@@ -1266,7 +1306,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the recovery plan.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}</description></item><item><term>Operation Id</term><description>ReplicationRecoveryPlans_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}</description></item><item><term>Operation Id</term><description>ReplicationRecoveryPlans_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryRecoveryPlanResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1285,6 +1325,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryRecoveryPlanResource&gt;&gt;</ReturnType>
@@ -1300,7 +1341,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the recovery plan.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}</description></item><item><term>Operation Id</term><description>ReplicationRecoveryPlans_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}</description></item><item><term>Operation Id</term><description>ReplicationRecoveryPlans_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryRecoveryPlanResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1319,6 +1360,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryRecoveryPlanCollection</ReturnType>
@@ -1347,6 +1389,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryServicesProviderResource&gt;</ReturnType>
@@ -1360,7 +1403,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the registered recovery services providers in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryServicesProviders</description></item><item><term>Operation Id</term><description>ReplicationRecoveryServicesProviders_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryServicesProviders</description></item><item><term>Operation Id</term><description>ReplicationRecoveryServicesProviders_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryServicesProviderResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryServicesProviderResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1379,6 +1422,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryServicesProviderResource&gt;</ReturnType>
@@ -1392,7 +1436,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the registered recovery services providers in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryServicesProviders</description></item><item><term>Operation Id</term><description>ReplicationRecoveryServicesProviders_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryServicesProviders</description></item><item><term>Operation Id</term><description>ReplicationRecoveryServicesProviders_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryServicesProviderResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryServicesProviderResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1411,6 +1455,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVaultSettingResource&gt;</ReturnType>
@@ -1426,7 +1471,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the vault setting. This includes the Migration Hub connection settings.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultSettings/{vaultSettingName}</description></item><item><term>Operation Id</term><description>ReplicationVaultSetting_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultSettings/{vaultSettingName}</description></item><item><term>Operation Id</term><description>ReplicationVaultSetting_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVaultSettingResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1445,6 +1490,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVaultSettingResource&gt;&gt;</ReturnType>
@@ -1460,7 +1506,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the vault setting. This includes the Migration Hub connection settings.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultSettings/{vaultSettingName}</description></item><item><term>Operation Id</term><description>ReplicationVaultSetting_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultSettings/{vaultSettingName}</description></item><item><term>Operation Id</term><description>ReplicationVaultSetting_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVaultSettingResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1479,6 +1525,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVaultSettingCollection</ReturnType>
@@ -1507,6 +1554,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVCenterResource&gt;</ReturnType>
@@ -1520,7 +1568,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the vCenter servers registered in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationvCenters</description></item><item><term>Operation Id</term><description>ReplicationvCenters_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationvCenters</description></item><item><term>Operation Id</term><description>ReplicationvCenters_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVCenterResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVCenterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1539,6 +1587,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVCenterResource&gt;</ReturnType>
@@ -1552,7 +1601,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the vCenter servers registered in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationvCenters</description></item><item><term>Operation Id</term><description>ReplicationvCenters_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationvCenters</description></item><item><term>Operation Id</term><description>ReplicationvCenters_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVCenterResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryVCenterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1571,6 +1620,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationMappingResource&gt;</ReturnType>
@@ -1584,7 +1634,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the storage classification mappings in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassificationMappings</description></item><item><term>Operation Id</term><description>ReplicationStorageClassificationMappings_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassificationMappings</description></item><item><term>Operation Id</term><description>ReplicationStorageClassificationMappings_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationMappingResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationMappingResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1603,6 +1653,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationMappingResource&gt;</ReturnType>
@@ -1616,7 +1667,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the storage classification mappings in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassificationMappings</description></item><item><term>Operation Id</term><description>ReplicationStorageClassificationMappings_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassificationMappings</description></item><item><term>Operation Id</term><description>ReplicationStorageClassificationMappings_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationMappingResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationMappingResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1635,6 +1686,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationResource&gt;</ReturnType>
@@ -1648,7 +1700,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the storage classifications in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassifications</description></item><item><term>Operation Id</term><description>ReplicationStorageClassifications_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassifications</description></item><item><term>Operation Id</term><description>ReplicationStorageClassifications_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1667,6 +1719,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationResource&gt;</ReturnType>
@@ -1680,7 +1733,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the storage classifications in the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassifications</description></item><item><term>Operation Id</term><description>ReplicationStorageClassifications_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationStorageClassifications</description></item><item><term>Operation Id</term><description>ReplicationStorageClassifications_List</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.StorageClassificationResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1699,6 +1752,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.SiteRecoverySupportedOperatingSystems&gt;</ReturnType>
@@ -1714,7 +1768,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the data of supported operating systems by SRS.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationSupportedOperatingSystems</description></item><item><term>Operation Id</term><description>SupportedOperatingSystems_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationSupportedOperatingSystems</description></item><item><term>Operation Id</term><description>SupportedOperatingSystems_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1733,6 +1787,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.SiteRecoverySupportedOperatingSystems&gt;&gt;</ReturnType>
@@ -1748,7 +1803,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the data of supported operating systems by SRS.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationSupportedOperatingSystems</description></item><item><term>Operation Id</term><description>SupportedOperatingSystems_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationSupportedOperatingSystems</description></item><item><term>Operation Id</term><description>SupportedOperatingSystems_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1767,6 +1822,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.VaultHealthDetails&gt;</ReturnType>
@@ -1783,7 +1839,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Refreshes health summary of the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth/default/refresh</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Refresh</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth/default/refresh</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Refresh</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1802,6 +1858,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.Models.VaultHealthDetails&gt;&gt;</ReturnType>
@@ -1818,7 +1875,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Refreshes health summary of the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth/default/refresh</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Refresh</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationVaultHealth/default/refresh</description></item><item><term>Operation Id</term><description>ReplicationVaultHealth_Refresh</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">

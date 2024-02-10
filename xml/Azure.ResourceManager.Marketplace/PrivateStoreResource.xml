@@ -10,6 +10,7 @@
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -34,6 +35,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -51,6 +53,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -66,7 +69,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Acknowledge notification for offer
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/offers/{offerId}/acknowledgeNotification</description></item><item><term>Operation Id</term><description>PrivateStore_AcknowledgeOfferNotification</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/offers/{offerId}/acknowledgeNotification</description></item><item><term>Operation Id</term><description>PrivateStore_AcknowledgeOfferNotification</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -85,6 +88,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -100,7 +104,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Acknowledge notification for offer
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/offers/{offerId}/acknowledgeNotification</description></item><item><term>Operation Id</term><description>PrivateStore_AcknowledgeOfferNotification</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/offers/{offerId}/acknowledgeNotification</description></item><item><term>Operation Id</term><description>PrivateStore_AcknowledgeOfferNotification</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -119,6 +123,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.AnyExistingOffersInTheCollectionsResult&gt;</ReturnType>
@@ -130,7 +135,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Query whether exists any offer in the collections.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/anyExistingOffersInTheCollections</description></item><item><term>Operation Id</term><description>PrivateStore_AnyExistingOffersInTheCollections</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/anyExistingOffersInTheCollections</description></item><item><term>Operation Id</term><description>PrivateStore_AnyExistingOffersInTheCollections</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -145,6 +150,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.AnyExistingOffersInTheCollectionsResult&gt;&gt;</ReturnType>
@@ -156,7 +162,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Query whether exists any offer in the collections.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/anyExistingOffersInTheCollections</description></item><item><term>Operation Id</term><description>PrivateStore_AnyExistingOffersInTheCollections</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/anyExistingOffersInTheCollections</description></item><item><term>Operation Id</term><description>PrivateStore_AnyExistingOffersInTheCollections</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -171,6 +177,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -195,6 +202,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Marketplace.PrivateStoreData</ReturnType>
@@ -216,6 +224,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -230,7 +239,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the private store. All that is not saved will be lost.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}</description></item><item><term>Operation Id</term><description>PrivateStore_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}</description></item><item><term>Operation Id</term><description>PrivateStore_Delete</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -245,6 +254,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -259,7 +269,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the private store. All that is not saved will be lost.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}</description></item><item><term>Operation Id</term><description>PrivateStore_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}</description></item><item><term>Operation Id</term><description>PrivateStore_Delete</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -274,6 +284,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Marketplace.Models.MarketplaceSubscription&gt;</ReturnType>
@@ -287,7 +298,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Fetch all subscriptions in tenant, only for marketplace admin
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/fetchAllSubscriptionsInTenant</description></item><item><term>Operation Id</term><description>PrivateStore_FetchAllSubscriptionsInTenant</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/fetchAllSubscriptionsInTenant</description></item><item><term>Operation Id</term><description>PrivateStore_FetchAllSubscriptionsInTenant</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Marketplace.Models.MarketplaceSubscription" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -302,6 +313,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Marketplace.Models.MarketplaceSubscription&gt;</ReturnType>
@@ -315,7 +327,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Fetch all subscriptions in tenant, only for marketplace admin
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/fetchAllSubscriptionsInTenant</description></item><item><term>Operation Id</term><description>PrivateStore_FetchAllSubscriptionsInTenant</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/fetchAllSubscriptionsInTenant</description></item><item><term>Operation Id</term><description>PrivateStore_FetchAllSubscriptionsInTenant</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Marketplace.Models.MarketplaceSubscription" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -330,6 +342,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.PrivateStoreBillingAccountsResult&gt;</ReturnType>
@@ -341,7 +354,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Tenant billing accounts names
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/billingAccounts</description></item><item><term>Operation Id</term><description>PrivateStore_BillingAccounts</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/billingAccounts</description></item><item><term>Operation Id</term><description>PrivateStore_BillingAccounts</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -356,6 +369,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.PrivateStoreBillingAccountsResult&gt;&gt;</ReturnType>
@@ -367,7 +381,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Tenant billing accounts names
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/billingAccounts</description></item><item><term>Operation Id</term><description>PrivateStore_BillingAccounts</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/billingAccounts</description></item><item><term>Operation Id</term><description>PrivateStore_BillingAccounts</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -382,6 +396,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.CollectionsToSubscriptionsMappingResult&gt;</ReturnType>
@@ -395,7 +410,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             For a given subscriptions list, the API will return a map of collections and the related subscriptions from the supplied list.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/collectionsToSubscriptionsMapping</description></item><item><term>Operation Id</term><description>PrivateStore_CollectionsToSubscriptionsMapping</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/collectionsToSubscriptionsMapping</description></item><item><term>Operation Id</term><description>PrivateStore_CollectionsToSubscriptionsMapping</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -410,6 +425,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.CollectionsToSubscriptionsMappingResult&gt;&gt;</ReturnType>
@@ -423,7 +439,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             For a given subscriptions list, the API will return a map of collections and the related subscriptions from the supplied list.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/collectionsToSubscriptionsMapping</description></item><item><term>Operation Id</term><description>PrivateStore_CollectionsToSubscriptionsMapping</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/collectionsToSubscriptionsMapping</description></item><item><term>Operation Id</term><description>PrivateStore_CollectionsToSubscriptionsMapping</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -438,6 +454,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Marketplace.PrivateStoreResource&gt;</ReturnType>
@@ -449,7 +466,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get information about the private store
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}</description></item><item><term>Operation Id</term><description>PrivateStore_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}</description></item><item><term>Operation Id</term><description>PrivateStore_Get</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -464,6 +481,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Marketplace.PrivateStoreResource&gt;&gt;</ReturnType>
@@ -475,7 +493,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get information about the private store
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}</description></item><item><term>Operation Id</term><description>PrivateStore_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}</description></item><item><term>Operation Id</term><description>PrivateStore_Get</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -490,6 +508,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Marketplace.MarketplaceAdminApprovalRequestResource&gt;</ReturnType>
@@ -505,7 +524,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get open approval requests
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/adminRequestApprovals/{adminRequestApprovalId}</description></item><item><term>Operation Id</term><description>PrivateStore_GetAdminRequestApproval</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/adminRequestApprovals/{adminRequestApprovalId}</description></item><item><term>Operation Id</term><description>PrivateStore_GetAdminRequestApproval</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.MarketplaceAdminApprovalRequestResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -524,6 +543,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Marketplace.MarketplaceAdminApprovalRequestResource&gt;&gt;</ReturnType>
@@ -539,7 +559,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get open approval requests
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/adminRequestApprovals/{adminRequestApprovalId}</description></item><item><term>Operation Id</term><description>PrivateStore_GetAdminRequestApproval</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/adminRequestApprovals/{adminRequestApprovalId}</description></item><item><term>Operation Id</term><description>PrivateStore_GetAdminRequestApproval</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.MarketplaceAdminApprovalRequestResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -558,6 +578,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Marketplace.MarketplaceAdminApprovalRequestCollection</ReturnType>
@@ -579,6 +600,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Marketplace.MarketplaceApprovalRequestResource&gt;</ReturnType>
@@ -592,7 +614,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get open request approval details
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}</description></item><item><term>Operation Id</term><description>PrivateStore_GetRequestApproval</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}</description></item><item><term>Operation Id</term><description>PrivateStore_GetRequestApproval</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.MarketplaceApprovalRequestResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -611,6 +633,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Marketplace.MarketplaceApprovalRequestResource&gt;&gt;</ReturnType>
@@ -624,7 +647,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get open request approval details
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}</description></item><item><term>Operation Id</term><description>PrivateStore_GetRequestApproval</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}</description></item><item><term>Operation Id</term><description>PrivateStore_GetRequestApproval</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.MarketplaceApprovalRequestResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -643,6 +666,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Marketplace.MarketplaceApprovalRequestCollection</ReturnType>
@@ -664,6 +688,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.NewPlanNotificationListResult&gt;</ReturnType>
@@ -675,7 +700,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List new plans notifications
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/listNewPlansNotifications</description></item><item><term>Operation Id</term><description>PrivateStore_ListNewPlansNotifications</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/listNewPlansNotifications</description></item><item><term>Operation Id</term><description>PrivateStore_ListNewPlansNotifications</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -690,6 +715,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.NewPlanNotificationListResult&gt;&gt;</ReturnType>
@@ -701,7 +727,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List new plans notifications
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/listNewPlansNotifications</description></item><item><term>Operation Id</term><description>PrivateStore_ListNewPlansNotifications</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/listNewPlansNotifications</description></item><item><term>Operation Id</term><description>PrivateStore_ListNewPlansNotifications</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -716,6 +742,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Marketplace.PrivateStoreCollectionInfoResource&gt;</ReturnType>
@@ -729,7 +756,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets private store collection
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/collections/{collectionId}</description></item><item><term>Operation Id</term><description>PrivateStoreCollection_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/collections/{collectionId}</description></item><item><term>Operation Id</term><description>PrivateStoreCollection_Get</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreCollectionInfoResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -744,6 +771,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Marketplace.PrivateStoreCollectionInfoResource&gt;&gt;</ReturnType>
@@ -757,7 +785,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets private store collection
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/collections/{collectionId}</description></item><item><term>Operation Id</term><description>PrivateStoreCollection_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/collections/{collectionId}</description></item><item><term>Operation Id</term><description>PrivateStoreCollection_Get</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreCollectionInfoResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -772,6 +800,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Marketplace.PrivateStoreCollectionInfoCollection</ReturnType>
@@ -793,6 +822,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.StopSellOffersPlansNotificationsList&gt;</ReturnType>
@@ -806,7 +836,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List stop sell notifications for both stop sell offers and stop sell plans
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/listStopSellOffersPlansNotifications</description></item><item><term>Operation Id</term><description>PrivateStore_ListStopSellOffersPlansNotifications</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/listStopSellOffersPlansNotifications</description></item><item><term>Operation Id</term><description>PrivateStore_ListStopSellOffersPlansNotifications</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -821,6 +851,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.StopSellOffersPlansNotificationsList&gt;&gt;</ReturnType>
@@ -834,7 +865,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List stop sell notifications for both stop sell offers and stop sell plans
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/listStopSellOffersPlansNotifications</description></item><item><term>Operation Id</term><description>PrivateStore_ListStopSellOffersPlansNotifications</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/listStopSellOffersPlansNotifications</description></item><item><term>Operation Id</term><description>PrivateStore_ListStopSellOffersPlansNotifications</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -849,6 +880,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.SubscriptionsContextList&gt;</ReturnType>
@@ -860,7 +892,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the subscriptions in the private store context
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/listSubscriptionsContext</description></item><item><term>Operation Id</term><description>PrivateStore_ListSubscriptionsContext</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/listSubscriptionsContext</description></item><item><term>Operation Id</term><description>PrivateStore_ListSubscriptionsContext</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -875,6 +907,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.SubscriptionsContextList&gt;&gt;</ReturnType>
@@ -886,7 +919,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the subscriptions in the private store context
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/listSubscriptionsContext</description></item><item><term>Operation Id</term><description>PrivateStore_ListSubscriptionsContext</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/listSubscriptionsContext</description></item><item><term>Operation Id</term><description>PrivateStore_ListSubscriptionsContext</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -901,6 +934,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -921,6 +955,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.BulkCollectionsActionResult&gt;</ReturnType>
@@ -934,7 +969,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Perform an action on bulk collections
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/bulkCollectionsAction</description></item><item><term>Operation Id</term><description>PrivateStore_BulkCollectionsAction</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/bulkCollectionsAction</description></item><item><term>Operation Id</term><description>PrivateStore_BulkCollectionsAction</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -949,6 +984,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.BulkCollectionsActionResult&gt;&gt;</ReturnType>
@@ -962,7 +998,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Perform an action on bulk collections
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/bulkCollectionsAction</description></item><item><term>Operation Id</term><description>PrivateStore_BulkCollectionsAction</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/bulkCollectionsAction</description></item><item><term>Operation Id</term><description>PrivateStore_BulkCollectionsAction</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -977,6 +1013,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.QueryApprovedPlansResult&gt;</ReturnType>
@@ -990,7 +1027,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get map of plans and related approved subscriptions.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryApprovedPlans</description></item><item><term>Operation Id</term><description>PrivateStore_QueryApprovedPlans</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryApprovedPlans</description></item><item><term>Operation Id</term><description>PrivateStore_QueryApprovedPlans</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1005,6 +1042,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.QueryApprovedPlansResult&gt;&gt;</ReturnType>
@@ -1018,7 +1056,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get map of plans and related approved subscriptions.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryApprovedPlans</description></item><item><term>Operation Id</term><description>PrivateStore_QueryApprovedPlans</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryApprovedPlans</description></item><item><term>Operation Id</term><description>PrivateStore_QueryApprovedPlans</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1033,6 +1071,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.PrivateStoreNotificationsState&gt;</ReturnType>
@@ -1044,7 +1083,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get private store notifications state
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryNotificationsState</description></item><item><term>Operation Id</term><description>PrivateStore_QueryNotificationsState</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryNotificationsState</description></item><item><term>Operation Id</term><description>PrivateStore_QueryNotificationsState</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1059,6 +1098,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.PrivateStoreNotificationsState&gt;&gt;</ReturnType>
@@ -1070,7 +1110,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get private store notifications state
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryNotificationsState</description></item><item><term>Operation Id</term><description>PrivateStore_QueryNotificationsState</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryNotificationsState</description></item><item><term>Operation Id</term><description>PrivateStore_QueryNotificationsState</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1085,6 +1125,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Marketplace.Models.PrivateStoreOfferResult&gt;</ReturnType>
@@ -1096,7 +1137,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List of offers, regardless the collections
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryOffers</description></item><item><term>Operation Id</term><description>PrivateStore_QueryOffers</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryOffers</description></item><item><term>Operation Id</term><description>PrivateStore_QueryOffers</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Marketplace.Models.PrivateStoreOfferResult" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1111,6 +1152,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Marketplace.Models.PrivateStoreOfferResult&gt;</ReturnType>
@@ -1122,7 +1164,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List of offers, regardless the collections
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryOffers</description></item><item><term>Operation Id</term><description>PrivateStore_QueryOffers</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryOffers</description></item><item><term>Operation Id</term><description>PrivateStore_QueryOffers</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Marketplace.Models.PrivateStoreOfferResult" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1137,6 +1179,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Marketplace.Models.PrivateStoreOfferResult&gt;</ReturnType>
@@ -1150,7 +1193,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List of user's approved offers for the provided offers and subscriptions
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryUserOffers</description></item><item><term>Operation Id</term><description>PrivateStore_QueryUserOffers</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryUserOffers</description></item><item><term>Operation Id</term><description>PrivateStore_QueryUserOffers</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Marketplace.Models.PrivateStoreOfferResult" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1165,6 +1208,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Marketplace.Models.PrivateStoreOfferResult&gt;</ReturnType>
@@ -1178,7 +1222,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List of user's approved offers for the provided offers and subscriptions
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryUserOffers</description></item><item><term>Operation Id</term><description>PrivateStore_QueryUserOffers</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryUserOffers</description></item><item><term>Operation Id</term><description>PrivateStore_QueryUserOffers</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Marketplace.Models.PrivateStoreOfferResult" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1193,6 +1237,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Marketplace.Models.MarketplaceRule&gt;</ReturnType>
@@ -1206,7 +1251,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             All rules approved in the private store that are relevant for user subscriptions
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryUserRules</description></item><item><term>Operation Id</term><description>QueryUserRules</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryUserRules</description></item><item><term>Operation Id</term><description>QueryUserRules</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Marketplace.Models.MarketplaceRule" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1221,6 +1266,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Marketplace.Models.MarketplaceRule&gt;</ReturnType>
@@ -1234,7 +1280,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             All rules approved in the private store that are relevant for user subscriptions
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryUserRules</description></item><item><term>Operation Id</term><description>QueryUserRules</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/queryUserRules</description></item><item><term>Operation Id</term><description>QueryUserRules</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Marketplace.Models.MarketplaceRule" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1249,6 +1295,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1268,6 +1315,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1284,7 +1332,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Changes private store properties
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}</description></item><item><term>Operation Id</term><description>PrivateStore_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}</description></item><item><term>Operation Id</term><description>PrivateStore_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1301,6 +1349,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1317,7 +1366,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Changes private store properties
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}</description></item><item><term>Operation Id</term><description>PrivateStore_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}</description></item><item><term>Operation Id</term><description>PrivateStore_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Marketplace.PrivateStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
