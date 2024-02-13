@@ -1,0 +1,22 @@
+{
+  "Name": "Azure.Provisioning",
+  "Version": "1.0.0-alpha.20240213.1",
+  "DevVersion": "1.0.0-alpha.20240213.1",
+  "DirectoryPath": "sdk/provisioning/Azure.Provisioning",
+  "ServiceDirectory": "provisioning",
+  "ReadMePath": "sdk/provisioning/Azure.Provisioning/README.md",
+  "ChangeLogPath": "sdk/provisioning/Azure.Provisioning/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.Provisioning",
+  "ReleaseStatus": null,
+  "Namespaces": [
+    "Azure.Provisioning",
+    "Azure.Provisioning.AppService",
+    "Azure.Provisioning.KeyVaults",
+    "Azure.Provisioning.ResourceManager",
+    "Azure.Provisioning.Resources",
+    "Azure.Provisioning.Sql"
+  ]
+}
