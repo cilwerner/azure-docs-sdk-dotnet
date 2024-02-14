@@ -559,7 +559,7 @@
       href: ~/api/overview/azure/{moniker}/ai.translation.text-readme.md
       children:
       - Azure.AI.Translation.Text
-      - Azure.AI.Translation.Text.Custom
+      - Microsoft.Extensions.Azure
     - name: Vision Common
       href: ~/api/overview/azure/{moniker}/ai.vision.common-readme.md
       children:
@@ -766,11 +766,12 @@
       href: ~/api/overview/azure/{moniker}/communication.jobrouter-readme.md
       children:
       - Azure.Communication.JobRouter
-      - Azure.Communication.JobRouter.Models
     - name: Communication Messages
       href: ~/api/overview/azure/{moniker}/communication.messages-readme.md
       children:
       - Azure.Communication.Messages
+      - Azure.Communication.Messages.Models.Channels
+      - Microsoft.Extensions.Azure
     - name: Communication Network Traversal
       href: ~/api/overview/azure/{moniker}/communication.networktraversal-readme.md
       children:
@@ -1566,7 +1567,6 @@
       children:
       - Azure.Messaging.EventGrid
       - Azure.Messaging.EventGrid.Models
-      - Azure.Messaging.EventGrid.Namespaces
       - Azure.Messaging.EventGrid.SystemEvents
       - Microsoft.Extensions.Azure
     - name: Event Grid (deprecated)
@@ -1614,6 +1614,10 @@
       href: ~/api/overview/azure/{moniker}/microsoft.azure.eventhubs.processor-readme.md
       children:
       - Microsoft.Azure.EventHubs.Processor
+    - name: Event Hubs - Service Fabric Processor
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.eventhubs.servicefabricprocessor-readme.md
+      children:
+      - Microsoft.Azure.EventHubs.ServiceFabricProcessor
     - name: Management
       items:
       - name: Resource Management - Event Hubs
@@ -1941,6 +1945,7 @@
       href: ~/api/overview/azure/{moniker}/iot.deviceupdate-readme.md
       children:
       - Azure.IoT.DeviceUpdate
+      - Microsoft.Extensions.Azure
     - name: IoT Models Repository
       href: ~/api/overview/azure/{moniker}/iot.modelsrepository-readme.md
       children:
@@ -4244,7 +4249,7 @@
       href: ~/api/overview/azure/{moniker}/analytics.synapse.accesscontrol-readme.md
       children:
       - Azure.Analytics.Synapse.AccessControl
-      - Azure.Analytics.Synapse.AccessControl.Models
+      - Microsoft.Extensions.Azure
     - name: Synapse - Artifacts
       href: ~/api/overview/azure/{moniker}/analytics.synapse.artifacts-readme.md
       children:
