@@ -1,0 +1,141 @@
+<Type Name="Output" FullName="Azure.Provisioning.Output">
+  <TypeSignature Language="C#" Value="public class Output" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Output extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Output" />
+  <TypeSignature Language="VB.NET" Value="Public Class Output" />
+  <TypeSignature Language="F#" Value="type Output = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents an output of an <see cref="T:Azure.Provisioning.IConstruct" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Output (string name, string value, Azure.Provisioning.IConstruct source, bool isLiteral = false, bool isSecure = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string value, class Azure.Provisioning.IConstruct source, bool isLiteral, bool isSecure) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Output.#ctor(System.String,System.String,Azure.Provisioning.IConstruct,System.Boolean,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, value As String, source As IConstruct, Optional isLiteral As Boolean = false, Optional isSecure As Boolean = false)" />
+      <MemberSignature Language="F#" Value="new Azure.Provisioning.Output : string * string * Azure.Provisioning.IConstruct * bool * bool -&gt; Azure.Provisioning.Output" Usage="new Azure.Provisioning.Output (name, value, source, isLiteral, isSecure)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+        <Parameter Name="source" Type="Azure.Provisioning.IConstruct" />
+        <Parameter Name="isLiteral" Type="System.Boolean" />
+        <Parameter Name="isSecure" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="name">The output name.</param>
+        <param name="value">The output value.</param>
+        <param name="source">The output source.</param>
+        <param name="isLiteral">Is the output a literal value.</param>
+        <param name="isSecure">Is the output secure.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.Provisioning.Output" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLiteral">
+      <MemberSignature Language="C#" Value="public bool IsLiteral { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsLiteral" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Output.IsLiteral" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLiteral As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsLiteral : bool" Usage="Azure.Provisioning.Output.IsLiteral" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether the output is a literal value.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSecure">
+      <MemberSignature Language="C#" Value="public bool IsSecure { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSecure" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Output.IsSecure" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSecure As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsSecure : bool" Usage="Azure.Provisioning.Output.IsSecure" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets a value indicating whether the output is secure.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Output.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Azure.Provisioning.Output.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the name of the output.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Output.Value" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As String" />
+      <MemberSignature Language="F#" Value="member this.Value : string" Usage="Azure.Provisioning.Output.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the value of the output.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

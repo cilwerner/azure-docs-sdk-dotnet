@@ -1744,6 +1744,270 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="AvsClusterCreated">
+      <MemberSignature Language="C#" Value="public const string AvsClusterCreated;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AvsClusterCreated" />
+      <MemberSignature Language="DocId" Value="F:Azure.Messaging.EventGrid.SystemEventNames.AvsClusterCreated" />
+      <MemberSignature Language="VB.NET" Value="Public Const AvsClusterCreated As String " />
+      <MemberSignature Language="F#" Value="val mutable AvsClusterCreated : string" Usage="Azure.Messaging.EventGrid.SystemEventNames.AvsClusterCreated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.22.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value of the Event Type stored in <see cref="P:Azure.Messaging.EventGrid.EventGridEvent.EventType" /> and <see cref="P:Azure.Messaging.CloudEvent.Type" /> 
+            for the <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AvsClusterCreatedEventData" /> system event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvsClusterDeleted">
+      <MemberSignature Language="C#" Value="public const string AvsClusterDeleted;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AvsClusterDeleted" />
+      <MemberSignature Language="DocId" Value="F:Azure.Messaging.EventGrid.SystemEventNames.AvsClusterDeleted" />
+      <MemberSignature Language="VB.NET" Value="Public Const AvsClusterDeleted As String " />
+      <MemberSignature Language="F#" Value="val mutable AvsClusterDeleted : string" Usage="Azure.Messaging.EventGrid.SystemEventNames.AvsClusterDeleted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.22.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value of the Event Type stored in <see cref="P:Azure.Messaging.EventGrid.EventGridEvent.EventType" /> and <see cref="P:Azure.Messaging.CloudEvent.Type" /> 
+            for the <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AvsClusterDeletedEventData" /> system event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvsClusterFailed">
+      <MemberSignature Language="C#" Value="public const string AvsClusterFailed;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AvsClusterFailed" />
+      <MemberSignature Language="DocId" Value="F:Azure.Messaging.EventGrid.SystemEventNames.AvsClusterFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const AvsClusterFailed As String " />
+      <MemberSignature Language="F#" Value="val mutable AvsClusterFailed : string" Usage="Azure.Messaging.EventGrid.SystemEventNames.AvsClusterFailed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.22.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value of the Event Type stored in <see cref="P:Azure.Messaging.EventGrid.EventGridEvent.EventType" /> and <see cref="P:Azure.Messaging.CloudEvent.Type" /> 
+            for the <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AvsClusterFailedEventData" /> system event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvsClusterUpdated">
+      <MemberSignature Language="C#" Value="public const string AvsClusterUpdated;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AvsClusterUpdated" />
+      <MemberSignature Language="DocId" Value="F:Azure.Messaging.EventGrid.SystemEventNames.AvsClusterUpdated" />
+      <MemberSignature Language="VB.NET" Value="Public Const AvsClusterUpdated As String " />
+      <MemberSignature Language="F#" Value="val mutable AvsClusterUpdated : string" Usage="Azure.Messaging.EventGrid.SystemEventNames.AvsClusterUpdated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.22.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value of the Event Type stored in <see cref="P:Azure.Messaging.EventGrid.EventGridEvent.EventType" /> and <see cref="P:Azure.Messaging.CloudEvent.Type" /> 
+            for the <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AvsClusterUpdatedEventData" /> system event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvsClusterUpdating">
+      <MemberSignature Language="C#" Value="public const string AvsClusterUpdating;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AvsClusterUpdating" />
+      <MemberSignature Language="DocId" Value="F:Azure.Messaging.EventGrid.SystemEventNames.AvsClusterUpdating" />
+      <MemberSignature Language="VB.NET" Value="Public Const AvsClusterUpdating As String " />
+      <MemberSignature Language="F#" Value="val mutable AvsClusterUpdating : string" Usage="Azure.Messaging.EventGrid.SystemEventNames.AvsClusterUpdating" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.22.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value of the Event Type stored in <see cref="P:Azure.Messaging.EventGrid.EventGridEvent.EventType" /> and <see cref="P:Azure.Messaging.CloudEvent.Type" /> 
+            for the <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AvsClusterUpdatingEventData" /> system event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvsPrivateCloudFailed">
+      <MemberSignature Language="C#" Value="public const string AvsPrivateCloudFailed;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AvsPrivateCloudFailed" />
+      <MemberSignature Language="DocId" Value="F:Azure.Messaging.EventGrid.SystemEventNames.AvsPrivateCloudFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const AvsPrivateCloudFailed As String " />
+      <MemberSignature Language="F#" Value="val mutable AvsPrivateCloudFailed : string" Usage="Azure.Messaging.EventGrid.SystemEventNames.AvsPrivateCloudFailed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.22.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value of the Event Type stored in <see cref="P:Azure.Messaging.EventGrid.EventGridEvent.EventType" /> and <see cref="P:Azure.Messaging.CloudEvent.Type" /> 
+            for the <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AvsPrivateCloudFailedEventData" /> system event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvsPrivateCloudUpdated">
+      <MemberSignature Language="C#" Value="public const string AvsPrivateCloudUpdated;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AvsPrivateCloudUpdated" />
+      <MemberSignature Language="DocId" Value="F:Azure.Messaging.EventGrid.SystemEventNames.AvsPrivateCloudUpdated" />
+      <MemberSignature Language="VB.NET" Value="Public Const AvsPrivateCloudUpdated As String " />
+      <MemberSignature Language="F#" Value="val mutable AvsPrivateCloudUpdated : string" Usage="Azure.Messaging.EventGrid.SystemEventNames.AvsPrivateCloudUpdated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.22.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value of the Event Type stored in <see cref="P:Azure.Messaging.EventGrid.EventGridEvent.EventType" /> and <see cref="P:Azure.Messaging.CloudEvent.Type" /> 
+            for the <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AvsPrivateCloudUpdatedEventData" /> system event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvsPrivateCloudUpdating">
+      <MemberSignature Language="C#" Value="public const string AvsPrivateCloudUpdating;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AvsPrivateCloudUpdating" />
+      <MemberSignature Language="DocId" Value="F:Azure.Messaging.EventGrid.SystemEventNames.AvsPrivateCloudUpdating" />
+      <MemberSignature Language="VB.NET" Value="Public Const AvsPrivateCloudUpdating As String " />
+      <MemberSignature Language="F#" Value="val mutable AvsPrivateCloudUpdating : string" Usage="Azure.Messaging.EventGrid.SystemEventNames.AvsPrivateCloudUpdating" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.22.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value of the Event Type stored in <see cref="P:Azure.Messaging.EventGrid.EventGridEvent.EventType" /> and <see cref="P:Azure.Messaging.CloudEvent.Type" /> 
+            for the <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AvsPrivateCloudUpdatingEventData" /> system event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvsScriptExecutionCancelled">
+      <MemberSignature Language="C#" Value="public const string AvsScriptExecutionCancelled;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AvsScriptExecutionCancelled" />
+      <MemberSignature Language="DocId" Value="F:Azure.Messaging.EventGrid.SystemEventNames.AvsScriptExecutionCancelled" />
+      <MemberSignature Language="VB.NET" Value="Public Const AvsScriptExecutionCancelled As String " />
+      <MemberSignature Language="F#" Value="val mutable AvsScriptExecutionCancelled : string" Usage="Azure.Messaging.EventGrid.SystemEventNames.AvsScriptExecutionCancelled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.22.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value of the Event Type stored in <see cref="P:Azure.Messaging.EventGrid.EventGridEvent.EventType" /> and <see cref="P:Azure.Messaging.CloudEvent.Type" /> 
+            for the <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AvsScriptExecutionCancelledEventData" /> system event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvsScriptExecutionFailed">
+      <MemberSignature Language="C#" Value="public const string AvsScriptExecutionFailed;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AvsScriptExecutionFailed" />
+      <MemberSignature Language="DocId" Value="F:Azure.Messaging.EventGrid.SystemEventNames.AvsScriptExecutionFailed" />
+      <MemberSignature Language="VB.NET" Value="Public Const AvsScriptExecutionFailed As String " />
+      <MemberSignature Language="F#" Value="val mutable AvsScriptExecutionFailed : string" Usage="Azure.Messaging.EventGrid.SystemEventNames.AvsScriptExecutionFailed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.22.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value of the Event Type stored in <see cref="P:Azure.Messaging.EventGrid.EventGridEvent.EventType" /> and <see cref="P:Azure.Messaging.CloudEvent.Type" /> 
+            for the <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AvsScriptExecutionFailedEventData" /> system event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvsScriptExecutionFinished">
+      <MemberSignature Language="C#" Value="public const string AvsScriptExecutionFinished;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AvsScriptExecutionFinished" />
+      <MemberSignature Language="DocId" Value="F:Azure.Messaging.EventGrid.SystemEventNames.AvsScriptExecutionFinished" />
+      <MemberSignature Language="VB.NET" Value="Public Const AvsScriptExecutionFinished As String " />
+      <MemberSignature Language="F#" Value="val mutable AvsScriptExecutionFinished : string" Usage="Azure.Messaging.EventGrid.SystemEventNames.AvsScriptExecutionFinished" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.22.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value of the Event Type stored in <see cref="P:Azure.Messaging.EventGrid.EventGridEvent.EventType" /> and <see cref="P:Azure.Messaging.CloudEvent.Type" /> 
+            for the <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AvsScriptExecutionFinishedEventData" /> system event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AvsScriptExecutionStarted">
+      <MemberSignature Language="C#" Value="public const string AvsScriptExecutionStarted;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AvsScriptExecutionStarted" />
+      <MemberSignature Language="DocId" Value="F:Azure.Messaging.EventGrid.SystemEventNames.AvsScriptExecutionStarted" />
+      <MemberSignature Language="VB.NET" Value="Public Const AvsScriptExecutionStarted As String " />
+      <MemberSignature Language="F#" Value="val mutable AvsScriptExecutionStarted : string" Usage="Azure.Messaging.EventGrid.SystemEventNames.AvsScriptExecutionStarted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.22.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value of the Event Type stored in <see cref="P:Azure.Messaging.EventGrid.EventGridEvent.EventType" /> and <see cref="P:Azure.Messaging.CloudEvent.Type" /> 
+            for the <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AvsScriptExecutionStartedEventData" /> system event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ContainerRegistryChartDeleted">
       <MemberSignature Language="C#" Value="public const string ContainerRegistryChartDeleted;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string ContainerRegistryChartDeleted" />
@@ -4270,6 +4534,50 @@
         <summary>
             The value of the Event Type stored in <see cref="P:Azure.Messaging.EventGrid.EventGridEvent.EventType" /> and <see cref="P:Azure.Messaging.CloudEvent.Type" /> 
             for the <see cref="T:Azure.Messaging.EventGrid.SystemEvents.StorageLifecyclePolicyCompletedEventData" /> system event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StorageTaskAssignmentCompleted">
+      <MemberSignature Language="C#" Value="public const string StorageTaskAssignmentCompleted;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string StorageTaskAssignmentCompleted" />
+      <MemberSignature Language="DocId" Value="F:Azure.Messaging.EventGrid.SystemEventNames.StorageTaskAssignmentCompleted" />
+      <MemberSignature Language="VB.NET" Value="Public Const StorageTaskAssignmentCompleted As String " />
+      <MemberSignature Language="F#" Value="val mutable StorageTaskAssignmentCompleted : string" Usage="Azure.Messaging.EventGrid.SystemEventNames.StorageTaskAssignmentCompleted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.22.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value of the Event Type stored in <see cref="P:Azure.Messaging.EventGrid.EventGridEvent.EventType" /> and <see cref="P:Azure.Messaging.CloudEvent.Type" /> 
+            for the <see cref="T:Azure.Messaging.EventGrid.SystemEvents.StorageTaskAssignmentCompletedEventData" /> system event.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StorageTaskAssignmentQueued">
+      <MemberSignature Language="C#" Value="public const string StorageTaskAssignmentQueued;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string StorageTaskAssignmentQueued" />
+      <MemberSignature Language="DocId" Value="F:Azure.Messaging.EventGrid.SystemEventNames.StorageTaskAssignmentQueued" />
+      <MemberSignature Language="VB.NET" Value="Public Const StorageTaskAssignmentQueued As String " />
+      <MemberSignature Language="F#" Value="val mutable StorageTaskAssignmentQueued : string" Usage="Azure.Messaging.EventGrid.SystemEventNames.StorageTaskAssignmentQueued" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.22.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The value of the Event Type stored in <see cref="P:Azure.Messaging.EventGrid.EventGridEvent.EventType" /> and <see cref="P:Azure.Messaging.CloudEvent.Type" /> 
+            for the <see cref="T:Azure.Messaging.EventGrid.SystemEvents.StorageTaskAssignmentQueuedEventData" /> system event.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>

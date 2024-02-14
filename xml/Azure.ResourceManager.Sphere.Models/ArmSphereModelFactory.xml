@@ -35,10 +35,7 @@
         <Parameter Name="value" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="value">
-            Number of children resources in parent resource.
-            Serialized Name: CountElementsResponse.value
-            </param>
+        <param name="value"> Number of children resources in parent resource. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Sphere.Models.CountDeviceResult" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Sphere.Models.CountDeviceResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -62,10 +59,7 @@
         <Parameter Name="value" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="value">
-            Number of children resources in parent resource.
-            Serialized Name: CountElementsResponse.value
-            </param>
+        <param name="value"> Number of children resources in parent resource. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Sphere.Models.CountElementsResult" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Sphere.Models.CountElementsResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -95,34 +89,13 @@
         <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.Sphere.Models.SphereProvisioningState&gt;" />
       </Parameters>
       <Docs>
-        <param name="certificate">
-            The certificate as a UTF-8 encoded base 64 string.
-            Serialized Name: CertificateProperties.certificate
-            </param>
-        <param name="status">
-            The certificate status.
-            Serialized Name: CertificateProperties.status
-            </param>
-        <param name="subject">
-            The certificate subject.
-            Serialized Name: CertificateProperties.subject
-            </param>
-        <param name="thumbprint">
-            The certificate thumbprint.
-            Serialized Name: CertificateProperties.thumbprint
-            </param>
-        <param name="expiryUtc">
-            The certificate expiry date.
-            Serialized Name: CertificateProperties.expiryUtc
-            </param>
-        <param name="notBeforeUtc">
-            The certificate not before date.
-            Serialized Name: CertificateProperties.notBeforeUtc
-            </param>
-        <param name="provisioningState">
-            The status of the last operation.
-            Serialized Name: CertificateProperties.provisioningState
-            </param>
+        <param name="certificate"> The certificate as a UTF-8 encoded base 64 string. </param>
+        <param name="status"> The certificate status. </param>
+        <param name="subject"> The certificate subject. </param>
+        <param name="thumbprint"> The certificate thumbprint. </param>
+        <param name="expiryUtc"> The certificate expiry date. </param>
+        <param name="notBeforeUtc"> The certificate not before date. </param>
+        <param name="provisioningState"> The status of the last operation. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Sphere.Models.ProofOfPossessionNonceResponse" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Sphere.Models.ProofOfPossessionNonceResponse" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -146,10 +119,7 @@
         <Parameter Name="image" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="image">
-            The signed device capability image as a UTF-8 encoded base 64 string.
-            Serialized Name: SignedCapabilityImageResponse.image
-            </param>
+        <param name="image"> The signed device capability image as a UTF-8 encoded base 64 string. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Sphere.Models.SignedCapabilityImageResponse" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Sphere.Models.SignedCapabilityImageResponse" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -185,10 +155,7 @@
         <param name="systemData"> The systemData. </param>
         <param name="tags"> The tags. </param>
         <param name="location"> The location. </param>
-        <param name="provisioningState">
-            The status of the last operation.
-            Serialized Name: Catalog.properties.provisioningState
-            </param>
+        <param name="provisioningState"> The status of the last operation. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Sphere.SphereCatalogData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Sphere.SphereCatalogData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -212,10 +179,7 @@
         <Parameter Name="certificateChain" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="certificateChain">
-            The certificate chain.
-            Serialized Name: CertificateChainResponse.certificateChain
-            </param>
+        <param name="certificateChain"> The certificate chain. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Sphere.Models.SphereCertificateChainResult" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Sphere.Models.SphereCertificateChainResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -253,34 +217,13 @@
         <param name="name"> The name. </param>
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
-        <param name="certificate">
-            The certificate as a UTF-8 encoded base 64 string.
-            Serialized Name: Certificate.properties.certificate
-            </param>
-        <param name="status">
-            The certificate status.
-            Serialized Name: Certificate.properties.status
-            </param>
-        <param name="subject">
-            The certificate subject.
-            Serialized Name: Certificate.properties.subject
-            </param>
-        <param name="thumbprint">
-            The certificate thumbprint.
-            Serialized Name: Certificate.properties.thumbprint
-            </param>
-        <param name="expiryUtc">
-            The certificate expiry date.
-            Serialized Name: Certificate.properties.expiryUtc
-            </param>
-        <param name="notBeforeUtc">
-            The certificate not before date.
-            Serialized Name: Certificate.properties.notBeforeUtc
-            </param>
-        <param name="provisioningState">
-            The status of the last operation.
-            Serialized Name: Certificate.properties.provisioningState
-            </param>
+        <param name="certificate"> The certificate as a UTF-8 encoded base 64 string. </param>
+        <param name="status"> The certificate status. </param>
+        <param name="subject"> The certificate subject. </param>
+        <param name="thumbprint"> The certificate thumbprint. </param>
+        <param name="expiryUtc"> The certificate expiry date. </param>
+        <param name="notBeforeUtc"> The certificate not before date. </param>
+        <param name="provisioningState"> The status of the last operation. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Sphere.SphereCertificateData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Sphere.SphereCertificateData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -310,34 +253,13 @@
         <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.Sphere.Models.SphereProvisioningState&gt;" />
       </Parameters>
       <Docs>
-        <param name="certificate">
-            The certificate as a UTF-8 encoded base 64 string.
-            Serialized Name: CertificateProperties.certificate
-            </param>
-        <param name="status">
-            The certificate status.
-            Serialized Name: CertificateProperties.status
-            </param>
-        <param name="subject">
-            The certificate subject.
-            Serialized Name: CertificateProperties.subject
-            </param>
-        <param name="thumbprint">
-            The certificate thumbprint.
-            Serialized Name: CertificateProperties.thumbprint
-            </param>
-        <param name="expiryUtc">
-            The certificate expiry date.
-            Serialized Name: CertificateProperties.expiryUtc
-            </param>
-        <param name="notBeforeUtc">
-            The certificate not before date.
-            Serialized Name: CertificateProperties.notBeforeUtc
-            </param>
-        <param name="provisioningState">
-            The status of the last operation.
-            Serialized Name: CertificateProperties.provisioningState
-            </param>
+        <param name="certificate"> The certificate as a UTF-8 encoded base 64 string. </param>
+        <param name="status"> The certificate status. </param>
+        <param name="subject"> The certificate subject. </param>
+        <param name="thumbprint"> The certificate thumbprint. </param>
+        <param name="expiryUtc"> The certificate expiry date. </param>
+        <param name="notBeforeUtc"> The certificate not before date. </param>
+        <param name="provisioningState"> The status of the last operation. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Sphere.Models.SphereCertificateProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Sphere.Models.SphereCertificateProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -372,22 +294,10 @@
         <param name="name"> The name. </param>
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
-        <param name="deploymentId">
-            Deployment ID
-            Serialized Name: Deployment.properties.deploymentId
-            </param>
-        <param name="deployedImages">
-            Images deployed
-            Serialized Name: Deployment.properties.deployedImages
-            </param>
-        <param name="deploymentDateUtc">
-            Deployment date UTC
-            Serialized Name: Deployment.properties.deploymentDateUtc
-            </param>
-        <param name="provisioningState">
-            The status of the last operation.
-            Serialized Name: Deployment.properties.provisioningState
-            </param>
+        <param name="deploymentId"> Deployment ID. </param>
+        <param name="deployedImages"> Images deployed. </param>
+        <param name="deploymentDateUtc"> Deployment date UTC. </param>
+        <param name="provisioningState"> The status of the last operation. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Sphere.SphereDeploymentData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Sphere.SphereDeploymentData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -425,34 +335,13 @@
         <param name="name"> The name. </param>
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
-        <param name="deviceId">
-            Device ID
-            Serialized Name: Device.properties.deviceId
-            </param>
-        <param name="chipSku">
-            SKU of the chip
-            Serialized Name: Device.properties.chipSku
-            </param>
-        <param name="lastAvailableOSVersion">
-            OS version available for installation when update requested
-            Serialized Name: Device.properties.lastAvailableOsVersion
-            </param>
-        <param name="lastInstalledOSVersion">
-            OS version running on device when update requested
-            Serialized Name: Device.properties.lastInstalledOsVersion
-            </param>
-        <param name="lastOSUpdateUtc">
-            Time when update requested and new OS version available
-            Serialized Name: Device.properties.lastOsUpdateUtc
-            </param>
-        <param name="lastUpdateRequestUtc">
-            Time when update was last requested
-            Serialized Name: Device.properties.lastUpdateRequestUtc
-            </param>
-        <param name="provisioningState">
-            The status of the last operation.
-            Serialized Name: Device.properties.provisioningState
-            </param>
+        <param name="deviceId"> Device ID. </param>
+        <param name="chipSku"> SKU of the chip. </param>
+        <param name="lastAvailableOSVersion"> OS version available for installation when update requested. </param>
+        <param name="lastInstalledOSVersion"> OS version running on device when update requested. </param>
+        <param name="lastOSUpdateUtc"> Time when update requested and new OS version available. </param>
+        <param name="lastUpdateRequestUtc"> Time when update was last requested. </param>
+        <param name="provisioningState"> The status of the last operation. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Sphere.SphereDeviceData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Sphere.SphereDeviceData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -490,34 +379,13 @@
         <param name="name"> The name. </param>
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
-        <param name="description">
-            Description of the device group.
-            Serialized Name: DeviceGroup.properties.description
-            </param>
-        <param name="osFeedType">
-            Operating system feed type of the device group.
-            Serialized Name: DeviceGroup.properties.osFeedType
-            </param>
-        <param name="updatePolicy">
-            Update policy of the device group.
-            Serialized Name: DeviceGroup.properties.updatePolicy
-            </param>
-        <param name="allowCrashDumpsCollection">
-            Flag to define if the user allows for crash dump collection.
-            Serialized Name: DeviceGroup.properties.allowCrashDumpsCollection
-            </param>
-        <param name="regionalDataBoundary">
-            Regional data boundary for the device group.
-            Serialized Name: DeviceGroup.properties.regionalDataBoundary
-            </param>
-        <param name="hasDeployment">
-            Deployment status for the device group.
-            Serialized Name: DeviceGroup.properties.hasDeployment
-            </param>
-        <param name="provisioningState">
-            The status of the last operation.
-            Serialized Name: DeviceGroup.properties.provisioningState
-            </param>
+        <param name="description"> Description of the device group. </param>
+        <param name="osFeedType"> Operating system feed type of the device group. </param>
+        <param name="updatePolicy"> Update policy of the device group. </param>
+        <param name="allowCrashDumpsCollection"> Flag to define if the user allows for crash dump collection. </param>
+        <param name="regionalDataBoundary"> Regional data boundary for the device group. </param>
+        <param name="hasDeployment"> Deployment status for the device group. </param>
+        <param name="provisioningState"> The status of the last operation. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -548,38 +416,14 @@
         <Parameter Name="eventCount" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="deviceId">
-            Device ID
-            Serialized Name: DeviceInsight.deviceId
-            </param>
-        <param name="description">
-            Event description
-            Serialized Name: DeviceInsight.description
-            </param>
-        <param name="startTimestampUtc">
-            Event start timestamp
-            Serialized Name: DeviceInsight.startTimestampUtc
-            </param>
-        <param name="endTimestampUtc">
-            Event end timestamp
-            Serialized Name: DeviceInsight.endTimestampUtc
-            </param>
-        <param name="eventCategory">
-            Event category
-            Serialized Name: DeviceInsight.eventCategory
-            </param>
-        <param name="eventClass">
-            Event class
-            Serialized Name: DeviceInsight.eventClass
-            </param>
-        <param name="eventType">
-            Event type
-            Serialized Name: DeviceInsight.eventType
-            </param>
-        <param name="eventCount">
-            Event count
-            Serialized Name: DeviceInsight.eventCount
-            </param>
+        <param name="deviceId"> Device ID. </param>
+        <param name="description"> Event description. </param>
+        <param name="startTimestampUtc"> Event start timestamp. </param>
+        <param name="endTimestampUtc"> Event end timestamp. </param>
+        <param name="eventCategory"> Event category. </param>
+        <param name="eventClass"> Event class. </param>
+        <param name="eventType"> Event type. </param>
+        <param name="eventCount"> Event count. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Sphere.Models.SphereDeviceInsight" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Sphere.Models.SphereDeviceInsight" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -621,42 +465,15 @@
         <param name="name"> The name. </param>
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
-        <param name="image">
-            Image as a UTF-8 encoded base 64 string on image create. This field contains the image URI on image reads.
-            Serialized Name: Image.properties.image
-            </param>
-        <param name="imageId">
-            Image ID
-            Serialized Name: Image.properties.imageId
-            </param>
-        <param name="imageName">
-            Image name
-            Serialized Name: Image.properties.imageName
-            </param>
-        <param name="regionalDataBoundary">
-            Regional data boundary for an image
-            Serialized Name: Image.properties.regionalDataBoundary
-            </param>
-        <param name="uri">
-            Location the image
-            Serialized Name: Image.properties.uri
-            </param>
-        <param name="description">
-            The image description.
-            Serialized Name: Image.properties.description
-            </param>
-        <param name="componentId">
-            The image component id.
-            Serialized Name: Image.properties.componentId
-            </param>
-        <param name="imageType">
-            The image type.
-            Serialized Name: Image.properties.imageType
-            </param>
-        <param name="provisioningState">
-            The status of the last operation.
-            Serialized Name: Image.properties.provisioningState
-            </param>
+        <param name="image"> Image as a UTF-8 encoded base 64 string on image create. This field contains the image URI on image reads. </param>
+        <param name="imageId"> Image ID. </param>
+        <param name="imageName"> Image name. </param>
+        <param name="regionalDataBoundary"> Regional data boundary for an image. </param>
+        <param name="uri"> Location the image. </param>
+        <param name="description"> The image description. </param>
+        <param name="componentId"> The image component id. </param>
+        <param name="imageType"> The image type. </param>
+        <param name="provisioningState"> The status of the last operation. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Sphere.SphereImageData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Sphere.SphereImageData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -689,14 +506,8 @@
         <param name="name"> The name. </param>
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
-        <param name="description">
-            Description of the product
-            Serialized Name: Product.properties.description
-            </param>
-        <param name="provisioningState">
-            The status of the last operation.
-            Serialized Name: Product.properties.provisioningState
-            </param>
+        <param name="description"> Description of the product. </param>
+        <param name="provisioningState"> The status of the last operation. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Sphere.SphereProductData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Sphere.SphereProductData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>

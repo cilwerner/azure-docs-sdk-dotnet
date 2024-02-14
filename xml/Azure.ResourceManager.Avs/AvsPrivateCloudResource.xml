@@ -11,6 +11,7 @@
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -34,8 +35,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -52,8 +53,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;</ReturnType>
@@ -85,8 +86,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;&gt;</ReturnType>
@@ -118,8 +119,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -147,8 +148,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.AvsPrivateCloudData</ReturnType>
@@ -169,8 +170,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -199,8 +200,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -229,8 +230,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;</ReturnType>
@@ -256,8 +257,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.Models.AdminCredentials&gt;</ReturnType>
@@ -283,8 +284,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.Models.AdminCredentials&gt;&gt;</ReturnType>
@@ -310,8 +311,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;&gt;</ReturnType>
@@ -337,8 +338,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsCloudLinkResource&gt;</ReturnType>
@@ -370,8 +371,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsCloudLinkResource&gt;&gt;</ReturnType>
@@ -403,8 +404,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.AvsCloudLinkCollection</ReturnType>
@@ -425,8 +426,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudAddonResource&gt;</ReturnType>
@@ -458,8 +459,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudAddonResource&gt;&gt;</ReturnType>
@@ -491,8 +492,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.AvsPrivateCloudAddonCollection</ReturnType>
@@ -513,8 +514,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource&gt;</ReturnType>
@@ -546,8 +547,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudClusterResource&gt;&gt;</ReturnType>
@@ -579,8 +580,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.AvsPrivateCloudClusterCollection</ReturnType>
@@ -601,8 +602,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.ExpressRouteAuthorizationResource&gt;</ReturnType>
@@ -634,8 +635,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.ExpressRouteAuthorizationResource&gt;&gt;</ReturnType>
@@ -667,8 +668,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.ExpressRouteAuthorizationCollection</ReturnType>
@@ -689,8 +690,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.GlobalReachConnectionResource&gt;</ReturnType>
@@ -722,8 +723,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.GlobalReachConnectionResource&gt;&gt;</ReturnType>
@@ -755,8 +756,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.GlobalReachConnectionCollection</ReturnType>
@@ -777,8 +778,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.HcxEnterpriseSiteResource&gt;</ReturnType>
@@ -810,8 +811,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.HcxEnterpriseSiteResource&gt;&gt;</ReturnType>
@@ -843,8 +844,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.HcxEnterpriseSiteCollection</ReturnType>
@@ -865,8 +866,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.ScriptExecutionResource&gt;</ReturnType>
@@ -898,8 +899,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.ScriptExecutionResource&gt;&gt;</ReturnType>
@@ -931,8 +932,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.ScriptExecutionCollection</ReturnType>
@@ -953,8 +954,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.ScriptPackageResource&gt;</ReturnType>
@@ -986,8 +987,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.ScriptPackageResource&gt;&gt;</ReturnType>
@@ -1019,8 +1020,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.ScriptPackageCollection</ReturnType>
@@ -1041,8 +1042,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkResource&gt;</ReturnType>
@@ -1070,8 +1071,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkResource&gt;&gt;</ReturnType>
@@ -1099,8 +1100,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkDhcpResource&gt;</ReturnType>
@@ -1132,8 +1133,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkDhcpResource&gt;&gt;</ReturnType>
@@ -1165,8 +1166,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.WorkloadNetworkDhcpCollection</ReturnType>
@@ -1187,8 +1188,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkDnsServiceResource&gt;</ReturnType>
@@ -1220,8 +1221,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkDnsServiceResource&gt;&gt;</ReturnType>
@@ -1253,8 +1254,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.WorkloadNetworkDnsServiceCollection</ReturnType>
@@ -1275,8 +1276,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkDnsZoneResource&gt;</ReturnType>
@@ -1308,8 +1309,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkDnsZoneResource&gt;&gt;</ReturnType>
@@ -1341,8 +1342,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.WorkloadNetworkDnsZoneCollection</ReturnType>
@@ -1363,8 +1364,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkGatewayResource&gt;</ReturnType>
@@ -1396,8 +1397,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkGatewayResource&gt;&gt;</ReturnType>
@@ -1429,8 +1430,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.WorkloadNetworkGatewayCollection</ReturnType>
@@ -1451,8 +1452,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkPortMirroringProfileResource&gt;</ReturnType>
@@ -1484,8 +1485,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkPortMirroringProfileResource&gt;&gt;</ReturnType>
@@ -1517,8 +1518,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.WorkloadNetworkPortMirroringProfileCollection</ReturnType>
@@ -1539,8 +1540,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkPublicIPResource&gt;</ReturnType>
@@ -1572,8 +1573,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkPublicIPResource&gt;&gt;</ReturnType>
@@ -1605,8 +1606,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.WorkloadNetworkPublicIPCollection</ReturnType>
@@ -1627,8 +1628,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.WorkloadNetworkCollection</ReturnType>
@@ -1649,8 +1650,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkSegmentResource&gt;</ReturnType>
@@ -1682,8 +1683,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkSegmentResource&gt;&gt;</ReturnType>
@@ -1715,8 +1716,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.WorkloadNetworkSegmentCollection</ReturnType>
@@ -1737,8 +1738,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkVirtualMachineResource&gt;</ReturnType>
@@ -1770,8 +1771,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkVirtualMachineResource&gt;&gt;</ReturnType>
@@ -1803,8 +1804,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.WorkloadNetworkVirtualMachineCollection</ReturnType>
@@ -1825,8 +1826,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkVmGroupResource&gt;</ReturnType>
@@ -1858,8 +1859,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.WorkloadNetworkVmGroupResource&gt;&gt;</ReturnType>
@@ -1891,8 +1892,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Avs.WorkloadNetworkVmGroupCollection</ReturnType>
@@ -1913,8 +1914,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1934,8 +1935,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;</ReturnType>
@@ -1965,8 +1966,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;&gt;</ReturnType>
@@ -1996,8 +1997,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -2016,8 +2017,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -2046,8 +2047,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -2076,8 +2077,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -2106,8 +2107,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -2136,8 +2137,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;</ReturnType>
@@ -2167,8 +2168,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;&gt;</ReturnType>
@@ -2198,8 +2199,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;</ReturnType>
@@ -2232,8 +2233,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Avs</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Avs.AvsPrivateCloudResource&gt;&gt;</ReturnType>

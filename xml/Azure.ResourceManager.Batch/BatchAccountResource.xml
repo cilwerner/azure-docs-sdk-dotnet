@@ -12,6 +12,7 @@
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.1.0</AssemblyVersion>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -36,6 +37,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -53,6 +55,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;</ReturnType>
@@ -85,6 +88,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;&gt;</ReturnType>
@@ -117,6 +121,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -145,6 +150,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchAccountData</ReturnType>
@@ -166,6 +172,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -195,6 +202,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -224,6 +232,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;</ReturnType>
@@ -250,6 +259,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;&gt;</ReturnType>
@@ -276,6 +286,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountCertificateResource&gt;</ReturnType>
@@ -308,6 +319,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountCertificateResource&gt;&gt;</ReturnType>
@@ -340,6 +352,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchAccountCertificateCollection</ReturnType>
@@ -361,6 +374,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountDetectorResource&gt;</ReturnType>
@@ -393,6 +407,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountDetectorResource&gt;&gt;</ReturnType>
@@ -425,6 +440,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchAccountDetectorCollection</ReturnType>
@@ -446,6 +462,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountPoolResource&gt;</ReturnType>
@@ -478,6 +495,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountPoolResource&gt;&gt;</ReturnType>
@@ -510,6 +528,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchAccountPoolCollection</ReturnType>
@@ -531,6 +550,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchApplicationResource&gt;</ReturnType>
@@ -563,6 +583,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchApplicationResource&gt;&gt;</ReturnType>
@@ -595,6 +616,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchApplicationCollection</ReturnType>
@@ -616,6 +638,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchPrivateEndpointConnectionResource&gt;</ReturnType>
@@ -648,6 +671,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchPrivateEndpointConnectionResource&gt;&gt;</ReturnType>
@@ -680,6 +704,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchPrivateEndpointConnectionCollection</ReturnType>
@@ -701,6 +726,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchPrivateLinkResource&gt;</ReturnType>
@@ -733,6 +759,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchPrivateLinkResource&gt;&gt;</ReturnType>
@@ -765,6 +792,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchPrivateLinkResourceCollection</ReturnType>
@@ -786,6 +814,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.Models.BatchAccountKeys&gt;</ReturnType>
@@ -812,6 +841,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.Models.BatchAccountKeys&gt;&gt;</ReturnType>
@@ -838,6 +868,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Batch.Models.BatchAccountOutboundEnvironmentEndpoint&gt;</ReturnType>
@@ -864,6 +895,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Batch.Models.BatchAccountOutboundEnvironmentEndpoint&gt;</ReturnType>
@@ -890,6 +922,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -910,6 +943,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.Models.BatchAccountKeys&gt;</ReturnType>
@@ -940,6 +974,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.Models.BatchAccountKeys&gt;&gt;</ReturnType>
@@ -970,6 +1005,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;</ReturnType>
@@ -1000,6 +1036,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;&gt;</ReturnType>
@@ -1030,6 +1067,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1049,6 +1087,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;</ReturnType>
@@ -1079,6 +1118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;&gt;</ReturnType>
@@ -1109,6 +1149,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1135,6 +1176,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -1161,6 +1203,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;</ReturnType>
@@ -1191,6 +1234,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;&gt;</ReturnType>

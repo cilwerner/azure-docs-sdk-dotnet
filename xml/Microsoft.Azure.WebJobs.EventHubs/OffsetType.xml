@@ -18,6 +18,7 @@
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
     <AssemblyVersion>6.0.1.0</AssemblyVersion>
     <AssemblyVersion>6.0.2.0</AssemblyVersion>
+    <AssemblyVersion>6.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -39,6 +40,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.EventHubs</AssemblyName>
         <AssemblyVersion>6.0.2.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.WebJobs.EventHubs.OffsetType</ReturnType>
@@ -61,6 +63,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.EventHubs</AssemblyName>
         <AssemblyVersion>6.0.2.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.WebJobs.EventHubs.OffsetType</ReturnType>
@@ -83,6 +86,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.EventHubs</AssemblyName>
         <AssemblyVersion>6.0.2.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.WebJobs.EventHubs.OffsetType</ReturnType>

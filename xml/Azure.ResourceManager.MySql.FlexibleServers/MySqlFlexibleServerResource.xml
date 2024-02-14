@@ -67,7 +67,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -100,7 +100,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -133,7 +133,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Exports the backup of the given server by creating a backup if not existing.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/backupAndExport</description></item><item><term>Operation Id</term><description>BackupAndExport_Create</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/backupAndExport</description></item><item><term>Operation Id</term><description>BackupAndExport_Create</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -166,7 +166,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Exports the backup of the given server by creating a backup if not existing.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/backupAndExport</description></item><item><term>Operation Id</term><description>BackupAndExport_Create</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/backupAndExport</description></item><item><term>Operation Id</term><description>BackupAndExport_Create</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -226,7 +226,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Cutover migration for MySQL import, it will switch source elastic server DNS to flexible server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/cutoverMigration</description></item><item><term>Operation Id</term><description>ServersMigration_CutoverMigration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/cutoverMigration</description></item><item><term>Operation Id</term><description>ServersMigration_CutoverMigration</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -255,7 +255,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Cutover migration for MySQL import, it will switch source elastic server DNS to flexible server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/cutoverMigration</description></item><item><term>Operation Id</term><description>ServersMigration_CutoverMigration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/cutoverMigration</description></item><item><term>Operation Id</term><description>ServersMigration_CutoverMigration</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -307,7 +307,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Delete</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -337,7 +337,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Delete</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -367,7 +367,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Manual failover a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/failover</description></item><item><term>Operation Id</term><description>Servers_Failover</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/failover</description></item><item><term>Operation Id</term><description>Servers_Failover</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -397,7 +397,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Manual failover a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/failover</description></item><item><term>Operation Id</term><description>Servers_Failover</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/failover</description></item><item><term>Operation Id</term><description>Servers_Failover</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -424,7 +424,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -451,7 +451,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -477,7 +477,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the server log files in a given server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/logFiles</description></item><item><term>Operation Id</term><description>LogFiles_ListByServer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/logFiles</description></item><item><term>Operation Id</term><description>LogFiles_ListByServer</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerLogFile" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -503,7 +503,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the server log files in a given server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/logFiles</description></item><item><term>Operation Id</term><description>LogFiles_ListByServer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/logFiles</description></item><item><term>Operation Id</term><description>LogFiles_ListByServer</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.MySql.FlexibleServers.Models.MySqlFlexibleServerLogFile" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -531,7 +531,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about an azure ad administrator.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/administrators/{administratorName}</description></item><item><term>Operation Id</term><description>AzureADAdministrators_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/administrators/{administratorName}</description></item><item><term>Operation Id</term><description>AzureADAdministrators_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerAadAdministratorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -559,7 +559,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about an azure ad administrator.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/administrators/{administratorName}</description></item><item><term>Operation Id</term><description>AzureADAdministrators_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/administrators/{administratorName}</description></item><item><term>Operation Id</term><description>AzureADAdministrators_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerAadAdministratorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -609,7 +609,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the backups for a given server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/backups/{backupName}</description></item><item><term>Operation Id</term><description>Backups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/backups/{backupName}</description></item><item><term>Operation Id</term><description>Backups_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerBackupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -642,7 +642,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the backups for a given server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/backups/{backupName}</description></item><item><term>Operation Id</term><description>Backups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/backups/{backupName}</description></item><item><term>Operation Id</term><description>Backups_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerBackupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -697,7 +697,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a configuration of server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -730,7 +730,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a configuration of server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -785,7 +785,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -818,7 +818,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -873,7 +873,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a server firewall rule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerFirewallRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -906,7 +906,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a server firewall rule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerFirewallRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -982,7 +982,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1013,7 +1013,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1046,7 +1046,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Resets GTID on a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/resetGtid</description></item><item><term>Operation Id</term><description>Servers_ResetGtid</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/resetGtid</description></item><item><term>Operation Id</term><description>Servers_ResetGtid</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1079,7 +1079,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Resets GTID on a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/resetGtid</description></item><item><term>Operation Id</term><description>Servers_ResetGtid</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/resetGtid</description></item><item><term>Operation Id</term><description>Servers_ResetGtid</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1133,7 +1133,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restarts a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/restart</description></item><item><term>Operation Id</term><description>Servers_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/restart</description></item><item><term>Operation Id</term><description>Servers_Restart</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1167,7 +1167,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restarts a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/restart</description></item><item><term>Operation Id</term><description>Servers_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/restart</description></item><item><term>Operation Id</term><description>Servers_Restart</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1198,7 +1198,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1229,7 +1229,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1261,7 +1261,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Starts a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/start</description></item><item><term>Operation Id</term><description>Servers_Start</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/start</description></item><item><term>Operation Id</term><description>Servers_Start</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1291,7 +1291,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Starts a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/start</description></item><item><term>Operation Id</term><description>Servers_Start</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/start</description></item><item><term>Operation Id</term><description>Servers_Start</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1321,7 +1321,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Stops a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/stop</description></item><item><term>Operation Id</term><description>Servers_Stop</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/stop</description></item><item><term>Operation Id</term><description>Servers_Stop</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1351,7 +1351,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Stops a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/stop</description></item><item><term>Operation Id</term><description>Servers_Stop</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/stop</description></item><item><term>Operation Id</term><description>Servers_Stop</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1383,7 +1383,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an existing server. The request body can contain one to many of the properties present in the normal server definition.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Update</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1417,7 +1417,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an existing server. The request body can contain one to many of the properties present in the normal server definition.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Update</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1451,7 +1451,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a list of configurations in a given server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/updateConfigurations</description></item><item><term>Operation Id</term><description>Configurations_BatchUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/updateConfigurations</description></item><item><term>Operation Id</term><description>Configurations_BatchUpdate</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1485,7 +1485,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a list of configurations in a given server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/updateConfigurations</description></item><item><term>Operation Id</term><description>Configurations_BatchUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/updateConfigurations</description></item><item><term>Operation Id</term><description>Configurations_BatchUpdate</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MySql.FlexibleServers.MySqlFlexibleServerConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1513,7 +1513,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Validates if backup can be performed for given server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/validateBackup</description></item><item><term>Operation Id</term><description>BackupAndExport_ValidateBackup</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/validateBackup</description></item><item><term>Operation Id</term><description>BackupAndExport_ValidateBackup</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1539,7 +1539,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Validates if backup can be performed for given server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/validateBackup</description></item><item><term>Operation Id</term><description>BackupAndExport_ValidateBackup</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforMySQL/flexibleServers/{serverName}/validateBackup</description></item><item><term>Operation Id</term><description>BackupAndExport_ValidateBackup</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

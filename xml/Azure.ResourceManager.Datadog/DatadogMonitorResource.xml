@@ -63,7 +63,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -95,7 +95,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -175,7 +175,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Delete</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -204,7 +204,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Delete</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -230,7 +230,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of a specific monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -256,7 +256,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the api keys for a given monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listApiKeys</description></item><item><term>Operation Id</term><description>Monitors_ListApiKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listApiKeys</description></item><item><term>Operation Id</term><description>Monitors_ListApiKeys</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Datadog.Models.DatadogApiKey" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -282,7 +282,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the api keys for a given monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listApiKeys</description></item><item><term>Operation Id</term><description>Monitors_ListApiKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listApiKeys</description></item><item><term>Operation Id</term><description>Monitors_ListApiKeys</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Datadog.Models.DatadogApiKey" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -308,7 +308,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of a specific monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -336,7 +336,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the datadog single sign-on resource for the given Monitor.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/singleSignOnConfigurations/{configurationName}</description></item><item><term>Operation Id</term><description>SingleSignOnConfigurations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/singleSignOnConfigurations/{configurationName}</description></item><item><term>Operation Id</term><description>SingleSignOnConfigurations_Get</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogSingleSignOnResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -368,7 +368,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the datadog single sign-on resource for the given Monitor.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/singleSignOnConfigurations/{configurationName}</description></item><item><term>Operation Id</term><description>SingleSignOnConfigurations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/singleSignOnConfigurations/{configurationName}</description></item><item><term>Operation Id</term><description>SingleSignOnConfigurations_Get</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogSingleSignOnResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -419,7 +419,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the default api key.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/getDefaultKey</description></item><item><term>Operation Id</term><description>Monitors_GetDefaultKey</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/getDefaultKey</description></item><item><term>Operation Id</term><description>Monitors_GetDefaultKey</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -445,7 +445,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the default api key.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/getDefaultKey</description></item><item><term>Operation Id</term><description>Monitors_GetDefaultKey</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/getDefaultKey</description></item><item><term>Operation Id</term><description>Monitors_GetDefaultKey</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -471,7 +471,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the hosts for a given monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listHosts</description></item><item><term>Operation Id</term><description>Monitors_ListHosts</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listHosts</description></item><item><term>Operation Id</term><description>Monitors_ListHosts</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Datadog.Models.DatadogHost" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -497,7 +497,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the hosts for a given monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listHosts</description></item><item><term>Operation Id</term><description>Monitors_ListHosts</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listHosts</description></item><item><term>Operation Id</term><description>Monitors_ListHosts</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Datadog.Models.DatadogHost" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -523,7 +523,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all Azure resources associated to the same Datadog organization as the target resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listLinkedResources</description></item><item><term>Operation Id</term><description>Monitors_ListLinkedResources</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listLinkedResources</description></item><item><term>Operation Id</term><description>Monitors_ListLinkedResources</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Resources.Models.SubResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -549,7 +549,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all Azure resources associated to the same Datadog organization as the target resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listLinkedResources</description></item><item><term>Operation Id</term><description>Monitors_ListLinkedResources</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listLinkedResources</description></item><item><term>Operation Id</term><description>Monitors_ListLinkedResources</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Resources.Models.SubResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -575,7 +575,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the resources currently being monitored by the Datadog monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listMonitoredResources</description></item><item><term>Operation Id</term><description>Monitors_ListMonitoredResources</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listMonitoredResources</description></item><item><term>Operation Id</term><description>Monitors_ListMonitoredResources</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Datadog.Models.MonitoredResourceContent" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -601,7 +601,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the resources currently being monitored by the Datadog monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listMonitoredResources</description></item><item><term>Operation Id</term><description>Monitors_ListMonitoredResources</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/listMonitoredResources</description></item><item><term>Operation Id</term><description>Monitors_ListMonitoredResources</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Datadog.Models.MonitoredResourceContent" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -629,7 +629,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a tag rule set for a given monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/tagRules/{ruleSetName}</description></item><item><term>Operation Id</term><description>TagRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/tagRules/{ruleSetName}</description></item><item><term>Operation Id</term><description>TagRules_Get</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.MonitoringTagRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -661,7 +661,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a tag rule set for a given monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/tagRules/{ruleSetName}</description></item><item><term>Operation Id</term><description>TagRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/tagRules/{ruleSetName}</description></item><item><term>Operation Id</term><description>TagRules_Get</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.MonitoringTagRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -732,7 +732,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Refresh the set password link and return a latest one.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/refreshSetPasswordLink</description></item><item><term>Operation Id</term><description>Monitors_RefreshSetPasswordLink</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/refreshSetPasswordLink</description></item><item><term>Operation Id</term><description>Monitors_RefreshSetPasswordLink</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -758,7 +758,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Refresh the set password link and return a latest one.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/refreshSetPasswordLink</description></item><item><term>Operation Id</term><description>Monitors_RefreshSetPasswordLink</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/refreshSetPasswordLink</description></item><item><term>Operation Id</term><description>Monitors_RefreshSetPasswordLink</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -786,7 +786,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -816,7 +816,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -865,7 +865,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Set the default api key.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/setDefaultKey</description></item><item><term>Operation Id</term><description>Monitors_SetDefaultKey</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/setDefaultKey</description></item><item><term>Operation Id</term><description>Monitors_SetDefaultKey</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -893,7 +893,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Set the default api key.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/setDefaultKey</description></item><item><term>Operation Id</term><description>Monitors_SetDefaultKey</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}/setDefaultKey</description></item><item><term>Operation Id</term><description>Monitors_SetDefaultKey</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -921,7 +921,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -951,7 +951,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -984,7 +984,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Update</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1017,7 +1017,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Datadog/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Update</description></item><item><term>Default Api Version</term><description>2021-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Datadog.DatadogMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
