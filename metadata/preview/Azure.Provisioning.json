@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Provisioning",
-  "Version": "1.0.0-alpha.20240213.2",
-  "DevVersion": "1.0.0-alpha.20240213.2",
+  "Version": "1.0.0-alpha.20240213.3",
+  "DevVersion": "1.0.0-alpha.20240213.3",
   "DirectoryPath": "sdk/provisioning/Azure.Provisioning",
   "ServiceDirectory": "provisioning",
   "ReadMePath": "sdk/provisioning/Azure.Provisioning/README.md",
