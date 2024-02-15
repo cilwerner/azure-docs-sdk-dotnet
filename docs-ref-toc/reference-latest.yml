@@ -295,6 +295,11 @@
       href: ~/api/overview/azure/latest/ai.translation.document-readme.md
       children:
       - Azure.AI.Translation.Document
+    - name: Text Translation
+      children:
+      - Azure.AI.Translation.Text
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
     - name: Image Analysis
       children:
       - Azure.AI.Vision.ImageAnalysis
@@ -465,7 +470,12 @@
       href: ~/api/overview/azure/latest/communication.jobrouter-readme.md
       children:
       - Azure.Communication.JobRouter
-      - Azure.Communication.JobRouter.Models
+    - name: Communication Messages
+      children:
+      - Azure.Communication.Messages
+      - Azure.Communication.Messages.Models.Channels
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
     - name: Communication Network Traversal
       href: ~/api/overview/azure/latest/communication.networktraversal-readme.md
       children:
@@ -892,7 +902,6 @@
       children:
       - Azure.Messaging.EventGrid
       - Azure.Messaging.EventGrid.Models
-      - Azure.Messaging.EventGrid.Namespaces
       - Azure.Messaging.EventGrid.SystemEvents
       - Microsoft.Extensions.Azure
     - name: Management
@@ -1069,6 +1078,7 @@
       href: ~/api/overview/azure/latest/iot.deviceupdate-readme.md
       children:
       - Azure.IoT.DeviceUpdate
+      - Microsoft.Extensions.Azure
     - name: Microsoft.Azure.Devices
       children:
       - Microsoft.Azure.Devices
@@ -2184,6 +2194,11 @@
     href: ~/api/overview/azure/latest/synapse.md
     landingPageType: Service
     items:
+    - name: Synapse - AccessControl
+      children:
+      - Azure.Analytics.Synapse.AccessControl
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
     - name: Management
       items:
       - name: Resource Management - Synapse

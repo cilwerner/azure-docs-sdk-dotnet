@@ -64,7 +64,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to create or update a virtual machine instance. Please note some properties can be set only during virtual machine instance creation.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.VirtualMachineInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -97,7 +97,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to create or update a virtual machine instance. Please note some properties can be set only during virtual machine instance creation.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.VirtualMachineInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -173,7 +173,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to delete a virtual machine instance.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Delete</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.VirtualMachineInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -202,7 +202,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to delete a virtual machine instance.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Delete</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.VirtualMachineInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -228,7 +228,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a virtual machine instance
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.VirtualMachineInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -254,7 +254,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a virtual machine instance
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.VirtualMachineInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -364,7 +364,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to restart a virtual machine instance.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/restart</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/restart</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Restart</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.VirtualMachineInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -393,7 +393,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to restart a virtual machine instance.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/restart</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/restart</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Restart</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.VirtualMachineInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -422,7 +422,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to start a virtual machine instance.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/start</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Start</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/start</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Start</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.VirtualMachineInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -451,7 +451,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to start a virtual machine instance.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/start</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Start</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/start</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Start</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.VirtualMachineInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -480,7 +480,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to stop a virtual machine instance.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/stop</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Stop</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/stop</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Stop</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.VirtualMachineInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -509,7 +509,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to stop a virtual machine instance.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/stop</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Stop</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default/stop</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Stop</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.VirtualMachineInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -540,7 +540,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to update a virtual machine instance.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Update</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.VirtualMachineInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -573,7 +573,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to update a virtual machine instance.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceUri}/providers/Microsoft.AzureStackHCI/virtualMachineInstances/default</description></item><item><term>Operation Id</term><description>VirtualMachineInstances_Update</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.VirtualMachineInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

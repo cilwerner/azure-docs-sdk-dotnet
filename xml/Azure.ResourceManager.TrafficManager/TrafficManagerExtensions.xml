@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerNameAvailabilityResult&gt;</ReturnType>
@@ -44,7 +46,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks the availability of a Traffic Manager Relative DNS name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Network/checkTrafficManagerNameAvailabilityV2</description></item><item><term>Operation Id</term><description>Profiles_checkTrafficManagerNameAvailabilityV2</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerSubscriptionResource.CheckTrafficManagerNameAvailabilityV2(Azure.ResourceManager.TrafficManager.Models.TrafficManagerRelativeDnsNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Network/checkTrafficManagerNameAvailabilityV2</description></item><item><term>Operation Id</term><description>Profiles_checkTrafficManagerNameAvailabilityV2</description></item><item><term>Default Api Version</term><description>2022-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerSubscriptionResource.CheckTrafficManagerNameAvailabilityV2(Azure.ResourceManager.TrafficManager.Models.TrafficManagerRelativeDnsNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -61,6 +63,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerNameAvailabilityResult&gt;&gt;</ReturnType>
@@ -76,7 +79,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks the availability of a Traffic Manager Relative DNS name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Network/checkTrafficManagerNameAvailabilityV2</description></item><item><term>Operation Id</term><description>Profiles_checkTrafficManagerNameAvailabilityV2</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerSubscriptionResource.CheckTrafficManagerNameAvailabilityV2(Azure.ResourceManager.TrafficManager.Models.TrafficManagerRelativeDnsNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Network/checkTrafficManagerNameAvailabilityV2</description></item><item><term>Operation Id</term><description>Profiles_checkTrafficManagerNameAvailabilityV2</description></item><item><term>Default Api Version</term><description>2022-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerSubscriptionResource.CheckTrafficManagerNameAvailabilityV2(Azure.ResourceManager.TrafficManager.Models.TrafficManagerRelativeDnsNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -93,6 +96,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerNameAvailabilityResult&gt;</ReturnType>
@@ -108,7 +112,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks the availability of a Traffic Manager Relative DNS name.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Network/checkTrafficManagerNameAvailability</description></item><item><term>Operation Id</term><description>Profiles_CheckTrafficManagerRelativeDnsNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerTenantResource.CheckTrafficManagerRelativeDnsNameAvailability(Azure.ResourceManager.TrafficManager.Models.TrafficManagerRelativeDnsNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Network/checkTrafficManagerNameAvailability</description></item><item><term>Operation Id</term><description>Profiles_CheckTrafficManagerRelativeDnsNameAvailability</description></item><item><term>Default Api Version</term><description>2022-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerTenantResource.CheckTrafficManagerRelativeDnsNameAvailability(Azure.ResourceManager.TrafficManager.Models.TrafficManagerRelativeDnsNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -125,6 +129,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.TrafficManager.Models.TrafficManagerNameAvailabilityResult&gt;&gt;</ReturnType>
@@ -140,7 +145,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks the availability of a Traffic Manager Relative DNS name.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Network/checkTrafficManagerNameAvailability</description></item><item><term>Operation Id</term><description>Profiles_CheckTrafficManagerRelativeDnsNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerTenantResource.CheckTrafficManagerRelativeDnsNameAvailability(Azure.ResourceManager.TrafficManager.Models.TrafficManagerRelativeDnsNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Network/checkTrafficManagerNameAvailability</description></item><item><term>Operation Id</term><description>Profiles_CheckTrafficManagerRelativeDnsNameAvailability</description></item><item><term>Default Api Version</term><description>2022-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerTenantResource.CheckTrafficManagerRelativeDnsNameAvailability(Azure.ResourceManager.TrafficManager.Models.TrafficManagerRelativeDnsNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -157,6 +162,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.TrafficManager.TrafficManagerEndpointResource</ReturnType>
@@ -188,6 +194,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource</ReturnType>
@@ -216,6 +223,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.TrafficManager.TrafficManagerGeographicHierarchyResource</ReturnType>
@@ -247,6 +255,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.TrafficManager.TrafficManagerHeatMapResource</ReturnType>
@@ -278,6 +287,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource&gt;</ReturnType>
@@ -293,7 +303,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Traffic Manager profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerResourceGroupResource.GetTrafficManagerProfile(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item><item><term>Default Api Version</term><description>2022-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerResourceGroupResource.GetTrafficManagerProfile(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -312,6 +322,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource&gt;&gt;</ReturnType>
@@ -327,7 +338,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Traffic Manager profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerResourceGroupResource.GetTrafficManagerProfileAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}</description></item><item><term>Operation Id</term><description>Profiles_Get</description></item><item><term>Default Api Version</term><description>2022-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerResourceGroupResource.GetTrafficManagerProfileAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -346,6 +357,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource</ReturnType>
@@ -377,6 +389,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.TrafficManager.TrafficManagerProfileCollection</ReturnType>
@@ -405,6 +418,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource&gt;</ReturnType>
@@ -418,7 +432,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all Traffic Manager profiles within a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Network/trafficmanagerprofiles</description></item><item><term>Operation Id</term><description>Profiles_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerSubscriptionResource.GetTrafficManagerProfiles(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Network/trafficmanagerprofiles</description></item><item><term>Operation Id</term><description>Profiles_ListBySubscription</description></item><item><term>Default Api Version</term><description>2022-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerSubscriptionResource.GetTrafficManagerProfiles(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -435,6 +449,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource&gt;</ReturnType>
@@ -448,7 +463,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all Traffic Manager profiles within a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Network/trafficmanagerprofiles</description></item><item><term>Operation Id</term><description>Profiles_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerSubscriptionResource.GetTrafficManagerProfiles(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Network/trafficmanagerprofiles</description></item><item><term>Operation Id</term><description>Profiles_ListBySubscription</description></item><item><term>Default Api Version</term><description>2022-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.TrafficManager.Mocking.MockableTrafficManagerSubscriptionResource.GetTrafficManagerProfiles(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.TrafficManager.TrafficManagerProfileResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -465,6 +480,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.TrafficManager.TrafficManagerUserMetricsResource</ReturnType>
@@ -493,6 +509,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.TrafficManager</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.TrafficManager.TrafficManagerUserMetricsResource</ReturnType>
