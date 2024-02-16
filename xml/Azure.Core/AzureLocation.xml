@@ -22,6 +22,7 @@
     <AssemblyVersion>1.35.0.0</AssemblyVersion>
     <AssemblyVersion>1.36.0.0</AssemblyVersion>
     <AssemblyVersion>1.37.0.0</AssemblyVersion>
+    <AssemblyVersion>1.38.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -48,6 +49,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="System.String" />
@@ -68,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -90,6 +93,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -112,6 +116,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -134,6 +139,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -156,6 +162,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -178,6 +185,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -200,6 +208,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -222,6 +231,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -244,6 +254,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -266,6 +277,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -288,6 +300,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -310,6 +323,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -332,6 +346,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -339,6 +354,28 @@
       <Docs>
         <summary>
             Public cloud location for China East 2.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChinaEast3">
+      <MemberSignature Language="C#" Value="public static Azure.Core.AzureLocation ChinaEast3 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Core.AzureLocation ChinaEast3" />
+      <MemberSignature Language="DocId" Value="P:Azure.Core.AzureLocation.ChinaEast3" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ChinaEast3 As AzureLocation" />
+      <MemberSignature Language="F#" Value="static member ChinaEast3 : Azure.Core.AzureLocation" Usage="Azure.Core.AzureLocation.ChinaEast3" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Core</AssemblyName>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.AzureLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Public cloud location for China East 3.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -354,6 +391,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -376,6 +414,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -383,6 +422,28 @@
       <Docs>
         <summary>
             Public cloud location for China North 2.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChinaNorth3">
+      <MemberSignature Language="C#" Value="public static Azure.Core.AzureLocation ChinaNorth3 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Core.AzureLocation ChinaNorth3" />
+      <MemberSignature Language="DocId" Value="P:Azure.Core.AzureLocation.ChinaNorth3" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ChinaNorth3 As AzureLocation" />
+      <MemberSignature Language="F#" Value="static member ChinaNorth3 : Azure.Core.AzureLocation" Usage="Azure.Core.AzureLocation.ChinaNorth3" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Core</AssemblyName>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.AzureLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Public cloud location for China North 3.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -398,6 +459,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -420,6 +482,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -442,6 +505,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -464,6 +528,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -489,6 +554,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -515,6 +581,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -546,6 +613,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -568,6 +636,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -590,6 +659,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -612,6 +682,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -634,6 +705,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -656,6 +728,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -678,6 +751,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -695,6 +769,50 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="IsraelCentral">
+      <MemberSignature Language="C#" Value="public static Azure.Core.AzureLocation IsraelCentral { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Core.AzureLocation IsraelCentral" />
+      <MemberSignature Language="DocId" Value="P:Azure.Core.AzureLocation.IsraelCentral" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IsraelCentral As AzureLocation" />
+      <MemberSignature Language="F#" Value="static member IsraelCentral : Azure.Core.AzureLocation" Usage="Azure.Core.AzureLocation.IsraelCentral" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Core</AssemblyName>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.AzureLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Public cloud location for Israel Central.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItalyNorth">
+      <MemberSignature Language="C#" Value="public static Azure.Core.AzureLocation ItalyNorth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Core.AzureLocation ItalyNorth" />
+      <MemberSignature Language="DocId" Value="P:Azure.Core.AzureLocation.ItalyNorth" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ItalyNorth As AzureLocation" />
+      <MemberSignature Language="F#" Value="static member ItalyNorth : Azure.Core.AzureLocation" Usage="Azure.Core.AzureLocation.ItalyNorth" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Core</AssemblyName>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.AzureLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Public cloud location for Italy North.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="JapanEast">
       <MemberSignature Language="C#" Value="public static Azure.Core.AzureLocation JapanEast { get; }" />
       <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Core.AzureLocation JapanEast" />
@@ -705,6 +823,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -727,6 +846,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -749,6 +869,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -771,6 +892,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -793,6 +915,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -815,6 +938,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -837,6 +961,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -859,6 +984,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -881,6 +1007,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -903,6 +1030,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -931,6 +1059,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -957,6 +1086,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -983,6 +1113,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1001,6 +1132,28 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="PolandCentral">
+      <MemberSignature Language="C#" Value="public static Azure.Core.AzureLocation PolandCentral { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Core.AzureLocation PolandCentral" />
+      <MemberSignature Language="DocId" Value="P:Azure.Core.AzureLocation.PolandCentral" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property PolandCentral As AzureLocation" />
+      <MemberSignature Language="F#" Value="static member PolandCentral : Azure.Core.AzureLocation" Usage="Azure.Core.AzureLocation.PolandCentral" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Core</AssemblyName>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.AzureLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Public cloud location for Poland Central.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="QatarCentral">
       <MemberSignature Language="C#" Value="public static Azure.Core.AzureLocation QatarCentral { get; }" />
       <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Core.AzureLocation QatarCentral" />
@@ -1011,6 +1164,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1033,6 +1187,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1055,6 +1210,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1077,6 +1233,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1099,6 +1256,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1121,6 +1279,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1143,6 +1302,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1150,6 +1310,28 @@
       <Docs>
         <summary>
             Public cloud location for Sweden Central.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SwedenSouth">
+      <MemberSignature Language="C#" Value="public static Azure.Core.AzureLocation SwedenSouth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Core.AzureLocation SwedenSouth" />
+      <MemberSignature Language="DocId" Value="P:Azure.Core.AzureLocation.SwedenSouth" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SwedenSouth As AzureLocation" />
+      <MemberSignature Language="F#" Value="static member SwedenSouth : Azure.Core.AzureLocation" Usage="Azure.Core.AzureLocation.SwedenSouth" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Core</AssemblyName>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.AzureLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Public cloud location for Sweden South.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1165,6 +1347,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1187,6 +1370,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1209,6 +1393,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1232,6 +1417,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1254,6 +1440,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1276,6 +1463,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1298,6 +1486,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1320,6 +1509,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1342,6 +1532,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1364,6 +1555,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1386,6 +1578,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1408,6 +1601,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1430,6 +1624,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1452,6 +1647,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1474,6 +1670,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1496,6 +1693,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1518,6 +1716,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1540,6 +1739,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>
@@ -1562,6 +1762,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.37.0.0</AssemblyVersion>
+        <AssemblyVersion>1.38.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.AzureLocation</ReturnType>

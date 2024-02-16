@@ -97,6 +97,32 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="CreateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.ClientModel.ClientResultException&gt; CreateAsync (System.ClientModel.Primitives.PipelineResponse response, Exception? innerException = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.ClientModel.ClientResultException&gt; CreateAsync(class System.ClientModel.Primitives.PipelineResponse response, class System.Exception innerException) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ClientModel.ClientResultException.CreateAsync(System.ClientModel.Primitives.PipelineResponse,System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateAsync (response As PipelineResponse, Optional innerException As Exception = Nothing) As Task(Of ClientResultException)" />
+      <MemberSignature Language="F#" Value="static member CreateAsync : System.ClientModel.Primitives.PipelineResponse * Exception -&gt; System.Threading.Tasks.Task&lt;System.ClientModel.ClientResultException&gt;" Usage="System.ClientModel.ClientResultException.CreateAsync (response, innerException)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.ClientModel.ClientResultException&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="response" Type="System.ClientModel.Primitives.PipelineResponse" />
+        <Parameter Name="innerException" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="response">To be added.</param>
+        <param name="innerException">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetObjectData">
       <MemberSignature Language="C#" Value="public override void GetObjectData (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void GetObjectData(class System.Runtime.Serialization.SerializationInfo info, valuetype System.Runtime.Serialization.StreamingContext context) cil managed" />

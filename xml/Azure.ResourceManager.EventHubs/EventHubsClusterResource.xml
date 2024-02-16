@@ -66,7 +66,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -99,7 +99,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -182,7 +182,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes an existing Event Hubs Cluster. This operation is idempotent.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Delete</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -212,7 +212,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes an existing Event Hubs Cluster. This operation is idempotent.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Delete</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -239,7 +239,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the resource description of the specified Event Hubs Cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -266,7 +266,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the resource description of the specified Event Hubs Cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -293,7 +293,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get all Event Hubs Cluster settings - a collection of key/value pairs which represent the quotas and settings imposed on the cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}/quotaConfiguration/default</description></item><item><term>Operation Id</term><description>Configuration_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}/quotaConfiguration/default</description></item><item><term>Operation Id</term><description>Configuration_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -320,7 +320,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get all Event Hubs Cluster settings - a collection of key/value pairs which represent the quotas and settings imposed on the cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}/quotaConfiguration/default</description></item><item><term>Operation Id</term><description>Configuration_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}/quotaConfiguration/default</description></item><item><term>Operation Id</term><description>Configuration_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -347,7 +347,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all Event Hubs Namespace IDs in an Event Hubs Dedicated Cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}/namespaces</description></item><item><term>Operation Id</term><description>Clusters_ListNamespaces</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}/namespaces</description></item><item><term>Operation Id</term><description>Clusters_ListNamespaces</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Resources.Models.SubResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -374,7 +374,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all Event Hubs Namespace IDs in an Event Hubs Dedicated Cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}/namespaces</description></item><item><term>Operation Id</term><description>Clusters_ListNamespaces</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}/namespaces</description></item><item><term>Operation Id</term><description>Clusters_ListNamespaces</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Resources.Models.SubResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -424,7 +424,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace all specified Event Hubs Cluster settings with those contained in the request body. Leaves the settings not specified in the request body unmodified.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}/quotaConfiguration/default</description></item><item><term>Operation Id</term><description>Configuration_Patch</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}/quotaConfiguration/default</description></item><item><term>Operation Id</term><description>Configuration_Patch</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -455,7 +455,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace all specified Event Hubs Cluster settings with those contained in the request body. Leaves the settings not specified in the request body unmodified.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}/quotaConfiguration/default</description></item><item><term>Operation Id</term><description>Configuration_Patch</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}/quotaConfiguration/default</description></item><item><term>Operation Id</term><description>Configuration_Patch</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -486,7 +486,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -517,7 +517,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -568,7 +568,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -599,7 +599,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Get</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -633,7 +633,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Modifies mutable properties on the Event Hubs Cluster. This operation is idempotent.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -667,7 +667,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Modifies mutable properties on the Event Hubs Cluster. This operation is idempotent.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventHub/clusters/{clusterName}</description></item><item><term>Operation Id</term><description>Clusters_Update</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

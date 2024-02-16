@@ -39,10 +39,10 @@
       </Docs>
     </Member>
     <Member MemberName="Content">
-      <MemberSignature Language="C#" Value="public virtual BinaryData Content { get; }" />
+      <MemberSignature Language="C#" Value="public abstract BinaryData Content { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.BinaryData Content" />
       <MemberSignature Language="DocId" Value="P:System.ClientModel.Primitives.PipelineResponse.Content" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Content As BinaryData" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property Content As BinaryData" />
       <MemberSignature Language="F#" Value="member this.Content : BinaryData" Usage="System.ClientModel.Primitives.PipelineResponse.Content" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
@@ -168,6 +168,54 @@
             an error code.
             </summary>
         <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadContent">
+      <MemberSignature Language="C#" Value="public abstract BinaryData ReadContent (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.BinaryData ReadContent(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ClientModel.Primitives.PipelineResponse.ReadContent(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function ReadContent (Optional cancellationToken As CancellationToken = Nothing) As BinaryData" />
+      <MemberSignature Language="F#" Value="abstract member ReadContent : System.Threading.CancellationToken -&gt; BinaryData" Usage="pipelineResponse.ReadContent cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.BinaryData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadContentAsync">
+      <MemberSignature Language="C#" Value="public abstract System.Threading.Tasks.ValueTask&lt;BinaryData&gt; ReadContentAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;class System.BinaryData&gt; ReadContentAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ClientModel.Primitives.PipelineResponse.ReadContentAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function ReadContentAsync (Optional cancellationToken As CancellationToken = Nothing) As ValueTask(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member ReadContentAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;BinaryData&gt;" Usage="pipelineResponse.ReadContentAsync cancellationToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.ValueTask&lt;System.BinaryData&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

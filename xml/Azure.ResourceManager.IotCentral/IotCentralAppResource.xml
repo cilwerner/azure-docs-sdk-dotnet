@@ -67,7 +67,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralAppResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -100,7 +100,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralAppResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -183,7 +183,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete an IoT Central application.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Delete</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralAppResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -213,7 +213,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete an IoT Central application.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Delete</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralAppResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -240,7 +240,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the metadata of an IoT Central application.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralAppResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -267,7 +267,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the metadata of an IoT Central application.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralAppResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -296,7 +296,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the metadata of a private endpoint connection for the IoT Central Application.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -329,7 +329,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the metadata of a private endpoint connection for the IoT Central Application.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -384,7 +384,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a private link resource of a IoT Central Application.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}/privateLinkResources/{groupId}</description></item><item><term>Operation Id</term><description>PrivateLinks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}/privateLinkResources/{groupId}</description></item><item><term>Operation Id</term><description>PrivateLinks_Get</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralPrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -417,7 +417,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a private link resource of a IoT Central Application.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}/privateLinkResources/{groupId}</description></item><item><term>Operation Id</term><description>PrivateLinks_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}/privateLinkResources/{groupId}</description></item><item><term>Operation Id</term><description>PrivateLinks_Get</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralPrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -493,7 +493,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralAppResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -524,7 +524,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralAppResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -575,7 +575,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralAppResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -606,7 +606,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Get</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralAppResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -640,7 +640,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update the metadata of an IoT Central application.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Update</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralAppResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -674,7 +674,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update the metadata of an IoT Central application.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTCentral/iotApps/{resourceName}</description></item><item><term>Operation Id</term><description>Apps_Update</description></item><item><term>Default Api Version</term><description>2021-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotCentral.IotCentralAppResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

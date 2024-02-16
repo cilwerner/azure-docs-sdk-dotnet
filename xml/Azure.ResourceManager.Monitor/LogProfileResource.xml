@@ -11,6 +11,7 @@
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -35,6 +36,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -52,6 +54,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.LogProfileResource&gt;</ReturnType>
@@ -67,7 +70,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item><item><term>Default Api Version</term><description>2016-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.LogProfileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -84,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.LogProfileResource&gt;&gt;</ReturnType>
@@ -99,7 +103,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item><item><term>Default Api Version</term><description>2016-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.LogProfileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -116,6 +120,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -142,6 +147,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Monitor.LogProfileData</ReturnType>
@@ -163,6 +169,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -177,7 +184,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the log profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Delete</description></item><item><term>Default Api Version</term><description>2016-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.LogProfileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -192,6 +199,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -206,7 +214,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the log profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Delete</description></item><item><term>Default Api Version</term><description>2016-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.LogProfileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -221,6 +229,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.LogProfileResource&gt;</ReturnType>
@@ -232,7 +241,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the log profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item><item><term>Default Api Version</term><description>2016-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.LogProfileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -247,6 +256,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.LogProfileResource&gt;&gt;</ReturnType>
@@ -258,7 +268,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the log profile.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item><item><term>Default Api Version</term><description>2016-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.LogProfileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -273,6 +283,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -293,6 +304,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.LogProfileResource&gt;</ReturnType>
@@ -306,7 +318,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item><item><term>Default Api Version</term><description>2016-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.LogProfileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -323,6 +335,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.LogProfileResource&gt;&gt;</ReturnType>
@@ -336,7 +349,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item><item><term>Default Api Version</term><description>2016-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.LogProfileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -353,6 +366,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -372,6 +386,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.LogProfileResource&gt;</ReturnType>
@@ -385,7 +400,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item><item><term>Default Api Version</term><description>2016-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.LogProfileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -402,6 +417,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.LogProfileResource&gt;&gt;</ReturnType>
@@ -415,7 +431,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Get</description></item><item><term>Default Api Version</term><description>2016-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.LogProfileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -432,6 +448,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.LogProfileResource&gt;</ReturnType>
@@ -445,7 +462,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an existing LogProfilesResource. To update other fields use the CreateOrUpdate method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Update</description></item><item><term>Default Api Version</term><description>2016-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.LogProfileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -462,6 +479,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.LogProfileResource&gt;&gt;</ReturnType>
@@ -475,7 +493,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an existing LogProfilesResource. To update other fields use the CreateOrUpdate method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Insights/logprofiles/{logProfileName}</description></item><item><term>Operation Id</term><description>LogProfiles_Update</description></item><item><term>Default Api Version</term><description>2016-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.LogProfileResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
