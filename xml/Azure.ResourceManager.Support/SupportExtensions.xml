@@ -44,7 +44,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of a resource name. This API should be used to check the uniqueness of the name for support ticket creation for the selected subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/checkNameAvailability</description></item><item><term>Operation Id</term><description>SupportTicketsNoSubscription_CheckNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.CheckNameAvailabilitySupportTicketsNoSubscription(Azure.ResourceManager.Support.Models.SupportNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/checkNameAvailability</description></item><item><term>Operation Id</term><description>SupportTicketsNoSubscription_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Support.TenantSupportTicketResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.CheckNameAvailabilitySupportTicketsNoSubscription(Azure.ResourceManager.Support.Models.SupportNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -76,7 +76,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of a resource name. This API should be used to check the uniqueness of the name for support ticket creation for the selected subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/checkNameAvailability</description></item><item><term>Operation Id</term><description>SupportTicketsNoSubscription_CheckNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.CheckNameAvailabilitySupportTicketsNoSubscription(Azure.ResourceManager.Support.Models.SupportNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/checkNameAvailability</description></item><item><term>Operation Id</term><description>SupportTicketsNoSubscription_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Support.TenantSupportTicketResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.CheckNameAvailabilitySupportTicketsNoSubscription(Azure.ResourceManager.Support.Models.SupportNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -109,7 +109,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of a resource name. This API should be used to check the uniqueness of the name for support ticket creation for the selected subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Support/checkNameAvailability</description></item><item><term>Operation Id</term><description>SupportTickets_CheckNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportSubscriptionResource.CheckSupportTicketNameAvailability(Azure.ResourceManager.Support.Models.SupportNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Support/checkNameAvailability</description></item><item><term>Operation Id</term><description>SupportTickets_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Support.SubscriptionSupportTicketResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportSubscriptionResource.CheckSupportTicketNameAvailability(Azure.ResourceManager.Support.Models.SupportNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -142,7 +142,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the availability of a resource name. This API should be used to check the uniqueness of the name for support ticket creation for the selected subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Support/checkNameAvailability</description></item><item><term>Operation Id</term><description>SupportTickets_CheckNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportSubscriptionResource.CheckSupportTicketNameAvailability(Azure.ResourceManager.Support.Models.SupportNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Support/checkNameAvailability</description></item><item><term>Operation Id</term><description>SupportTickets_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Support.SubscriptionSupportTicketResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportSubscriptionResource.CheckSupportTicketNameAvailability(Azure.ResourceManager.Support.Models.SupportNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -206,7 +206,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets details for a specific file workspace in an Azure subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Support/fileWorkspaces/{fileWorkspaceName}</description></item><item><term>Operation Id</term><description>FileWorkspaces_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportSubscriptionResource.GetSubscriptionFileWorkspace(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Support/fileWorkspaces/{fileWorkspaceName}</description></item><item><term>Operation Id</term><description>FileWorkspaces_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Support.SubscriptionFileWorkspaceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportSubscriptionResource.GetSubscriptionFileWorkspace(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -240,7 +240,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets details for a specific file workspace in an Azure subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Support/fileWorkspaces/{fileWorkspaceName}</description></item><item><term>Operation Id</term><description>FileWorkspaces_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportSubscriptionResource.GetSubscriptionFileWorkspaceAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Support/fileWorkspaces/{fileWorkspaceName}</description></item><item><term>Operation Id</term><description>FileWorkspaces_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Support.SubscriptionFileWorkspaceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportSubscriptionResource.GetSubscriptionFileWorkspaceAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -333,7 +333,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get ticket details for an Azure subscription. Support ticket data is available for 18 months after ticket creation. If a ticket was created more than 18 months ago, a request for data might cause an error.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Support/supportTickets/{supportTicketName}</description></item><item><term>Operation Id</term><description>SupportTickets_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportSubscriptionResource.GetSubscriptionSupportTicket(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Support/supportTickets/{supportTicketName}</description></item><item><term>Operation Id</term><description>SupportTickets_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Support.SubscriptionSupportTicketResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportSubscriptionResource.GetSubscriptionSupportTicket(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -367,7 +367,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get ticket details for an Azure subscription. Support ticket data is available for 18 months after ticket creation. If a ticket was created more than 18 months ago, a request for data might cause an error.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Support/supportTickets/{supportTicketName}</description></item><item><term>Operation Id</term><description>SupportTickets_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportSubscriptionResource.GetSubscriptionSupportTicketAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Support/supportTickets/{supportTicketName}</description></item><item><term>Operation Id</term><description>SupportTickets_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Support.SubscriptionSupportTicketResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportSubscriptionResource.GetSubscriptionSupportTicketAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -461,7 +461,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a specific Azure service for support ticket creation.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/services/{serviceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.GetSupportAzureService(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/services/{serviceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Support.SupportAzureServiceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.GetSupportAzureService(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -496,7 +496,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a specific Azure service for support ticket creation.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/services/{serviceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.GetSupportAzureServiceAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/services/{serviceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Support.SupportAzureServiceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.GetSupportAzureServiceAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -899,7 +899,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets details for a specific file workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/fileWorkspaces/{fileWorkspaceName}</description></item><item><term>Operation Id</term><description>FileWorkspacesNoSubscription_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.GetTenantFileWorkspace(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/fileWorkspaces/{fileWorkspaceName}</description></item><item><term>Operation Id</term><description>FileWorkspacesNoSubscription_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Support.TenantFileWorkspaceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.GetTenantFileWorkspace(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -933,7 +933,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets details for a specific file workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/fileWorkspaces/{fileWorkspaceName}</description></item><item><term>Operation Id</term><description>FileWorkspacesNoSubscription_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.GetTenantFileWorkspaceAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/fileWorkspaces/{fileWorkspaceName}</description></item><item><term>Operation Id</term><description>FileWorkspacesNoSubscription_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Support.TenantFileWorkspaceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.GetTenantFileWorkspaceAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1026,7 +1026,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets details for a specific support ticket. Support ticket data is available for 18 months after ticket creation. If a ticket was created more than 18 months ago, a request for data might cause an error.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/supportTickets/{supportTicketName}</description></item><item><term>Operation Id</term><description>SupportTicketsNoSubscription_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.GetTenantSupportTicket(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/supportTickets/{supportTicketName}</description></item><item><term>Operation Id</term><description>SupportTicketsNoSubscription_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Support.TenantSupportTicketResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.GetTenantSupportTicket(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1060,7 +1060,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets details for a specific support ticket. Support ticket data is available for 18 months after ticket creation. If a ticket was created more than 18 months ago, a request for data might cause an error.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/supportTickets/{supportTicketName}</description></item><item><term>Operation Id</term><description>SupportTicketsNoSubscription_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.GetTenantSupportTicketAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Support/supportTickets/{supportTicketName}</description></item><item><term>Operation Id</term><description>SupportTicketsNoSubscription_Get</description></item><item><term>Default Api Version</term><description>2022-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Support.TenantSupportTicketResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Support.Mocking.MockableSupportTenantResource.GetTenantSupportTicketAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

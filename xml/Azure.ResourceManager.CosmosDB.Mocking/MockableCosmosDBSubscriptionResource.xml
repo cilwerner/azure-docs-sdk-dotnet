@@ -54,7 +54,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all managed Cassandra clusters in this subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/cassandraClusters</description></item><item><term>Operation Id</term><description>CassandraClusters_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/cassandraClusters</description></item><item><term>Operation Id</term><description>CassandraClusters_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CassandraClusterResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.CosmosDB.CassandraClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -80,7 +80,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all managed Cassandra clusters in this subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/cassandraClusters</description></item><item><term>Operation Id</term><description>CassandraClusters_ListBySubscription</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/cassandraClusters</description></item><item><term>Operation Id</term><description>CassandraClusters_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CassandraClusterResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.CosmosDB.CassandraClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -106,7 +106,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the Azure Cosmos DB database accounts available under the subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/databaseAccounts</description></item><item><term>Operation Id</term><description>DatabaseAccounts_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/databaseAccounts</description></item><item><term>Operation Id</term><description>DatabaseAccounts_List</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBAccountResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBAccountResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -132,7 +132,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the Azure Cosmos DB database accounts available under the subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/databaseAccounts</description></item><item><term>Operation Id</term><description>DatabaseAccounts_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/databaseAccounts</description></item><item><term>Operation Id</term><description>DatabaseAccounts_List</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBAccountResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBAccountResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -160,7 +160,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of an existing Cosmos DB location
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}</description></item><item><term>Operation Id</term><description>Locations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}</description></item><item><term>Operation Id</term><description>Locations_Get</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBLocationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -188,7 +188,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of an existing Cosmos DB location
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}</description></item><item><term>Operation Id</term><description>Locations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}</description></item><item><term>Operation Id</term><description>Locations_Get</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBLocationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -235,7 +235,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the mongo clusters in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/mongoClusters</description></item><item><term>Operation Id</term><description>MongoClusters_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/mongoClusters</description></item><item><term>Operation Id</term><description>MongoClusters_List</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoClusterResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.CosmosDB.MongoClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -261,7 +261,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the mongo clusters in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/mongoClusters</description></item><item><term>Operation Id</term><description>MongoClusters_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/mongoClusters</description></item><item><term>Operation Id</term><description>MongoClusters_List</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoClusterResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.CosmosDB.MongoClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -287,7 +287,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the restorable Azure Cosmos DB database accounts available under the subscription. This call requires 'Microsoft.DocumentDB/locations/restorableDatabaseAccounts/read' permission.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/restorableDatabaseAccounts</description></item><item><term>Operation Id</term><description>RestorableDatabaseAccounts_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/restorableDatabaseAccounts</description></item><item><term>Operation Id</term><description>RestorableDatabaseAccounts_List</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.RestorableCosmosDBAccountResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.CosmosDB.RestorableCosmosDBAccountResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -313,7 +313,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the restorable Azure Cosmos DB database accounts available under the subscription. This call requires 'Microsoft.DocumentDB/locations/restorableDatabaseAccounts/read' permission.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/restorableDatabaseAccounts</description></item><item><term>Operation Id</term><description>RestorableDatabaseAccounts_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/restorableDatabaseAccounts</description></item><item><term>Operation Id</term><description>RestorableDatabaseAccounts_List</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.RestorableCosmosDBAccountResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.CosmosDB.RestorableCosmosDBAccountResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>

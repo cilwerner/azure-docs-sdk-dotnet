@@ -63,7 +63,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -95,7 +95,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -177,7 +177,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deboards the SCVMM fabric from Azure.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Delete</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -208,7 +208,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deboards the SCVMM fabric from Azure.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Delete</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -234,7 +234,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements VMMServer GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -260,7 +260,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements VMMServer GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -288,7 +288,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Shows an inventory item.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}/inventoryItems/{inventoryItemName}</description></item><item><term>Operation Id</term><description>InventoryItems_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}/inventoryItems/{inventoryItemName}</description></item><item><term>Operation Id</term><description>InventoryItems_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.InventoryItemResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -320,7 +320,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Shows an inventory item.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}/inventoryItems/{inventoryItemName}</description></item><item><term>Operation Id</term><description>InventoryItems_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}/inventoryItems/{inventoryItemName}</description></item><item><term>Operation Id</term><description>InventoryItems_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.InventoryItemResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -393,7 +393,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -423,7 +423,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -472,7 +472,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -502,7 +502,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -535,7 +535,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the VmmServers resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Update</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -568,7 +568,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the VmmServers resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/vmmServers/{vmmServerName}</description></item><item><term>Operation Id</term><description>VmmServers_Update</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

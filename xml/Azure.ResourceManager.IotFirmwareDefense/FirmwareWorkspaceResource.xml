@@ -111,7 +111,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to delete a firmware analysis workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Delete</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -140,7 +140,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to delete a firmware analysis workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Delete</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -168,7 +168,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to get a url for file upload.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/generateUploadUrl</description></item><item><term>Operation Id</term><description>Workspaces_GenerateUploadUrl</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/generateUploadUrl</description></item><item><term>Operation Id</term><description>Workspaces_GenerateUploadUrl</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -198,7 +198,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to get a url for file upload.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/generateUploadUrl</description></item><item><term>Operation Id</term><description>Workspaces_GenerateUploadUrl</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/generateUploadUrl</description></item><item><term>Operation Id</term><description>Workspaces_GenerateUploadUrl</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -226,7 +226,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get firmware analysis workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -252,7 +252,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get firmware analysis workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -280,7 +280,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Get</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -312,7 +312,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Get</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -404,7 +404,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to update a firmware analysis workspaces.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Update</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -434,7 +434,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to update a firmware analysis workspaces.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Update</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
