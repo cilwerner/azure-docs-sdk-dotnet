@@ -2,3 +2,6 @@
 |---|---|---|
 |Microsoft.Azure.Functions.Worker|[Microsoft.Azure.Functions.Worker](https://www.nuget.org/packages/Microsoft.Azure.Functions.Worker)|[GitHub](https://github.com/Azure/azure-sdk-for-net/blob/main/)|
 |Functions Extensions - WebPubSub|[Microsoft.Azure.Functions.Worker.Extensions.WebPubSub](https://www.nuget.org/packages/Microsoft.Azure.Functions.Worker.Extensions.WebPubSub)|[GitHub](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/webpubsub/Microsoft.Azure.Functions.Worker.Extensions.WebPubSub)|
+|WebJobs Extensions - Event Grid|[Microsoft.Azure.WebJobs.Extensions.EventGrid](https://www.nuget.org/packages/Microsoft.Azure.WebJobs.Extensions.EventGrid)|[GitHub](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/eventgrid/Microsoft.Azure.WebJobs.Extensions.EventGrid)|
+|WebJobs Extensions - Event Hubs|[Microsoft.Azure.WebJobs.Extensions.EventHubs](https://www.nuget.org/packages/Microsoft.Azure.WebJobs.Extensions.EventHubs)|[GitHub](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/eventhub/Microsoft.Azure.WebJobs.Extensions.EventHubs)|
+|Functions extension for Azure Tables|[Microsoft.Azure.WebJobs.Extensions.Tables](https://www.nuget.org/packages/Microsoft.Azure.WebJobs.Extensions.Tables)|[GitHub](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/tables/Microsoft.Azure.WebJobs.Extensions.Tables)|
