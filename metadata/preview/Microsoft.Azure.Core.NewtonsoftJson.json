@@ -1,7 +1,7 @@
 {
   "Name": "Microsoft.Azure.Core.NewtonsoftJson",
-  "Version": "2.1.0-alpha.20240218.3",
-  "DevVersion": "2.1.0-alpha.20240218.3",
+  "Version": "2.1.0-alpha.20240219.1",
+  "DevVersion": "2.1.0-alpha.20240219.1",
   "DirectoryPath": "sdk/core/Microsoft.Azure.Core.NewtonsoftJson",
   "ServiceDirectory": "core",
   "ReadMePath": "sdk/core/Microsoft.Azure.Core.NewtonsoftJson/README.md",
