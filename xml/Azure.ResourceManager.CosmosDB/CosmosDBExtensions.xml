@@ -49,7 +49,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks that the Azure Cosmos DB account name already exists. A valid account name may contain only lowercase letters, numbers, and the '-' character, and must be between 3 and 50 characters.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DocumentDB/databaseAccountNames/{accountName}</description></item><item><term>Operation Id</term><description>DatabaseAccounts_CheckNameExists</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBTenantResource.CheckNameExistsDatabaseAccount(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DocumentDB/databaseAccountNames/{accountName}</description></item><item><term>Operation Id</term><description>DatabaseAccounts_CheckNameExists</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBTenantResource.CheckNameExistsDatabaseAccount(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -84,7 +84,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks that the Azure Cosmos DB account name already exists. A valid account name may contain only lowercase letters, numbers, and the '-' character, and must be between 3 and 50 characters.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DocumentDB/databaseAccountNames/{accountName}</description></item><item><term>Operation Id</term><description>DatabaseAccounts_CheckNameExists</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBTenantResource.CheckNameExistsDatabaseAccount(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.DocumentDB/databaseAccountNames/{accountName}</description></item><item><term>Operation Id</term><description>DatabaseAccounts_CheckNameExists</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBTenantResource.CheckNameExistsDatabaseAccount(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -119,7 +119,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of a managed Cassandra cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/cassandraClusters/{clusterName}</description></item><item><term>Operation Id</term><description>CassandraClusters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBResourceGroupResource.GetCassandraCluster(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/cassandraClusters/{clusterName}</description></item><item><term>Operation Id</term><description>CassandraClusters_Get</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CassandraClusterResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBResourceGroupResource.GetCassandraCluster(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -154,7 +154,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of a managed Cassandra cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/cassandraClusters/{clusterName}</description></item><item><term>Operation Id</term><description>CassandraClusters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBResourceGroupResource.GetCassandraClusterAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/cassandraClusters/{clusterName}</description></item><item><term>Operation Id</term><description>CassandraClusters_Get</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CassandraClusterResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBResourceGroupResource.GetCassandraClusterAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -248,7 +248,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all managed Cassandra clusters in this subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/cassandraClusters</description></item><item><term>Operation Id</term><description>CassandraClusters_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetCassandraClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/cassandraClusters</description></item><item><term>Operation Id</term><description>CassandraClusters_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CassandraClusterResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetCassandraClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.CosmosDB.CassandraClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -279,7 +279,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all managed Cassandra clusters in this subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/cassandraClusters</description></item><item><term>Operation Id</term><description>CassandraClusters_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetCassandraClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/cassandraClusters</description></item><item><term>Operation Id</term><description>CassandraClusters_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CassandraClusterResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetCassandraClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.CosmosDB.CassandraClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -534,7 +534,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieves the properties of an existing Azure Cosmos DB database account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}</description></item><item><term>Operation Id</term><description>DatabaseAccounts_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBResourceGroupResource.GetCosmosDBAccount(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}</description></item><item><term>Operation Id</term><description>DatabaseAccounts_Get</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBResourceGroupResource.GetCosmosDBAccount(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -569,7 +569,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieves the properties of an existing Azure Cosmos DB database account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}</description></item><item><term>Operation Id</term><description>DatabaseAccounts_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBResourceGroupResource.GetCosmosDBAccountAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}</description></item><item><term>Operation Id</term><description>DatabaseAccounts_Get</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBResourceGroupResource.GetCosmosDBAccountAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -663,7 +663,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the Azure Cosmos DB database accounts available under the subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/databaseAccounts</description></item><item><term>Operation Id</term><description>DatabaseAccounts_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetCosmosDBAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/databaseAccounts</description></item><item><term>Operation Id</term><description>DatabaseAccounts_List</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetCosmosDBAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBAccountResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -694,7 +694,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the Azure Cosmos DB database accounts available under the subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/databaseAccounts</description></item><item><term>Operation Id</term><description>DatabaseAccounts_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetCosmosDBAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/databaseAccounts</description></item><item><term>Operation Id</term><description>DatabaseAccounts_List</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetCosmosDBAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBAccountResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -758,7 +758,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of an existing Cosmos DB location
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}</description></item><item><term>Operation Id</term><description>Locations_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetCosmosDBLocation(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}</description></item><item><term>Operation Id</term><description>Locations_Get</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBLocationResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetCosmosDBLocation(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -791,7 +791,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the properties of an existing Cosmos DB location
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}</description></item><item><term>Operation Id</term><description>Locations_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetCosmosDBLocationAsync(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/locations/{location}</description></item><item><term>Operation Id</term><description>Locations_Get</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBLocationResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetCosmosDBLocationAsync(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1554,7 +1554,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a mongo cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/mongoClusters/{mongoClusterName}</description></item><item><term>Operation Id</term><description>MongoClusters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBResourceGroupResource.GetMongoCluster(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/mongoClusters/{mongoClusterName}</description></item><item><term>Operation Id</term><description>MongoClusters_Get</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoClusterResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBResourceGroupResource.GetMongoCluster(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1588,7 +1588,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a mongo cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/mongoClusters/{mongoClusterName}</description></item><item><term>Operation Id</term><description>MongoClusters_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBResourceGroupResource.GetMongoClusterAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/mongoClusters/{mongoClusterName}</description></item><item><term>Operation Id</term><description>MongoClusters_Get</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoClusterResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBResourceGroupResource.GetMongoClusterAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1679,7 +1679,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the mongo clusters in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/mongoClusters</description></item><item><term>Operation Id</term><description>MongoClusters_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetMongoClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/mongoClusters</description></item><item><term>Operation Id</term><description>MongoClusters_List</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoClusterResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetMongoClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.CosmosDB.MongoClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1709,7 +1709,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the mongo clusters in a given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/mongoClusters</description></item><item><term>Operation Id</term><description>MongoClusters_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetMongoClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/mongoClusters</description></item><item><term>Operation Id</term><description>MongoClusters_List</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoClusterResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetMongoClusters(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.CosmosDB.MongoClusterResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1964,7 +1964,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the restorable Azure Cosmos DB database accounts available under the subscription. This call requires 'Microsoft.DocumentDB/locations/restorableDatabaseAccounts/read' permission.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/restorableDatabaseAccounts</description></item><item><term>Operation Id</term><description>RestorableDatabaseAccounts_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetRestorableCosmosDBAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/restorableDatabaseAccounts</description></item><item><term>Operation Id</term><description>RestorableDatabaseAccounts_List</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.RestorableCosmosDBAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetRestorableCosmosDBAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.CosmosDB.RestorableCosmosDBAccountResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1995,7 +1995,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the restorable Azure Cosmos DB database accounts available under the subscription. This call requires 'Microsoft.DocumentDB/locations/restorableDatabaseAccounts/read' permission.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/restorableDatabaseAccounts</description></item><item><term>Operation Id</term><description>RestorableDatabaseAccounts_List</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetRestorableCosmosDBAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/restorableDatabaseAccounts</description></item><item><term>Operation Id</term><description>RestorableDatabaseAccounts_List</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.RestorableCosmosDBAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.CosmosDB.Mocking.MockableCosmosDBSubscriptionResource.GetRestorableCosmosDBAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.CosmosDB.RestorableCosmosDBAccountResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

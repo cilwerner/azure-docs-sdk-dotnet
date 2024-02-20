@@ -9,6 +9,7 @@
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
     <AssemblyVersion>1.4.0.0</AssemblyVersion>
+    <AssemblyVersion>1.5.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupFeatureValidationResult</ReturnType>
@@ -45,6 +47,34 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="BackupFindRestorableTimeRangeContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.BackupFindRestorableTimeRangeContent BackupFindRestorableTimeRangeContent (Azure.ResourceManager.DataProtectionBackup.Models.RestoreSourceDataStoreType sourceDataStoreType = default, DateTimeOffset? startOn = default, DateTimeOffset? endOn = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.BackupFindRestorableTimeRangeContent BackupFindRestorableTimeRangeContent(valuetype Azure.ResourceManager.DataProtectionBackup.Models.RestoreSourceDataStoreType sourceDataStoreType, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; startOn, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; endOn) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.BackupFindRestorableTimeRangeContent(Azure.ResourceManager.DataProtectionBackup.Models.RestoreSourceDataStoreType,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BackupFindRestorableTimeRangeContent (Optional sourceDataStoreType As RestoreSourceDataStoreType = Nothing, Optional startOn As Nullable(Of DateTimeOffset) = Nothing, Optional endOn As Nullable(Of DateTimeOffset) = Nothing) As BackupFindRestorableTimeRangeContent" />
+      <MemberSignature Language="F#" Value="static member BackupFindRestorableTimeRangeContent : Azure.ResourceManager.DataProtectionBackup.Models.RestoreSourceDataStoreType * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; -&gt; Azure.ResourceManager.DataProtectionBackup.Models.BackupFindRestorableTimeRangeContent" Usage="Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.BackupFindRestorableTimeRangeContent (sourceDataStoreType, startOn, endOn)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupFindRestorableTimeRangeContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sourceDataStoreType" Type="Azure.ResourceManager.DataProtectionBackup.Models.RestoreSourceDataStoreType" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="startOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="endOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="sourceDataStoreType"> Gets or sets the type of the source data store. </param>
+        <param name="startOn"> Start time for the List Restore Ranges request. ISO 8601 format. </param>
+        <param name="endOn"> End time for the List Restore Ranges request. ISO 8601 format. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.BackupFindRestorableTimeRangeContent" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.BackupFindRestorableTimeRangeContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="BackupFindRestorableTimeRangeResult">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.BackupFindRestorableTimeRangeResult BackupFindRestorableTimeRangeResult (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, Azure.ResourceManager.DataProtectionBackup.Models.BackupFindRestorableTimeRangeResultProperties properties = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.BackupFindRestorableTimeRangeResult BackupFindRestorableTimeRangeResult(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class Azure.ResourceManager.DataProtectionBackup.Models.BackupFindRestorableTimeRangeResultProperties properties) cil managed" />
@@ -55,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupFindRestorableTimeRangeResult</ReturnType>
@@ -87,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupInstanceDeletionInfo</ReturnType>
@@ -117,6 +149,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupInstancePolicyInfo</ReturnType>
@@ -145,6 +178,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupInstanceProtectionStatusDetails</ReturnType>
@@ -171,6 +205,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupJobExtendedInfo</ReturnType>
@@ -207,6 +242,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupJobExtendedInfo</ReturnType>
@@ -245,6 +281,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupJobSubTask</ReturnType>
@@ -267,6 +304,194 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="BackupRecoveryPointBasedRestoreContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.BackupRecoveryPointBasedRestoreContent BackupRecoveryPointBasedRestoreContent (Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase restoreTargetInfo = default, Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType sourceDataStoreType = default, Azure.Core.ResourceIdentifier sourceResourceId = default, Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails identityDetails = default, string recoveryPointId = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.BackupRecoveryPointBasedRestoreContent BackupRecoveryPointBasedRestoreContent(class Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase restoreTargetInfo, valuetype Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType sourceDataStoreType, class Azure.Core.ResourceIdentifier sourceResourceId, class Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails identityDetails, string recoveryPointId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.BackupRecoveryPointBasedRestoreContent(Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase,Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType,Azure.Core.ResourceIdentifier,Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BackupRecoveryPointBasedRestoreContent (Optional restoreTargetInfo As RestoreTargetInfoBase = Nothing, Optional sourceDataStoreType As SourceDataStoreType = Nothing, Optional sourceResourceId As ResourceIdentifier = Nothing, Optional identityDetails As DataProtectionIdentityDetails = Nothing, Optional recoveryPointId As String = Nothing) As BackupRecoveryPointBasedRestoreContent" />
+      <MemberSignature Language="F#" Value="static member BackupRecoveryPointBasedRestoreContent : Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase * Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType * Azure.Core.ResourceIdentifier * Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails * string -&gt; Azure.ResourceManager.DataProtectionBackup.Models.BackupRecoveryPointBasedRestoreContent" Usage="Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.BackupRecoveryPointBasedRestoreContent (restoreTargetInfo, sourceDataStoreType, sourceResourceId, identityDetails, recoveryPointId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupRecoveryPointBasedRestoreContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="restoreTargetInfo" Type="Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="sourceDataStoreType" Type="Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="sourceResourceId" Type="Azure.Core.ResourceIdentifier" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="identityDetails" Type="Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="recoveryPointId" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="restoreTargetInfo">
+            Gets or sets the restore target information.
+            Please note <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreTargetInfo" />, <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetInfo" /> and <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfo" />.
+            </param>
+        <param name="sourceDataStoreType"> Gets or sets the type of the source data store. </param>
+        <param name="sourceResourceId"> Fully qualified Azure Resource Manager ID of the datasource which is being recovered. </param>
+        <param name="identityDetails">
+            Contains information of the Identity Details for the BI.
+            If it is null, default will be considered as System Assigned.
+            </param>
+        <param name="recoveryPointId" />
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.BackupRecoveryPointBasedRestoreContent" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.BackupRecoveryPointBasedRestoreContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackupRecoveryTimeBasedRestoreContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.BackupRecoveryTimeBasedRestoreContent BackupRecoveryTimeBasedRestoreContent (Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase restoreTargetInfo = default, Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType sourceDataStoreType = default, Azure.Core.ResourceIdentifier sourceResourceId = default, Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails identityDetails = default, DateTimeOffset recoverOn = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.BackupRecoveryTimeBasedRestoreContent BackupRecoveryTimeBasedRestoreContent(class Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase restoreTargetInfo, valuetype Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType sourceDataStoreType, class Azure.Core.ResourceIdentifier sourceResourceId, class Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails identityDetails, valuetype System.DateTimeOffset recoverOn) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.BackupRecoveryTimeBasedRestoreContent(Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase,Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType,Azure.Core.ResourceIdentifier,Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails,System.DateTimeOffset)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BackupRecoveryTimeBasedRestoreContent (Optional restoreTargetInfo As RestoreTargetInfoBase = Nothing, Optional sourceDataStoreType As SourceDataStoreType = Nothing, Optional sourceResourceId As ResourceIdentifier = Nothing, Optional identityDetails As DataProtectionIdentityDetails = Nothing, Optional recoverOn As DateTimeOffset = Nothing) As BackupRecoveryTimeBasedRestoreContent" />
+      <MemberSignature Language="F#" Value="static member BackupRecoveryTimeBasedRestoreContent : Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase * Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType * Azure.Core.ResourceIdentifier * Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails * DateTimeOffset -&gt; Azure.ResourceManager.DataProtectionBackup.Models.BackupRecoveryTimeBasedRestoreContent" Usage="Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.BackupRecoveryTimeBasedRestoreContent (restoreTargetInfo, sourceDataStoreType, sourceResourceId, identityDetails, recoverOn)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupRecoveryTimeBasedRestoreContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="restoreTargetInfo" Type="Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="sourceDataStoreType" Type="Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="sourceResourceId" Type="Azure.Core.ResourceIdentifier" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="identityDetails" Type="Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="recoverOn" Type="System.DateTimeOffset" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="restoreTargetInfo">
+            Gets or sets the restore target information.
+            Please note <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreTargetInfo" />, <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetInfo" /> and <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfo" />.
+            </param>
+        <param name="sourceDataStoreType"> Gets or sets the type of the source data store. </param>
+        <param name="sourceResourceId"> Fully qualified Azure Resource Manager ID of the datasource which is being recovered. </param>
+        <param name="identityDetails">
+            Contains information of the Identity Details for the BI.
+            If it is null, default will be considered as System Assigned.
+            </param>
+        <param name="recoverOn"> The recovery time in ISO 8601 format example - 2020-08-14T17:30:00.0000000Z. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.BackupRecoveryTimeBasedRestoreContent" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.BackupRecoveryTimeBasedRestoreContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackupRehydrationContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationContent BackupRehydrationContent (string recoveryPointId = default, Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationPriority? rehydrationPriority = default, TimeSpan rehydrationRetentionDuration = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationContent BackupRehydrationContent(string recoveryPointId, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationPriority&gt; rehydrationPriority, valuetype System.TimeSpan rehydrationRetentionDuration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.BackupRehydrationContent(System.String,System.Nullable{Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationPriority},System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BackupRehydrationContent (Optional recoveryPointId As String = Nothing, Optional rehydrationPriority As Nullable(Of BackupRehydrationPriority) = Nothing, Optional rehydrationRetentionDuration As TimeSpan = Nothing) As BackupRehydrationContent" />
+      <MemberSignature Language="F#" Value="static member BackupRehydrationContent : string * Nullable&lt;Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationPriority&gt; * TimeSpan -&gt; Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationContent" Usage="Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.BackupRehydrationContent (recoveryPointId, rehydrationPriority, rehydrationRetentionDuration)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="recoveryPointId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="rehydrationPriority" Type="System.Nullable&lt;Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationPriority&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="rehydrationRetentionDuration" Type="System.TimeSpan" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="recoveryPointId"> Id of the recovery point to be recovered. </param>
+        <param name="rehydrationPriority"> Priority to be used for rehydration. Values High or Standard. </param>
+        <param name="rehydrationRetentionDuration"> Retention duration in ISO 8601 format i.e P10D . </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationContent" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackupRestoreContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.BackupRestoreContent BackupRestoreContent (string objectType = default, Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase restoreTargetInfo = default, Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType sourceDataStoreType = default, Azure.Core.ResourceIdentifier sourceResourceId = default, Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails identityDetails = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.BackupRestoreContent BackupRestoreContent(string objectType, class Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase restoreTargetInfo, valuetype Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType sourceDataStoreType, class Azure.Core.ResourceIdentifier sourceResourceId, class Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails identityDetails) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.BackupRestoreContent(System.String,Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase,Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType,Azure.Core.ResourceIdentifier,Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BackupRestoreContent (Optional objectType As String = Nothing, Optional restoreTargetInfo As RestoreTargetInfoBase = Nothing, Optional sourceDataStoreType As SourceDataStoreType = Nothing, Optional sourceResourceId As ResourceIdentifier = Nothing, Optional identityDetails As DataProtectionIdentityDetails = Nothing) As BackupRestoreContent" />
+      <MemberSignature Language="F#" Value="static member BackupRestoreContent : string * Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase * Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType * Azure.Core.ResourceIdentifier * Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails -&gt; Azure.ResourceManager.DataProtectionBackup.Models.BackupRestoreContent" Usage="Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.BackupRestoreContent (objectType, restoreTargetInfo, sourceDataStoreType, sourceResourceId, identityDetails)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupRestoreContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="objectType" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="restoreTargetInfo" Type="Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="sourceDataStoreType" Type="Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="sourceResourceId" Type="Azure.Core.ResourceIdentifier" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="identityDetails" Type="Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="objectType" />
+        <param name="restoreTargetInfo">
+            Gets or sets the restore target information.
+            Please note <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreTargetInfo" />, <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetInfo" /> and <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfo" />.
+            </param>
+        <param name="sourceDataStoreType"> Gets or sets the type of the source data store. </param>
+        <param name="sourceResourceId"> Fully qualified Azure Resource Manager ID of the datasource which is being recovered. </param>
+        <param name="identityDetails">
+            Contains information of the Identity Details for the BI.
+            If it is null, default will be considered as System Assigned.
+            </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.BackupRestoreContent" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.BackupRestoreContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackupRestoreWithRehydrationContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.BackupRestoreWithRehydrationContent BackupRestoreWithRehydrationContent (Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase restoreTargetInfo = default, Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType sourceDataStoreType = default, Azure.Core.ResourceIdentifier sourceResourceId = default, Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails identityDetails = default, string recoveryPointId = default, Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationPriority rehydrationPriority = default, TimeSpan rehydrationRetentionDuration = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.BackupRestoreWithRehydrationContent BackupRestoreWithRehydrationContent(class Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase restoreTargetInfo, valuetype Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType sourceDataStoreType, class Azure.Core.ResourceIdentifier sourceResourceId, class Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails identityDetails, string recoveryPointId, valuetype Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationPriority rehydrationPriority, valuetype System.TimeSpan rehydrationRetentionDuration) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.BackupRestoreWithRehydrationContent(Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase,Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType,Azure.Core.ResourceIdentifier,Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails,System.String,Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationPriority,System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BackupRestoreWithRehydrationContent (Optional restoreTargetInfo As RestoreTargetInfoBase = Nothing, Optional sourceDataStoreType As SourceDataStoreType = Nothing, Optional sourceResourceId As ResourceIdentifier = Nothing, Optional identityDetails As DataProtectionIdentityDetails = Nothing, Optional recoveryPointId As String = Nothing, Optional rehydrationPriority As BackupRehydrationPriority = Nothing, Optional rehydrationRetentionDuration As TimeSpan = Nothing) As BackupRestoreWithRehydrationContent" />
+      <MemberSignature Language="F#" Value="static member BackupRestoreWithRehydrationContent : Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase * Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType * Azure.Core.ResourceIdentifier * Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails * string * Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationPriority * TimeSpan -&gt; Azure.ResourceManager.DataProtectionBackup.Models.BackupRestoreWithRehydrationContent" Usage="Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.BackupRestoreWithRehydrationContent (restoreTargetInfo, sourceDataStoreType, sourceResourceId, identityDetails, recoveryPointId, rehydrationPriority, rehydrationRetentionDuration)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupRestoreWithRehydrationContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="restoreTargetInfo" Type="Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="sourceDataStoreType" Type="Azure.ResourceManager.DataProtectionBackup.Models.SourceDataStoreType" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="sourceResourceId" Type="Azure.Core.ResourceIdentifier" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="identityDetails" Type="Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionIdentityDetails" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="recoveryPointId" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="rehydrationPriority" Type="Azure.ResourceManager.DataProtectionBackup.Models.BackupRehydrationPriority" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="rehydrationRetentionDuration" Type="System.TimeSpan" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="restoreTargetInfo">
+            Gets or sets the restore target information.
+            Please note <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreTargetInfo" />, <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetInfo" /> and <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfo" />.
+            </param>
+        <param name="sourceDataStoreType"> Gets or sets the type of the source data store. </param>
+        <param name="sourceResourceId"> Fully qualified Azure Resource Manager ID of the datasource which is being recovered. </param>
+        <param name="identityDetails">
+            Contains information of the Identity Details for the BI.
+            If it is null, default will be considered as System Assigned.
+            </param>
+        <param name="recoveryPointId" />
+        <param name="rehydrationPriority"> Priority to be used for rehydration. Values High or Standard. </param>
+        <param name="rehydrationRetentionDuration"> Retention duration in ISO 8601 format i.e P10D . </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.BackupRestoreWithRehydrationContent" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.BackupRestoreWithRehydrationContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="BackupSupportedFeature">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.BackupSupportedFeature BackupSupportedFeature (string featureName = default, Azure.ResourceManager.DataProtectionBackup.Models.FeatureSupportStatus? supportStatus = default, System.Collections.Generic.IEnumerable&lt;string&gt; exposureControlledFeatures = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.BackupSupportedFeature BackupSupportedFeature(string featureName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.DataProtectionBackup.Models.FeatureSupportStatus&gt; supportStatus, class System.Collections.Generic.IEnumerable`1&lt;string&gt; exposureControlledFeatures) cil managed" />
@@ -277,6 +502,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupSupportedFeature</ReturnType>
@@ -305,6 +531,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.BackupVaultResourceMoveDetails</ReturnType>
@@ -337,6 +564,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupDiscreteRecoveryPointProperties</ReturnType>
@@ -379,6 +607,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupDiscreteRecoveryPointProperties</ReturnType>
@@ -423,6 +652,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupInstanceData</ReturnType>
@@ -457,6 +687,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupInstanceProperties</ReturnType>
@@ -503,6 +734,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupInstanceProperties</ReturnType>
@@ -556,6 +788,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupJobData</ReturnType>
@@ -588,6 +821,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupJobProperties</ReturnType>
@@ -672,6 +906,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupJobProperties</ReturnType>
@@ -756,6 +991,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupNameAvailabilityResult</ReturnType>
@@ -784,6 +1020,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupPolicyData</ReturnType>
@@ -820,6 +1057,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupRecoveryPointData</ReturnType>
@@ -856,6 +1094,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupRetentionTag</ReturnType>
@@ -884,6 +1123,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.DataProtectionBackupVaultData</ReturnType>
@@ -924,6 +1164,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupVaultProperties</ReturnType>
@@ -964,6 +1205,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1010,6 +1252,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupVaultProperties</ReturnType>
@@ -1052,6 +1295,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionOperationJobExtendedInfo</ReturnType>
@@ -1076,6 +1320,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionOperationJobExtendedInfo</ReturnType>
@@ -1100,6 +1345,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionUnlockDeleteResult</ReturnType>
@@ -1124,6 +1370,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.DeletedDataProtectionBackupInstanceData</ReturnType>
@@ -1156,6 +1403,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.DeletedDataProtectionBackupInstanceProperties</ReturnType>
@@ -1204,6 +1452,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.DeletedDataProtectionBackupInstanceProperties</ReturnType>
@@ -1249,6 +1498,164 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ItemLevelRestoreTargetInfo">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreTargetInfo ItemLevelRestoreTargetInfo (Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting recoverySetting = default, Azure.Core.AzureLocation? restoreLocation = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreCriteria&gt; restoreCriteria = default, Azure.ResourceManager.DataProtectionBackup.Models.DataSourceInfo datasourceInfo = default, Azure.ResourceManager.DataProtectionBackup.Models.DataSourceSetInfo datasourceSetInfo = default, Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupAuthCredentials datasourceAuthCredentials = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreTargetInfo ItemLevelRestoreTargetInfo(valuetype Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting recoverySetting, valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; restoreLocation, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreCriteria&gt; restoreCriteria, class Azure.ResourceManager.DataProtectionBackup.Models.DataSourceInfo datasourceInfo, class Azure.ResourceManager.DataProtectionBackup.Models.DataSourceSetInfo datasourceSetInfo, class Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupAuthCredentials datasourceAuthCredentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.ItemLevelRestoreTargetInfo(Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting,System.Nullable{Azure.Core.AzureLocation},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreCriteria},Azure.ResourceManager.DataProtectionBackup.Models.DataSourceInfo,Azure.ResourceManager.DataProtectionBackup.Models.DataSourceSetInfo,Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupAuthCredentials)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ItemLevelRestoreTargetInfo (Optional recoverySetting As RecoverySetting = Nothing, Optional restoreLocation As Nullable(Of AzureLocation) = Nothing, Optional restoreCriteria As IEnumerable(Of ItemLevelRestoreCriteria) = Nothing, Optional datasourceInfo As DataSourceInfo = Nothing, Optional datasourceSetInfo As DataSourceSetInfo = Nothing, Optional datasourceAuthCredentials As DataProtectionBackupAuthCredentials = Nothing) As ItemLevelRestoreTargetInfo" />
+      <MemberSignature Language="F#" Value="static member ItemLevelRestoreTargetInfo : Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting * Nullable&lt;Azure.Core.AzureLocation&gt; * seq&lt;Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreCriteria&gt; * Azure.ResourceManager.DataProtectionBackup.Models.DataSourceInfo * Azure.ResourceManager.DataProtectionBackup.Models.DataSourceSetInfo * Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupAuthCredentials -&gt; Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreTargetInfo" Usage="Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.ItemLevelRestoreTargetInfo (recoverySetting, restoreLocation, restoreCriteria, datasourceInfo, datasourceSetInfo, datasourceAuthCredentials)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreTargetInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="recoverySetting" Type="Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="restoreLocation" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="restoreCriteria" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreCriteria&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="datasourceInfo" Type="Azure.ResourceManager.DataProtectionBackup.Models.DataSourceInfo" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="datasourceSetInfo" Type="Azure.ResourceManager.DataProtectionBackup.Models.DataSourceSetInfo" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="datasourceAuthCredentials" Type="Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupAuthCredentials" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="recoverySetting"> Recovery Option. </param>
+        <param name="restoreLocation"> Target Restore region. </param>
+        <param name="restoreCriteria">
+            Restore Criteria
+            Please note <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreCriteria" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.ItemPathBasedRestoreCriteria" />, <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreCriteria" />, <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterVaultTierRestoreCriteria" />, <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.KubernetesPVRestoreCriteria" />, <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.KubernetesStorageClassRestoreCriteria" /> and <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RangeBasedItemLevelRestoreCriteria" />.
+            </param>
+        <param name="datasourceInfo"> Information of target DS. </param>
+        <param name="datasourceSetInfo"> Information of target DS Set. </param>
+        <param name="datasourceAuthCredentials">
+            Credentials to use to authenticate with data source provider.
+            Please note <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupAuthCredentials" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.SecretStoreBasedAuthCredentials" />.
+            </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreTargetInfo" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.ItemLevelRestoreTargetInfo" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemPathBasedRestoreCriteria">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.ItemPathBasedRestoreCriteria ItemPathBasedRestoreCriteria (string itemPath = default, bool isPathRelativeToBackupItem = false, System.Collections.Generic.IEnumerable&lt;string&gt; subItemPathPrefix = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.ItemPathBasedRestoreCriteria ItemPathBasedRestoreCriteria(string itemPath, bool isPathRelativeToBackupItem, class System.Collections.Generic.IEnumerable`1&lt;string&gt; subItemPathPrefix) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.ItemPathBasedRestoreCriteria(System.String,System.Boolean,System.Collections.Generic.IEnumerable{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ItemPathBasedRestoreCriteria (Optional itemPath As String = Nothing, Optional isPathRelativeToBackupItem As Boolean = false, Optional subItemPathPrefix As IEnumerable(Of String) = Nothing) As ItemPathBasedRestoreCriteria" />
+      <MemberSignature Language="F#" Value="static member ItemPathBasedRestoreCriteria : string * bool * seq&lt;string&gt; -&gt; Azure.ResourceManager.DataProtectionBackup.Models.ItemPathBasedRestoreCriteria" Usage="Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.ItemPathBasedRestoreCriteria (itemPath, isPathRelativeToBackupItem, subItemPathPrefix)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.ItemPathBasedRestoreCriteria</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="itemPath" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="isPathRelativeToBackupItem" Type="System.Boolean" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="subItemPathPrefix" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="itemPath"> The path of the item to be restored. It could be the full path of the item or the path relative to the backup item. </param>
+        <param name="isPathRelativeToBackupItem"> Flag to specify if the path is relative to backup item or full path. </param>
+        <param name="subItemPathPrefix"> The list of prefix strings to be used as filter criteria during restore. These are relative to the item path specified. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.ItemPathBasedRestoreCriteria" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.ItemPathBasedRestoreCriteria" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KubernetesClusterRestoreCriteria">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreCriteria KubernetesClusterRestoreCriteria (bool isClusterScopeResourcesIncluded = false, System.Collections.Generic.IEnumerable&lt;string&gt; includedNamespaces = default, System.Collections.Generic.IEnumerable&lt;string&gt; excludedNamespaces = default, System.Collections.Generic.IEnumerable&lt;string&gt; includedResourceTypes = default, System.Collections.Generic.IEnumerable&lt;string&gt; excludedResourceTypes = default, System.Collections.Generic.IEnumerable&lt;string&gt; labelSelectors = default, Azure.ResourceManager.DataProtectionBackup.Models.PersistentVolumeRestoreMode? persistentVolumeRestoreMode = default, Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreExistingResourcePolicy? conflictPolicy = default, System.Collections.Generic.IDictionary&lt;string,string&gt; namespaceMappings = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DataProtectionBackup.Models.NamespacedName&gt; restoreHookReferences = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreCriteria KubernetesClusterRestoreCriteria(bool isClusterScopeResourcesIncluded, class System.Collections.Generic.IEnumerable`1&lt;string&gt; includedNamespaces, class System.Collections.Generic.IEnumerable`1&lt;string&gt; excludedNamespaces, class System.Collections.Generic.IEnumerable`1&lt;string&gt; includedResourceTypes, class System.Collections.Generic.IEnumerable`1&lt;string&gt; excludedResourceTypes, class System.Collections.Generic.IEnumerable`1&lt;string&gt; labelSelectors, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.DataProtectionBackup.Models.PersistentVolumeRestoreMode&gt; persistentVolumeRestoreMode, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreExistingResourcePolicy&gt; conflictPolicy, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; namespaceMappings, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DataProtectionBackup.Models.NamespacedName&gt; restoreHookReferences) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.KubernetesClusterRestoreCriteria(System.Boolean,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.ResourceManager.DataProtectionBackup.Models.PersistentVolumeRestoreMode},System.Nullable{Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreExistingResourcePolicy},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataProtectionBackup.Models.NamespacedName})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function KubernetesClusterRestoreCriteria (Optional isClusterScopeResourcesIncluded As Boolean = false, Optional includedNamespaces As IEnumerable(Of String) = Nothing, Optional excludedNamespaces As IEnumerable(Of String) = Nothing, Optional includedResourceTypes As IEnumerable(Of String) = Nothing, Optional excludedResourceTypes As IEnumerable(Of String) = Nothing, Optional labelSelectors As IEnumerable(Of String) = Nothing, Optional persistentVolumeRestoreMode As Nullable(Of PersistentVolumeRestoreMode) = Nothing, Optional conflictPolicy As Nullable(Of KubernetesClusterRestoreExistingResourcePolicy) = Nothing, Optional namespaceMappings As IDictionary(Of String, String) = Nothing, Optional restoreHookReferences As IEnumerable(Of NamespacedName) = Nothing) As KubernetesClusterRestoreCriteria" />
+      <MemberSignature Language="F#" Value="static member KubernetesClusterRestoreCriteria : bool * seq&lt;string&gt; * seq&lt;string&gt; * seq&lt;string&gt; * seq&lt;string&gt; * seq&lt;string&gt; * Nullable&lt;Azure.ResourceManager.DataProtectionBackup.Models.PersistentVolumeRestoreMode&gt; * Nullable&lt;Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreExistingResourcePolicy&gt; * System.Collections.Generic.IDictionary&lt;string, string&gt; * seq&lt;Azure.ResourceManager.DataProtectionBackup.Models.NamespacedName&gt; -&gt; Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreCriteria" Usage="Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.KubernetesClusterRestoreCriteria (isClusterScopeResourcesIncluded, includedNamespaces, excludedNamespaces, includedResourceTypes, excludedResourceTypes, labelSelectors, persistentVolumeRestoreMode, conflictPolicy, namespaceMappings, restoreHookReferences)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreCriteria</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="isClusterScopeResourcesIncluded" Type="System.Boolean" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="includedNamespaces" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="excludedNamespaces" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="includedResourceTypes" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="excludedResourceTypes" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="labelSelectors" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="persistentVolumeRestoreMode" Type="System.Nullable&lt;Azure.ResourceManager.DataProtectionBackup.Models.PersistentVolumeRestoreMode&gt;" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="conflictPolicy" Type="System.Nullable&lt;Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreExistingResourcePolicy&gt;" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="namespaceMappings" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="restoreHookReferences" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DataProtectionBackup.Models.NamespacedName&gt;" Index="9" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="isClusterScopeResourcesIncluded"> Gets or sets the include cluster resources property. This property if enabled will include cluster scope resources during restore. </param>
+        <param name="includedNamespaces"> Gets or sets the include namespaces property. This property sets the namespaces to be included during restore. </param>
+        <param name="excludedNamespaces"> Gets or sets the exclude namespaces property. This property sets the namespaces to be excluded during restore. </param>
+        <param name="includedResourceTypes"> Gets or sets the include resource types property. This property sets the resource types to be included during restore. </param>
+        <param name="excludedResourceTypes"> Gets or sets the exclude resource types property. This property sets the resource types to be excluded during restore. </param>
+        <param name="labelSelectors"> Gets or sets the LabelSelectors property. This property sets the resource with such label selectors to be included during restore. </param>
+        <param name="persistentVolumeRestoreMode"> Gets or sets the PV (Persistent Volume) Restore Mode property. This property sets whether volumes needs to be restored. </param>
+        <param name="conflictPolicy"> Gets or sets the Conflict Policy property. This property sets policy during conflict of resources during restore. </param>
+        <param name="namespaceMappings"> Gets or sets the Namespace Mappings property. This property sets if namespace needs to be change during restore. </param>
+        <param name="restoreHookReferences"> Gets or sets the restore hook references. This property sets the hook reference to be executed during restore. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreCriteria" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreCriteria" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KubernetesClusterVaultTierRestoreCriteria">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterVaultTierRestoreCriteria KubernetesClusterVaultTierRestoreCriteria (bool includeClusterScopeResources = false, System.Collections.Generic.IEnumerable&lt;string&gt; includedNamespaces = default, System.Collections.Generic.IEnumerable&lt;string&gt; excludedNamespaces = default, System.Collections.Generic.IEnumerable&lt;string&gt; includedResourceTypes = default, System.Collections.Generic.IEnumerable&lt;string&gt; excludedResourceTypes = default, System.Collections.Generic.IEnumerable&lt;string&gt; labelSelectors = default, Azure.ResourceManager.DataProtectionBackup.Models.PersistentVolumeRestoreMode? persistentVolumeRestoreMode = default, Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreExistingResourcePolicy? conflictPolicy = default, System.Collections.Generic.IDictionary&lt;string,string&gt; namespaceMappings = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DataProtectionBackup.Models.NamespacedName&gt; restoreHookReferences = default, Azure.Core.ResourceIdentifier stagingResourceGroupId = default, Azure.Core.ResourceIdentifier stagingStorageAccountId = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterVaultTierRestoreCriteria KubernetesClusterVaultTierRestoreCriteria(bool includeClusterScopeResources, class System.Collections.Generic.IEnumerable`1&lt;string&gt; includedNamespaces, class System.Collections.Generic.IEnumerable`1&lt;string&gt; excludedNamespaces, class System.Collections.Generic.IEnumerable`1&lt;string&gt; includedResourceTypes, class System.Collections.Generic.IEnumerable`1&lt;string&gt; excludedResourceTypes, class System.Collections.Generic.IEnumerable`1&lt;string&gt; labelSelectors, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.DataProtectionBackup.Models.PersistentVolumeRestoreMode&gt; persistentVolumeRestoreMode, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreExistingResourcePolicy&gt; conflictPolicy, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; namespaceMappings, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.DataProtectionBackup.Models.NamespacedName&gt; restoreHookReferences, class Azure.Core.ResourceIdentifier stagingResourceGroupId, class Azure.Core.ResourceIdentifier stagingStorageAccountId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.KubernetesClusterVaultTierRestoreCriteria(System.Boolean,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.ResourceManager.DataProtectionBackup.Models.PersistentVolumeRestoreMode},System.Nullable{Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreExistingResourcePolicy},System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IEnumerable{Azure.ResourceManager.DataProtectionBackup.Models.NamespacedName},Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function KubernetesClusterVaultTierRestoreCriteria (Optional includeClusterScopeResources As Boolean = false, Optional includedNamespaces As IEnumerable(Of String) = Nothing, Optional excludedNamespaces As IEnumerable(Of String) = Nothing, Optional includedResourceTypes As IEnumerable(Of String) = Nothing, Optional excludedResourceTypes As IEnumerable(Of String) = Nothing, Optional labelSelectors As IEnumerable(Of String) = Nothing, Optional persistentVolumeRestoreMode As Nullable(Of PersistentVolumeRestoreMode) = Nothing, Optional conflictPolicy As Nullable(Of KubernetesClusterRestoreExistingResourcePolicy) = Nothing, Optional namespaceMappings As IDictionary(Of String, String) = Nothing, Optional restoreHookReferences As IEnumerable(Of NamespacedName) = Nothing, Optional stagingResourceGroupId As ResourceIdentifier = Nothing, Optional stagingStorageAccountId As ResourceIdentifier = Nothing) As KubernetesClusterVaultTierRestoreCriteria" />
+      <MemberSignature Language="F#" Value="static member KubernetesClusterVaultTierRestoreCriteria : bool * seq&lt;string&gt; * seq&lt;string&gt; * seq&lt;string&gt; * seq&lt;string&gt; * seq&lt;string&gt; * Nullable&lt;Azure.ResourceManager.DataProtectionBackup.Models.PersistentVolumeRestoreMode&gt; * Nullable&lt;Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreExistingResourcePolicy&gt; * System.Collections.Generic.IDictionary&lt;string, string&gt; * seq&lt;Azure.ResourceManager.DataProtectionBackup.Models.NamespacedName&gt; * Azure.Core.ResourceIdentifier * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterVaultTierRestoreCriteria" Usage="Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.KubernetesClusterVaultTierRestoreCriteria (includeClusterScopeResources, includedNamespaces, excludedNamespaces, includedResourceTypes, excludedResourceTypes, labelSelectors, persistentVolumeRestoreMode, conflictPolicy, namespaceMappings, restoreHookReferences, stagingResourceGroupId, stagingStorageAccountId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterVaultTierRestoreCriteria</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="includeClusterScopeResources" Type="System.Boolean" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="includedNamespaces" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="excludedNamespaces" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="includedResourceTypes" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="excludedResourceTypes" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="labelSelectors" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="persistentVolumeRestoreMode" Type="System.Nullable&lt;Azure.ResourceManager.DataProtectionBackup.Models.PersistentVolumeRestoreMode&gt;" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="conflictPolicy" Type="System.Nullable&lt;Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterRestoreExistingResourcePolicy&gt;" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="namespaceMappings" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="restoreHookReferences" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.DataProtectionBackup.Models.NamespacedName&gt;" Index="9" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="stagingResourceGroupId" Type="Azure.Core.ResourceIdentifier" Index="10" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="stagingStorageAccountId" Type="Azure.Core.ResourceIdentifier" Index="11" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="includeClusterScopeResources"> Gets or sets the include cluster resources property. This property if enabled will include cluster scope resources during restore from vault. </param>
+        <param name="includedNamespaces"> Gets or sets the include namespaces property. This property sets the namespaces to be included during restore from vault. </param>
+        <param name="excludedNamespaces"> Gets or sets the exclude namespaces property. This property sets the namespaces to be excluded during restore from vault. </param>
+        <param name="includedResourceTypes"> Gets or sets the include resource types property. This property sets the resource types to be included during restore from vault. </param>
+        <param name="excludedResourceTypes"> Gets or sets the exclude resource types property. This property sets the resource types to be excluded during restore from vault. </param>
+        <param name="labelSelectors"> Gets or sets the LabelSelectors property. This property sets the resource with such label selectors to be included during restore from vault. </param>
+        <param name="persistentVolumeRestoreMode"> Gets or sets the PV (Persistent Volume) Restore Mode property. This property sets whether volumes needs to be restored from vault. </param>
+        <param name="conflictPolicy"> Gets or sets the Conflict Policy property. This property sets policy during conflict of resources during restore from vault. </param>
+        <param name="namespaceMappings"> Gets or sets the Namespace Mappings property. This property sets if namespace needs to be change during restore from vault. </param>
+        <param name="restoreHookReferences"> Gets or sets the restore hook references. This property sets the hook reference to be executed during restore from vault. </param>
+        <param name="stagingResourceGroupId"> Gets or sets the staging RG Id for creating staging disks and snapshots during restore from vault. </param>
+        <param name="stagingStorageAccountId"> Gets or sets the staging Storage Account Id for creating backup extension object store data during restore from vault. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterVaultTierRestoreCriteria" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.KubernetesClusterVaultTierRestoreCriteria" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="RecoveryPointDataStoreDetail">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.RecoveryPointDataStoreDetail RecoveryPointDataStoreDetail (DateTimeOffset? createdOn = default, DateTimeOffset? expireOn = default, Guid? recoveryPointDataStoreId = default, string metadata = default, string state = default, string recoveryPointDataStoreType = default, bool? isVisible = default, DateTimeOffset? rehydrationExpireOn = default, Azure.ResourceManager.DataProtectionBackup.Models.RecoveryPointDataStoreRehydrationStatus? rehydrationStatus = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.RecoveryPointDataStoreDetail RecoveryPointDataStoreDetail(valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; createdOn, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; expireOn, valuetype System.Nullable`1&lt;valuetype System.Guid&gt; recoveryPointDataStoreId, string metadata, string state, string recoveryPointDataStoreType, valuetype System.Nullable`1&lt;bool&gt; isVisible, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; rehydrationExpireOn, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.DataProtectionBackup.Models.RecoveryPointDataStoreRehydrationStatus&gt; rehydrationStatus) cil managed" />
@@ -1259,6 +1666,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.RecoveryPointDataStoreDetail</ReturnType>
@@ -1299,6 +1707,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.ResourceGuardData</ReturnType>
@@ -1337,6 +1746,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.ResourceGuardOperationDetails</ReturnType>
@@ -1363,6 +1773,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.ResourceGuardProperties</ReturnType>
@@ -1395,6 +1806,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.ResourceGuardProtectedObjectData</ReturnType>
@@ -1425,6 +1837,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.ResourceGuardProxyBaseResourceData</ReturnType>
@@ -1447,6 +1860,74 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="RestoreFilesTargetDetails">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetDetails RestoreFilesTargetDetails (string filePrefix = default, Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetLocationType restoreTargetLocationType = default, Uri uri = default, Azure.Core.ResourceIdentifier targetResourceArmId = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetDetails RestoreFilesTargetDetails(string filePrefix, valuetype Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetLocationType restoreTargetLocationType, class System.Uri uri, class Azure.Core.ResourceIdentifier targetResourceArmId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.RestoreFilesTargetDetails(System.String,Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetLocationType,System.Uri,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RestoreFilesTargetDetails (Optional filePrefix As String = Nothing, Optional restoreTargetLocationType As RestoreTargetLocationType = Nothing, Optional uri As Uri = Nothing, Optional targetResourceArmId As ResourceIdentifier = Nothing) As RestoreFilesTargetDetails" />
+      <MemberSignature Language="F#" Value="static member RestoreFilesTargetDetails : string * Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetLocationType * Uri * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetDetails" Usage="Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.RestoreFilesTargetDetails (filePrefix, restoreTargetLocationType, uri, targetResourceArmId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetDetails</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filePrefix" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="restoreTargetLocationType" Type="Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetLocationType" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="uri" Type="System.Uri" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="targetResourceArmId" Type="Azure.Core.ResourceIdentifier" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="filePrefix">
+            Restore operation may create multiple files inside location pointed by Url
+            Below will be the common prefix for all of them
+            </param>
+        <param name="restoreTargetLocationType">
+            Denotes the target location where the data will be restored,
+            string value for the enum {Microsoft.Internal.AzureBackup.DataProtection.Common.Interface.RestoreTargetLocationType}
+            </param>
+        <param name="uri"> Url denoting the restore destination. It can point to container / file share etc. </param>
+        <param name="targetResourceArmId">
+            Full ARM Id denoting the restore destination. It is the ARM Id pointing to container / file share
+            This is optional if the target subscription can be identified with the URL field. If not
+            then this is needed if CrossSubscriptionRestore field of BackupVault is in any of the disabled states
+            </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetDetails" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetDetails" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestoreFilesTargetInfo">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetInfo RestoreFilesTargetInfo (Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting recoverySetting = default, Azure.Core.AzureLocation? restoreLocation = default, Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetDetails targetDetails = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetInfo RestoreFilesTargetInfo(valuetype Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting recoverySetting, valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; restoreLocation, class Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetDetails targetDetails) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.RestoreFilesTargetInfo(Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting,System.Nullable{Azure.Core.AzureLocation},Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetDetails)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RestoreFilesTargetInfo (Optional recoverySetting As RecoverySetting = Nothing, Optional restoreLocation As Nullable(Of AzureLocation) = Nothing, Optional targetDetails As RestoreFilesTargetDetails = Nothing) As RestoreFilesTargetInfo" />
+      <MemberSignature Language="F#" Value="static member RestoreFilesTargetInfo : Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting * Nullable&lt;Azure.Core.AzureLocation&gt; * Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetDetails -&gt; Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetInfo" Usage="Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.RestoreFilesTargetInfo (recoverySetting, restoreLocation, targetDetails)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="recoverySetting" Type="Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="restoreLocation" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="targetDetails" Type="Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetDetails" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="recoverySetting"> Recovery Option. </param>
+        <param name="restoreLocation"> Target Restore region. </param>
+        <param name="targetDetails"> Destination of RestoreAsFiles operation, when destination is not a datasource. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetInfo" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreFilesTargetInfo" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="RestoreJobRecoveryPointDetails">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.RestoreJobRecoveryPointDetails RestoreJobRecoveryPointDetails (string recoveryPointId = default, DateTimeOffset? recoverOn = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.RestoreJobRecoveryPointDetails RestoreJobRecoveryPointDetails(string recoveryPointId, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; recoverOn) cil managed" />
@@ -1457,6 +1938,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.RestoreJobRecoveryPointDetails</ReturnType>
@@ -1473,6 +1955,70 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="RestoreTargetInfo">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfo RestoreTargetInfo (Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting recoverySetting = default, Azure.Core.AzureLocation? restoreLocation = default, Azure.ResourceManager.DataProtectionBackup.Models.DataSourceInfo dataSourceInfo = default, Azure.ResourceManager.DataProtectionBackup.Models.DataSourceSetInfo dataSourceSetInfo = default, Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupAuthCredentials dataSourceAuthCredentials = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfo RestoreTargetInfo(valuetype Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting recoverySetting, valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; restoreLocation, class Azure.ResourceManager.DataProtectionBackup.Models.DataSourceInfo dataSourceInfo, class Azure.ResourceManager.DataProtectionBackup.Models.DataSourceSetInfo dataSourceSetInfo, class Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupAuthCredentials dataSourceAuthCredentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.RestoreTargetInfo(Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting,System.Nullable{Azure.Core.AzureLocation},Azure.ResourceManager.DataProtectionBackup.Models.DataSourceInfo,Azure.ResourceManager.DataProtectionBackup.Models.DataSourceSetInfo,Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupAuthCredentials)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RestoreTargetInfo (Optional recoverySetting As RecoverySetting = Nothing, Optional restoreLocation As Nullable(Of AzureLocation) = Nothing, Optional dataSourceInfo As DataSourceInfo = Nothing, Optional dataSourceSetInfo As DataSourceSetInfo = Nothing, Optional dataSourceAuthCredentials As DataProtectionBackupAuthCredentials = Nothing) As RestoreTargetInfo" />
+      <MemberSignature Language="F#" Value="static member RestoreTargetInfo : Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting * Nullable&lt;Azure.Core.AzureLocation&gt; * Azure.ResourceManager.DataProtectionBackup.Models.DataSourceInfo * Azure.ResourceManager.DataProtectionBackup.Models.DataSourceSetInfo * Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupAuthCredentials -&gt; Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfo" Usage="Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.RestoreTargetInfo (recoverySetting, restoreLocation, dataSourceInfo, dataSourceSetInfo, dataSourceAuthCredentials)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="recoverySetting" Type="Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="restoreLocation" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="dataSourceInfo" Type="Azure.ResourceManager.DataProtectionBackup.Models.DataSourceInfo" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="dataSourceSetInfo" Type="Azure.ResourceManager.DataProtectionBackup.Models.DataSourceSetInfo" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="dataSourceAuthCredentials" Type="Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupAuthCredentials" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="recoverySetting"> Recovery Option. </param>
+        <param name="restoreLocation"> Target Restore region. </param>
+        <param name="dataSourceInfo"> Information of target DS. </param>
+        <param name="dataSourceSetInfo"> Information of target DS Set. </param>
+        <param name="dataSourceAuthCredentials">
+            Credentials to use to authenticate with data source provider.
+            Please note <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.DataProtectionBackupAuthCredentials" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.SecretStoreBasedAuthCredentials" />.
+            </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfo" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfo" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestoreTargetInfoBase">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase RestoreTargetInfoBase (string objectType = default, Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting recoverySetting = default, Azure.Core.AzureLocation? restoreLocation = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase RestoreTargetInfoBase(string objectType, valuetype Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting recoverySetting, valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; restoreLocation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.RestoreTargetInfoBase(System.String,Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting,System.Nullable{Azure.Core.AzureLocation})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RestoreTargetInfoBase (Optional objectType As String = Nothing, Optional recoverySetting As RecoverySetting = Nothing, Optional restoreLocation As Nullable(Of AzureLocation) = Nothing) As RestoreTargetInfoBase" />
+      <MemberSignature Language="F#" Value="static member RestoreTargetInfoBase : string * Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting * Nullable&lt;Azure.Core.AzureLocation&gt; -&gt; Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase" Usage="Azure.ResourceManager.DataProtectionBackup.Models.ArmDataProtectionBackupModelFactory.RestoreTargetInfoBase (objectType, recoverySetting, restoreLocation)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="objectType" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="recoverySetting" Type="Azure.ResourceManager.DataProtectionBackup.Models.RecoverySetting" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="restoreLocation" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="objectType"> Type of Datasource object, used to initialize the right inherited type. </param>
+        <param name="recoverySetting"> Recovery Option. </param>
+        <param name="restoreLocation"> Target Restore region. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.DataProtectionBackup.Models.RestoreTargetInfoBase" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="UserFacingWarningDetail">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.DataProtectionBackup.Models.UserFacingWarningDetail UserFacingWarningDetail (string resourceName = default, Azure.ResponseError warning = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.DataProtectionBackup.Models.UserFacingWarningDetail UserFacingWarningDetail(string resourceName, class Azure.ResponseError warning) cil managed" />
@@ -1483,6 +2029,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataProtectionBackup</AssemblyName>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataProtectionBackup.Models.UserFacingWarningDetail</ReturnType>

@@ -11,6 +11,7 @@
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.1.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -30,8 +31,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceNameAvailabilityResult&gt;</ReturnType>
@@ -49,7 +50,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks whether or not the given search service name is available for use. Search service names must be globally unique since they are part of the service URI (https://&lt;name&gt;.search.windows.net).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/checkNameAvailability</description></item><item><term>Operation Id</term><description>Services_CheckNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.CheckSearchServiceNameAvailability(Azure.ResourceManager.Search.Models.SearchServiceNameAvailabilityContent,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/checkNameAvailability</description></item><item><term>Operation Id</term><description>Services_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Search.SearchServiceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.CheckSearchServiceNameAvailability(Azure.ResourceManager.Search.Models.SearchServiceNameAvailabilityContent,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -65,8 +66,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceNameAvailabilityResult&gt;&gt;</ReturnType>
@@ -84,7 +85,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks whether or not the given search service name is available for use. Search service names must be globally unique since they are part of the service URI (https://&lt;name&gt;.search.windows.net).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/checkNameAvailability</description></item><item><term>Operation Id</term><description>Services_CheckNameAvailability</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.CheckSearchServiceNameAvailability(Azure.ResourceManager.Search.Models.SearchServiceNameAvailabilityContent,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/checkNameAvailability</description></item><item><term>Operation Id</term><description>Services_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Search.SearchServiceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.CheckSearchServiceNameAvailability(Azure.ResourceManager.Search.Models.SearchServiceNameAvailabilityContent,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -100,8 +101,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Search.SearchPrivateEndpointConnectionResource</ReturnType>
@@ -132,8 +133,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Search.SearchServiceResource&gt;</ReturnType>
@@ -151,7 +152,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the search service with the given name in the given resource group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchResourceGroupResource.GetSearchService(System.String,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Search.SearchServiceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchResourceGroupResource.GetSearchService(System.String,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -169,8 +170,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.SearchServiceResource&gt;&gt;</ReturnType>
@@ -188,7 +189,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the search service with the given name in the given resource group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchResourceGroupResource.GetSearchServiceAsync(System.String,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Search.SearchServiceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchResourceGroupResource.GetSearchServiceAsync(System.String,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -206,8 +207,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Search.SearchServiceResource</ReturnType>
@@ -238,8 +239,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Search.SearchServiceCollection</ReturnType>
@@ -267,8 +268,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Search.SearchServiceResource&gt;</ReturnType>
@@ -284,7 +285,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a list of all Search services in the given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/searchServices</description></item><item><term>Operation Id</term><description>Services_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.GetSearchServices(Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/searchServices</description></item><item><term>Operation Id</term><description>Services_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Search.SearchServiceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.GetSearchServices(Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Search.SearchServiceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -300,8 +301,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Search.SearchServiceResource&gt;</ReturnType>
@@ -317,7 +318,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a list of all Search services in the given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/searchServices</description></item><item><term>Operation Id</term><description>Services_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.GetSearchServices(Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/searchServices</description></item><item><term>Operation Id</term><description>Services_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Search.SearchServiceResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.GetSearchServices(Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Search.SearchServiceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -333,8 +334,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Search.SharedSearchServicePrivateLinkResource</ReturnType>
@@ -366,15 +367,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Search.Models.QuotaUsageResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
@@ -383,7 +385,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a list of all Search quota usages in the given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/locations/{location}/usages</description></item><item><term>Operation Id</term><description>Usages_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.GetUsagesBySubscription(Azure.Core.AzureLocation,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/locations/{location}/usages</description></item><item><term>Operation Id</term><description>Usages_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.GetUsagesBySubscription(Azure.Core.AzureLocation,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Search.Models.QuotaUsageResult" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -400,15 +402,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Search.Models.QuotaUsageResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
@@ -417,7 +420,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a list of all Search quota usages in the given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/locations/{location}/usages</description></item><item><term>Operation Id</term><description>Usages_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.GetUsagesBySubscription(Azure.Core.AzureLocation,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/locations/{location}/usages</description></item><item><term>Operation Id</term><description>Usages_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.GetUsagesBySubscription(Azure.Core.AzureLocation,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Search.Models.QuotaUsageResult" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -434,16 +437,17 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Search.Models.QuotaUsageResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="skuName" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="skuName" Type="System.String" />
+        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
@@ -453,7 +457,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the quota usage for a search sku in the given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/locations/{location}/usages/{skuName}</description></item><item><term>Operation Id</term><description>UsageBySubscriptionSku</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.UsageBySubscriptionSku(Azure.Core.AzureLocation,System.String,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/locations/{location}/usages/{skuName}</description></item><item><term>Operation Id</term><description>UsageBySubscriptionSku</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.UsageBySubscriptionSku(Azure.Core.AzureLocation,System.String,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -472,16 +476,17 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.QuotaUsageResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" Index="0" FrameworkAlternate="azure-dotnet" RefType="this" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="skuName" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" />
+        <Parameter Name="skuName" Type="System.String" />
+        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
@@ -491,7 +496,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the quota usage for a search sku in the given subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/locations/{location}/usages/{skuName}</description></item><item><term>Operation Id</term><description>UsageBySubscriptionSku</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.UsageBySubscriptionSku(Azure.Core.AzureLocation,System.String,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Search/locations/{location}/usages/{skuName}</description></item><item><term>Operation Id</term><description>UsageBySubscriptionSku</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.Search.Mocking.MockableSearchSubscriptionResource.UsageBySubscriptionSku(Azure.Core.AzureLocation,System.String,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
