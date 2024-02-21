@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -33,6 +34,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -80,6 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Logic.LogicWorkflowTriggerData</ReturnType>
@@ -101,6 +105,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowTriggerResource&gt;</ReturnType>
@@ -112,7 +117,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a workflow trigger.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}</description></item><item><term>Operation Id</term><description>WorkflowTriggers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}</description></item><item><term>Operation Id</term><description>WorkflowTriggers_Get</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowTriggerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -127,6 +132,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowTriggerResource&gt;&gt;</ReturnType>
@@ -138,7 +144,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a workflow trigger.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}</description></item><item><term>Operation Id</term><description>WorkflowTriggers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}</description></item><item><term>Operation Id</term><description>WorkflowTriggers_Get</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowTriggerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -153,6 +159,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.Models.LogicWorkflowTriggerCallbackUri&gt;</ReturnType>
@@ -164,7 +171,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the callback URL for a workflow trigger.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/listCallbackUrl</description></item><item><term>Operation Id</term><description>WorkflowTriggers_ListCallbackUrl</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/listCallbackUrl</description></item><item><term>Operation Id</term><description>WorkflowTriggers_ListCallbackUrl</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowTriggerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -179,6 +186,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.Models.LogicWorkflowTriggerCallbackUri&gt;&gt;</ReturnType>
@@ -190,7 +198,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the callback URL for a workflow trigger.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/listCallbackUrl</description></item><item><term>Operation Id</term><description>WorkflowTriggers_ListCallbackUrl</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/listCallbackUrl</description></item><item><term>Operation Id</term><description>WorkflowTriggers_ListCallbackUrl</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowTriggerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -205,6 +213,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Logic.LogicWorkflowTriggerHistoryCollection</ReturnType>
@@ -226,6 +235,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowTriggerHistoryResource&gt;</ReturnType>
@@ -239,7 +249,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a workflow trigger history.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/histories/{historyName}</description></item><item><term>Operation Id</term><description>WorkflowTriggerHistories_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/histories/{historyName}</description></item><item><term>Operation Id</term><description>WorkflowTriggerHistories_Get</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowTriggerHistoryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -258,6 +268,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.LogicWorkflowTriggerHistoryResource&gt;&gt;</ReturnType>
@@ -271,7 +282,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a workflow trigger history.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/histories/{historyName}</description></item><item><term>Operation Id</term><description>WorkflowTriggerHistories_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/histories/{historyName}</description></item><item><term>Operation Id</term><description>WorkflowTriggerHistories_Get</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowTriggerHistoryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -290,6 +301,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Logic.Models.LogicJsonSchema&gt;</ReturnType>
@@ -301,7 +313,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the trigger schema as JSON.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/schemas/json</description></item><item><term>Operation Id</term><description>WorkflowTriggers_GetSchemaJson</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/schemas/json</description></item><item><term>Operation Id</term><description>WorkflowTriggers_GetSchemaJson</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowTriggerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -316,6 +328,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Logic.Models.LogicJsonSchema&gt;&gt;</ReturnType>
@@ -327,7 +340,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the trigger schema as JSON.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/schemas/json</description></item><item><term>Operation Id</term><description>WorkflowTriggers_GetSchemaJson</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/schemas/json</description></item><item><term>Operation Id</term><description>WorkflowTriggers_GetSchemaJson</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowTriggerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -342,6 +355,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -362,6 +376,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -373,7 +388,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Resets a workflow trigger.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/reset</description></item><item><term>Operation Id</term><description>WorkflowTriggers_Reset</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/reset</description></item><item><term>Operation Id</term><description>WorkflowTriggers_Reset</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowTriggerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -388,6 +403,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -399,7 +415,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Resets a workflow trigger.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/reset</description></item><item><term>Operation Id</term><description>WorkflowTriggers_Reset</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/reset</description></item><item><term>Operation Id</term><description>WorkflowTriggers_Reset</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowTriggerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -414,6 +430,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -433,6 +450,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -444,7 +462,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Runs a workflow trigger.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/run</description></item><item><term>Operation Id</term><description>WorkflowTriggers_Run</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/run</description></item><item><term>Operation Id</term><description>WorkflowTriggers_Run</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowTriggerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -459,6 +477,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -470,7 +489,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Runs a workflow trigger.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/run</description></item><item><term>Operation Id</term><description>WorkflowTriggers_Run</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/run</description></item><item><term>Operation Id</term><description>WorkflowTriggers_Run</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowTriggerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -485,6 +504,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -498,7 +518,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Sets the state of a workflow trigger.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/setState</description></item><item><term>Operation Id</term><description>WorkflowTriggers_SetState</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/setState</description></item><item><term>Operation Id</term><description>WorkflowTriggers_SetState</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowTriggerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -515,6 +535,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Logic</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -528,7 +549,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Sets the state of a workflow trigger.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/setState</description></item><item><term>Operation Id</term><description>WorkflowTriggers_SetState</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/triggers/{triggerName}/setState</description></item><item><term>Operation Id</term><description>WorkflowTriggers_SetState</description></item><item><term>Default Api Version</term><description>2019-05-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Logic.LogicWorkflowTriggerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

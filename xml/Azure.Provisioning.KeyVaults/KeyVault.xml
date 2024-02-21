@@ -1,0 +1,107 @@
+<Type Name="KeyVault" FullName="Azure.Provisioning.KeyVaults.KeyVault">
+  <TypeSignature Language="C#" Value="public class KeyVault : Azure.Provisioning.Resource&lt;Azure.ResourceManager.KeyVault.KeyVaultData&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit KeyVault extends Azure.Provisioning.Resource`1&lt;class Azure.ResourceManager.KeyVault.KeyVaultData&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.KeyVaults.KeyVault" />
+  <TypeSignature Language="VB.NET" Value="Public Class KeyVault&#xA;Inherits Resource(Of KeyVaultData)" />
+  <TypeSignature Language="F#" Value="type KeyVault = class&#xA;    inherit Resource&lt;KeyVaultData&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Resource&lt;Azure.ResourceManager.KeyVault.KeyVaultData&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Azure.ResourceManager.KeyVault.KeyVaultData</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents a KeyVault.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public KeyVault (Azure.Provisioning.IConstruct scope, string name = &quot;kv&quot;, string version = &quot;2023-02-01&quot;, Azure.Core.AzureLocation? location = default, Azure.Provisioning.ResourceManager.ResourceGroup? resourceGroup = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Provisioning.IConstruct scope, string name, string version, valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; location, class Azure.Provisioning.ResourceManager.ResourceGroup resourceGroup) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.KeyVaults.KeyVault.#ctor(Azure.Provisioning.IConstruct,System.String,System.String,System.Nullable{Azure.Core.AzureLocation},Azure.Provisioning.ResourceManager.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (scope As IConstruct, Optional name As String = &quot;kv&quot;, Optional version As String = &quot;2023-02-01&quot;, Optional location As Nullable(Of AzureLocation) = Nothing, Optional resourceGroup As ResourceGroup = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.Provisioning.KeyVaults.KeyVault : Azure.Provisioning.IConstruct * string * string * Nullable&lt;Azure.Core.AzureLocation&gt; * Azure.Provisioning.ResourceManager.ResourceGroup -&gt; Azure.Provisioning.KeyVaults.KeyVault" Usage="new Azure.Provisioning.KeyVaults.KeyVault (scope, name, version, location, resourceGroup)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="scope" Type="Azure.Provisioning.IConstruct" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="version" Type="System.String" />
+        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" />
+        <Parameter Name="resourceGroup" Type="Azure.Provisioning.ResourceManager.ResourceGroup" />
+      </Parameters>
+      <Docs>
+        <param name="scope">The scope.</param>
+        <param name="name">The name.</param>
+        <param name="version">The version.</param>
+        <param name="location">The location.</param>
+        <param name="resourceGroup" />
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.Provisioning.KeyVaults.KeyVault" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddAccessPolicy">
+      <MemberSignature Language="C#" Value="public void AddAccessPolicy (Azure.Provisioning.Output output);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddAccessPolicy(class Azure.Provisioning.Output output) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.KeyVaults.KeyVault.AddAccessPolicy(Azure.Provisioning.Output)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddAccessPolicy (output As Output)" />
+      <MemberSignature Language="F#" Value="member this.AddAccessPolicy : Azure.Provisioning.Output -&gt; unit" Usage="keyVault.AddAccessPolicy output" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="output" Type="Azure.Provisioning.Output" />
+      </Parameters>
+      <Docs>
+        <param name="output">The output containing the access policy principal.</param>
+        <summary>
+            Adds an access policy to the <see cref="T:Azure.Provisioning.KeyVaults.KeyVault" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindParentInScope">
+      <MemberSignature Language="C#" Value="protected override Azure.Provisioning.Resource? FindParentInScope (Azure.Provisioning.IConstruct scope);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.Provisioning.Resource FindParentInScope(class Azure.Provisioning.IConstruct scope) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.KeyVaults.KeyVault.FindParentInScope(Azure.Provisioning.IConstruct)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function FindParentInScope (scope As IConstruct) As Resource" />
+      <MemberSignature Language="F#" Value="override this.FindParentInScope : Azure.Provisioning.IConstruct -&gt; Azure.Provisioning.Resource" Usage="keyVault.FindParentInScope scope" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Resource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scope" Type="Azure.Provisioning.IConstruct" />
+      </Parameters>
+      <Docs>
+        <param name="scope">The scope.</param>
+        <summary>
+            Finds the parent resource in the scope.
+            </summary>
+        <returns>The parent <see cref="T:Azure.Provisioning.Resource" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

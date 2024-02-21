@@ -226,12 +226,12 @@
       </Docs>
     </Member>
     <Member MemberName="Shared">
-      <MemberSignature Language="C#" Value="public static readonly System.ClientModel.Primitives.HttpClientPipelineTransport Shared;" />
-      <MemberSignature Language="ILAsm" Value=".field public static initonly class System.ClientModel.Primitives.HttpClientPipelineTransport Shared" />
-      <MemberSignature Language="DocId" Value="F:System.ClientModel.Primitives.HttpClientPipelineTransport.Shared" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Shared As HttpClientPipelineTransport " />
-      <MemberSignature Language="F#" Value=" staticval mutable Shared : System.ClientModel.Primitives.HttpClientPipelineTransport" Usage="System.ClientModel.Primitives.HttpClientPipelineTransport.Shared" />
-      <MemberType>Field</MemberType>
+      <MemberSignature Language="C#" Value="public static System.ClientModel.Primitives.HttpClientPipelineTransport Shared { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class System.ClientModel.Primitives.HttpClientPipelineTransport Shared" />
+      <MemberSignature Language="DocId" Value="P:System.ClientModel.Primitives.HttpClientPipelineTransport.Shared" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Shared As HttpClientPipelineTransport" />
+      <MemberSignature Language="F#" Value="static member Shared : System.ClientModel.Primitives.HttpClientPipelineTransport" Usage="System.ClientModel.Primitives.HttpClientPipelineTransport.Shared" />
+      <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.ClientModel</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
@@ -243,6 +243,7 @@
         <summary>
             A shared instance of <see cref="T:System.ClientModel.Primitives.HttpClientPipelineTransport" /> with default parameters.
             </summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

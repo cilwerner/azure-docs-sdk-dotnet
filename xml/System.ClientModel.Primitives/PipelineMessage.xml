@@ -154,6 +154,27 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ExtractResponse">
+      <MemberSignature Language="C#" Value="public System.ClientModel.Primitives.PipelineResponse? ExtractResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.ClientModel.Primitives.PipelineResponse ExtractResponse() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.ClientModel.Primitives.PipelineMessage.ExtractResponse" />
+      <MemberSignature Language="VB.NET" Value="Public Function ExtractResponse () As PipelineResponse" />
+      <MemberSignature Language="F#" Value="member this.ExtractResponse : unit -&gt; System.ClientModel.Primitives.PipelineResponse" Usage="pipelineMessage.ExtractResponse " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.ClientModel</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.ClientModel.Primitives.PipelineResponse</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="NetworkTimeout">
       <MemberSignature Language="C#" Value="public TimeSpan? NetworkTimeout { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; NetworkTimeout" />

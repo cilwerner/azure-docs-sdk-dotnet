@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -26,6 +27,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -43,6 +45,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -80,6 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -117,6 +121,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.ActionGroupResource&gt;</ReturnType>
@@ -130,7 +135,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get an action group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/actionGroups/{actionGroupName}</description></item><item><term>Operation Id</term><description>ActionGroups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/actionGroups/{actionGroupName}</description></item><item><term>Operation Id</term><description>ActionGroups_Get</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.ActionGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -149,6 +154,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.ActionGroupResource&gt;&gt;</ReturnType>
@@ -162,7 +168,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get an action group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/actionGroups/{actionGroupName}</description></item><item><term>Operation Id</term><description>ActionGroups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/actionGroups/{actionGroupName}</description></item><item><term>Operation Id</term><description>ActionGroups_Get</description></item><item><term>Default Api Version</term><description>2023-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.ActionGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -181,6 +187,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Monitor.ActionGroupCollection</ReturnType>
@@ -202,6 +209,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.ActivityLogAlertResource&gt;</ReturnType>
@@ -215,7 +223,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get an Activity Log Alert rule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/activityLogAlerts/{activityLogAlertName}</description></item><item><term>Operation Id</term><description>ActivityLogAlerts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/activityLogAlerts/{activityLogAlertName}</description></item><item><term>Operation Id</term><description>ActivityLogAlerts_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.ActivityLogAlertResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -234,6 +242,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.ActivityLogAlertResource&gt;&gt;</ReturnType>
@@ -247,7 +256,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get an Activity Log Alert rule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/activityLogAlerts/{activityLogAlertName}</description></item><item><term>Operation Id</term><description>ActivityLogAlerts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/activityLogAlerts/{activityLogAlertName}</description></item><item><term>Operation Id</term><description>ActivityLogAlerts_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.ActivityLogAlertResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -266,6 +275,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Monitor.ActivityLogAlertCollection</ReturnType>
@@ -287,6 +297,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.AlertRuleResource&gt;</ReturnType>
@@ -300,7 +311,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a classic metric alert rule
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Insights/alertrules/{ruleName}</description></item><item><term>Operation Id</term><description>AlertRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Insights/alertrules/{ruleName}</description></item><item><term>Operation Id</term><description>AlertRules_Get</description></item><item><term>Default Api Version</term><description>2016-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.AlertRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -319,6 +330,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.AlertRuleResource&gt;&gt;</ReturnType>
@@ -332,7 +344,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a classic metric alert rule
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Insights/alertrules/{ruleName}</description></item><item><term>Operation Id</term><description>AlertRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Insights/alertrules/{ruleName}</description></item><item><term>Operation Id</term><description>AlertRules_Get</description></item><item><term>Default Api Version</term><description>2016-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.AlertRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -351,6 +363,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Monitor.AlertRuleCollection</ReturnType>
@@ -372,6 +385,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.AutoscaleSettingResource&gt;</ReturnType>
@@ -385,7 +399,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an autoscale setting
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Insights/autoscalesettings/{autoscaleSettingName}</description></item><item><term>Operation Id</term><description>AutoscaleSettings_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Insights/autoscalesettings/{autoscaleSettingName}</description></item><item><term>Operation Id</term><description>AutoscaleSettings_Get</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.AutoscaleSettingResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -404,6 +418,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.AutoscaleSettingResource&gt;&gt;</ReturnType>
@@ -417,7 +432,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an autoscale setting
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Insights/autoscalesettings/{autoscaleSettingName}</description></item><item><term>Operation Id</term><description>AutoscaleSettings_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Insights/autoscalesettings/{autoscaleSettingName}</description></item><item><term>Operation Id</term><description>AutoscaleSettings_Get</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.AutoscaleSettingResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -436,6 +451,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Monitor.AutoscaleSettingCollection</ReturnType>
@@ -457,6 +473,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.DataCollectionEndpointResource&gt;</ReturnType>
@@ -470,7 +487,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the specified data collection endpoint.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/dataCollectionEndpoints/{dataCollectionEndpointName}</description></item><item><term>Operation Id</term><description>DataCollectionEndpoints_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/dataCollectionEndpoints/{dataCollectionEndpointName}</description></item><item><term>Operation Id</term><description>DataCollectionEndpoints_Get</description></item><item><term>Default Api Version</term><description>2022-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.DataCollectionEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -489,6 +506,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.DataCollectionEndpointResource&gt;&gt;</ReturnType>
@@ -502,7 +520,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the specified data collection endpoint.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/dataCollectionEndpoints/{dataCollectionEndpointName}</description></item><item><term>Operation Id</term><description>DataCollectionEndpoints_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/dataCollectionEndpoints/{dataCollectionEndpointName}</description></item><item><term>Operation Id</term><description>DataCollectionEndpoints_Get</description></item><item><term>Default Api Version</term><description>2022-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.DataCollectionEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -521,6 +539,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Monitor.DataCollectionEndpointCollection</ReturnType>
@@ -542,6 +561,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.DataCollectionRuleResource&gt;</ReturnType>
@@ -555,7 +575,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the specified data collection rule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/dataCollectionRules/{dataCollectionRuleName}</description></item><item><term>Operation Id</term><description>DataCollectionRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/dataCollectionRules/{dataCollectionRuleName}</description></item><item><term>Operation Id</term><description>DataCollectionRules_Get</description></item><item><term>Default Api Version</term><description>2022-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.DataCollectionRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -574,6 +594,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.DataCollectionRuleResource&gt;&gt;</ReturnType>
@@ -587,7 +608,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the specified data collection rule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/dataCollectionRules/{dataCollectionRuleName}</description></item><item><term>Operation Id</term><description>DataCollectionRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/dataCollectionRules/{dataCollectionRuleName}</description></item><item><term>Operation Id</term><description>DataCollectionRules_Get</description></item><item><term>Default Api Version</term><description>2022-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.DataCollectionRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -606,6 +627,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Monitor.DataCollectionRuleCollection</ReturnType>
@@ -627,6 +649,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.MetricAlertResource&gt;</ReturnType>
@@ -640,7 +663,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieve an alert rule definition.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/metricAlerts/{ruleName}</description></item><item><term>Operation Id</term><description>MetricAlerts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/metricAlerts/{ruleName}</description></item><item><term>Operation Id</term><description>MetricAlerts_Get</description></item><item><term>Default Api Version</term><description>2018-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.MetricAlertResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -659,6 +682,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.MetricAlertResource&gt;&gt;</ReturnType>
@@ -672,7 +696,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieve an alert rule definition.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/metricAlerts/{ruleName}</description></item><item><term>Operation Id</term><description>MetricAlerts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/metricAlerts/{ruleName}</description></item><item><term>Operation Id</term><description>MetricAlerts_Get</description></item><item><term>Default Api Version</term><description>2018-03-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.MetricAlertResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -691,6 +715,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Monitor.MetricAlertCollection</ReturnType>
@@ -712,6 +737,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.MonitorPrivateLinkScopeResource&gt;</ReturnType>
@@ -725,7 +751,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a Azure Monitor PrivateLinkScope.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item><item><term>Default Api Version</term><description>2021-07-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.MonitorPrivateLinkScopeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -744,6 +770,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.MonitorPrivateLinkScopeResource&gt;&gt;</ReturnType>
@@ -757,7 +784,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a Azure Monitor PrivateLinkScope.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/privateLinkScopes/{scopeName}</description></item><item><term>Operation Id</term><description>PrivateLinkScopes_Get</description></item><item><term>Default Api Version</term><description>2021-07-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.MonitorPrivateLinkScopeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -776,6 +803,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Monitor.MonitorPrivateLinkScopeCollection</ReturnType>
@@ -797,6 +825,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.MonitorWorkspaceResource&gt;</ReturnType>
@@ -810,7 +839,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the specific Azure Monitor workspace
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Monitor/accounts/{azureMonitorWorkspaceName}</description></item><item><term>Operation Id</term><description>AzureMonitorWorkspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Monitor/accounts/{azureMonitorWorkspaceName}</description></item><item><term>Operation Id</term><description>AzureMonitorWorkspaces_Get</description></item><item><term>Default Api Version</term><description>2023-04-03</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.MonitorWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -829,6 +858,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.MonitorWorkspaceResource&gt;&gt;</ReturnType>
@@ -842,7 +872,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the specific Azure Monitor workspace
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Monitor/accounts/{azureMonitorWorkspaceName}</description></item><item><term>Operation Id</term><description>AzureMonitorWorkspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Monitor/accounts/{azureMonitorWorkspaceName}</description></item><item><term>Operation Id</term><description>AzureMonitorWorkspaces_Get</description></item><item><term>Default Api Version</term><description>2023-04-03</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.MonitorWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -861,6 +891,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Monitor.MonitorWorkspaceResourceCollection</ReturnType>
@@ -882,6 +913,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -916,6 +948,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -950,6 +983,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.Models.MonitorPrivateLinkScopeOperationStatus&gt;</ReturnType>
@@ -963,7 +997,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the status of an azure asynchronous operation associated with a private link scope operation.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/privateLinkScopeOperationStatuses/{asyncOperationId}</description></item><item><term>Operation Id</term><description>PrivateLinkScopeOperationStatus_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/privateLinkScopeOperationStatuses/{asyncOperationId}</description></item><item><term>Operation Id</term><description>PrivateLinkScopeOperationStatus_Get</description></item><item><term>Default Api Version</term><description>2021-07-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -982,6 +1016,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.Models.MonitorPrivateLinkScopeOperationStatus&gt;&gt;</ReturnType>
@@ -995,7 +1030,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the status of an azure asynchronous operation associated with a private link scope operation.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/privateLinkScopeOperationStatuses/{asyncOperationId}</description></item><item><term>Operation Id</term><description>PrivateLinkScopeOperationStatus_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/privateLinkScopeOperationStatuses/{asyncOperationId}</description></item><item><term>Operation Id</term><description>PrivateLinkScopeOperationStatus_Get</description></item><item><term>Default Api Version</term><description>2021-07-01-preview</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1014,6 +1049,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Monitor.ScheduledQueryRuleResource&gt;</ReturnType>
@@ -1027,7 +1063,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieve an scheduled query rule definition.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/scheduledQueryRules/{ruleName}</description></item><item><term>Operation Id</term><description>ScheduledQueryRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/scheduledQueryRules/{ruleName}</description></item><item><term>Operation Id</term><description>ScheduledQueryRules_Get</description></item><item><term>Default Api Version</term><description>2022-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.ScheduledQueryRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1046,6 +1082,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Monitor.ScheduledQueryRuleResource&gt;&gt;</ReturnType>
@@ -1059,7 +1096,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieve an scheduled query rule definition.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/scheduledQueryRules/{ruleName}</description></item><item><term>Operation Id</term><description>ScheduledQueryRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Insights/scheduledQueryRules/{ruleName}</description></item><item><term>Operation Id</term><description>ScheduledQueryRules_Get</description></item><item><term>Default Api Version</term><description>2022-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Monitor.ScheduledQueryRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1078,6 +1115,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Monitor</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Monitor.ScheduledQueryRuleCollection</ReturnType>
