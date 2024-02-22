@@ -1,9 +1,9 @@
 <Type Name="VirtualMachineDeleteCheckpoint" FullName="Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint">
-  <TypeSignature Language="C#" Value="public class VirtualMachineDeleteCheckpoint" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineDeleteCheckpoint extends System.Object" />
+  <TypeSignature Language="C#" Value="public class VirtualMachineDeleteCheckpoint : System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;, System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VirtualMachineDeleteCheckpoint extends System.Object implements class System.ClientModel.Primitives.IJsonModel`1&lt;class Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;, class System.ClientModel.Primitives.IPersistableModel`1&lt;class Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint" />
-  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineDeleteCheckpoint" />
-  <TypeSignature Language="F#" Value="type VirtualMachineDeleteCheckpoint = class" />
+  <TypeSignature Language="VB.NET" Value="Public Class VirtualMachineDeleteCheckpoint&#xA;Implements IJsonModel(Of VirtualMachineDeleteCheckpoint), IPersistableModel(Of VirtualMachineDeleteCheckpoint)" />
+  <TypeSignature Language="F#" Value="type VirtualMachineDeleteCheckpoint = class&#xA;    interface IJsonModel&lt;VirtualMachineDeleteCheckpoint&gt;&#xA;    interface IPersistableModel&lt;VirtualMachineDeleteCheckpoint&gt;" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.ArcScVmm</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -11,7 +11,17 @@
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
-  <Interfaces />
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.ClientModel.Primitives.IPersistableModel&lt;T&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
   <Docs>
     <summary> Defines the delete checkpoint action properties. </summary>
     <remarks>To be added.</remarks>
@@ -29,7 +39,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary> Initializes a new instance of VirtualMachineDeleteCheckpoint. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint" />. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -51,6 +61,160 @@
         <summary> ID of the checkpoint to be deleted. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Create">
+      <MemberSignature Language="C#" Value="Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint IJsonModel&lt;VirtualMachineDeleteCheckpoint&gt;.Create (ref System.Text.Json.Utf8JsonReader reader, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Create(valuetype System.Text.Json.Utf8JsonReader&amp; reader, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint.System#ClientModel#Primitives#IJsonModel&lt;Azure#ResourceManager#ArcScVmm#Models#VirtualMachineDeleteCheckpoint&gt;#Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function Create (ByRef reader As Utf8JsonReader, options As ModelReaderWriterOptions) As VirtualMachineDeleteCheckpoint Implements IJsonModel(Of VirtualMachineDeleteCheckpoint).Create" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Create : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&#xA;override this.System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Create : Utf8JsonReader * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint" Usage="virtualMachineDeleteCheckpoint.System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Create (reader, options)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IJsonModel`1.Create(System.Text.Json.Utf8JsonReader@,System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ArcScVmm</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="reader" Type="System.Text.Json.Utf8JsonReader" RefType="ref" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="reader">The <see cref="T:System.Text.Json.Utf8JsonReader" /> to read.</param>
+        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <summary>
+            Reads one JSON value (including objects or arrays) from the provided reader and converts it to a model.
+            </summary>
+        <returns>A <typeparamref name="T" /> representation of the JSON value.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Write">
+      <MemberSignature Language="C#" Value="void IJsonModel&lt;VirtualMachineDeleteCheckpoint&gt;.Write (System.Text.Json.Utf8JsonWriter writer, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Write(class System.Text.Json.Utf8JsonWriter writer, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint.System#ClientModel#Primitives#IJsonModel&lt;Azure#ResourceManager#ArcScVmm#Models#VirtualMachineDeleteCheckpoint&gt;#Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Sub Write (writer As Utf8JsonWriter, options As ModelReaderWriterOptions) Implements IJsonModel(Of VirtualMachineDeleteCheckpoint).Write" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Write : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit&#xA;override this.System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Write : System.Text.Json.Utf8JsonWriter * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; unit" Usage="virtualMachineDeleteCheckpoint.System.ClientModel.Primitives.IJsonModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Write (writer, options)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IJsonModel`1.Write(System.Text.Json.Utf8JsonWriter,System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ArcScVmm</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="writer" Type="System.Text.Json.Utf8JsonWriter" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="writer">The <see cref="T:System.Text.Json.Utf8JsonWriter" /> to write into.</param>
+        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <summary>
+            Writes the model to the provided <see cref="T:System.Text.Json.Utf8JsonWriter" />.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Create">
+      <MemberSignature Language="C#" Value="Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint IPersistableModel&lt;VirtualMachineDeleteCheckpoint&gt;.Create (BinaryData data, System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Create(class System.BinaryData data, class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint.System#ClientModel#Primitives#IPersistableModel&lt;Azure#ResourceManager#ArcScVmm#Models#VirtualMachineDeleteCheckpoint&gt;#Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function Create (data As BinaryData, options As ModelReaderWriterOptions) As VirtualMachineDeleteCheckpoint Implements IPersistableModel(Of VirtualMachineDeleteCheckpoint).Create" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Create : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&#xA;override this.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Create : BinaryData * System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint" Usage="virtualMachineDeleteCheckpoint.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Create (data, options)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IPersistableModel`1.Create(System.BinaryData,System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ArcScVmm</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="data">The <see cref="T:System.BinaryData" /> to parse.</param>
+        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <summary>
+            Converts the provided <see cref="T:System.BinaryData" /> into a model.
+            </summary>
+        <returns>A <typeparamref name="T" /> representation of the data.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.GetFormatFromOptions">
+      <MemberSignature Language="C#" Value="string IPersistableModel&lt;VirtualMachineDeleteCheckpoint&gt;.GetFormatFromOptions (System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance string System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.GetFormatFromOptions(class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint.System#ClientModel#Primitives#IPersistableModel&lt;Azure#ResourceManager#ArcScVmm#Models#VirtualMachineDeleteCheckpoint&gt;#GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function GetFormatFromOptions (options As ModelReaderWriterOptions) As String Implements IPersistableModel(Of VirtualMachineDeleteCheckpoint).GetFormatFromOptions" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.GetFormatFromOptions : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; string&#xA;override this.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.GetFormatFromOptions : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; string" Usage="virtualMachineDeleteCheckpoint.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.GetFormatFromOptions options" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IPersistableModel`1.GetFormatFromOptions(System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ArcScVmm</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options">To be added.</param>
+        <summary>
+            Gets the data interchange format (JSON, Xml, etc) that the model uses when communicating with the service.
+            <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param></summary>
+        <returns>The format that the model uses when communicating with the serivce.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Write">
+      <MemberSignature Language="C#" Value="BinaryData IPersistableModel&lt;VirtualMachineDeleteCheckpoint&gt;.Write (System.ClientModel.Primitives.ModelReaderWriterOptions options);" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.BinaryData System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Write(class System.ClientModel.Primitives.ModelReaderWriterOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint.System#ClientModel#Primitives#IPersistableModel&lt;Azure#ResourceManager#ArcScVmm#Models#VirtualMachineDeleteCheckpoint&gt;#Write(System.ClientModel.Primitives.ModelReaderWriterOptions)" />
+      <MemberSignature Language="VB.NET" Value="Function Write (options As ModelReaderWriterOptions) As BinaryData Implements IPersistableModel(Of VirtualMachineDeleteCheckpoint).Write" />
+      <MemberSignature Language="F#" Value="abstract member System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Write : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData&#xA;override this.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Write : System.ClientModel.Primitives.ModelReaderWriterOptions -&gt; BinaryData" Usage="virtualMachineDeleteCheckpoint.System.ClientModel.Primitives.IPersistableModel&lt;Azure.ResourceManager.ArcScVmm.Models.VirtualMachineDeleteCheckpoint&gt;.Write options" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ClientModel.Primitives.IPersistableModel`1.Write(System.ClientModel.Primitives.ModelReaderWriterOptions)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.ArcScVmm</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.BinaryData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="System.ClientModel.Primitives.ModelReaderWriterOptions" />
+      </Parameters>
+      <Docs>
+        <param name="options">The <see cref="T:System.ClientModel.Primitives.ModelReaderWriterOptions" /> to use.</param>
+        <summary>
+            Writes the model into a <see cref="T:System.BinaryData" />.
+            </summary>
+        <returns>A binary representation of the written model.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.FormatException">If the model does not support the requested <see cref="P:System.ClientModel.Primitives.ModelReaderWriterOptions.Format" />.</exception>
       </Docs>
     </Member>
   </Members>

@@ -13,6 +13,7 @@
     <AssemblyVersion>15.4.0.0</AssemblyVersion>
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.1.0.0</AssemblyVersion>
+    <AssemblyVersion>16.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -34,6 +35,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -53,6 +55,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="imageReference" Type="Microsoft.Azure.Batch.ImageReference" />
@@ -77,6 +80,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.ContainerConfiguration</ReturnType>
@@ -103,6 +107,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.DataDisk&gt;</ReturnType>
@@ -128,6 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.DiskEncryptionConfiguration</ReturnType>
@@ -152,6 +158,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Batch.VMExtension&gt;</ReturnType>
@@ -176,6 +183,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.ImageReference</ReturnType>
@@ -199,6 +207,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -226,6 +235,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -252,6 +262,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.NodePlacementConfiguration</ReturnType>
@@ -276,6 +287,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.OSDisk</ReturnType>
@@ -298,6 +310,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.SecurityProfile</ReturnType>
@@ -320,6 +333,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.ServiceArtifactReference</ReturnType>
@@ -345,6 +359,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.WindowsConfiguration</ReturnType>

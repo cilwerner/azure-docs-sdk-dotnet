@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -33,6 +34,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource&gt;</ReturnType>
@@ -64,7 +67,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to cancel an Azure Site Recovery job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}/cancel</description></item><item><term>Operation Id</term><description>ReplicationJobs_Cancel</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}/cancel</description></item><item><term>Operation Id</term><description>ReplicationJobs_Cancel</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -79,6 +82,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource&gt;&gt;</ReturnType>
@@ -93,7 +97,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to cancel an Azure Site Recovery job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}/cancel</description></item><item><term>Operation Id</term><description>ReplicationJobs_Cancel</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}/cancel</description></item><item><term>Operation Id</term><description>ReplicationJobs_Cancel</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -108,6 +112,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -138,6 +143,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobData</ReturnType>
@@ -159,6 +165,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource&gt;</ReturnType>
@@ -175,7 +182,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to export the details of the Azure Site Recovery jobs of the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/export</description></item><item><term>Operation Id</term><description>ReplicationJobs_Export</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/export</description></item><item><term>Operation Id</term><description>ReplicationJobs_Export</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -192,6 +199,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource&gt;&gt;</ReturnType>
@@ -208,7 +216,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to export the details of the Azure Site Recovery jobs of the vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/export</description></item><item><term>Operation Id</term><description>ReplicationJobs_Export</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/export</description></item><item><term>Operation Id</term><description>ReplicationJobs_Export</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -225,6 +233,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource&gt;</ReturnType>
@@ -236,7 +245,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the details of an Azure Site Recovery job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}</description></item><item><term>Operation Id</term><description>ReplicationJobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}</description></item><item><term>Operation Id</term><description>ReplicationJobs_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -251,6 +260,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource&gt;&gt;</ReturnType>
@@ -262,7 +272,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the details of an Azure Site Recovery job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}</description></item><item><term>Operation Id</term><description>ReplicationJobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}</description></item><item><term>Operation Id</term><description>ReplicationJobs_Get</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -277,6 +287,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -297,6 +308,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -316,6 +328,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource&gt;</ReturnType>
@@ -330,7 +343,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to restart an Azure Site Recovery job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}/restart</description></item><item><term>Operation Id</term><description>ReplicationJobs_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}/restart</description></item><item><term>Operation Id</term><description>ReplicationJobs_Restart</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -345,6 +358,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource&gt;&gt;</ReturnType>
@@ -359,7 +373,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to restart an Azure Site Recovery job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}/restart</description></item><item><term>Operation Id</term><description>ReplicationJobs_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}/restart</description></item><item><term>Operation Id</term><description>ReplicationJobs_Restart</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -374,6 +388,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource&gt;</ReturnType>
@@ -390,7 +405,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to resume an Azure Site Recovery job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}/resume</description></item><item><term>Operation Id</term><description>ReplicationJobs_Resume</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}/resume</description></item><item><term>Operation Id</term><description>ReplicationJobs_Resume</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -407,6 +422,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesSiteRecovery</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource&gt;&gt;</ReturnType>
@@ -423,7 +439,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to resume an Azure Site Recovery job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}/resume</description></item><item><term>Operation Id</term><description>ReplicationJobs_Resume</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationJobs/{jobName}/resume</description></item><item><term>Operation Id</term><description>ReplicationJobs_Resume</description></item><item><term>Default Api Version</term><description>2023-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesSiteRecovery.SiteRecoveryJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

@@ -113,7 +113,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to delete a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Delete</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -142,7 +142,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to delete a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Delete</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -168,7 +168,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to a url for file download.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateDownloadUrl</description></item><item><term>Operation Id</term><description>Firmware_GenerateDownloadUrl</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateDownloadUrl</description></item><item><term>Operation Id</term><description>Firmware_GenerateDownloadUrl</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -194,7 +194,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to a url for file download.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateDownloadUrl</description></item><item><term>Operation Id</term><description>Firmware_GenerateDownloadUrl</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateDownloadUrl</description></item><item><term>Operation Id</term><description>Firmware_GenerateDownloadUrl</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -220,7 +220,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to a url for tar file download.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateFilesystemDownloadUrl</description></item><item><term>Operation Id</term><description>Firmware_GenerateFilesystemDownloadUrl</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateFilesystemDownloadUrl</description></item><item><term>Operation Id</term><description>Firmware_GenerateFilesystemDownloadUrl</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -246,7 +246,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to a url for tar file download.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateFilesystemDownloadUrl</description></item><item><term>Operation Id</term><description>Firmware_GenerateFilesystemDownloadUrl</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateFilesystemDownloadUrl</description></item><item><term>Operation Id</term><description>Firmware_GenerateFilesystemDownloadUrl</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -272,7 +272,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Get</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -298,7 +298,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Get</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -324,7 +324,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to get binary hardening details for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateBinaryHardeningDetails</description></item><item><term>Operation Id</term><description>Firmware_GenerateBinaryHardeningDetails</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateBinaryHardeningDetails</description></item><item><term>Operation Id</term><description>Firmware_GenerateBinaryHardeningDetails</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -350,7 +350,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to get binary hardening details for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateBinaryHardeningDetails</description></item><item><term>Operation Id</term><description>Firmware_GenerateBinaryHardeningDetails</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateBinaryHardeningDetails</description></item><item><term>Operation Id</term><description>Firmware_GenerateBinaryHardeningDetails</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -376,7 +376,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to list all binary hardening result for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateBinaryHardeningList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateBinaryHardeningList</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateBinaryHardeningList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateBinaryHardeningList</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.BinaryHardening" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -402,7 +402,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to list all binary hardening result for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateBinaryHardeningList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateBinaryHardeningList</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateBinaryHardeningList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateBinaryHardeningList</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.BinaryHardening" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -428,7 +428,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to list the binary hardening summary percentages for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateBinaryHardeningSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateBinaryHardeningSummary</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateBinaryHardeningSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateBinaryHardeningSummary</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -454,7 +454,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to list the binary hardening summary percentages for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateBinaryHardeningSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateBinaryHardeningSummary</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateBinaryHardeningSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateBinaryHardeningSummary</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -480,7 +480,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to get component details for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateComponentDetails</description></item><item><term>Operation Id</term><description>Firmware_GenerateComponentDetails</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateComponentDetails</description></item><item><term>Operation Id</term><description>Firmware_GenerateComponentDetails</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -506,7 +506,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to get component details for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateComponentDetails</description></item><item><term>Operation Id</term><description>Firmware_GenerateComponentDetails</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateComponentDetails</description></item><item><term>Operation Id</term><description>Firmware_GenerateComponentDetails</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -532,7 +532,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to list all crypto certificates for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoCertificateList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateCryptoCertificateList</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoCertificateList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateCryptoCertificateList</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareCryptoCertificate" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -558,7 +558,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to list all crypto certificates for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoCertificateList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateCryptoCertificateList</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoCertificateList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateCryptoCertificateList</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareCryptoCertificate" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -584,7 +584,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to provide a high level summary of the discovered cryptographic certificates reported for the firmware image.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoCertificateSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateCryptoCertificateSummary</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoCertificateSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateCryptoCertificateSummary</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -610,7 +610,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to provide a high level summary of the discovered cryptographic certificates reported for the firmware image.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoCertificateSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateCryptoCertificateSummary</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoCertificateSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateCryptoCertificateSummary</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -636,7 +636,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to list all crypto keys for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoKeyList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateCryptoKeyList</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoKeyList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateCryptoKeyList</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareCryptoKey" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -662,7 +662,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to list all crypto keys for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoKeyList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateCryptoKeyList</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoKeyList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateCryptoKeyList</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareCryptoKey" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -688,7 +688,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to provide a high level summary of the discovered cryptographic keys reported for the firmware image.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoKeySummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateCryptoKeySummary</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoKeySummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateCryptoKeySummary</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -714,7 +714,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to provide a high level summary of the discovered cryptographic keys reported for the firmware image.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoKeySummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateCryptoKeySummary</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCryptoKeySummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateCryptoKeySummary</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -740,7 +740,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to list all cve results for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCveList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateCveList</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCveList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateCveList</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareCve" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -766,7 +766,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to list all cve results for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCveList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateCveList</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCveList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateCveList</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareCve" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -792,7 +792,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to provide a high level summary of the CVEs reported for the firmware image.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCveSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateCveSummary</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCveSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateCveSummary</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -818,7 +818,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to provide a high level summary of the CVEs reported for the firmware image.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCveSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateCveSummary</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateCveSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateCveSummary</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -844,7 +844,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to get a scan summary.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateSummary</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateSummary</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -870,7 +870,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to get a scan summary.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateSummary</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateSummary</description></item><item><term>Operation Id</term><description>Firmware_GenerateSummary</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -896,7 +896,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to list all password hashes for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generatePasswordHashList</description></item><item><term>Operation Id</term><description>Firmware_ListGeneratePasswordHashList</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generatePasswordHashList</description></item><item><term>Operation Id</term><description>Firmware_ListGeneratePasswordHashList</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.PasswordHash" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -922,7 +922,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to list all password hashes for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generatePasswordHashList</description></item><item><term>Operation Id</term><description>Firmware_ListGeneratePasswordHashList</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generatePasswordHashList</description></item><item><term>Operation Id</term><description>Firmware_ListGeneratePasswordHashList</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.PasswordHash" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -948,7 +948,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to list all components result for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateComponentList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateComponentList</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateComponentList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateComponentList</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.SbomComponent" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -974,7 +974,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to list all components result for a firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateComponentList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateComponentList</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}/generateComponentList</description></item><item><term>Operation Id</term><description>Firmware_ListGenerateComponentList</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.SbomComponent" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1041,7 +1041,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to update firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Update</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1071,7 +1071,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to update firmware.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.IoTFirmwareDefense/workspaces/{workspaceName}/firmwares/{firmwareId}</description></item><item><term>Operation Id</term><description>Firmware_Update</description></item><item><term>Default Api Version</term><description>2023-02-08-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

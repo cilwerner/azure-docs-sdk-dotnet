@@ -13,6 +13,7 @@
     <AssemblyVersion>15.4.0.0</AssemblyVersion>
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.1.0.0</AssemblyVersion>
+    <AssemblyVersion>16.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -38,6 +39,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -57,6 +59,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="clientRequestId" Type="System.Nullable&lt;System.Guid&gt;" />
@@ -91,6 +94,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -121,6 +125,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -158,6 +163,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

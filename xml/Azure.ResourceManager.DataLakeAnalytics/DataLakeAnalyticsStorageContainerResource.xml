@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -81,6 +84,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageContainerData</ReturnType>
@@ -102,6 +106,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageContainerResource&gt;</ReturnType>
@@ -113,7 +118,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified Azure Storage container associated with the given Data Lake Analytics and Azure Storage accounts.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>StorageAccounts_GetStorageContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>StorageAccounts_GetStorageContainer</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -128,6 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageContainerResource&gt;&gt;</ReturnType>
@@ -139,7 +145,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified Azure Storage container associated with the given Data Lake Analytics and Azure Storage accounts.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>StorageAccounts_GetStorageContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>StorageAccounts_GetStorageContainer</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -154,6 +160,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.DataLakeAnalytics.Models.DataLakeAnalyticsSasTokenInformation&gt;</ReturnType>
@@ -165,7 +172,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the SAS token associated with the specified Data Lake Analytics and Azure Storage account and container combination.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}/containers/{containerName}/listSasTokens</description></item><item><term>Operation Id</term><description>StorageAccounts_ListSasTokens</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}/containers/{containerName}/listSasTokens</description></item><item><term>Operation Id</term><description>StorageAccounts_ListSasTokens</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageContainerResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataLakeAnalytics.Models.DataLakeAnalyticsSasTokenInformation" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -180,6 +187,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.DataLakeAnalytics.Models.DataLakeAnalyticsSasTokenInformation&gt;</ReturnType>
@@ -191,7 +199,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the SAS token associated with the specified Data Lake Analytics and Azure Storage account and container combination.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}/containers/{containerName}/listSasTokens</description></item><item><term>Operation Id</term><description>StorageAccounts_ListSasTokens</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}/containers/{containerName}/listSasTokens</description></item><item><term>Operation Id</term><description>StorageAccounts_ListSasTokens</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageContainerResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataLakeAnalytics.Models.DataLakeAnalyticsSasTokenInformation" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -206,6 +214,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -226,6 +235,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>

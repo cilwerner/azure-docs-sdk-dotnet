@@ -33,6 +33,7 @@
     <AssemblyVersion>7.17.1.0</AssemblyVersion>
     <AssemblyVersion>7.17.2.0</AssemblyVersion>
     <AssemblyVersion>7.17.3.0</AssemblyVersion>
+    <AssemblyVersion>7.18.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -58,6 +59,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -77,6 +79,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="message" Type="Azure.Core.Amqp.AmqpAnnotatedMessage" />
@@ -99,6 +102,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="receivedMessage" Type="Azure.Messaging.ServiceBus.ServiceBusReceivedMessage" />
@@ -121,6 +125,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="body" Type="System.BinaryData" />
@@ -143,6 +148,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="body" Type="System.ReadOnlyMemory&lt;System.Byte&gt;" />
@@ -165,6 +171,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="body" Type="System.String" />
@@ -187,6 +194,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
@@ -278,6 +286,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -300,6 +309,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -323,6 +333,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -347,6 +358,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Amqp.AmqpAnnotatedMessage</ReturnType>
@@ -372,6 +384,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -401,6 +414,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -426,6 +440,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -451,6 +466,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -474,6 +490,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -502,6 +519,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -528,6 +546,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -551,6 +570,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -579,6 +599,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -604,6 +625,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -625,6 +647,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
