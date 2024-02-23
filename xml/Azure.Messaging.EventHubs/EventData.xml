@@ -26,6 +26,7 @@
     <AssemblyVersion>5.9.3.0</AssemblyVersion>
     <AssemblyVersion>5.10.0.0</AssemblyVersion>
     <AssemblyVersion>5.11.0.0</AssemblyVersion>
+    <AssemblyVersion>5.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.Messaging.MessageContent</BaseTypeName>
@@ -47,6 +48,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -66,6 +68,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="amqpMessage" Type="Azure.Core.Amqp.AmqpAnnotatedMessage" />
@@ -88,6 +91,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBody" Type="System.BinaryData" />
@@ -110,6 +114,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBody" Type="System.ReadOnlyMemory&lt;System.Byte&gt;" />
@@ -132,6 +137,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBody" Type="System.String" />
@@ -154,6 +160,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -200,6 +207,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -246,6 +254,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -279,6 +288,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -303,8 +313,8 @@
                prefer the <see cref="P:Azure.Messaging.EventHubs.EventData.EventBody" /> where possible in order to take advantage of
                additional functionality and improved usability for common scenarios.
              </remarks>
-        <altmember cref="P:Azure.Messaging.EventHubs.EventData.EventBody" />
         <altmember cref="M:System.BinaryData.ToStream" />
+        <altmember cref="P:Azure.Messaging.EventHubs.EventData.EventBody" />
       </Docs>
     </Member>
     <Member MemberName="ContentType">
@@ -317,6 +327,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -352,6 +363,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -382,6 +394,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -412,6 +425,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -441,6 +455,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -469,6 +484,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -502,6 +518,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -518,8 +535,8 @@
                the <see cref="P:Azure.Messaging.EventHubs.EventData.Properties" /> to associate serialization hints to aid consumers
                who wish to deserialize the binary data.
              </remarks>
-        <altmember cref="T:System.BinaryData" />
         <altmember cref="P:Azure.Messaging.EventHubs.EventData.Properties" />
+        <altmember cref="T:System.BinaryData" />
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -532,6 +549,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -561,6 +579,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Amqp.AmqpAnnotatedMessage</ReturnType>
@@ -595,6 +614,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -624,6 +644,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -656,6 +677,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -684,6 +706,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -713,6 +736,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
@@ -750,6 +774,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -778,6 +803,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;</ReturnType>
@@ -807,6 +833,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

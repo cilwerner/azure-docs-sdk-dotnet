@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -33,6 +34,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -80,6 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataShare.DataShareData</ReturnType>
@@ -101,6 +105,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DataShare.Models.DataShareOperationResult&gt;</ReturnType>
@@ -115,7 +120,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}</description></item><item><term>Operation Id</term><description>Shares_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}</description></item><item><term>Operation Id</term><description>Shares_Delete</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.DataShareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -130,6 +135,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DataShare.Models.DataShareOperationResult&gt;&gt;</ReturnType>
@@ -144,7 +150,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}</description></item><item><term>Operation Id</term><description>Shares_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}</description></item><item><term>Operation Id</term><description>Shares_Delete</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.DataShareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -159,6 +165,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataShare.DataShareResource&gt;</ReturnType>
@@ -170,7 +177,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}</description></item><item><term>Operation Id</term><description>Shares_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}</description></item><item><term>Operation Id</term><description>Shares_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.DataShareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -185,6 +192,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataShare.DataShareResource&gt;&gt;</ReturnType>
@@ -196,7 +204,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}</description></item><item><term>Operation Id</term><description>Shares_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}</description></item><item><term>Operation Id</term><description>Shares_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.DataShareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -211,6 +219,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataShare.DataShareInvitationResource&gt;</ReturnType>
@@ -224,7 +233,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get an invitation in a share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/invitations/{invitationName}</description></item><item><term>Operation Id</term><description>Invitations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/invitations/{invitationName}</description></item><item><term>Operation Id</term><description>Invitations_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.DataShareInvitationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -243,6 +252,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataShare.DataShareInvitationResource&gt;&gt;</ReturnType>
@@ -256,7 +266,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get an invitation in a share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/invitations/{invitationName}</description></item><item><term>Operation Id</term><description>Invitations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/invitations/{invitationName}</description></item><item><term>Operation Id</term><description>Invitations_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.DataShareInvitationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -275,6 +285,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataShare.DataShareInvitationCollection</ReturnType>
@@ -296,6 +307,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataShare.DataShareSynchronizationSettingResource&gt;</ReturnType>
@@ -309,7 +321,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a synchronizationSetting in a share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/synchronizationSettings/{synchronizationSettingName}</description></item><item><term>Operation Id</term><description>SynchronizationSettings_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/synchronizationSettings/{synchronizationSettingName}</description></item><item><term>Operation Id</term><description>SynchronizationSettings_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.DataShareSynchronizationSettingResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -328,6 +340,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataShare.DataShareSynchronizationSettingResource&gt;&gt;</ReturnType>
@@ -341,7 +354,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a synchronizationSetting in a share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/synchronizationSettings/{synchronizationSettingName}</description></item><item><term>Operation Id</term><description>SynchronizationSettings_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/synchronizationSettings/{synchronizationSettingName}</description></item><item><term>Operation Id</term><description>SynchronizationSettings_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.DataShareSynchronizationSettingResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -360,6 +373,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataShare.DataShareSynchronizationSettingCollection</ReturnType>
@@ -381,6 +395,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource&gt;</ReturnType>
@@ -394,7 +409,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get share subscription in a provider share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_GetByShare</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_GetByShare</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -413,6 +428,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource&gt;&gt;</ReturnType>
@@ -426,7 +442,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get share subscription in a provider share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_GetByShare</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_GetByShare</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -445,6 +461,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataShare.ProviderShareSubscriptionCollection</ReturnType>
@@ -466,6 +483,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataShare.ShareDataSetResource&gt;</ReturnType>
@@ -479,7 +497,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a DataSet in a share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/dataSets/{dataSetName}</description></item><item><term>Operation Id</term><description>DataSets_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/dataSets/{dataSetName}</description></item><item><term>Operation Id</term><description>DataSets_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.ShareDataSetResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -498,6 +516,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataShare.ShareDataSetResource&gt;&gt;</ReturnType>
@@ -511,7 +530,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a DataSet in a share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/dataSets/{dataSetName}</description></item><item><term>Operation Id</term><description>DataSets_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/dataSets/{dataSetName}</description></item><item><term>Operation Id</term><description>DataSets_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.ShareDataSetResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -530,6 +549,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataShare.ShareDataSetCollection</ReturnType>
@@ -551,6 +571,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.DataShare.Models.SynchronizationDetails&gt;</ReturnType>
@@ -570,7 +591,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List synchronization details
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/listSynchronizationDetails</description></item><item><term>Operation Id</term><description>Shares_ListSynchronizationDetails</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/listSynchronizationDetails</description></item><item><term>Operation Id</term><description>Shares_ListSynchronizationDetails</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.DataShareResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataShare.Models.SynchronizationDetails" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -587,6 +608,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.DataShare.Models.SynchronizationDetails&gt;</ReturnType>
@@ -606,7 +628,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List synchronization details
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/listSynchronizationDetails</description></item><item><term>Operation Id</term><description>Shares_ListSynchronizationDetails</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/listSynchronizationDetails</description></item><item><term>Operation Id</term><description>Shares_ListSynchronizationDetails</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.DataShareResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataShare.Models.SynchronizationDetails" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -623,6 +645,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.DataShare.Models.ShareSynchronization&gt;</ReturnType>
@@ -640,7 +663,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List synchronizations of a share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/listSynchronizations</description></item><item><term>Operation Id</term><description>Shares_ListSynchronizations</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/listSynchronizations</description></item><item><term>Operation Id</term><description>Shares_ListSynchronizations</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.DataShareResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataShare.Models.ShareSynchronization" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -655,6 +678,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.DataShare.Models.ShareSynchronization&gt;</ReturnType>
@@ -672,7 +696,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List synchronizations of a share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/listSynchronizations</description></item><item><term>Operation Id</term><description>Shares_ListSynchronizations</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/listSynchronizations</description></item><item><term>Operation Id</term><description>Shares_ListSynchronizations</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.DataShareResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataShare.Models.ShareSynchronization" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -687,6 +711,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -707,6 +732,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -726,6 +752,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DataShare.DataShareResource&gt;</ReturnType>
@@ -742,7 +769,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create a share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}</description></item><item><term>Operation Id</term><description>Shares_Create</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}</description></item><item><term>Operation Id</term><description>Shares_Create</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.DataShareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -759,6 +786,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DataShare.DataShareResource&gt;&gt;</ReturnType>
@@ -775,7 +803,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create a share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}</description></item><item><term>Operation Id</term><description>Shares_Create</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}</description></item><item><term>Operation Id</term><description>Shares_Create</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.DataShareResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
