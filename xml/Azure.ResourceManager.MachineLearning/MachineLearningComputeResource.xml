@@ -122,7 +122,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes specified Machine Learning compute.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}</description></item><item><term>Operation Id</term><description>Compute_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}</description></item><item><term>Operation Id</term><description>Compute_Delete</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -154,7 +154,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes specified Machine Learning compute.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}</description></item><item><term>Operation Id</term><description>Compute_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}</description></item><item><term>Operation Id</term><description>Compute_Delete</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -181,7 +181,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets compute definition by its name. Any secrets (storage keys, service credentials, etc) are not returned - use 'keys' nested resource to get them.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}</description></item><item><term>Operation Id</term><description>Compute_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}</description></item><item><term>Operation Id</term><description>Compute_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -208,7 +208,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets compute definition by its name. Any secrets (storage keys, service credentials, etc) are not returned - use 'keys' nested resource to get them.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}</description></item><item><term>Operation Id</term><description>Compute_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}</description></item><item><term>Operation Id</term><description>Compute_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -235,7 +235,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets secrets related to Machine Learning compute (storage keys, service credentials, etc).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/listKeys</description></item><item><term>Operation Id</term><description>Compute_ListKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/listKeys</description></item><item><term>Operation Id</term><description>Compute_ListKeys</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -262,7 +262,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets secrets related to Machine Learning compute (storage keys, service credentials, etc).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/listKeys</description></item><item><term>Operation Id</term><description>Compute_ListKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/listKeys</description></item><item><term>Operation Id</term><description>Compute_ListKeys</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -289,7 +289,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the details (e.g IP address, port etc) of all the compute nodes in the compute.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/listNodes</description></item><item><term>Operation Id</term><description>Compute_ListNodes</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/listNodes</description></item><item><term>Operation Id</term><description>Compute_ListNodes</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.MachineLearning.Models.AmlComputeNodeInformation" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -316,7 +316,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the details (e.g IP address, port etc) of all the compute nodes in the compute.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/listNodes</description></item><item><term>Operation Id</term><description>Compute_ListNodes</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/listNodes</description></item><item><term>Operation Id</term><description>Compute_ListNodes</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.MachineLearning.Models.AmlComputeNodeInformation" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -387,7 +387,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Posts a restart action to a compute instance
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/restart</description></item><item><term>Operation Id</term><description>Compute_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/restart</description></item><item><term>Operation Id</term><description>Compute_Restart</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -417,7 +417,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Posts a restart action to a compute instance
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/restart</description></item><item><term>Operation Id</term><description>Compute_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/restart</description></item><item><term>Operation Id</term><description>Compute_Restart</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -447,7 +447,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Posts a start action to a compute instance
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/start</description></item><item><term>Operation Id</term><description>Compute_Start</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/start</description></item><item><term>Operation Id</term><description>Compute_Start</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -477,7 +477,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Posts a start action to a compute instance
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/start</description></item><item><term>Operation Id</term><description>Compute_Start</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/start</description></item><item><term>Operation Id</term><description>Compute_Start</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -507,7 +507,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Posts a stop action to a compute instance
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/stop</description></item><item><term>Operation Id</term><description>Compute_Stop</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/stop</description></item><item><term>Operation Id</term><description>Compute_Stop</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -537,7 +537,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Posts a stop action to a compute instance
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/stop</description></item><item><term>Operation Id</term><description>Compute_Stop</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/stop</description></item><item><term>Operation Id</term><description>Compute_Stop</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -569,7 +569,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates properties of a compute. This call will overwrite a compute if it exists. This is a nonrecoverable operation.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}</description></item><item><term>Operation Id</term><description>Compute_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}</description></item><item><term>Operation Id</term><description>Compute_Update</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -603,7 +603,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates properties of a compute. This call will overwrite a compute if it exists. This is a nonrecoverable operation.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}</description></item><item><term>Operation Id</term><description>Compute_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}</description></item><item><term>Operation Id</term><description>Compute_Update</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -633,7 +633,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the custom services list. The list of custom services provided shall be overwritten
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/customServices</description></item><item><term>Operation Id</term><description>Compute_UpdateCustomServices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/customServices</description></item><item><term>Operation Id</term><description>Compute_UpdateCustomServices</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -663,7 +663,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the custom services list. The list of custom services provided shall be overwritten
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/customServices</description></item><item><term>Operation Id</term><description>Compute_UpdateCustomServices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/customServices</description></item><item><term>Operation Id</term><description>Compute_UpdateCustomServices</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -693,7 +693,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the idle shutdown setting of a compute instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/updateIdleShutdownSetting</description></item><item><term>Operation Id</term><description>Compute_UpdateIdleShutdownSetting</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/updateIdleShutdownSetting</description></item><item><term>Operation Id</term><description>Compute_UpdateIdleShutdownSetting</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -723,7 +723,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the idle shutdown setting of a compute instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/updateIdleShutdownSetting</description></item><item><term>Operation Id</term><description>Compute_UpdateIdleShutdownSetting</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/computes/{computeName}/updateIdleShutdownSetting</description></item><item><term>Operation Id</term><description>Compute_UpdateIdleShutdownSetting</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningComputeResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
