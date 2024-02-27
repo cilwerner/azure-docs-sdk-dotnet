@@ -1,0 +1,106 @@
+<Type Name="DeleteBlobOptions" FullName="Azure.Storage.Blobs.Batch.Models.DeleteBlobOptions">
+  <TypeSignature Language="C#" Value="public class DeleteBlobOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DeleteBlobOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Storage.Blobs.Batch.Models.DeleteBlobOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class DeleteBlobOptions" />
+  <TypeSignature Language="F#" Value="type DeleteBlobOptions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Storage.Blobs.Batch</AssemblyName>
+    <AssemblyVersion>12.17.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Options for a delete blob operation within a batch request.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DeleteBlobOptions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Storage.Blobs.Batch.Models.DeleteBlobOptions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Blobs.Batch</AssemblyName>
+        <AssemblyVersion>12.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conditions">
+      <MemberSignature Language="C#" Value="public Azure.Storage.Blobs.Models.BlobRequestConditions Conditions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Storage.Blobs.Models.BlobRequestConditions Conditions" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Blobs.Batch.Models.DeleteBlobOptions.Conditions" />
+      <MemberSignature Language="VB.NET" Value="Public Property Conditions As BlobRequestConditions" />
+      <MemberSignature Language="F#" Value="member this.Conditions : Azure.Storage.Blobs.Models.BlobRequestConditions with get, set" Usage="Azure.Storage.Blobs.Batch.Models.DeleteBlobOptions.Conditions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Blobs.Batch</AssemblyName>
+        <AssemblyVersion>12.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Blobs.Models.BlobRequestConditions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Optional <see cref="T:Azure.Storage.Blobs.Models.BlobRequestConditions" /> to add conditions on
+            deleting this blob.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SnapshotsOption">
+      <MemberSignature Language="C#" Value="public Azure.Storage.Blobs.Models.DeleteSnapshotsOption SnapshotsOption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Storage.Blobs.Models.DeleteSnapshotsOption SnapshotsOption" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Blobs.Batch.Models.DeleteBlobOptions.SnapshotsOption" />
+      <MemberSignature Language="VB.NET" Value="Public Property SnapshotsOption As DeleteSnapshotsOption" />
+      <MemberSignature Language="F#" Value="member this.SnapshotsOption : Azure.Storage.Blobs.Models.DeleteSnapshotsOption with get, set" Usage="Azure.Storage.Blobs.Batch.Models.DeleteBlobOptions.SnapshotsOption" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Blobs.Batch</AssemblyName>
+        <AssemblyVersion>12.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.Blobs.Models.DeleteSnapshotsOption</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies options for deleting blob snapshots.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VersionID">
+      <MemberSignature Language="C#" Value="public string VersionID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string VersionID" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.Blobs.Batch.Models.DeleteBlobOptions.VersionID" />
+      <MemberSignature Language="VB.NET" Value="Public Property VersionID As String" />
+      <MemberSignature Language="F#" Value="member this.VersionID : string with get, set" Usage="Azure.Storage.Blobs.Batch.Models.DeleteBlobOptions.VersionID" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.Blobs.Batch</AssemblyName>
+        <AssemblyVersion>12.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Version ID of the blob to delete.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -115,7 +115,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a connector mapping in the connector.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}/mappings/{mappingName}</description></item><item><term>Operation Id</term><description>ConnectorMappings_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}/mappings/{mappingName}</description></item><item><term>Operation Id</term><description>ConnectorMappings_Delete</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.ConnectorMappingResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,7 +144,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a connector mapping in the connector.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}/mappings/{mappingName}</description></item><item><term>Operation Id</term><description>ConnectorMappings_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}/mappings/{mappingName}</description></item><item><term>Operation Id</term><description>ConnectorMappings_Delete</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.ConnectorMappingResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -170,7 +170,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a connector mapping in the connector.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}/mappings/{mappingName}</description></item><item><term>Operation Id</term><description>ConnectorMappings_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}/mappings/{mappingName}</description></item><item><term>Operation Id</term><description>ConnectorMappings_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.ConnectorMappingResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -196,7 +196,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a connector mapping in the connector.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}/mappings/{mappingName}</description></item><item><term>Operation Id</term><description>ConnectorMappings_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}/mappings/{mappingName}</description></item><item><term>Operation Id</term><description>ConnectorMappings_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.ConnectorMappingResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -266,7 +266,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates a connector mapping or updates an existing connector mapping in the connector.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}/mappings/{mappingName}</description></item><item><term>Operation Id</term><description>ConnectorMappings_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}/mappings/{mappingName}</description></item><item><term>Operation Id</term><description>ConnectorMappings_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.ConnectorMappingResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -299,7 +299,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates a connector mapping or updates an existing connector mapping in the connector.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}/mappings/{mappingName}</description></item><item><term>Operation Id</term><description>ConnectorMappings_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/connectors/{connectorName}/mappings/{mappingName}</description></item><item><term>Operation Id</term><description>ConnectorMappings_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.ConnectorMappingResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
