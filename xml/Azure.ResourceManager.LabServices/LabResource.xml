@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -33,6 +34,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -78,6 +81,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.LabServices.LabData</ReturnType>
@@ -99,6 +103,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -113,7 +118,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Operation to delete a lab resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}</description></item><item><term>Operation Id</term><description>Labs_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}</description></item><item><term>Operation Id</term><description>Labs_Delete</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -128,6 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -142,7 +148,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Operation to delete a lab resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}</description></item><item><term>Operation Id</term><description>Labs_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}</description></item><item><term>Operation Id</term><description>Labs_Delete</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -157,6 +163,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.LabServices.LabResource&gt;</ReturnType>
@@ -168,7 +175,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the properties of a lab resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}</description></item><item><term>Operation Id</term><description>Labs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}</description></item><item><term>Operation Id</term><description>Labs_Get</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -183,6 +190,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.LabServices.LabResource&gt;&gt;</ReturnType>
@@ -194,7 +202,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the properties of a lab resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}</description></item><item><term>Operation Id</term><description>Labs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}</description></item><item><term>Operation Id</term><description>Labs_Get</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -209,6 +217,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.LabServices.LabServicesScheduleResource&gt;</ReturnType>
@@ -222,7 +231,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the properties of a lab Schedule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/schedules/{scheduleName}</description></item><item><term>Operation Id</term><description>Schedules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/schedules/{scheduleName}</description></item><item><term>Operation Id</term><description>Schedules_Get</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabServicesScheduleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -241,6 +250,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.LabServices.LabServicesScheduleResource&gt;&gt;</ReturnType>
@@ -254,7 +264,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the properties of a lab Schedule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/schedules/{scheduleName}</description></item><item><term>Operation Id</term><description>Schedules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/schedules/{scheduleName}</description></item><item><term>Operation Id</term><description>Schedules_Get</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabServicesScheduleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -273,6 +283,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.LabServices.LabServicesScheduleCollection</ReturnType>
@@ -294,6 +305,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.LabServices.LabUserResource&gt;</ReturnType>
@@ -307,7 +319,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the properties of a lab user.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/users/{userName}</description></item><item><term>Operation Id</term><description>Users_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/users/{userName}</description></item><item><term>Operation Id</term><description>Users_Get</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabUserResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -326,6 +338,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.LabServices.LabUserResource&gt;&gt;</ReturnType>
@@ -339,7 +352,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the properties of a lab user.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/users/{userName}</description></item><item><term>Operation Id</term><description>Users_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/users/{userName}</description></item><item><term>Operation Id</term><description>Users_Get</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabUserResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -358,6 +371,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.LabServices.LabUserCollection</ReturnType>
@@ -379,6 +393,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.LabServices.LabVirtualMachineResource&gt;</ReturnType>
@@ -392,7 +407,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the properties for a lab virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -411,6 +426,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.LabServices.LabVirtualMachineResource&gt;&gt;</ReturnType>
@@ -424,7 +440,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the properties for a lab virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -443,6 +459,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.LabServices.LabVirtualMachineCollection</ReturnType>
@@ -464,6 +481,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -484,6 +502,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -498,7 +517,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Publish or re-publish a lab. This will create or update all lab resources, such as virtual machines.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/publish</description></item><item><term>Operation Id</term><description>Labs_Publish</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/publish</description></item><item><term>Operation Id</term><description>Labs_Publish</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -513,6 +532,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -527,7 +547,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Publish or re-publish a lab. This will create or update all lab resources, such as virtual machines.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/publish</description></item><item><term>Operation Id</term><description>Labs_Publish</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/publish</description></item><item><term>Operation Id</term><description>Labs_Publish</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -542,6 +562,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -561,6 +582,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -575,7 +597,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Action used to manually kick off an AAD group sync job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/syncGroup</description></item><item><term>Operation Id</term><description>Labs_SyncGroup</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/syncGroup</description></item><item><term>Operation Id</term><description>Labs_SyncGroup</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -590,6 +612,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -604,7 +627,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Action used to manually kick off an AAD group sync job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/syncGroup</description></item><item><term>Operation Id</term><description>Labs_SyncGroup</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}/syncGroup</description></item><item><term>Operation Id</term><description>Labs_SyncGroup</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -619,6 +642,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.LabServices.LabResource&gt;</ReturnType>
@@ -635,7 +659,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Operation to update a lab resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}</description></item><item><term>Operation Id</term><description>Labs_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}</description></item><item><term>Operation Id</term><description>Labs_Update</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -652,6 +676,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.LabServices</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.LabServices.LabResource&gt;&gt;</ReturnType>
@@ -668,7 +693,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Operation to update a lab resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}</description></item><item><term>Operation Id</term><description>Labs_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.LabServices/labs/{labName}</description></item><item><term>Operation Id</term><description>Labs_Update</description></item><item><term>Default Api Version</term><description>2022-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.LabServices.LabResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

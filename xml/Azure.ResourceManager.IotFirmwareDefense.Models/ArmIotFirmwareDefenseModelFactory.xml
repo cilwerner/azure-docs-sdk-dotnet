@@ -449,6 +449,46 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="FirmwarePatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.IotFirmwareDefense.Models.FirmwarePatch FirmwarePatch (string fileName = default, string vendor = default, string model = default, string version = default, string description = default, long? fileSize = default, Azure.ResourceManager.IotFirmwareDefense.Models.Status? status = default, System.Collections.Generic.IEnumerable&lt;BinaryData&gt; statusMessages = default, Azure.ResourceManager.IotFirmwareDefense.Models.ProvisioningState? provisioningState = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.IotFirmwareDefense.Models.FirmwarePatch FirmwarePatch(string fileName, string vendor, string model, string version, string description, valuetype System.Nullable`1&lt;int64&gt; fileSize, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.IotFirmwareDefense.Models.Status&gt; status, class System.Collections.Generic.IEnumerable`1&lt;class System.BinaryData&gt; statusMessages, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.IotFirmwareDefense.Models.ProvisioningState&gt; provisioningState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.IotFirmwareDefense.Models.ArmIotFirmwareDefenseModelFactory.FirmwarePatch(System.String,System.String,System.String,System.String,System.String,System.Nullable{System.Int64},System.Nullable{Azure.ResourceManager.IotFirmwareDefense.Models.Status},System.Collections.Generic.IEnumerable{System.BinaryData},System.Nullable{Azure.ResourceManager.IotFirmwareDefense.Models.ProvisioningState})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FirmwarePatch (Optional fileName As String = Nothing, Optional vendor As String = Nothing, Optional model As String = Nothing, Optional version As String = Nothing, Optional description As String = Nothing, Optional fileSize As Nullable(Of Long) = Nothing, Optional status As Nullable(Of Status) = Nothing, Optional statusMessages As IEnumerable(Of BinaryData) = Nothing, Optional provisioningState As Nullable(Of ProvisioningState) = Nothing) As FirmwarePatch" />
+      <MemberSignature Language="F#" Value="static member FirmwarePatch : string * string * string * string * string * Nullable&lt;int64&gt; * Nullable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.Status&gt; * seq&lt;BinaryData&gt; * Nullable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.ProvisioningState&gt; -&gt; Azure.ResourceManager.IotFirmwareDefense.Models.FirmwarePatch" Usage="Azure.ResourceManager.IotFirmwareDefense.Models.ArmIotFirmwareDefenseModelFactory.FirmwarePatch (fileName, vendor, model, version, description, fileSize, status, statusMessages, provisioningState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.IotFirmwareDefense.Models.FirmwarePatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileName" Type="System.String" />
+        <Parameter Name="vendor" Type="System.String" />
+        <Parameter Name="model" Type="System.String" />
+        <Parameter Name="version" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="fileSize" Type="System.Nullable&lt;System.Int64&gt;" />
+        <Parameter Name="status" Type="System.Nullable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.Status&gt;" />
+        <Parameter Name="statusMessages" Type="System.Collections.Generic.IEnumerable&lt;System.BinaryData&gt;" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.ProvisioningState&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="fileName"> File name for a firmware that user uploaded. </param>
+        <param name="vendor"> Firmware vendor. </param>
+        <param name="model"> Firmware model. </param>
+        <param name="version"> Firmware version. </param>
+        <param name="description"> User-specified description of the firmware. </param>
+        <param name="fileSize"> File size of the uploaded firmware image. </param>
+        <param name="status"> The status of firmware scan. </param>
+        <param name="statusMessages"> A list of errors or other messages generated during firmware analysis. </param>
+        <param name="provisioningState"> Provisioning state of the resource. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.FirmwarePatch" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.FirmwarePatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="FirmwareSummary">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareSummary FirmwareSummary (long? extractedSize = default, long? fileSize = default, long? extractedFileCount = default, long? componentCount = default, long? binaryCount = default, long? analysisTimeSeconds = default, long? rootFileSystems = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareSummary FirmwareSummary(valuetype System.Nullable`1&lt;int64&gt; extractedSize, valuetype System.Nullable`1&lt;int64&gt; fileSize, valuetype System.Nullable`1&lt;int64&gt; extractedFileCount, valuetype System.Nullable`1&lt;int64&gt; componentCount, valuetype System.Nullable`1&lt;int64&gt; binaryCount, valuetype System.Nullable`1&lt;int64&gt; analysisTimeSeconds, valuetype System.Nullable`1&lt;int64&gt; rootFileSystems) cil managed" />
@@ -518,6 +558,30 @@
         <param name="provisioningState"> Provisioning state of the resource. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareWorkspaceData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.IotFirmwareDefense.FirmwareWorkspaceData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirmwareWorkspacePatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareWorkspacePatch FirmwareWorkspacePatch (Azure.ResourceManager.IotFirmwareDefense.Models.ProvisioningState? provisioningState = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareWorkspacePatch FirmwareWorkspacePatch(valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.IotFirmwareDefense.Models.ProvisioningState&gt; provisioningState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.IotFirmwareDefense.Models.ArmIotFirmwareDefenseModelFactory.FirmwareWorkspacePatch(System.Nullable{Azure.ResourceManager.IotFirmwareDefense.Models.ProvisioningState})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FirmwareWorkspacePatch (Optional provisioningState As Nullable(Of ProvisioningState) = Nothing) As FirmwareWorkspacePatch" />
+      <MemberSignature Language="F#" Value="static member FirmwareWorkspacePatch : Nullable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.ProvisioningState&gt; -&gt; Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareWorkspacePatch" Usage="Azure.ResourceManager.IotFirmwareDefense.Models.ArmIotFirmwareDefenseModelFactory.FirmwareWorkspacePatch provisioningState" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareWorkspacePatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.ProvisioningState&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="provisioningState"> Provisioning state of the resource. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareWorkspacePatch" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareWorkspacePatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -13,6 +13,7 @@
     <AssemblyVersion>15.4.0.0</AssemblyVersion>
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.1.0.0</AssemblyVersion>
+    <AssemblyVersion>16.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -34,6 +35,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -55,20 +57,20 @@
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="creating" Type="System.Int32" />
-        <Parameter Name="idle" Type="System.Int32" />
-        <Parameter Name="offline" Type="System.Int32" />
-        <Parameter Name="preempted" Type="System.Int32" />
-        <Parameter Name="rebooting" Type="System.Int32" />
-        <Parameter Name="reimaging" Type="System.Int32" />
-        <Parameter Name="running" Type="System.Int32" />
-        <Parameter Name="starting" Type="System.Int32" />
-        <Parameter Name="startTaskFailed" Type="System.Int32" />
-        <Parameter Name="leavingPool" Type="System.Int32" />
-        <Parameter Name="unknown" Type="System.Int32" />
-        <Parameter Name="unusable" Type="System.Int32" />
-        <Parameter Name="waitingForStartTask" Type="System.Int32" />
-        <Parameter Name="total" Type="System.Int32" />
+        <Parameter Name="creating" Type="System.Int32" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="idle" Type="System.Int32" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="offline" Type="System.Int32" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="preempted" Type="System.Int32" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="rebooting" Type="System.Int32" Index="4" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="reimaging" Type="System.Int32" Index="5" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="running" Type="System.Int32" Index="6" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="starting" Type="System.Int32" Index="7" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="startTaskFailed" Type="System.Int32" Index="8" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="leavingPool" Type="System.Int32" Index="9" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="unknown" Type="System.Int32" Index="10" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="unusable" Type="System.Int32" Index="11" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="waitingForStartTask" Type="System.Int32" Index="12" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="total" Type="System.Int32" Index="13" FrameworkAlternate="azure-dotnet" />
       </Parameters>
       <Docs>
         <param name="creating">The number of Compute Nodes in the creating
@@ -104,6 +106,70 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NodeCounts (int creating, int idle, int offline, int preempted, int rebooting, int reimaging, int running, int starting, int startTaskFailed, int leavingPool, int unknown, int unusable, int waitingForStartTask, int upgradingOS, int total);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 creating, int32 idle, int32 offline, int32 preempted, int32 rebooting, int32 reimaging, int32 running, int32 starting, int32 startTaskFailed, int32 leavingPool, int32 unknown, int32 unusable, int32 waitingForStartTask, int32 upgradingOS, int32 total) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Batch.Protocol.Models.NodeCounts.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (creating As Integer, idle As Integer, offline As Integer, preempted As Integer, rebooting As Integer, reimaging As Integer, running As Integer, starting As Integer, startTaskFailed As Integer, leavingPool As Integer, unknown As Integer, unusable As Integer, waitingForStartTask As Integer, upgradingOS As Integer, total As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Batch.Protocol.Models.NodeCounts : int * int * int * int * int * int * int * int * int * int * int * int * int * int * int -&gt; Microsoft.Azure.Batch.Protocol.Models.NodeCounts" Usage="new Microsoft.Azure.Batch.Protocol.Models.NodeCounts (creating, idle, offline, preempted, rebooting, reimaging, running, starting, startTaskFailed, leavingPool, unknown, unusable, waitingForStartTask, upgradingOS, total)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="creating" Type="System.Int32" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="idle" Type="System.Int32" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="offline" Type="System.Int32" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="preempted" Type="System.Int32" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="rebooting" Type="System.Int32" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="reimaging" Type="System.Int32" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="running" Type="System.Int32" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="starting" Type="System.Int32" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="startTaskFailed" Type="System.Int32" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="leavingPool" Type="System.Int32" Index="9" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="unknown" Type="System.Int32" Index="10" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="unusable" Type="System.Int32" Index="11" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="waitingForStartTask" Type="System.Int32" Index="12" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="upgradingOS" Type="System.Int32" Index="13" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="total" Type="System.Int32" Index="14" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="creating">The number of Compute Nodes in the creating
+            state.</param>
+        <param name="idle">The number of Compute Nodes in the idle
+            state.</param>
+        <param name="offline">The number of Compute Nodes in the offline
+            state.</param>
+        <param name="preempted">The number of Compute Nodes in the
+            preempted state.</param>
+        <param name="rebooting">The count of Compute Nodes in the rebooting
+            state.</param>
+        <param name="reimaging">The number of Compute Nodes in the
+            reimaging state.</param>
+        <param name="running">The number of Compute Nodes in the running
+            state.</param>
+        <param name="starting">The number of Compute Nodes in the starting
+            state.</param>
+        <param name="startTaskFailed">The number of Compute Nodes in the
+            startTaskFailed state.</param>
+        <param name="leavingPool">The number of Compute Nodes in the
+            leavingPool state.</param>
+        <param name="unknown">The number of Compute Nodes in the unknown
+            state.</param>
+        <param name="unusable">The number of Compute Nodes in the unusable
+            state.</param>
+        <param name="waitingForStartTask">The number of Compute Nodes in
+            the waitingForStartTask state.</param>
+        <param name="upgradingOS">The number of Compute Nodes in the
+            upgradingOS state.</param>
+        <param name="total">The total number of Compute Nodes.</param>
+        <summary>
+            Initializes a new instance of the NodeCounts class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Creating">
       <MemberSignature Language="C#" Value="public int Creating { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Creating" />
@@ -114,6 +180,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -142,6 +209,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -170,6 +238,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -198,6 +267,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -226,6 +296,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -254,6 +325,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -282,6 +354,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -310,6 +383,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -338,6 +412,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -366,6 +441,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -395,6 +471,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -423,6 +500,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -451,6 +529,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -469,6 +548,34 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="UpgradingOS">
+      <MemberSignature Language="C#" Value="public int UpgradingOS { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 UpgradingOS" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Batch.Protocol.Models.NodeCounts.UpgradingOS" />
+      <MemberSignature Language="VB.NET" Value="Public Property UpgradingOS As Integer" />
+      <MemberSignature Language="F#" Value="member this.UpgradingOS : int with get, set" Usage="Microsoft.Azure.Batch.Protocol.Models.NodeCounts.UpgradingOS" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet-preview">
+          <AttributeName Language="C#">[Newtonsoft.Json.JsonProperty(PropertyName="upgradingOS")]</AttributeName>
+          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonProperty(PropertyName="upgradingOS")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the number of Compute Nodes in the upgradingOS state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="WaitingForStartTask">
       <MemberSignature Language="C#" Value="public int WaitingForStartTask { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 WaitingForStartTask" />
@@ -479,6 +586,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

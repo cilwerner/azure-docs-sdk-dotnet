@@ -13,6 +13,7 @@
     <AssemblyVersion>15.4.0.0</AssemblyVersion>
     <AssemblyVersion>16.0.0.0</AssemblyVersion>
     <AssemblyVersion>16.1.0.0</AssemblyVersion>
+    <AssemblyVersion>16.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -34,6 +35,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.ComputeNodeState</ReturnType>
@@ -56,6 +58,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.ComputeNodeState</ReturnType>
@@ -77,6 +80,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.ComputeNodeState</ReturnType>
@@ -100,6 +104,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.ComputeNodeState</ReturnType>
@@ -122,6 +127,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.ComputeNodeState</ReturnType>
@@ -157,6 +163,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.ComputeNodeState</ReturnType>
@@ -178,6 +185,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.ComputeNodeState</ReturnType>
@@ -199,6 +207,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.ComputeNodeState</ReturnType>
@@ -221,6 +230,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.ComputeNodeState</ReturnType>
@@ -242,6 +252,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.ComputeNodeState</ReturnType>
@@ -265,6 +276,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.ComputeNodeState</ReturnType>
@@ -287,6 +299,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.ComputeNodeState</ReturnType>
@@ -295,6 +308,27 @@
       <Docs>
         <summary>
             The compute node cannot be used for task execution due to errors.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UpgradingOS">
+      <MemberSignature Language="C#" Value="UpgradingOS" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Batch.Common.ComputeNodeState UpgradingOS = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Batch.Common.ComputeNodeState.UpgradingOS" />
+      <MemberSignature Language="VB.NET" Value="UpgradingOS" />
+      <MemberSignature Language="F#" Value="UpgradingOS = 13" Usage="Microsoft.Azure.Batch.Common.ComputeNodeState.UpgradingOS" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Batch.Common.ComputeNodeState</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+            The Compute Node is undergoing an OS upgrade operation.
             </summary>
       </Docs>
     </Member>
@@ -308,6 +342,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Batch</AssemblyName>
         <AssemblyVersion>16.1.0.0</AssemblyVersion>
+        <AssemblyVersion>16.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Batch.Common.ComputeNodeState</ReturnType>

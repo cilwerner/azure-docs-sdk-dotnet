@@ -1,0 +1,53 @@
+<Type Name="AppServicesExtensions" FullName="Azure.Provisioning.AppService.AppServicesExtensions">
+  <TypeSignature Language="C#" Value="public static class AppServicesExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit AppServicesExtensions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.AppService.AppServicesExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Module AppServicesExtensions" />
+  <TypeSignature Language="F#" Value="type AppServicesExtensions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Extension methods for <see cref="T:Azure.Provisioning.IConstruct" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddAppServicePlan">
+      <MemberSignature Language="C#" Value="public static Azure.Provisioning.AppService.AppServicePlan AddAppServicePlan (this Azure.Provisioning.IConstruct construct, Azure.Provisioning.ResourceManager.ResourceGroup? parent = default, string name = &quot;appServicePlan&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Provisioning.AppService.AppServicePlan AddAppServicePlan(class Azure.Provisioning.IConstruct construct, class Azure.Provisioning.ResourceManager.ResourceGroup parent, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppService.AppServicesExtensions.AddAppServicePlan(Azure.Provisioning.IConstruct,Azure.Provisioning.ResourceManager.ResourceGroup,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AddAppServicePlan (construct As IConstruct, Optional parent As ResourceGroup = Nothing, Optional name As String = &quot;appServicePlan&quot;) As AppServicePlan" />
+      <MemberSignature Language="F#" Value="static member AddAppServicePlan : Azure.Provisioning.IConstruct * Azure.Provisioning.ResourceManager.ResourceGroup * string -&gt; Azure.Provisioning.AppService.AppServicePlan" Usage="Azure.Provisioning.AppService.AppServicesExtensions.AddAppServicePlan (construct, parent, name)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.AppService.AppServicePlan</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="construct" Type="Azure.Provisioning.IConstruct" RefType="this" />
+        <Parameter Name="parent" Type="Azure.Provisioning.ResourceManager.ResourceGroup" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="construct">The construct.</param>
+        <param name="parent">The parent.</param>
+        <param name="name">The name.</param>
+        <summary>
+            Adds an <see cref="T:Azure.Provisioning.AppService.AppServicePlan" /> to the construct.
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

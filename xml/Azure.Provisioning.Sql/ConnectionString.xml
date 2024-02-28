@@ -1,0 +1,71 @@
+<Type Name="ConnectionString" FullName="Azure.Provisioning.Sql.ConnectionString">
+  <TypeSignature Language="C#" Value="public class ConnectionString" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConnectionString extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Sql.ConnectionString" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConnectionString" />
+  <TypeSignature Language="F#" Value="type ConnectionString = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents a connection string.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConnectionString (Azure.Provisioning.Sql.SqlDatabase database, Azure.Provisioning.Parameter password, string userName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Provisioning.Sql.SqlDatabase database, valuetype Azure.Provisioning.Parameter password, string userName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Sql.ConnectionString.#ctor(Azure.Provisioning.Sql.SqlDatabase,Azure.Provisioning.Parameter,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (database As SqlDatabase, password As Parameter, userName As String)" />
+      <MemberSignature Language="F#" Value="new Azure.Provisioning.Sql.ConnectionString : Azure.Provisioning.Sql.SqlDatabase * Azure.Provisioning.Parameter * string -&gt; Azure.Provisioning.Sql.ConnectionString" Usage="new Azure.Provisioning.Sql.ConnectionString (database, password, userName)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="database" Type="Azure.Provisioning.Sql.SqlDatabase" />
+        <Parameter Name="password" Type="Azure.Provisioning.Parameter" />
+        <Parameter Name="userName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="database">The database.</param>
+        <param name="password">The password.</param>
+        <param name="userName">The user name.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.Provisioning.Sql.ConnectionString" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Azure.Provisioning.Sql.ConnectionString.Value" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As String" />
+      <MemberSignature Language="F#" Value="member this.Value : string" Usage="Azure.Provisioning.Sql.ConnectionString.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the value of the connection string.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

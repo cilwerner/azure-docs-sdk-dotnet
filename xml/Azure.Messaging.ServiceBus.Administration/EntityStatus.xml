@@ -33,6 +33,7 @@
     <AssemblyVersion>7.17.1.0</AssemblyVersion>
     <AssemblyVersion>7.17.2.0</AssemblyVersion>
     <AssemblyVersion>7.17.3.0</AssemblyVersion>
+    <AssemblyVersion>7.18.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -59,6 +60,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.String" />
@@ -81,6 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.Administration.EntityStatus</ReturnType>
@@ -103,6 +106,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.Administration.EntityStatus</ReturnType>
@@ -128,6 +132,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -154,6 +159,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -186,6 +192,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -214,6 +221,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -242,6 +250,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.Administration.EntityStatus</ReturnType>
@@ -268,6 +277,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -296,6 +306,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.Administration.EntityStatus</ReturnType>
@@ -318,6 +329,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.Administration.EntityStatus</ReturnType>
@@ -340,6 +352,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
