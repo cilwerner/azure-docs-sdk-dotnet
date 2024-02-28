@@ -6,7 +6,7 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: authorization
 ---
-# Azure Authorization management client library for .NET - version 1.2.0-alpha.20240227.2 
+# Azure Authorization management client library for .NET - version 1.2.0-alpha.20240228.1 
 
 
 The Microsoft Azure Authorization service provides authorization functionality as Azure core service which can serve for public and as well as for internal tenants. 
