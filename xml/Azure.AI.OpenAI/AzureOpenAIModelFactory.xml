@@ -1182,6 +1182,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="OnYourDataAccessTokenAuthenticationOptions">
+      <MemberSignature Language="C#" Value="public static Azure.AI.OpenAI.OnYourDataAccessTokenAuthenticationOptions OnYourDataAccessTokenAuthenticationOptions (string accessToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.OpenAI.OnYourDataAccessTokenAuthenticationOptions OnYourDataAccessTokenAuthenticationOptions(string accessToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.OpenAI.AzureOpenAIModelFactory.OnYourDataAccessTokenAuthenticationOptions(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function OnYourDataAccessTokenAuthenticationOptions (Optional accessToken As String = Nothing) As OnYourDataAccessTokenAuthenticationOptions" />
+      <MemberSignature Language="F#" Value="static member OnYourDataAccessTokenAuthenticationOptions : string -&gt; Azure.AI.OpenAI.OnYourDataAccessTokenAuthenticationOptions" Usage="Azure.AI.OpenAI.AzureOpenAIModelFactory.OnYourDataAccessTokenAuthenticationOptions accessToken" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.OpenAI</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.OpenAI.OnYourDataAccessTokenAuthenticationOptions</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="accessToken" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="accessToken"> The access token to use for authentication. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.OpenAI.OnYourDataAccessTokenAuthenticationOptions" />. </summary>
+        <returns> A new <see cref="T:Azure.AI.OpenAI.OnYourDataAccessTokenAuthenticationOptions" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="OnYourDataApiKeyAuthenticationOptions">
       <MemberSignature Language="C#" Value="public static Azure.AI.OpenAI.OnYourDataApiKeyAuthenticationOptions OnYourDataApiKeyAuthenticationOptions (string key = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.OpenAI.OnYourDataApiKeyAuthenticationOptions OnYourDataApiKeyAuthenticationOptions(string key) cil managed" />
@@ -1251,6 +1275,30 @@
         <param name="deploymentName"> The embedding model deployment name within the same Azure OpenAI resource. This enables you to use vector search without Azure OpenAI api-key and without Azure OpenAI public network access. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.AI.OpenAI.OnYourDataDeploymentNameVectorizationSource" />. </summary>
         <returns> A new <see cref="T:Azure.AI.OpenAI.OnYourDataDeploymentNameVectorizationSource" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnYourDataEncodedApiKeyAuthenticationOptions">
+      <MemberSignature Language="C#" Value="public static Azure.AI.OpenAI.OnYourDataEncodedApiKeyAuthenticationOptions OnYourDataEncodedApiKeyAuthenticationOptions (string encodedApiKey = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.AI.OpenAI.OnYourDataEncodedApiKeyAuthenticationOptions OnYourDataEncodedApiKeyAuthenticationOptions(string encodedApiKey) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.OpenAI.AzureOpenAIModelFactory.OnYourDataEncodedApiKeyAuthenticationOptions(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function OnYourDataEncodedApiKeyAuthenticationOptions (Optional encodedApiKey As String = Nothing) As OnYourDataEncodedApiKeyAuthenticationOptions" />
+      <MemberSignature Language="F#" Value="static member OnYourDataEncodedApiKeyAuthenticationOptions : string -&gt; Azure.AI.OpenAI.OnYourDataEncodedApiKeyAuthenticationOptions" Usage="Azure.AI.OpenAI.AzureOpenAIModelFactory.OnYourDataEncodedApiKeyAuthenticationOptions encodedApiKey" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.OpenAI</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.AI.OpenAI.OnYourDataEncodedApiKeyAuthenticationOptions</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="encodedApiKey" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="encodedApiKey"> The encoded API key to use for authentication. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.AI.OpenAI.OnYourDataEncodedApiKeyAuthenticationOptions" />. </summary>
+        <returns> A new <see cref="T:Azure.AI.OpenAI.OnYourDataEncodedApiKeyAuthenticationOptions" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

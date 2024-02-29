@@ -50,7 +50,7 @@
         <param name="username"> User account name which uniquely identifies the credentials. </param>
         <param name="credential"> Credential for the server. </param>
         <param name="routeType"> The routing methodology to where the ICE server will be located from the client. "any" will have higher reliability while "nearest" will have lower latency. It is recommended to default to use the "any" routing method unless there are specific scenarios which minimizing latency is critical. </param>
-        <summary> Initializes a new instance of CommunicationIceServer. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.Communication.NetworkTraversal.CommunicationIceServer" />. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="urls" />, <paramref name="username" /> or <paramref name="credential" /> is null. </exception>
