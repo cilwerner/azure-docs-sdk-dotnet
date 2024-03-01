@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Template",
-  "Version": "1.0.3-alpha.20240301.5",
-  "DevVersion": "1.0.3-alpha.20240301.5",
+  "Version": "1.0.3-alpha.20240301.11",
+  "DevVersion": "1.0.3-alpha.20240301.11",
   "DirectoryPath": "sdk/template/Azure.Template",
   "ServiceDirectory": "template",
   "ReadMePath": "sdk/template/Azure.Template/README.md",
