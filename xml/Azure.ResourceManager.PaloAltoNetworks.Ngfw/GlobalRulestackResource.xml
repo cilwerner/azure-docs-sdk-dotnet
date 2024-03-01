@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -63,7 +66,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Commit rulestack configuration
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/commit</description></item><item><term>Operation Id</term><description>GlobalRulestack_commit</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/commit</description></item><item><term>Operation Id</term><description>GlobalRulestack_commit</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -78,6 +81,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -92,7 +96,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Commit rulestack configuration
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/commit</description></item><item><term>Operation Id</term><description>GlobalRulestack_commit</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/commit</description></item><item><term>Operation Id</term><description>GlobalRulestack_commit</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,6 +111,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -131,6 +136,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackData</ReturnType>
@@ -152,6 +158,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -166,7 +173,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a GlobalRulestackResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}</description></item><item><term>Operation Id</term><description>GlobalRulestack_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}</description></item><item><term>Operation Id</term><description>GlobalRulestack_Delete</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -181,6 +188,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -195,7 +203,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a GlobalRulestackResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}</description></item><item><term>Operation Id</term><description>GlobalRulestack_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}</description></item><item><term>Operation Id</term><description>GlobalRulestack_Delete</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -210,6 +218,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource&gt;</ReturnType>
@@ -221,7 +230,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a GlobalRulestackResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}</description></item><item><term>Operation Id</term><description>GlobalRulestack_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}</description></item><item><term>Operation Id</term><description>GlobalRulestack_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -236,6 +245,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.AdvancedSecurityObjectListResult&gt;</ReturnType>
@@ -253,7 +263,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the list of advanced security objects
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listAdvancedSecurityObjects</description></item><item><term>Operation Id</term><description>GlobalRulestack_listAdvancedSecurityObjects</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listAdvancedSecurityObjects</description></item><item><term>Operation Id</term><description>GlobalRulestack_listAdvancedSecurityObjects</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -268,6 +278,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.AdvancedSecurityObjectListResult&gt;&gt;</ReturnType>
@@ -285,7 +296,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the list of advanced security objects
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listAdvancedSecurityObjects</description></item><item><term>Operation Id</term><description>GlobalRulestack_listAdvancedSecurityObjects</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listAdvancedSecurityObjects</description></item><item><term>Operation Id</term><description>GlobalRulestack_listAdvancedSecurityObjects</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -300,6 +311,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;System.String&gt;</ReturnType>
@@ -319,7 +331,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List of AppIds for GlobalRulestack ApiVersion
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listAppIds</description></item><item><term>Operation Id</term><description>GlobalRulestack_listAppIds</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listAppIds</description></item><item><term>Operation Id</term><description>GlobalRulestack_listAppIds</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:System.String" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -334,6 +346,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;System.String&gt;</ReturnType>
@@ -353,7 +366,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List of AppIds for GlobalRulestack ApiVersion
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listAppIds</description></item><item><term>Operation Id</term><description>GlobalRulestack_listAppIds</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listAppIds</description></item><item><term>Operation Id</term><description>GlobalRulestack_listAppIds</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:System.String" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -368,6 +381,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource&gt;&gt;</ReturnType>
@@ -379,7 +393,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a GlobalRulestackResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}</description></item><item><term>Operation Id</term><description>GlobalRulestack_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}</description></item><item><term>Operation Id</term><description>GlobalRulestack_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -394,6 +408,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.RulestackChangelog&gt;</ReturnType>
@@ -405,7 +420,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get changelog
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/getChangeLog</description></item><item><term>Operation Id</term><description>GlobalRulestack_getChangeLog</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/getChangeLog</description></item><item><term>Operation Id</term><description>GlobalRulestack_getChangeLog</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -420,6 +435,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.RulestackChangelog&gt;&gt;</ReturnType>
@@ -431,7 +447,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get changelog
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/getChangeLog</description></item><item><term>Operation Id</term><description>GlobalRulestack_getChangeLog</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/getChangeLog</description></item><item><term>Operation Id</term><description>GlobalRulestack_getChangeLog</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -446,6 +462,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.RulestackCountry&gt;</ReturnType>
@@ -461,7 +478,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List of countries for Rulestack
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listCountries</description></item><item><term>Operation Id</term><description>GlobalRulestack_listCountries</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listCountries</description></item><item><term>Operation Id</term><description>GlobalRulestack_listCountries</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.RulestackCountry" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -476,6 +493,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.RulestackCountry&gt;</ReturnType>
@@ -491,7 +509,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List of countries for Rulestack
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listCountries</description></item><item><term>Operation Id</term><description>GlobalRulestack_listCountries</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listCountries</description></item><item><term>Operation Id</term><description>GlobalRulestack_listCountries</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.RulestackCountry" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -506,6 +524,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;System.String&gt;</ReturnType>
@@ -517,7 +536,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List of Firewalls associated with Rulestack
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listFirewalls</description></item><item><term>Operation Id</term><description>GlobalRulestack_listFirewalls</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listFirewalls</description></item><item><term>Operation Id</term><description>GlobalRulestack_listFirewalls</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:System.String" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -532,6 +551,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;System.String&gt;</ReturnType>
@@ -543,7 +563,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List of Firewalls associated with Rulestack
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listFirewalls</description></item><item><term>Operation Id</term><description>GlobalRulestack_listFirewalls</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listFirewalls</description></item><item><term>Operation Id</term><description>GlobalRulestack_listFirewalls</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:System.String" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -558,6 +578,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackCertificateObjectResource&gt;</ReturnType>
@@ -571,7 +592,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a CertificateObjectGlobalRulestackResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/certificates/{name}</description></item><item><term>Operation Id</term><description>CertificateObjectGlobalRulestack_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/certificates/{name}</description></item><item><term>Operation Id</term><description>CertificateObjectGlobalRulestack_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackCertificateObjectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -590,6 +611,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackCertificateObjectResource&gt;&gt;</ReturnType>
@@ -603,7 +625,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a CertificateObjectGlobalRulestackResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/certificates/{name}</description></item><item><term>Operation Id</term><description>CertificateObjectGlobalRulestack_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/certificates/{name}</description></item><item><term>Operation Id</term><description>CertificateObjectGlobalRulestack_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackCertificateObjectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -622,6 +644,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackCertificateObjectCollection</ReturnType>
@@ -643,6 +666,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackFqdnResource&gt;</ReturnType>
@@ -656,7 +680,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a FqdnListGlobalRulestackResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/fqdnlists/{name}</description></item><item><term>Operation Id</term><description>FqdnListGlobalRulestack_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/fqdnlists/{name}</description></item><item><term>Operation Id</term><description>FqdnListGlobalRulestack_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackFqdnResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -675,6 +699,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackFqdnResource&gt;&gt;</ReturnType>
@@ -688,7 +713,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a FqdnListGlobalRulestackResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/fqdnlists/{name}</description></item><item><term>Operation Id</term><description>FqdnListGlobalRulestack_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/fqdnlists/{name}</description></item><item><term>Operation Id</term><description>FqdnListGlobalRulestack_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackFqdnResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -707,6 +732,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackFqdnCollection</ReturnType>
@@ -728,6 +754,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackPrefixResource&gt;</ReturnType>
@@ -741,7 +768,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a PrefixListGlobalRulestackResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/prefixlists/{name}</description></item><item><term>Operation Id</term><description>PrefixListGlobalRulestack_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/prefixlists/{name}</description></item><item><term>Operation Id</term><description>PrefixListGlobalRulestack_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackPrefixResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -760,6 +787,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackPrefixResource&gt;&gt;</ReturnType>
@@ -773,7 +801,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a PrefixListGlobalRulestackResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/prefixlists/{name}</description></item><item><term>Operation Id</term><description>PrefixListGlobalRulestack_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/prefixlists/{name}</description></item><item><term>Operation Id</term><description>PrefixListGlobalRulestack_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackPrefixResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -792,6 +820,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackPrefixCollection</ReturnType>
@@ -813,6 +842,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.PostRulestackRuleResource&gt;</ReturnType>
@@ -826,7 +856,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a PostRulesResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/postRules/{priority}</description></item><item><term>Operation Id</term><description>PostRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/postRules/{priority}</description></item><item><term>Operation Id</term><description>PostRules_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PostRulestackRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -845,6 +875,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.PostRulestackRuleResource&gt;&gt;</ReturnType>
@@ -858,7 +889,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a PostRulesResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/postRules/{priority}</description></item><item><term>Operation Id</term><description>PostRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/postRules/{priority}</description></item><item><term>Operation Id</term><description>PostRules_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PostRulestackRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -877,6 +908,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PaloAltoNetworks.Ngfw.PostRulestackRuleCollection</ReturnType>
@@ -898,6 +930,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.PredefinedUrlCategory&gt;</ReturnType>
@@ -913,7 +946,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List predefined URL categories for rulestack
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listPredefinedUrlCategories</description></item><item><term>Operation Id</term><description>GlobalRulestack_listPredefinedUrlCategories</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listPredefinedUrlCategories</description></item><item><term>Operation Id</term><description>GlobalRulestack_listPredefinedUrlCategories</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.PredefinedUrlCategory" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -928,6 +961,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.PredefinedUrlCategory&gt;</ReturnType>
@@ -943,7 +977,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List predefined URL categories for rulestack
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listPredefinedUrlCategories</description></item><item><term>Operation Id</term><description>GlobalRulestack_listPredefinedUrlCategories</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listPredefinedUrlCategories</description></item><item><term>Operation Id</term><description>GlobalRulestack_listPredefinedUrlCategories</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.PredefinedUrlCategory" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -958,6 +992,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.PreRulestackRuleResource&gt;</ReturnType>
@@ -971,7 +1006,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a PreRulesResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/preRules/{priority}</description></item><item><term>Operation Id</term><description>PreRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/preRules/{priority}</description></item><item><term>Operation Id</term><description>PreRules_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PreRulestackRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -990,6 +1025,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.PreRulestackRuleResource&gt;&gt;</ReturnType>
@@ -1003,7 +1039,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a PreRulesResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/preRules/{priority}</description></item><item><term>Operation Id</term><description>PreRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/preRules/{priority}</description></item><item><term>Operation Id</term><description>PreRules_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PreRulestackRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1022,6 +1058,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PaloAltoNetworks.Ngfw.PreRulestackRuleCollection</ReturnType>
@@ -1043,6 +1080,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.RulestackSecurityServiceListResult&gt;</ReturnType>
@@ -1060,7 +1098,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the security services for rulestack
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listSecurityServices</description></item><item><term>Operation Id</term><description>GlobalRulestack_listSecurityServices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listSecurityServices</description></item><item><term>Operation Id</term><description>GlobalRulestack_listSecurityServices</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1075,6 +1113,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.RulestackSecurityServiceListResult&gt;&gt;</ReturnType>
@@ -1092,7 +1131,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the security services for rulestack
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listSecurityServices</description></item><item><term>Operation Id</term><description>GlobalRulestack_listSecurityServices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/listSecurityServices</description></item><item><term>Operation Id</term><description>GlobalRulestack_listSecurityServices</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1107,6 +1146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1127,6 +1167,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1146,6 +1187,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1157,7 +1199,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Revert rulestack configuration
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/revert</description></item><item><term>Operation Id</term><description>GlobalRulestack_revert</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/revert</description></item><item><term>Operation Id</term><description>GlobalRulestack_revert</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1172,6 +1214,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -1183,7 +1226,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Revert rulestack configuration
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/revert</description></item><item><term>Operation Id</term><description>GlobalRulestack_revert</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}/revert</description></item><item><term>Operation Id</term><description>GlobalRulestack_revert</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1198,6 +1241,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource&gt;</ReturnType>
@@ -1211,7 +1255,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a GlobalRulestackResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}</description></item><item><term>Operation Id</term><description>GlobalRulestack_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}</description></item><item><term>Operation Id</term><description>GlobalRulestack_Update</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1228,6 +1272,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource&gt;&gt;</ReturnType>
@@ -1241,7 +1286,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a GlobalRulestackResource
-            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}</description></item><item><term>Operation Id</term><description>GlobalRulestack_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/PaloAltoNetworks.Cloudngfw/globalRulestacks/{globalRulestackName}</description></item><item><term>Operation Id</term><description>GlobalRulestack_Update</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.GlobalRulestackResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

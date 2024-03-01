@@ -63,7 +63,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -95,7 +95,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -179,7 +179,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified network service design version.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Delete</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -208,7 +208,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified network service design version.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Delete</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -234,7 +234,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a network service design version.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -260,7 +260,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a network service design version.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -308,7 +308,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -338,7 +338,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -387,7 +387,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -417,7 +417,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -447,7 +447,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a network service design version resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Update</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -477,7 +477,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a network service design version resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_Update</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -510,7 +510,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update network service design version state.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}/updateState</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_updateState</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}/updateState</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_updateState</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -543,7 +543,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update network service design version state.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}/updateState</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_updateState</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}/networkServiceDesignVersions/{networkServiceDesignVersionName}/updateState</description></item><item><term>Operation Id</term><description>NetworkServiceDesignVersions_updateState</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

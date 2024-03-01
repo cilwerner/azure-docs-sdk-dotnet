@@ -63,7 +63,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -95,7 +95,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -128,7 +128,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates a checkpoint in virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/createCheckpoint</description></item><item><term>Operation Id</term><description>VirtualMachines_CreateCheckpoint</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/createCheckpoint</description></item><item><term>Operation Id</term><description>VirtualMachines_CreateCheckpoint</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -159,7 +159,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates a checkpoint in virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/createCheckpoint</description></item><item><term>Operation Id</term><description>VirtualMachines_CreateCheckpoint</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/createCheckpoint</description></item><item><term>Operation Id</term><description>VirtualMachines_CreateCheckpoint</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -241,7 +241,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a VirtualMachine deployed on ScVmm fabric.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Delete</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -274,7 +274,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a VirtualMachine deployed on ScVmm fabric.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Delete</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -305,7 +305,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a checkpoint in virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/deleteCheckpoint</description></item><item><term>Operation Id</term><description>VirtualMachines_DeleteCheckpoint</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/deleteCheckpoint</description></item><item><term>Operation Id</term><description>VirtualMachines_DeleteCheckpoint</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -336,7 +336,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a checkpoint in virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/deleteCheckpoint</description></item><item><term>Operation Id</term><description>VirtualMachines_DeleteCheckpoint</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/deleteCheckpoint</description></item><item><term>Operation Id</term><description>VirtualMachines_DeleteCheckpoint</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -362,7 +362,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements VirtualMachine GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -388,7 +388,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements VirtualMachine GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -436,7 +436,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -466,7 +466,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -516,7 +516,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restart virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/restart</description></item><item><term>Operation Id</term><description>VirtualMachines_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/restart</description></item><item><term>Operation Id</term><description>VirtualMachines_Restart</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -545,7 +545,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restart virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/restart</description></item><item><term>Operation Id</term><description>VirtualMachines_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/restart</description></item><item><term>Operation Id</term><description>VirtualMachines_Restart</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -576,7 +576,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restores to a checkpoint in virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/restoreCheckpoint</description></item><item><term>Operation Id</term><description>VirtualMachines_RestoreCheckpoint</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/restoreCheckpoint</description></item><item><term>Operation Id</term><description>VirtualMachines_RestoreCheckpoint</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -607,7 +607,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restores to a checkpoint in virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/restoreCheckpoint</description></item><item><term>Operation Id</term><description>VirtualMachines_RestoreCheckpoint</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/restoreCheckpoint</description></item><item><term>Operation Id</term><description>VirtualMachines_RestoreCheckpoint</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -635,7 +635,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -665,7 +665,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Get</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -696,7 +696,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Start virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/start</description></item><item><term>Operation Id</term><description>VirtualMachines_Start</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/start</description></item><item><term>Operation Id</term><description>VirtualMachines_Start</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -725,7 +725,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Start virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/start</description></item><item><term>Operation Id</term><description>VirtualMachines_Start</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/start</description></item><item><term>Operation Id</term><description>VirtualMachines_Start</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -756,7 +756,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Stop virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/stop</description></item><item><term>Operation Id</term><description>VirtualMachines_Stop</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/stop</description></item><item><term>Operation Id</term><description>VirtualMachines_Stop</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -787,7 +787,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Stop virtual machine.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/stop</description></item><item><term>Operation Id</term><description>VirtualMachines_Stop</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}/stop</description></item><item><term>Operation Id</term><description>VirtualMachines_Stop</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -818,7 +818,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the VirtualMachines resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Update</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -851,7 +851,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the VirtualMachines resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ScVmm/virtualMachines/{virtualMachineName}</description></item><item><term>Operation Id</term><description>VirtualMachines_Update</description></item><item><term>Default Api Version</term><description>2020-06-05-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ArcScVmm.ScVmmVirtualMachineResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

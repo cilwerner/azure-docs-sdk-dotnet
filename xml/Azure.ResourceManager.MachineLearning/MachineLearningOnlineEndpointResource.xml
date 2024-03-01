@@ -68,7 +68,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -101,7 +101,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -186,7 +186,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete Online Endpoint (asynchronous).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Delete</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -216,7 +216,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete Online Endpoint (asynchronous).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Delete</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -243,7 +243,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Online Endpoint.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -270,7 +270,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Online Endpoint.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -297,7 +297,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List EndpointAuthKeys for an Endpoint using Key-based authentication.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/listKeys</description></item><item><term>Operation Id</term><description>OnlineEndpoints_ListKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/listKeys</description></item><item><term>Operation Id</term><description>OnlineEndpoints_ListKeys</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -324,7 +324,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List EndpointAuthKeys for an Endpoint using Key-based authentication.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/listKeys</description></item><item><term>Operation Id</term><description>OnlineEndpoints_ListKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/listKeys</description></item><item><term>Operation Id</term><description>OnlineEndpoints_ListKeys</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -353,7 +353,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Inference Deployment Deployment.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>OnlineDeployments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>OnlineDeployments_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -386,7 +386,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Inference Deployment Deployment.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>OnlineDeployments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>OnlineDeployments_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -439,7 +439,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieve a valid AML token for an Endpoint using AMLToken-based authentication.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/token</description></item><item><term>Operation Id</term><description>OnlineEndpoints_GetToken</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/token</description></item><item><term>Operation Id</term><description>OnlineEndpoints_GetToken</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -466,7 +466,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieve a valid AML token for an Endpoint using AMLToken-based authentication.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/token</description></item><item><term>Operation Id</term><description>OnlineEndpoints_GetToken</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/token</description></item><item><term>Operation Id</term><description>OnlineEndpoints_GetToken</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -519,7 +519,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Regenerate EndpointAuthKeys for an Endpoint using Key-based authentication (asynchronous).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/regenerateKeys</description></item><item><term>Operation Id</term><description>OnlineEndpoints_RegenerateKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/regenerateKeys</description></item><item><term>Operation Id</term><description>OnlineEndpoints_RegenerateKeys</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -553,7 +553,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Regenerate EndpointAuthKeys for an Endpoint using Key-based authentication (asynchronous).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/regenerateKeys</description></item><item><term>Operation Id</term><description>OnlineEndpoints_RegenerateKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}/regenerateKeys</description></item><item><term>Operation Id</term><description>OnlineEndpoints_RegenerateKeys</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -584,7 +584,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -615,7 +615,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -666,7 +666,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -697,7 +697,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -731,7 +731,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update Online Endpoint (asynchronous).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Update</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -765,7 +765,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update Online Endpoint (asynchronous).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/onlineEndpoints/{endpointName}</description></item><item><term>Operation Id</term><description>OnlineEndpoints_Update</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningOnlineEndpointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
