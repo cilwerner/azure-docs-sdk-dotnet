@@ -33,6 +33,7 @@
     <AssemblyVersion>7.17.1.0</AssemblyVersion>
     <AssemblyVersion>7.17.2.0</AssemblyVersion>
     <AssemblyVersion>7.17.3.0</AssemblyVersion>
+    <AssemblyVersion>7.17.4.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.Messaging.ServiceBus.Administration.RuleAction</BaseTypeName>
@@ -55,6 +56,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.17.4.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="sqlExpression" Type="System.String" />
@@ -77,6 +79,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.17.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -103,6 +106,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.17.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -129,6 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.17.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -151,6 +156,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.17.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -178,6 +184,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.17.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -205,6 +212,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.17.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
@@ -227,6 +235,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.17.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -249,6 +258,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.17.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

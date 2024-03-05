@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -79,6 +82,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevCenter.DevCenterGalleryData</ReturnType>
@@ -100,6 +104,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -114,7 +119,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a gallery resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_Delete</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterGalleryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -129,6 +134,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -143,7 +149,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a gallery resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_Delete</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterGalleryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -158,6 +164,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterGalleryResource&gt;</ReturnType>
@@ -169,7 +176,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a gallery
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterGalleryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -184,6 +191,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterGalleryResource&gt;&gt;</ReturnType>
@@ -195,7 +203,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a gallery
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterGalleryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -210,6 +218,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterImageResource&gt;</ReturnType>
@@ -223,7 +232,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a gallery image.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}/images/{imageName}</description></item><item><term>Operation Id</term><description>Images_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}/images/{imageName}</description></item><item><term>Operation Id</term><description>Images_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterImageResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -242,6 +251,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DevCenter.DevCenterImageResource&gt;&gt;</ReturnType>
@@ -255,7 +265,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a gallery image.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}/images/{imageName}</description></item><item><term>Operation Id</term><description>Images_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}/images/{imageName}</description></item><item><term>Operation Id</term><description>Images_Get</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterImageResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -274,6 +284,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DevCenter.DevCenterImageCollection</ReturnType>
@@ -295,6 +306,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -315,6 +327,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -334,6 +347,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DevCenter.DevCenterGalleryResource&gt;</ReturnType>
@@ -350,7 +364,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates or updates a gallery.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterGalleryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -367,6 +381,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DevCenter</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DevCenter.DevCenterGalleryResource&gt;&gt;</ReturnType>
@@ -383,7 +398,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates or updates a gallery.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DevCenter/devcenters/{devCenterName}/galleries/{galleryName}</description></item><item><term>Operation Id</term><description>Galleries_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DevCenter.DevCenterGalleryResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

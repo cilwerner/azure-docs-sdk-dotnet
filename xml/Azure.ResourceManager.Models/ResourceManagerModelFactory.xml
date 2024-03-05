@@ -15,6 +15,7 @@
     <AssemblyVersion>1.9.0.0</AssemblyVersion>
     <AssemblyVersion>1.10.0.0</AssemblyVersion>
     <AssemblyVersion>1.10.1.0</AssemblyVersion>
+    <AssemblyVersion>1.10.2.0</AssemblyVersion>
     <AssemblyVersion>1.11.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -35,7 +36,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -62,7 +63,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -89,7 +90,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -122,7 +123,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -153,7 +154,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -184,7 +185,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -231,7 +232,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -258,7 +259,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -293,7 +294,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -344,7 +345,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -377,7 +378,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -432,7 +433,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -469,7 +470,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -508,7 +509,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -549,7 +550,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -574,7 +575,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -605,7 +606,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -638,7 +639,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -671,7 +672,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -708,7 +709,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -747,7 +748,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -784,7 +785,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -813,7 +814,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -842,7 +843,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -860,6 +861,45 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ManagementGroupSubscriptionData">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.ManagementGroups.ManagementGroupSubscriptionData ManagementGroupSubscriptionData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, string tenant = default, string displayName = default, Azure.Core.ResourceIdentifier parentId = default, string state = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.ManagementGroups.ManagementGroupSubscriptionData ManagementGroupSubscriptionData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, string tenant, string displayName, class Azure.Core.ResourceIdentifier parentId, string state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Models.ResourceManagerModelFactory.ManagementGroupSubscriptionData(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,System.String,System.String,Azure.Core.ResourceIdentifier,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ManagementGroupSubscriptionData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional tenant As String = Nothing, Optional displayName As String = Nothing, Optional parentId As ResourceIdentifier = Nothing, Optional state As String = Nothing) As ManagementGroupSubscriptionData" />
+      <MemberSignature Language="F#" Value="static member ManagementGroupSubscriptionData : Azure.Core.ResourceIdentifier * string * Azure.Core.ResourceType * Azure.ResourceManager.Models.SystemData * string * string * Azure.Core.ResourceIdentifier * string -&gt; Azure.ResourceManager.ManagementGroups.ManagementGroupSubscriptionData" Usage="Azure.ResourceManager.Models.ResourceManagerModelFactory.ManagementGroupSubscriptionData (id, name, resourceType, systemData, tenant, displayName, parentId, state)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
+        <AssemblyVersion>1.11.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ManagementGroups.ManagementGroupSubscriptionData</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" />
+        <Parameter Name="tenant" Type="System.String" />
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="parentId" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="state" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The id. </param>
+        <param name="name"> The name. </param>
+        <param name="resourceType"> The resourceType. </param>
+        <param name="systemData"> The systemData. </param>
+        <param name="tenant"> The AAD Tenant ID associated with the subscription. For example, 00000000-0000-0000-0000-000000000000. </param>
+        <param name="displayName"> The friendly name of the subscription. </param>
+        <param name="parentId"> The ID of the parent management group. </param>
+        <param name="state"> The state of the subscription. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.ManagementGroups.ManagementGroupSubscriptionData" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.ManagementGroups.ManagementGroupSubscriptionData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ManagementLockData">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Resources.ManagementLockData ManagementLockData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, Azure.ResourceManager.Resources.Models.ManagementLockLevel level = default, string notes = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.ManagementLockOwner&gt; owners = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Resources.ManagementLockData ManagementLockData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, valuetype Azure.ResourceManager.Resources.Models.ManagementLockLevel level, string notes, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.Resources.Models.ManagementLockOwner&gt; owners) cil managed" />
@@ -869,7 +909,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -906,7 +946,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -935,7 +975,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -964,7 +1004,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -995,7 +1035,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1052,7 +1092,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1097,7 +1137,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1142,7 +1182,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1173,7 +1213,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1200,7 +1240,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1229,7 +1269,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1258,7 +1298,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1289,7 +1329,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1332,7 +1372,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1371,7 +1411,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1398,7 +1438,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1427,7 +1467,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1462,7 +1502,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1497,7 +1537,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1524,7 +1564,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1555,7 +1595,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1582,7 +1622,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1611,7 +1651,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1636,7 +1676,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1677,7 +1717,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1706,7 +1746,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1739,7 +1779,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1782,7 +1822,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1809,7 +1849,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1846,7 +1886,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1871,7 +1911,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
-        <AssemblyVersion>1.10.1.0</AssemblyVersion>
+        <AssemblyVersion>1.10.2.0</AssemblyVersion>
         <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

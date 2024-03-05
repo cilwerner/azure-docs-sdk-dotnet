@@ -1,0 +1,111 @@
+<Type Name="StorageAccount" FullName="Azure.Provisioning.Storage.StorageAccount">
+  <TypeSignature Language="C#" Value="public class StorageAccount : Azure.Provisioning.Resource&lt;Azure.ResourceManager.Storage.StorageAccountData&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StorageAccount extends Azure.Provisioning.Resource`1&lt;class Azure.ResourceManager.Storage.StorageAccountData&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.Storage.StorageAccount" />
+  <TypeSignature Language="VB.NET" Value="Public Class StorageAccount&#xA;Inherits Resource(Of StorageAccountData)" />
+  <TypeSignature Language="F#" Value="type StorageAccount = class&#xA;    inherit Resource&lt;StorageAccountData&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Resource&lt;Azure.ResourceManager.Storage.StorageAccountData&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Azure.ResourceManager.Storage.StorageAccountData</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents a storage account.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public StorageAccount (Azure.Provisioning.IConstruct scope, Azure.ResourceManager.Storage.Models.StorageKind kind, Azure.ResourceManager.Storage.Models.StorageSkuName sku, Azure.Provisioning.ResourceManager.ResourceGroup? parent = default, string name = &quot;sa&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Provisioning.IConstruct scope, valuetype Azure.ResourceManager.Storage.Models.StorageKind kind, valuetype Azure.ResourceManager.Storage.Models.StorageSkuName sku, class Azure.Provisioning.ResourceManager.ResourceGroup parent, string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Storage.StorageAccount.#ctor(Azure.Provisioning.IConstruct,Azure.ResourceManager.Storage.Models.StorageKind,Azure.ResourceManager.Storage.Models.StorageSkuName,Azure.Provisioning.ResourceManager.ResourceGroup,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (scope As IConstruct, kind As StorageKind, sku As StorageSkuName, Optional parent As ResourceGroup = Nothing, Optional name As String = &quot;sa&quot;)" />
+      <MemberSignature Language="F#" Value="new Azure.Provisioning.Storage.StorageAccount : Azure.Provisioning.IConstruct * Azure.ResourceManager.Storage.Models.StorageKind * Azure.ResourceManager.Storage.Models.StorageSkuName * Azure.Provisioning.ResourceManager.ResourceGroup * string -&gt; Azure.Provisioning.Storage.StorageAccount" Usage="new Azure.Provisioning.Storage.StorageAccount (scope, kind, sku, parent, name)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="scope" Type="Azure.Provisioning.IConstruct" />
+        <Parameter Name="kind" Type="Azure.ResourceManager.Storage.Models.StorageKind" />
+        <Parameter Name="sku" Type="Azure.ResourceManager.Storage.Models.StorageSkuName" />
+        <Parameter Name="parent" Type="Azure.Provisioning.ResourceManager.ResourceGroup" />
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="scope">The scope.</param>
+        <param name="kind">The kind.</param>
+        <param name="sku">The sku.</param>
+        <param name="parent">The parent.</param>
+        <param name="name">The name.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.Provisioning.Storage.StorageAccount" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindParentInScope">
+      <MemberSignature Language="C#" Value="protected override Azure.Provisioning.Resource? FindParentInScope (Azure.Provisioning.IConstruct scope);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.Provisioning.Resource FindParentInScope(class Azure.Provisioning.IConstruct scope) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Storage.StorageAccount.FindParentInScope(Azure.Provisioning.IConstruct)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function FindParentInScope (scope As IConstruct) As Resource" />
+      <MemberSignature Language="F#" Value="override this.FindParentInScope : Azure.Provisioning.IConstruct -&gt; Azure.Provisioning.Resource" Usage="storageAccount.FindParentInScope scope" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Resource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scope" Type="Azure.Provisioning.IConstruct" />
+      </Parameters>
+      <Docs>
+        <param name="scope">The scope.</param>
+        <summary>
+            Finds the parent resource in the scope.
+            </summary>
+        <returns>The parent <see cref="T:Azure.Provisioning.Resource" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAzureName">
+      <MemberSignature Language="C#" Value="protected override string GetAzureName (Azure.Provisioning.IConstruct scope, string resourceName);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetAzureName(class Azure.Provisioning.IConstruct scope, string resourceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.Storage.StorageAccount.GetAzureName(Azure.Provisioning.IConstruct,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetAzureName (scope As IConstruct, resourceName As String) As String" />
+      <MemberSignature Language="F#" Value="override this.GetAzureName : Azure.Provisioning.IConstruct * string -&gt; string" Usage="storageAccount.GetAzureName (scope, resourceName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scope" Type="Azure.Provisioning.IConstruct" />
+        <Parameter Name="resourceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="scope">The scope.</param>
+        <param name="resourceName">The resource name.</param>
+        <summary>
+            Validate and sanitize the resource name.
+            </summary>
+        <returns>Sanitized resource name.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">If the resource name violates rules that cannot be sanitized.</exception>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

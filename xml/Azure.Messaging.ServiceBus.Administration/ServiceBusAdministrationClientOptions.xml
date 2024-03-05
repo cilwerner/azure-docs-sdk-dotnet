@@ -33,6 +33,7 @@
     <AssemblyVersion>7.17.1.0</AssemblyVersion>
     <AssemblyVersion>7.17.2.0</AssemblyVersion>
     <AssemblyVersion>7.17.3.0</AssemblyVersion>
+    <AssemblyVersion>7.17.4.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.Core.ClientOptions</BaseTypeName>
@@ -56,6 +57,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.17.4.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="version" Type="Azure.Messaging.ServiceBus.Administration.ServiceBusAdministrationClientOptions+ServiceVersion" />
@@ -81,6 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.17.4.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -114,6 +117,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.17.4.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -143,6 +147,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.17.4.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -172,6 +177,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.3.0</AssemblyVersion>
+        <AssemblyVersion>7.17.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.Administration.ServiceBusAdministrationClientOptions+ServiceVersion</ReturnType>
