@@ -40,7 +40,7 @@
         <param name="maxThroughput"> Represents maximum throughput container can scale up to. </param>
         <param name="autoUpgradeThroughputPolicy"> Cosmos DB resource auto-upgrade policy. </param>
         <param name="targetMaxThroughput"> Represents target maximum throughput container can scale up to once offer is no longer in pending state. </param>
-        <summary> Initializes a new instance of AutoscaleSettingsResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.AutoscaleSettingsResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.AutoscaleSettingsResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -72,7 +72,7 @@
         <param name="backupStartTimestamp"> The time at which the backup process begins. </param>
         <param name="backupStopTimestamp"> The time at which the backup process ends. </param>
         <param name="backupExpiryTimestamp"> The time at which the backup will expire. </param>
-        <summary> Initializes a new instance of CassandraClusterBackupResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraClusterBackupResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraClusterBackupResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -110,7 +110,7 @@
         <param name="location"> The location. </param>
         <param name="properties"> Properties of a managed Cassandra cluster. </param>
         <param name="identity"> Identity for the resource. Current supported identity types: SystemAssigned, None. </param>
-        <summary> Initializes a new instance of CassandraClusterData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CassandraClusterData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CassandraClusterData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -168,7 +168,7 @@
         <param name="memoryTotalKB"> Total installed memory (MemTotal and SwapTotal in /proc/meminfo), in kB. </param>
         <param name="cpuUsage"> A float representing the current system-wide CPU utilization as a percentage. </param>
         <param name="isLatestModel"> If node has been updated to latest model. </param>
-        <summary> Initializes a new instance of CassandraClusterDataCenterNodeItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraClusterDataCenterNodeItem" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraClusterDataCenterNodeItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -232,7 +232,7 @@
         <param name="provisionError"> Error related to resource provisioning. </param>
         <param name="extensions"> Extensions to be added or updated on cluster. </param>
         <param name="backupSchedules"> List of backup schedules that define when you want to back up your data. </param>
-        <summary> Initializes a new instance of CassandraClusterProperties. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraClusterProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -264,7 +264,7 @@
         <param name="connectionErrors"> List relevant information about any connection errors to the Datacenters. </param>
         <param name="errors"> List relevant information about any errors about cluster, data center and connection error. </param>
         <param name="dataCenters"> List of the status of each datacenter in this cluster. </param>
-        <summary> Initializes a new instance of CassandraClusterPublicStatus. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraClusterPublicStatus" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraClusterPublicStatus" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -292,7 +292,7 @@
         <param name="name"> The name of this Datacenter. </param>
         <param name="seedNodes"> A list of all seed nodes in the cluster, managed and unmanaged. </param>
         <param name="nodes" />
-        <summary> Initializes a new instance of CassandraClusterPublicStatusDataCentersItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraClusterPublicStatusDataCentersItem" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraClusterPublicStatusDataCentersItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -316,8 +316,40 @@
       </Parameters>
       <Docs>
         <param name="commandOutput"> Output of the command. </param>
-        <summary> Initializes a new instance of CassandraCommandOutput. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraCommandOutput" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraCommandOutput" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CassandraCommandPostBody">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.CosmosDB.Models.CassandraCommandPostBody CassandraCommandPostBody (string command = default, System.Collections.Generic.IDictionary&lt;string,string&gt; arguments = default, string host = default, bool? cassandraStopStart = default, bool? allowWrite = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.CosmosDB.Models.CassandraCommandPostBody CassandraCommandPostBody(string command, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; arguments, string host, valuetype System.Nullable`1&lt;bool&gt; cassandraStopStart, valuetype System.Nullable`1&lt;bool&gt; allowWrite) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.CosmosDB.Models.ArmCosmosDBModelFactory.CassandraCommandPostBody(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CassandraCommandPostBody (Optional command As String = Nothing, Optional arguments As IDictionary(Of String, String) = Nothing, Optional host As String = Nothing, Optional cassandraStopStart As Nullable(Of Boolean) = Nothing, Optional allowWrite As Nullable(Of Boolean) = Nothing) As CassandraCommandPostBody" />
+      <MemberSignature Language="F#" Value="static member CassandraCommandPostBody : string * System.Collections.Generic.IDictionary&lt;string, string&gt; * string * Nullable&lt;bool&gt; * Nullable&lt;bool&gt; -&gt; Azure.ResourceManager.CosmosDB.Models.CassandraCommandPostBody" Usage="Azure.ResourceManager.CosmosDB.Models.ArmCosmosDBModelFactory.CassandraCommandPostBody (command, arguments, host, cassandraStopStart, allowWrite)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.CosmosDB.Models.CassandraCommandPostBody</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="command" Type="System.String" />
+        <Parameter Name="arguments" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="host" Type="System.String" />
+        <Parameter Name="cassandraStopStart" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="allowWrite" Type="System.Nullable&lt;System.Boolean&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="command"> The command which should be run. </param>
+        <param name="arguments"> The arguments for the command to be run. </param>
+        <param name="host"> IP address of the cassandra host to run the command on. </param>
+        <param name="cassandraStopStart"> If true, stops cassandra before executing the command and then start it again. </param>
+        <param name="allowWrite"> If true, allows the command to *write* to the cassandra directory, otherwise read-only. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraCommandPostBody" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraCommandPostBody" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -348,7 +380,7 @@
         <param name="ipTo"> The IP that the connection attempted to reach. </param>
         <param name="port"> The TCP port the connection was attempted on. </param>
         <param name="exception"> Detailed error message about the failed connection. </param>
-        <summary> Initializes a new instance of CassandraConnectionError. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraConnectionError" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraConnectionError" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -380,7 +412,7 @@
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
         <param name="properties"> Properties of a managed Cassandra data center. </param>
-        <summary> Initializes a new instance of CassandraDataCenterData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CassandraDataCenterData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CassandraDataCenterData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -432,7 +464,7 @@
         <param name="authenticationMethodLdapProperties"> Ldap authentication method properties. This feature is in preview. </param>
         <param name="deallocated"> Whether the data center has been deallocated. </param>
         <param name="provisionError"> Error related to resource provisioning. </param>
-        <summary> Initializes a new instance of CassandraDataCenterProperties. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraDataCenterProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraDataCenterProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -472,7 +504,7 @@
         <param name="resourceKeyspaceName"> The standard JSON format of a Cassandra keyspace. </param>
         <param name="options"> A key-value pair of options to be applied for the request. This corresponds to the headers sent with the request. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CassandraKeyspaceCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraKeyspaceCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraKeyspaceCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -512,7 +544,7 @@
         <param name="resource" />
         <param name="options" />
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CassandraKeyspaceData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CassandraKeyspaceData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CassandraKeyspaceData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -540,7 +572,7 @@
         <param name="isHealthy" />
         <param name="repairRunIds"> Dictionary of &lt;string&gt;. </param>
         <param name="repairSchedules"> Dictionary of &lt;string&gt;. </param>
-        <summary> Initializes a new instance of CassandraReaperStatus. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraReaperStatus" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraReaperStatus" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -580,7 +612,7 @@
         <param name="resource"> The standard JSON format of a Cassandra table. </param>
         <param name="options"> A key-value pair of options to be applied for the request. This corresponds to the headers sent with the request. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CassandraTableCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraTableCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraTableCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -620,7 +652,7 @@
         <param name="resource" />
         <param name="options" />
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CassandraTableData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CassandraTableData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CassandraTableData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -652,7 +684,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of CassandraViewGetPropertiesResource. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraViewGetPropertiesResource" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraViewGetPropertiesResource" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -694,7 +726,7 @@
         <param name="resource"> The standard JSON format of a Cassandra view. </param>
         <param name="options"> A key-value pair of options to be applied for the request. This corresponds to the headers sent with the request. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CassandraViewGetResultCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraViewGetResultCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CassandraViewGetResultCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -734,7 +766,7 @@
         <param name="resource" />
         <param name="options" />
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CassandraViewGetResultData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CassandraViewGetResultData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CassandraViewGetResultData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -762,7 +794,7 @@
         <param name="nameAvailable"> Indicates if the resource name is available. </param>
         <param name="reason"> The reason why the given name is not available. </param>
         <param name="message"> Detailed reason why the given name is available. </param>
-        <summary> Initializes a new instance of CheckCosmosDBNameAvailabilityResponse. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CheckCosmosDBNameAvailabilityResponse" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CheckCosmosDBNameAvailabilityResponse" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -792,7 +824,7 @@
         <param name="description"> Description of the connection string. </param>
         <param name="keyKind"> Kind of the connection string key. </param>
         <param name="keyType"> Type of the connection string. </param>
-        <summary> Initializes a new instance of CosmosDBAccountConnectionString. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountConnectionString" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountConnectionString" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -906,7 +938,7 @@
         <param name="enablePriorityBasedExecution"> Flag to indicate enabling/disabling of Priority Based Execution Preview feature on the account. </param>
         <param name="defaultPriorityLevel"> Enum to indicate default Priority Level of request for Priority Based Execution. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CosmosDBAccountCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1034,7 +1066,7 @@
         <param name="enablePriorityBasedExecution"> Flag to indicate enabling/disabling of Priority Based Execution Preview feature on the account. </param>
         <param name="defaultPriorityLevel"> Enum to indicate default Priority Level of request for Priority Based Execution. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CosmosDBAccountData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBAccountData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBAccountData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1064,7 +1096,7 @@
         <param name="secondaryReadonlyMasterKey"> Base 64 encoded value of the secondary read-only key. </param>
         <param name="primaryMasterKey"> Base 64 encoded value of the primary read-write key. </param>
         <param name="secondaryMasterKey"> Base 64 encoded value of the secondary read-write key. </param>
-        <summary> Initializes a new instance of CosmosDBAccountKeyList. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountKeyList" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountKeyList" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1098,8 +1130,106 @@
         <param name="provisioningState"> The status of the Cosmos DB account at the time the operation was called. The status can be one of following. 'Creating' – the Cosmos DB account is being created. When an account is in Creating state, only properties that are specified as input for the Create Cosmos DB account operation are returned. 'Succeeded' – the Cosmos DB account is active for use. 'Updating' – the Cosmos DB account is being updated. 'Deleting' – the Cosmos DB account is being deleted. 'Failed' – the Cosmos DB account failed creation. 'DeletionFailed' – the Cosmos DB account deletion failed. </param>
         <param name="failoverPriority"> The failover priority of the region. A failover priority of 0 indicates a write region. The maximum value for a failover priority = (total number of regions - 1). Failover priority values must be unique for each of the regions in which the database account exists. </param>
         <param name="isZoneRedundant"> Flag to indicate whether or not this region is an AvailabilityZone region. </param>
-        <summary> Initializes a new instance of CosmosDBAccountLocation. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountLocation" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountLocation" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CosmosDBAccountPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountPatch CosmosDBAccountPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation? location = default, Azure.ResourceManager.Models.ManagedServiceIdentity identity = default, Azure.ResourceManager.CosmosDB.Models.ConsistencyPolicy consistencyPolicy = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountLocation&gt; locations = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBIPAddressOrRange&gt; ipRules = default, bool? isVirtualNetworkFilterEnabled = default, bool? enableAutomaticFailover = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCapability&gt; capabilities = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBVirtualNetworkRule&gt; virtualNetworkRules = default, bool? enableMultipleWriteLocations = default, bool? enableCassandraConnector = default, Azure.ResourceManager.CosmosDB.Models.ConnectorOffer? connectorOffer = default, bool? disableKeyBasedMetadataWriteAccess = default, Uri keyVaultKeyUri = default, string defaultIdentity = default, Azure.ResourceManager.CosmosDB.Models.CosmosDBPublicNetworkAccess? publicNetworkAccess = default, bool? isFreeTierEnabled = default, Azure.ResourceManager.CosmosDB.Models.CosmosDBServerVersion? apiServerVersion = default, bool? isAnalyticalStorageEnabled = default, Azure.ResourceManager.CosmosDB.Models.AnalyticalStorageSchemaType? analyticalStorageSchemaType = default, Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountBackupPolicy backupPolicy = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCorsPolicy&gt; cors = default, Azure.ResourceManager.CosmosDB.Models.NetworkAclBypass? networkAclBypass = default, System.Collections.Generic.IEnumerable&lt;Azure.Core.ResourceIdentifier&gt; networkAclBypassResourceIds = default, Azure.ResourceManager.CosmosDB.Models.EnableFullTextQuery? diagnosticLogEnableFullTextQuery = default, bool? disableLocalAuth = default, int? capacityTotalThroughputLimit = default, bool? enableMaterializedViews = default, Azure.ResourceManager.CosmosDB.Models.DatabaseAccountKeysMetadata keysMetadata = default, bool? enablePartitionMerge = default, bool? enableBurstCapacity = default, Azure.ResourceManager.CosmosDB.Models.CosmosDBMinimalTlsVersion? minimalTlsVersion = default, Azure.ResourceManager.CosmosDB.Models.CustomerManagedKeyStatus? customerManagedKeyStatus = default, bool? enablePriorityBasedExecution = default, Azure.ResourceManager.CosmosDB.Models.DefaultPriorityLevel? defaultPriorityLevel = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountPatch CosmosDBAccountPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; location, class Azure.ResourceManager.Models.ManagedServiceIdentity identity, class Azure.ResourceManager.CosmosDB.Models.ConsistencyPolicy consistencyPolicy, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountLocation&gt; locations, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.CosmosDB.Models.CosmosDBIPAddressOrRange&gt; ipRules, valuetype System.Nullable`1&lt;bool&gt; isVirtualNetworkFilterEnabled, valuetype System.Nullable`1&lt;bool&gt; enableAutomaticFailover, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCapability&gt; capabilities, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.CosmosDB.Models.CosmosDBVirtualNetworkRule&gt; virtualNetworkRules, valuetype System.Nullable`1&lt;bool&gt; enableMultipleWriteLocations, valuetype System.Nullable`1&lt;bool&gt; enableCassandraConnector, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.CosmosDB.Models.ConnectorOffer&gt; connectorOffer, valuetype System.Nullable`1&lt;bool&gt; disableKeyBasedMetadataWriteAccess, class System.Uri keyVaultKeyUri, string defaultIdentity, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.CosmosDB.Models.CosmosDBPublicNetworkAccess&gt; publicNetworkAccess, valuetype System.Nullable`1&lt;bool&gt; isFreeTierEnabled, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.CosmosDB.Models.CosmosDBServerVersion&gt; apiServerVersion, valuetype System.Nullable`1&lt;bool&gt; isAnalyticalStorageEnabled, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.CosmosDB.Models.AnalyticalStorageSchemaType&gt; analyticalStorageSchemaType, class Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountBackupPolicy backupPolicy, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCorsPolicy&gt; cors, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.CosmosDB.Models.NetworkAclBypass&gt; networkAclBypass, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Core.ResourceIdentifier&gt; networkAclBypassResourceIds, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.CosmosDB.Models.EnableFullTextQuery&gt; diagnosticLogEnableFullTextQuery, valuetype System.Nullable`1&lt;bool&gt; disableLocalAuth, valuetype System.Nullable`1&lt;int32&gt; capacityTotalThroughputLimit, valuetype System.Nullable`1&lt;bool&gt; enableMaterializedViews, class Azure.ResourceManager.CosmosDB.Models.DatabaseAccountKeysMetadata keysMetadata, valuetype System.Nullable`1&lt;bool&gt; enablePartitionMerge, valuetype System.Nullable`1&lt;bool&gt; enableBurstCapacity, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.CosmosDB.Models.CosmosDBMinimalTlsVersion&gt; minimalTlsVersion, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.CosmosDB.Models.CustomerManagedKeyStatus&gt; customerManagedKeyStatus, valuetype System.Nullable`1&lt;bool&gt; enablePriorityBasedExecution, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.CosmosDB.Models.DefaultPriorityLevel&gt; defaultPriorityLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.CosmosDB.Models.ArmCosmosDBModelFactory.CosmosDBAccountPatch(System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{Azure.Core.AzureLocation},Azure.ResourceManager.Models.ManagedServiceIdentity,Azure.ResourceManager.CosmosDB.Models.ConsistencyPolicy,System.Collections.Generic.IEnumerable{Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountLocation},System.Collections.Generic.IEnumerable{Azure.ResourceManager.CosmosDB.Models.CosmosDBIPAddressOrRange},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCapability},System.Collections.Generic.IEnumerable{Azure.ResourceManager.CosmosDB.Models.CosmosDBVirtualNetworkRule},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{Azure.ResourceManager.CosmosDB.Models.ConnectorOffer},System.Nullable{System.Boolean},System.Uri,System.String,System.Nullable{Azure.ResourceManager.CosmosDB.Models.CosmosDBPublicNetworkAccess},System.Nullable{System.Boolean},System.Nullable{Azure.ResourceManager.CosmosDB.Models.CosmosDBServerVersion},System.Nullable{System.Boolean},System.Nullable{Azure.ResourceManager.CosmosDB.Models.AnalyticalStorageSchemaType},Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountBackupPolicy,System.Collections.Generic.IEnumerable{Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCorsPolicy},System.Nullable{Azure.ResourceManager.CosmosDB.Models.NetworkAclBypass},System.Collections.Generic.IEnumerable{Azure.Core.ResourceIdentifier},System.Nullable{Azure.ResourceManager.CosmosDB.Models.EnableFullTextQuery},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{System.Boolean},Azure.ResourceManager.CosmosDB.Models.DatabaseAccountKeysMetadata,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{Azure.ResourceManager.CosmosDB.Models.CosmosDBMinimalTlsVersion},System.Nullable{Azure.ResourceManager.CosmosDB.Models.CustomerManagedKeyStatus},System.Nullable{System.Boolean},System.Nullable{Azure.ResourceManager.CosmosDB.Models.DefaultPriorityLevel})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CosmosDBAccountPatch (Optional tags As IDictionary(Of String, String) = Nothing, Optional location As Nullable(Of AzureLocation) = Nothing, Optional identity As ManagedServiceIdentity = Nothing, Optional consistencyPolicy As ConsistencyPolicy = Nothing, Optional locations As IEnumerable(Of CosmosDBAccountLocation) = Nothing, Optional ipRules As IEnumerable(Of CosmosDBIPAddressOrRange) = Nothing, Optional isVirtualNetworkFilterEnabled As Nullable(Of Boolean) = Nothing, Optional enableAutomaticFailover As Nullable(Of Boolean) = Nothing, Optional capabilities As IEnumerable(Of CosmosDBAccountCapability) = Nothing, Optional virtualNetworkRules As IEnumerable(Of CosmosDBVirtualNetworkRule) = Nothing, Optional enableMultipleWriteLocations As Nullable(Of Boolean) = Nothing, Optional enableCassandraConnector As Nullable(Of Boolean) = Nothing, Optional connectorOffer As Nullable(Of ConnectorOffer) = Nothing, Optional disableKeyBasedMetadataWriteAccess As Nullable(Of Boolean) = Nothing, Optional keyVaultKeyUri As Uri = Nothing, Optional defaultIdentity As String = Nothing, Optional publicNetworkAccess As Nullable(Of CosmosDBPublicNetworkAccess) = Nothing, Optional isFreeTierEnabled As Nullable(Of Boolean) = Nothing, Optional apiServerVersion As Nullable(Of CosmosDBServerVersion) = Nothing, Optional isAnalyticalStorageEnabled As Nullable(Of Boolean) = Nothing, Optional analyticalStorageSchemaType As Nullable(Of AnalyticalStorageSchemaType) = Nothing, Optional backupPolicy As CosmosDBAccountBackupPolicy = Nothing, Optional cors As IEnumerable(Of CosmosDBAccountCorsPolicy) = Nothing, Optional networkAclBypass As Nullable(Of NetworkAclBypass) = Nothing, Optional networkAclBypassResourceIds As IEnumerable(Of ResourceIdentifier) = Nothing, Optional diagnosticLogEnableFullTextQuery As Nullable(Of EnableFullTextQuery) = Nothing, Optional disableLocalAuth As Nullable(Of Boolean) = Nothing, Optional capacityTotalThroughputLimit As Nullable(Of Integer) = Nothing, Optional enableMaterializedViews As Nullable(Of Boolean) = Nothing, Optional keysMetadata As DatabaseAccountKeysMetadata = Nothing, Optional enablePartitionMerge As Nullable(Of Boolean) = Nothing, Optional enableBurstCapacity As Nullable(Of Boolean) = Nothing, Optional minimalTlsVersion As Nullable(Of CosmosDBMinimalTlsVersion) = Nothing, Optional customerManagedKeyStatus As Nullable(Of CustomerManagedKeyStatus) = Nothing, Optional enablePriorityBasedExecution As Nullable(Of Boolean) = Nothing, Optional defaultPriorityLevel As Nullable(Of DefaultPriorityLevel) = Nothing) As CosmosDBAccountPatch" />
+      <MemberSignature Language="F#" Value="static member CosmosDBAccountPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; * Nullable&lt;Azure.Core.AzureLocation&gt; * Azure.ResourceManager.Models.ManagedServiceIdentity * Azure.ResourceManager.CosmosDB.Models.ConsistencyPolicy * seq&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountLocation&gt; * seq&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBIPAddressOrRange&gt; * Nullable&lt;bool&gt; * Nullable&lt;bool&gt; * seq&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCapability&gt; * seq&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBVirtualNetworkRule&gt; * Nullable&lt;bool&gt; * Nullable&lt;bool&gt; * Nullable&lt;Azure.ResourceManager.CosmosDB.Models.ConnectorOffer&gt; * Nullable&lt;bool&gt; * Uri * string * Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBPublicNetworkAccess&gt; * Nullable&lt;bool&gt; * Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBServerVersion&gt; * Nullable&lt;bool&gt; * Nullable&lt;Azure.ResourceManager.CosmosDB.Models.AnalyticalStorageSchemaType&gt; * Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountBackupPolicy * seq&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCorsPolicy&gt; * Nullable&lt;Azure.ResourceManager.CosmosDB.Models.NetworkAclBypass&gt; * seq&lt;Azure.Core.ResourceIdentifier&gt; * Nullable&lt;Azure.ResourceManager.CosmosDB.Models.EnableFullTextQuery&gt; * Nullable&lt;bool&gt; * Nullable&lt;int&gt; * Nullable&lt;bool&gt; * Azure.ResourceManager.CosmosDB.Models.DatabaseAccountKeysMetadata * Nullable&lt;bool&gt; * Nullable&lt;bool&gt; * Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBMinimalTlsVersion&gt; * Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CustomerManagedKeyStatus&gt; * Nullable&lt;bool&gt; * Nullable&lt;Azure.ResourceManager.CosmosDB.Models.DefaultPriorityLevel&gt; -&gt; Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountPatch" Usage="Azure.ResourceManager.CosmosDB.Models.ArmCosmosDBModelFactory.CosmosDBAccountPatch (tags, location, identity, consistencyPolicy, locations, ipRules, isVirtualNetworkFilterEnabled, enableAutomaticFailover, capabilities, virtualNetworkRules, enableMultipleWriteLocations, enableCassandraConnector, connectorOffer, disableKeyBasedMetadataWriteAccess, keyVaultKeyUri, defaultIdentity, publicNetworkAccess, isFreeTierEnabled, apiServerVersion, isAnalyticalStorageEnabled, analyticalStorageSchemaType, backupPolicy, cors, networkAclBypass, networkAclBypassResourceIds, diagnosticLogEnableFullTextQuery, disableLocalAuth, capacityTotalThroughputLimit, enableMaterializedViews, keysMetadata, enablePartitionMerge, enableBurstCapacity, minimalTlsVersion, customerManagedKeyStatus, enablePriorityBasedExecution, defaultPriorityLevel)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" />
+        <Parameter Name="identity" Type="Azure.ResourceManager.Models.ManagedServiceIdentity" />
+        <Parameter Name="consistencyPolicy" Type="Azure.ResourceManager.CosmosDB.Models.ConsistencyPolicy" />
+        <Parameter Name="locations" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountLocation&gt;" />
+        <Parameter Name="ipRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBIPAddressOrRange&gt;" />
+        <Parameter Name="isVirtualNetworkFilterEnabled" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="enableAutomaticFailover" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="capabilities" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCapability&gt;" />
+        <Parameter Name="virtualNetworkRules" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBVirtualNetworkRule&gt;" />
+        <Parameter Name="enableMultipleWriteLocations" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="enableCassandraConnector" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="connectorOffer" Type="System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.ConnectorOffer&gt;" />
+        <Parameter Name="disableKeyBasedMetadataWriteAccess" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="keyVaultKeyUri" Type="System.Uri" />
+        <Parameter Name="defaultIdentity" Type="System.String" />
+        <Parameter Name="publicNetworkAccess" Type="System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBPublicNetworkAccess&gt;" />
+        <Parameter Name="isFreeTierEnabled" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="apiServerVersion" Type="System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBServerVersion&gt;" />
+        <Parameter Name="isAnalyticalStorageEnabled" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="analyticalStorageSchemaType" Type="System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.AnalyticalStorageSchemaType&gt;" />
+        <Parameter Name="backupPolicy" Type="Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountBackupPolicy" />
+        <Parameter Name="cors" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCorsPolicy&gt;" />
+        <Parameter Name="networkAclBypass" Type="System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.NetworkAclBypass&gt;" />
+        <Parameter Name="networkAclBypassResourceIds" Type="System.Collections.Generic.IEnumerable&lt;Azure.Core.ResourceIdentifier&gt;" />
+        <Parameter Name="diagnosticLogEnableFullTextQuery" Type="System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.EnableFullTextQuery&gt;" />
+        <Parameter Name="disableLocalAuth" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="capacityTotalThroughputLimit" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="enableMaterializedViews" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="keysMetadata" Type="Azure.ResourceManager.CosmosDB.Models.DatabaseAccountKeysMetadata" />
+        <Parameter Name="enablePartitionMerge" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="enableBurstCapacity" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="minimalTlsVersion" Type="System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBMinimalTlsVersion&gt;" />
+        <Parameter Name="customerManagedKeyStatus" Type="System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CustomerManagedKeyStatus&gt;" />
+        <Parameter Name="enablePriorityBasedExecution" Type="System.Nullable&lt;System.Boolean&gt;" />
+        <Parameter Name="defaultPriorityLevel" Type="System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.DefaultPriorityLevel&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> Tags are a list of key-value pairs that describe the resource. These tags can be used in viewing and grouping this resource (across resource groups). A maximum of 15 tags can be provided for a resource. Each tag must have a key no greater than 128 characters and value no greater than 256 characters. For example, the default experience for a template type is set with "defaultExperience": "Cassandra". Current "defaultExperience" values also include "Table", "Graph", "DocumentDB", and "MongoDB". </param>
+        <param name="location"> The location of the resource group to which the resource belongs. </param>
+        <param name="identity"> Identity for the resource. </param>
+        <param name="consistencyPolicy"> The consistency policy for the Cosmos DB account. </param>
+        <param name="locations"> An array that contains the georeplication locations enabled for the Cosmos DB account. </param>
+        <param name="ipRules"> List of IpRules. </param>
+        <param name="isVirtualNetworkFilterEnabled"> Flag to indicate whether to enable/disable Virtual Network ACL rules. </param>
+        <param name="enableAutomaticFailover"> Enables automatic failover of the write region in the rare event that the region is unavailable due to an outage. Automatic failover will result in a new write region for the account and is chosen based on the failover priorities configured for the account. </param>
+        <param name="capabilities"> List of Cosmos DB capabilities for the account. </param>
+        <param name="virtualNetworkRules"> List of Virtual Network ACL rules configured for the Cosmos DB account. </param>
+        <param name="enableMultipleWriteLocations"> Enables the account to write in multiple locations. </param>
+        <param name="enableCassandraConnector"> Enables the cassandra connector on the Cosmos DB C* account. </param>
+        <param name="connectorOffer"> The cassandra connector offer type for the Cosmos DB database C* account. </param>
+        <param name="disableKeyBasedMetadataWriteAccess"> Disable write operations on metadata resources (databases, containers, throughput) via account keys. </param>
+        <param name="keyVaultKeyUri"> The URI of the key vault. </param>
+        <param name="defaultIdentity"> The default identity for accessing key vault used in features like customer managed keys. The default identity needs to be explicitly set by the users. It can be "FirstPartyIdentity", "SystemAssignedIdentity" and more. </param>
+        <param name="publicNetworkAccess"> Whether requests from Public Network are allowed. </param>
+        <param name="isFreeTierEnabled"> Flag to indicate whether Free Tier is enabled. </param>
+        <param name="apiServerVersion"> API specific properties. Currently, supported only for MongoDB API. </param>
+        <param name="isAnalyticalStorageEnabled"> Flag to indicate whether to enable storage analytics. </param>
+        <param name="analyticalStorageSchemaType"> Analytical storage specific properties. </param>
+        <param name="backupPolicy">
+            The object representing the policy for taking backups on an account.
+            Please note <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountBackupPolicy" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.CosmosDB.Models.ContinuousModeBackupPolicy" /> and <see cref="T:Azure.ResourceManager.CosmosDB.Models.PeriodicModeBackupPolicy" />.
+            </param>
+        <param name="cors"> The CORS policy for the Cosmos DB database account. </param>
+        <param name="networkAclBypass"> Indicates what services are allowed to bypass firewall checks. </param>
+        <param name="networkAclBypassResourceIds"> An array that contains the Resource Ids for Network Acl Bypass for the Cosmos DB account. </param>
+        <param name="diagnosticLogEnableFullTextQuery"> The Object representing the different Diagnostic log settings for the Cosmos DB Account. </param>
+        <param name="disableLocalAuth"> Opt-out of local authentication and ensure only MSI and AAD can be used exclusively for authentication. </param>
+        <param name="capacityTotalThroughputLimit"> The object that represents all properties related to capacity enforcement on an account. </param>
+        <param name="enableMaterializedViews"> Flag to indicate whether to enable MaterializedViews on the Cosmos DB account. </param>
+        <param name="keysMetadata"> This property is ignored during the update operation, as the metadata is read-only. The object represents the metadata for the Account Keys of the Cosmos DB account. </param>
+        <param name="enablePartitionMerge"> Flag to indicate enabling/disabling of Partition Merge feature on the account. </param>
+        <param name="enableBurstCapacity"> Flag to indicate enabling/disabling of Burst Capacity Preview feature on the account. </param>
+        <param name="minimalTlsVersion"> Indicates the minimum allowed Tls version. The default is Tls 1.0, except for Cassandra and Mongo API's, which only work with Tls 1.2. </param>
+        <param name="customerManagedKeyStatus"> Indicates the status of the Customer Managed Key feature on the account. In case there are errors, the property provides troubleshooting guidance. </param>
+        <param name="enablePriorityBasedExecution"> Flag to indicate enabling/disabling of Priority Based Execution Preview feature on the account. </param>
+        <param name="defaultPriorityLevel"> Enum to indicate default Priority Level of request for Priority Based Execution. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountPatch" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountPatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1124,7 +1254,7 @@
       <Docs>
         <param name="primaryReadonlyMasterKey"> Base 64 encoded value of the primary read-only key. </param>
         <param name="secondaryReadonlyMasterKey"> Base 64 encoded value of the secondary read-only key. </param>
-        <summary> Initializes a new instance of CosmosDBAccountReadOnlyKeyList. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountReadOnlyKeyList" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountReadOnlyKeyList" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1148,7 +1278,7 @@
       </Parameters>
       <Docs>
         <param name="continuousBackupInformationLatestRestorableTimestamp"> Information about the status of continuous backups. </param>
-        <summary> Initializes a new instance of CosmosDBBackupInformation. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBBackupInformation" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBBackupInformation" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1182,7 +1312,7 @@
         <param name="unit"> The unit of the metric. </param>
         <param name="name"> The name information for the metric. </param>
         <param name="metricValues"> The metric values for the specified time window and timestep. </param>
-        <summary> Initializes a new instance of CosmosDBBaseMetric. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBBaseMetric" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBBaseMetric" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1214,7 +1344,7 @@
         <param name="quotaPeriod"> The quota period used to summarize the usage values. </param>
         <param name="limit"> Maximum value for this metric. </param>
         <param name="currentValue"> Current value for this metric. </param>
-        <summary> Initializes a new instance of CosmosDBBaseUsage. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBBaseUsage" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBBaseUsage" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1240,7 +1370,7 @@
       <Docs>
         <param name="connectionString"> Value of the connection string. </param>
         <param name="description"> Description of the connection string. </param>
-        <summary> Initializes a new instance of CosmosDBConnectionString. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBConnectionString" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBConnectionString" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1270,7 +1400,7 @@
         <param name="kind"> Indicates the kind of algorithm used for partitioning. For MultiHash, multiple partition keys (upto three maximum) are supported for container create. </param>
         <param name="version"> Indicates the version of the partition key definition. </param>
         <param name="isSystemKey"> Indicates if the container is using a system generated partition key. </param>
-        <summary> Initializes a new instance of CosmosDBContainerPartitionKey. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBContainerPartitionKey" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBContainerPartitionKey" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1298,7 +1428,7 @@
         <param name="id"> The unique identifier of the region in which the database account replicates to. Example: &lt;accountName&gt;-&lt;locationName&gt;. </param>
         <param name="locationName"> The name of the region in which the database account exists. </param>
         <param name="failoverPriority"> The failover priority of the region. A failover priority of 0 indicates a write region. The maximum value for a failover priority = (total number of regions - 1). Failover priority values must be unique for each of the regions in which the database account exists. </param>
-        <summary> Initializes a new instance of CosmosDBFailoverPolicy. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBFailoverPolicy" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBFailoverPolicy" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1334,7 +1464,7 @@
         <param name="provisioningState"> The provisioning state of the firewall rule. </param>
         <param name="startIPAddress"> The start IP address of the mongo cluster firewall rule. Must be IPv4 format. </param>
         <param name="endIPAddress"> The end IP address of the mongo cluster firewall rule. Must be IPv4 format. </param>
-        <summary> Initializes a new instance of CosmosDBFirewallRuleData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBFirewallRuleData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBFirewallRuleData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1366,7 +1496,7 @@
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
         <param name="properties"> Cosmos DB location metadata. </param>
-        <summary> Initializes a new instance of CosmosDBLocationData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBLocationData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBLocationData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1400,7 +1530,7 @@
         <param name="isSubscriptionRegionAccessAllowedForRegular"> Flag indicating whether the subscription have access in region for Non-Availability Zones. </param>
         <param name="isSubscriptionRegionAccessAllowedForAz"> Flag indicating whether the subscription have access in region for Availability Zones(Az). </param>
         <param name="status"> Enum to indicate current buildout status of the region. </param>
-        <summary> Initializes a new instance of CosmosDBLocationProperties. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBLocationProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBLocationProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1426,7 +1556,7 @@
       <Docs>
         <param name="timeGrain"> The time grain to be used to summarize the metric values. </param>
         <param name="retention"> The retention for the metric values. </param>
-        <summary> Initializes a new instance of CosmosDBMetricAvailability. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBMetricAvailability" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBMetricAvailability" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1458,7 +1588,7 @@
         <param name="unit"> The unit of the metric. </param>
         <param name="resourceId"> The resource uri of the database. </param>
         <param name="name"> The name information for the metric. </param>
-        <summary> Initializes a new instance of CosmosDBMetricDefinition. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBMetricDefinition" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBMetricDefinition" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1484,7 +1614,7 @@
       <Docs>
         <param name="value"> The name of the metric. </param>
         <param name="localizedValue"> The friendly name of the metric. </param>
-        <summary> Initializes a new instance of CosmosDBMetricName. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBMetricName" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBMetricName" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1518,7 +1648,7 @@
         <param name="minimum"> The min value of the metric. </param>
         <param name="timestamp"> The metric timestamp (ISO-8601 format). </param>
         <param name="total"> The total value of the metric. </param>
-        <summary> Initializes a new instance of CosmosDBMetricValue. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBMetricValue" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBMetricValue" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1552,7 +1682,7 @@
         <param name="unit"> The unit of the metric. </param>
         <param name="name"> The name information for the metric. </param>
         <param name="metricValues"> The percentile metric values for the specified time window and timestep. </param>
-        <summary> Initializes a new instance of CosmosDBPercentileMetric. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBPercentileMetric" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBPercentileMetric" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1590,7 +1720,7 @@
         <param name="connectionState"> Connection State of the Private Endpoint Connection. </param>
         <param name="groupId"> Group id of the private endpoint. </param>
         <param name="provisioningState"> Provisioning state of the private endpoint. </param>
-        <summary> Initializes a new instance of CosmosDBPrivateEndpointConnectionData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBPrivateEndpointConnectionData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBPrivateEndpointConnectionData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1626,7 +1756,7 @@
         <param name="groupId"> The private link resource group id. </param>
         <param name="requiredMembers"> The private link resource required member names. </param>
         <param name="requiredZoneNames"> The private link resource required zone names. </param>
-        <summary> Initializes a new instance of CosmosDBPrivateLinkResourceData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBPrivateLinkResourceData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBPrivateLinkResourceData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1654,7 +1784,7 @@
         <param name="status"> The private link service connection status. </param>
         <param name="description"> The private link service connection description. </param>
         <param name="actionsRequired"> Any action that is required beyond basic workflow (approve/ reject/ disconnect). </param>
-        <summary> Initializes a new instance of CosmosDBPrivateLinkServiceConnectionStateProperty. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBPrivateLinkServiceConnectionStateProperty" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBPrivateLinkServiceConnectionStateProperty" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1682,7 +1812,7 @@
         <param name="name"> The regional service name. </param>
         <param name="location"> The location name. </param>
         <param name="status"> Describes the status of a service. </param>
-        <summary> Initializes a new instance of CosmosDBRegionalService. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBRegionalService" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBRegionalService" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1718,7 +1848,7 @@
             Please note <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBServiceProperties" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
             The available derived classes include <see cref="T:Azure.ResourceManager.CosmosDB.Models.DataTransferServiceProperties" />, <see cref="T:Azure.ResourceManager.CosmosDB.Models.GraphApiComputeServiceProperties" />, <see cref="T:Azure.ResourceManager.CosmosDB.Models.MaterializedViewsBuilderServiceProperties" /> and <see cref="T:Azure.ResourceManager.CosmosDB.Models.SqlDedicatedGatewayServiceProperties" />.
             </param>
-        <summary> Initializes a new instance of CosmosDBServiceData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBServiceData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBServiceData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1752,7 +1882,7 @@
         <param name="serviceType"> ServiceType for the service. </param>
         <param name="status"> Describes the status of a service. </param>
         <param name="additionalProperties"> Additional Properties. </param>
-        <summary> Initializes a new instance of CosmosDBServiceProperties. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBServiceProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBServiceProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1784,7 +1914,7 @@
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
         <param name="resource" />
-        <summary> Initializes a new instance of CosmosDBSqlClientEncryptionKeyData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlClientEncryptionKeyData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlClientEncryptionKeyData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1820,7 +1950,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of CosmosDBSqlClientEncryptionKeyProperties. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBSqlClientEncryptionKeyProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBSqlClientEncryptionKeyProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1860,7 +1990,7 @@
         <param name="resource"> The standard JSON format of a container. </param>
         <param name="options"> A key-value pair of options to be applied for the request. This corresponds to the headers sent with the request. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CosmosDBSqlContainerCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBSqlContainerCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBSqlContainerCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1900,7 +2030,7 @@
         <param name="resource" />
         <param name="options" />
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CosmosDBSqlContainerData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1940,7 +2070,7 @@
         <param name="resource"> The standard JSON format of a SQL database. </param>
         <param name="options"> A key-value pair of options to be applied for the request. This corresponds to the headers sent with the request. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CosmosDBSqlDatabaseCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBSqlDatabaseCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBSqlDatabaseCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1980,7 +2110,7 @@
         <param name="resource" />
         <param name="options" />
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CosmosDBSqlDatabaseData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlDatabaseData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlDatabaseData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2016,7 +2146,7 @@
         <param name="roleDefinitionId"> The unique identifier for the associated Role Definition. </param>
         <param name="scope"> The data plane resource path for which access is being granted through this Role Assignment. </param>
         <param name="principalId"> The unique identifier for the associated AAD principal in the AAD graph to which access is being granted through this Role Assignment. Tenant ID for the principal is inferred using the tenant associated with the subscription. </param>
-        <summary> Initializes a new instance of CosmosDBSqlRoleAssignmentData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlRoleAssignmentData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlRoleAssignmentData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2054,7 +2184,7 @@
         <param name="roleDefinitionType"> Indicates whether the Role Definition was built-in or user created. </param>
         <param name="assignableScopes"> A set of fully qualified Scopes at or below which Role Assignments may be created using this Role Definition. This will allow application of this Role Definition on the entire database account or any underlying Database / Collection. Must have at least one element. Scopes higher than Database account are not enforceable as assignable Scopes. Note that resources referenced in assignable Scopes need not exist. </param>
         <param name="permissions"> The set of operations allowed through this Role Definition. </param>
-        <summary> Initializes a new instance of CosmosDBSqlRoleDefinitionData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlRoleDefinitionData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlRoleDefinitionData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2094,7 +2224,7 @@
         <param name="resource"> The standard JSON format of a storedProcedure. </param>
         <param name="options"> A key-value pair of options to be applied for the request. This corresponds to the headers sent with the request. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CosmosDBSqlStoredProcedureCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBSqlStoredProcedureCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBSqlStoredProcedureCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2132,7 +2262,7 @@
         <param name="location"> The location. </param>
         <param name="resource" />
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CosmosDBSqlStoredProcedureData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlStoredProcedureData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlStoredProcedureData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2172,7 +2302,7 @@
         <param name="resource"> The standard JSON format of a trigger. </param>
         <param name="options"> A key-value pair of options to be applied for the request. This corresponds to the headers sent with the request. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CosmosDBSqlTriggerCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBSqlTriggerCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBSqlTriggerCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2210,7 +2340,7 @@
         <param name="location"> The location. </param>
         <param name="resource" />
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CosmosDBSqlTriggerData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlTriggerData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlTriggerData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2250,7 +2380,7 @@
         <param name="resource"> The standard JSON format of a userDefinedFunction. </param>
         <param name="options"> A key-value pair of options to be applied for the request. This corresponds to the headers sent with the request. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CosmosDBSqlUserDefinedFunctionCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBSqlUserDefinedFunctionCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBSqlUserDefinedFunctionCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2288,7 +2418,7 @@
         <param name="location"> The location. </param>
         <param name="resource" />
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CosmosDBSqlUserDefinedFunctionData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlUserDefinedFunctionData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlUserDefinedFunctionData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2328,7 +2458,7 @@
         <param name="resource"> The standard JSON format of a Table. </param>
         <param name="options"> A key-value pair of options to be applied for the request. This corresponds to the headers sent with the request. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CosmosDBTableCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBTableCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBTableCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2368,7 +2498,7 @@
         <param name="resource" />
         <param name="options" />
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of CosmosDBTableData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBTableData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBTableData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2402,7 +2532,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of CosmosDBTablePropertiesResource. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBTablePropertiesResource" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.CosmosDBTablePropertiesResource" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2432,7 +2562,7 @@
         <param name="secondaryMasterKeyGeneratedOn"> The metadata related to the Secondary Read-Write Key for the given Cosmos DB database account. </param>
         <param name="primaryReadonlyMasterKeyGeneratedOn"> The metadata related to the Primary Read-Only Key for the given Cosmos DB database account. </param>
         <param name="secondaryReadonlyMasterKeyGeneratedOn"> The metadata related to the Secondary Read-Only Key for the given Cosmos DB database account. </param>
-        <summary> Initializes a new instance of DatabaseAccountKeysMetadata. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.DatabaseAccountKeysMetadata" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.DatabaseAccountKeysMetadata" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2464,7 +2594,7 @@
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
         <param name="properties"> Data Transfer Create Job Properties. </param>
-        <summary> Initializes a new instance of DataTransferJobGetResultCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.DataTransferJobGetResultCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.DataTransferJobGetResultCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2520,7 +2650,7 @@
         <param name="lastUpdatedUtcOn"> Last Updated Time (ISO-8601 format). </param>
         <param name="workerCount"> Worker count. </param>
         <param name="error"> Error response for Faulted job. </param>
-        <summary> Initializes a new instance of DataTransferJobGetResultData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.DataTransferJobGetResultData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.DataTransferJobGetResultData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2568,7 +2698,7 @@
         <param name="lastUpdatedUtcOn"> Last Updated Time (ISO-8601 format). </param>
         <param name="workerCount"> Worker count. </param>
         <param name="error"> Error response for Faulted job. </param>
-        <summary> Initializes a new instance of DataTransferJobProperties. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.DataTransferJobProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.DataTransferJobProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2596,7 +2726,7 @@
         <param name="name"> The regional service name. </param>
         <param name="location"> The location name. </param>
         <param name="status"> Describes the status of a service. </param>
-        <summary> Initializes a new instance of DataTransferRegionalService. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.DataTransferRegionalService" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.DataTransferRegionalService" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2630,7 +2760,7 @@
         <param name="status"> Describes the status of a service. </param>
         <param name="additionalProperties"> Additional Properties. </param>
         <param name="locations"> An array that contains all of the locations for the service. </param>
-        <summary> Initializes a new instance of DataTransferServiceProperties. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.DataTransferServiceProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.DataTransferServiceProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2656,7 +2786,7 @@
       <Docs>
         <param name="code"> Error code. </param>
         <param name="message"> Error message indicating why the operation failed. </param>
-        <summary> Initializes a new instance of ErrorResponse. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ErrorResponse" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ErrorResponse" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2686,7 +2816,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of ExtendedCassandraKeyspaceResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedCassandraKeyspaceResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedCassandraKeyspaceResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -2724,7 +2854,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of ExtendedCassandraTableResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedCassandraTableResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedCassandraTableResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2774,7 +2904,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of ExtendedCosmosDBSqlContainerResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedCosmosDBSqlContainerResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedCosmosDBSqlContainerResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2812,7 +2942,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of ExtendedCosmosDBSqlDatabaseResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedCosmosDBSqlDatabaseResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedCosmosDBSqlDatabaseResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2844,7 +2974,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of ExtendedCosmosDBSqlStoredProcedureResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedCosmosDBSqlStoredProcedureResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedCosmosDBSqlStoredProcedureResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2880,7 +3010,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of ExtendedCosmosDBSqlTriggerResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedCosmosDBSqlTriggerResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedCosmosDBSqlTriggerResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2912,7 +3042,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of ExtendedCosmosDBSqlUserDefinedFunctionResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedCosmosDBSqlUserDefinedFunctionResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedCosmosDBSqlUserDefinedFunctionResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2946,7 +3076,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of ExtendedGremlinDatabaseResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedGremlinDatabaseResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedGremlinDatabaseResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2992,7 +3122,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of ExtendedGremlinGraphResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedGremlinGraphResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedGremlinGraphResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3032,7 +3162,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of ExtendedMongoDBCollectionResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedMongoDBCollectionResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedMongoDBCollectionResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3066,7 +3196,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of ExtendedMongoDBDatabaseResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedMongoDBDatabaseResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedMongoDBDatabaseResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3098,7 +3228,7 @@
         <param name="eventTimestamp"> The time when this database event happened. </param>
         <param name="databaseName"> The name of this Gremlin database. </param>
         <param name="databaseId"> The resource ID of this Gremlin database. </param>
-        <summary> Initializes a new instance of ExtendedRestorableGremlinDatabaseResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedRestorableGremlinDatabaseResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedRestorableGremlinDatabaseResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3130,7 +3260,7 @@
         <param name="eventTimestamp"> The time when this graph event happened. </param>
         <param name="graphName"> The name of this Gremlin graph. </param>
         <param name="graphId"> The resource ID of this Gremlin graph. </param>
-        <summary> Initializes a new instance of ExtendedRestorableGremlinGraphResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedRestorableGremlinGraphResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedRestorableGremlinGraphResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3162,7 +3292,7 @@
         <param name="eventTimestamp"> The time when this collection event happened. </param>
         <param name="collectionName"> The name of this MongoDB collection. </param>
         <param name="collectionId"> The resource ID of this MongoDB collection. </param>
-        <summary> Initializes a new instance of ExtendedRestorableMongoDBCollectionResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedRestorableMongoDBCollectionResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedRestorableMongoDBCollectionResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3194,7 +3324,7 @@
         <param name="eventTimestamp"> The time when this database event happened. </param>
         <param name="databaseName"> The name of this MongoDB database. </param>
         <param name="databaseId"> The resource ID of this MongoDB database. </param>
-        <summary> Initializes a new instance of ExtendedRestorableMongoDBDatabaseResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedRestorableMongoDBDatabaseResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedRestorableMongoDBDatabaseResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3228,7 +3358,7 @@
         <param name="containerName"> The name of this SQL container. </param>
         <param name="containerId"> The resource ID of this SQL container. </param>
         <param name="container"> Cosmos DB SQL container resource object. </param>
-        <summary> Initializes a new instance of ExtendedRestorableSqlContainerResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedRestorableSqlContainerResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedRestorableSqlContainerResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3262,7 +3392,7 @@
         <param name="databaseName"> The name of the SQL database. </param>
         <param name="databaseId"> The resource ID of the SQL database. </param>
         <param name="database"> Cosmos DB SQL database resource object. </param>
-        <summary> Initializes a new instance of ExtendedRestorableSqlDatabaseResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedRestorableSqlDatabaseResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedRestorableSqlDatabaseResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3294,7 +3424,7 @@
         <param name="eventTimestamp"> The time when this table event happened. </param>
         <param name="tableName"> The name of this Table. </param>
         <param name="tableId"> The resource ID of this Table. </param>
-        <summary> Initializes a new instance of ExtendedRestorableTableResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedRestorableTableResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedRestorableTableResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3334,7 +3464,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of ExtendedThroughputSettingsResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedThroughputSettingsResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ExtendedThroughputSettingsResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3364,7 +3494,7 @@
         <param name="location"> The location name. </param>
         <param name="status"> Describes the status of a service. </param>
         <param name="graphApiComputeEndpoint"> The regional endpoint for GraphAPICompute. </param>
-        <summary> Initializes a new instance of GraphApiComputeRegionalService. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.GraphApiComputeRegionalService" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.GraphApiComputeRegionalService" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3400,7 +3530,7 @@
         <param name="additionalProperties"> Additional Properties. </param>
         <param name="graphApiComputeEndpoint"> GraphAPICompute endpoint for the service. </param>
         <param name="locations"> An array that contains all of the locations for the service. </param>
-        <summary> Initializes a new instance of GraphApiComputeServiceProperties. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.GraphApiComputeServiceProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.GraphApiComputeServiceProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3440,7 +3570,7 @@
         <param name="resourceId"> The standard JSON format of a Graph resource. </param>
         <param name="options"> A key-value pair of options to be applied for the request. This corresponds to the headers sent with the request. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of GraphResourceGetResultCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.GraphResourceGetResultCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.GraphResourceGetResultCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3480,7 +3610,7 @@
         <param name="resourceId"> Gets or sets the resource. </param>
         <param name="options" />
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of GraphResourceGetResultData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.GraphResourceGetResultData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.GraphResourceGetResultData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3520,7 +3650,7 @@
         <param name="resource"> The standard JSON format of a Gremlin database. </param>
         <param name="options"> A key-value pair of options to be applied for the request. This corresponds to the headers sent with the request. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of GremlinDatabaseCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.GremlinDatabaseCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.GremlinDatabaseCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3560,7 +3690,7 @@
         <param name="resource" />
         <param name="options" />
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of GremlinDatabaseData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.GremlinDatabaseData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.GremlinDatabaseData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3600,7 +3730,7 @@
         <param name="resource"> The standard JSON format of a Gremlin graph. </param>
         <param name="options"> A key-value pair of options to be applied for the request. This corresponds to the headers sent with the request. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of GremlinGraphCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.GremlinGraphCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.GremlinGraphCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3640,7 +3770,7 @@
         <param name="resource" />
         <param name="options" />
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of GremlinGraphData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.GremlinGraphData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.GremlinGraphData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3664,7 +3794,7 @@
       </Parameters>
       <Docs>
         <param name="connectionStrings"> An array that contains the connection strings for a mongo cluster. </param>
-        <summary> Initializes a new instance of ListConnectionStringsResult. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ListConnectionStringsResult" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ListConnectionStringsResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3692,7 +3822,7 @@
         <param name="sourceCollectionRid"> An unique identifier for the source collection. This is a system generated property. </param>
         <param name="sourceCollectionId"> The name of the source container on which the Materialized View will be created. </param>
         <param name="definition"> The definition should be an SQL query which would be used to fetch data from the source container to populate into the Materialized View container. </param>
-        <summary> Initializes a new instance of MaterializedViewDefinition. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.MaterializedViewDefinition" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.MaterializedViewDefinition" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3720,7 +3850,7 @@
         <param name="name"> The regional service name. </param>
         <param name="location"> The location name. </param>
         <param name="status"> Describes the status of a service. </param>
-        <summary> Initializes a new instance of MaterializedViewsBuilderRegionalService. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.MaterializedViewsBuilderRegionalService" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.MaterializedViewsBuilderRegionalService" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3754,7 +3884,7 @@
         <param name="status"> Describes the status of a service. </param>
         <param name="additionalProperties"> Additional Properties. </param>
         <param name="locations"> An array that contains all of the locations for the service. </param>
-        <summary> Initializes a new instance of MaterializedViewsBuilderServiceProperties. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.MaterializedViewsBuilderServiceProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.MaterializedViewsBuilderServiceProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3808,8 +3938,52 @@
         <param name="provisioningState"> A provisioning state of the mongo cluster. </param>
         <param name="clusterStatus"> A status of the mongo cluster. </param>
         <param name="nodeGroupSpecs"> The list of node group specs in the cluster. </param>
-        <summary> Initializes a new instance of MongoClusterData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.MongoClusterData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.MongoClusterData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MongoClusterPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.CosmosDB.Models.MongoClusterPatch MongoClusterPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCreateMode? createMode = default, Azure.ResourceManager.CosmosDB.Models.MongoClusterRestoreParameters restoreParameters = default, string administratorLogin = default, string administratorLoginPassword = default, string serverVersion = default, string connectionString = default, string earliestRestoreTime = default, Azure.ResourceManager.CosmosDB.Models.CosmosDBProvisioningState? provisioningState = default, Azure.ResourceManager.CosmosDB.Models.MongoClusterStatus? clusterStatus = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.CosmosDB.Models.NodeGroupSpec&gt; nodeGroupSpecs = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.CosmosDB.Models.MongoClusterPatch MongoClusterPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCreateMode&gt; createMode, class Azure.ResourceManager.CosmosDB.Models.MongoClusterRestoreParameters restoreParameters, string administratorLogin, string administratorLoginPassword, string serverVersion, string connectionString, string earliestRestoreTime, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.CosmosDB.Models.CosmosDBProvisioningState&gt; provisioningState, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.CosmosDB.Models.MongoClusterStatus&gt; clusterStatus, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.CosmosDB.Models.NodeGroupSpec&gt; nodeGroupSpecs) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.CosmosDB.Models.ArmCosmosDBModelFactory.MongoClusterPatch(System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCreateMode},Azure.ResourceManager.CosmosDB.Models.MongoClusterRestoreParameters,System.String,System.String,System.String,System.String,System.String,System.Nullable{Azure.ResourceManager.CosmosDB.Models.CosmosDBProvisioningState},System.Nullable{Azure.ResourceManager.CosmosDB.Models.MongoClusterStatus},System.Collections.Generic.IEnumerable{Azure.ResourceManager.CosmosDB.Models.NodeGroupSpec})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function MongoClusterPatch (Optional tags As IDictionary(Of String, String) = Nothing, Optional createMode As Nullable(Of CosmosDBAccountCreateMode) = Nothing, Optional restoreParameters As MongoClusterRestoreParameters = Nothing, Optional administratorLogin As String = Nothing, Optional administratorLoginPassword As String = Nothing, Optional serverVersion As String = Nothing, Optional connectionString As String = Nothing, Optional earliestRestoreTime As String = Nothing, Optional provisioningState As Nullable(Of CosmosDBProvisioningState) = Nothing, Optional clusterStatus As Nullable(Of MongoClusterStatus) = Nothing, Optional nodeGroupSpecs As IEnumerable(Of NodeGroupSpec) = Nothing) As MongoClusterPatch" />
+      <MemberSignature Language="F#" Value="static member MongoClusterPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; * Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCreateMode&gt; * Azure.ResourceManager.CosmosDB.Models.MongoClusterRestoreParameters * string * string * string * string * string * Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBProvisioningState&gt; * Nullable&lt;Azure.ResourceManager.CosmosDB.Models.MongoClusterStatus&gt; * seq&lt;Azure.ResourceManager.CosmosDB.Models.NodeGroupSpec&gt; -&gt; Azure.ResourceManager.CosmosDB.Models.MongoClusterPatch" Usage="Azure.ResourceManager.CosmosDB.Models.ArmCosmosDBModelFactory.MongoClusterPatch (tags, createMode, restoreParameters, administratorLogin, administratorLoginPassword, serverVersion, connectionString, earliestRestoreTime, provisioningState, clusterStatus, nodeGroupSpecs)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.CosmosDB</AssemblyName>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.CosmosDB.Models.MongoClusterPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="createMode" Type="System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBAccountCreateMode&gt;" />
+        <Parameter Name="restoreParameters" Type="Azure.ResourceManager.CosmosDB.Models.MongoClusterRestoreParameters" />
+        <Parameter Name="administratorLogin" Type="System.String" />
+        <Parameter Name="administratorLoginPassword" Type="System.String" />
+        <Parameter Name="serverVersion" Type="System.String" />
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="earliestRestoreTime" Type="System.String" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.CosmosDBProvisioningState&gt;" />
+        <Parameter Name="clusterStatus" Type="System.Nullable&lt;Azure.ResourceManager.CosmosDB.Models.MongoClusterStatus&gt;" />
+        <Parameter Name="nodeGroupSpecs" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.CosmosDB.Models.NodeGroupSpec&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> Application-specific metadata in the form of key-value pairs. </param>
+        <param name="createMode"> The mode to create a mongo cluster. </param>
+        <param name="restoreParameters"> Parameters used for restore operations. </param>
+        <param name="administratorLogin"> The administrator's login for the mongo cluster. </param>
+        <param name="administratorLoginPassword"> The password of the administrator login. </param>
+        <param name="serverVersion"> The Mongo DB server version. Defaults to the latest available version if not specified. </param>
+        <param name="connectionString"> The default mongo connection string for the cluster. </param>
+        <param name="earliestRestoreTime"> Earliest restore timestamp in UTC ISO8601 format. </param>
+        <param name="provisioningState"> A provisioning state of the mongo cluster. </param>
+        <param name="clusterStatus"> A status of the mongo cluster. </param>
+        <param name="nodeGroupSpecs"> The list of node group specs in the cluster. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.MongoClusterPatch" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.MongoClusterPatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -3848,7 +4022,7 @@
         <param name="resource"> The standard JSON format of a MongoDB collection. </param>
         <param name="options"> A key-value pair of options to be applied for the request. This corresponds to the headers sent with the request. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of MongoDBCollectionCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.MongoDBCollectionCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.MongoDBCollectionCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3888,7 +4062,7 @@
         <param name="resource" />
         <param name="options" />
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of MongoDBCollectionData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.MongoDBCollectionData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.MongoDBCollectionData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3928,7 +4102,7 @@
         <param name="resource"> The standard JSON format of a MongoDB database. </param>
         <param name="options"> A key-value pair of options to be applied for the request. This corresponds to the headers sent with the request. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of MongoDBDatabaseCreateOrUpdateContent. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.MongoDBDatabaseCreateOrUpdateContent" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.MongoDBDatabaseCreateOrUpdateContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3968,7 +4142,7 @@
         <param name="resource" />
         <param name="options" />
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of MongoDBDatabaseData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4008,7 +4182,7 @@
         <param name="databaseName"> The database name for which access is being granted for this Role Definition. </param>
         <param name="privileges"> A set of privileges contained by the Role Definition. This will allow application of this Role Definition on the entire database account or any underlying Database / Collection. Scopes higher than Database are not enforceable as privilege. </param>
         <param name="roles"> The set of roles inherited by this Role Definition. </param>
-        <summary> Initializes a new instance of MongoDBRoleDefinitionData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.MongoDBRoleDefinitionData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.MongoDBRoleDefinitionData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4050,7 +4224,7 @@
         <param name="customData"> A custom definition for the USer Definition. </param>
         <param name="roles"> The set of roles inherited by the User Definition. </param>
         <param name="mechanisms"> The Mongo Auth mechanism. For now, we only support auth mechanism SCRAM-SHA-256. </param>
-        <summary> Initializes a new instance of MongoDBUserDefinitionData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.MongoDBUserDefinitionData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.MongoDBUserDefinitionData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4088,7 +4262,7 @@
         <param name="metricValues"> The metric values for the specified time window and timestep. </param>
         <param name="partitionId"> The partition id (GUID identifier) of the metric values. </param>
         <param name="partitionKeyRangeId"> The partition key range id (integer identifier) of the metric values. </param>
-        <summary> Initializes a new instance of PartitionMetric. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.PartitionMetric" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.PartitionMetric" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4124,7 +4298,7 @@
         <param name="currentValue"> Current value for this metric. </param>
         <param name="partitionId"> The partition id (GUID identifier) of the usages. </param>
         <param name="partitionKeyRangeId"> The partition key range id (integer identifier) of the usages. </param>
-        <summary> Initializes a new instance of PartitionUsage. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.PartitionUsage" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.PartitionUsage" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4172,7 +4346,7 @@
         <param name="p90"> The 90th percentile value for the metric. </param>
         <param name="p95"> The 95th percentile value for the metric. </param>
         <param name="p99"> The 99th percentile value for the metric. </param>
-        <summary> Initializes a new instance of PercentileMetricValue. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.PercentileMetricValue" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.PercentileMetricValue" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4198,7 +4372,7 @@
       <Docs>
         <param name="id"> The unique identifier of the partition. </param>
         <param name="storageInKB"> The storage in KB for the physical partition. </param>
-        <summary> Initializes a new instance of PhysicalPartitionStorageInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.PhysicalPartitionStorageInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.PhysicalPartitionStorageInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4222,7 +4396,7 @@
       </Parameters>
       <Docs>
         <param name="physicalPartitionStorageInfoCollectionValue"> List of physical partitions and their properties. </param>
-        <summary> Initializes a new instance of PhysicalPartitionStorageInfoCollection. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.PhysicalPartitionStorageInfoCollection" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.PhysicalPartitionStorageInfoCollection" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4260,7 +4434,7 @@
         <param name="location"> The location. </param>
         <param name="resourcePhysicalPartitionThroughputInfo"> properties of physical partition throughput info. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of PhysicalPartitionThroughputInfoResult. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.PhysicalPartitionThroughputInfoResult" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.PhysicalPartitionThroughputInfoResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4298,7 +4472,7 @@
         <param name="location"> The location. </param>
         <param name="resource"> The standard JSON format of a resource throughput. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of RedistributeThroughputParameters. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RedistributeThroughputParameters" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RedistributeThroughputParameters" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4342,7 +4516,7 @@
         <param name="deletedOn"> The time at which the restorable database account has been deleted (ISO-8601 format). </param>
         <param name="apiType"> The API type of the restorable database account. </param>
         <param name="restorableLocations"> List of regions where the of the database account can be restored from. </param>
-        <summary> Initializes a new instance of RestorableCosmosDBAccountData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.RestorableCosmosDBAccountData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.RestorableCosmosDBAccountData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4374,7 +4548,7 @@
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
         <param name="resource"> The resource of an Azure Cosmos DB Gremlin database event. </param>
-        <summary> Initializes a new instance of RestorableGremlinDatabase. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableGremlinDatabase" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableGremlinDatabase" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4406,7 +4580,7 @@
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
         <param name="resource"> The resource of an Azure Cosmos DB Gremlin graph event. </param>
-        <summary> Initializes a new instance of RestorableGremlinGraph. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableGremlinGraph" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableGremlinGraph" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4440,7 +4614,7 @@
         <param name="systemData"> The systemData. </param>
         <param name="databaseName"> The name of the gremlin database available for restore. </param>
         <param name="graphNames"> The names of the graphs available for restore. </param>
-        <summary> Initializes a new instance of RestorableGremlinResourceData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableGremlinResourceData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableGremlinResourceData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4470,7 +4644,7 @@
         <param name="regionalDatabaseAccountInstanceId"> The instance id of the regional restorable account. </param>
         <param name="createdOn"> The creation time of the regional restorable database account (ISO-8601 format). </param>
         <param name="deletedOn"> The time at which the regional restorable database account has been deleted (ISO-8601 format). </param>
-        <summary> Initializes a new instance of RestorableLocationResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableLocationResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableLocationResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4502,7 +4676,7 @@
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
         <param name="resource"> The resource of an Azure Cosmos DB MongoDB collection event. </param>
-        <summary> Initializes a new instance of RestorableMongoDBCollection. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableMongoDBCollection" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableMongoDBCollection" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4534,7 +4708,7 @@
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
         <param name="resource"> The resource of an Azure Cosmos DB MongoDB database event. </param>
-        <summary> Initializes a new instance of RestorableMongoDBDatabase. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableMongoDBDatabase" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableMongoDBDatabase" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4568,7 +4742,7 @@
         <param name="systemData"> The systemData. </param>
         <param name="databaseName"> The name of the database available for restore. </param>
         <param name="collectionNames"> The names of the collections available for restore. </param>
-        <summary> Initializes a new instance of RestorableMongoDBResourceData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableMongoDBResourceData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableMongoDBResourceData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4600,7 +4774,7 @@
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
         <param name="resource"> The resource of an Azure Cosmos DB SQL container event. </param>
-        <summary> Initializes a new instance of RestorableSqlContainer. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableSqlContainer" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableSqlContainer" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4652,7 +4826,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of RestorableSqlContainerPropertiesResourceContainer. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableSqlContainerPropertiesResourceContainer" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableSqlContainerPropertiesResourceContainer" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4684,7 +4858,7 @@
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
         <param name="resource"> The resource of an Azure Cosmos DB SQL database event. </param>
-        <summary> Initializes a new instance of RestorableSqlDatabase. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableSqlDatabase" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableSqlDatabase" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4724,7 +4898,7 @@
         <param name="rid"> A system generated property. A unique identifier. </param>
         <param name="timestamp"> A system generated property that denotes the last updated timestamp of the resource. </param>
         <param name="etag"> A system generated property representing the resource etag required for optimistic concurrency control. </param>
-        <summary> Initializes a new instance of RestorableSqlDatabasePropertiesResourceDatabase. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableSqlDatabasePropertiesResourceDatabase" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableSqlDatabasePropertiesResourceDatabase" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4758,7 +4932,7 @@
         <param name="systemData"> The systemData. </param>
         <param name="databaseName"> The name of the database available for restore. </param>
         <param name="collectionNames"> The names of the collections available for restore. </param>
-        <summary> Initializes a new instance of RestorableSqlResourceData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableSqlResourceData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableSqlResourceData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4790,7 +4964,7 @@
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
         <param name="resource"> The resource of an Azure Cosmos DB Table event. </param>
-        <summary> Initializes a new instance of RestorableTable. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableTable" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableTable" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4818,7 +4992,7 @@
         <param name="id"> The unique resource identifier of the ARM resource. </param>
         <param name="name"> The name of the Table. </param>
         <param name="resourceType"> The type of Azure resource. </param>
-        <summary> Initializes a new instance of RestorableTableResourceData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableTableResourceData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RestorableTableResourceData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4856,7 +5030,7 @@
         <param name="location"> The location. </param>
         <param name="resourcePhysicalPartitionIds"> The standard JSON format of a resource throughput. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of RetrieveThroughputParameters. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.RetrieveThroughputParameters" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.RetrieveThroughputParameters" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4886,7 +5060,7 @@
         <param name="location"> The location name. </param>
         <param name="status"> Describes the status of a service. </param>
         <param name="sqlDedicatedGatewayEndpoint"> The regional endpoint for SqlDedicatedGateway. </param>
-        <summary> Initializes a new instance of SqlDedicatedGatewayRegionalService. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.SqlDedicatedGatewayRegionalService" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.SqlDedicatedGatewayRegionalService" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4922,7 +5096,7 @@
         <param name="additionalProperties"> Additional Properties. </param>
         <param name="sqlDedicatedGatewayEndpoint"> SqlDedicatedGateway endpoint for the service. </param>
         <param name="locations"> An array that contains all of the locations for the service. </param>
-        <summary> Initializes a new instance of SqlDedicatedGatewayServiceProperties. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.SqlDedicatedGatewayServiceProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.SqlDedicatedGatewayServiceProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4960,7 +5134,7 @@
         <param name="location"> The location. </param>
         <param name="resource" />
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of ThroughputSettingData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.ThroughputSettingData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.ThroughputSettingData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -4994,7 +5168,7 @@
         <param name="offerReplacePending"> The throughput replace is pending. </param>
         <param name="instantMaximumThroughput"> The offer throughput value to instantly scale up without triggering splits. </param>
         <param name="softAllowedMaximumThroughput"> The maximum throughput value or the maximum maxThroughput value (for autoscale) that can be specified. </param>
-        <summary> Initializes a new instance of ThroughputSettingsResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ThroughputSettingsResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ThroughputSettingsResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -5032,7 +5206,7 @@
         <param name="location"> The location. </param>
         <param name="resource"> The standard JSON format of a resource throughput. </param>
         <param name="identity"> Identity for the resource. </param>
-        <summary> Initializes a new instance of ThroughputSettingsUpdateData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.CosmosDB.Models.ThroughputSettingsUpdateData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.CosmosDB.Models.ThroughputSettingsUpdateData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>

@@ -113,7 +113,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The Delete ManagedNetworkGroups operation deletes a Managed Network Group specified by the resource group, Managed Network name, and group name
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetwork/managedNetworks/{managedNetworkName}/managedNetworkGroups/{managedNetworkGroupName}</description></item><item><term>Operation Id</term><description>ManagedNetworkGroups_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetwork/managedNetworks/{managedNetworkName}/managedNetworkGroups/{managedNetworkGroupName}</description></item><item><term>Operation Id</term><description>ManagedNetworkGroups_Delete</description></item><item><term>Default Api Version</term><description>2019-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetwork.ManagedNetworkGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -142,7 +142,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The Delete ManagedNetworkGroups operation deletes a Managed Network Group specified by the resource group, Managed Network name, and group name
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetwork/managedNetworks/{managedNetworkName}/managedNetworkGroups/{managedNetworkGroupName}</description></item><item><term>Operation Id</term><description>ManagedNetworkGroups_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetwork/managedNetworks/{managedNetworkName}/managedNetworkGroups/{managedNetworkGroupName}</description></item><item><term>Operation Id</term><description>ManagedNetworkGroups_Delete</description></item><item><term>Default Api Version</term><description>2019-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetwork.ManagedNetworkGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -168,7 +168,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The Get ManagedNetworkGroups operation gets a Managed Network Group specified by the resource group, Managed Network name, and group name
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetwork/managedNetworks/{managedNetworkName}/managedNetworkGroups/{managedNetworkGroupName}</description></item><item><term>Operation Id</term><description>ManagedNetworkGroups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetwork/managedNetworks/{managedNetworkName}/managedNetworkGroups/{managedNetworkGroupName}</description></item><item><term>Operation Id</term><description>ManagedNetworkGroups_Get</description></item><item><term>Default Api Version</term><description>2019-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetwork.ManagedNetworkGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -194,7 +194,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The Get ManagedNetworkGroups operation gets a Managed Network Group specified by the resource group, Managed Network name, and group name
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetwork/managedNetworks/{managedNetworkName}/managedNetworkGroups/{managedNetworkGroupName}</description></item><item><term>Operation Id</term><description>ManagedNetworkGroups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetwork/managedNetworks/{managedNetworkName}/managedNetworkGroups/{managedNetworkGroupName}</description></item><item><term>Operation Id</term><description>ManagedNetworkGroups_Get</description></item><item><term>Default Api Version</term><description>2019-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetwork.ManagedNetworkGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -264,7 +264,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The Put ManagedNetworkGroups operation creates or updates a Managed Network Group resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetwork/managedNetworks/{managedNetworkName}/managedNetworkGroups/{managedNetworkGroupName}</description></item><item><term>Operation Id</term><description>ManagedNetworkGroups_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetwork/managedNetworks/{managedNetworkName}/managedNetworkGroups/{managedNetworkGroupName}</description></item><item><term>Operation Id</term><description>ManagedNetworkGroups_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2019-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetwork.ManagedNetworkGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -297,7 +297,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The Put ManagedNetworkGroups operation creates or updates a Managed Network Group resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetwork/managedNetworks/{managedNetworkName}/managedNetworkGroups/{managedNetworkGroupName}</description></item><item><term>Operation Id</term><description>ManagedNetworkGroups_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetwork/managedNetworks/{managedNetworkName}/managedNetworkGroups/{managedNetworkGroupName}</description></item><item><term>Operation Id</term><description>ManagedNetworkGroups_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2019-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetwork.ManagedNetworkGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

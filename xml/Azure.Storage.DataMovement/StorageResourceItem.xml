@@ -264,18 +264,18 @@
       </Docs>
     </Member>
     <Member MemberName="GetPropertiesAsync">
-      <MemberSignature Language="C#" Value="protected internal abstract System.Threading.Tasks.Task&lt;Azure.Storage.DataMovement.StorageResourceProperties&gt; GetPropertiesAsync (System.Threading.CancellationToken token = default);" />
-      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Storage.DataMovement.StorageResourceProperties&gt; GetPropertiesAsync(valuetype System.Threading.CancellationToken token) cil managed" />
+      <MemberSignature Language="C#" Value="protected internal abstract System.Threading.Tasks.Task&lt;Azure.Storage.DataMovement.StorageResourceItemProperties&gt; GetPropertiesAsync (System.Threading.CancellationToken token = default);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Storage.DataMovement.StorageResourceItemProperties&gt; GetPropertiesAsync(valuetype System.Threading.CancellationToken token) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Storage.DataMovement.StorageResourceItem.GetPropertiesAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Protected Friend MustOverride Function GetPropertiesAsync (Optional token As CancellationToken = Nothing) As Task(Of StorageResourceProperties)" />
-      <MemberSignature Language="F#" Value="abstract member GetPropertiesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Storage.DataMovement.StorageResourceProperties&gt;" Usage="storageResourceItem.GetPropertiesAsync token" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend MustOverride Function GetPropertiesAsync (Optional token As CancellationToken = Nothing) As Task(Of StorageResourceItemProperties)" />
+      <MemberSignature Language="F#" Value="abstract member GetPropertiesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Storage.DataMovement.StorageResourceItemProperties&gt;" Usage="storageResourceItem.GetPropertiesAsync token" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Storage.DataMovement</AssemblyName>
         <AssemblyVersion>12.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Storage.DataMovement.StorageResourceProperties&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Storage.DataMovement.StorageResourceItemProperties&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="token" Type="System.Threading.CancellationToken" />
@@ -285,9 +285,9 @@
         <summary>
              Get properties of the resource.
             
-             See <see cref="T:Azure.Storage.DataMovement.StorageResourceProperties" />.
+             See <see cref="T:Azure.Storage.DataMovement.StorageResourceItemProperties" />.
              </summary>
-        <returns>Returns the properties of the Storage Resource. See <see cref="T:Azure.Storage.DataMovement.StorageResourceProperties" /></returns>
+        <returns>Returns the properties of the Storage Resource. See <see cref="T:Azure.Storage.DataMovement.StorageResourceItemProperties" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -413,6 +413,28 @@
       <Docs>
         <summary>
             The identifier for the type of storage resource.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceProperties">
+      <MemberSignature Language="C#" Value="protected Azure.Storage.DataMovement.StorageResourceItemProperties ResourceProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Storage.DataMovement.StorageResourceItemProperties ResourceProperties" />
+      <MemberSignature Language="DocId" Value="P:Azure.Storage.DataMovement.StorageResourceItem.ResourceProperties" />
+      <MemberSignature Language="VB.NET" Value="Protected Property ResourceProperties As StorageResourceItemProperties" />
+      <MemberSignature Language="F#" Value="member this.ResourceProperties : Azure.Storage.DataMovement.StorageResourceItemProperties with get, set" Usage="Azure.Storage.DataMovement.StorageResourceItem.ResourceProperties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Storage.DataMovement</AssemblyName>
+        <AssemblyVersion>12.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Storage.DataMovement.StorageResourceItemProperties</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Properties of the Storage Resource Item.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

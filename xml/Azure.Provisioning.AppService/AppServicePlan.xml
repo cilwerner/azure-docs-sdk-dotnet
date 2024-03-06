@@ -1,0 +1,82 @@
+<Type Name="AppServicePlan" FullName="Azure.Provisioning.AppService.AppServicePlan">
+  <TypeSignature Language="C#" Value="public class AppServicePlan : Azure.Provisioning.Resource&lt;Azure.ResourceManager.AppService.AppServicePlanData&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AppServicePlan extends Azure.Provisioning.Resource`1&lt;class Azure.ResourceManager.AppService.AppServicePlanData&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.AppService.AppServicePlan" />
+  <TypeSignature Language="VB.NET" Value="Public Class AppServicePlan&#xA;Inherits Resource(Of AppServicePlanData)" />
+  <TypeSignature Language="F#" Value="type AppServicePlan = class&#xA;    inherit Resource&lt;AppServicePlanData&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Resource&lt;Azure.ResourceManager.AppService.AppServicePlanData&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Azure.ResourceManager.AppService.AppServicePlanData</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents an App Service Plan.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AppServicePlan (Azure.Provisioning.IConstruct scope, string resourceName, string version = &quot;2021-02-01&quot;, Azure.Core.AzureLocation? location = default, Azure.Provisioning.ResourceManager.ResourceGroup? parent = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Provisioning.IConstruct scope, string resourceName, string version, valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; location, class Azure.Provisioning.ResourceManager.ResourceGroup parent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppService.AppServicePlan.#ctor(Azure.Provisioning.IConstruct,System.String,System.String,System.Nullable{Azure.Core.AzureLocation},Azure.Provisioning.ResourceManager.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (scope As IConstruct, resourceName As String, Optional version As String = &quot;2021-02-01&quot;, Optional location As Nullable(Of AzureLocation) = Nothing, Optional parent As ResourceGroup = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.Provisioning.AppService.AppServicePlan : Azure.Provisioning.IConstruct * string * string * Nullable&lt;Azure.Core.AzureLocation&gt; * Azure.Provisioning.ResourceManager.ResourceGroup -&gt; Azure.Provisioning.AppService.AppServicePlan" Usage="new Azure.Provisioning.AppService.AppServicePlan (scope, resourceName, version, location, parent)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="scope" Type="Azure.Provisioning.IConstruct" />
+        <Parameter Name="resourceName" Type="System.String" />
+        <Parameter Name="version" Type="System.String" />
+        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" />
+        <Parameter Name="parent" Type="Azure.Provisioning.ResourceManager.ResourceGroup" />
+      </Parameters>
+      <Docs>
+        <param name="scope">The scope.</param>
+        <param name="resourceName">The resource name.</param>
+        <param name="version">The version.</param>
+        <param name="location">The location.</param>
+        <param name="parent">The resource group.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.Provisioning.AppService.AppServicePlan" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindParentInScope">
+      <MemberSignature Language="C#" Value="protected override Azure.Provisioning.Resource? FindParentInScope (Azure.Provisioning.IConstruct scope);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class Azure.Provisioning.Resource FindParentInScope(class Azure.Provisioning.IConstruct scope) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppService.AppServicePlan.FindParentInScope(Azure.Provisioning.IConstruct)" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function FindParentInScope (scope As IConstruct) As Resource" />
+      <MemberSignature Language="F#" Value="override this.FindParentInScope : Azure.Provisioning.IConstruct -&gt; Azure.Provisioning.Resource" Usage="appServicePlan.FindParentInScope scope" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.Resource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scope" Type="Azure.Provisioning.IConstruct" />
+      </Parameters>
+      <Docs>
+        <param name="scope">The scope.</param>
+        <summary>
+            Finds the parent resource in the scope.
+            </summary>
+        <returns>The parent <see cref="T:Azure.Provisioning.Resource" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

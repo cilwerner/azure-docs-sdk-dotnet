@@ -1,0 +1,161 @@
+<Type Name="MetricsBatchResultValues" FullName="Azure.Monitor.Query.Models.MetricsBatchResultValues">
+  <TypeSignature Language="C#" Value="public class MetricsBatchResultValues" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MetricsBatchResultValues extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Monitor.Query.Models.MetricsBatchResultValues" />
+  <TypeSignature Language="VB.NET" Value="Public Class MetricsBatchResultValues" />
+  <TypeSignature Language="F#" Value="type MetricsBatchResultValues = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Monitor.Query</AssemblyName>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> The MetricResultsResponseValuesItem. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EndTime">
+      <MemberSignature Language="C#" Value="public DateTimeOffset EndTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTimeOffset EndTime" />
+      <MemberSignature Language="DocId" Value="P:Azure.Monitor.Query.Models.MetricsBatchResultValues.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndTime As DateTimeOffset" />
+      <MemberSignature Language="F#" Value="member this.EndTime : DateTimeOffset" Usage="Azure.Monitor.Query.Models.MetricsBatchResultValues.EndTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.Query</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTimeOffset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The end time, in datetime format, for which the data was retrieved. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Interval">
+      <MemberSignature Language="C#" Value="public TimeSpan? Interval { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; Interval" />
+      <MemberSignature Language="DocId" Value="P:Azure.Monitor.Query.Models.MetricsBatchResultValues.Interval" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Interval As Nullable(Of TimeSpan)" />
+      <MemberSignature Language="F#" Value="member this.Interval : Nullable&lt;TimeSpan&gt;" Usage="Azure.Monitor.Query.Models.MetricsBatchResultValues.Interval" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.Query</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The interval (window size) for which the metric data was returned in. Follows the IS8601/RFC3339 duration format (e.g. 'P1D' for 1 day). This may be adjusted in the future and returned back from what was originally requested.  This is not present if a metadata request was made. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Metrics">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Azure.Monitor.Query.Models.MetricResult&gt; Metrics { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.Monitor.Query.Models.MetricResult&gt; Metrics" />
+      <MemberSignature Language="DocId" Value="P:Azure.Monitor.Query.Models.MetricsBatchResultValues.Metrics" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Metrics As IReadOnlyList(Of MetricResult)" />
+      <MemberSignature Language="F#" Value="member this.Metrics : System.Collections.Generic.IReadOnlyList&lt;Azure.Monitor.Query.Models.MetricResult&gt;" Usage="Azure.Monitor.Query.Models.MetricsBatchResultValues.Metrics" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.Query</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.Monitor.Query.Models.MetricResult&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The value of the collection. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Namespace">
+      <MemberSignature Language="C#" Value="public string Namespace { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Namespace" />
+      <MemberSignature Language="DocId" Value="P:Azure.Monitor.Query.Models.MetricsBatchResultValues.Namespace" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Namespace As String" />
+      <MemberSignature Language="F#" Value="member this.Namespace : string" Usage="Azure.Monitor.Query.Models.MetricsBatchResultValues.Namespace" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.Query</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The namespace of the metrics been queried. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceId">
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier ResourceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier ResourceId" />
+      <MemberSignature Language="DocId" Value="P:Azure.Monitor.Query.Models.MetricsBatchResultValues.ResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.ResourceId : Azure.Core.ResourceIdentifier" Usage="Azure.Monitor.Query.Models.MetricsBatchResultValues.ResourceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.Query</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The resource that has been queried for metrics. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResourceRegion">
+      <MemberSignature Language="C#" Value="public Azure.Core.AzureLocation ResourceRegion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Core.AzureLocation ResourceRegion" />
+      <MemberSignature Language="DocId" Value="P:Azure.Monitor.Query.Models.MetricsBatchResultValues.ResourceRegion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResourceRegion As AzureLocation" />
+      <MemberSignature Language="F#" Value="member this.ResourceRegion : Azure.Core.AzureLocation" Usage="Azure.Monitor.Query.Models.MetricsBatchResultValues.ResourceRegion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.Query</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Core.AzureLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The region of the resource been queried for metrics. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public DateTimeOffset StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTimeOffset StartTime" />
+      <MemberSignature Language="DocId" Value="P:Azure.Monitor.Query.Models.MetricsBatchResultValues.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As DateTimeOffset" />
+      <MemberSignature Language="F#" Value="member this.StartTime : DateTimeOffset" Usage="Azure.Monitor.Query.Models.MetricsBatchResultValues.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.Query</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTimeOffset</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The start time, in datetime format, for which the data was retrieved. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
