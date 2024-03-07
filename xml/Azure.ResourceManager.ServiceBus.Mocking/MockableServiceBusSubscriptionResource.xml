@@ -56,7 +56,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the give namespace name availability.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ServiceBus/CheckNameAvailability</description></item><item><term>Operation Id</term><description>Namespaces_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ServiceBus/CheckNameAvailability</description></item><item><term>Operation Id</term><description>Namespaces_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -86,7 +86,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check the give namespace name availability.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ServiceBus/CheckNameAvailability</description></item><item><term>Operation Id</term><description>Namespaces_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ServiceBus/CheckNameAvailability</description></item><item><term>Operation Id</term><description>Namespaces_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -114,7 +114,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all the available namespaces within the subscription, irrespective of the resource groups.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ServiceBus/namespaces</description></item><item><term>Operation Id</term><description>Namespaces_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ServiceBus/namespaces</description></item><item><term>Operation Id</term><description>Namespaces_List</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -140,7 +140,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all the available namespaces within the subscription, irrespective of the resource groups.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ServiceBus/namespaces</description></item><item><term>Operation Id</term><description>Namespaces_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ServiceBus/namespaces</description></item><item><term>Operation Id</term><description>Namespaces_List</description></item><item><term>Default Api Version</term><description>2022-10-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.ServiceBus.ServiceBusNamespaceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>

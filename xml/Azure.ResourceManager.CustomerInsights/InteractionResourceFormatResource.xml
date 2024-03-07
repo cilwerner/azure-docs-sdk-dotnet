@@ -112,7 +112,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified interaction.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}</description></item><item><term>Operation Id</term><description>Interactions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}</description></item><item><term>Operation Id</term><description>Interactions_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.InteractionResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -140,7 +140,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified interaction.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}</description></item><item><term>Operation Id</term><description>Interactions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}</description></item><item><term>Operation Id</term><description>Interactions_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.InteractionResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -205,7 +205,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Suggests relationships to create relationship links.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}/suggestRelationshipLinks</description></item><item><term>Operation Id</term><description>Interactions_SuggestRelationshipLinks</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}/suggestRelationshipLinks</description></item><item><term>Operation Id</term><description>Interactions_SuggestRelationshipLinks</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.InteractionResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -231,7 +231,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Suggests relationships to create relationship links.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}/suggestRelationshipLinks</description></item><item><term>Operation Id</term><description>Interactions_SuggestRelationshipLinks</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}/suggestRelationshipLinks</description></item><item><term>Operation Id</term><description>Interactions_SuggestRelationshipLinks</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.InteractionResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -262,7 +262,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates an interaction or updates an existing interaction within a hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}</description></item><item><term>Operation Id</term><description>Interactions_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}</description></item><item><term>Operation Id</term><description>Interactions_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.InteractionResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -295,7 +295,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates an interaction or updates an existing interaction within a hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}</description></item><item><term>Operation Id</term><description>Interactions_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/interactions/{interactionName}</description></item><item><term>Operation Id</term><description>Interactions_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.InteractionResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

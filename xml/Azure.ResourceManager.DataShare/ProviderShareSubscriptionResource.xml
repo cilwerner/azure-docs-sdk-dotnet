@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -33,6 +34,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource&gt;</ReturnType>
@@ -63,7 +66,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Adjust a share subscription's expiration date in a provider share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}/adjust</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_Adjust</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}/adjust</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_Adjust</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -80,6 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource&gt;&gt;</ReturnType>
@@ -93,7 +97,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Adjust a share subscription's expiration date in a provider share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}/adjust</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_Adjust</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}/adjust</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_Adjust</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -110,6 +114,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -142,6 +147,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataShare.ProviderShareSubscriptionData</ReturnType>
@@ -163,6 +169,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource&gt;</ReturnType>
@@ -174,7 +181,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get share subscription in a provider share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_GetByShare</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_GetByShare</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -189,6 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource&gt;&gt;</ReturnType>
@@ -200,7 +208,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get share subscription in a provider share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_GetByShare</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_GetByShare</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -215,6 +223,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -235,6 +244,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource&gt;</ReturnType>
@@ -248,7 +258,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Reinstate share subscription in a provider share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}/reinstate</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_Reinstate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}/reinstate</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_Reinstate</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -265,6 +275,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource&gt;&gt;</ReturnType>
@@ -278,7 +289,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Reinstate share subscription in a provider share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}/reinstate</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_Reinstate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}/reinstate</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_Reinstate</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -295,6 +306,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -314,6 +326,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource&gt;</ReturnType>
@@ -328,7 +341,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Revoke share subscription in a provider share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}/revoke</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_Revoke</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}/revoke</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_Revoke</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -343,6 +356,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataShare</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource&gt;&gt;</ReturnType>
@@ -357,7 +371,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Revoke share subscription in a provider share
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}/revoke</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_Revoke</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataShare/accounts/{accountName}/shares/{shareName}/providerShareSubscriptions/{providerShareSubscriptionId}/revoke</description></item><item><term>Operation Id</term><description>ProviderShareSubscriptions_Revoke</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataShare.ProviderShareSubscriptionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

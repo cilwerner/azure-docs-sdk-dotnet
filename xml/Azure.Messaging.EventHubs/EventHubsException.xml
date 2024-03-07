@@ -26,6 +26,8 @@
     <AssemblyVersion>5.9.3.0</AssemblyVersion>
     <AssemblyVersion>5.10.0.0</AssemblyVersion>
     <AssemblyVersion>5.11.0.0</AssemblyVersion>
+    <AssemblyVersion>5.11.1.0</AssemblyVersion>
+    <AssemblyVersion>5.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Exception</BaseTypeName>
@@ -49,7 +51,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="isTransient" Type="System.Boolean" />
@@ -74,7 +77,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="isTransient" Type="System.Boolean" />
@@ -101,7 +105,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="isTransient" Type="System.Boolean" />
@@ -128,7 +133,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventHubName" Type="System.String" />
@@ -155,7 +161,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="isTransient" Type="System.Boolean" />
@@ -184,7 +191,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="isTransient" Type="System.Boolean" />
@@ -213,7 +221,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="isTransient" Type="System.Boolean" />
@@ -244,7 +253,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -266,7 +276,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -289,7 +300,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -311,7 +323,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.EventHubsException+FailureReason</ReturnType>
@@ -334,7 +347,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

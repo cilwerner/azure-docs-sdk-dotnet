@@ -32,6 +32,7 @@
     <AssemblyVersion>1.36.0.0</AssemblyVersion>
     <AssemblyVersion>1.37.0.0</AssemblyVersion>
     <AssemblyVersion>1.38.0.0</AssemblyVersion>
+    <AssemblyVersion>1.39.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="T" />
@@ -65,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -85,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -111,6 +114,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Azure.Page&lt;T&gt;&gt;</ReturnType>
@@ -148,6 +152,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.CancellationToken</ReturnType>
@@ -171,6 +176,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -203,6 +209,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;T&gt;</ReturnType>
@@ -232,6 +239,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -261,6 +269,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -293,6 +302,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.IEnumerator</ReturnType>
@@ -314,6 +324,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

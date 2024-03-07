@@ -12,6 +12,8 @@
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.1.0</AssemblyVersion>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
+    <AssemblyVersion>1.5.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -35,7 +37,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -52,7 +55,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;</ReturnType>
@@ -68,7 +72,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -84,7 +88,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;&gt;</ReturnType>
@@ -100,7 +105,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -116,7 +121,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -144,7 +150,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchAccountData</ReturnType>
@@ -165,7 +172,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -180,7 +188,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified Batch account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Delete</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Delete</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -194,7 +202,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -209,7 +218,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified Batch account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Delete</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Delete</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -223,7 +232,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;</ReturnType>
@@ -235,7 +245,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified Batch account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -249,7 +259,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;&gt;</ReturnType>
@@ -261,7 +272,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified Batch account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -275,7 +286,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountCertificateResource&gt;</ReturnType>
@@ -289,7 +301,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Warning: This operation is deprecated and will be removed after February, 2024. Please use the [Azure KeyVault Extension](https://learn.microsoft.com/azure/batch/batch-certificate-migration-guide) instead.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/certificates/{certificateName}</description></item><item><term>Operation Id</term><description>Certificate_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountCertificateResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/certificates/{certificateName}</description></item><item><term>Operation Id</term><description>Certificate_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountCertificateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -307,7 +319,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountCertificateResource&gt;&gt;</ReturnType>
@@ -321,7 +334,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Warning: This operation is deprecated and will be removed after February, 2024. Please use the [Azure KeyVault Extension](https://learn.microsoft.com/azure/batch/batch-certificate-migration-guide) instead.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/certificates/{certificateName}</description></item><item><term>Operation Id</term><description>Certificate_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountCertificateResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/certificates/{certificateName}</description></item><item><term>Operation Id</term><description>Certificate_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountCertificateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -339,7 +352,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchAccountCertificateCollection</ReturnType>
@@ -360,7 +374,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountDetectorResource&gt;</ReturnType>
@@ -374,7 +389,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the given detector for a given Batch account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/detectors/{detectorId}</description></item><item><term>Operation Id</term><description>BatchAccount_GetDetector</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountDetectorResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/detectors/{detectorId}</description></item><item><term>Operation Id</term><description>BatchAccount_GetDetector</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountDetectorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -392,7 +407,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountDetectorResource&gt;&gt;</ReturnType>
@@ -406,7 +422,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the given detector for a given Batch account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/detectors/{detectorId}</description></item><item><term>Operation Id</term><description>BatchAccount_GetDetector</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountDetectorResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/detectors/{detectorId}</description></item><item><term>Operation Id</term><description>BatchAccount_GetDetector</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountDetectorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -424,7 +440,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchAccountDetectorCollection</ReturnType>
@@ -445,7 +462,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountPoolResource&gt;</ReturnType>
@@ -459,7 +477,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified pool.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/pools/{poolName}</description></item><item><term>Operation Id</term><description>Pool_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountPoolResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/pools/{poolName}</description></item><item><term>Operation Id</term><description>Pool_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -477,7 +495,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountPoolResource&gt;&gt;</ReturnType>
@@ -491,7 +510,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified pool.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/pools/{poolName}</description></item><item><term>Operation Id</term><description>Pool_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountPoolResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/pools/{poolName}</description></item><item><term>Operation Id</term><description>Pool_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -509,7 +528,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchAccountPoolCollection</ReturnType>
@@ -530,7 +550,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchApplicationResource&gt;</ReturnType>
@@ -544,7 +565,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified application.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/applications/{applicationName}</description></item><item><term>Operation Id</term><description>Application_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchApplicationResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/applications/{applicationName}</description></item><item><term>Operation Id</term><description>Application_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchApplicationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -562,7 +583,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchApplicationResource&gt;&gt;</ReturnType>
@@ -576,7 +598,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified application.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/applications/{applicationName}</description></item><item><term>Operation Id</term><description>Application_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchApplicationResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/applications/{applicationName}</description></item><item><term>Operation Id</term><description>Application_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchApplicationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -594,7 +616,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchApplicationCollection</ReturnType>
@@ -615,7 +638,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchPrivateEndpointConnectionResource&gt;</ReturnType>
@@ -629,7 +653,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified private endpoint connection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnection_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchPrivateEndpointConnectionResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnection_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -647,7 +671,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchPrivateEndpointConnectionResource&gt;&gt;</ReturnType>
@@ -661,7 +686,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified private endpoint connection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnection_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchPrivateEndpointConnectionResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnection_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -679,7 +704,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchPrivateEndpointConnectionCollection</ReturnType>
@@ -700,7 +726,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchPrivateLinkResource&gt;</ReturnType>
@@ -714,7 +741,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified private link resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/privateLinkResources/{privateLinkResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResource_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchPrivateLinkResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/privateLinkResources/{privateLinkResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResource_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchPrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -732,7 +759,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchPrivateLinkResource&gt;&gt;</ReturnType>
@@ -746,7 +774,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified private link resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/privateLinkResources/{privateLinkResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResource_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchPrivateLinkResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/privateLinkResources/{privateLinkResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResource_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchPrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -764,7 +792,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Batch.BatchPrivateLinkResourceCollection</ReturnType>
@@ -785,7 +814,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.Models.BatchAccountKeys&gt;</ReturnType>
@@ -797,7 +827,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             This operation applies only to Batch accounts with allowedAuthenticationModes containing 'SharedKey'. If the Batch account doesn't contain 'SharedKey' in its allowedAuthenticationMode, clients cannot use shared keys to authenticate, and must use another allowedAuthenticationModes instead. In this case, getting the keys will fail.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/listKeys</description></item><item><term>Operation Id</term><description>BatchAccount_GetKeys</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/listKeys</description></item><item><term>Operation Id</term><description>BatchAccount_GetKeys</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -811,7 +841,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.Models.BatchAccountKeys&gt;&gt;</ReturnType>
@@ -823,7 +854,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             This operation applies only to Batch accounts with allowedAuthenticationModes containing 'SharedKey'. If the Batch account doesn't contain 'SharedKey' in its allowedAuthenticationMode, clients cannot use shared keys to authenticate, and must use another allowedAuthenticationModes instead. In this case, getting the keys will fail.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/listKeys</description></item><item><term>Operation Id</term><description>BatchAccount_GetKeys</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/listKeys</description></item><item><term>Operation Id</term><description>BatchAccount_GetKeys</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -837,7 +868,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Batch.Models.BatchAccountOutboundEnvironmentEndpoint&gt;</ReturnType>
@@ -849,7 +881,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the endpoints that a Batch Compute Node under this Batch Account may call as part of Batch service administration. If you are deploying a Pool inside of a virtual network that you specify, you must make sure your network allows outbound access to these endpoints. Failure to allow access to these endpoints may cause Batch to mark the affected nodes as unusable. For more information about creating a pool inside of a virtual network, see https://docs.microsoft.com/en-us/azure/batch/batch-virtual-network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/outboundNetworkDependenciesEndpoints</description></item><item><term>Operation Id</term><description>BatchAccount_ListOutboundNetworkDependenciesEndpoints</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/outboundNetworkDependenciesEndpoints</description></item><item><term>Operation Id</term><description>BatchAccount_ListOutboundNetworkDependenciesEndpoints</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Batch.Models.BatchAccountOutboundEnvironmentEndpoint" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -863,7 +895,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Batch.Models.BatchAccountOutboundEnvironmentEndpoint&gt;</ReturnType>
@@ -875,7 +908,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the endpoints that a Batch Compute Node under this Batch Account may call as part of Batch service administration. If you are deploying a Pool inside of a virtual network that you specify, you must make sure your network allows outbound access to these endpoints. Failure to allow access to these endpoints may cause Batch to mark the affected nodes as unusable. For more information about creating a pool inside of a virtual network, see https://docs.microsoft.com/en-us/azure/batch/batch-virtual-network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/outboundNetworkDependenciesEndpoints</description></item><item><term>Operation Id</term><description>BatchAccount_ListOutboundNetworkDependenciesEndpoints</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/outboundNetworkDependenciesEndpoints</description></item><item><term>Operation Id</term><description>BatchAccount_ListOutboundNetworkDependenciesEndpoints</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Batch.Models.BatchAccountOutboundEnvironmentEndpoint" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -889,7 +922,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -909,7 +943,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.Models.BatchAccountKeys&gt;</ReturnType>
@@ -923,7 +958,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             This operation applies only to Batch accounts with allowedAuthenticationModes containing 'SharedKey'. If the Batch account doesn't contain 'SharedKey' in its allowedAuthenticationMode, clients cannot use shared keys to authenticate, and must use another allowedAuthenticationModes instead. In this case, regenerating the keys will fail.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/regenerateKeys</description></item><item><term>Operation Id</term><description>BatchAccount_RegenerateKey</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/regenerateKeys</description></item><item><term>Operation Id</term><description>BatchAccount_RegenerateKey</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -939,7 +974,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.Models.BatchAccountKeys&gt;&gt;</ReturnType>
@@ -953,7 +989,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             This operation applies only to Batch accounts with allowedAuthenticationModes containing 'SharedKey'. If the Batch account doesn't contain 'SharedKey' in its allowedAuthenticationMode, clients cannot use shared keys to authenticate, and must use another allowedAuthenticationModes instead. In this case, regenerating the keys will fail.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/regenerateKeys</description></item><item><term>Operation Id</term><description>BatchAccount_RegenerateKey</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/regenerateKeys</description></item><item><term>Operation Id</term><description>BatchAccount_RegenerateKey</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -969,7 +1005,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;</ReturnType>
@@ -983,7 +1020,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -999,7 +1036,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;&gt;</ReturnType>
@@ -1013,7 +1051,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1029,7 +1067,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1048,7 +1087,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;</ReturnType>
@@ -1062,7 +1102,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1078,7 +1118,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;&gt;</ReturnType>
@@ -1092,7 +1133,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Get</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1108,7 +1149,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -1120,7 +1162,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Synchronizes access keys for the auto-storage account configured for the specified Batch account, only if storage key authentication is being used.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/syncAutoStorageKeys</description></item><item><term>Operation Id</term><description>BatchAccount_SynchronizeAutoStorageKeys</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/syncAutoStorageKeys</description></item><item><term>Operation Id</term><description>BatchAccount_SynchronizeAutoStorageKeys</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1134,7 +1176,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -1146,7 +1189,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Synchronizes access keys for the auto-storage account configured for the specified Batch account, only if storage key authentication is being used.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/syncAutoStorageKeys</description></item><item><term>Operation Id</term><description>BatchAccount_SynchronizeAutoStorageKeys</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}/syncAutoStorageKeys</description></item><item><term>Operation Id</term><description>BatchAccount_SynchronizeAutoStorageKeys</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1160,7 +1203,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;</ReturnType>
@@ -1174,7 +1218,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the properties of an existing Batch account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Update</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Update</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1190,7 +1234,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Batch</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <AssemblyVersion>1.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Batch.BatchAccountResource&gt;&gt;</ReturnType>
@@ -1204,7 +1249,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the properties of an existing Batch account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Update</description></item><item><term>Default Api Version</term><description>2023-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Batch/batchAccounts/{accountName}</description></item><item><term>Operation Id</term><description>BatchAccount_Update</description></item><item><term>Default Api Version</term><description>2024-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Batch.BatchAccountResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

@@ -7,6 +7,8 @@
   <AssemblyInfo>
     <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
     <AssemblyVersion>5.11.0.0</AssemblyVersion>
+    <AssemblyVersion>5.11.1.0</AssemblyVersion>
+    <AssemblyVersion>5.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -32,7 +34,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="sequenceNumber" Type="System.Int64" />
@@ -57,7 +60,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -84,7 +88,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -117,7 +122,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.Processor.CheckpointPosition</ReturnType>
@@ -143,7 +149,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -172,7 +179,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -201,7 +209,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -230,7 +239,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -252,7 +262,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
-        <AssemblyVersion>5.11.0.0</AssemblyVersion>
+        <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

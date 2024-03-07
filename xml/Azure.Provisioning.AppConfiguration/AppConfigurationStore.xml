@@ -1,0 +1,86 @@
+<Type Name="AppConfigurationStore" FullName="Azure.Provisioning.AppConfiguration.AppConfigurationStore">
+  <TypeSignature Language="C#" Value="public class AppConfigurationStore : Azure.Provisioning.Resource&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreData&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AppConfigurationStore extends Azure.Provisioning.Resource`1&lt;class Azure.ResourceManager.AppConfiguration.AppConfigurationStoreData&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.AppConfiguration.AppConfigurationStore" />
+  <TypeSignature Language="VB.NET" Value="Public Class AppConfigurationStore&#xA;Inherits Resource(Of AppConfigurationStoreData)" />
+  <TypeSignature Language="F#" Value="type AppConfigurationStore = class&#xA;    inherit Resource&lt;AppConfigurationStoreData&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Resource&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreData&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Azure.ResourceManager.AppConfiguration.AppConfigurationStoreData</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents a KeyVault.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AppConfigurationStore (Azure.Provisioning.IConstruct scope, Azure.Provisioning.ResourceManager.ResourceGroup? parent = default, string name = &quot;store&quot;, string version = &quot;2023-03-01&quot;, Azure.Core.AzureLocation? location = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Provisioning.IConstruct scope, class Azure.Provisioning.ResourceManager.ResourceGroup parent, string name, string version, valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; location) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppConfiguration.AppConfigurationStore.#ctor(Azure.Provisioning.IConstruct,Azure.Provisioning.ResourceManager.ResourceGroup,System.String,System.String,System.Nullable{Azure.Core.AzureLocation})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (scope As IConstruct, Optional parent As ResourceGroup = Nothing, Optional name As String = &quot;store&quot;, Optional version As String = &quot;2023-03-01&quot;, Optional location As Nullable(Of AzureLocation) = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.Provisioning.AppConfiguration.AppConfigurationStore : Azure.Provisioning.IConstruct * Azure.Provisioning.ResourceManager.ResourceGroup * string * string * Nullable&lt;Azure.Core.AzureLocation&gt; -&gt; Azure.Provisioning.AppConfiguration.AppConfigurationStore" Usage="new Azure.Provisioning.AppConfiguration.AppConfigurationStore (scope, parent, name, version, location)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="scope" Type="Azure.Provisioning.IConstruct" />
+        <Parameter Name="parent" Type="Azure.Provisioning.ResourceManager.ResourceGroup" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="version" Type="System.String" />
+        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="scope">The scope.</param>
+        <param name="parent">The parent.</param>
+        <param name="name">The name.</param>
+        <param name="version">The version.</param>
+        <param name="location">The location.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.Provisioning.AppConfiguration.AppConfigurationStore" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromExisting">
+      <MemberSignature Language="C#" Value="public static Azure.Provisioning.AppConfiguration.AppConfigurationStore FromExisting (Azure.Provisioning.IConstruct scope, string name, Azure.Provisioning.ResourceManager.ResourceGroup? parent = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Provisioning.AppConfiguration.AppConfigurationStore FromExisting(class Azure.Provisioning.IConstruct scope, string name, class Azure.Provisioning.ResourceManager.ResourceGroup parent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppConfiguration.AppConfigurationStore.FromExisting(Azure.Provisioning.IConstruct,System.String,Azure.Provisioning.ResourceManager.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromExisting (scope As IConstruct, name As String, Optional parent As ResourceGroup = Nothing) As AppConfigurationStore" />
+      <MemberSignature Language="F#" Value="static member FromExisting : Azure.Provisioning.IConstruct * string * Azure.Provisioning.ResourceManager.ResourceGroup -&gt; Azure.Provisioning.AppConfiguration.AppConfigurationStore" Usage="Azure.Provisioning.AppConfiguration.AppConfigurationStore.FromExisting (scope, name, parent)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.AppConfiguration.AppConfigurationStore</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scope" Type="Azure.Provisioning.IConstruct" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parent" Type="Azure.Provisioning.ResourceManager.ResourceGroup" />
+      </Parameters>
+      <Docs>
+        <param name="scope">The scope.</param>
+        <param name="name">The resource name.</param>
+        <param name="parent">The resource group.</param>
+        <summary>
+            Creates a new instance of the <see cref="T:Azure.Provisioning.AppConfiguration.AppConfigurationStore" /> class referencing an existing instance.
+            </summary>
+        <returns>The KeyVault instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
