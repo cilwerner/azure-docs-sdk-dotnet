@@ -36,7 +36,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary> Initializes a new instance of PipelineResource. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.Analytics.Synapse.Artifacts.Models.PipelineResource" />. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

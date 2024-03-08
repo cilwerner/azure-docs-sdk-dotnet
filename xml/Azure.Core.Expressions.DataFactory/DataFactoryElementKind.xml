@@ -141,12 +141,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="KeyVaultSecretReference">
-      <MemberSignature Language="C#" Value="public static Azure.Core.Expressions.DataFactory.DataFactoryElementKind KeyVaultSecretReference { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Core.Expressions.DataFactory.DataFactoryElementKind KeyVaultSecretReference" />
-      <MemberSignature Language="DocId" Value="P:Azure.Core.Expressions.DataFactory.DataFactoryElementKind.KeyVaultSecretReference" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property KeyVaultSecretReference As DataFactoryElementKind" />
-      <MemberSignature Language="F#" Value="static member KeyVaultSecretReference : Azure.Core.Expressions.DataFactory.DataFactoryElementKind" Usage="Azure.Core.Expressions.DataFactory.DataFactoryElementKind.KeyVaultSecretReference" />
+    <Member MemberName="KeyVaultSecret">
+      <MemberSignature Language="C#" Value="public static Azure.Core.Expressions.DataFactory.DataFactoryElementKind KeyVaultSecret { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Core.Expressions.DataFactory.DataFactoryElementKind KeyVaultSecret" />
+      <MemberSignature Language="DocId" Value="P:Azure.Core.Expressions.DataFactory.DataFactoryElementKind.KeyVaultSecret" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property KeyVaultSecret As DataFactoryElementKind" />
+      <MemberSignature Language="F#" Value="static member KeyVaultSecret : Azure.Core.Expressions.DataFactory.DataFactoryElementKind" Usage="Azure.Core.Expressions.DataFactory.DataFactoryElementKind.KeyVaultSecret" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core.Expressions.DataFactory</AssemblyName>
