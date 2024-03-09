@@ -1,7 +1,7 @@
 {
   "Name": "Azure.ResourceManager.PostgreSql",
-  "Version": "1.2.0-alpha.20240308.1",
-  "DevVersion": "1.2.0-alpha.20240308.1",
+  "Version": "1.2.0-alpha.20240309.1",
+  "DevVersion": "1.2.0-alpha.20240309.1",
   "DirectoryPath": "sdk/postgresql/Azure.ResourceManager.PostgreSql",
   "ServiceDirectory": "postgresql",
   "ReadMePath": "sdk/postgresql/Azure.ResourceManager.PostgreSql/README.md",
