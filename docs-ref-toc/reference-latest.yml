@@ -127,6 +127,11 @@
       - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
       - Microsoft.Azure.CognitiveServices.Search.AutoSuggest.Models
       landingPageType: Service
+    - name: Auto Suggest
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest.Models
+      landingPageType: Service
   - name: Automanage
     href: ~/api/overview/azure/latest/automanage.md
     landingPageType: Service
@@ -339,6 +344,46 @@
       children:
       - Microsoft.Azure.CognitiveServices.Personalizer
       - Microsoft.Azure.CognitiveServices.Personalizer.Models
+      landingPageType: Service
+    - name: Custom Image Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch.Models
+      landingPageType: Service
+    - name: Custom Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch.Models
+      landingPageType: Service
+    - name: Entity Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch.Models
+      landingPageType: Service
+    - name: Image Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch.Models
+      landingPageType: Service
+    - name: News Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch.Models
+      landingPageType: Service
+    - name: Video Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch.Models
+      landingPageType: Service
+    - name: Visual Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch.Models
+      landingPageType: Service
+    - name: Web Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch.Models
       landingPageType: Service
     - name: Custom Image Search
       children:
@@ -914,7 +959,6 @@
       children:
       - Azure.Messaging.EventGrid
       - Azure.Messaging.EventGrid.Models
-      - Azure.Messaging.EventGrid.Namespaces
       - Azure.Messaging.EventGrid.SystemEvents
       - Microsoft.Extensions.Azure
     - name: Management
@@ -1055,6 +1099,14 @@
         - Azure.ResourceManager.HealthBot
         - Azure.ResourceManager.HealthBot.Mocking
         - Azure.ResourceManager.HealthBot.Models
+  - name: Health Decision Support
+    landingPageType: Service
+    items:
+    - name: Health Insights
+      children:
+      - Azure.Health.Insights.RadiologyInsights
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
   - name: Healthcare APIs
     href: ~/api/overview/azure/latest/healthcare-apis.md
     landingPageType: Service
@@ -1091,6 +1143,7 @@
       href: ~/api/overview/azure/latest/iot.deviceupdate-readme.md
       children:
       - Azure.IoT.DeviceUpdate
+      - Microsoft.Extensions.Azure
     - name: Microsoft.Azure.Devices
       children:
       - Microsoft.Azure.Devices
@@ -1471,7 +1524,7 @@
       - Microsoft.WindowsAzure.MobileServices.Query
       - Microsoft.WindowsAzure.MobileServices.Sync
       landingPageType: Service
-  - name: monitor
+  - name: Monitor
     href: ~/api/overview/azure/latest/monitor.md
     landingPageType: Service
     items:
@@ -2212,6 +2265,11 @@
     href: ~/api/overview/azure/latest/synapse.md
     landingPageType: Service
     items:
+    - name: Synapse - AccessControl
+      children:
+      - Azure.Analytics.Synapse.AccessControl
+      - Microsoft.Extensions.Azure
+      landingPageType: Service
     - name: Management
       items:
       - name: Resource Management - Synapse

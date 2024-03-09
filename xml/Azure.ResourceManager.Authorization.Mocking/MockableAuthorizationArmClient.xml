@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -26,6 +27,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -43,6 +45,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.AuthorizationProviderOperationsMetadataResource</ReturnType>
@@ -70,6 +73,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.AuthorizationRoleDefinitionResource&gt;</ReturnType>
@@ -85,7 +89,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get role definition by name (GUID).
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleDefinitions/{roleDefinitionId}</description></item><item><term>Operation Id</term><description>RoleDefinitions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleDefinitions/{roleDefinitionId}</description></item><item><term>Operation Id</term><description>RoleDefinitions_Get</description></item><item><term>Default Api Version</term><description>2022-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.AuthorizationRoleDefinitionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -102,6 +106,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.AuthorizationRoleDefinitionResource&gt;&gt;</ReturnType>
@@ -117,7 +122,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get role definition by name (GUID).
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleDefinitions/{roleDefinitionId}</description></item><item><term>Operation Id</term><description>RoleDefinitions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleDefinitions/{roleDefinitionId}</description></item><item><term>Operation Id</term><description>RoleDefinitions_Get</description></item><item><term>Default Api Version</term><description>2022-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.AuthorizationRoleDefinitionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -134,6 +139,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.AuthorizationRoleDefinitionResource</ReturnType>
@@ -161,6 +167,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.AuthorizationRoleDefinitionCollection</ReturnType>
@@ -185,6 +192,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.DenyAssignmentResource&gt;</ReturnType>
@@ -200,7 +208,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified deny assignment.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/denyAssignments/{denyAssignmentId}</description></item><item><term>Operation Id</term><description>DenyAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/denyAssignments/{denyAssignmentId}</description></item><item><term>Operation Id</term><description>DenyAssignments_Get</description></item><item><term>Default Api Version</term><description>2022-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.DenyAssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -219,6 +227,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.DenyAssignmentResource&gt;&gt;</ReturnType>
@@ -234,7 +243,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified deny assignment.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/denyAssignments/{denyAssignmentId}</description></item><item><term>Operation Id</term><description>DenyAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/denyAssignments/{denyAssignmentId}</description></item><item><term>Operation Id</term><description>DenyAssignments_Get</description></item><item><term>Default Api Version</term><description>2022-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.DenyAssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -253,6 +262,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.DenyAssignmentResource</ReturnType>
@@ -280,6 +290,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.DenyAssignmentCollection</ReturnType>
@@ -304,6 +315,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Authorization.Models.EligibleChildResource&gt;</ReturnType>
@@ -319,7 +331,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the child resources of a resource on which user has eligible access
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/eligibleChildResources</description></item><item><term>Operation Id</term><description>EligibleChildResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/eligibleChildResources</description></item><item><term>Operation Id</term><description>EligibleChildResources_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Authorization.Models.EligibleChildResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -336,6 +348,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Authorization.Models.EligibleChildResource&gt;</ReturnType>
@@ -351,7 +364,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the child resources of a resource on which user has eligible access
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/eligibleChildResources</description></item><item><term>Operation Id</term><description>EligibleChildResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/eligibleChildResources</description></item><item><term>Operation Id</term><description>EligibleChildResources_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Authorization.Models.EligibleChildResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -368,6 +381,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentResource&gt;</ReturnType>
@@ -385,7 +399,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a role assignment by scope and name.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignments/{roleAssignmentName}</description></item><item><term>Operation Id</term><description>RoleAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignments/{roleAssignmentName}</description></item><item><term>Operation Id</term><description>RoleAssignments_Get</description></item><item><term>Default Api Version</term><description>2022-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleAssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -402,6 +416,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentResource&gt;&gt;</ReturnType>
@@ -419,7 +434,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a role assignment by scope and name.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignments/{roleAssignmentName}</description></item><item><term>Operation Id</term><description>RoleAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignments/{roleAssignmentName}</description></item><item><term>Operation Id</term><description>RoleAssignments_Get</description></item><item><term>Default Api Version</term><description>2022-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleAssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -436,6 +451,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentResource</ReturnType>
@@ -463,6 +479,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentCollection</ReturnType>
@@ -487,6 +504,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentScheduleResource&gt;</ReturnType>
@@ -502,7 +520,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified role assignment schedule for a resource scope
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignmentSchedules/{roleAssignmentScheduleName}</description></item><item><term>Operation Id</term><description>RoleAssignmentSchedules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignmentSchedules/{roleAssignmentScheduleName}</description></item><item><term>Operation Id</term><description>RoleAssignmentSchedules_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleAssignmentScheduleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -521,6 +539,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentScheduleResource&gt;&gt;</ReturnType>
@@ -536,7 +555,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified role assignment schedule for a resource scope
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignmentSchedules/{roleAssignmentScheduleName}</description></item><item><term>Operation Id</term><description>RoleAssignmentSchedules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignmentSchedules/{roleAssignmentScheduleName}</description></item><item><term>Operation Id</term><description>RoleAssignmentSchedules_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleAssignmentScheduleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -555,6 +574,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentScheduleInstanceResource&gt;</ReturnType>
@@ -570,7 +590,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified role assignment schedule instance.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignmentScheduleInstances/{roleAssignmentScheduleInstanceName}</description></item><item><term>Operation Id</term><description>RoleAssignmentScheduleInstances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignmentScheduleInstances/{roleAssignmentScheduleInstanceName}</description></item><item><term>Operation Id</term><description>RoleAssignmentScheduleInstances_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleAssignmentScheduleInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -589,6 +609,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentScheduleInstanceResource&gt;&gt;</ReturnType>
@@ -604,7 +625,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified role assignment schedule instance.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignmentScheduleInstances/{roleAssignmentScheduleInstanceName}</description></item><item><term>Operation Id</term><description>RoleAssignmentScheduleInstances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignmentScheduleInstances/{roleAssignmentScheduleInstanceName}</description></item><item><term>Operation Id</term><description>RoleAssignmentScheduleInstances_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleAssignmentScheduleInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -623,6 +644,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentScheduleInstanceResource</ReturnType>
@@ -650,6 +672,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentScheduleInstanceCollection</ReturnType>
@@ -674,6 +697,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestResource&gt;</ReturnType>
@@ -689,7 +713,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified role assignment schedule request.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignmentScheduleRequests/{roleAssignmentScheduleRequestName}</description></item><item><term>Operation Id</term><description>RoleAssignmentScheduleRequests_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignmentScheduleRequests/{roleAssignmentScheduleRequestName}</description></item><item><term>Operation Id</term><description>RoleAssignmentScheduleRequests_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -708,6 +732,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestResource&gt;&gt;</ReturnType>
@@ -723,7 +748,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified role assignment schedule request.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignmentScheduleRequests/{roleAssignmentScheduleRequestName}</description></item><item><term>Operation Id</term><description>RoleAssignmentScheduleRequests_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleAssignmentScheduleRequests/{roleAssignmentScheduleRequestName}</description></item><item><term>Operation Id</term><description>RoleAssignmentScheduleRequests_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -742,6 +767,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestResource</ReturnType>
@@ -769,6 +795,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestCollection</ReturnType>
@@ -793,6 +820,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentScheduleResource</ReturnType>
@@ -820,6 +848,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentScheduleCollection</ReturnType>
@@ -844,6 +873,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleEligibilityScheduleResource&gt;</ReturnType>
@@ -859,7 +889,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified role eligibility schedule for a resource scope
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleEligibilitySchedules/{roleEligibilityScheduleName}</description></item><item><term>Operation Id</term><description>RoleEligibilitySchedules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleEligibilitySchedules/{roleEligibilityScheduleName}</description></item><item><term>Operation Id</term><description>RoleEligibilitySchedules_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleEligibilityScheduleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -878,6 +908,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleEligibilityScheduleResource&gt;&gt;</ReturnType>
@@ -893,7 +924,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified role eligibility schedule for a resource scope
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleEligibilitySchedules/{roleEligibilityScheduleName}</description></item><item><term>Operation Id</term><description>RoleEligibilitySchedules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleEligibilitySchedules/{roleEligibilityScheduleName}</description></item><item><term>Operation Id</term><description>RoleEligibilitySchedules_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleEligibilityScheduleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -912,6 +943,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleEligibilityScheduleInstanceResource&gt;</ReturnType>
@@ -927,7 +959,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified role eligibility schedule instance.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleEligibilityScheduleInstances/{roleEligibilityScheduleInstanceName}</description></item><item><term>Operation Id</term><description>RoleEligibilityScheduleInstances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleEligibilityScheduleInstances/{roleEligibilityScheduleInstanceName}</description></item><item><term>Operation Id</term><description>RoleEligibilityScheduleInstances_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleEligibilityScheduleInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -946,6 +978,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleEligibilityScheduleInstanceResource&gt;&gt;</ReturnType>
@@ -961,7 +994,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified role eligibility schedule instance.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleEligibilityScheduleInstances/{roleEligibilityScheduleInstanceName}</description></item><item><term>Operation Id</term><description>RoleEligibilityScheduleInstances_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleEligibilityScheduleInstances/{roleEligibilityScheduleInstanceName}</description></item><item><term>Operation Id</term><description>RoleEligibilityScheduleInstances_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleEligibilityScheduleInstanceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -980,6 +1013,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleEligibilityScheduleInstanceResource</ReturnType>
@@ -1007,6 +1041,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleEligibilityScheduleInstanceCollection</ReturnType>
@@ -1031,6 +1066,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestResource&gt;</ReturnType>
@@ -1046,7 +1082,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified role eligibility schedule request.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleEligibilityScheduleRequests/{roleEligibilityScheduleRequestName}</description></item><item><term>Operation Id</term><description>RoleEligibilityScheduleRequests_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleEligibilityScheduleRequests/{roleEligibilityScheduleRequestName}</description></item><item><term>Operation Id</term><description>RoleEligibilityScheduleRequests_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1065,6 +1101,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestResource&gt;&gt;</ReturnType>
@@ -1080,7 +1117,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified role eligibility schedule request.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleEligibilityScheduleRequests/{roleEligibilityScheduleRequestName}</description></item><item><term>Operation Id</term><description>RoleEligibilityScheduleRequests_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleEligibilityScheduleRequests/{roleEligibilityScheduleRequestName}</description></item><item><term>Operation Id</term><description>RoleEligibilityScheduleRequests_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1099,6 +1136,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestResource</ReturnType>
@@ -1126,6 +1164,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestCollection</ReturnType>
@@ -1150,6 +1189,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleEligibilityScheduleResource</ReturnType>
@@ -1177,6 +1217,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleEligibilityScheduleCollection</ReturnType>
@@ -1201,6 +1242,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleManagementPolicyCollection</ReturnType>
@@ -1225,6 +1267,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleManagementPolicyResource&gt;</ReturnType>
@@ -1240,7 +1283,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified role management policy for a resource scope
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleManagementPolicies/{roleManagementPolicyName}</description></item><item><term>Operation Id</term><description>RoleManagementPolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleManagementPolicies/{roleManagementPolicyName}</description></item><item><term>Operation Id</term><description>RoleManagementPolicies_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleManagementPolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1259,6 +1302,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleManagementPolicyAssignmentResource&gt;</ReturnType>
@@ -1274,7 +1318,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified role management policy assignment for a resource scope
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleManagementPolicyAssignments/{roleManagementPolicyAssignmentName}</description></item><item><term>Operation Id</term><description>RoleManagementPolicyAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleManagementPolicyAssignments/{roleManagementPolicyAssignmentName}</description></item><item><term>Operation Id</term><description>RoleManagementPolicyAssignments_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleManagementPolicyAssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1293,6 +1337,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleManagementPolicyAssignmentResource&gt;&gt;</ReturnType>
@@ -1308,7 +1353,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified role management policy assignment for a resource scope
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleManagementPolicyAssignments/{roleManagementPolicyAssignmentName}</description></item><item><term>Operation Id</term><description>RoleManagementPolicyAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleManagementPolicyAssignments/{roleManagementPolicyAssignmentName}</description></item><item><term>Operation Id</term><description>RoleManagementPolicyAssignments_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleManagementPolicyAssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1327,6 +1372,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleManagementPolicyAssignmentResource</ReturnType>
@@ -1354,6 +1400,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleManagementPolicyAssignmentCollection</ReturnType>
@@ -1378,6 +1425,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleManagementPolicyResource&gt;&gt;</ReturnType>
@@ -1393,7 +1441,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified role management policy for a resource scope
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleManagementPolicies/{roleManagementPolicyName}</description></item><item><term>Operation Id</term><description>RoleManagementPolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Authorization/roleManagementPolicies/{roleManagementPolicyName}</description></item><item><term>Operation Id</term><description>RoleManagementPolicies_Get</description></item><item><term>Default Api Version</term><description>2020-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Authorization.RoleManagementPolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1412,6 +1460,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleManagementPolicyResource</ReturnType>

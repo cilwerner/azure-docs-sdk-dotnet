@@ -71,7 +71,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -104,7 +104,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -191,7 +191,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes an existing Azure Cosmos DB SQL container.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_DeleteSqlContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_DeleteSqlContainer</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -221,7 +221,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes an existing Azure Cosmos DB SQL container.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_DeleteSqlContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_DeleteSqlContainer</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -248,7 +248,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the SQL container under an existing Azure Cosmos DB database account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -275,7 +275,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the SQL container under an existing Azure Cosmos DB database account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -326,7 +326,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the SQL storedProcedure under an existing Azure Cosmos DB database account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/storedProcedures/{storedProcedureName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlStoredProcedure</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/storedProcedures/{storedProcedureName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlStoredProcedure</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlStoredProcedureResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -359,7 +359,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the SQL storedProcedure under an existing Azure Cosmos DB database account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/storedProcedures/{storedProcedureName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlStoredProcedure</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/storedProcedures/{storedProcedureName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlStoredProcedure</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlStoredProcedureResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -414,7 +414,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the SQL trigger under an existing Azure Cosmos DB database account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/triggers/{triggerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlTrigger</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/triggers/{triggerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlTrigger</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlTriggerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -447,7 +447,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the SQL trigger under an existing Azure Cosmos DB database account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/triggers/{triggerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlTrigger</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/triggers/{triggerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlTrigger</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlTriggerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -502,7 +502,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the SQL userDefinedFunction under an existing Azure Cosmos DB database account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/userDefinedFunctions/{userDefinedFunctionName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlUserDefinedFunction</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/userDefinedFunctions/{userDefinedFunctionName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlUserDefinedFunction</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlUserDefinedFunctionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -535,7 +535,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the SQL userDefinedFunction under an existing Azure Cosmos DB database account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/userDefinedFunctions/{userDefinedFunctionName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlUserDefinedFunction</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/userDefinedFunctions/{userDefinedFunctionName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlUserDefinedFunction</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlUserDefinedFunctionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -592,7 +592,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Merges the partitions of a SQL Container
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/partitionMerge</description></item><item><term>Operation Id</term><description>SqlResources_ListSqlContainerPartitionMerge</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/partitionMerge</description></item><item><term>Operation Id</term><description>SqlResources_ListSqlContainerPartitionMerge</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -625,7 +625,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Merges the partitions of a SQL Container
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/partitionMerge</description></item><item><term>Operation Id</term><description>SqlResources_ListSqlContainerPartitionMerge</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/partitionMerge</description></item><item><term>Operation Id</term><description>SqlResources_ListSqlContainerPartitionMerge</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -677,7 +677,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -708,7 +708,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -762,7 +762,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieves continuous backup information for a container resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/retrieveContinuousBackupInformation</description></item><item><term>Operation Id</term><description>SqlResources_RetrieveContinuousBackupInformation</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/retrieveContinuousBackupInformation</description></item><item><term>Operation Id</term><description>SqlResources_RetrieveContinuousBackupInformation</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -796,7 +796,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieves continuous backup information for a container resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/retrieveContinuousBackupInformation</description></item><item><term>Operation Id</term><description>SqlResources_RetrieveContinuousBackupInformation</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}/retrieveContinuousBackupInformation</description></item><item><term>Operation Id</term><description>SqlResources_RetrieveContinuousBackupInformation</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -827,7 +827,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -858,7 +858,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_GetSqlContainer</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -892,7 +892,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create or update an Azure Cosmos DB SQL container
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_CreateUpdateSqlContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_CreateUpdateSqlContainer</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -926,7 +926,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create or update an Azure Cosmos DB SQL container
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_CreateUpdateSqlContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/sqlDatabases/{databaseName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>SqlResources_CreateUpdateSqlContainer</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.CosmosDBSqlContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

@@ -34,6 +34,7 @@
     <AssemblyVersion>7.17.2.0</AssemblyVersion>
     <AssemblyVersion>7.17.3.0</AssemblyVersion>
     <AssemblyVersion>7.17.4.0</AssemblyVersion>
+    <AssemblyVersion>7.18.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.Messaging.ServiceBus.Administration.AuthorizationRule</BaseTypeName>
@@ -56,6 +57,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.4.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="keyName" Type="System.String" />
@@ -78,6 +80,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.4.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="keyName" Type="System.String" />
@@ -102,6 +105,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.4.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="keyName" Type="System.String" />
@@ -128,6 +132,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.4.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -149,6 +154,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.4.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -173,6 +179,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.4.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -197,6 +204,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.4.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -218,6 +226,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.4.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -238,6 +247,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.4.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -264,6 +274,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.4.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -290,6 +301,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.4.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -310,6 +322,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.4.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Azure.Messaging.ServiceBus.Administration.AccessRights&gt;</ReturnType>
@@ -331,6 +344,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.17.4.0</AssemblyVersion>
+        <AssemblyVersion>7.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
