@@ -115,7 +115,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes the protected item.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}</description></item><item><term>Operation Id</term><description>ProtectedItem_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}</description></item><item><term>Operation Id</term><description>ProtectedItem_Delete</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationProtectedItemResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -146,7 +146,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes the protected item.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}</description></item><item><term>Operation Id</term><description>ProtectedItem_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}</description></item><item><term>Operation Id</term><description>ProtectedItem_Delete</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationProtectedItemResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -172,7 +172,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the protected item.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}</description></item><item><term>Operation Id</term><description>ProtectedItem_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}</description></item><item><term>Operation Id</term><description>ProtectedItem_Get</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationProtectedItemResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -198,7 +198,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the protected item.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}</description></item><item><term>Operation Id</term><description>ProtectedItem_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}</description></item><item><term>Operation Id</term><description>ProtectedItem_Get</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationProtectedItemResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -226,7 +226,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the recovery point of a protected item.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}/recoveryPoints/{recoveryPointName}</description></item><item><term>Operation Id</term><description>RecoveryPoints_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}/recoveryPoints/{recoveryPointName}</description></item><item><term>Operation Id</term><description>RecoveryPoints_Get</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationRecoveryPointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -258,7 +258,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the recovery point of a protected item.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}/recoveryPoints/{recoveryPointName}</description></item><item><term>Operation Id</term><description>RecoveryPoints_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}/recoveryPoints/{recoveryPointName}</description></item><item><term>Operation Id</term><description>RecoveryPoints_Get</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationRecoveryPointResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -334,7 +334,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Performs the planned failover on the protected item.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}/plannedFailover</description></item><item><term>Operation Id</term><description>ProtectedItem_PlannedFailover</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}/plannedFailover</description></item><item><term>Operation Id</term><description>ProtectedItem_PlannedFailover</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationProtectedItemResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -365,7 +365,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Performs the planned failover on the protected item.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}/plannedFailover</description></item><item><term>Operation Id</term><description>ProtectedItem_PlannedFailover</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}/plannedFailover</description></item><item><term>Operation Id</term><description>ProtectedItem_PlannedFailover</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationProtectedItemResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -415,7 +415,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates the protected item.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}</description></item><item><term>Operation Id</term><description>ProtectedItem_Create</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}</description></item><item><term>Operation Id</term><description>ProtectedItem_Create</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationProtectedItemResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -448,7 +448,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates the protected item.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}</description></item><item><term>Operation Id</term><description>ProtectedItem_Create</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/protectedItems/{protectedItemName}</description></item><item><term>Operation Id</term><description>ProtectedItem_Create</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationProtectedItemResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

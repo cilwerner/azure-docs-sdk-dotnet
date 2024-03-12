@@ -13,6 +13,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -41,6 +42,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -62,6 +64,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.HealthBot.HealthBotResource&gt;</ReturnType>
@@ -77,7 +80,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2021-08-24</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HealthBot.HealthBotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -98,6 +101,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.HealthBot.HealthBotResource&gt;&gt;</ReturnType>
@@ -113,7 +117,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2021-08-24</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HealthBot.HealthBotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -134,6 +138,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -166,6 +171,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.HealthBot.HealthBotData</ReturnType>
@@ -191,6 +197,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -205,7 +212,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a HealthBot.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Delete</description></item><item><term>Default Api Version</term><description>2021-08-24</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HealthBot.HealthBotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -224,6 +231,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -238,7 +246,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a HealthBot.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Delete</description></item><item><term>Default Api Version</term><description>2021-08-24</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HealthBot.HealthBotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -257,6 +265,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.HealthBot.HealthBotResource&gt;</ReturnType>
@@ -268,7 +277,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a HealthBot.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2021-08-24</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HealthBot.HealthBotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -287,6 +296,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.HealthBot.HealthBotResource&gt;&gt;</ReturnType>
@@ -298,7 +308,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a HealthBot.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2021-08-24</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HealthBot.HealthBotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -317,6 +327,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -341,6 +352,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.HealthBot.HealthBotResource&gt;</ReturnType>
@@ -354,7 +366,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2021-08-24</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HealthBot.HealthBotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -375,6 +387,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.HealthBot.HealthBotResource&gt;&gt;</ReturnType>
@@ -388,7 +401,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2021-08-24</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HealthBot.HealthBotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -409,6 +422,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -432,6 +446,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.HealthBot.HealthBotResource&gt;</ReturnType>
@@ -445,7 +460,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2021-08-24</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HealthBot.HealthBotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -466,6 +481,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.HealthBot.HealthBotResource&gt;&gt;</ReturnType>
@@ -479,7 +495,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Get</description></item><item><term>Default Api Version</term><description>2021-08-24</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HealthBot.HealthBotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -496,6 +512,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.HealthBot.HealthBotResource&gt;</ReturnType>
@@ -509,7 +526,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Patch a HealthBot.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Update</description></item><item><term>Default Api Version</term><description>2021-08-24</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HealthBot.HealthBotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -526,6 +543,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.HealthBot</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.HealthBot.HealthBotResource&gt;&gt;</ReturnType>
@@ -539,7 +557,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Patch a HealthBot.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HealthBot/healthBots/{botName}</description></item><item><term>Operation Id</term><description>Bots_Update</description></item><item><term>Default Api Version</term><description>2021-08-24</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HealthBot.HealthBotResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
