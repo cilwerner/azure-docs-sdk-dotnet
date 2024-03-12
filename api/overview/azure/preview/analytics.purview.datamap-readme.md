@@ -1,28 +1,30 @@
 ---
-title: Azure Purview Administration client library for .NET
-keywords: Azure, dotnet, SDK, API, Azure.Analytics.Purview.Administration, purview
+title: Azure Purview DataMap client library for .NET
+keywords: Azure, dotnet, SDK, API, Azure.Analytics.Purview.DataMap, purview
 ms.date: 03/12/2024
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: purview
 ---
-# Azure Purview Administration client library for .NET - version 1.0.0-alpha.20240312.1 
+# Azure Purview DataMap client library for .NET - version 1.0.0-alpha.20240312.1 
 
 
-Azure Purview Administration contains the Purview Account and Purview MetdataPolicy managed cloud service.
+Microsoft Purview Data Map provides the foundation for data discovery and data governance. Microsoft Purview Data Map is a cloud native PaaS service that captures metadata about enterprise data present in analytics and operation systems on-premises and cloud. Azure PurviewDataMap client provides a set of APIs in Purview Data Map Data Plane. For a full list of APIs, please refer to [Data Map API](https://learn.microsoft.com/rest/api/purview/datamapdataplane/operation-groups?view=rest-purview-datamapdataplane-2023-09-01).
 
-**Please rely heavily on the [service's documentation][account_product_documentation] and our [protocol client docs][protocol_client_quickstart] to use this library**
+**Please rely heavily on the [service's documentation][catalog_service_documentation] and our [protocol client docs][protocol_client_quickstart] to use this library**
 
-[Source code][source_code] | [Package (NuGet)][client_nuget_package] | [Product documentation][account_product_documentation]
+[Source code](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/purview/Azure.Analytics.Purview.DataMap/src) | [Package (NuGet)](https://www.nuget.org/packages) | [API reference documentation](https://learn.microsoft.com/rest/api/purview/datamapdataplane/operation-groups?view=rest-purview-datamapdataplane-2023-09-01) | [Product documentation](/azure)
 
 ## Getting started
 
+This section should include everything a developer needs to do to install and create their first client connection *very quickly*.
+
 ### Install the package
 
-Install the Azure Purview Administration client library for .NET with [NuGet][client_nuget_package]:
+Install the client library for .NET with [NuGet](https://www.nuget.org/packages?q=Azure.Analytics.Purview.DataMap):
 
 ```dotnetcli
-dotnet add package Azure.Analysis.Purview.Administration --prerelease
+dotnet add package Azure.Analytics.Purview.DataMap --prerelease
 ```
 
 ### Prerequisites
@@ -35,20 +37,18 @@ dotnet add package Azure.Analysis.Purview.Administration --prerelease
 
 This document demonstrates using [DefaultAzureCredential][default_cred_ref] to authenticate via Azure Active Directory. However, any of the credentials offered by the [Azure.Identity][azure_identity] will be accepted.  See the [Azure.Identity][azure_identity] documentation for more information about other credentials.
 
-Once you have chosen and configured your credential, you can create instances of the `PurviewAccountClient`, `PurviewMetadataPolicyClient` or `PurviewMetadataRolesClient`.
+Once you have chosen and configured your credential, you can create instances of the `DataMapClient`.
 
 ```C#
 var credential = new DefaultAzureCredential();
-var accountClient = new PurviewAccountClient(new Uri("https://<my-account-name>.purview.azure.com"), credential);
-var policyClient = new PurviewMetadataPolicyClient(new Uri("https://<my-account-name>.purview.azure.com"), "myCollection", credential);
-var roleClient = new PurviewMetadataRolesClient(new Uri("https://<my-account-name>.purview.azure.com"), credential);
+var client = new DataMapClient(new Uri("https://<my-account-name>.purview.azure.com"), credential);
 ```
 
 ## Key concepts
 
 ### Protocol Methods
 
-Operations exposed by the Purview Account SDK for .NET use *protocol methods* to expose the underlying REST operations. You can learn more about how to use SDK Clients which use protocol methods in our [documentation][protocol_client_quickstart].
+Operations exposed by the Purview Catalog SDK for .NET use *protocol methods* to expose the underlying REST operations. You can learn more about how to use SDK Clients which use protocol methods in our [documentation][protocol_client_quickstart].
 
 ### Thread safety
 
@@ -61,44 +61,43 @@ We guarantee that all client instance methods are thread-safe and independent of
 [Long-running operations](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#consuming-long-running-operations-using-operationt) |
 [Handling failures](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#reporting-errors-requestfailedexception) |
 [Diagnostics](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/Diagnostics.md) |
-[Mocking](https://learn.microsoft.com/dotnet/azure/sdk/unit-testing-mocking) |
+[Mocking](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/README.md#mocking) |
 [Client lifetime](https://devblogs.microsoft.com/azure-sdk/lifetime-management-and-thread-safety-guarantees-of-azure-sdk-net-clients/)
 <!-- CLIENT COMMON BAR -->
 
 ## Examples
 
-The following section shows you how to initialize and authenticate your client, then get all of the type definitions in the catalog.
+The following section shows you how to initialize and authenticate your client, then get type definition by name.
 
-### Get All Account Type Definitions
+* [Create Data Map Client](#create-data-map-client)
+* [Get Type Definition By Name](#get-type-definition-by-name)
+* [Get Type By Name Asynchronously](#get-type-by-name-asynchronously)
 
-```C#
-var credential = new DefaultAzureCredential();
-var client = new PurviewAccountClient(new Uri("https://<my-account-name>.purview.azure.com"), credential);
+### Create Data Map Client
 
-var Response response = await client.GetAccountPropertiesAsync();
-using var responseDocument = JsonDocument.Parse(response.Content);
-Console.WriteLine(responseDocument.RootElement.GetProperty("name"));
+```C# Snippet:CreateDataMapClient
+Uri endpoint = TestEnvironment.Endpoint;
+TokenCredential credential = new DefaultAzureCredential();
+DataMapClient dataMapClient = new DataMapClient(endpoint, credential);
 ```
 
-### List All Roles
+### Get Type Definition By Name
 
-```C#
-var credential = new DefaultAzureCredential();
-var client = new PurviewMetadataRolesClient(new Uri("https://<my-account-name>.purview.azure.com"), credential);
+```C# Snippet:GetTypeByName
+TypeDefinition client = dataMapClient.GetTypeDefinitionClient();
+Response response = client.GetByName("AtlasGlossary", null);
+```
 
-AsyncPageable<BinaryData> fetchResponse = client.GetMetadataRolesAsync(new());
-await foreach (BinaryData item in fetchResponse)
-{
-    using var jsonDocument = JsonDocument.Parse(item);
-    JsonElement fetchBodyJson = jsonDocument.RootElement;
-    Console.WriteLine(fetchBodyJson.GetProperty("id"));
-}
+## Get Type By Name Asynchronously
+
+```C# Snippet:DataMapGetTypeByNameAsync
+TypeDefinition client = dataMapClient.GetTypeDefinitionClient();
+var response = await client.GetByNameAsync("AtlasGlossary", null);
 ```
 
 ## Troubleshooting
 
 ### Setting up console logging
-
 The simplest way to see the logs is to enable the console logging.
 To create an Azure SDK log listener that outputs messages to console use AzureEventSourceListener.CreateConsoleLogger method.
 
@@ -124,19 +123,21 @@ When you submit a pull request, a CLA-bot will automatically determine whether y
 This project has adopted the [Microsoft Open Source Code of Conduct][code_of_conduct]. For more information see the [Code of Conduct FAQ][coc_faq] or contact [opencode@microsoft.com][coc_contact] with any additional questions or comments.
 
 <!-- LINKS -->
-[source_code]: https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/purview/Azure.Analytics.Purview.Account/src
-[client_nuget_package]: https://www.nuget.org/packages?q=Azure.Analytics.Purview.Account
-[account_product_documentation]: https://azure.microsoft.com/services/purview/
-[azure_identity]: https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/identity/Azure.Identity
-[protocol_client_quickstart]: https://aka.ms/azsdk/net/protocol/quickstart
+[style-guide-msft]: /style-guide/capitalization
+[style-guide-cloud]: https://aka.ms/azsdk/cloud-style-guide
 [default_cred_ref]: /dotnet/api/azure.identity.defaultazurecredential?view=azure-dotnet
+[azure_identity]: https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/identity/Azure.Identity
+[catalog_service_documentation]: https://azure.microsoft.com/services/purview/
+[catalog_product_documentation]: /azure/purview/
+[protocol_client_quickstart]: https://aka.ms/azsdk/net/protocol/quickstart
 [azure_subscription]: https://azure.microsoft.com/free/dotnet/
-[purview_resource]: /azure/purview
+[purview_resource]: /azure/purview/create-catalog-portal
 [azure_core_diagnostics]: https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/Diagnostics.md
+[contributing]: https://github.com/Azure/azure-sdk-for-net/blob/main/CONTRIBUTING.md
 [cla]: https://cla.microsoft.com
 [code_of_conduct]: https://opensource.microsoft.com/codeofconduct/
 [coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
 [coc_contact]: mailto:opencode@microsoft.com
 
-![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-net%2Fsdk%2Fpurview%2FAzure.Analytics.Purview.Catalog%2FREADME.png)
+![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-net/sdk/purview/Azure.Analytics.Purview.DataMap/README.png)
 
