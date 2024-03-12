@@ -1,7 +1,7 @@
 {
   "Name": "System.ClientModel",
-  "Version": "1.1.0-alpha.20240311.8",
-  "DevVersion": "1.1.0-alpha.20240311.8",
+  "Version": "1.1.0-alpha.20240312.4",
+  "DevVersion": "1.1.0-alpha.20240312.4",
   "DirectoryPath": "sdk/core/System.ClientModel",
   "ServiceDirectory": "core",
   "ReadMePath": "sdk/core/System.ClientModel/README.md",
