@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -33,6 +34,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource&gt;</ReturnType>
@@ -65,7 +68,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -82,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource&gt;&gt;</ReturnType>
@@ -97,7 +101,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -114,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.StateUpdateCommonPostActionResult&gt;</ReturnType>
@@ -128,7 +133,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Atomic update of the given Network Fabric instance. Sync update of NFA resources at Fabric level.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/commitConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_CommitConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/commitConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_CommitConfiguration</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,6 +148,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.StateUpdateCommonPostActionResult&gt;&gt;</ReturnType>
@@ -157,7 +163,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Atomic update of the given Network Fabric instance. Sync update of NFA resources at Fabric level.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/commitConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_CommitConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/commitConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_CommitConfiguration</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -172,6 +178,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -200,6 +207,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricData</ReturnType>
@@ -221,6 +229,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -235,7 +244,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete Network Fabric resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Delete</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -250,6 +259,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -264,7 +274,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete Network Fabric resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Delete</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -279,6 +289,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.DeviceUpdateCommonPostActionResult&gt;</ReturnType>
@@ -293,7 +304,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deprovisions the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/deprovision</description></item><item><term>Operation Id</term><description>NetworkFabrics_deprovision</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/deprovision</description></item><item><term>Operation Id</term><description>NetworkFabrics_deprovision</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -308,6 +319,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.DeviceUpdateCommonPostActionResult&gt;&gt;</ReturnType>
@@ -322,7 +334,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deprovisions the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/deprovision</description></item><item><term>Operation Id</term><description>NetworkFabrics_deprovision</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/deprovision</description></item><item><term>Operation Id</term><description>NetworkFabrics_deprovision</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -337,6 +349,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource&gt;</ReturnType>
@@ -348,7 +361,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Network Fabric resource details.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -363,6 +376,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource&gt;&gt;</ReturnType>
@@ -374,7 +388,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Network Fabric resource details.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -389,6 +403,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkToNetworkInterconnectResource&gt;</ReturnType>
@@ -402,7 +417,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements NetworkToNetworkInterconnects GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/networkToNetworkInterconnects/{networkToNetworkInterconnectName}</description></item><item><term>Operation Id</term><description>NetworkToNetworkInterconnects_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/networkToNetworkInterconnects/{networkToNetworkInterconnectName}</description></item><item><term>Operation Id</term><description>NetworkToNetworkInterconnects_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkToNetworkInterconnectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -421,6 +436,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkToNetworkInterconnectResource&gt;&gt;</ReturnType>
@@ -434,7 +450,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements NetworkToNetworkInterconnects GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/networkToNetworkInterconnects/{networkToNetworkInterconnectName}</description></item><item><term>Operation Id</term><description>NetworkToNetworkInterconnects_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/networkToNetworkInterconnects/{networkToNetworkInterconnectName}</description></item><item><term>Operation Id</term><description>NetworkToNetworkInterconnects_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkToNetworkInterconnectResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -453,6 +469,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagedNetworkFabric.NetworkToNetworkInterconnectCollection</ReturnType>
@@ -474,6 +491,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.ValidateConfigurationResult&gt;</ReturnType>
@@ -488,7 +506,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets Topology of the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/getTopology</description></item><item><term>Operation Id</term><description>NetworkFabrics_GetTopology</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/getTopology</description></item><item><term>Operation Id</term><description>NetworkFabrics_GetTopology</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -503,6 +521,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.ValidateConfigurationResult&gt;&gt;</ReturnType>
@@ -517,7 +536,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets Topology of the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/getTopology</description></item><item><term>Operation Id</term><description>NetworkFabrics_GetTopology</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/getTopology</description></item><item><term>Operation Id</term><description>NetworkFabrics_GetTopology</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -532,6 +551,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -552,6 +572,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.DeviceUpdateCommonPostActionResult&gt;</ReturnType>
@@ -566,7 +587,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Provisions the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/provision</description></item><item><term>Operation Id</term><description>NetworkFabrics_provision</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/provision</description></item><item><term>Operation Id</term><description>NetworkFabrics_provision</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -581,6 +602,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.DeviceUpdateCommonPostActionResult&gt;&gt;</ReturnType>
@@ -595,7 +617,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Provisions the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/provision</description></item><item><term>Operation Id</term><description>NetworkFabrics_provision</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/provision</description></item><item><term>Operation Id</term><description>NetworkFabrics_provision</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -610,6 +632,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.StateUpdateCommonPostActionResult&gt;</ReturnType>
@@ -624,7 +647,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Refreshes the configuration of the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/refreshConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_refreshConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/refreshConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_refreshConfiguration</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -639,6 +662,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.StateUpdateCommonPostActionResult&gt;&gt;</ReturnType>
@@ -653,7 +677,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Refreshes the configuration of the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/refreshConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_refreshConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/refreshConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_refreshConfiguration</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -668,6 +692,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource&gt;</ReturnType>
@@ -681,7 +706,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -698,6 +723,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource&gt;&gt;</ReturnType>
@@ -711,7 +737,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -728,6 +754,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -747,6 +774,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource&gt;</ReturnType>
@@ -760,7 +788,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -777,6 +805,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource&gt;&gt;</ReturnType>
@@ -790,7 +819,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Get</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -807,6 +836,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource&gt;</ReturnType>
@@ -823,7 +853,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update certain properties of the Network Fabric resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Update</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -840,6 +870,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource&gt;&gt;</ReturnType>
@@ -856,7 +887,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update certain properties of the Network Fabric resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}</description></item><item><term>Operation Id</term><description>NetworkFabrics_Update</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -873,6 +904,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.StateUpdateCommonPostActionResult&gt;</ReturnType>
@@ -889,7 +921,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the Infra Management BFD Configuration of the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/updateInfraManagementBfdConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_UpdateInfraManagementBfdConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/updateInfraManagementBfdConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_UpdateInfraManagementBfdConfiguration</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -906,6 +938,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.StateUpdateCommonPostActionResult&gt;&gt;</ReturnType>
@@ -922,7 +955,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the Infra Management BFD Configuration of the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/updateInfraManagementBfdConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_UpdateInfraManagementBfdConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/updateInfraManagementBfdConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_UpdateInfraManagementBfdConfiguration</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -939,6 +972,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.StateUpdateCommonPostActionResult&gt;</ReturnType>
@@ -955,7 +989,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the Workload Management BFD Configuration of the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/updateWorkloadManagementBfdConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_UpdateWorkloadManagementBfdConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/updateWorkloadManagementBfdConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_UpdateWorkloadManagementBfdConfiguration</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -972,6 +1006,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.StateUpdateCommonPostActionResult&gt;&gt;</ReturnType>
@@ -988,7 +1023,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the Workload Management BFD Configuration of the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/updateWorkloadManagementBfdConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_UpdateWorkloadManagementBfdConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/updateWorkloadManagementBfdConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_UpdateWorkloadManagementBfdConfiguration</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1005,6 +1040,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.StateUpdateCommonPostActionResult&gt;</ReturnType>
@@ -1021,7 +1057,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Upgrades the version of the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/upgrade</description></item><item><term>Operation Id</term><description>NetworkFabrics_upgrade</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/upgrade</description></item><item><term>Operation Id</term><description>NetworkFabrics_upgrade</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1038,6 +1074,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.StateUpdateCommonPostActionResult&gt;&gt;</ReturnType>
@@ -1054,7 +1091,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Upgrades the version of the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/upgrade</description></item><item><term>Operation Id</term><description>NetworkFabrics_upgrade</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/upgrade</description></item><item><term>Operation Id</term><description>NetworkFabrics_upgrade</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1071,6 +1108,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.ValidateConfigurationResult&gt;</ReturnType>
@@ -1087,7 +1125,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Validates the configuration of the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/validateConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_ValidateConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/validateConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_ValidateConfiguration</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1104,6 +1142,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ManagedNetworkFabric</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ManagedNetworkFabric.Models.ValidateConfigurationResult&gt;&gt;</ReturnType>
@@ -1120,7 +1159,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Validates the configuration of the underlying resources in the given Network Fabric instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/validateConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_ValidateConfiguration</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedNetworkFabric/networkFabrics/{networkFabricName}/validateConfiguration</description></item><item><term>Operation Id</term><description>NetworkFabrics_ValidateConfiguration</description></item><item><term>Default Api Version</term><description>2023-06-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ManagedNetworkFabric.NetworkFabricResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

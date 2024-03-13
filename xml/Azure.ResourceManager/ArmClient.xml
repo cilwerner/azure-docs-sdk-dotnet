@@ -453,17 +453,21 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager</AssemblyName>
         <AssemblyVersion>1.10.2.0</AssemblyVersion>
+        <AssemblyVersion>1.11.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ManagementGroups.ManagementGroupSubscriptionResource</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
-        <param name="id">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="id"> The resource ID of the resource to get. </param>
+        <summary>
+            Gets an object representing a <see cref="T:Azure.ResourceManager.ManagementGroups.ManagementGroupSubscriptionResource" /> along with the instance operations that can be performed on it but with no data.
+            You can use <see cref="M:Azure.ResourceManager.ManagementGroups.ManagementGroupSubscriptionResource.CreateResourceIdentifier(System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.ManagementGroups.ManagementGroupSubscriptionResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
+            </summary>
+        <returns> Returns a <see cref="T:Azure.ResourceManager.ManagementGroups.ManagementGroupSubscriptionResource" /> object. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

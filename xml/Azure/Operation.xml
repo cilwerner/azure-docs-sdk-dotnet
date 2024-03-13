@@ -1,9 +1,12 @@
 <Type Name="Operation" FullName="Azure.Operation">
-  <TypeSignature Language="C#" Value="public abstract class Operation" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Operation extends System.Object" />
+  <TypeSignature Language="C#" Value="public abstract class Operation" FrameworkAlternate="azure-dotnet" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Operation extends System.Object" FrameworkAlternate="azure-dotnet" />
   <TypeSignature Language="DocId" Value="T:Azure.Operation" />
-  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Operation" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Operation" FrameworkAlternate="azure-dotnet" />
   <TypeSignature Language="F#" Value="type Operation = class" />
+  <TypeSignature Language="C#" Value="public class Operation" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Operation extends System.Object" FrameworkAlternate="azure-dotnet-preview" />
+  <TypeSignature Language="VB.NET" Value="Public Class Operation" FrameworkAlternate="azure-dotnet-preview" />
   <AssemblyInfo>
     <AssemblyName>Azure.Core</AssemblyName>
     <AssemblyVersion>1.13.0.0</AssemblyVersion>
@@ -32,6 +35,7 @@
     <AssemblyVersion>1.36.0.0</AssemblyVersion>
     <AssemblyVersion>1.37.0.0</AssemblyVersion>
     <AssemblyVersion>1.38.0.0</AssemblyVersion>
+    <AssemblyVersion>1.39.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -53,23 +57,52 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary> Initializes a new instance of ArmOperation for mocking. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Operation (Azure.Core.Pipeline.HttpPipeline pipeline, Azure.Core.RehydrationToken? rehydrationToken, Azure.Core.ClientOptions options = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Core.Pipeline.HttpPipeline pipeline, valuetype System.Nullable`1&lt;valuetype Azure.Core.RehydrationToken&gt; rehydrationToken, class Azure.Core.ClientOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Operation.#ctor(Azure.Core.Pipeline.HttpPipeline,System.Nullable{Azure.Core.RehydrationToken},Azure.Core.ClientOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (pipeline As HttpPipeline, rehydrationToken As Nullable(Of RehydrationToken), Optional options As ClientOptions = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.Operation : Azure.Core.Pipeline.HttpPipeline * Nullable&lt;Azure.Core.RehydrationToken&gt; * Azure.Core.ClientOptions -&gt; Azure.Operation" Usage="new Azure.Operation (pipeline, rehydrationToken, options)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Core</AssemblyName>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pipeline" Type="Azure.Core.Pipeline.HttpPipeline" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="rehydrationToken" Type="System.Nullable&lt;Azure.Core.RehydrationToken&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="Azure.Core.ClientOptions" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="pipeline">The Http pipeline.</param>
+        <param name="rehydrationToken">The rehydration token.</param>
+        <param name="options">The client options.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.Operation" /> class.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Operation.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="operation.Equals obj" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -101,6 +134,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -119,15 +153,19 @@
       </Docs>
     </Member>
     <Member MemberName="GetRawResponse">
-      <MemberSignature Language="C#" Value="public abstract Azure.Response GetRawResponse ();" />
+      <MemberSignature Language="C#" Value="public abstract Azure.Response GetRawResponse ();" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response GetRawResponse() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Operation.GetRawResponse" />
-      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetRawResponse () As Response" />
-      <MemberSignature Language="F#" Value="abstract member GetRawResponse : unit -&gt; Azure.Response" Usage="operation.GetRawResponse " />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetRawResponse () As Response" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="F#" Value="abstract member GetRawResponse : unit -&gt; Azure.Response" Usage="operation.GetRawResponse " FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response GetRawResponse ();" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRawResponse () As Response" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="F#" Value="abstract member GetRawResponse : unit -&gt; Azure.Response&#xA;override this.GetRawResponse : unit -&gt; Azure.Response" Usage="operation.GetRawResponse " FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -155,6 +193,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Core.RehydrationToken&gt;</ReturnType>
@@ -169,15 +208,18 @@
       </Docs>
     </Member>
     <Member MemberName="HasCompleted">
-      <MemberSignature Language="C#" Value="public abstract bool HasCompleted { get; }" />
+      <MemberSignature Language="C#" Value="public abstract bool HasCompleted { get; }" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="ILAsm" Value=".property instance bool HasCompleted" />
       <MemberSignature Language="DocId" Value="P:Azure.Operation.HasCompleted" />
-      <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property HasCompleted As Boolean" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property HasCompleted As Boolean" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="F#" Value="member this.HasCompleted : bool" Usage="Azure.Operation.HasCompleted" />
+      <MemberSignature Language="C#" Value="public virtual bool HasCompleted { get; }" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property HasCompleted As Boolean" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -191,15 +233,18 @@
       </Docs>
     </Member>
     <Member MemberName="Id">
-      <MemberSignature Language="C#" Value="public abstract string Id { get; }" />
+      <MemberSignature Language="C#" Value="public abstract string Id { get; }" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="ILAsm" Value=".property instance string Id" />
       <MemberSignature Language="DocId" Value="P:Azure.Operation.Id" />
-      <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property Id As String" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property Id As String" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="F#" Value="member this.Id : string" Usage="Azure.Operation.Id" />
+      <MemberSignature Language="C#" Value="public virtual string Id { get; }" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Id As String" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -214,15 +259,17 @@
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public override string? ToString ();" />
+      <MemberSignature Language="C#" Value="public override string? ToString ();" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Operation.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="operation.ToString " />
+      <MemberSignature Language="C#" Value="public override string ToString ();" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -241,15 +288,19 @@
       </Docs>
     </Member>
     <Member MemberName="UpdateStatus">
-      <MemberSignature Language="C#" Value="public abstract Azure.Response UpdateStatus (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public abstract Azure.Response UpdateStatus (System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response UpdateStatus(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Operation.UpdateStatus(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public MustOverride Function UpdateStatus (Optional cancellationToken As CancellationToken = Nothing) As Response" />
-      <MemberSignature Language="F#" Value="abstract member UpdateStatus : System.Threading.CancellationToken -&gt; Azure.Response" Usage="operation.UpdateStatus cancellationToken" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function UpdateStatus (Optional cancellationToken As CancellationToken = Nothing) As Response" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="F#" Value="abstract member UpdateStatus : System.Threading.CancellationToken -&gt; Azure.Response" Usage="operation.UpdateStatus cancellationToken" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response UpdateStatus (System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateStatus (Optional cancellationToken As CancellationToken = Nothing) As Response" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="F#" Value="abstract member UpdateStatus : System.Threading.CancellationToken -&gt; Azure.Response&#xA;override this.UpdateStatus : System.Threading.CancellationToken -&gt; Azure.Response" Usage="operation.UpdateStatus cancellationToken" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -269,15 +320,19 @@
       </Docs>
     </Member>
     <Member MemberName="UpdateStatusAsync">
-      <MemberSignature Language="C#" Value="public abstract System.Threading.Tasks.ValueTask&lt;Azure.Response&gt; UpdateStatusAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public abstract System.Threading.Tasks.ValueTask&lt;Azure.Response&gt; UpdateStatusAsync (System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;class Azure.Response&gt; UpdateStatusAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Operation.UpdateStatusAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public MustOverride Function UpdateStatusAsync (Optional cancellationToken As CancellationToken = Nothing) As ValueTask(Of Response)" />
-      <MemberSignature Language="F#" Value="abstract member UpdateStatusAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;Azure.Response&gt;" Usage="operation.UpdateStatusAsync cancellationToken" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function UpdateStatusAsync (Optional cancellationToken As CancellationToken = Nothing) As ValueTask(Of Response)" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="F#" Value="abstract member UpdateStatusAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;Azure.Response&gt;" Usage="operation.UpdateStatusAsync cancellationToken" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.ValueTask&lt;Azure.Response&gt; UpdateStatusAsync (System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateStatusAsync (Optional cancellationToken As CancellationToken = Nothing) As ValueTask(Of Response)" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="F#" Value="abstract member UpdateStatusAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;Azure.Response&gt;&#xA;override this.UpdateStatusAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.ValueTask&lt;Azure.Response&gt;" Usage="operation.UpdateStatusAsync cancellationToken" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask&lt;Azure.Response&gt;</ReturnType>
@@ -306,6 +361,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -334,6 +390,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -367,6 +424,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -401,6 +459,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask&lt;Azure.Response&gt;</ReturnType>
@@ -429,6 +488,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask&lt;Azure.Response&gt;</ReturnType>
@@ -462,6 +522,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask&lt;Azure.Response&gt;</ReturnType>

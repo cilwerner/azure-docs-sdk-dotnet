@@ -1,0 +1,171 @@
+<Type Name="WebSite" FullName="Azure.Provisioning.AppService.WebSite">
+  <TypeSignature Language="C#" Value="public class WebSite : Azure.Provisioning.Resource&lt;Azure.ResourceManager.AppService.WebSiteData&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WebSite extends Azure.Provisioning.Resource`1&lt;class Azure.ResourceManager.AppService.WebSiteData&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.Provisioning.AppService.WebSite" />
+  <TypeSignature Language="VB.NET" Value="Public Class WebSite&#xA;Inherits Resource(Of WebSiteData)" />
+  <TypeSignature Language="F#" Value="type WebSite = class&#xA;    inherit Resource&lt;WebSiteData&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Provisioning</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Provisioning.Resource&lt;Azure.ResourceManager.AppService.WebSiteData&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">Azure.ResourceManager.AppService.WebSiteData</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The web site resource.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WebSite (Azure.Provisioning.IConstruct scope, string name, Azure.Provisioning.AppService.AppServicePlan appServicePlan, Azure.Provisioning.AppService.WebSiteRuntime runtime, string runtimeVersion, string version = &quot;2021-02-01&quot;, Azure.Core.AzureLocation? location = default, Azure.Provisioning.ResourceManager.ResourceGroup? parent = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Provisioning.IConstruct scope, string name, class Azure.Provisioning.AppService.AppServicePlan appServicePlan, valuetype Azure.Provisioning.AppService.WebSiteRuntime runtime, string runtimeVersion, string version, valuetype System.Nullable`1&lt;valuetype Azure.Core.AzureLocation&gt; location, class Azure.Provisioning.ResourceManager.ResourceGroup parent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppService.WebSite.#ctor(Azure.Provisioning.IConstruct,System.String,Azure.Provisioning.AppService.AppServicePlan,Azure.Provisioning.AppService.WebSiteRuntime,System.String,System.String,System.Nullable{Azure.Core.AzureLocation},Azure.Provisioning.ResourceManager.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (scope As IConstruct, name As String, appServicePlan As AppServicePlan, runtime As WebSiteRuntime, runtimeVersion As String, Optional version As String = &quot;2021-02-01&quot;, Optional location As Nullable(Of AzureLocation) = Nothing, Optional parent As ResourceGroup = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.Provisioning.AppService.WebSite : Azure.Provisioning.IConstruct * string * Azure.Provisioning.AppService.AppServicePlan * Azure.Provisioning.AppService.WebSiteRuntime * string * string * Nullable&lt;Azure.Core.AzureLocation&gt; * Azure.Provisioning.ResourceManager.ResourceGroup -&gt; Azure.Provisioning.AppService.WebSite" Usage="new Azure.Provisioning.AppService.WebSite (scope, name, appServicePlan, runtime, runtimeVersion, version, location, parent)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="scope" Type="Azure.Provisioning.IConstruct" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="appServicePlan" Type="Azure.Provisioning.AppService.AppServicePlan" />
+        <Parameter Name="runtime" Type="Azure.Provisioning.AppService.WebSiteRuntime" />
+        <Parameter Name="runtimeVersion" Type="System.String" />
+        <Parameter Name="version" Type="System.String" />
+        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" />
+        <Parameter Name="parent" Type="Azure.Provisioning.ResourceManager.ResourceGroup" />
+      </Parameters>
+      <Docs>
+        <param name="scope">The scope.</param>
+        <param name="name">The resource name.</param>
+        <param name="appServicePlan">The appServicePlan.</param>
+        <param name="runtime">The runtime.</param>
+        <param name="runtimeVersion">The runtime version</param>
+        <param name="version">The version.</param>
+        <param name="location">The location.</param>
+        <param name="parent">The resource group. </param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.Provisioning.AppService.WebSite" />.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddApplicationSetting">
+      <MemberSignature Language="C#" Value="public void AddApplicationSetting (string key, Azure.Provisioning.Parameter value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddApplicationSetting(string key, valuetype Azure.Provisioning.Parameter value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppService.WebSite.AddApplicationSetting(System.String,Azure.Provisioning.Parameter)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddApplicationSetting (key As String, value As Parameter)" />
+      <MemberSignature Language="F#" Value="member this.AddApplicationSetting : string * Azure.Provisioning.Parameter -&gt; unit" Usage="webSite.AddApplicationSetting (key, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="value" Type="Azure.Provisioning.Parameter" />
+      </Parameters>
+      <Docs>
+        <param name="key">The key.</param>
+        <param name="value">The value.</param>
+        <summary>
+            Adds an application setting to the web site.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddApplicationSetting">
+      <MemberSignature Language="C#" Value="public void AddApplicationSetting (string key, string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddApplicationSetting(string key, string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppService.WebSite.AddApplicationSetting(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddApplicationSetting (key As String, value As String)" />
+      <MemberSignature Language="F#" Value="member this.AddApplicationSetting : string * string -&gt; unit" Usage="webSite.AddApplicationSetting (key, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="key">The key.</param>
+        <param name="value">The value.</param>
+        <summary>
+            Adds an application setting to the web site.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddLogConfig">
+      <MemberSignature Language="C#" Value="public void AddLogConfig (string resourceName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddLogConfig(string resourceName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppService.WebSite.AddLogConfig(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddLogConfig (resourceName As String)" />
+      <MemberSignature Language="F#" Value="member this.AddLogConfig : string -&gt; unit" Usage="webSite.AddLogConfig resourceName" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resourceName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="resourceName">The resource name.</param>
+        <summary>
+            Adds a log configuration to the web site.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromExisting">
+      <MemberSignature Language="C#" Value="public static Azure.Provisioning.AppService.WebSite FromExisting (Azure.Provisioning.IConstruct scope, string name, Azure.Provisioning.ResourceManager.ResourceGroup? parent = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Provisioning.AppService.WebSite FromExisting(class Azure.Provisioning.IConstruct scope, string name, class Azure.Provisioning.ResourceManager.ResourceGroup parent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Provisioning.AppService.WebSite.FromExisting(Azure.Provisioning.IConstruct,System.String,Azure.Provisioning.ResourceManager.ResourceGroup)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromExisting (scope As IConstruct, name As String, Optional parent As ResourceGroup = Nothing) As WebSite" />
+      <MemberSignature Language="F#" Value="static member FromExisting : Azure.Provisioning.IConstruct * string * Azure.Provisioning.ResourceManager.ResourceGroup -&gt; Azure.Provisioning.AppService.WebSite" Usage="Azure.Provisioning.AppService.WebSite.FromExisting (scope, name, parent)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Provisioning.AppService.WebSite</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="scope" Type="Azure.Provisioning.IConstruct" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parent" Type="Azure.Provisioning.ResourceManager.ResourceGroup" />
+      </Parameters>
+      <Docs>
+        <param name="scope">The scope.</param>
+        <param name="name">The resource name.</param>
+        <param name="parent">The resource group.</param>
+        <summary>
+            Creates a new instance of the <see cref="T:Azure.Provisioning.AppService.AppServicePlan" /> class referencing an existing instance.
+            </summary>
+        <returns>The KeyVault instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

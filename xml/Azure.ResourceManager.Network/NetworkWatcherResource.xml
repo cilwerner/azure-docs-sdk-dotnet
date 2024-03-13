@@ -16,6 +16,7 @@
     <AssemblyVersion>1.5.0.0</AssemblyVersion>
     <AssemblyVersion>1.6.0.0</AssemblyVersion>
     <AssemblyVersion>1.7.0.0</AssemblyVersion>
+    <AssemblyVersion>1.8.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -39,8 +40,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -57,8 +58,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Network.NetworkWatcherResource&gt;</ReturnType>
@@ -90,8 +91,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Network.NetworkWatcherResource&gt;&gt;</ReturnType>
@@ -123,8 +124,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.ConnectivityInformation&gt;</ReturnType>
@@ -157,8 +158,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.ConnectivityInformation&gt;&gt;</ReturnType>
@@ -191,8 +192,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -220,8 +221,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.NetworkWatcherData</ReturnType>
@@ -242,8 +243,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -272,8 +273,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -302,8 +303,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Network.NetworkWatcherResource&gt;</ReturnType>
@@ -329,8 +330,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Network.NetworkWatcherResource&gt;&gt;</ReturnType>
@@ -356,8 +357,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.AvailableProvidersList&gt;</ReturnType>
@@ -390,8 +391,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.AvailableProvidersList&gt;&gt;</ReturnType>
@@ -424,8 +425,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.AzureReachabilityReport&gt;</ReturnType>
@@ -458,8 +459,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.AzureReachabilityReport&gt;&gt;</ReturnType>
@@ -492,8 +493,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Network.ConnectionMonitorResource&gt;</ReturnType>
@@ -525,8 +526,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Network.ConnectionMonitorResource&gt;&gt;</ReturnType>
@@ -558,8 +559,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.ConnectionMonitorCollection</ReturnType>
@@ -580,8 +581,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Network.FlowLogResource&gt;</ReturnType>
@@ -613,8 +614,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Network.FlowLogResource&gt;&gt;</ReturnType>
@@ -646,8 +647,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.FlowLogCollection</ReturnType>
@@ -668,8 +669,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.FlowLogInformation&gt;</ReturnType>
@@ -702,8 +703,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.FlowLogInformation&gt;&gt;</ReturnType>
@@ -736,8 +737,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.NetworkConfigurationDiagnosticResponse&gt;</ReturnType>
@@ -770,8 +771,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.NetworkConfigurationDiagnosticResponse&gt;&gt;</ReturnType>
@@ -804,8 +805,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.NextHopResult&gt;</ReturnType>
@@ -838,8 +839,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.NextHopResult&gt;&gt;</ReturnType>
@@ -872,8 +873,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Network.PacketCaptureResource&gt;</ReturnType>
@@ -905,8 +906,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Network.PacketCaptureResource&gt;&gt;</ReturnType>
@@ -938,8 +939,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Network.PacketCaptureCollection</ReturnType>
@@ -960,8 +961,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Network.Models.NetworkTopology&gt;</ReturnType>
@@ -991,8 +992,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Network.Models.NetworkTopology&gt;&gt;</ReturnType>
@@ -1022,8 +1023,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.TroubleshootingResult&gt;</ReturnType>
@@ -1056,8 +1057,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.TroubleshootingResult&gt;&gt;</ReturnType>
@@ -1090,8 +1091,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.TroubleshootingResult&gt;</ReturnType>
@@ -1124,8 +1125,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.TroubleshootingResult&gt;&gt;</ReturnType>
@@ -1158,8 +1159,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.SecurityGroupViewResult&gt;</ReturnType>
@@ -1192,8 +1193,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.SecurityGroupViewResult&gt;&gt;</ReturnType>
@@ -1226,8 +1227,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1247,8 +1248,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Network.NetworkWatcherResource&gt;</ReturnType>
@@ -1278,8 +1279,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Network.NetworkWatcherResource&gt;&gt;</ReturnType>
@@ -1309,8 +1310,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1329,8 +1330,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.FlowLogInformation&gt;</ReturnType>
@@ -1363,8 +1364,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.FlowLogInformation&gt;&gt;</ReturnType>
@@ -1397,8 +1398,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Network.NetworkWatcherResource&gt;</ReturnType>
@@ -1428,8 +1429,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Network.NetworkWatcherResource&gt;&gt;</ReturnType>
@@ -1459,8 +1460,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Network.NetworkWatcherResource&gt;</ReturnType>
@@ -1490,8 +1491,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Network.NetworkWatcherResource&gt;&gt;</ReturnType>
@@ -1521,8 +1522,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.VerificationIPFlowResult&gt;</ReturnType>
@@ -1555,8 +1556,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Network</AssemblyName>
-        <AssemblyVersion>1.6.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Network.Models.VerificationIPFlowResult&gt;&gt;</ReturnType>

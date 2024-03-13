@@ -1,8 +1,8 @@
 <Type Name="Activity" FullName="Azure.Analytics.Synapse.Artifacts.Models.Activity">
-  <TypeSignature Language="C#" Value="public class Activity" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Activity extends System.Object" />
+  <TypeSignature Language="C#" Value="public abstract class Activity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Activity extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Azure.Analytics.Synapse.Artifacts.Models.Activity" />
-  <TypeSignature Language="VB.NET" Value="Public Class Activity" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Activity" />
   <TypeSignature Language="F#" Value="type Activity = class" />
   <AssemblyInfo>
     <AssemblyName>Azure.Analytics.Synapse.Artifacts</AssemblyName>
@@ -29,10 +29,10 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public Activity (string name);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name) cil managed" />
+      <MemberSignature Language="C#" Value="protected Activity (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Analytics.Synapse.Artifacts.Models.Activity.#ctor(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String)" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (name As String)" />
       <MemberSignature Language="F#" Value="new Azure.Analytics.Synapse.Artifacts.Models.Activity : string -&gt; Azure.Analytics.Synapse.Artifacts.Models.Activity" Usage="new Azure.Analytics.Synapse.Artifacts.Models.Activity name" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -44,7 +44,7 @@
       </Parameters>
       <Docs>
         <param name="name"> Activity name. </param>
-        <summary> Initializes a new instance of Activity. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.Analytics.Synapse.Artifacts.Models.Activity" />. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> is null. </exception>

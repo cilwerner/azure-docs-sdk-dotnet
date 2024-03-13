@@ -230,6 +230,11 @@
       - Microsoft.Azure.CognitiveServices.Language.TextAnalytics
       - Microsoft.Azure.CognitiveServices.Language.TextAnalytics.Models
       landingPageType: Service
+    - name: Vision Content Moderator
+      children:
+      - Microsoft.Azure.CognitiveServices.ContentModerator
+      - Microsoft.Azure.CognitiveServices.ContentModerator.Models
+      landingPageType: Service
     - name: Management
       items:
       - name: Management - Cognitive Services (deprecated)

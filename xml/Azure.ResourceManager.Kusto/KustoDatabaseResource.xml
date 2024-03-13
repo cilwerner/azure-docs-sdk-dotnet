@@ -14,6 +14,7 @@
     <AssemblyVersion>1.4.0.0</AssemblyVersion>
     <AssemblyVersion>1.5.0.0</AssemblyVersion>
     <AssemblyVersion>1.5.1.0</AssemblyVersion>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -38,6 +39,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -55,6 +57,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal&gt;</ReturnType>
@@ -68,7 +71,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add Database principals permissions.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/addPrincipals</description></item><item><term>Operation Id</term><description>Databases_AddPrincipals</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/addPrincipals</description></item><item><term>Operation Id</term><description>Databases_AddPrincipals</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabaseResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -85,6 +88,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal&gt;</ReturnType>
@@ -98,7 +102,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add Database principals permissions.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/addPrincipals</description></item><item><term>Operation Id</term><description>Databases_AddPrincipals</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/addPrincipals</description></item><item><term>Operation Id</term><description>Databases_AddPrincipals</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabaseResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -115,6 +119,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.Models.KustoNameAvailabilityResult&gt;</ReturnType>
@@ -128,7 +133,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks that the database principal assignment is valid and is not already in use.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/checkPrincipalAssignmentNameAvailability</description></item><item><term>Operation Id</term><description>DatabasePrincipalAssignments_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/checkPrincipalAssignmentNameAvailability</description></item><item><term>Operation Id</term><description>DatabasePrincipalAssignments_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabasePrincipalAssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -145,6 +150,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.Models.KustoNameAvailabilityResult&gt;&gt;</ReturnType>
@@ -158,7 +164,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks that the database principal assignment is valid and is not already in use.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/checkPrincipalAssignmentNameAvailability</description></item><item><term>Operation Id</term><description>DatabasePrincipalAssignments_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/checkPrincipalAssignmentNameAvailability</description></item><item><term>Operation Id</term><description>DatabasePrincipalAssignments_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabasePrincipalAssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -175,6 +181,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.Models.KustoNameAvailabilityResult&gt;</ReturnType>
@@ -188,7 +195,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks that the data connection name is valid and is not already in use.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>DataConnections_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>DataConnections_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDataConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -205,6 +212,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.Models.KustoNameAvailabilityResult&gt;&gt;</ReturnType>
@@ -218,7 +226,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks that the data connection name is valid and is not already in use.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>DataConnections_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/checkNameAvailability</description></item><item><term>Operation Id</term><description>DataConnections_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDataConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -235,6 +243,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.Models.KustoNameAvailabilityResult&gt;</ReturnType>
@@ -248,7 +257,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks that the script name is valid and is not already in use.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/scriptsCheckNameAvailability</description></item><item><term>Operation Id</term><description>Scripts_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/scriptsCheckNameAvailability</description></item><item><term>Operation Id</term><description>Scripts_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoScriptResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -265,6 +274,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.Models.KustoNameAvailabilityResult&gt;&gt;</ReturnType>
@@ -278,7 +288,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks that the script name is valid and is not already in use.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/scriptsCheckNameAvailability</description></item><item><term>Operation Id</term><description>Scripts_CheckNameAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/scriptsCheckNameAvailability</description></item><item><term>Operation Id</term><description>Scripts_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoScriptResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -295,6 +305,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -325,6 +336,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Kusto.KustoDatabaseData</ReturnType>
@@ -346,6 +358,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -360,7 +373,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the database with the given name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Delete</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -375,6 +388,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -389,7 +403,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the database with the given name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Delete</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -404,6 +418,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.KustoDatabaseResource&gt;</ReturnType>
@@ -415,7 +430,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Get</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -430,6 +445,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.KustoDatabaseResource&gt;&gt;</ReturnType>
@@ -441,7 +457,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Get</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -456,6 +472,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.KustoDatabasePrincipalAssignmentResource&gt;</ReturnType>
@@ -469,7 +486,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Kusto cluster database principalAssignment.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/principalAssignments/{principalAssignmentName}</description></item><item><term>Operation Id</term><description>DatabasePrincipalAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/principalAssignments/{principalAssignmentName}</description></item><item><term>Operation Id</term><description>DatabasePrincipalAssignments_Get</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabasePrincipalAssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -488,6 +505,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.KustoDatabasePrincipalAssignmentResource&gt;&gt;</ReturnType>
@@ -501,7 +519,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Kusto cluster database principalAssignment.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/principalAssignments/{principalAssignmentName}</description></item><item><term>Operation Id</term><description>DatabasePrincipalAssignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/principalAssignments/{principalAssignmentName}</description></item><item><term>Operation Id</term><description>DatabasePrincipalAssignments_Get</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabasePrincipalAssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -520,6 +538,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Kusto.KustoDatabasePrincipalAssignmentCollection</ReturnType>
@@ -541,6 +560,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.KustoDataConnectionResource&gt;</ReturnType>
@@ -554,7 +574,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a data connection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/dataConnections/{dataConnectionName}</description></item><item><term>Operation Id</term><description>DataConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/dataConnections/{dataConnectionName}</description></item><item><term>Operation Id</term><description>DataConnections_Get</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDataConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -573,6 +593,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.KustoDataConnectionResource&gt;&gt;</ReturnType>
@@ -586,7 +607,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a data connection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/dataConnections/{dataConnectionName}</description></item><item><term>Operation Id</term><description>DataConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/dataConnections/{dataConnectionName}</description></item><item><term>Operation Id</term><description>DataConnections_Get</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDataConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -605,6 +626,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Kusto.KustoDataConnectionCollection</ReturnType>
@@ -626,6 +648,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.KustoScriptResource&gt;</ReturnType>
@@ -639,7 +662,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Kusto cluster database script.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/scripts/{scriptName}</description></item><item><term>Operation Id</term><description>Scripts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/scripts/{scriptName}</description></item><item><term>Operation Id</term><description>Scripts_Get</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoScriptResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -658,6 +681,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.KustoScriptResource&gt;&gt;</ReturnType>
@@ -671,7 +695,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Kusto cluster database script.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/scripts/{scriptName}</description></item><item><term>Operation Id</term><description>Scripts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/scripts/{scriptName}</description></item><item><term>Operation Id</term><description>Scripts_Get</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoScriptResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -690,6 +714,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Kusto.KustoScriptCollection</ReturnType>
@@ -711,6 +736,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal&gt;</ReturnType>
@@ -722,7 +748,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a list of database principals of the given Kusto cluster and database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/listPrincipals</description></item><item><term>Operation Id</term><description>Databases_ListPrincipals</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/listPrincipals</description></item><item><term>Operation Id</term><description>Databases_ListPrincipals</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabaseResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -737,6 +763,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal&gt;</ReturnType>
@@ -748,7 +775,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a list of database principals of the given Kusto cluster and database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/listPrincipals</description></item><item><term>Operation Id</term><description>Databases_ListPrincipals</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/listPrincipals</description></item><item><term>Operation Id</term><description>Databases_ListPrincipals</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabaseResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -763,6 +790,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -783,6 +811,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Kusto.Models.DatabaseInviteFollowerResult&gt;</ReturnType>
@@ -796,7 +825,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Generates an invitation token that allows attaching a follower database to this database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/inviteFollower</description></item><item><term>Operation Id</term><description>Database_InviteFollower</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/inviteFollower</description></item><item><term>Operation Id</term><description>Database_InviteFollower</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -813,6 +842,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Kusto.Models.DatabaseInviteFollowerResult&gt;&gt;</ReturnType>
@@ -826,7 +856,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Generates an invitation token that allows attaching a follower database to this database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/inviteFollower</description></item><item><term>Operation Id</term><description>Database_InviteFollower</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/inviteFollower</description></item><item><term>Operation Id</term><description>Database_InviteFollower</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -843,6 +873,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal&gt;</ReturnType>
@@ -856,7 +887,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Remove Database principals permissions.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/removePrincipals</description></item><item><term>Operation Id</term><description>Databases_RemovePrincipals</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/removePrincipals</description></item><item><term>Operation Id</term><description>Databases_RemovePrincipals</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabaseResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -873,6 +904,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal&gt;</ReturnType>
@@ -886,7 +918,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Remove Database principals permissions.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/removePrincipals</description></item><item><term>Operation Id</term><description>Databases_RemovePrincipals</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/removePrincipals</description></item><item><term>Operation Id</term><description>Databases_RemovePrincipals</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabaseResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Kusto.Models.KustoDatabasePrincipal" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -903,6 +935,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -922,6 +955,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Kusto.KustoDatabaseResource&gt;</ReturnType>
@@ -955,6 +989,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Kusto.KustoDatabaseResource&gt;</ReturnType>
@@ -973,7 +1008,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Update</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -990,6 +1025,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Kusto.KustoDatabaseResource&gt;&gt;</ReturnType>
@@ -1023,6 +1059,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Kusto.KustoDatabaseResource&gt;&gt;</ReturnType>
@@ -1041,7 +1078,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Update</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1058,6 +1095,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Kusto.Models.DataConnectionValidationResults&gt;</ReturnType>
@@ -1074,7 +1112,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks that the data connection parameters are valid.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/dataConnectionValidation</description></item><item><term>Operation Id</term><description>DataConnections_dataConnectionValidation</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/dataConnectionValidation</description></item><item><term>Operation Id</term><description>DataConnections_dataConnectionValidation</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDataConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1091,6 +1129,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Kusto</AssemblyName>
         <AssemblyVersion>1.5.1.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Kusto.Models.DataConnectionValidationResults&gt;&gt;</ReturnType>
@@ -1107,7 +1146,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks that the data connection parameters are valid.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/dataConnectionValidation</description></item><item><term>Operation Id</term><description>DataConnections_dataConnectionValidation</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Kusto/clusters/{clusterName}/databases/{databaseName}/dataConnectionValidation</description></item><item><term>Operation Id</term><description>DataConnections_dataConnectionValidation</description></item><item><term>Default Api Version</term><description>2023-08-15</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Kusto.KustoDataConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

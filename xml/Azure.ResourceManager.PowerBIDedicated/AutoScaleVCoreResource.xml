@@ -63,7 +63,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item><item><term>Default Api Version</term><description>2021-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PowerBIDedicated.AutoScaleVCoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -95,7 +95,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item><item><term>Default Api Version</term><description>2021-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PowerBIDedicated.AutoScaleVCoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -175,7 +175,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified auto scale v-core.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Delete</description></item><item><term>Default Api Version</term><description>2021-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PowerBIDedicated.AutoScaleVCoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -204,7 +204,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified auto scale v-core.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Delete</description></item><item><term>Default Api Version</term><description>2021-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PowerBIDedicated.AutoScaleVCoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -230,7 +230,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets details about the specified auto scale v-core.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item><item><term>Default Api Version</term><description>2021-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PowerBIDedicated.AutoScaleVCoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -256,7 +256,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets details about the specified auto scale v-core.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item><item><term>Default Api Version</term><description>2021-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PowerBIDedicated.AutoScaleVCoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -304,7 +304,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item><item><term>Default Api Version</term><description>2021-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PowerBIDedicated.AutoScaleVCoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -334,7 +334,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item><item><term>Default Api Version</term><description>2021-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PowerBIDedicated.AutoScaleVCoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -383,7 +383,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item><item><term>Default Api Version</term><description>2021-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PowerBIDedicated.AutoScaleVCoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -413,7 +413,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Get</description></item><item><term>Default Api Version</term><description>2021-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PowerBIDedicated.AutoScaleVCoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -443,7 +443,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the current state of the specified auto scale v-core.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Update</description></item><item><term>Default Api Version</term><description>2021-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PowerBIDedicated.AutoScaleVCoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -473,7 +473,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the current state of the specified auto scale v-core.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerBIDedicated/autoScaleVCores/{vcoreName}</description></item><item><term>Operation Id</term><description>AutoScaleVCores_Update</description></item><item><term>Default Api Version</term><description>2021-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PowerBIDedicated.AutoScaleVCoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

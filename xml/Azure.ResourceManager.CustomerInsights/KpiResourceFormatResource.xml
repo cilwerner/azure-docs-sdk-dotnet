@@ -113,7 +113,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a KPI in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_Delete</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.KpiResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -142,7 +142,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a KPI in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_Delete</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.KpiResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -168,7 +168,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a KPI in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.KpiResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -194,7 +194,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a KPI in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_Get</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.KpiResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -240,7 +240,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Reprocesses the Kpi values of the specified KPI.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}/reprocess</description></item><item><term>Operation Id</term><description>Kpi_Reprocess</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}/reprocess</description></item><item><term>Operation Id</term><description>Kpi_Reprocess</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.KpiResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -266,7 +266,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Reprocesses the Kpi values of the specified KPI.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}/reprocess</description></item><item><term>Operation Id</term><description>Kpi_Reprocess</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}/reprocess</description></item><item><term>Operation Id</term><description>Kpi_Reprocess</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.KpiResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -316,7 +316,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates a KPI or updates an existing KPI in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.KpiResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -349,7 +349,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates a KPI or updates an existing KPI in the hub.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CustomerInsights/hubs/{hubName}/kpi/{kpiName}</description></item><item><term>Operation Id</term><description>Kpi_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2017-04-26</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CustomerInsights.KpiResourceFormatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
