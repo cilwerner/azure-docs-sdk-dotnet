@@ -71,7 +71,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -104,7 +104,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -189,7 +189,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes an existing Azure Cosmos DB MongoDB database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_DeleteMongoDBDatabase</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_DeleteMongoDBDatabase</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -219,7 +219,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes an existing Azure Cosmos DB MongoDB database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_DeleteMongoDBDatabase</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_DeleteMongoDBDatabase</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -246,7 +246,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the MongoDB databases under an existing Azure Cosmos DB database account with the provided name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -273,7 +273,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the MongoDB databases under an existing Azure Cosmos DB database account with the provided name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -302,7 +302,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the MongoDB collection under an existing Azure Cosmos DB database account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}/collections/{collectionName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBCollection</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}/collections/{collectionName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBCollection</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBCollectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -335,7 +335,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the MongoDB collection under an existing Azure Cosmos DB database account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}/collections/{collectionName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBCollection</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}/collections/{collectionName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBCollection</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBCollectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -435,7 +435,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Merges the partitions of a MongoDB database
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}/partitionMerge</description></item><item><term>Operation Id</term><description>MongoDBResources_MongoDBDatabasePartitionMerge</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}/partitionMerge</description></item><item><term>Operation Id</term><description>MongoDBResources_MongoDBDatabasePartitionMerge</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -468,7 +468,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Merges the partitions of a MongoDB database
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}/partitionMerge</description></item><item><term>Operation Id</term><description>MongoDBResources_MongoDBDatabasePartitionMerge</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}/partitionMerge</description></item><item><term>Operation Id</term><description>MongoDBResources_MongoDBDatabasePartitionMerge</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -499,7 +499,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -530,7 +530,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -581,7 +581,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -612,7 +612,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_GetMongoDBDatabase</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -646,7 +646,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create or updates Azure Cosmos DB MongoDB database
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_CreateUpdateMongoDBDatabase</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_CreateUpdateMongoDBDatabase</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -680,7 +680,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create or updates Azure Cosmos DB MongoDB database
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_CreateUpdateMongoDBDatabase</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/mongodbDatabases/{databaseName}</description></item><item><term>Operation Id</term><description>MongoDBResources_CreateUpdateMongoDBDatabase</description></item><item><term>Default Api Version</term><description>2023-09-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.CosmosDB.MongoDBDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

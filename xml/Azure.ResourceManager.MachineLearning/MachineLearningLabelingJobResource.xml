@@ -113,7 +113,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a labeling job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}</description></item><item><term>Operation Id</term><description>LabelingJobs_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}</description></item><item><term>Operation Id</term><description>LabelingJobs_Delete</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningLabelingJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -142,7 +142,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a labeling job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}</description></item><item><term>Operation Id</term><description>LabelingJobs_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}</description></item><item><term>Operation Id</term><description>LabelingJobs_Delete</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningLabelingJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -173,7 +173,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Export labels from a labeling job (asynchronous).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}/exportLabels</description></item><item><term>Operation Id</term><description>LabelingJobs_ExportLabels</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}/exportLabels</description></item><item><term>Operation Id</term><description>LabelingJobs_ExportLabels</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningLabelingJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -206,7 +206,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Export labels from a labeling job (asynchronous).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}/exportLabels</description></item><item><term>Operation Id</term><description>LabelingJobs_ExportLabels</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}/exportLabels</description></item><item><term>Operation Id</term><description>LabelingJobs_ExportLabels</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningLabelingJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -238,7 +238,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a labeling job by name/id.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}</description></item><item><term>Operation Id</term><description>LabelingJobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}</description></item><item><term>Operation Id</term><description>LabelingJobs_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningLabelingJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -268,7 +268,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a labeling job by name/id.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}</description></item><item><term>Operation Id</term><description>LabelingJobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}</description></item><item><term>Operation Id</term><description>LabelingJobs_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningLabelingJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -314,7 +314,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Pause a labeling job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}/pause</description></item><item><term>Operation Id</term><description>LabelingJobs_Pause</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}/pause</description></item><item><term>Operation Id</term><description>LabelingJobs_Pause</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningLabelingJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -340,7 +340,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Pause a labeling job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}/pause</description></item><item><term>Operation Id</term><description>LabelingJobs_Pause</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}/pause</description></item><item><term>Operation Id</term><description>LabelingJobs_Pause</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningLabelingJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -388,7 +388,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Resume a labeling job (asynchronous).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}/resume</description></item><item><term>Operation Id</term><description>LabelingJobs_Resume</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}/resume</description></item><item><term>Operation Id</term><description>LabelingJobs_Resume</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningLabelingJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -417,7 +417,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Resume a labeling job (asynchronous).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}/resume</description></item><item><term>Operation Id</term><description>LabelingJobs_Resume</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}/resume</description></item><item><term>Operation Id</term><description>LabelingJobs_Resume</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningLabelingJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -448,7 +448,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates or updates a labeling job (asynchronous).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}</description></item><item><term>Operation Id</term><description>LabelingJobs_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}</description></item><item><term>Operation Id</term><description>LabelingJobs_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningLabelingJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -481,7 +481,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates or updates a labeling job (asynchronous).
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}</description></item><item><term>Operation Id</term><description>LabelingJobs_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/labelingJobs/{id}</description></item><item><term>Operation Id</term><description>LabelingJobs_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningLabelingJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

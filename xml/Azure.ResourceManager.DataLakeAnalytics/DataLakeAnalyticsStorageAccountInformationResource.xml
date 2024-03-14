@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -79,6 +82,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageAccountInformationData</ReturnType>
@@ -100,6 +104,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -114,7 +119,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the specified Data Lake Analytics account to remove an Azure Storage account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Delete</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageAccountInformationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -129,6 +134,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -143,7 +149,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the specified Data Lake Analytics account to remove an Azure Storage account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Delete</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageAccountInformationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -158,6 +164,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageAccountInformationResource&gt;</ReturnType>
@@ -169,7 +176,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified Azure Storage account linked to the given Data Lake Analytics account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Get</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageAccountInformationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -184,6 +191,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageAccountInformationResource&gt;&gt;</ReturnType>
@@ -195,7 +203,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified Azure Storage account linked to the given Data Lake Analytics account.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Get</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageAccountInformationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -210,6 +218,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageContainerResource&gt;</ReturnType>
@@ -223,7 +232,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified Azure Storage container associated with the given Data Lake Analytics and Azure Storage accounts.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>StorageAccounts_GetStorageContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>StorageAccounts_GetStorageContainer</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -242,6 +251,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageContainerResource&gt;&gt;</ReturnType>
@@ -255,7 +265,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified Azure Storage container associated with the given Data Lake Analytics and Azure Storage accounts.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>StorageAccounts_GetStorageContainer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}/containers/{containerName}</description></item><item><term>Operation Id</term><description>StorageAccounts_GetStorageContainer</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageContainerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -274,6 +284,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageContainerCollection</ReturnType>
@@ -295,6 +306,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -315,6 +327,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -334,6 +347,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -347,7 +361,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the Data Lake Analytics account to replace Azure Storage blob account details, such as the access key and/or suffix.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Update</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageAccountInformationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -364,6 +378,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataLakeAnalytics</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -377,7 +392,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the Data Lake Analytics account to replace Azure Storage blob account details, such as the access key and/or suffix.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataLakeAnalytics/accounts/{accountName}/storageAccounts/{storageAccountName}</description></item><item><term>Operation Id</term><description>StorageAccounts_Update</description></item><item><term>Default Api Version</term><description>2016-11-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataLakeAnalytics.DataLakeAnalyticsStorageAccountInformationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
