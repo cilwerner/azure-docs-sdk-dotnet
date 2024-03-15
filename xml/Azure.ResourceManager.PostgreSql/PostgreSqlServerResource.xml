@@ -68,7 +68,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -101,7 +101,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -184,7 +184,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Delete</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -214,7 +214,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Delete</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -241,7 +241,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -268,7 +268,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -295,7 +295,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the log files in a given server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/logFiles</description></item><item><term>Operation Id</term><description>LogFiles_ListByServer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/logFiles</description></item><item><term>Operation Id</term><description>LogFiles_ListByServer</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.PostgreSql.Models.PostgreSqlLogFile" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -322,7 +322,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the log files in a given server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/logFiles</description></item><item><term>Operation Id</term><description>LogFiles_ListByServer</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/logFiles</description></item><item><term>Operation Id</term><description>LogFiles_ListByServer</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.PostgreSql.Models.PostgreSqlLogFile" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -351,7 +351,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a configuration of server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -384,7 +384,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a configuration of server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/configurations/{configurationName}</description></item><item><term>Operation Id</term><description>Configurations_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlConfigurationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -439,7 +439,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -472,7 +472,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/databases/{databaseName}</description></item><item><term>Operation Id</term><description>Databases_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlDatabaseResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -527,7 +527,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a server firewall rule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlFirewallRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -560,7 +560,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about a server firewall rule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/firewallRules/{firewallRuleName}</description></item><item><term>Operation Id</term><description>FirewallRules_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlFirewallRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -615,7 +615,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a private endpoint connection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2018-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -648,7 +648,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a private endpoint connection.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2018-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -703,7 +703,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a private link resource for PostgreSQL server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/privateLinkResources/{groupName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/privateLinkResources/{groupName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item><item><term>Default Api Version</term><description>2018-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlPrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -736,7 +736,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a private link resource for PostgreSQL server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/privateLinkResources/{groupName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/privateLinkResources/{groupName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item><item><term>Default Api Version</term><description>2018-06-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlPrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -813,7 +813,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a PostgreSQL Server key.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/keys/{keyName}</description></item><item><term>Operation Id</term><description>ServerKeys_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/keys/{keyName}</description></item><item><term>Operation Id</term><description>ServerKeys_Get</description></item><item><term>Default Api Version</term><description>2020-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerKeyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -846,7 +846,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a PostgreSQL Server key.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/keys/{keyName}</description></item><item><term>Operation Id</term><description>ServerKeys_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/keys/{keyName}</description></item><item><term>Operation Id</term><description>ServerKeys_Get</description></item><item><term>Default Api Version</term><description>2020-01-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerKeyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -923,7 +923,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a server's security alert policy.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/securityAlertPolicies/{securityAlertPolicyName}</description></item><item><term>Operation Id</term><description>ServerSecurityAlertPolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/securityAlertPolicies/{securityAlertPolicyName}</description></item><item><term>Operation Id</term><description>ServerSecurityAlertPolicies_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerSecurityAlertPolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -952,7 +952,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a server's security alert policy.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/securityAlertPolicies/{securityAlertPolicyName}</description></item><item><term>Operation Id</term><description>ServerSecurityAlertPolicies_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/securityAlertPolicies/{securityAlertPolicyName}</description></item><item><term>Operation Id</term><description>ServerSecurityAlertPolicies_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerSecurityAlertPolicyResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -981,7 +981,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a virtual network rule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/virtualNetworkRules/{virtualNetworkRuleName}</description></item><item><term>Operation Id</term><description>VirtualNetworkRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/virtualNetworkRules/{virtualNetworkRuleName}</description></item><item><term>Operation Id</term><description>VirtualNetworkRules_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlVirtualNetworkRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1014,7 +1014,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a virtual network rule.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/virtualNetworkRules/{virtualNetworkRuleName}</description></item><item><term>Operation Id</term><description>VirtualNetworkRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/virtualNetworkRules/{virtualNetworkRuleName}</description></item><item><term>Operation Id</term><description>VirtualNetworkRules_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlVirtualNetworkRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1067,7 +1067,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a recoverable PostgreSQL Server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/recoverableServers</description></item><item><term>Operation Id</term><description>RecoverableServers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/recoverableServers</description></item><item><term>Operation Id</term><description>RecoverableServers_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1094,7 +1094,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a recoverable PostgreSQL Server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/recoverableServers</description></item><item><term>Operation Id</term><description>RecoverableServers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/recoverableServers</description></item><item><term>Operation Id</term><description>RecoverableServers_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1121,7 +1121,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the performance tiers for a PostgreSQL server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/performanceTiers</description></item><item><term>Operation Id</term><description>ServerBasedPerformanceTier_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/performanceTiers</description></item><item><term>Operation Id</term><description>ServerBasedPerformanceTier_List</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.PostgreSql.Models.PostgreSqlPerformanceTierProperties" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1148,7 +1148,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all the performance tiers for a PostgreSQL server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/performanceTiers</description></item><item><term>Operation Id</term><description>ServerBasedPerformanceTier_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/performanceTiers</description></item><item><term>Operation Id</term><description>ServerBasedPerformanceTier_List</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.PostgreSql.Models.PostgreSqlPerformanceTierProperties" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1198,7 +1198,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1229,7 +1229,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1281,7 +1281,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restarts a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/restart</description></item><item><term>Operation Id</term><description>Servers_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/restart</description></item><item><term>Operation Id</term><description>Servers_Restart</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1311,7 +1311,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Restarts a server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/restart</description></item><item><term>Operation Id</term><description>Servers_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/restart</description></item><item><term>Operation Id</term><description>Servers_Restart</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1340,7 +1340,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1371,7 +1371,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Get</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1405,7 +1405,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an existing server. The request body can contain one to many of the properties present in the normal server definition.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Update</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1439,7 +1439,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an existing server. The request body can contain one to many of the properties present in the normal server definition.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}</description></item><item><term>Operation Id</term><description>Servers_Update</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PostgreSql.PostgreSqlServerResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1473,7 +1473,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a list of configurations in a given server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/updateConfigurations</description></item><item><term>Operation Id</term><description>ServerParameters_ListUpdateConfigurations</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/updateConfigurations</description></item><item><term>Operation Id</term><description>ServerParameters_ListUpdateConfigurations</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1507,7 +1507,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a list of configurations in a given server.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/updateConfigurations</description></item><item><term>Operation Id</term><description>ServerParameters_ListUpdateConfigurations</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DBforPostgreSQL/servers/{serverName}/updateConfigurations</description></item><item><term>Operation Id</term><description>ServerParameters_ListUpdateConfigurations</description></item><item><term>Default Api Version</term><description>2017-12-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

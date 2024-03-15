@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -30,7 +31,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,7 +48,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.SphereCatalogResource&gt;</ReturnType>
@@ -63,7 +64,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -79,7 +80,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.SphereCatalogResource&gt;&gt;</ReturnType>
@@ -95,7 +96,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -103,18 +104,18 @@
       </Docs>
     </Member>
     <Member MemberName="CountDevices">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt; CountDevices (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt; CountDevices(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt; CountDevices (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt; CountDevices(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sphere.SphereCatalogResource.CountDevices(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CountDevices (Optional cancellationToken As CancellationToken = Nothing) As Response(Of CountDeviceResult)" />
-      <MemberSignature Language="F#" Value="abstract member CountDevices : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&#xA;override this.CountDevices : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;" Usage="sphereCatalogResource.CountDevices cancellationToken" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CountDevices (Optional cancellationToken As CancellationToken = Nothing) As Response(Of CountDevicesResult)" />
+      <MemberSignature Language="F#" Value="abstract member CountDevices : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&#xA;override this.CountDevices : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;" Usage="sphereCatalogResource.CountDevices cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -123,24 +124,24 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Counts devices in catalog.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/countDevices</description></item><item><term>Operation Id</term><description>Catalogs_CountDevices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/countDevices</description></item><item><term>Operation Id</term><description>Catalogs_CountDevices</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="CountDevicesAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&gt; CountDevicesAsync (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&gt; CountDevicesAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt; CountDevicesAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt; CountDevicesAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sphere.SphereCatalogResource.CountDevicesAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CountDevicesAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of CountDeviceResult))" />
-      <MemberSignature Language="F#" Value="abstract member CountDevicesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&gt;&#xA;override this.CountDevicesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&gt;" Usage="sphereCatalogResource.CountDevicesAsync cancellationToken" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CountDevicesAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of CountDevicesResult))" />
+      <MemberSignature Language="F#" Value="abstract member CountDevicesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt;&#xA;override this.CountDevicesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt;" Usage="sphereCatalogResource.CountDevicesAsync cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -149,7 +150,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Counts devices in catalog.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/countDevices</description></item><item><term>Operation Id</term><description>Catalogs_CountDevices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/countDevices</description></item><item><term>Operation Id</term><description>Catalogs_CountDevices</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -163,7 +164,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -191,7 +192,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Sphere.SphereCatalogData</ReturnType>
@@ -212,7 +213,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -227,7 +228,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a Catalog
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Delete</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -241,7 +242,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -256,7 +257,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a Catalog
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Delete</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -270,7 +271,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.SphereCatalogResource&gt;</ReturnType>
@@ -282,7 +283,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Catalog
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -296,7 +297,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.SphereCatalogResource&gt;&gt;</ReturnType>
@@ -308,7 +309,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Catalog
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -322,7 +323,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Sphere.SphereDeploymentResource&gt;</ReturnType>
@@ -342,7 +343,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists deployments for catalog.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDeployments</description></item><item><term>Operation Id</term><description>Catalogs_ListDeployments</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDeployments</description></item><item><term>Operation Id</term><description>Catalogs_ListDeployments</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Sphere.SphereDeploymentResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -356,7 +357,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Sphere.SphereDeploymentResource&gt;</ReturnType>
@@ -376,7 +377,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists deployments for catalog.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDeployments</description></item><item><term>Operation Id</term><description>Catalogs_ListDeployments</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDeployments</description></item><item><term>Operation Id</term><description>Catalogs_ListDeployments</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Sphere.SphereDeploymentResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -390,7 +391,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Sphere.SphereDeviceGroupResource&gt;</ReturnType>
@@ -412,7 +413,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the device groups for the catalog.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDeviceGroups</description></item><item><term>Operation Id</term><description>Catalogs_ListDeviceGroups</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDeviceGroups</description></item><item><term>Operation Id</term><description>Catalogs_ListDeviceGroups</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -428,7 +429,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Sphere.SphereDeviceGroupResource&gt;</ReturnType>
@@ -450,7 +451,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the device groups for the catalog.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDeviceGroups</description></item><item><term>Operation Id</term><description>Catalogs_ListDeviceGroups</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDeviceGroups</description></item><item><term>Operation Id</term><description>Catalogs_ListDeviceGroups</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -466,7 +467,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Sphere.Models.SphereDeviceInsight&gt;</ReturnType>
@@ -486,7 +487,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists device insights for catalog.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDeviceInsights</description></item><item><term>Operation Id</term><description>Catalogs_ListDeviceInsights</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDeviceInsights</description></item><item><term>Operation Id</term><description>Catalogs_ListDeviceInsights</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Sphere.Models.SphereDeviceInsight" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -500,7 +501,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Sphere.Models.SphereDeviceInsight&gt;</ReturnType>
@@ -520,7 +521,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists device insights for catalog.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDeviceInsights</description></item><item><term>Operation Id</term><description>Catalogs_ListDeviceInsights</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDeviceInsights</description></item><item><term>Operation Id</term><description>Catalogs_ListDeviceInsights</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Sphere.Models.SphereDeviceInsight" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -534,7 +535,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Sphere.SphereDeviceResource&gt;</ReturnType>
@@ -554,7 +555,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists devices for catalog.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDevices</description></item><item><term>Operation Id</term><description>Catalogs_ListDevices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDevices</description></item><item><term>Operation Id</term><description>Catalogs_ListDevices</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Sphere.SphereDeviceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -568,7 +569,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Sphere.SphereDeviceResource&gt;</ReturnType>
@@ -588,7 +589,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists devices for catalog.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDevices</description></item><item><term>Operation Id</term><description>Catalogs_ListDevices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/listDevices</description></item><item><term>Operation Id</term><description>Catalogs_ListDevices</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Sphere.SphereDeviceResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -602,7 +603,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.SphereCertificateResource&gt;</ReturnType>
@@ -616,7 +617,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Certificate
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/certificates/{serialNumber}</description></item><item><term>Operation Id</term><description>Certificates_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/certificates/{serialNumber}</description></item><item><term>Operation Id</term><description>Certificates_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCertificateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -634,7 +635,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.SphereCertificateResource&gt;&gt;</ReturnType>
@@ -648,7 +649,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Certificate
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/certificates/{serialNumber}</description></item><item><term>Operation Id</term><description>Certificates_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/certificates/{serialNumber}</description></item><item><term>Operation Id</term><description>Certificates_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCertificateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -666,7 +667,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Sphere.SphereCertificateCollection</ReturnType>
@@ -687,7 +688,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.SphereImageResource&gt;</ReturnType>
@@ -697,11 +698,11 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="imageName"> Image name. Use .default for image creation. </param>
+        <param name="imageName"> Image name. Use an image GUID for GA versions of the API. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Image
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/images/{imageName}</description></item><item><term>Operation Id</term><description>Images_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/images/{imageName}</description></item><item><term>Operation Id</term><description>Images_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereImageResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -719,7 +720,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.SphereImageResource&gt;&gt;</ReturnType>
@@ -729,11 +730,11 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="imageName"> Image name. Use .default for image creation. </param>
+        <param name="imageName"> Image name. Use an image GUID for GA versions of the API. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Image
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/images/{imageName}</description></item><item><term>Operation Id</term><description>Images_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/images/{imageName}</description></item><item><term>Operation Id</term><description>Images_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereImageResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -751,7 +752,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Sphere.SphereImageCollection</ReturnType>
@@ -772,7 +773,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.SphereProductResource&gt;</ReturnType>
@@ -786,7 +787,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Product. '.default' and '.unassigned' are system defined values and cannot be used for product name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}</description></item><item><term>Operation Id</term><description>Products_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}</description></item><item><term>Operation Id</term><description>Products_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereProductResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -804,7 +805,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.SphereProductResource&gt;&gt;</ReturnType>
@@ -818,7 +819,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Product. '.default' and '.unassigned' are system defined values and cannot be used for product name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}</description></item><item><term>Operation Id</term><description>Products_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}</description></item><item><term>Operation Id</term><description>Products_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereProductResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -836,7 +837,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Sphere.SphereProductCollection</ReturnType>
@@ -857,7 +858,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -877,7 +878,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.SphereCatalogResource&gt;</ReturnType>
@@ -891,7 +892,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -907,7 +908,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.SphereCatalogResource&gt;&gt;</ReturnType>
@@ -921,7 +922,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -937,7 +938,7 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -956,7 +957,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.SphereCatalogResource&gt;</ReturnType>
@@ -970,7 +971,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -986,7 +987,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.SphereCatalogResource&gt;&gt;</ReturnType>
@@ -1000,7 +1001,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1016,7 +1017,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.SphereCatalogResource&gt;</ReturnType>
@@ -1030,7 +1031,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a Catalog
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Update</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1046,7 +1047,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.SphereCatalogResource&gt;&gt;</ReturnType>
@@ -1060,11 +1061,77 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a Catalog
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}</description></item><item><term>Operation Id</term><description>Catalogs_Update</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="patch" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="UploadImage">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.ArmOperation UploadImage (Azure.WaitUntil waitUntil, Azure.ResourceManager.Sphere.SphereImageData data, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.ArmOperation UploadImage(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Sphere.SphereImageData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sphere.SphereCatalogResource.UploadImage(Azure.WaitUntil,Azure.ResourceManager.Sphere.SphereImageData,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadImage (waitUntil As WaitUntil, data As SphereImageData, Optional cancellationToken As CancellationToken = Nothing) As ArmOperation" />
+      <MemberSignature Language="F#" Value="abstract member UploadImage : Azure.WaitUntil * Azure.ResourceManager.Sphere.SphereImageData * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation&#xA;override this.UploadImage : Azure.WaitUntil * Azure.ResourceManager.Sphere.SphereImageData * System.Threading.CancellationToken -&gt; Azure.ResourceManager.ArmOperation" Usage="sphereCatalogResource.UploadImage (waitUntil, data, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="data" Type="Azure.ResourceManager.Sphere.SphereImageData" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="waitUntil">
+          <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
+        <param name="data"> Image upload request body. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Creates an image. Use this action when the image ID is unknown.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/uploadImage</description></item><item><term>Operation Id</term><description>Catalogs_UploadImage</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="data" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="UploadImageAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt; UploadImageAsync (Azure.WaitUntil waitUntil, Azure.ResourceManager.Sphere.SphereImageData data, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.ResourceManager.ArmOperation&gt; UploadImageAsync(valuetype Azure.WaitUntil waitUntil, class Azure.ResourceManager.Sphere.SphereImageData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sphere.SphereCatalogResource.UploadImageAsync(Azure.WaitUntil,Azure.ResourceManager.Sphere.SphereImageData,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadImageAsync (waitUntil As WaitUntil, data As SphereImageData, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ArmOperation)" />
+      <MemberSignature Language="F#" Value="abstract member UploadImageAsync : Azure.WaitUntil * Azure.ResourceManager.Sphere.SphereImageData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;&#xA;override this.UploadImageAsync : Azure.WaitUntil * Azure.ResourceManager.Sphere.SphereImageData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;" Usage="sphereCatalogResource.UploadImageAsync (waitUntil, data, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
+        <Parameter Name="data" Type="Azure.ResourceManager.Sphere.SphereImageData" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="waitUntil">
+          <see cref="F:Azure.WaitUntil.Completed" /> if the method should wait to return until the long-running operation has completed on the service; <see cref="F:Azure.WaitUntil.Started" /> if it should return after starting the operation. For more information on long-running operations, please see <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/LongRunningOperations.md"> Azure.Core Long-Running Operation samples</see>. </param>
+        <param name="data"> Image upload request body. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Creates an image. Use this action when the image ID is unknown.
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/uploadImage</description></item><item><term>Operation Id</term><description>Catalogs_UploadImage</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereCatalogResource" /></description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="data" /> is null. </exception>
       </Docs>
     </Member>
   </Members>
