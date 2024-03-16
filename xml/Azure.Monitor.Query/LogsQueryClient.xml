@@ -87,7 +87,7 @@
         <param name="credential">The <see cref="T:Azure.Core.TokenCredential" /> instance to use for authentication.</param>
         <param name="options">The <see cref="T:Azure.Monitor.Query.LogsQueryClientOptions" /> instance to use as client configuration.</param>
         <summary>
-            Initializes a new instance of <see cref="T:Azure.Monitor.Query.LogsQueryClient" />. Uses the default 'https://api.loganalytics.io' endpoint.
+            Initializes a new instance of <see cref="T:Azure.Monitor.Query.LogsQueryClient" />. Uses the default 'https://api.loganalytics.io' endpoint if Audience is not set in LogsQueryClientOptions.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>

@@ -64,7 +64,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Backfill.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}/backfill</description></item><item><term>Operation Id</term><description>FeaturesetVersions_Backfill</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}/backfill</description></item><item><term>Operation Id</term><description>FeaturesetVersions_Backfill</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningFeatureSetVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -97,7 +97,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Backfill.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}/backfill</description></item><item><term>Operation Id</term><description>FeaturesetVersions_Backfill</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}/backfill</description></item><item><term>Operation Id</term><description>FeaturesetVersions_Backfill</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningFeatureSetVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -181,7 +181,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete version.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}</description></item><item><term>Operation Id</term><description>FeaturesetVersions_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}</description></item><item><term>Operation Id</term><description>FeaturesetVersions_Delete</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningFeatureSetVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -210,7 +210,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete version.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}</description></item><item><term>Operation Id</term><description>FeaturesetVersions_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}</description></item><item><term>Operation Id</term><description>FeaturesetVersions_Delete</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningFeatureSetVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -236,7 +236,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get version.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}</description></item><item><term>Operation Id</term><description>FeaturesetVersions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}</description></item><item><term>Operation Id</term><description>FeaturesetVersions_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningFeatureSetVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -262,7 +262,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get version.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}</description></item><item><term>Operation Id</term><description>FeaturesetVersions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}</description></item><item><term>Operation Id</term><description>FeaturesetVersions_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningFeatureSetVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -290,7 +290,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get feature.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{featuresetName}/versions/{featuresetVersion}/features/{featureName}</description></item><item><term>Operation Id</term><description>Features_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{featuresetName}/versions/{featuresetVersion}/features/{featureName}</description></item><item><term>Operation Id</term><description>Features_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningFeatureResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -322,7 +322,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get feature.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{featuresetName}/versions/{featuresetVersion}/features/{featureName}</description></item><item><term>Operation Id</term><description>Features_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{featuresetName}/versions/{featuresetVersion}/features/{featureName}</description></item><item><term>Operation Id</term><description>Features_Get</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningFeatureResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -381,7 +381,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List materialization Jobs.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}/listMaterializationJobs</description></item><item><term>Operation Id</term><description>FeaturesetVersions_ListMaterializationJobs</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}/listMaterializationJobs</description></item><item><term>Operation Id</term><description>FeaturesetVersions_ListMaterializationJobs</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningFeatureSetVersionResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.MachineLearning.Models.MachineLearningFeatureSetJob" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -415,7 +415,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List materialization Jobs.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}/listMaterializationJobs</description></item><item><term>Operation Id</term><description>FeaturesetVersions_ListMaterializationJobs</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}/listMaterializationJobs</description></item><item><term>Operation Id</term><description>FeaturesetVersions_ListMaterializationJobs</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningFeatureSetVersionResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.MachineLearning.Models.MachineLearningFeatureSetJob" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -485,7 +485,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create or update version.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}</description></item><item><term>Operation Id</term><description>FeaturesetVersions_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}</description></item><item><term>Operation Id</term><description>FeaturesetVersions_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningFeatureSetVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -518,7 +518,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create or update version.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}</description></item><item><term>Operation Id</term><description>FeaturesetVersions_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MachineLearningServices/workspaces/{workspaceName}/featuresets/{name}/versions/{version}</description></item><item><term>Operation Id</term><description>FeaturesetVersions_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2023-06-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MachineLearning.MachineLearningFeatureSetVersionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -64,7 +67,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Bulk claims the devices. Use '.unassigned' or '.default' for the device group and product names when bulk claiming devices to a catalog only.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/claimDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_ClaimDevices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/claimDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_ClaimDevices</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -81,6 +84,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -97,7 +101,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Bulk claims the devices. Use '.unassigned' or '.default' for the device group and product names when bulk claiming devices to a catalog only.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/claimDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_ClaimDevices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/claimDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_ClaimDevices</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -105,18 +109,19 @@
       </Docs>
     </Member>
     <Member MemberName="CountDevices">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt; CountDevices (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt; CountDevices(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt; CountDevices (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt; CountDevices(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sphere.SphereDeviceGroupResource.CountDevices(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CountDevices (Optional cancellationToken As CancellationToken = Nothing) As Response(Of CountDeviceResult)" />
-      <MemberSignature Language="F#" Value="abstract member CountDevices : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&#xA;override this.CountDevices : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;" Usage="sphereDeviceGroupResource.CountDevices cancellationToken" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CountDevices (Optional cancellationToken As CancellationToken = Nothing) As Response(Of CountDevicesResult)" />
+      <MemberSignature Language="F#" Value="abstract member CountDevices : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&#xA;override this.CountDevices : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;" Usage="sphereDeviceGroupResource.CountDevices cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -125,24 +130,25 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Counts devices in device group. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/countDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_CountDevices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/countDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_CountDevices</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="CountDevicesAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&gt; CountDevicesAsync (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&gt; CountDevicesAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt; CountDevicesAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt; CountDevicesAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sphere.SphereDeviceGroupResource.CountDevicesAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CountDevicesAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of CountDeviceResult))" />
-      <MemberSignature Language="F#" Value="abstract member CountDevicesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&gt;&#xA;override this.CountDevicesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&gt;" Usage="sphereDeviceGroupResource.CountDevicesAsync cancellationToken" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CountDevicesAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of CountDevicesResult))" />
+      <MemberSignature Language="F#" Value="abstract member CountDevicesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt;&#xA;override this.CountDevicesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt;" Usage="sphereDeviceGroupResource.CountDevicesAsync cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -151,7 +157,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Counts devices in device group. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/countDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_CountDevices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/countDevices</description></item><item><term>Operation Id</term><description>DeviceGroups_CountDevices</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -166,6 +172,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -198,6 +205,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Sphere.SphereDeviceGroupData</ReturnType>
@@ -219,6 +227,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -233,7 +242,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a DeviceGroup. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Delete</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -248,6 +257,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -262,7 +272,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a DeviceGroup. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Delete</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -277,6 +287,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.SphereDeviceGroupResource&gt;</ReturnType>
@@ -288,7 +299,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a DeviceGroup. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -303,6 +314,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.SphereDeviceGroupResource&gt;&gt;</ReturnType>
@@ -314,7 +326,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a DeviceGroup. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -329,6 +341,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.SphereDeploymentResource&gt;</ReturnType>
@@ -342,7 +355,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Deployment. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -361,6 +374,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.SphereDeploymentResource&gt;&gt;</ReturnType>
@@ -374,7 +388,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Deployment. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -393,6 +407,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Sphere.SphereDeploymentCollection</ReturnType>
@@ -414,6 +429,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.SphereDeviceResource&gt;</ReturnType>
@@ -427,7 +443,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Device. Use '.unassigned' or '.default' for the device group and product names when a device does not belong to a device group and product.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/devices/{deviceName}</description></item><item><term>Operation Id</term><description>Devices_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/devices/{deviceName}</description></item><item><term>Operation Id</term><description>Devices_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -446,6 +462,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.SphereDeviceResource&gt;&gt;</ReturnType>
@@ -459,7 +476,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Device. Use '.unassigned' or '.default' for the device group and product names when a device does not belong to a device group and product.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/devices/{deviceName}</description></item><item><term>Operation Id</term><description>Devices_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}/devices/{deviceName}</description></item><item><term>Operation Id</term><description>Devices_Get</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -478,6 +495,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Sphere.SphereDeviceCollection</ReturnType>
@@ -499,6 +517,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -519,6 +538,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -538,6 +558,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Sphere.SphereDeviceGroupResource&gt;</ReturnType>
@@ -554,7 +575,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a DeviceGroup. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Update</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -571,6 +592,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Sphere.SphereDeviceGroupResource&gt;&gt;</ReturnType>
@@ -587,7 +609,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a DeviceGroup. '.default' and '.unassigned' are system defined values and cannot be used for product or device group name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureSphere/catalogs/{catalogName}/products/{productName}/deviceGroups/{deviceGroupName}</description></item><item><term>Operation Id</term><description>DeviceGroups_Update</description></item><item><term>Default Api Version</term><description>2024-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Sphere.SphereDeviceGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

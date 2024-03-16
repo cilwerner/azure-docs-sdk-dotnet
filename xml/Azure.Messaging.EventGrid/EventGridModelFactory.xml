@@ -28,6 +28,7 @@
     <AssemblyVersion>4.21.0.0</AssemblyVersion>
     <AssemblyVersion>4.22.0.0</AssemblyVersion>
     <AssemblyVersion>4.23.0.0</AssemblyVersion>
+    <AssemblyVersion>4.24.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -47,8 +48,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatEventBaseProperties</ReturnType>
@@ -76,8 +77,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatEventInThreadBaseProperties</ReturnType>
@@ -103,8 +104,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatMessageDeletedEventData</ReturnType>
@@ -146,8 +147,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatMessageDeletedInThreadEventData</ReturnType>
@@ -187,8 +188,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -238,8 +239,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatMessageEditedEventData</ReturnType>
@@ -285,8 +286,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -334,8 +335,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatMessageEditedInThreadEventData</ReturnType>
@@ -379,8 +380,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatMessageEventBaseProperties</ReturnType>
@@ -420,8 +421,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatMessageEventInThreadBaseProperties</ReturnType>
@@ -459,8 +460,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -508,8 +509,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatMessageReceivedEventData</ReturnType>
@@ -553,8 +554,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -600,8 +601,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatMessageReceivedInThreadEventData</ReturnType>
@@ -643,8 +644,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatParticipantAddedToThreadEventData</ReturnType>
@@ -678,8 +679,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatParticipantAddedToThreadWithUserEventData</ReturnType>
@@ -717,8 +718,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatParticipantRemovedFromThreadEventData</ReturnType>
@@ -752,8 +753,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatParticipantRemovedFromThreadWithUserEventData</ReturnType>
@@ -791,11 +792,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -834,8 +835,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -878,19 +879,20 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatThreadCreatedEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="transactionId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="threadId" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="createTime" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="version" Type="System.Nullable&lt;System.Int64&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="createdByCommunicationIdentifier" Type="Azure.Messaging.EventGrid.SystemEvents.CommunicationIdentifierModel" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="properties" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="metadata" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.String&gt;" Index="6" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="participants" Type="System.Collections.Generic.IEnumerable&lt;Azure.Messaging.EventGrid.SystemEvents.AcsChatThreadParticipantProperties&gt;" Index="7" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="transactionId" Type="System.String" />
+        <Parameter Name="threadId" Type="System.String" />
+        <Parameter Name="createTime" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="version" Type="System.Nullable&lt;System.Int64&gt;" />
+        <Parameter Name="createdByCommunicationIdentifier" Type="Azure.Messaging.EventGrid.SystemEvents.CommunicationIdentifierModel" />
+        <Parameter Name="properties" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;" />
+        <Parameter Name="metadata" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.String&gt;" />
+        <Parameter Name="participants" Type="System.Collections.Generic.IEnumerable&lt;Azure.Messaging.EventGrid.SystemEvents.AcsChatThreadParticipantProperties&gt;" />
       </Parameters>
       <Docs>
         <param name="transactionId"> The transaction id will be used as co-relation vector. </param>
@@ -915,8 +917,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -960,8 +962,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1005,8 +1007,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatThreadCreatedWithUserEventData</ReturnType>
@@ -1046,8 +1048,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatThreadDeletedEventData</ReturnType>
@@ -1081,8 +1083,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatThreadEventBaseProperties</ReturnType>
@@ -1114,8 +1116,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatThreadEventInThreadBaseProperties</ReturnType>
@@ -1145,8 +1147,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1178,8 +1180,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatThreadParticipantProperties</ReturnType>
@@ -1207,8 +1209,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1250,8 +1252,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatThreadPropertiesUpdatedEventData</ReturnType>
@@ -1289,8 +1291,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1334,8 +1336,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatThreadPropertiesUpdatedPerUserEventData</ReturnType>
@@ -1375,8 +1377,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsChatThreadWithUserDeletedEventData</ReturnType>
@@ -1412,8 +1414,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1451,8 +1453,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsEmailDeliveryReportReceivedEventData</ReturnType>
@@ -1486,8 +1488,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsEmailDeliveryReportStatusDetails</ReturnType>
@@ -1511,8 +1513,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1552,8 +1554,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsEmailEngagementTrackingReportReceivedEventData</ReturnType>
@@ -1589,8 +1591,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsIncomingCallCustomContext</ReturnType>
@@ -1616,8 +1618,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsIncomingCallEventData</ReturnType>
@@ -1653,8 +1655,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1692,8 +1694,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRecordingChunkInfoProperties</ReturnType>
@@ -1727,8 +1729,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1755,8 +1757,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1792,8 +1794,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1835,8 +1837,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRecordingFileStatusUpdatedEventData</ReturnType>
@@ -1872,8 +1874,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRecordingStorageInfoProperties</ReturnType>
@@ -1897,8 +1899,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1928,8 +1930,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterChannelConfiguration</ReturnType>
@@ -1957,8 +1959,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterEventData</ReturnType>
@@ -1986,8 +1988,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterJobCancelledEventData</ReturnType>
@@ -2025,8 +2027,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterJobClassifiedEventData</ReturnType>
@@ -2068,8 +2070,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterJobClosedEventData</ReturnType>
@@ -2109,8 +2111,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterJobCompletedEventData</ReturnType>
@@ -2148,8 +2150,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterJobDeletedEventData</ReturnType>
@@ -2183,8 +2185,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterJobEventData</ReturnType>
@@ -2218,8 +2220,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterJobExceptionTriggeredEventData</ReturnType>
@@ -2257,8 +2259,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterJobQueuedEventData</ReturnType>
@@ -2298,8 +2300,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -2351,8 +2353,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterJobReceivedEventData</ReturnType>
@@ -2398,8 +2400,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterJobSchedulingFailedEventData</ReturnType>
@@ -2443,8 +2445,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterJobUnassignedEventData</ReturnType>
@@ -2482,8 +2484,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterJobWaitingForActivationEventData</ReturnType>
@@ -2527,8 +2529,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterJobWorkerSelectorsExpiredEventData</ReturnType>
@@ -2566,8 +2568,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterQueueDetails</ReturnType>
@@ -2595,8 +2597,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterWorkerDeletedEventData</ReturnType>
@@ -2626,8 +2628,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterWorkerDeregisteredEventData</ReturnType>
@@ -2651,8 +2653,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterWorkerEventData</ReturnType>
@@ -2682,8 +2684,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterWorkerOfferAcceptedEventData</ReturnType>
@@ -2729,8 +2731,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterWorkerOfferDeclinedEventData</ReturnType>
@@ -2764,8 +2766,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterWorkerOfferExpiredEventData</ReturnType>
@@ -2799,8 +2801,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterWorkerOfferIssuedEventData</ReturnType>
@@ -2848,8 +2850,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterWorkerOfferRevokedEventData</ReturnType>
@@ -2883,8 +2885,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRouterWorkerRegisteredEventData</ReturnType>
@@ -2918,8 +2920,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsSmsDeliveryAttemptProperties</ReturnType>
@@ -2947,8 +2949,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsSmsDeliveryReportReceivedEventData</ReturnType>
@@ -2986,8 +2988,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -3031,8 +3033,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsSmsEventBaseProperties</ReturnType>
@@ -3060,8 +3062,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsSmsReceivedEventData</ReturnType>
@@ -3093,8 +3095,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsUserDisconnectedEventData</ReturnType>
@@ -3119,14 +3121,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiCenterApiDefinitionAddedEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="title" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="description" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="specification" Type="Azure.Messaging.EventGrid.SystemEvents.ApiCenterApiSpecification" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="title" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="specification" Type="Azure.Messaging.EventGrid.SystemEvents.ApiCenterApiSpecification" />
       </Parameters>
       <Docs>
         <param name="title"> API definition title. </param>
@@ -3147,14 +3150,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiCenterApiDefinitionUpdatedEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="title" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="description" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="specification" Type="Azure.Messaging.EventGrid.SystemEvents.ApiCenterApiSpecification" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="title" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="specification" Type="Azure.Messaging.EventGrid.SystemEvents.ApiCenterApiSpecification" />
       </Parameters>
       <Docs>
         <param name="title"> API definition title. </param>
@@ -3175,13 +3179,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiCenterApiSpecification</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="version" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="version" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="name"> Specification name. </param>
@@ -3200,8 +3205,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementApiCreatedEventData</ReturnType>
@@ -3225,8 +3230,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementApiDeletedEventData</ReturnType>
@@ -3250,8 +3255,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementApiReleaseCreatedEventData</ReturnType>
@@ -3275,8 +3280,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementApiReleaseDeletedEventData</ReturnType>
@@ -3300,8 +3305,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementApiReleaseUpdatedEventData</ReturnType>
@@ -3325,8 +3330,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementApiUpdatedEventData</ReturnType>
@@ -3350,8 +3355,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementGatewayApiAddedEventData</ReturnType>
@@ -3375,8 +3380,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementGatewayApiRemovedEventData</ReturnType>
@@ -3400,8 +3405,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementGatewayCertificateAuthorityCreatedEventData</ReturnType>
@@ -3425,8 +3430,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementGatewayCertificateAuthorityDeletedEventData</ReturnType>
@@ -3450,8 +3455,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementGatewayCertificateAuthorityUpdatedEventData</ReturnType>
@@ -3475,8 +3480,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementGatewayCreatedEventData</ReturnType>
@@ -3500,8 +3505,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementGatewayDeletedEventData</ReturnType>
@@ -3525,8 +3530,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementGatewayHostnameConfigurationCreatedEventData</ReturnType>
@@ -3550,8 +3555,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementGatewayHostnameConfigurationDeletedEventData</ReturnType>
@@ -3575,8 +3580,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementGatewayHostnameConfigurationUpdatedEventData</ReturnType>
@@ -3600,8 +3605,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementGatewayUpdatedEventData</ReturnType>
@@ -3625,8 +3630,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementProductCreatedEventData</ReturnType>
@@ -3650,8 +3655,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementProductDeletedEventData</ReturnType>
@@ -3675,8 +3680,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementProductUpdatedEventData</ReturnType>
@@ -3700,8 +3705,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementSubscriptionCreatedEventData</ReturnType>
@@ -3725,8 +3730,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementSubscriptionDeletedEventData</ReturnType>
@@ -3750,8 +3755,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementSubscriptionUpdatedEventData</ReturnType>
@@ -3775,8 +3780,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementUserCreatedEventData</ReturnType>
@@ -3800,8 +3805,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementUserDeletedEventData</ReturnType>
@@ -3825,8 +3830,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ApiManagementUserUpdatedEventData</ReturnType>
@@ -3850,8 +3855,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AppConfigurationKeyValueDeletedEventData</ReturnType>
@@ -3881,8 +3886,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AppConfigurationKeyValueModifiedEventData</ReturnType>
@@ -3912,8 +3917,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AppConfigurationSnapshotCreatedEventData</ReturnType>
@@ -3941,8 +3946,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AppConfigurationSnapshotEventData</ReturnType>
@@ -3970,8 +3975,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AppConfigurationSnapshotModifiedEventData</ReturnType>
@@ -3999,8 +4004,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AppEventTypeDetail</ReturnType>
@@ -4024,8 +4029,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AppServicePlanEventTypeDetail</ReturnType>
@@ -4054,15 +4059,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AvsClusterCreatedEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="addedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="removedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="inMaintenanceHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="addedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="removedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="inMaintenanceHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
         <param name="operationId"> Id of the operation that caused this event. </param>
@@ -4084,15 +4090,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AvsClusterDeletedEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="addedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="removedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="inMaintenanceHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="addedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="removedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="inMaintenanceHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
         <param name="operationId"> Id of the operation that caused this event. </param>
@@ -4114,15 +4121,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AvsClusterEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="addedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="removedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="inMaintenanceHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="addedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="removedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="inMaintenanceHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
         <param name="operationId"> Id of the operation that caused this event. </param>
@@ -4144,16 +4152,17 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AvsClusterFailedEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="addedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="removedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="inMaintenanceHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="failureMessage" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="addedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="removedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="inMaintenanceHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="failureMessage" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="operationId"> Id of the operation that caused this event. </param>
@@ -4176,15 +4185,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AvsClusterUpdatedEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="addedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="removedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="inMaintenanceHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="addedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="removedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="inMaintenanceHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
         <param name="operationId"> Id of the operation that caused this event. </param>
@@ -4206,15 +4216,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AvsClusterUpdatingEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="addedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="removedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="inMaintenanceHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="addedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="removedHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="inMaintenanceHostNames" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
         <param name="operationId"> Id of the operation that caused this event. </param>
@@ -4236,12 +4247,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AvsPrivateCloudEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="operationId" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="operationId"> Id of the operation that caused this event. </param>
@@ -4260,13 +4272,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AvsPrivateCloudFailedEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="failureMessage" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="failureMessage" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="operationId"> Id of the operation that caused this event. </param>
@@ -4286,12 +4299,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AvsPrivateCloudUpdatedEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="operationId" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="operationId"> Id of the operation that caused this event. </param>
@@ -4310,12 +4324,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AvsPrivateCloudUpdatingEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="operationId" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="operationId"> Id of the operation that caused this event. </param>
@@ -4334,14 +4349,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AvsScriptExecutionCancelledEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cmdletId" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="output" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="cmdletId" Type="System.String" />
+        <Parameter Name="output" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
         <param name="operationId"> Id of the operation that caused this event. </param>
@@ -4362,14 +4378,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AvsScriptExecutionEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cmdletId" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="output" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="cmdletId" Type="System.String" />
+        <Parameter Name="output" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
         <param name="operationId"> Id of the operation that caused this event. </param>
@@ -4390,15 +4407,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AvsScriptExecutionFailedEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cmdletId" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="output" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="failureMessage" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="cmdletId" Type="System.String" />
+        <Parameter Name="output" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="failureMessage" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="operationId"> Id of the operation that caused this event. </param>
@@ -4420,15 +4438,16 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AvsScriptExecutionFinishedEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cmdletId" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="output" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="namedOutputs" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.String&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="cmdletId" Type="System.String" />
+        <Parameter Name="output" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="namedOutputs" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.String&gt;" />
       </Parameters>
       <Docs>
         <param name="operationId"> Id of the operation that caused this event. </param>
@@ -4450,14 +4469,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AvsScriptExecutionStartedEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="operationId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cmdletId" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="output" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="operationId" Type="System.String" />
+        <Parameter Name="cmdletId" Type="System.String" />
+        <Parameter Name="output" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
         <param name="operationId"> Id of the operation that caused this event. </param>
@@ -4477,8 +4497,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.CommunicationIdentifierModel</ReturnType>
@@ -4508,8 +4528,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.CommunicationUserIdentifierModel</ReturnType>
@@ -4535,8 +4555,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4572,8 +4592,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerRegistryArtifactEventData</ReturnType>
@@ -4607,8 +4627,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerRegistryArtifactEventTarget</ReturnType>
@@ -4644,8 +4664,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerRegistryChartDeletedEventData</ReturnType>
@@ -4679,8 +4699,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerRegistryChartPushedEventData</ReturnType>
@@ -4714,8 +4734,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerRegistryEventActor</ReturnType>
@@ -4739,8 +4759,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerRegistryEventConnectedRegistry</ReturnType>
@@ -4764,8 +4784,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -4807,8 +4827,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerRegistryEventData</ReturnType>
@@ -4848,8 +4868,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerRegistryEventRequest</ReturnType>
@@ -4881,8 +4901,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerRegistryEventSource</ReturnType>
@@ -4908,8 +4928,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerRegistryEventTarget</ReturnType>
@@ -4945,8 +4965,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerRegistryImageDeletedEventData</ReturnType>
@@ -4986,8 +5006,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerRegistryImagePushedEventData</ReturnType>
@@ -5027,8 +5047,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerServiceClusterSupportEndedEventData</ReturnType>
@@ -5052,8 +5072,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerServiceClusterSupportEndingEventData</ReturnType>
@@ -5077,8 +5097,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerServiceClusterSupportEventData</ReturnType>
@@ -5102,8 +5122,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerServiceNewKubernetesVersionAvailableEventData</ReturnType>
@@ -5133,8 +5153,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerServiceNodePoolRollingEventData</ReturnType>
@@ -5158,8 +5178,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerServiceNodePoolRollingFailedEventData</ReturnType>
@@ -5183,8 +5203,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerServiceNodePoolRollingStartedEventData</ReturnType>
@@ -5208,8 +5228,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ContainerServiceNodePoolRollingSucceededEventData</ReturnType>
@@ -5233,8 +5253,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DataBoxCopyCompletedEventData</ReturnType>
@@ -5262,8 +5282,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DataBoxCopyStartedEventData</ReturnType>
@@ -5291,8 +5311,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DataBoxOrderCompletedEventData</ReturnType>
@@ -5320,8 +5340,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DeviceConnectionStateEventInfo</ReturnType>
@@ -5345,8 +5365,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DeviceConnectionStateEventProperties</ReturnType>
@@ -5376,8 +5396,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DeviceLifeCycleEventProperties</ReturnType>
@@ -5405,8 +5425,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DeviceTelemetryEventProperties</ReturnType>
@@ -5434,8 +5454,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DeviceTwinInfo</ReturnType>
@@ -5479,8 +5499,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DeviceTwinInfoProperties</ReturnType>
@@ -5506,8 +5526,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DeviceTwinInfoX509Thumbprint</ReturnType>
@@ -5533,8 +5553,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DeviceTwinMetadata</ReturnType>
@@ -5558,8 +5578,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DeviceTwinProperties</ReturnType>
@@ -5585,8 +5605,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.EventGridMqttClientCreatedOrUpdatedEventData</ReturnType>
@@ -5622,8 +5642,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.EventGridMqttClientDeletedEventData</ReturnType>
@@ -5651,8 +5671,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.EventGridMqttClientEventData</ReturnType>
@@ -5680,8 +5700,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.EventGridMqttClientSessionConnectedEventData</ReturnType>
@@ -5713,8 +5733,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.EventGridMqttClientSessionDisconnectedEventData</ReturnType>
@@ -5748,8 +5768,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.EventHubCaptureFileCreatedEventData</ReturnType>
@@ -5789,8 +5809,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5828,8 +5848,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.HealthcareDicomImageCreatedEventData</ReturnType>
@@ -5863,8 +5883,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -5902,8 +5922,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.HealthcareDicomImageDeletedEventData</ReturnType>
@@ -5937,8 +5957,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.HealthcareDicomImageUpdatedEventData</ReturnType>
@@ -5972,8 +5992,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.HealthcareFhirResourceCreatedEventData</ReturnType>
@@ -6003,8 +6023,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.HealthcareFhirResourceDeletedEventData</ReturnType>
@@ -6034,8 +6054,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.HealthcareFhirResourceUpdatedEventData</ReturnType>
@@ -6065,8 +6085,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.IotHubDeviceConnectedEventData</ReturnType>
@@ -6096,8 +6116,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.IotHubDeviceCreatedEventData</ReturnType>
@@ -6125,8 +6145,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.IotHubDeviceDeletedEventData</ReturnType>
@@ -6154,8 +6174,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.IotHubDeviceDisconnectedEventData</ReturnType>
@@ -6185,8 +6205,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.IotHubDeviceTelemetryEventData</ReturnType>
@@ -6214,8 +6234,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.KeyVaultAccessPolicyChangedEventData</ReturnType>
@@ -6251,8 +6271,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.KeyVaultCertificateExpiredEventData</ReturnType>
@@ -6288,8 +6308,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.KeyVaultCertificateNearExpiryEventData</ReturnType>
@@ -6325,8 +6345,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.KeyVaultCertificateNewVersionCreatedEventData</ReturnType>
@@ -6362,8 +6382,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.KeyVaultKeyExpiredEventData</ReturnType>
@@ -6399,8 +6419,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.KeyVaultKeyNearExpiryEventData</ReturnType>
@@ -6436,8 +6456,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.KeyVaultKeyNewVersionCreatedEventData</ReturnType>
@@ -6473,8 +6493,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.KeyVaultSecretExpiredEventData</ReturnType>
@@ -6510,8 +6530,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.KeyVaultSecretNearExpiryEventData</ReturnType>
@@ -6547,8 +6567,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.KeyVaultSecretNewVersionCreatedEventData</ReturnType>
@@ -6584,8 +6604,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MachineLearningServicesDatasetDriftDetectedEventData</ReturnType>
@@ -6623,8 +6643,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MachineLearningServicesModelDeployedEventData</ReturnType>
@@ -6656,8 +6676,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MachineLearningServicesModelRegisteredEventData</ReturnType>
@@ -6687,8 +6707,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MachineLearningServicesRunCompletedEventData</ReturnType>
@@ -6722,8 +6742,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MachineLearningServicesRunStatusChangedEventData</ReturnType>
@@ -6759,8 +6779,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MapsGeofenceEnteredEventData</ReturnType>
@@ -6790,8 +6810,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MapsGeofenceEventProperties</ReturnType>
@@ -6821,8 +6841,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -6858,8 +6878,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MapsGeofenceExitedEventData</ReturnType>
@@ -6889,8 +6909,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MapsGeofenceGeometry</ReturnType>
@@ -6924,8 +6944,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MapsGeofenceResultEventData</ReturnType>
@@ -6955,8 +6975,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobCanceledEventData</ReturnType>
@@ -6990,8 +7010,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -7027,8 +7047,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobCancelingEventData</ReturnType>
@@ -7056,8 +7076,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobError</ReturnType>
@@ -7089,8 +7109,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -7128,8 +7148,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobErrorDetail</ReturnType>
@@ -7155,8 +7175,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobErroredEventData</ReturnType>
@@ -7190,8 +7210,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -7227,8 +7247,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobFinishedEventData</ReturnType>
@@ -7262,8 +7282,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -7299,8 +7319,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobOutput</ReturnType>
@@ -7332,8 +7352,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobOutputAsset</ReturnType>
@@ -7367,8 +7387,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobOutputCanceledEventData</ReturnType>
@@ -7400,8 +7420,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobOutputCancelingEventData</ReturnType>
@@ -7433,8 +7453,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobOutputErroredEventData</ReturnType>
@@ -7466,8 +7486,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobOutputFinishedEventData</ReturnType>
@@ -7499,8 +7519,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobOutputProcessingEventData</ReturnType>
@@ -7532,8 +7552,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobOutputProgressEventData</ReturnType>
@@ -7561,8 +7581,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobOutputScheduledEventData</ReturnType>
@@ -7594,8 +7614,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobOutputStateChangeEventData</ReturnType>
@@ -7627,8 +7647,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobProcessingEventData</ReturnType>
@@ -7656,8 +7676,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobScheduledEventData</ReturnType>
@@ -7685,8 +7705,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaJobStateChangeEventData</ReturnType>
@@ -7714,8 +7734,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaLiveEventChannelArchiveHeartbeatEventData</ReturnType>
@@ -7741,8 +7761,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaLiveEventConnectionRejectedEventData</ReturnType>
@@ -7774,8 +7794,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaLiveEventEncoderConnectedEventData</ReturnType>
@@ -7805,8 +7825,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaLiveEventEncoderDisconnectedEventData</ReturnType>
@@ -7838,8 +7858,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaLiveEventIncomingDataChunkDroppedEventData</ReturnType>
@@ -7873,8 +7893,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaLiveEventIncomingStreamReceivedEventData</ReturnType>
@@ -7914,8 +7934,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaLiveEventIncomingStreamsOutOfSyncEventData</ReturnType>
@@ -7949,8 +7969,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaLiveEventIncomingVideoStreamsOutOfSyncEventData</ReturnType>
@@ -7982,8 +8002,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -8035,8 +8055,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaLiveEventIngestHeartbeatEventData</ReturnType>
@@ -8090,8 +8110,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MediaLiveEventTrackDiscontinuityDetectedEventData</ReturnType>
@@ -8127,8 +8147,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.MicrosoftTeamsUserIdentifierModel</ReturnType>
@@ -8156,8 +8176,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.PhoneNumberIdentifierModel</ReturnType>
@@ -8183,8 +8203,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.PolicyInsightsPolicyStateChangedEventData</ReturnType>
@@ -8220,8 +8240,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.PolicyInsightsPolicyStateCreatedEventData</ReturnType>
@@ -8257,8 +8277,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.PolicyInsightsPolicyStateDeletedEventData</ReturnType>
@@ -8294,8 +8314,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.RedisExportRdbCompletedEventData</ReturnType>
@@ -8323,8 +8343,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.RedisImportRdbCompletedEventData</ReturnType>
@@ -8352,8 +8372,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.RedisPatchingCompletedEventData</ReturnType>
@@ -8381,8 +8401,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.RedisScalingCompletedEventData</ReturnType>
@@ -8410,8 +8430,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceActionCancelEventData</ReturnType>
@@ -8455,8 +8475,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceActionFailureEventData</ReturnType>
@@ -8500,8 +8520,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceActionSuccessEventData</ReturnType>
@@ -8545,8 +8565,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceAuthorization</ReturnType>
@@ -8574,8 +8594,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceDeleteCancelEventData</ReturnType>
@@ -8619,8 +8639,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceDeleteFailureEventData</ReturnType>
@@ -8664,8 +8684,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceDeleteSuccessEventData</ReturnType>
@@ -8709,8 +8729,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceHttpRequest</ReturnType>
@@ -8740,8 +8760,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceNotificationsHealthResourcesAnnotatedEventData</ReturnType>
@@ -8769,8 +8789,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceNotificationsHealthResourcesAvailabilityStatusChangedEventData</ReturnType>
@@ -8798,8 +8818,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceNotificationsOperationalDetails</ReturnType>
@@ -8823,8 +8843,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceNotificationsResourceDeletedEventData</ReturnType>
@@ -8850,8 +8870,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceNotificationsResourceManagementCreatedOrUpdatedEventData</ReturnType>
@@ -8879,8 +8899,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceNotificationsResourceManagementDeletedEventData</ReturnType>
@@ -8906,8 +8926,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceNotificationsResourceUpdatedDetails</ReturnType>
@@ -8941,8 +8961,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -8986,8 +9006,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceNotificationsResourceUpdatedEventData</ReturnType>
@@ -9015,8 +9035,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceWriteCancelEventData</ReturnType>
@@ -9060,8 +9080,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceWriteFailureEventData</ReturnType>
@@ -9105,8 +9125,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ResourceWriteSuccessEventData</ReturnType>
@@ -9150,8 +9170,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ServiceBusActiveMessagesAvailablePeriodicNotificationsEventData</ReturnType>
@@ -9185,8 +9205,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ServiceBusActiveMessagesAvailableWithNoListenersEventData</ReturnType>
@@ -9220,8 +9240,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ServiceBusDeadletterMessagesAvailablePeriodicNotificationsEventData</ReturnType>
@@ -9255,8 +9275,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.ServiceBusDeadletterMessagesAvailableWithNoListenersEventData</ReturnType>
@@ -9290,8 +9310,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.SignalRServiceClientConnectionConnectedEventData</ReturnType>
@@ -9321,8 +9341,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.SignalRServiceClientConnectionDisconnectedEventData</ReturnType>
@@ -9354,8 +9374,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.StorageAsyncOperationInitiatedEventData</ReturnType>
@@ -9397,8 +9417,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.StorageBlobCreatedEventData</ReturnType>
@@ -9444,8 +9464,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.StorageBlobDeletedEventData</ReturnType>
@@ -9485,8 +9505,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.StorageBlobInventoryPolicyCompletedEventData</ReturnType>
@@ -9522,8 +9542,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.StorageBlobRenamedEventData</ReturnType>
@@ -9561,8 +9581,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.StorageBlobTierChangedEventData</ReturnType>
@@ -9604,8 +9624,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.StorageDirectoryCreatedEventData</ReturnType>
@@ -9643,8 +9663,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.StorageDirectoryDeletedEventData</ReturnType>
@@ -9682,8 +9702,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.StorageDirectoryRenamedEventData</ReturnType>
@@ -9721,8 +9741,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.StorageLifecyclePolicyActionSummaryDetail</ReturnType>
@@ -9750,8 +9770,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.StorageLifecyclePolicyCompletedEventData</ReturnType>
@@ -9782,16 +9802,17 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.StorageTaskAssignmentCompletedEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="status" Type="System.Nullable&lt;Azure.Messaging.EventGrid.SystemEvents.StorageTaskAssignmentCompletedStatus&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="completedOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="taskExecutionId" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="taskName" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="summaryReportBlobUri" Type="System.Uri" Index="4" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="status" Type="System.Nullable&lt;Azure.Messaging.EventGrid.SystemEvents.StorageTaskAssignmentCompletedStatus&gt;" />
+        <Parameter Name="completedOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="taskExecutionId" Type="System.String" />
+        <Parameter Name="taskName" Type="System.String" />
+        <Parameter Name="summaryReportBlobUri" Type="System.Uri" />
       </Parameters>
       <Docs>
         <param name="status"> The status for a storage task. </param>
@@ -9814,13 +9835,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.StorageTaskAssignmentQueuedEventData</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="queuedOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="taskExecutionId" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="queuedOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="taskExecutionId" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="queuedOn"> The time at which a storage task was queued. </param>
@@ -9839,8 +9861,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.StorageTaskCompletedEventData</ReturnType>
@@ -9872,8 +9894,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.StorageTaskQueuedEventData</ReturnType>
@@ -9899,8 +9921,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.SubscriptionDeletedEventData</ReturnType>
@@ -9924,8 +9946,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.SubscriptionValidationEventData</ReturnType>
@@ -9951,8 +9973,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -9982,8 +10004,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.WebAppServicePlanUpdatedEventData</ReturnType>
@@ -10021,8 +10043,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.WebAppServicePlanUpdatedEventDataSku</ReturnType>
@@ -10054,8 +10076,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.WebAppUpdatedEventData</ReturnType>
@@ -10091,8 +10113,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.WebBackupOperationCompletedEventData</ReturnType>
@@ -10128,8 +10150,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.WebBackupOperationFailedEventData</ReturnType>
@@ -10165,8 +10187,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.WebBackupOperationStartedEventData</ReturnType>
@@ -10202,8 +10224,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.WebRestoreOperationCompletedEventData</ReturnType>
@@ -10239,8 +10261,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.WebRestoreOperationFailedEventData</ReturnType>
@@ -10276,8 +10298,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.WebRestoreOperationStartedEventData</ReturnType>
@@ -10313,8 +10335,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.WebSlotSwapCompletedEventData</ReturnType>
@@ -10350,8 +10372,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.WebSlotSwapFailedEventData</ReturnType>
@@ -10387,8 +10409,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.WebSlotSwapStartedEventData</ReturnType>
@@ -10424,8 +10446,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.WebSlotSwapWithPreviewCancelledEventData</ReturnType>
@@ -10461,8 +10483,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
-        <AssemblyVersion>4.22.0.0</AssemblyVersion>
         <AssemblyVersion>4.23.0.0</AssemblyVersion>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.WebSlotSwapWithPreviewStartedEventData</ReturnType>

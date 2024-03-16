@@ -32,6 +32,7 @@
     <AssemblyVersion>1.36.0.0</AssemblyVersion>
     <AssemblyVersion>1.37.0.0</AssemblyVersion>
     <AssemblyVersion>1.38.0.0</AssemblyVersion>
+    <AssemblyVersion>1.39.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -54,6 +55,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Pipeline.HttpPipeline</ReturnType>
@@ -64,7 +66,7 @@
       <Docs>
         <param name="options">The configuration options used to build the <see cref="T:Azure.Core.Pipeline.HttpPipeline" /></param>
         <summary>
-            Creates an instance of <see cref="T:Azure.Core.Pipeline.HttpPipeline" /> populated with default policies, customer provided policies from <paramref name="options" /> and client provided per call policies.
+            Creates an instance of <see cref="T:Azure.Core.Pipeline.HttpPipeline" /> populated with default policies, user-provided policies from <paramref name="options" /> and client provided per call policies.
             </summary>
         <returns>A new instance of <see cref="T:Azure.Core.Pipeline.HttpPipeline" /></returns>
         <remarks>To be added.</remarks>
@@ -80,6 +82,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Pipeline.HttpPipeline</ReturnType>
@@ -96,10 +99,10 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="options">The customer provided client options object.</param>
+        <param name="options">The user-provided client options object.</param>
         <param name="perRetryPolicies">Client provided per-retry policies.</param>
         <summary>
-            Creates an instance of <see cref="T:Azure.Core.Pipeline.HttpPipeline" /> populated with default policies, customer provided policies from <paramref name="options" /> and client provided per call policies.
+            Creates an instance of <see cref="T:Azure.Core.Pipeline.HttpPipeline" /> populated with default policies, user-provided policies from <paramref name="options" /> and client provided per call policies.
             </summary>
         <returns>A new instance of <see cref="T:Azure.Core.Pipeline.HttpPipeline" /></returns>
         <remarks>To be added.</remarks>
@@ -115,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Pipeline.DisposableHttpPipeline</ReturnType>
@@ -125,9 +129,9 @@
       </Parameters>
       <Docs>
         <param name="options">The configuration options used to build the <see cref="T:Azure.Core.Pipeline.DisposableHttpPipeline" /></param>
-        <param name="transportOptions">The customer provided transport options which will be applied to the default transport. Note: If a custom transport has been supplied via the <paramref name="options" />, these <paramref name="transportOptions" /> will be ignored.</param>
+        <param name="transportOptions">The user-provided transport options which will be applied to the default transport. Note: If a custom transport has been supplied via the <paramref name="options" />, these <paramref name="transportOptions" /> will be ignored.</param>
         <summary>
-            Creates an instance of <see cref="T:Azure.Core.Pipeline.DisposableHttpPipeline" /> populated with default policies, customer provided policies from <paramref name="options" />, client provided per call policies, and the supplied <see cref="T:Azure.Core.Pipeline.HttpPipelineTransportOptions" />.
+            Creates an instance of <see cref="T:Azure.Core.Pipeline.DisposableHttpPipeline" /> populated with default policies, user-provided policies from <paramref name="options" />, client provided per call policies, and the supplied <see cref="T:Azure.Core.Pipeline.HttpPipelineTransportOptions" />.
             </summary>
         <returns>A new instance of <see cref="T:Azure.Core.Pipeline.DisposableHttpPipeline" /></returns>
         <remarks>To be added.</remarks>
@@ -143,6 +147,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Pipeline.HttpPipeline</ReturnType>
@@ -154,12 +159,12 @@
         <Parameter Name="responseClassifier" Type="Azure.Core.ResponseClassifier" />
       </Parameters>
       <Docs>
-        <param name="options">The customer provided client options object.</param>
+        <param name="options">The user-provided client options object.</param>
         <param name="perCallPolicies">Client provided per-call policies.</param>
         <param name="perRetryPolicies">Client provided per-retry policies.</param>
         <param name="responseClassifier">The client provided response classifier.</param>
         <summary>
-            Creates an instance of <see cref="T:Azure.Core.Pipeline.HttpPipeline" /> populated with default policies, customer provided policies from <paramref name="options" /> and client provided per call policies.
+            Creates an instance of <see cref="T:Azure.Core.Pipeline.HttpPipeline" /> populated with default policies, user-provided policies from <paramref name="options" /> and client provided per call policies.
             </summary>
         <returns>A new instance of <see cref="T:Azure.Core.Pipeline.HttpPipeline" /></returns>
         <remarks>To be added.</remarks>
@@ -175,6 +180,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.38.0.0</AssemblyVersion>
+        <AssemblyVersion>1.39.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Pipeline.DisposableHttpPipeline</ReturnType>
@@ -187,13 +193,13 @@
         <Parameter Name="responseClassifier" Type="Azure.Core.ResponseClassifier" />
       </Parameters>
       <Docs>
-        <param name="options">The customer provided client options object.</param>
+        <param name="options">The user-provided client options object.</param>
         <param name="perCallPolicies">Client provided per-call policies.</param>
         <param name="perRetryPolicies">Client provided per-retry policies.</param>
-        <param name="transportOptions">The customer provided transport options which will be applied to the default transport. Note: If a custom transport has been supplied via the <paramref name="options" />, these <paramref name="transportOptions" /> will be ignored.</param>
+        <param name="transportOptions">The user-provided transport options which will be applied to the default transport. Note: If a custom transport has been supplied via the <paramref name="options" />, these <paramref name="transportOptions" /> will be ignored.</param>
         <param name="responseClassifier">The client provided response classifier.</param>
         <summary>
-            Creates an instance of <see cref="T:Azure.Core.Pipeline.DisposableHttpPipeline" /> populated with default policies, customer provided policies from <paramref name="options" />, client provided per call policies, and the supplied <see cref="T:Azure.Core.Pipeline.HttpPipelineTransportOptions" />.
+            Creates an instance of <see cref="T:Azure.Core.Pipeline.DisposableHttpPipeline" /> populated with default policies, user-provided policies from <paramref name="options" />, client provided per call policies, and the supplied <see cref="T:Azure.Core.Pipeline.HttpPipelineTransportOptions" />.
             </summary>
         <returns>A new instance of <see cref="T:Azure.Core.Pipeline.DisposableHttpPipeline" /></returns>
         <remarks>To be added.</remarks>

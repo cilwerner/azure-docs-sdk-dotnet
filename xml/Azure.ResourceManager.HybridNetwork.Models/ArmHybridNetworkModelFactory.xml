@@ -1467,6 +1467,36 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="RequestMetadata">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.HybridNetwork.Models.RequestMetadata RequestMetadata (string relativePath = default, Azure.ResourceManager.HybridNetwork.Models.HttpMethod httpMethod = default, string serializedBody = default, string apiVersion = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.HybridNetwork.Models.RequestMetadata RequestMetadata(string relativePath, valuetype Azure.ResourceManager.HybridNetwork.Models.HttpMethod httpMethod, string serializedBody, string apiVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.HybridNetwork.Models.ArmHybridNetworkModelFactory.RequestMetadata(System.String,Azure.ResourceManager.HybridNetwork.Models.HttpMethod,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function RequestMetadata (Optional relativePath As String = Nothing, Optional httpMethod As HttpMethod = Nothing, Optional serializedBody As String = Nothing, Optional apiVersion As String = Nothing) As RequestMetadata" />
+      <MemberSignature Language="F#" Value="static member RequestMetadata : string * Azure.ResourceManager.HybridNetwork.Models.HttpMethod * string * string -&gt; Azure.ResourceManager.HybridNetwork.Models.RequestMetadata" Usage="Azure.ResourceManager.HybridNetwork.Models.ArmHybridNetworkModelFactory.RequestMetadata (relativePath, httpMethod, serializedBody, apiVersion)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.HybridNetwork</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.HybridNetwork.Models.RequestMetadata</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="relativePath" Type="System.String" />
+        <Parameter Name="httpMethod" Type="Azure.ResourceManager.HybridNetwork.Models.HttpMethod" />
+        <Parameter Name="serializedBody" Type="System.String" />
+        <Parameter Name="apiVersion" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="relativePath"> The relative path of the request. </param>
+        <param name="httpMethod"> The http method of the request. </param>
+        <param name="serializedBody"> The serialized body of the request. </param>
+        <param name="apiVersion"> The api version of the request. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.HybridNetwork.Models.RequestMetadata" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.HybridNetwork.Models.RequestMetadata" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="SiteData">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.HybridNetwork.SiteData SiteData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, Azure.ResourceManager.HybridNetwork.Models.SitePropertiesFormat properties = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.HybridNetwork.SiteData SiteData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, class Azure.ResourceManager.HybridNetwork.Models.SitePropertiesFormat properties) cil managed" />

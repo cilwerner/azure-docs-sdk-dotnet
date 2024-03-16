@@ -1071,6 +1071,36 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="MachineInstallPatchesContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.HybridCompute.Models.MachineInstallPatchesContent MachineInstallPatchesContent (TimeSpan maximumDuration = default, Azure.ResourceManager.HybridCompute.Models.VmGuestPatchRebootSetting rebootSetting = default, Azure.ResourceManager.HybridCompute.Models.HybridComputeWindowsParameters windowsParameters = default, Azure.ResourceManager.HybridCompute.Models.HybridComputeLinuxParameters linuxParameters = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.HybridCompute.Models.MachineInstallPatchesContent MachineInstallPatchesContent(valuetype System.TimeSpan maximumDuration, valuetype Azure.ResourceManager.HybridCompute.Models.VmGuestPatchRebootSetting rebootSetting, class Azure.ResourceManager.HybridCompute.Models.HybridComputeWindowsParameters windowsParameters, class Azure.ResourceManager.HybridCompute.Models.HybridComputeLinuxParameters linuxParameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.HybridCompute.Models.ArmHybridComputeModelFactory.MachineInstallPatchesContent(System.TimeSpan,Azure.ResourceManager.HybridCompute.Models.VmGuestPatchRebootSetting,Azure.ResourceManager.HybridCompute.Models.HybridComputeWindowsParameters,Azure.ResourceManager.HybridCompute.Models.HybridComputeLinuxParameters)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function MachineInstallPatchesContent (Optional maximumDuration As TimeSpan = Nothing, Optional rebootSetting As VmGuestPatchRebootSetting = Nothing, Optional windowsParameters As HybridComputeWindowsParameters = Nothing, Optional linuxParameters As HybridComputeLinuxParameters = Nothing) As MachineInstallPatchesContent" />
+      <MemberSignature Language="F#" Value="static member MachineInstallPatchesContent : TimeSpan * Azure.ResourceManager.HybridCompute.Models.VmGuestPatchRebootSetting * Azure.ResourceManager.HybridCompute.Models.HybridComputeWindowsParameters * Azure.ResourceManager.HybridCompute.Models.HybridComputeLinuxParameters -&gt; Azure.ResourceManager.HybridCompute.Models.MachineInstallPatchesContent" Usage="Azure.ResourceManager.HybridCompute.Models.ArmHybridComputeModelFactory.MachineInstallPatchesContent (maximumDuration, rebootSetting, windowsParameters, linuxParameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.HybridCompute</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.HybridCompute.Models.MachineInstallPatchesContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="maximumDuration" Type="System.TimeSpan" />
+        <Parameter Name="rebootSetting" Type="Azure.ResourceManager.HybridCompute.Models.VmGuestPatchRebootSetting" />
+        <Parameter Name="windowsParameters" Type="Azure.ResourceManager.HybridCompute.Models.HybridComputeWindowsParameters" />
+        <Parameter Name="linuxParameters" Type="Azure.ResourceManager.HybridCompute.Models.HybridComputeLinuxParameters" />
+      </Parameters>
+      <Docs>
+        <param name="maximumDuration"> Specifies the maximum amount of time that the operation will run. It must be an ISO 8601-compliant duration string such as PT4H (4 hours). </param>
+        <param name="rebootSetting"> Defines when it is acceptable to reboot a VM during a software update operation. </param>
+        <param name="windowsParameters"> Input for InstallPatches on a Windows VM, as directly received by the API. </param>
+        <param name="linuxParameters"> Input for InstallPatches on a Linux VM, as directly received by the API. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.HybridCompute.Models.MachineInstallPatchesContent" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.HybridCompute.Models.MachineInstallPatchesContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="MachineInstallPatchesResult">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.HybridCompute.Models.MachineInstallPatchesResult MachineInstallPatchesResult (Azure.ResourceManager.HybridCompute.Models.MachineOperationStatus? status = default, string installationActivityId = default, Azure.ResourceManager.HybridCompute.Models.VmGuestPatchRebootStatus? rebootStatus = default, bool? maintenanceWindowExceeded = default, int? excludedPatchCount = default, int? notSelectedPatchCount = default, int? pendingPatchCount = default, int? installedPatchCount = default, int? failedPatchCount = default, DateTimeOffset? startOn = default, DateTimeOffset? lastModifiedOn = default, Azure.ResourceManager.HybridCompute.Models.PatchOperationStartedBy? startedBy = default, Azure.ResourceManager.HybridCompute.Models.PatchServiceUsed? patchServiceUsed = default, Azure.ResourceManager.HybridCompute.Models.HybridComputeOSType? osType = default, Azure.ResponseError errorDetails = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.HybridCompute.Models.MachineInstallPatchesResult MachineInstallPatchesResult(valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.HybridCompute.Models.MachineOperationStatus&gt; status, string installationActivityId, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.HybridCompute.Models.VmGuestPatchRebootStatus&gt; rebootStatus, valuetype System.Nullable`1&lt;bool&gt; maintenanceWindowExceeded, valuetype System.Nullable`1&lt;int32&gt; excludedPatchCount, valuetype System.Nullable`1&lt;int32&gt; notSelectedPatchCount, valuetype System.Nullable`1&lt;int32&gt; pendingPatchCount, valuetype System.Nullable`1&lt;int32&gt; installedPatchCount, valuetype System.Nullable`1&lt;int32&gt; failedPatchCount, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; startOn, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; lastModifiedOn, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.HybridCompute.Models.PatchOperationStartedBy&gt; startedBy, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.HybridCompute.Models.PatchServiceUsed&gt; patchServiceUsed, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.HybridCompute.Models.HybridComputeOSType&gt; osType, class Azure.ResponseError errorDetails) cil managed" />

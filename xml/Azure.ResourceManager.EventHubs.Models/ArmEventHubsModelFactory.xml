@@ -36,7 +36,7 @@
       </Parameters>
       <Docs>
         <param name="location"> Location fo the Available Cluster. </param>
-        <summary> Initializes a new instance of AvailableCluster. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.Models.AvailableCluster" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.Models.AvailableCluster" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -82,7 +82,7 @@
         <param name="captureDescription"> Properties of capture description. </param>
         <param name="retentionDescription"> Event Hub retention settings. </param>
         <param name="location"> The geo-location where the resource lives. </param>
-        <summary> Initializes a new instance of EventHubData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.EventHubData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.EventHubData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -118,7 +118,7 @@
         <param name="primaryKey"> A base64-encoded 256-bit primary key for signing and validating the SAS token. </param>
         <param name="secondaryKey"> A base64-encoded 256-bit primary key for signing and validating the SAS token. </param>
         <param name="keyName"> A string that describes the AuthorizationRule. </param>
-        <summary> Initializes a new instance of EventHubsAccessKeys. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsAccessKeys" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsAccessKeys" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -160,7 +160,7 @@
             The available derived classes include <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsThrottlingPolicy" />.
             </param>
         <param name="location"> The geo-location where the resource lives. </param>
-        <summary> Initializes a new instance of EventHubsApplicationGroupData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.EventHubsApplicationGroupData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.EventHubsApplicationGroupData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -194,7 +194,7 @@
         <param name="systemData"> The systemData. </param>
         <param name="rights"> The rights associated with the rule. </param>
         <param name="location"> The geo-location where the resource lives. </param>
-        <summary> Initializes a new instance of EventHubsAuthorizationRuleData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.EventHubsAuthorizationRuleData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.EventHubsAuthorizationRuleData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -240,7 +240,7 @@
         <param name="metricId"> The metric ID of the cluster resource. Provided by the service and not modifiable by the user. </param>
         <param name="status"> Status of the Cluster resource. </param>
         <param name="supportsScaling"> A value that indicates whether Scaling is Supported. </param>
-        <summary> Initializes a new instance of EventHubsClusterData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.EventHubsClusterData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -278,7 +278,7 @@
         <param name="updatedOn"> The exact time the message was updated. </param>
         <param name="userMetadata"> User Metadata is a placeholder to store user-defined string data with maximum length 1024. e.g. it can be used to store descriptive data, such as list of teams and their contact information also user-defined configuration settings can be stored. </param>
         <param name="location"> The geo-location where the resource lives. </param>
-        <summary> Initializes a new instance of EventHubsConsumerGroupData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.EventHubsConsumerGroupData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.EventHubsConsumerGroupData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -320,7 +320,7 @@
         <param name="role"> role of namespace in GEO DR - possible values 'Primary' or 'PrimaryNotReplicating' or 'Secondary'. </param>
         <param name="pendingReplicationOperationsCount"> Number of entities pending to be replicated. </param>
         <param name="location"> The geo-location where the resource lives. </param>
-        <summary> Initializes a new instance of EventHubsDisasterRecoveryData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.EventHubsDisasterRecoveryData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.EventHubsDisasterRecoveryData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -348,7 +348,7 @@
         <param name="message"> The detailed info regarding the reason associated with the Namespace. </param>
         <param name="nameAvailable"> Value indicating Namespace is availability, true if the Namespace is available; otherwise, false. </param>
         <param name="reason"> The reason for unavailability of a Namespace. </param>
-        <summary> Initializes a new instance of EventHubsNameAvailabilityResult. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsNameAvailabilityResult" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsNameAvailabilityResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -420,7 +420,7 @@
         <param name="privateEndpointConnections"> List of private endpoint connections. </param>
         <param name="disableLocalAuth"> This property disables SAS authentication for the Event Hubs namespace. </param>
         <param name="alternateName"> Alternate name specified when alias and namespace names are same. </param>
-        <summary> Initializes a new instance of EventHubsNamespaceData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.EventHubsNamespaceData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.EventHubsNamespaceData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -462,7 +462,7 @@
         <param name="ipRules"> List of IpRules. </param>
         <param name="publicNetworkAccess"> This determines if traffic is allowed over public network. By default it is enabled. If value is SecuredByPerimeter then Inbound and Outbound communication is controlled by the network security perimeter and profile's access rules. </param>
         <param name="location"> The geo-location where the resource lives. </param>
-        <summary> Initializes a new instance of EventHubsNetworkRuleSetData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.EventHubsNetworkRuleSetData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.EventHubsNetworkRuleSetData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -490,7 +490,7 @@
         <param name="id"> Fully qualified identifier of the resource. </param>
         <param name="perimeterGuid"> Guid of the resource. </param>
         <param name="location"> Location of the resource. </param>
-        <summary> Initializes a new instance of EventHubsNetworkSecurityPerimeter. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsNetworkSecurityPerimeter" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsNetworkSecurityPerimeter" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -534,7 +534,7 @@
         <param name="networkSecurityPerimeter"> NetworkSecurityPerimeter related information. </param>
         <param name="resourceAssociation"> Information about resource association. </param>
         <param name="profile"> Information about current network profile. </param>
-        <summary> Initializes a new instance of EventHubsNetworkSecurityPerimeterConfiguration. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsNetworkSecurityPerimeterConfiguration" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsNetworkSecurityPerimeterConfiguration" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -562,7 +562,7 @@
         <param name="name"> Name of the resource. </param>
         <param name="accessRulesVersion"> Current access rules version. </param>
         <param name="accessRules"> List of Access Rules. </param>
-        <summary> Initializes a new instance of EventHubsNetworkSecurityPerimeterConfigurationPropertiesProfile. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsNetworkSecurityPerimeterConfigurationPropertiesProfile" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsNetworkSecurityPerimeterConfigurationPropertiesProfile" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -588,7 +588,7 @@
       <Docs>
         <param name="name"> Name of the resource association. </param>
         <param name="accessMode"> Access Mode of the resource association. </param>
-        <summary> Initializes a new instance of EventHubsNetworkSecurityPerimeterConfigurationPropertiesResourceAssociation. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsNetworkSecurityPerimeterConfigurationPropertiesResourceAssociation" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsNetworkSecurityPerimeterConfigurationPropertiesResourceAssociation" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -620,7 +620,7 @@
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
         <param name="properties"> Properties of Access Rule. </param>
-        <summary> Initializes a new instance of EventHubsNspAccessRule. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsNspAccessRule" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsNspAccessRule" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -652,7 +652,7 @@
         <param name="subscriptions"> Subscriptions for inbound rules. </param>
         <param name="networkSecurityPerimeters"> NetworkSecurityPerimeters for inbound rules. </param>
         <param name="fullyQualifiedDomainNames"> FQDN for outbound rules. </param>
-        <summary> Initializes a new instance of EventHubsNspAccessRuleProperties. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsNspAccessRuleProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsNspAccessRuleProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -690,7 +690,7 @@
         <param name="connectionState"> Details about the state of the connection. </param>
         <param name="provisioningState"> Provisioning state of the Private Endpoint Connection. </param>
         <param name="location"> The geo-location where the resource lives. </param>
-        <summary> Initializes a new instance of EventHubsPrivateEndpointConnectionData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.EventHubsPrivateEndpointConnectionData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.EventHubsPrivateEndpointConnectionData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -726,7 +726,7 @@
         <param name="groupId"> The private link resource group id. </param>
         <param name="requiredMembers"> The private link resource required member names. </param>
         <param name="requiredZoneNames"> The private link resource Private link DNS zone name. </param>
-        <summary> Initializes a new instance of EventHubsPrivateLinkResourceData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsPrivateLinkResourceData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsPrivateLinkResourceData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -752,7 +752,7 @@
       <Docs>
         <param name="name"> Name of the issue. </param>
         <param name="properties"> Properties of Provisioning Issue. </param>
-        <summary> Initializes a new instance of EventHubsProvisioningIssue. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsProvisioningIssue" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsProvisioningIssue" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -778,8 +778,34 @@
       <Docs>
         <param name="issueType"> Type of Issue. </param>
         <param name="description"> Description of the issue. </param>
-        <summary> Initializes a new instance of EventHubsProvisioningIssueProperties. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsProvisioningIssueProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsProvisioningIssueProperties" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventHubsRegenerateAccessKeyContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.EventHubs.Models.EventHubsRegenerateAccessKeyContent EventHubsRegenerateAccessKeyContent (Azure.ResourceManager.EventHubs.Models.EventHubsAccessKeyType keyType = default, string key = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.EventHubs.Models.EventHubsRegenerateAccessKeyContent EventHubsRegenerateAccessKeyContent(valuetype Azure.ResourceManager.EventHubs.Models.EventHubsAccessKeyType keyType, string key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.EventHubs.Models.ArmEventHubsModelFactory.EventHubsRegenerateAccessKeyContent(Azure.ResourceManager.EventHubs.Models.EventHubsAccessKeyType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function EventHubsRegenerateAccessKeyContent (Optional keyType As EventHubsAccessKeyType = Nothing, Optional key As String = Nothing) As EventHubsRegenerateAccessKeyContent" />
+      <MemberSignature Language="F#" Value="static member EventHubsRegenerateAccessKeyContent : Azure.ResourceManager.EventHubs.Models.EventHubsAccessKeyType * string -&gt; Azure.ResourceManager.EventHubs.Models.EventHubsRegenerateAccessKeyContent" Usage="Azure.ResourceManager.EventHubs.Models.ArmEventHubsModelFactory.EventHubsRegenerateAccessKeyContent (keyType, key)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.EventHubs</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.EventHubs.Models.EventHubsRegenerateAccessKeyContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="keyType" Type="Azure.ResourceManager.EventHubs.Models.EventHubsAccessKeyType" />
+        <Parameter Name="key" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="keyType"> The access key to regenerate. </param>
+        <param name="key"> Optional, if the key value provided, is set for KeyType or autogenerated Key value set for keyType. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsRegenerateAccessKeyContent" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.Models.EventHubsRegenerateAccessKeyContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -822,7 +848,7 @@
         <param name="schemaCompatibility" />
         <param name="schemaType" />
         <param name="location"> The geo-location where the resource lives. </param>
-        <summary> Initializes a new instance of EventHubsSchemaGroupData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.EventHubs.EventHubsSchemaGroupData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.EventHubs.EventHubsSchemaGroupData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>

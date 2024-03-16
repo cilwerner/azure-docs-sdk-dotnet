@@ -21,6 +21,7 @@
     <AssemblyVersion>5.10.0.0</AssemblyVersion>
     <AssemblyVersion>5.11.0.0</AssemblyVersion>
     <AssemblyVersion>5.11.1.0</AssemblyVersion>
+    <AssemblyVersion>5.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="TPartition">
@@ -67,6 +68,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -86,6 +88,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="checkpointStore" Type="Azure.Messaging.EventHubs.Primitives.CheckpointStore" />
@@ -124,6 +127,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="checkpointStore" Type="Azure.Messaging.EventHubs.Primitives.CheckpointStore" />
@@ -161,6 +165,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="checkpointStore" Type="Azure.Messaging.EventHubs.Primitives.CheckpointStore" />
@@ -196,6 +201,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="checkpointStore" Type="Azure.Messaging.EventHubs.Primitives.CheckpointStore" />
@@ -231,6 +237,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="checkpointStore" Type="Azure.Messaging.EventHubs.Primitives.CheckpointStore" />
@@ -266,6 +273,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.Messaging.EventHubs.Primitives.EventProcessorPartitionOwnership&gt;&gt;</ReturnType>
@@ -296,6 +304,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Messaging.EventHubs.Primitives.EventProcessorCheckpoint&gt;</ReturnType>
@@ -332,6 +341,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.Messaging.EventHubs.Primitives.EventProcessorPartitionOwnership&gt;&gt;</ReturnType>
@@ -361,6 +371,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -392,6 +403,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
         <AssemblyVersion>5.11.1.0</AssemblyVersion>
+        <AssemblyVersion>5.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
