@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileAttachedDataNetworkResource</ReturnType>
@@ -60,6 +62,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileDataNetworkResource</ReturnType>
@@ -91,6 +94,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileNetworkResource&gt;</ReturnType>
@@ -106,7 +110,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified mobile network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/mobileNetworks/{mobileNetworkName}</description></item><item><term>Operation Id</term><description>MobileNetworks_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkResourceGroupResource.GetMobileNetwork(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/mobileNetworks/{mobileNetworkName}</description></item><item><term>Operation Id</term><description>MobileNetworks_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.MobileNetworkResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkResourceGroupResource.GetMobileNetwork(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -125,6 +129,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileNetworkResource&gt;&gt;</ReturnType>
@@ -140,7 +145,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified mobile network.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/mobileNetworks/{mobileNetworkName}</description></item><item><term>Operation Id</term><description>MobileNetworks_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkResourceGroupResource.GetMobileNetworkAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/mobileNetworks/{mobileNetworkName}</description></item><item><term>Operation Id</term><description>MobileNetworks_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.MobileNetworkResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkResourceGroupResource.GetMobileNetworkAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -159,6 +164,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkDiagnosticsPackageResource</ReturnType>
@@ -190,6 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkPacketCaptureResource</ReturnType>
@@ -221,6 +228,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkResource</ReturnType>
@@ -252,6 +260,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkCollection</ReturnType>
@@ -280,6 +289,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.MobileNetwork.MobileNetworkResource&gt;</ReturnType>
@@ -293,7 +303,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the mobile networks in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/mobileNetworks</description></item><item><term>Operation Id</term><description>MobileNetworks_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetMobileNetworks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/mobileNetworks</description></item><item><term>Operation Id</term><description>MobileNetworks_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.MobileNetworkResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetMobileNetworks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.MobileNetwork.MobileNetworkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -310,6 +320,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.MobileNetwork.MobileNetworkResource&gt;</ReturnType>
@@ -323,7 +334,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the mobile networks in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/mobileNetworks</description></item><item><term>Operation Id</term><description>MobileNetworks_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetMobileNetworks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/mobileNetworks</description></item><item><term>Operation Id</term><description>MobileNetworks_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.MobileNetworkResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetMobileNetworks(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.MobileNetwork.MobileNetworkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -340,6 +351,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkServiceResource</ReturnType>
@@ -371,6 +383,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupResource&gt;</ReturnType>
@@ -386,7 +399,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified SIM group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/simGroups/{simGroupName}</description></item><item><term>Operation Id</term><description>SimGroups_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkResourceGroupResource.GetMobileNetworkSimGroup(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/simGroups/{simGroupName}</description></item><item><term>Operation Id</term><description>SimGroups_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkResourceGroupResource.GetMobileNetworkSimGroup(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -405,6 +418,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupResource&gt;&gt;</ReturnType>
@@ -420,7 +434,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified SIM group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/simGroups/{simGroupName}</description></item><item><term>Operation Id</term><description>SimGroups_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkResourceGroupResource.GetMobileNetworkSimGroupAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/simGroups/{simGroupName}</description></item><item><term>Operation Id</term><description>SimGroups_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkResourceGroupResource.GetMobileNetworkSimGroupAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -439,6 +453,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupResource</ReturnType>
@@ -470,6 +485,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupCollection</ReturnType>
@@ -498,6 +514,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupResource&gt;</ReturnType>
@@ -511,7 +528,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all the SIM groups in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/simGroups</description></item><item><term>Operation Id</term><description>SimGroups_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetMobileNetworkSimGroups(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/simGroups</description></item><item><term>Operation Id</term><description>SimGroups_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetMobileNetworkSimGroups(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -528,6 +545,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupResource&gt;</ReturnType>
@@ -541,7 +559,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all the SIM groups in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/simGroups</description></item><item><term>Operation Id</term><description>SimGroups_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetMobileNetworkSimGroups(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/simGroups</description></item><item><term>Operation Id</term><description>SimGroups_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetMobileNetworkSimGroups(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -558,6 +576,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSimPolicyResource</ReturnType>
@@ -589,6 +608,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSimResource</ReturnType>
@@ -620,6 +640,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSiteResource</ReturnType>
@@ -651,6 +672,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSliceResource</ReturnType>
@@ -682,6 +704,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource&gt;</ReturnType>
@@ -697,7 +720,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified packet core control plane.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/packetCoreControlPlanes/{packetCoreControlPlaneName}</description></item><item><term>Operation Id</term><description>PacketCoreControlPlanes_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkResourceGroupResource.GetPacketCoreControlPlane(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/packetCoreControlPlanes/{packetCoreControlPlaneName}</description></item><item><term>Operation Id</term><description>PacketCoreControlPlanes_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkResourceGroupResource.GetPacketCoreControlPlane(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -716,6 +739,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource&gt;&gt;</ReturnType>
@@ -731,7 +755,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified packet core control plane.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/packetCoreControlPlanes/{packetCoreControlPlaneName}</description></item><item><term>Operation Id</term><description>PacketCoreControlPlanes_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkResourceGroupResource.GetPacketCoreControlPlaneAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.MobileNetwork/packetCoreControlPlanes/{packetCoreControlPlaneName}</description></item><item><term>Operation Id</term><description>PacketCoreControlPlanes_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkResourceGroupResource.GetPacketCoreControlPlaneAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -750,6 +774,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource</ReturnType>
@@ -781,6 +806,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneCollection</ReturnType>
@@ -809,6 +835,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource&gt;</ReturnType>
@@ -822,7 +849,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the packet core control planes in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/packetCoreControlPlanes</description></item><item><term>Operation Id</term><description>PacketCoreControlPlanes_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetPacketCoreControlPlanes(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/packetCoreControlPlanes</description></item><item><term>Operation Id</term><description>PacketCoreControlPlanes_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetPacketCoreControlPlanes(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -839,6 +866,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource&gt;</ReturnType>
@@ -852,7 +880,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the packet core control planes in a subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/packetCoreControlPlanes</description></item><item><term>Operation Id</term><description>PacketCoreControlPlanes_ListBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetPacketCoreControlPlanes(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/packetCoreControlPlanes</description></item><item><term>Operation Id</term><description>PacketCoreControlPlanes_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetPacketCoreControlPlanes(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -869,6 +897,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.PacketCoreDataPlaneResource</ReturnType>
@@ -900,6 +929,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.SubscriptionPacketCoreControlPlaneVersionResource&gt;</ReturnType>
@@ -915,7 +945,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified packet core control plane version.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/packetCoreControlPlaneVersions/{versionName}</description></item><item><term>Operation Id</term><description>PacketCoreControlPlaneVersions_GetBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetSubscriptionPacketCoreControlPlaneVersion(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/packetCoreControlPlaneVersions/{versionName}</description></item><item><term>Operation Id</term><description>PacketCoreControlPlaneVersions_GetBySubscription</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.SubscriptionPacketCoreControlPlaneVersionResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetSubscriptionPacketCoreControlPlaneVersion(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -934,6 +964,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.SubscriptionPacketCoreControlPlaneVersionResource&gt;&gt;</ReturnType>
@@ -949,7 +980,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified packet core control plane version.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/packetCoreControlPlaneVersions/{versionName}</description></item><item><term>Operation Id</term><description>PacketCoreControlPlaneVersions_GetBySubscription</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetSubscriptionPacketCoreControlPlaneVersionAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.MobileNetwork/packetCoreControlPlaneVersions/{versionName}</description></item><item><term>Operation Id</term><description>PacketCoreControlPlaneVersions_GetBySubscription</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.SubscriptionPacketCoreControlPlaneVersionResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkSubscriptionResource.GetSubscriptionPacketCoreControlPlaneVersionAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -968,6 +999,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.SubscriptionPacketCoreControlPlaneVersionResource</ReturnType>
@@ -999,6 +1031,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.SubscriptionPacketCoreControlPlaneVersionCollection</ReturnType>
@@ -1027,6 +1060,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.MobileNetwork.TenantPacketCoreControlPlaneVersionResource&gt;</ReturnType>
@@ -1042,7 +1076,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified packet core control plane version.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.MobileNetwork/packetCoreControlPlaneVersions/{versionName}</description></item><item><term>Operation Id</term><description>PacketCoreControlPlaneVersions_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkTenantResource.GetTenantPacketCoreControlPlaneVersion(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.MobileNetwork/packetCoreControlPlaneVersions/{versionName}</description></item><item><term>Operation Id</term><description>PacketCoreControlPlaneVersions_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.TenantPacketCoreControlPlaneVersionResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkTenantResource.GetTenantPacketCoreControlPlaneVersion(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1061,6 +1095,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.MobileNetwork.TenantPacketCoreControlPlaneVersionResource&gt;&gt;</ReturnType>
@@ -1076,7 +1111,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified packet core control plane version.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.MobileNetwork/packetCoreControlPlaneVersions/{versionName}</description></item><item><term>Operation Id</term><description>PacketCoreControlPlaneVersions_Get</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkTenantResource.GetTenantPacketCoreControlPlaneVersionAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.MobileNetwork/packetCoreControlPlaneVersions/{versionName}</description></item><item><term>Operation Id</term><description>PacketCoreControlPlaneVersions_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.MobileNetwork.TenantPacketCoreControlPlaneVersionResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.MobileNetwork.Mocking.MockableMobileNetworkTenantResource.GetTenantPacketCoreControlPlaneVersionAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1095,6 +1130,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.TenantPacketCoreControlPlaneVersionResource</ReturnType>
@@ -1126,6 +1162,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.TenantPacketCoreControlPlaneVersionCollection</ReturnType>

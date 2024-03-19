@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.Models.AsyncOperationStatus</ReturnType>
@@ -69,6 +71,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileAttachedDataNetworkData</ReturnType>
@@ -126,6 +129,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileDataNetworkData</ReturnType>
@@ -164,6 +168,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.Models.MobileNetworkCertificateProvisioning</ReturnType>
@@ -190,6 +195,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkData</ReturnType>
@@ -230,6 +236,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkDiagnosticsPackageData</ReturnType>
@@ -266,6 +273,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.Models.MobileNetworkHttpsServerCertificate</ReturnType>
@@ -292,6 +300,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.Models.MobileNetworkInstallation</ReturnType>
@@ -324,6 +333,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -376,6 +386,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkPacketCaptureData</ReturnType>
@@ -424,6 +435,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.Models.MobileNetworkPlatformConfiguration</ReturnType>
@@ -458,6 +470,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkServiceData</ReturnType>
@@ -500,6 +513,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSimData</ReturnType>
@@ -554,6 +568,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSimGroupData</ReturnType>
@@ -596,6 +611,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSimPolicyData</ReturnType>
@@ -644,6 +660,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSiteData</ReturnType>
@@ -682,6 +699,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.MobileNetworkSliceData</ReturnType>
@@ -722,6 +740,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -792,6 +811,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneData</ReturnType>
@@ -862,6 +882,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.PacketCoreControlPlaneVersionData</ReturnType>
@@ -896,6 +917,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -940,6 +962,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.MobileNetwork.PacketCoreDataPlaneData</ReturnType>
@@ -967,6 +990,100 @@
         <param name="userPlaneAccessVirtualIPv4Addresses"> The virtual IP address(es) for the user plane on the access network in a High Availability (HA) system. In an HA deployment the access network router should be configured to forward traffic for this address to the control plane access interface on the active or standby node. In non-HA system this list should be omitted or empty. </param>
         <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.MobileNetwork.PacketCoreDataPlaneData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.MobileNetwork.PacketCoreDataPlaneData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SimNameAndEncryptedProperties">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.MobileNetwork.Models.SimNameAndEncryptedProperties SimNameAndEncryptedProperties (string name = default, Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState? provisioningState = default, Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState? simState = default, System.Collections.Generic.IReadOnlyDictionary&lt;string,Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt; siteProvisioningState = default, string internationalMobileSubscriberIdentity = default, string integratedCircuitCardIdentifier = default, string deviceType = default, Azure.Core.ResourceIdentifier simPolicyId = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.MobileNetwork.Models.SimStaticIPProperties&gt; staticIPConfiguration = default, string vendorName = default, string vendorKeyFingerprint = default, string encryptedCredentials = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.MobileNetwork.Models.SimNameAndEncryptedProperties SimNameAndEncryptedProperties(string name, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState&gt; provisioningState, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState&gt; simState, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, valuetype Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt; siteProvisioningState, string internationalMobileSubscriberIdentity, string integratedCircuitCardIdentifier, string deviceType, class Azure.Core.ResourceIdentifier simPolicyId, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.MobileNetwork.Models.SimStaticIPProperties&gt; staticIPConfiguration, string vendorName, string vendorKeyFingerprint, string encryptedCredentials) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MobileNetwork.Models.ArmMobileNetworkModelFactory.SimNameAndEncryptedProperties(System.String,System.Nullable{Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState},System.Nullable{Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState},System.Collections.Generic.IReadOnlyDictionary{System.String,Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState},System.String,System.String,System.String,Azure.Core.ResourceIdentifier,System.Collections.Generic.IEnumerable{Azure.ResourceManager.MobileNetwork.Models.SimStaticIPProperties},System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SimNameAndEncryptedProperties (Optional name As String = Nothing, Optional provisioningState As Nullable(Of MobileNetworkProvisioningState) = Nothing, Optional simState As Nullable(Of MobileNetworkSimState) = Nothing, Optional siteProvisioningState As IReadOnlyDictionary(Of String, MobileNetworkSiteProvisioningState) = Nothing, Optional internationalMobileSubscriberIdentity As String = Nothing, Optional integratedCircuitCardIdentifier As String = Nothing, Optional deviceType As String = Nothing, Optional simPolicyId As ResourceIdentifier = Nothing, Optional staticIPConfiguration As IEnumerable(Of SimStaticIPProperties) = Nothing, Optional vendorName As String = Nothing, Optional vendorKeyFingerprint As String = Nothing, Optional encryptedCredentials As String = Nothing) As SimNameAndEncryptedProperties" />
+      <MemberSignature Language="F#" Value="static member SimNameAndEncryptedProperties : string * Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState&gt; * Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState&gt; * System.Collections.Generic.IReadOnlyDictionary&lt;string, Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt; * string * string * string * Azure.Core.ResourceIdentifier * seq&lt;Azure.ResourceManager.MobileNetwork.Models.SimStaticIPProperties&gt; * string * string * string -&gt; Azure.ResourceManager.MobileNetwork.Models.SimNameAndEncryptedProperties" Usage="Azure.ResourceManager.MobileNetwork.Models.ArmMobileNetworkModelFactory.SimNameAndEncryptedProperties (name, provisioningState, simState, siteProvisioningState, internationalMobileSubscriberIdentity, integratedCircuitCardIdentifier, deviceType, simPolicyId, staticIPConfiguration, vendorName, vendorKeyFingerprint, encryptedCredentials)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.MobileNetwork.Models.SimNameAndEncryptedProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="simState" Type="System.Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="siteProvisioningState" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="internationalMobileSubscriberIdentity" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="integratedCircuitCardIdentifier" Type="System.String" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="deviceType" Type="System.String" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="simPolicyId" Type="Azure.Core.ResourceIdentifier" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="staticIPConfiguration" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.MobileNetwork.Models.SimStaticIPProperties&gt;" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="vendorName" Type="System.String" Index="9" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="vendorKeyFingerprint" Type="System.String" Index="10" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="encryptedCredentials" Type="System.String" Index="11" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="name"> The name of the SIM. </param>
+        <param name="provisioningState"> The provisioning state of the SIM resource. </param>
+        <param name="simState"> The state of the SIM resource. </param>
+        <param name="siteProvisioningState"> A dictionary of sites to the provisioning state of this SIM on that site. </param>
+        <param name="internationalMobileSubscriberIdentity"> The international mobile subscriber identity (IMSI) for the SIM. </param>
+        <param name="integratedCircuitCardIdentifier"> The integrated circuit card ID (ICCID) for the SIM. </param>
+        <param name="deviceType"> An optional free-form text field that can be used to record the device type this SIM is associated with, for example 'Video camera'. The Azure portal allows SIMs to be grouped and filtered based on this value. </param>
+        <param name="simPolicyId"> The SIM policy used by this SIM. The SIM policy must be in the same location as the SIM. </param>
+        <param name="staticIPConfiguration"> A list of static IP addresses assigned to this SIM. Each address is assigned at a defined network scope, made up of {attached data network, slice}. </param>
+        <param name="vendorName"> The name of the SIM vendor who provided this SIM, if any. </param>
+        <param name="vendorKeyFingerprint"> The public key fingerprint of the SIM vendor who provided this SIM, if any. </param>
+        <param name="encryptedCredentials"> The encrypted SIM credentials. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.MobileNetwork.Models.SimNameAndEncryptedProperties" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.MobileNetwork.Models.SimNameAndEncryptedProperties" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SimNameAndProperties">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties SimNameAndProperties (string name = default, Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState? provisioningState = default, Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState? simState = default, System.Collections.Generic.IReadOnlyDictionary&lt;string,Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt; siteProvisioningState = default, string internationalMobileSubscriberIdentity = default, string integratedCircuitCardIdentifier = default, string deviceType = default, Azure.Core.ResourceIdentifier simPolicyId = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.MobileNetwork.Models.SimStaticIPProperties&gt; staticIPConfiguration = default, string vendorName = default, string vendorKeyFingerprint = default, string authenticationKey = default, string operatorKeyCode = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties SimNameAndProperties(string name, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState&gt; provisioningState, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState&gt; simState, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, valuetype Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt; siteProvisioningState, string internationalMobileSubscriberIdentity, string integratedCircuitCardIdentifier, string deviceType, class Azure.Core.ResourceIdentifier simPolicyId, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.MobileNetwork.Models.SimStaticIPProperties&gt; staticIPConfiguration, string vendorName, string vendorKeyFingerprint, string authenticationKey, string operatorKeyCode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.MobileNetwork.Models.ArmMobileNetworkModelFactory.SimNameAndProperties(System.String,System.Nullable{Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState},System.Nullable{Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState},System.Collections.Generic.IReadOnlyDictionary{System.String,Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState},System.String,System.String,System.String,Azure.Core.ResourceIdentifier,System.Collections.Generic.IEnumerable{Azure.ResourceManager.MobileNetwork.Models.SimStaticIPProperties},System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SimNameAndProperties (Optional name As String = Nothing, Optional provisioningState As Nullable(Of MobileNetworkProvisioningState) = Nothing, Optional simState As Nullable(Of MobileNetworkSimState) = Nothing, Optional siteProvisioningState As IReadOnlyDictionary(Of String, MobileNetworkSiteProvisioningState) = Nothing, Optional internationalMobileSubscriberIdentity As String = Nothing, Optional integratedCircuitCardIdentifier As String = Nothing, Optional deviceType As String = Nothing, Optional simPolicyId As ResourceIdentifier = Nothing, Optional staticIPConfiguration As IEnumerable(Of SimStaticIPProperties) = Nothing, Optional vendorName As String = Nothing, Optional vendorKeyFingerprint As String = Nothing, Optional authenticationKey As String = Nothing, Optional operatorKeyCode As String = Nothing) As SimNameAndProperties" />
+      <MemberSignature Language="F#" Value="static member SimNameAndProperties : string * Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState&gt; * Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState&gt; * System.Collections.Generic.IReadOnlyDictionary&lt;string, Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt; * string * string * string * Azure.Core.ResourceIdentifier * seq&lt;Azure.ResourceManager.MobileNetwork.Models.SimStaticIPProperties&gt; * string * string * string * string -&gt; Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties" Usage="Azure.ResourceManager.MobileNetwork.Models.ArmMobileNetworkModelFactory.SimNameAndProperties (name, provisioningState, simState, siteProvisioningState, internationalMobileSubscriberIdentity, integratedCircuitCardIdentifier, deviceType, simPolicyId, staticIPConfiguration, vendorName, vendorKeyFingerprint, authenticationKey, operatorKeyCode)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.MobileNetwork</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="provisioningState" Type="System.Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkProvisioningState&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="simState" Type="System.Nullable&lt;Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSimState&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="siteProvisioningState" Type="System.Collections.Generic.IReadOnlyDictionary&lt;System.String,Azure.ResourceManager.MobileNetwork.Models.MobileNetworkSiteProvisioningState&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="internationalMobileSubscriberIdentity" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="integratedCircuitCardIdentifier" Type="System.String" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="deviceType" Type="System.String" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="simPolicyId" Type="Azure.Core.ResourceIdentifier" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="staticIPConfiguration" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.MobileNetwork.Models.SimStaticIPProperties&gt;" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="vendorName" Type="System.String" Index="9" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="vendorKeyFingerprint" Type="System.String" Index="10" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="authenticationKey" Type="System.String" Index="11" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="operatorKeyCode" Type="System.String" Index="12" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="name"> The name of the SIM. </param>
+        <param name="provisioningState"> The provisioning state of the SIM resource. </param>
+        <param name="simState"> The state of the SIM resource. </param>
+        <param name="siteProvisioningState"> A dictionary of sites to the provisioning state of this SIM on that site. </param>
+        <param name="internationalMobileSubscriberIdentity"> The international mobile subscriber identity (IMSI) for the SIM. </param>
+        <param name="integratedCircuitCardIdentifier"> The integrated circuit card ID (ICCID) for the SIM. </param>
+        <param name="deviceType"> An optional free-form text field that can be used to record the device type this SIM is associated with, for example 'Video camera'. The Azure portal allows SIMs to be grouped and filtered based on this value. </param>
+        <param name="simPolicyId"> The SIM policy used by this SIM. The SIM policy must be in the same location as the SIM. </param>
+        <param name="staticIPConfiguration"> A list of static IP addresses assigned to this SIM. Each address is assigned at a defined network scope, made up of {attached data network, slice}. </param>
+        <param name="vendorName"> The name of the SIM vendor who provided this SIM, if any. </param>
+        <param name="vendorKeyFingerprint"> The public key fingerprint of the SIM vendor who provided this SIM, if any. </param>
+        <param name="authenticationKey"> The Ki value for the SIM. </param>
+        <param name="operatorKeyCode"> The Opc value for the SIM. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.MobileNetwork.Models.SimNameAndProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

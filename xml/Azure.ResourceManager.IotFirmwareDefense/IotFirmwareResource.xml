@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -78,6 +81,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.IotFirmwareDefense.IotFirmwareData</ReturnType>
@@ -99,6 +103,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -128,6 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -157,6 +163,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareUriToken&gt;</ReturnType>
@@ -183,6 +190,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareUriToken&gt;&gt;</ReturnType>
@@ -209,6 +217,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareUriToken&gt;</ReturnType>
@@ -235,6 +244,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.IotFirmwareDefense.Models.FirmwareUriToken&gt;&gt;</ReturnType>
@@ -261,6 +271,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.IotFirmwareDefense.IotFirmwareResource&gt;</ReturnType>
@@ -287,6 +298,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.IotFirmwareDefense.IotFirmwareResource&gt;&gt;</ReturnType>
@@ -313,6 +325,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.BinaryHardeningResult&gt;</ReturnType>
@@ -339,6 +352,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.BinaryHardeningResult&gt;</ReturnType>
@@ -365,6 +379,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.CryptoCertificateResult&gt;</ReturnType>
@@ -391,6 +406,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.CryptoCertificateResult&gt;</ReturnType>
@@ -417,6 +433,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.CryptoKeyResult&gt;</ReturnType>
@@ -443,6 +460,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.CryptoKeyResult&gt;</ReturnType>
@@ -469,6 +487,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.CveResult&gt;</ReturnType>
@@ -495,6 +514,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.CveResult&gt;</ReturnType>
@@ -521,6 +541,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.IotFirmwareDefense.FirmwareAnalysisSummaryCollection</ReturnType>
@@ -542,6 +563,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.IotFirmwareDefense.FirmwareAnalysisSummaryResource&gt;</ReturnType>
@@ -570,6 +592,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.IotFirmwareDefense.FirmwareAnalysisSummaryResource&gt;&gt;</ReturnType>
@@ -598,6 +621,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.PasswordHashResult&gt;</ReturnType>
@@ -624,6 +648,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.PasswordHashResult&gt;</ReturnType>
@@ -650,6 +675,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.SbomComponentResult&gt;</ReturnType>
@@ -676,6 +702,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.IotFirmwareDefense.Models.SbomComponentResult&gt;</ReturnType>
@@ -702,6 +729,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -722,6 +750,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -741,6 +770,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.IotFirmwareDefense.IotFirmwareResource&gt;</ReturnType>
@@ -771,6 +801,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.IotFirmwareDefense</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.IotFirmwareDefense.IotFirmwareResource&gt;&gt;</ReturnType>

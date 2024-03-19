@@ -15,6 +15,7 @@
     <AssemblyVersion>1.4.1.0</AssemblyVersion>
     <AssemblyVersion>1.4.2.0</AssemblyVersion>
     <AssemblyVersion>1.5.0.0</AssemblyVersion>
+    <AssemblyVersion>1.6.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -34,8 +35,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetApp.Models.NetAppCheckAvailabilityResult&gt;</ReturnType>
@@ -53,7 +54,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check if a file path is available.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/checkFilePathAvailability</description></item><item><term>Operation Id</term><description>NetAppResource_CheckFilePathAvailability</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.CheckNetAppFilePathAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.NetAppFilePathAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/checkFilePathAvailability</description></item><item><term>Operation Id</term><description>NetAppResource_CheckFilePathAvailability</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.CheckNetAppFilePathAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.NetAppFilePathAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -69,8 +70,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.Models.NetAppCheckAvailabilityResult&gt;&gt;</ReturnType>
@@ -88,7 +89,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check if a file path is available.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/checkFilePathAvailability</description></item><item><term>Operation Id</term><description>NetAppResource_CheckFilePathAvailability</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.CheckNetAppFilePathAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.NetAppFilePathAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/checkFilePathAvailability</description></item><item><term>Operation Id</term><description>NetAppResource_CheckFilePathAvailability</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.CheckNetAppFilePathAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.NetAppFilePathAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -104,8 +105,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetApp.Models.NetAppCheckAvailabilityResult&gt;</ReturnType>
@@ -123,7 +124,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check if a resource name is available.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/checkNameAvailability</description></item><item><term>Operation Id</term><description>NetAppResource_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.CheckNetAppNameAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.NetAppNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/checkNameAvailability</description></item><item><term>Operation Id</term><description>NetAppResource_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.CheckNetAppNameAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.NetAppNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -139,8 +140,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.Models.NetAppCheckAvailabilityResult&gt;&gt;</ReturnType>
@@ -158,7 +159,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check if a resource name is available.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/checkNameAvailability</description></item><item><term>Operation Id</term><description>NetAppResource_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.CheckNetAppNameAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.NetAppNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/checkNameAvailability</description></item><item><term>Operation Id</term><description>NetAppResource_CheckNameAvailability</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.CheckNetAppNameAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.NetAppNameAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -174,8 +175,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetApp.Models.NetAppCheckAvailabilityResult&gt;</ReturnType>
@@ -193,7 +194,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check if a quota is available.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/checkQuotaAvailability</description></item><item><term>Operation Id</term><description>NetAppResource_CheckQuotaAvailability</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.CheckNetAppQuotaAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.NetAppQuotaAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/checkQuotaAvailability</description></item><item><term>Operation Id</term><description>NetAppResource_CheckQuotaAvailability</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.CheckNetAppQuotaAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.NetAppQuotaAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -209,8 +210,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.Models.NetAppCheckAvailabilityResult&gt;&gt;</ReturnType>
@@ -228,7 +229,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check if a quota is available.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/checkQuotaAvailability</description></item><item><term>Operation Id</term><description>NetAppResource_CheckQuotaAvailability</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.CheckNetAppQuotaAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.NetAppQuotaAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/checkQuotaAvailability</description></item><item><term>Operation Id</term><description>NetAppResource_CheckQuotaAvailability</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.CheckNetAppQuotaAvailability(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.NetAppQuotaAvailabilityContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -244,8 +245,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetApp.CapacityPoolResource</ReturnType>
@@ -276,8 +277,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppAccountResource&gt;</ReturnType>
@@ -293,7 +294,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the NetApp account
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/netAppAccounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Get</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetNetAppAccount(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/netAppAccounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Get</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetNetAppAccount(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -311,8 +312,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.NetAppAccountResource&gt;&gt;</ReturnType>
@@ -328,7 +329,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the NetApp account
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/netAppAccounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Get</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetNetAppAccountAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NetApp/netAppAccounts/{accountName}</description></item><item><term>Operation Id</term><description>Accounts_Get</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppResourceGroupResource.GetNetAppAccountAsync(System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -346,8 +347,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -382,8 +383,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetApp.NetAppAccountResource</ReturnType>
@@ -414,8 +415,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetApp.NetAppAccountCollection</ReturnType>
@@ -443,8 +444,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetApp.NetAppAccountResource&gt;</ReturnType>
@@ -458,7 +459,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List and describe all NetApp accounts in the subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/netAppAccounts</description></item><item><term>Operation Id</term><description>Accounts_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/netAppAccounts</description></item><item><term>Operation Id</term><description>Accounts_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NetApp.NetAppAccountResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -474,8 +475,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.NetAppAccountResource&gt;</ReturnType>
@@ -489,7 +490,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List and describe all NetApp accounts in the subscription.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/netAppAccounts</description></item><item><term>Operation Id</term><description>Accounts_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/netAppAccounts</description></item><item><term>Operation Id</term><description>Accounts_ListBySubscription</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.NetAppAccountResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppAccounts(System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetApp.NetAppAccountResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -505,8 +506,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetApp.NetAppBackupPolicyResource</ReturnType>
@@ -528,68 +529,6 @@
           <paramref name="client" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetNetAppBackupVaultBackupResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppBackupVaultBackupResource GetNetAppBackupVaultBackupResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppBackupVaultBackupResource GetNetAppBackupVaultBackupResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppBackupVaultBackupResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppBackupVaultBackupResource (client As ArmClient, id As ResourceIdentifier) As NetAppBackupVaultBackupResource" />
-      <MemberSignature Language="F#" Value="static member GetNetAppBackupVaultBackupResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppBackupVaultBackupResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppBackupVaultBackupResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.NetAppBackupVaultBackupResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppBackupVaultBackupResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppBackupVaultBackupResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppBackupVaultBackupResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppBackupVaultBackupResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppBackupVaultBackupResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="client" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetNetAppBackupVaultResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.NetAppBackupVaultResource GetNetAppBackupVaultResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.NetAppBackupVaultResource GetNetAppBackupVaultResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppBackupVaultResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetNetAppBackupVaultResource (client As ArmClient, id As ResourceIdentifier) As NetAppBackupVaultResource" />
-      <MemberSignature Language="F#" Value="static member GetNetAppBackupVaultResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.NetAppBackupVaultResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetNetAppBackupVaultResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.NetAppBackupVaultResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.NetAppBackupVaultResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.NetAppBackupVaultResource.CreateResourceIdentifier(System.String,System.String,System.String,System.String)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.NetAppBackupVaultResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetNetAppBackupVaultResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.NetAppBackupVaultResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="client" /> is null. </exception>
-      </Docs>
-    </Member>
     <Member MemberName="GetNetAppQuotaLimit">
       <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.NetApp.Models.NetAppSubscriptionQuotaItem&gt; GetNetAppQuotaLimit (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, string quotaLimitName, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.NetApp.Models.NetAppSubscriptionQuotaItem&gt; GetNetAppQuotaLimit(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, string quotaLimitName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -599,8 +538,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetApp.Models.NetAppSubscriptionQuotaItem&gt;</ReturnType>
@@ -618,7 +557,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the default and current subscription quota limit
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/quotaLimits/{quotaLimitName}</description></item><item><term>Operation Id</term><description>NetAppResourceQuotaLimits_Get</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppQuotaLimit(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/quotaLimits/{quotaLimitName}</description></item><item><term>Operation Id</term><description>NetAppResourceQuotaLimits_Get</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppQuotaLimit(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -636,8 +575,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.Models.NetAppSubscriptionQuotaItem&gt;&gt;</ReturnType>
@@ -655,7 +594,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the default and current subscription quota limit
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/quotaLimits/{quotaLimitName}</description></item><item><term>Operation Id</term><description>NetAppResourceQuotaLimits_Get</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppQuotaLimit(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/quotaLimits/{quotaLimitName}</description></item><item><term>Operation Id</term><description>NetAppResourceQuotaLimits_Get</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppQuotaLimit(Azure.Core.AzureLocation,System.String,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -673,8 +612,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NetApp.Models.NetAppSubscriptionQuotaItem&gt;</ReturnType>
@@ -690,7 +629,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the default and current limits for quotas
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/quotaLimits</description></item><item><term>Operation Id</term><description>NetAppResourceQuotaLimits_List</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppQuotaLimits(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/quotaLimits</description></item><item><term>Operation Id</term><description>NetAppResourceQuotaLimits_List</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppQuotaLimits(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NetApp.Models.NetAppSubscriptionQuotaItem" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -706,8 +645,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NetApp.Models.NetAppSubscriptionQuotaItem&gt;</ReturnType>
@@ -723,7 +662,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the default and current limits for quotas
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/quotaLimits</description></item><item><term>Operation Id</term><description>NetAppResourceQuotaLimits_List</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppQuotaLimits(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/quotaLimits</description></item><item><term>Operation Id</term><description>NetAppResourceQuotaLimits_List</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetNetAppQuotaLimits(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NetApp.Models.NetAppSubscriptionQuotaItem" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -739,8 +678,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetApp.NetAppSubvolumeInfoResource</ReturnType>
@@ -771,8 +710,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -807,8 +746,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetApp.NetAppVolumeGroupResource</ReturnType>
@@ -839,8 +778,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetApp.NetAppVolumeQuotaRuleResource</ReturnType>
@@ -871,8 +810,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetApp.NetAppVolumeResource</ReturnType>
@@ -903,8 +842,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetApp.NetAppVolumeSnapshotResource</ReturnType>
@@ -926,131 +865,6 @@
           <paramref name="client" /> is null. </exception>
       </Docs>
     </Member>
-    <Member MemberName="GetRegionInfoResource">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.RegionInfoResource GetRegionInfoResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.RegionInfoResource GetRegionInfoResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetRegionInfoResource(Azure.ResourceManager.ArmClient,Azure.Core.ResourceIdentifier)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRegionInfoResource (client As ArmClient, id As ResourceIdentifier) As RegionInfoResource" />
-      <MemberSignature Language="F#" Value="static member GetRegionInfoResource : Azure.ResourceManager.ArmClient * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.NetApp.RegionInfoResource" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetRegionInfoResource (client, id)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.RegionInfoResource</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="client" Type="Azure.ResourceManager.ArmClient" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="client"> The <see cref="T:Azure.ResourceManager.ArmClient" /> instance the method will execute against. </param>
-        <param name="id"> The resource ID of the resource to get. </param>
-        <summary>
-            Gets an object representing a <see cref="T:Azure.ResourceManager.NetApp.RegionInfoResource" /> along with the instance operations that can be performed on it but with no data.
-            You can use <see cref="M:Azure.ResourceManager.NetApp.RegionInfoResource.CreateResourceIdentifier(System.String,Azure.Core.AzureLocation)" /> to create a <see cref="T:Azure.ResourceManager.NetApp.RegionInfoResource" /><see cref="T:Azure.Core.ResourceIdentifier" /> from its components.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppArmClient.GetRegionInfoResource(Azure.Core.ResourceIdentifier)" /> instead.</description></item></summary>
-        <returns> Returns a <see cref="T:Azure.ResourceManager.NetApp.RegionInfoResource" /> object. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="client" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetRegionInfoResource">
-      <MemberSignature Language="C#" Value="public static Azure.Response&lt;Azure.ResourceManager.NetApp.RegionInfoResource&gt; GetRegionInfoResource (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Response`1&lt;class Azure.ResourceManager.NetApp.RegionInfoResource&gt; GetRegionInfoResource(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetRegionInfoResource(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRegionInfoResource (subscriptionResource As SubscriptionResource, location As AzureLocation, Optional cancellationToken As CancellationToken = Nothing) As Response(Of RegionInfoResource)" />
-      <MemberSignature Language="F#" Value="static member GetRegionInfoResource : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.NetApp.RegionInfoResource&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetRegionInfoResource (subscriptionResource, location, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetApp.RegionInfoResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="location"> The name of the Azure region. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Provides storage to network proximity and logical zone mapping information.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/regionInfos/default</description></item><item><term>Operation Id</term><description>NetAppResourceRegionInfos_Get</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.RegionInfoResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetRegionInfoResource(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="subscriptionResource" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetRegionInfoResourceAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.RegionInfoResource&gt;&gt; GetRegionInfoResourceAsync (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.NetApp.RegionInfoResource&gt;&gt; GetRegionInfoResourceAsync(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetRegionInfoResourceAsync(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRegionInfoResourceAsync (subscriptionResource As SubscriptionResource, location As AzureLocation, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of RegionInfoResource))" />
-      <MemberSignature Language="F#" Value="static member GetRegionInfoResourceAsync : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.RegionInfoResource&gt;&gt;" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetRegionInfoResourceAsync (subscriptionResource, location, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.RegionInfoResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="location"> The name of the Azure region. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Provides storage to network proximity and logical zone mapping information.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/regionInfos/default</description></item><item><term>Operation Id</term><description>NetAppResourceRegionInfos_Get</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NetApp.RegionInfoResource" /></description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetRegionInfoResourceAsync(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="subscriptionResource" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetRegionInfoResources">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.RegionInfoResourceCollection GetRegionInfoResources (this Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, Azure.Core.AzureLocation location);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.RegionInfoResourceCollection GetRegionInfoResources(class Azure.ResourceManager.Resources.SubscriptionResource subscriptionResource, valuetype Azure.Core.AzureLocation location) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NetApp.NetAppExtensions.GetRegionInfoResources(Azure.ResourceManager.Resources.SubscriptionResource,Azure.Core.AzureLocation)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetRegionInfoResources (subscriptionResource As SubscriptionResource, location As AzureLocation) As RegionInfoResourceCollection" />
-      <MemberSignature Language="F#" Value="static member GetRegionInfoResources : Azure.ResourceManager.Resources.SubscriptionResource * Azure.Core.AzureLocation -&gt; Azure.ResourceManager.NetApp.RegionInfoResourceCollection" Usage="Azure.ResourceManager.NetApp.NetAppExtensions.GetRegionInfoResources (subscriptionResource, location)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.5.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.NetApp.RegionInfoResourceCollection</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subscriptionResource" Type="Azure.ResourceManager.Resources.SubscriptionResource" RefType="this" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="subscriptionResource"> The <see cref="T:Azure.ResourceManager.Resources.SubscriptionResource" /> instance the method will execute against. </param>
-        <param name="location"> The name of the Azure region. </param>
-        <summary>
-            Gets a collection of RegionInfoResources in the SubscriptionResource.
-            <item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.GetRegionInfoResources(Azure.Core.AzureLocation)" /> instead.</description></item></summary>
-        <returns> An object representing collection of RegionInfoResources and their operations over a RegionInfoResource. </returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="subscriptionResource" /> is null. </exception>
-      </Docs>
-    </Member>
     <Member MemberName="GetSnapshotPolicyResource">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NetApp.SnapshotPolicyResource GetSnapshotPolicyResource (this Azure.ResourceManager.ArmClient client, Azure.Core.ResourceIdentifier id);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NetApp.SnapshotPolicyResource GetSnapshotPolicyResource(class Azure.ResourceManager.ArmClient client, class Azure.Core.ResourceIdentifier id) cil managed" />
@@ -1060,8 +874,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NetApp.SnapshotPolicyResource</ReturnType>
@@ -1092,8 +906,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetApp.Models.NetworkSiblingSet&gt;</ReturnType>
@@ -1111,7 +925,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get details of the specified network sibling set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/queryNetworkSiblingSet</description></item><item><term>Operation Id</term><description>NetAppResource_QueryNetworkSiblingSet</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.QueryNetworkSiblingSetNetAppResource(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.QueryNetworkSiblingSetContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/queryNetworkSiblingSet</description></item><item><term>Operation Id</term><description>NetAppResource_QueryNetworkSiblingSet</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.QueryNetworkSiblingSetNetAppResource(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.QueryNetworkSiblingSetContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1127,8 +941,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.Models.NetworkSiblingSet&gt;&gt;</ReturnType>
@@ -1146,7 +960,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get details of the specified network sibling set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/queryNetworkSiblingSet</description></item><item><term>Operation Id</term><description>NetAppResource_QueryNetworkSiblingSet</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.QueryNetworkSiblingSetNetAppResource(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.QueryNetworkSiblingSetContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/queryNetworkSiblingSet</description></item><item><term>Operation Id</term><description>NetAppResource_QueryNetworkSiblingSet</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.QueryNetworkSiblingSetNetAppResource(Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.QueryNetworkSiblingSetContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1162,8 +976,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NetApp.Models.NetAppRegionInfo&gt;</ReturnType>
@@ -1179,7 +993,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Provides storage to network proximity and logical zone mapping information.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/regionInfo</description></item><item><term>Operation Id</term><description>NetAppResource_QueryRegionInfo</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.QueryRegionInfoNetAppResource(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/regionInfo</description></item><item><term>Operation Id</term><description>NetAppResource_QueryRegionInfo</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.QueryRegionInfoNetAppResource(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1195,8 +1009,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NetApp.Models.NetAppRegionInfo&gt;&gt;</ReturnType>
@@ -1212,7 +1026,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Provides storage to network proximity and logical zone mapping information.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/regionInfo</description></item><item><term>Operation Id</term><description>NetAppResource_QueryRegionInfo</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.QueryRegionInfoNetAppResource(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/regionInfo</description></item><item><term>Operation Id</term><description>NetAppResource_QueryRegionInfo</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.QueryRegionInfoNetAppResource(Azure.Core.AzureLocation,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1228,8 +1042,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetApp.Models.NetworkSiblingSet&gt;</ReturnType>
@@ -1250,7 +1064,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update the network features of the specified network sibling set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/updateNetworkSiblingSet</description></item><item><term>Operation Id</term><description>NetAppResource_UpdateNetworkSiblingSet</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.UpdateNetworkSiblingSetNetAppResource(Azure.WaitUntil,Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.UpdateNetworkSiblingSetContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/updateNetworkSiblingSet</description></item><item><term>Operation Id</term><description>NetAppResource_UpdateNetworkSiblingSet</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.UpdateNetworkSiblingSetNetAppResource(Azure.WaitUntil,Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.UpdateNetworkSiblingSetContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1266,8 +1080,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NetApp</AssemblyName>
-        <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
+        <AssemblyVersion>1.6.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.NetApp.Models.NetworkSiblingSet&gt;&gt;</ReturnType>
@@ -1288,7 +1102,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update the network features of the specified network sibling set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/updateNetworkSiblingSet</description></item><item><term>Operation Id</term><description>NetAppResource_UpdateNetworkSiblingSet</description></item><item><term>Default Api Version</term><description>2023-05-01-preview</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.UpdateNetworkSiblingSetNetAppResource(Azure.WaitUntil,Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.UpdateNetworkSiblingSetContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.NetApp/locations/{location}/updateNetworkSiblingSet</description></item><item><term>Operation Id</term><description>NetAppResource_UpdateNetworkSiblingSet</description></item><item><term>Default Api Version</term><description>2023-07-01</description></item></list><item><term>Mocking</term><description>To mock this method, please mock <see cref="M:Azure.ResourceManager.NetApp.Mocking.MockableNetAppSubscriptionResource.UpdateNetworkSiblingSetNetAppResource(Azure.WaitUntil,Azure.Core.AzureLocation,Azure.ResourceManager.NetApp.Models.UpdateNetworkSiblingSetContent,System.Threading.CancellationToken)" /> instead.</description></item></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
