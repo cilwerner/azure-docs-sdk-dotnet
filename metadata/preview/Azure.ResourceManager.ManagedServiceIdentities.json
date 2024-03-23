@@ -1,7 +1,7 @@
 {
   "Name": "Azure.ResourceManager.ManagedServiceIdentities",
-  "Version": "1.3.0-alpha.20240322.2",
-  "DevVersion": "1.3.0-alpha.20240322.2",
+  "Version": "1.3.0-alpha.20240323.1",
+  "DevVersion": "1.3.0-alpha.20240323.1",
   "DirectoryPath": "sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities",
   "ServiceDirectory": "managedserviceidentity",
   "ReadMePath": "sdk/managedserviceidentity/Azure.ResourceManager.ManagedServiceIdentities/README.md",
