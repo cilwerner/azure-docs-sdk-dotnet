@@ -1,0 +1,19 @@
+{
+  "Name": "Azure.Security.CodeTransparency",
+  "Version": "1.0.0-alpha.20240325.3",
+  "DevVersion": "1.0.0-alpha.20240325.3",
+  "DirectoryPath": "sdk/confidentialledger/Azure.Security.CodeTransparency",
+  "ServiceDirectory": "confidentialledger",
+  "ReadMePath": "sdk/confidentialledger/Azure.Security.CodeTransparency/README.md",
+  "ChangeLogPath": "sdk/confidentialledger/Azure.Security.CodeTransparency/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.Security.CodeTransparency",
+  "ReleaseStatus": null,
+  "Namespaces": [
+    "Azure.Security.CodeTransparency",
+    "Azure.Security.CodeTransparency.Receipt",
+    "Microsoft.Extensions.Azure"
+  ]
+}
