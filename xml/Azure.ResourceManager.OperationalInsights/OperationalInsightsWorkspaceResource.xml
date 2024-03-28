@@ -9,6 +9,8 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.1.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,7 +34,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,7 +52,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;</ReturnType>
@@ -65,7 +69,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -81,7 +85,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;&gt;</ReturnType>
@@ -97,7 +102,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -113,7 +118,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -141,7 +147,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceData</ReturnType>
@@ -162,7 +169,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -179,7 +187,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a workspace resource. To recover the workspace, create it again with the same name, in the same subscription, resource group and location. The name is kept for 14 days and cannot be used for another workspace. To remove the workspace completely and release the name, use the force flag.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Delete</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -193,7 +201,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -210,7 +219,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a workspace resource. To recover the workspace, create it again with the same name, in the same subscription, resource group and location. The name is kept for 14 days and cannot be used for another workspace. To remove the workspace completely and release the name, use the force flag.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Delete</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -224,7 +233,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -238,7 +248,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a Log Analytics gateway.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/gateways/{gatewayId}</description></item><item><term>Operation Id</term><description>Gateways_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/gateways/{gatewayId}</description></item><item><term>Operation Id</term><description>Gateways_Delete</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -252,7 +262,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -266,7 +277,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a Log Analytics gateway.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/gateways/{gatewayId}</description></item><item><term>Operation Id</term><description>Gateways_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/gateways/{gatewayId}</description></item><item><term>Operation Id</term><description>Gateways_Delete</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -280,7 +291,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -294,7 +306,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Disables an intelligence pack for a given workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/intelligencePacks/{intelligencePackName}/Disable</description></item><item><term>Operation Id</term><description>IntelligencePacks_Disable</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/intelligencePacks/{intelligencePackName}/Disable</description></item><item><term>Operation Id</term><description>IntelligencePacks_Disable</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -312,7 +324,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -326,7 +339,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Disables an intelligence pack for a given workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/intelligencePacks/{intelligencePackName}/Disable</description></item><item><term>Operation Id</term><description>IntelligencePacks_Disable</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/intelligencePacks/{intelligencePackName}/Disable</description></item><item><term>Operation Id</term><description>IntelligencePacks_Disable</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -344,7 +357,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -358,7 +372,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Enables an intelligence pack for a given workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/intelligencePacks/{intelligencePackName}/Enable</description></item><item><term>Operation Id</term><description>IntelligencePacks_Enable</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/intelligencePacks/{intelligencePackName}/Enable</description></item><item><term>Operation Id</term><description>IntelligencePacks_Enable</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -376,7 +390,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -390,7 +405,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Enables an intelligence pack for a given workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/intelligencePacks/{intelligencePackName}/Enable</description></item><item><term>Operation Id</term><description>IntelligencePacks_Enable</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/intelligencePacks/{intelligencePackName}/Enable</description></item><item><term>Operation Id</term><description>IntelligencePacks_Enable</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -408,7 +423,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;</ReturnType>
@@ -420,7 +436,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a workspace instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -434,7 +450,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedStorageAccountsCollection</ReturnType>
@@ -455,7 +472,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;&gt;</ReturnType>
@@ -467,7 +485,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a workspace instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -481,7 +499,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsAvailableServiceTier&gt;</ReturnType>
@@ -493,7 +512,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the available service tiers for the workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/availableServiceTiers</description></item><item><term>Operation Id</term><description>AvailableServiceTiers_ListByWorkspace</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/availableServiceTiers</description></item><item><term>Operation Id</term><description>AvailableServiceTiers_ListByWorkspace</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsAvailableServiceTier" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -507,7 +526,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsAvailableServiceTier&gt;</ReturnType>
@@ -519,7 +539,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the available service tiers for the workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/availableServiceTiers</description></item><item><term>Operation Id</term><description>AvailableServiceTiers_ListByWorkspace</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/availableServiceTiers</description></item><item><term>Operation Id</term><description>AvailableServiceTiers_ListByWorkspace</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsAvailableServiceTier" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -533,7 +553,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsIntelligencePack&gt;</ReturnType>
@@ -545,7 +566,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the intelligence packs possible and whether they are enabled or disabled for a given workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/intelligencePacks</description></item><item><term>Operation Id</term><description>IntelligencePacks_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/intelligencePacks</description></item><item><term>Operation Id</term><description>IntelligencePacks_List</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsIntelligencePack" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -559,7 +580,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsIntelligencePack&gt;</ReturnType>
@@ -571,7 +593,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists all the intelligence packs possible and whether they are enabled or disabled for a given workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/intelligencePacks</description></item><item><term>Operation Id</term><description>IntelligencePacks_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/intelligencePacks</description></item><item><term>Operation Id</term><description>IntelligencePacks_List</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsIntelligencePack" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -585,7 +607,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsManagementGroup&gt;</ReturnType>
@@ -597,7 +620,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a list of management groups connected to a workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/managementGroups</description></item><item><term>Operation Id</term><description>ManagementGroups_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/managementGroups</description></item><item><term>Operation Id</term><description>ManagementGroups_List</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsManagementGroup" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -611,7 +634,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsManagementGroup&gt;</ReturnType>
@@ -623,7 +647,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a list of management groups connected to a workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/managementGroups</description></item><item><term>Operation Id</term><description>ManagementGroups_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/managementGroups</description></item><item><term>Operation Id</term><description>ManagementGroups_List</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsManagementGroup" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -637,7 +661,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsDataExportResource&gt;</ReturnType>
@@ -651,7 +676,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a data export instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/dataExports/{dataExportName}</description></item><item><term>Operation Id</term><description>DataExports_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/dataExports/{dataExportName}</description></item><item><term>Operation Id</term><description>DataExports_Get</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsDataExportResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -669,7 +694,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsDataExportResource&gt;&gt;</ReturnType>
@@ -683,7 +709,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a data export instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/dataExports/{dataExportName}</description></item><item><term>Operation Id</term><description>DataExports_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/dataExports/{dataExportName}</description></item><item><term>Operation Id</term><description>DataExports_Get</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsDataExportResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -701,7 +727,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsDataExportCollection</ReturnType>
@@ -722,7 +749,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsDataSourceResource&gt;</ReturnType>
@@ -736,7 +764,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a datasource instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/dataSources/{dataSourceName}</description></item><item><term>Operation Id</term><description>DataSources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/dataSources/{dataSourceName}</description></item><item><term>Operation Id</term><description>DataSources_Get</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsDataSourceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -754,7 +782,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsDataSourceResource&gt;&gt;</ReturnType>
@@ -768,7 +797,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a datasource instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/dataSources/{dataSourceName}</description></item><item><term>Operation Id</term><description>DataSources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/dataSources/{dataSourceName}</description></item><item><term>Operation Id</term><description>DataSources_Get</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsDataSourceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -786,7 +815,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsDataSourceCollection</ReturnType>
@@ -807,7 +837,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedServiceResource&gt;</ReturnType>
@@ -821,7 +852,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a linked service instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/linkedServices/{linkedServiceName}</description></item><item><term>Operation Id</term><description>LinkedServices_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/linkedServices/{linkedServiceName}</description></item><item><term>Operation Id</term><description>LinkedServices_Get</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedServiceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -839,7 +870,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedServiceResource&gt;&gt;</ReturnType>
@@ -853,7 +885,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a linked service instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/linkedServices/{linkedServiceName}</description></item><item><term>Operation Id</term><description>LinkedServices_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/linkedServices/{linkedServiceName}</description></item><item><term>Operation Id</term><description>LinkedServices_Get</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedServiceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -871,7 +903,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedServiceCollection</ReturnType>
@@ -892,7 +925,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedStorageAccountsResource&gt;</ReturnType>
@@ -906,7 +940,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all linked storage account of a specific data source type associated with the specified workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/linkedStorageAccounts/{dataSourceType}</description></item><item><term>Operation Id</term><description>LinkedStorageAccounts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/linkedStorageAccounts/{dataSourceType}</description></item><item><term>Operation Id</term><description>LinkedStorageAccounts_Get</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedStorageAccountsResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -920,7 +954,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedStorageAccountsResource&gt;&gt;</ReturnType>
@@ -934,7 +969,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all linked storage account of a specific data source type associated with the specified workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/linkedStorageAccounts/{dataSourceType}</description></item><item><term>Operation Id</term><description>LinkedStorageAccounts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/linkedStorageAccounts/{dataSourceType}</description></item><item><term>Operation Id</term><description>LinkedStorageAccounts_Get</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsLinkedStorageAccountsResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -948,7 +983,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsSavedSearchResource&gt;</ReturnType>
@@ -962,7 +998,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified saved search for a given workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/savedSearches/{savedSearchId}</description></item><item><term>Operation Id</term><description>SavedSearches_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/savedSearches/{savedSearchId}</description></item><item><term>Operation Id</term><description>SavedSearches_Get</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsSavedSearchResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -980,7 +1016,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsSavedSearchResource&gt;&gt;</ReturnType>
@@ -994,7 +1031,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the specified saved search for a given workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/savedSearches/{savedSearchId}</description></item><item><term>Operation Id</term><description>SavedSearches_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/savedSearches/{savedSearchId}</description></item><item><term>Operation Id</term><description>SavedSearches_Get</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsSavedSearchResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1012,7 +1049,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsSavedSearchCollection</ReturnType>
@@ -1033,7 +1071,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsTableResource&gt;</ReturnType>
@@ -1047,7 +1086,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Log Analytics workspace table.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/tables/{tableName}</description></item><item><term>Operation Id</term><description>Tables_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/tables/{tableName}</description></item><item><term>Operation Id</term><description>Tables_Get</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsTableResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1065,7 +1104,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsTableResource&gt;&gt;</ReturnType>
@@ -1079,7 +1119,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a Log Analytics workspace table.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/tables/{tableName}</description></item><item><term>Operation Id</term><description>Tables_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/tables/{tableName}</description></item><item><term>Operation Id</term><description>Tables_Get</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsTableResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1097,7 +1137,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.OperationalInsightsTableCollection</ReturnType>
@@ -1118,7 +1159,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspacePurgeStatusResult&gt;</ReturnType>
@@ -1132,7 +1174,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets status of an ongoing purge operation.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/operations/{purgeId}</description></item><item><term>Operation Id</term><description>WorkspacePurge_GetPurgeStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/operations/{purgeId}</description></item><item><term>Operation Id</term><description>WorkspacePurge_GetPurgeStatus</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1150,7 +1192,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspacePurgeStatusResult&gt;&gt;</ReturnType>
@@ -1164,7 +1207,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets status of an ongoing purge operation.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/operations/{purgeId}</description></item><item><term>Operation Id</term><description>WorkspacePurge_GetPurgeStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/operations/{purgeId}</description></item><item><term>Operation Id</term><description>WorkspacePurge_GetPurgeStatus</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -1182,7 +1225,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsSearchSchemaValue&gt;</ReturnType>
@@ -1194,7 +1238,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the schema for a given workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/schema</description></item><item><term>Operation Id</term><description>Schema_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/schema</description></item><item><term>Operation Id</term><description>Schema_Get</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsSearchSchemaValue" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1208,7 +1252,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsSearchSchemaValue&gt;</ReturnType>
@@ -1220,7 +1265,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the schema for a given workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/schema</description></item><item><term>Operation Id</term><description>Schema_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/schema</description></item><item><term>Operation Id</term><description>Schema_Get</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsSearchSchemaValue" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1234,7 +1279,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspaceSharedKeys&gt;</ReturnType>
@@ -1246,7 +1292,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the shared keys for a workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/sharedKeys</description></item><item><term>Operation Id</term><description>SharedKeys_GetSharedKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/sharedKeys</description></item><item><term>Operation Id</term><description>SharedKeys_GetSharedKeys</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1260,7 +1306,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspaceSharedKeys&gt;&gt;</ReturnType>
@@ -1272,7 +1319,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the shared keys for a workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/sharedKeys</description></item><item><term>Operation Id</term><description>SharedKeys_GetSharedKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/sharedKeys</description></item><item><term>Operation Id</term><description>SharedKeys_GetSharedKeys</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1286,7 +1333,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.StorageInsightResource&gt;</ReturnType>
@@ -1300,7 +1348,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a storage insight instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/storageInsightConfigs/{storageInsightName}</description></item><item><term>Operation Id</term><description>StorageInsightConfigs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/storageInsightConfigs/{storageInsightName}</description></item><item><term>Operation Id</term><description>StorageInsightConfigs_Get</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.StorageInsightResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1318,7 +1366,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.StorageInsightResource&gt;&gt;</ReturnType>
@@ -1332,7 +1381,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a storage insight instance.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/storageInsightConfigs/{storageInsightName}</description></item><item><term>Operation Id</term><description>StorageInsightConfigs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/storageInsightConfigs/{storageInsightName}</description></item><item><term>Operation Id</term><description>StorageInsightConfigs_Get</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.StorageInsightResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1350,7 +1399,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.OperationalInsights.StorageInsightCollection</ReturnType>
@@ -1371,7 +1421,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsUsageMetric&gt;</ReturnType>
@@ -1383,7 +1434,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a list of usage metrics for a workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/usages</description></item><item><term>Operation Id</term><description>Usages_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/usages</description></item><item><term>Operation Id</term><description>Usages_List</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsUsageMetric" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1397,7 +1448,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsUsageMetric&gt;</ReturnType>
@@ -1409,7 +1461,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a list of usage metrics for a workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/usages</description></item><item><term>Operation Id</term><description>Usages_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/usages</description></item><item><term>Operation Id</term><description>Usages_List</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsUsageMetric" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1423,7 +1475,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1443,7 +1496,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspacePurgeResult&gt;</ReturnType>
@@ -1460,7 +1514,7 @@
             
              In order to manage system resources, purge requests are throttled at 50 requests per hour. You should batch the execution of purge requests by sending a single command whose predicate includes all user identities that require purging. Use the in operator to specify multiple identities. You should run the query prior to using for a purge request to verify that the results are expected.
              Log Analytics only supports purge operations required for compliance with GDPR. The Log Analytics product team reserves the right to reject requests for purge operations that are not for the purpose of GDPR compliance. In the event of a dispute, please create a support ticket
-             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/purge</description></item><item><term>Operation Id</term><description>WorkspacePurge_Purge</description></item></list></summary>
+             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/purge</description></item><item><term>Operation Id</term><description>WorkspacePurge_Purge</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1476,7 +1530,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspacePurgeResult&gt;&gt;</ReturnType>
@@ -1493,7 +1548,7 @@
             
              In order to manage system resources, purge requests are throttled at 50 requests per hour. You should batch the execution of purge requests by sending a single command whose predicate includes all user identities that require purging. Use the in operator to specify multiple identities. You should run the query prior to using for a purge request to verify that the results are expected.
              Log Analytics only supports purge operations required for compliance with GDPR. The Log Analytics product team reserves the right to reject requests for purge operations that are not for the purpose of GDPR compliance. In the event of a dispute, please create a support ticket
-             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/purge</description></item><item><term>Operation Id</term><description>WorkspacePurge_Purge</description></item></list></summary>
+             <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/purge</description></item><item><term>Operation Id</term><description>WorkspacePurge_Purge</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1509,7 +1564,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspaceSharedKeys&gt;</ReturnType>
@@ -1521,7 +1577,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Regenerates the shared keys for a Log Analytics Workspace. These keys are used to connect Microsoft Operational Insights agents to the workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/regenerateSharedKey</description></item><item><term>Operation Id</term><description>SharedKeys_Regenerate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/regenerateSharedKey</description></item><item><term>Operation Id</term><description>SharedKeys_Regenerate</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1535,7 +1591,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.Models.OperationalInsightsWorkspaceSharedKeys&gt;&gt;</ReturnType>
@@ -1547,7 +1604,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Regenerates the shared keys for a Log Analytics Workspace. These keys are used to connect Microsoft Operational Insights agents to the workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/regenerateSharedKey</description></item><item><term>Operation Id</term><description>SharedKeys_Regenerate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/regenerateSharedKey</description></item><item><term>Operation Id</term><description>SharedKeys_Regenerate</description></item><item><term>Default Api Version</term><description>2020-08-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1561,7 +1618,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;</ReturnType>
@@ -1575,7 +1633,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1591,7 +1649,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;&gt;</ReturnType>
@@ -1605,7 +1664,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1621,7 +1680,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1640,7 +1700,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;</ReturnType>
@@ -1654,7 +1715,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1670,7 +1731,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;&gt;</ReturnType>
@@ -1684,7 +1746,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Get</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1700,7 +1762,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;</ReturnType>
@@ -1714,7 +1777,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Update</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1730,7 +1793,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.OperationalInsights</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.1.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource&gt;&gt;</ReturnType>
@@ -1744,7 +1808,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a workspace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}</description></item><item><term>Operation Id</term><description>Workspaces_Update</description></item><item><term>Default Api Version</term><description>2022-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.OperationalInsights.OperationalInsightsWorkspaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

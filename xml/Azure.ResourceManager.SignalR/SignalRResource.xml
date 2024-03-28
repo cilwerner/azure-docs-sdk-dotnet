@@ -9,6 +9,8 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,7 +34,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,7 +52,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRResource&gt;</ReturnType>
@@ -65,7 +69,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -81,7 +85,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRResource&gt;&gt;</ReturnType>
@@ -97,7 +102,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -113,7 +118,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -141,7 +147,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SignalR.SignalRData</ReturnType>
@@ -162,7 +169,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -177,7 +185,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Operation to delete a resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Delete</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -191,7 +199,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -206,7 +215,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Operation to delete a resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Delete</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -220,7 +229,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRResource&gt;</ReturnType>
@@ -232,7 +242,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the resource and its properties.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -246,7 +256,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRResource&gt;&gt;</ReturnType>
@@ -258,7 +269,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the resource and its properties.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -272,7 +283,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.SignalR.Models.SignalRKeys&gt;</ReturnType>
@@ -284,7 +296,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the access keys of the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/listKeys</description></item><item><term>Operation Id</term><description>SignalR_ListKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/listKeys</description></item><item><term>Operation Id</term><description>SignalR_ListKeys</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -298,7 +310,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.SignalR.Models.SignalRKeys&gt;&gt;</ReturnType>
@@ -310,7 +323,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the access keys of the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/listKeys</description></item><item><term>Operation Id</term><description>SignalR_ListKeys</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/listKeys</description></item><item><term>Operation Id</term><description>SignalR_ListKeys</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -324,7 +337,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRCustomCertificateResource&gt;</ReturnType>
@@ -338,7 +352,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a custom certificate.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/customCertificates/{certificateName}</description></item><item><term>Operation Id</term><description>SignalRCustomCertificates_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/customCertificates/{certificateName}</description></item><item><term>Operation Id</term><description>SignalRCustomCertificates_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRCustomCertificateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -356,7 +370,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRCustomCertificateResource&gt;&gt;</ReturnType>
@@ -370,7 +385,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a custom certificate.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/customCertificates/{certificateName}</description></item><item><term>Operation Id</term><description>SignalRCustomCertificates_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/customCertificates/{certificateName}</description></item><item><term>Operation Id</term><description>SignalRCustomCertificates_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRCustomCertificateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -388,7 +403,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SignalR.SignalRCustomCertificateCollection</ReturnType>
@@ -409,7 +425,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRCustomDomainResource&gt;</ReturnType>
@@ -423,7 +440,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a custom domain.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/customDomains/{name}</description></item><item><term>Operation Id</term><description>SignalRCustomDomains_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/customDomains/{name}</description></item><item><term>Operation Id</term><description>SignalRCustomDomains_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRCustomDomainResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -441,7 +458,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRCustomDomainResource&gt;&gt;</ReturnType>
@@ -455,7 +473,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a custom domain.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/customDomains/{name}</description></item><item><term>Operation Id</term><description>SignalRCustomDomains_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/customDomains/{name}</description></item><item><term>Operation Id</term><description>SignalRCustomDomains_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRCustomDomainResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -473,7 +491,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SignalR.SignalRCustomDomainCollection</ReturnType>
@@ -494,7 +513,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRPrivateEndpointConnectionResource&gt;</ReturnType>
@@ -508,7 +528,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified private endpoint connection
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>SignalRPrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>SignalRPrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -526,7 +546,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRPrivateEndpointConnectionResource&gt;&gt;</ReturnType>
@@ -540,7 +561,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified private endpoint connection
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>SignalRPrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>SignalRPrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -558,7 +579,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SignalR.SignalRPrivateEndpointConnectionCollection</ReturnType>
@@ -579,7 +601,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.SignalR.Models.SignalRPrivateLinkResource&gt;</ReturnType>
@@ -591,7 +614,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the private link resources that need to be created for a resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/privateLinkResources</description></item><item><term>Operation Id</term><description>SignalRPrivateLinkResources_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/privateLinkResources</description></item><item><term>Operation Id</term><description>SignalRPrivateLinkResources_List</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.SignalR.Models.SignalRPrivateLinkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -605,7 +628,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.SignalR.Models.SignalRPrivateLinkResource&gt;</ReturnType>
@@ -617,7 +641,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the private link resources that need to be created for a resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/privateLinkResources</description></item><item><term>Operation Id</term><description>SignalRPrivateLinkResources_List</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/privateLinkResources</description></item><item><term>Operation Id</term><description>SignalRPrivateLinkResources_List</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.SignalR.Models.SignalRPrivateLinkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -631,7 +655,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRSharedPrivateLinkResource&gt;</ReturnType>
@@ -645,7 +670,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified shared private link resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}</description></item><item><term>Operation Id</term><description>SignalRSharedPrivateLinkResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}</description></item><item><term>Operation Id</term><description>SignalRSharedPrivateLinkResources_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRSharedPrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -663,7 +688,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRSharedPrivateLinkResource&gt;&gt;</ReturnType>
@@ -677,7 +703,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the specified shared private link resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}</description></item><item><term>Operation Id</term><description>SignalRSharedPrivateLinkResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}</description></item><item><term>Operation Id</term><description>SignalRSharedPrivateLinkResources_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRSharedPrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -695,7 +721,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SignalR.SignalRSharedPrivateLinkResourceCollection</ReturnType>
@@ -716,7 +743,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.SignalR.Models.SignalRSku&gt;</ReturnType>
@@ -728,7 +756,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all available skus of the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/skus</description></item><item><term>Operation Id</term><description>SignalR_ListSkus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/skus</description></item><item><term>Operation Id</term><description>SignalR_ListSkus</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.SignalR.Models.SignalRSku" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -742,7 +770,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.SignalR.Models.SignalRSku&gt;</ReturnType>
@@ -754,7 +783,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List all available skus of the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/skus</description></item><item><term>Operation Id</term><description>SignalR_ListSkus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/skus</description></item><item><term>Operation Id</term><description>SignalR_ListSkus</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.SignalR.Models.SignalRSku" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -768,7 +797,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -788,7 +818,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.SignalR.Models.SignalRKeys&gt;</ReturnType>
@@ -805,7 +836,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Regenerate the access key for the resource. PrimaryKey and SecondaryKey cannot be regenerated at the same time.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/regenerateKey</description></item><item><term>Operation Id</term><description>SignalR_RegenerateKey</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/regenerateKey</description></item><item><term>Operation Id</term><description>SignalR_RegenerateKey</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -821,7 +852,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.SignalR.Models.SignalRKeys&gt;&gt;</ReturnType>
@@ -838,7 +870,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Regenerate the access key for the resource. PrimaryKey and SecondaryKey cannot be regenerated at the same time.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/regenerateKey</description></item><item><term>Operation Id</term><description>SignalR_RegenerateKey</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/regenerateKey</description></item><item><term>Operation Id</term><description>SignalR_RegenerateKey</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -854,7 +886,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRResource&gt;</ReturnType>
@@ -868,7 +901,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -884,7 +917,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRResource&gt;&gt;</ReturnType>
@@ -898,7 +932,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -914,7 +948,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -933,7 +968,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -948,7 +984,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Operation to restart a resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/restart</description></item><item><term>Operation Id</term><description>SignalR_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/restart</description></item><item><term>Operation Id</term><description>SignalR_Restart</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -962,7 +998,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -977,7 +1014,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Operation to restart a resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/restart</description></item><item><term>Operation Id</term><description>SignalR_Restart</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/restart</description></item><item><term>Operation Id</term><description>SignalR_Restart</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -991,7 +1028,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRResource&gt;</ReturnType>
@@ -1005,7 +1043,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1021,7 +1059,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.SignalR.SignalRResource&gt;&gt;</ReturnType>
@@ -1035,7 +1074,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Get</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1051,7 +1090,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.SignalR.SignalRResource&gt;</ReturnType>
@@ -1068,7 +1108,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Operation to update an exiting resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Update</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1084,7 +1124,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SignalR</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.SignalR.SignalRResource&gt;&gt;</ReturnType>
@@ -1101,7 +1142,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Operation to update an exiting resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}</description></item><item><term>Operation Id</term><description>SignalR_Update</description></item><item><term>Default Api Version</term><description>2022-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.SignalR.SignalRResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

@@ -14,6 +14,8 @@
     <AssemblyVersion>1.4.0.0</AssemblyVersion>
     <AssemblyVersion>1.6.0.0</AssemblyVersion>
     <AssemblyVersion>1.7.0.0</AssemblyVersion>
+    <AssemblyVersion>1.7.1.0</AssemblyVersion>
+    <AssemblyVersion>1.8.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -37,7 +39,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -54,7 +57,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;</ReturnType>
@@ -70,7 +74,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -86,7 +90,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;&gt;</ReturnType>
@@ -102,7 +107,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -118,7 +123,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -130,7 +136,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             You can cancel a deployment only if the provisioningState is Accepted or Running. After the deployment is canceled, the provisioningState is set to Canceled. Canceling a template deployment stops the currently running template deployment and leaves the resources partially deployed.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel</description></item><item><term>Operation Id</term><description>Deployments_CancelAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel</description></item><item><term>Operation Id</term><description>Deployments_CancelAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,7 +150,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -156,7 +163,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             You can cancel a deployment only if the provisioningState is Accepted or Running. After the deployment is canceled, the provisioningState is set to Canceled. Canceling a template deployment stops the currently running template deployment and leaves the resources partially deployed.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel</description></item><item><term>Operation Id</term><description>Deployments_CancelAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/cancel</description></item><item><term>Operation Id</term><description>Deployments_CancelAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -170,7 +177,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -182,7 +190,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks whether the deployment exists.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_CheckExistenceAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_CheckExistenceAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -196,7 +204,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -208,7 +217,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks whether the deployment exists.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_CheckExistenceAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_CheckExistenceAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -222,7 +231,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -248,7 +258,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmDeploymentData</ReturnType>
@@ -269,7 +280,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -284,7 +296,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             A template deployment that is currently running cannot be deleted. Deleting a template deployment removes the associated deployment operations. This is an asynchronous operation that returns a status of 202 until the template deployment is successfully deleted. The Location response header contains the URI that is used to obtain the status of the process. While the process is running, a call to the URI in the Location header returns a status of 202. When the process finishes, the URI in the Location header returns a status of 204 on success. If the asynchronous request failed, the URI in the Location header returns an error-level status code.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_DeleteAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_DeleteAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -298,7 +310,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -313,7 +326,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             A template deployment that is currently running cannot be deleted. Deleting a template deployment removes the associated deployment operations. This is an asynchronous operation that returns a status of 202 until the template deployment is successfully deleted. The Location response header contains the URI that is used to obtain the status of the process. While the process is running, a call to the URI in the Location header returns a status of 202. When the process finishes, the URI in the Location header returns a status of 204 on success. If the asynchronous request failed, the URI in the Location header returns an error-level status code.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_DeleteAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_DeleteAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -327,7 +340,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.Models.ArmDeploymentExportResult&gt;</ReturnType>
@@ -339,7 +353,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Exports the template used for specified deployment.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate</description></item><item><term>Operation Id</term><description>Deployments_ExportTemplateAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate</description></item><item><term>Operation Id</term><description>Deployments_ExportTemplateAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -353,7 +367,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.Models.ArmDeploymentExportResult&gt;&gt;</ReturnType>
@@ -365,7 +380,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Exports the template used for specified deployment.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate</description></item><item><term>Operation Id</term><description>Deployments_ExportTemplateAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/exportTemplate</description></item><item><term>Operation Id</term><description>Deployments_ExportTemplateAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -379,7 +394,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;</ReturnType>
@@ -391,7 +407,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a deployment.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -405,7 +421,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;&gt;</ReturnType>
@@ -417,7 +434,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a deployment.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -431,7 +448,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.Models.ArmDeploymentOperation&gt;</ReturnType>
@@ -445,7 +463,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a deployments operation.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}</description></item><item><term>Operation Id</term><description>DeploymentOperations_GetAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}</description></item><item><term>Operation Id</term><description>DeploymentOperations_GetAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -463,7 +481,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.Models.ArmDeploymentOperation&gt;&gt;</ReturnType>
@@ -477,7 +496,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a deployments operation.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}</description></item><item><term>Operation Id</term><description>DeploymentOperations_GetAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/operations/{operationId}</description></item><item><term>Operation Id</term><description>DeploymentOperations_GetAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -495,7 +514,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Resources.Models.ArmDeploymentOperation&gt;</ReturnType>
@@ -509,7 +529,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all deployments operations for a deployment.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/operations</description></item><item><term>Operation Id</term><description>DeploymentOperations_ListAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/operations</description></item><item><term>Operation Id</term><description>DeploymentOperations_ListAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Resources.Models.ArmDeploymentOperation" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -523,7 +543,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Resources.Models.ArmDeploymentOperation&gt;</ReturnType>
@@ -537,7 +558,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets all deployments operations for a deployment.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/operations</description></item><item><term>Operation Id</term><description>DeploymentOperations_ListAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/operations</description></item><item><term>Operation Id</term><description>DeploymentOperations_ListAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Resources.Models.ArmDeploymentOperation" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -551,7 +572,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -571,7 +593,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;</ReturnType>
@@ -585,7 +608,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -601,7 +624,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;&gt;</ReturnType>
@@ -615,7 +639,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -631,7 +655,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -650,7 +675,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;</ReturnType>
@@ -664,7 +690,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -680,7 +706,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;&gt;</ReturnType>
@@ -694,7 +721,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_GetAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -710,7 +737,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;</ReturnType>
@@ -727,7 +755,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             You can provide the template and parameters directly in the request or link to JSON files.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_CreateOrUpdateAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_CreateOrUpdateAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -743,7 +771,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;&gt;</ReturnType>
@@ -760,7 +789,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             You can provide the template and parameters directly in the request or link to JSON files.
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_CreateOrUpdateAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}</description></item><item><term>Operation Id</term><description>Deployments_CreateOrUpdateAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -776,7 +805,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Resources.Models.ArmDeploymentValidateResult&gt;</ReturnType>
@@ -793,7 +823,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Validates whether the specified template is syntactically correct and will be accepted by Azure Resource Manager..
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/validate</description></item><item><term>Operation Id</term><description>Deployments_ValidateAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/validate</description></item><item><term>Operation Id</term><description>Deployments_ValidateAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -809,7 +839,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Resources.Models.ArmDeploymentValidateResult&gt;&gt;</ReturnType>
@@ -826,7 +857,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Validates whether the specified template is syntactically correct and will be accepted by Azure Resource Manager..
-            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/validate</description></item><item><term>Operation Id</term><description>Deployments_ValidateAtScope</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{scope}/providers/Microsoft.Resources/deployments/{deploymentName}/validate</description></item><item><term>Operation Id</term><description>Deployments_ValidateAtScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -842,7 +873,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Resources.Models.WhatIfOperationResult&gt;</ReturnType>
@@ -859,7 +891,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns changes that will be made by the deployment if executed at the scope of the tenant group.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIfAtTenantScope</description></item><item><term>Request Path</term><description>/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIfAtManagementGroupScope</description></item><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIfAtSubscriptionScope</description></item><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIf</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIfAtTenantScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item><item><term>Request Path</term><description>/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIfAtManagementGroupScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIfAtSubscriptionScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIf</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -875,7 +907,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
+        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Resources.Models.WhatIfOperationResult&gt;&gt;</ReturnType>
@@ -892,7 +925,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns changes that will be made by the deployment if executed at the scope of the tenant group.
-            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIfAtTenantScope</description></item><item><term>Request Path</term><description>/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIfAtManagementGroupScope</description></item><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIfAtSubscriptionScope</description></item><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIf</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIfAtTenantScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item><item><term>Request Path</term><description>/providers/Microsoft.Management/managementGroups/{groupId}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIfAtManagementGroupScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIfAtSubscriptionScope</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.Resources/deployments/{deploymentName}/whatIf</description></item><item><term>Operation Id</term><description>Deployments_WhatIf</description></item><item><term>Default Api Version</term><description>2022-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Resources.ArmDeploymentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

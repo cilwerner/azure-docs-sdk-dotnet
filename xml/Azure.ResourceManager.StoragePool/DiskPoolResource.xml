@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -33,6 +34,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolResource&gt;</ReturnType>
@@ -65,7 +68,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -82,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolResource&gt;&gt;</ReturnType>
@@ -97,7 +101,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -114,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -142,6 +147,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StoragePool.DiskPoolData</ReturnType>
@@ -163,6 +169,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -177,7 +184,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Shuts down the Disk Pool and releases the compute resources. You are not billed for the compute resources that this Disk Pool uses. This operation can take 10 minutes to complete. This is expected service behavior.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/deallocate</description></item><item><term>Operation Id</term><description>DiskPools_Deallocate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/deallocate</description></item><item><term>Operation Id</term><description>DiskPools_Deallocate</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -192,6 +199,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -206,7 +214,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Shuts down the Disk Pool and releases the compute resources. You are not billed for the compute resources that this Disk Pool uses. This operation can take 10 minutes to complete. This is expected service behavior.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/deallocate</description></item><item><term>Operation Id</term><description>DiskPools_Deallocate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/deallocate</description></item><item><term>Operation Id</term><description>DiskPools_Deallocate</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -221,6 +229,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -235,7 +244,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a Disk pool; attached disks are not affected. This delete operation can take 10 minutes to complete. This is expected service behavior.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Delete</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -250,6 +259,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -264,7 +274,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a Disk pool; attached disks are not affected. This delete operation can take 10 minutes to complete. This is expected service behavior.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Delete</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -279,6 +289,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolResource&gt;</ReturnType>
@@ -290,7 +301,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Disk pool.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -305,6 +316,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolResource&gt;&gt;</ReturnType>
@@ -316,7 +328,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Disk pool.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -331,6 +343,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetResource&gt;</ReturnType>
@@ -344,7 +357,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get an iSCSI Target.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/iscsiTargets/{iscsiTargetName}</description></item><item><term>Operation Id</term><description>IscsiTargets_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/iscsiTargets/{iscsiTargetName}</description></item><item><term>Operation Id</term><description>IscsiTargets_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -363,6 +376,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetResource&gt;&gt;</ReturnType>
@@ -376,7 +390,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get an iSCSI Target.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/iscsiTargets/{iscsiTargetName}</description></item><item><term>Operation Id</term><description>IscsiTargets_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/iscsiTargets/{iscsiTargetName}</description></item><item><term>Operation Id</term><description>IscsiTargets_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -395,6 +409,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.StoragePool.DiskPoolIscsiTargetCollection</ReturnType>
@@ -416,6 +431,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment&gt;</ReturnType>
@@ -427,7 +443,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the network endpoints of all outbound dependencies of a Disk Pool
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/outboundNetworkDependenciesEndpoints</description></item><item><term>Operation Id</term><description>DiskPools_ListOutboundNetworkDependenciesEndpoints</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/outboundNetworkDependenciesEndpoints</description></item><item><term>Operation Id</term><description>DiskPools_ListOutboundNetworkDependenciesEndpoints</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -442,6 +458,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment&gt;</ReturnType>
@@ -453,7 +470,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the network endpoints of all outbound dependencies of a Disk Pool
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/outboundNetworkDependenciesEndpoints</description></item><item><term>Operation Id</term><description>DiskPools_ListOutboundNetworkDependenciesEndpoints</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/outboundNetworkDependenciesEndpoints</description></item><item><term>Operation Id</term><description>DiskPools_ListOutboundNetworkDependenciesEndpoints</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.StoragePool.Models.StoragePoolOutboundEnvironment" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -468,6 +485,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -488,6 +506,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolResource&gt;</ReturnType>
@@ -501,7 +520,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -518,6 +537,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolResource&gt;&gt;</ReturnType>
@@ -531,7 +551,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -548,6 +568,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -567,6 +588,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolResource&gt;</ReturnType>
@@ -580,7 +602,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -597,6 +619,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.StoragePool.DiskPoolResource&gt;&gt;</ReturnType>
@@ -610,7 +633,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Get</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -627,6 +650,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -641,7 +665,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to start a Disk Pool. This start operation can take 10 minutes to complete. This is expected service behavior.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/start</description></item><item><term>Operation Id</term><description>DiskPools_Start</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/start</description></item><item><term>Operation Id</term><description>DiskPools_Start</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -656,6 +680,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -670,7 +695,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             The operation to start a Disk Pool. This start operation can take 10 minutes to complete. This is expected service behavior.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/start</description></item><item><term>Operation Id</term><description>DiskPools_Start</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/start</description></item><item><term>Operation Id</term><description>DiskPools_Start</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -685,6 +710,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.StoragePool.DiskPoolResource&gt;</ReturnType>
@@ -701,7 +727,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a Disk pool.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Update</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -718,6 +744,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.StoragePool.DiskPoolResource&gt;&gt;</ReturnType>
@@ -734,7 +761,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a Disk pool.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}</description></item><item><term>Operation Id</term><description>DiskPools_Update</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -751,6 +778,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -765,7 +793,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Upgrade replaces the underlying virtual machine hosts one at a time. This operation can take 10-15 minutes to complete. This is expected service behavior.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/upgrade</description></item><item><term>Operation Id</term><description>DiskPools_Upgrade</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/upgrade</description></item><item><term>Operation Id</term><description>DiskPools_Upgrade</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -780,6 +808,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.StoragePool</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -794,7 +823,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Upgrade replaces the underlying virtual machine hosts one at a time. This operation can take 10-15 minutes to complete. This is expected service behavior.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/upgrade</description></item><item><term>Operation Id</term><description>DiskPools_Upgrade</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.StoragePool/diskPools/{diskPoolName}/upgrade</description></item><item><term>Operation Id</term><description>DiskPools_Upgrade</description></item><item><term>Default Api Version</term><description>2021-08-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.StoragePool.DiskPoolResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

@@ -14,6 +14,8 @@
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.1.0</AssemblyVersion>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <AssemblyVersion>1.3.1.0</AssemblyVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -37,7 +39,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -54,7 +57,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;</ReturnType>
@@ -86,7 +90,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;&gt;</ReturnType>
@@ -118,7 +123,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -146,7 +152,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Redis.RedisData</ReturnType>
@@ -167,7 +174,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -196,7 +204,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -225,7 +234,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -258,7 +268,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -291,7 +302,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Models.OperationStatusResult&gt;</ReturnType>
@@ -320,7 +332,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Models.OperationStatusResult&gt;&gt;</ReturnType>
@@ -349,7 +362,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResult&gt;</ReturnType>
@@ -379,7 +393,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisForceRebootResult&gt;&gt;</ReturnType>
@@ -409,7 +424,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;</ReturnType>
@@ -435,7 +451,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;&gt;</ReturnType>
@@ -461,7 +478,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisAccessKeys&gt;</ReturnType>
@@ -487,7 +505,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisAccessKeys&gt;&gt;</ReturnType>
@@ -513,7 +532,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Redis.Models.RedisPrivateLinkResource&gt;</ReturnType>
@@ -539,7 +559,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Redis.Models.RedisPrivateLinkResource&gt;</ReturnType>
@@ -565,7 +586,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Redis.RedisCacheAccessPolicyCollection</ReturnType>
@@ -586,7 +608,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisCacheAccessPolicyResource&gt;</ReturnType>
@@ -618,7 +641,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisCacheAccessPolicyAssignmentResource&gt;</ReturnType>
@@ -650,7 +674,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisCacheAccessPolicyAssignmentResource&gt;&gt;</ReturnType>
@@ -682,7 +707,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Redis.RedisCacheAccessPolicyAssignmentCollection</ReturnType>
@@ -703,7 +729,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisCacheAccessPolicyResource&gt;&gt;</ReturnType>
@@ -735,7 +762,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisFirewallRuleResource&gt;</ReturnType>
@@ -767,7 +795,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisFirewallRuleResource&gt;&gt;</ReturnType>
@@ -799,7 +828,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Redis.RedisFirewallRuleCollection</ReturnType>
@@ -820,7 +850,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyCollection</ReturnType>
@@ -841,7 +872,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyResource&gt;</ReturnType>
@@ -873,7 +905,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisLinkedServerWithPropertyResource&gt;&gt;</ReturnType>
@@ -905,7 +938,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;</ReturnType>
@@ -933,7 +967,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisPatchScheduleResource&gt;&gt;</ReturnType>
@@ -961,7 +996,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Redis.RedisPatchScheduleCollection</ReturnType>
@@ -982,7 +1018,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisPrivateEndpointConnectionResource&gt;</ReturnType>
@@ -1014,7 +1051,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisPrivateEndpointConnectionResource&gt;&gt;</ReturnType>
@@ -1046,7 +1084,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Redis.RedisPrivateEndpointConnectionCollection</ReturnType>
@@ -1067,7 +1106,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Redis.Models.RedisUpgradeNotification&gt;</ReturnType>
@@ -1095,7 +1135,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Redis.Models.RedisUpgradeNotification&gt;</ReturnType>
@@ -1123,7 +1164,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1143,7 +1185,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -1176,7 +1219,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -1209,7 +1253,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisAccessKeys&gt;</ReturnType>
@@ -1239,7 +1284,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.Models.RedisAccessKeys&gt;&gt;</ReturnType>
@@ -1269,7 +1315,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;</ReturnType>
@@ -1299,7 +1346,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;&gt;</ReturnType>
@@ -1329,7 +1377,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1348,7 +1397,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;</ReturnType>
@@ -1378,7 +1428,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Redis.RedisResource&gt;&gt;</ReturnType>
@@ -1408,7 +1459,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1448,7 +1500,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Redis.RedisResource&gt;</ReturnType>
@@ -1481,7 +1534,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1521,7 +1575,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Redis</AssemblyName>
-        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Redis.RedisResource&gt;&gt;</ReturnType>

@@ -113,7 +113,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the replication extension in the given vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/replicationExtensions/{replicationExtensionName}</description></item><item><term>Operation Id</term><description>ReplicationExtension_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/replicationExtensions/{replicationExtensionName}</description></item><item><term>Operation Id</term><description>ReplicationExtension_Delete</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationReplicationExtensionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -142,7 +142,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the replication extension in the given vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/replicationExtensions/{replicationExtensionName}</description></item><item><term>Operation Id</term><description>ReplicationExtension_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/replicationExtensions/{replicationExtensionName}</description></item><item><term>Operation Id</term><description>ReplicationExtension_Delete</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationReplicationExtensionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -168,7 +168,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the replication extension.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/replicationExtensions/{replicationExtensionName}</description></item><item><term>Operation Id</term><description>ReplicationExtension_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/replicationExtensions/{replicationExtensionName}</description></item><item><term>Operation Id</term><description>ReplicationExtension_Get</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationReplicationExtensionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -194,7 +194,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the replication extension.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/replicationExtensions/{replicationExtensionName}</description></item><item><term>Operation Id</term><description>ReplicationExtension_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/replicationExtensions/{replicationExtensionName}</description></item><item><term>Operation Id</term><description>ReplicationExtension_Get</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationReplicationExtensionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -264,7 +264,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates the replication extension in the given vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/replicationExtensions/{replicationExtensionName}</description></item><item><term>Operation Id</term><description>ReplicationExtension_Create</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/replicationExtensions/{replicationExtensionName}</description></item><item><term>Operation Id</term><description>ReplicationExtension_Create</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationReplicationExtensionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -297,7 +297,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates the replication extension in the given vault.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/replicationExtensions/{replicationExtensionName}</description></item><item><term>Operation Id</term><description>ReplicationExtension_Create</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataReplication/replicationVaults/{vaultName}/replicationExtensions/{replicationExtensionName}</description></item><item><term>Operation Id</term><description>ReplicationExtension_Create</description></item><item><term>Default Api Version</term><description>2021-02-16-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.RecoveryServicesDataReplication.DataReplicationReplicationExtensionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

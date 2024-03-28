@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;</ReturnType>
@@ -63,7 +66,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item><item><term>Default Api Version</term><description>2023-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -80,6 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;&gt;</ReturnType>
@@ -95,7 +99,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item><item><term>Default Api Version</term><description>2023-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -112,6 +116,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -140,6 +145,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostData</ReturnType>
@@ -161,6 +167,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -177,7 +184,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements host DELETE method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Delete</description></item><item><term>Default Api Version</term><description>2023-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -192,6 +199,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -208,7 +216,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements host DELETE method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Delete</description></item><item><term>Default Api Version</term><description>2023-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -223,6 +231,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;</ReturnType>
@@ -234,7 +243,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements host GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item><item><term>Default Api Version</term><description>2023-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -249,6 +258,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;&gt;</ReturnType>
@@ -260,7 +270,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Implements host GET method.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item><item><term>Default Api Version</term><description>2023-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -275,6 +285,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -295,6 +306,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;</ReturnType>
@@ -308,7 +320,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item><item><term>Default Api Version</term><description>2023-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -325,6 +337,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;&gt;</ReturnType>
@@ -338,7 +351,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item><item><term>Default Api Version</term><description>2023-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -355,6 +368,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -374,6 +388,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;</ReturnType>
@@ -387,7 +402,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item><item><term>Default Api Version</term><description>2023-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -404,6 +419,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;&gt;</ReturnType>
@@ -417,41 +433,11 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Get</description></item><item><term>Default Api Version</term><description>2023-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="tags" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="Update">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt; Update (Azure.ResourceManager.ConnectedVMwarevSphere.Models.ResourcePatch patch, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt; Update(class Azure.ResourceManager.ConnectedVMwarevSphere.Models.ResourcePatch patch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource.Update(Azure.ResourceManager.ConnectedVMwarevSphere.Models.ResourcePatch,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function Update (patch As ResourcePatch, Optional cancellationToken As CancellationToken = Nothing) As Response(Of VMwareHostResource)" />
-      <MemberSignature Language="F#" Value="abstract member Update : Azure.ResourceManager.ConnectedVMwarevSphere.Models.ResourcePatch * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;&#xA;override this.Update : Azure.ResourceManager.ConnectedVMwarevSphere.Models.ResourcePatch * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;" Usage="vMwareHostResource.Update (patch, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="patch" Type="Azure.ResourceManager.ConnectedVMwarevSphere.Models.ResourcePatch" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="patch"> Resource properties to update. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            API to update certain properties of the host resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Update</description></item></list></summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="patch" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="Update">
@@ -464,54 +450,25 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.ConnectedVMwarevSphere.Models.VMwareResourcePatchContent" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="content" Type="Azure.ResourceManager.ConnectedVMwarevSphere.Models.VMwareResourcePatchContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="content"> Resource properties to update. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             API to update certain properties of the host resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Update</description></item><item><term>Default Api Version</term><description>2023-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="content" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="UpdateAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;&gt; UpdateAsync (Azure.ResourceManager.ConnectedVMwarevSphere.Models.ResourcePatch patch, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;&gt; UpdateAsync(class Azure.ResourceManager.ConnectedVMwarevSphere.Models.ResourcePatch patch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource.UpdateAsync(Azure.ResourceManager.ConnectedVMwarevSphere.Models.ResourcePatch,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateAsync (patch As ResourcePatch, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of VMwareHostResource))" />
-      <MemberSignature Language="F#" Value="abstract member UpdateAsync : Azure.ResourceManager.ConnectedVMwarevSphere.Models.ResourcePatch * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;&gt;&#xA;override this.UpdateAsync : Azure.ResourceManager.ConnectedVMwarevSphere.Models.ResourcePatch * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;&gt;" Usage="vMwareHostResource.UpdateAsync (patch, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="patch" Type="Azure.ResourceManager.ConnectedVMwarevSphere.Models.ResourcePatch" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="patch"> Resource properties to update. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            API to update certain properties of the host resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Update</description></item></list></summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="patch" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="UpdateAsync">
@@ -524,20 +481,21 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ConnectedVMwarevSphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="Azure.ResourceManager.ConnectedVMwarevSphere.Models.VMwareResourcePatchContent" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="content" Type="Azure.ResourceManager.ConnectedVMwarevSphere.Models.VMwareResourcePatchContent" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="content"> Resource properties to update. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             API to update certain properties of the host resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ConnectedVMwarevSphere/hosts/{hostName}</description></item><item><term>Operation Id</term><description>Hosts_Update</description></item><item><term>Default Api Version</term><description>2023-10-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ConnectedVMwarevSphere.VMwareHostResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

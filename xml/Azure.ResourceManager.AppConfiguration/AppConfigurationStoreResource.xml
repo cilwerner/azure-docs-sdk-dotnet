@@ -9,6 +9,8 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <AssemblyVersion>1.3.1.0</AssemblyVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,8 +34,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,8 +52,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;</ReturnType>
@@ -83,8 +85,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;&gt;</ReturnType>
@@ -116,8 +118,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -145,8 +147,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppConfiguration.AppConfigurationStoreData</ReturnType>
@@ -167,8 +169,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -197,8 +199,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -227,8 +229,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;</ReturnType>
@@ -254,8 +256,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueResource&gt;</ReturnType>
@@ -287,8 +289,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueResource&gt;&gt;</ReturnType>
@@ -320,8 +322,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppConfiguration.AppConfigurationKeyValueCollection</ReturnType>
@@ -342,8 +344,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationPrivateEndpointConnectionResource&gt;</ReturnType>
@@ -375,8 +377,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationPrivateEndpointConnectionResource&gt;&gt;</ReturnType>
@@ -408,8 +410,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppConfiguration.AppConfigurationPrivateEndpointConnectionCollection</ReturnType>
@@ -430,8 +432,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationPrivateLinkResource&gt;</ReturnType>
@@ -463,8 +465,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationPrivateLinkResource&gt;&gt;</ReturnType>
@@ -496,8 +498,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppConfiguration.AppConfigurationPrivateLinkResourceCollection</ReturnType>
@@ -518,14 +520,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationReplicaResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="replicaName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="replicaName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="replicaName"> The name of the replica. </param>
@@ -550,14 +553,15 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationReplicaResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="replicaName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="replicaName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="replicaName"> The name of the replica. </param>
@@ -582,7 +586,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppConfiguration.AppConfigurationReplicaCollection</ReturnType>
@@ -603,8 +608,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;&gt;</ReturnType>
@@ -630,8 +635,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.AppConfiguration.Models.AppConfigurationStoreApiKey&gt;</ReturnType>
@@ -659,8 +664,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.AppConfiguration.Models.AppConfigurationStoreApiKey&gt;</ReturnType>
@@ -688,8 +693,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -709,8 +714,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppConfiguration.Models.AppConfigurationStoreApiKey&gt;</ReturnType>
@@ -740,8 +745,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.Models.AppConfigurationStoreApiKey&gt;&gt;</ReturnType>
@@ -771,8 +776,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;</ReturnType>
@@ -802,8 +807,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;&gt;</ReturnType>
@@ -833,8 +838,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -853,8 +858,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;</ReturnType>
@@ -884,8 +889,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;&gt;</ReturnType>
@@ -915,8 +920,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;</ReturnType>
@@ -949,8 +954,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppConfiguration</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.1.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.AppConfiguration.AppConfigurationStoreResource&gt;&gt;</ReturnType>
