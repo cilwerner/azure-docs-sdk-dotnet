@@ -306,6 +306,11 @@
       children:
       - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
       - Microsoft.Azure.CognitiveServices.Search.AutoSuggest.Models
+    - name: Auto Suggest
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingautosuggest-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest.Models
   - name: Automanage
     href: ~/api/overview/azure/{moniker}/automanage.md
     landingPageType: Service
@@ -559,7 +564,7 @@
       href: ~/api/overview/azure/{moniker}/ai.translation.text-readme.md
       children:
       - Azure.AI.Translation.Text
-      - Azure.AI.Translation.Text.Custom
+      - Microsoft.Extensions.Azure
     - name: Vision Common
       href: ~/api/overview/azure/{moniker}/ai.vision.common-readme.md
       children:
@@ -627,6 +632,46 @@
       - Microsoft.Azure.CognitiveServices.Personalizer
       - Microsoft.Azure.CognitiveServices.Personalizer.Models
     - name: Custom Image Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingcustomimagesearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch.Models
+    - name: Custom Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingcustomsearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch.Models
+    - name: Entity Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingentitysearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch.Models
+    - name: Image Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingimagesearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch.Models
+    - name: News Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingnewssearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch.Models
+    - name: Video Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingvideosearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch.Models
+    - name: Visual Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingvisualsearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch.Models
+    - name: Web Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.bingwebsearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch.Models
+    - name: Custom Image Search
       href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.customimagesearch-readme.md
       children:
       - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch
@@ -671,6 +716,11 @@
       children:
       - Microsoft.Azure.CognitiveServices.Vision.ComputerVision
       - Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models
+    - name: Vision Content Moderator
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.vision.contentmoderator-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.ContentModerator
+      - Microsoft.Azure.CognitiveServices.ContentModerator.Models
     - name: Custom Vision Prediction
       href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.vision.customvision.prediction-readme.md
       children:
@@ -766,7 +816,6 @@
       href: ~/api/overview/azure/{moniker}/communication.jobrouter-readme.md
       children:
       - Azure.Communication.JobRouter
-      - Azure.Communication.JobRouter.Models
     - name: Communication Messages
       href: ~/api/overview/azure/{moniker}/communication.messages-readme.md
       children:
@@ -1421,6 +1470,7 @@
       href: ~/api/overview/azure/{moniker}/developer.devcenter-readme.md
       children:
       - Azure.Developer.DevCenter
+      - Azure.Developer.DevCenter.Models
       - Microsoft.Extensions.Azure
     - name: Management
       items:
@@ -1442,6 +1492,18 @@
         - Azure.ResourceManager.DevSpaces
         - Azure.ResourceManager.DevSpaces.Mocking
         - Azure.ResourceManager.DevSpaces.Models
+  - name: Deviceregistry
+    href: ~/api/overview/azure/{moniker}/deviceregistry.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Deviceregistry
+        href: ~/api/overview/azure/{moniker}/resourcemanager.deviceregistry-readme.md
+        children:
+        - Azure.ResourceManager.DeviceRegistry
+        - Azure.ResourceManager.DeviceRegistry.Mocking
+        - Azure.ResourceManager.DeviceRegistry.Models
   - name: DevTest Labs
     href: ~/api/overview/azure/{moniker}/devtest-labs.md
     landingPageType: Service
@@ -1582,7 +1644,6 @@
       children:
       - Azure.Messaging.EventGrid
       - Azure.Messaging.EventGrid.Models
-      - Azure.Messaging.EventGrid.Namespaces
       - Azure.Messaging.EventGrid.SystemEvents
       - Microsoft.Extensions.Azure
     - name: Event Grid (deprecated)
@@ -1630,6 +1691,10 @@
       href: ~/api/overview/azure/{moniker}/microsoft.azure.eventhubs.processor-readme.md
       children:
       - Microsoft.Azure.EventHubs.Processor
+    - name: Event Hubs - Service Fabric Processor
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.eventhubs.servicefabricprocessor-readme.md
+      children:
+      - Microsoft.Azure.EventHubs.ServiceFabricProcessor
     - name: Management
       items:
       - name: Resource Management - Event Hubs
@@ -1966,10 +2031,7 @@
       href: ~/api/overview/azure/{moniker}/iot.deviceupdate-readme.md
       children:
       - Azure.IoT.DeviceUpdate
-    - name: IoT Models Repository
-      href: ~/api/overview/azure/{moniker}/iot.modelsrepository-readme.md
-      children:
-      - Azure.IoT.ModelsRepository
+      - Microsoft.Extensions.Azure
     - name: Microsoft.Azure.Devices
       href: ~/api/overview/azure/{moniker}/microsoft.azure.devices-readme.md
       children:
@@ -2277,6 +2339,15 @@
         - Azure.ResourceManager.LoadTesting
         - Azure.ResourceManager.LoadTesting.Mocking
         - Azure.ResourceManager.LoadTesting.Models
+  - name: Local Search
+    href: ~/api/overview/azure/{moniker}/local-search.md
+    landingPageType: Service
+    items:
+    - name: Local Search
+      href: ~/api/overview/azure/{moniker}/microsoft.azure.cognitiveservices.search.binglocalsearch-readme.md
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.LocalSearch
+      - Microsoft.Azure.CognitiveServices.Search.LocalSearch.Models
   - name: Logic Apps
     href: ~/api/overview/azure/{moniker}/logic-apps.md
     landingPageType: Service
@@ -3083,6 +3154,18 @@
         children:
         - Microsoft.Azure.Management.PolicyInsights
         - Microsoft.Azure.Management.PolicyInsights.Models
+  - name: Pool Management Service (PMaaS)
+    href: ~/api/overview/azure/{moniker}/pool-management-service-(pmaas).md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Standby Pool
+        href: ~/api/overview/azure/{moniker}/resourcemanager.standbypool-readme.md
+        children:
+        - Azure.ResourceManager.StandbyPool
+        - Azure.ResourceManager.StandbyPool.Mocking
+        - Azure.ResourceManager.StandbyPool.Models
   - name: PostgreSQL
     href: ~/api/overview/azure/{moniker}/postgresql.md
     landingPageType: Service
@@ -3165,6 +3248,7 @@
       href: ~/api/overview/azure/{moniker}/analytics.purview.account-readme.md
       children:
       - Azure.Analytics.Purview.Account
+      - Microsoft.Extensions.Azure
     - name: Purview Administration
       href: ~/api/overview/azure/{moniker}/analytics.purview.administration-readme.md
       children:
@@ -3173,10 +3257,12 @@
       href: ~/api/overview/azure/{moniker}/analytics.purview.catalog-readme.md
       children:
       - Azure.Analytics.Purview.Catalog
+      - Microsoft.Extensions.Azure
     - name: Purview Scanning
       href: ~/api/overview/azure/{moniker}/analytics.purview.scanning-readme.md
       children:
       - Azure.Analytics.Purview.Scanning
+      - Microsoft.Extensions.Azure
     - name: Purview Share (deprecated)
       href: ~/api/overview/azure/{moniker}/analytics.purview.share-readme.md
       children:
@@ -3208,12 +3294,6 @@
     href: ~/api/overview/azure/{moniker}/quantum.md
     landingPageType: Service
     items:
-    - name: Quantum Jobs
-      href: ~/api/overview/azure/{moniker}/quantum.jobs-readme.md
-      children:
-      - Azure.Quantum
-      - Azure.Quantum.Jobs
-      - Azure.Quantum.Jobs.Models
     - name: Management
       items:
       - name: Resource Management - Quantum
@@ -3998,6 +4078,7 @@
     - name: Storage - Blobs Batch
       href: ~/api/overview/azure/{moniker}/storage.blobs.batch-readme.md
       children:
+      - Azure.Storage.Blobs.Batch
       - Azure.Storage.Blobs.Specialized
     - name: Storage - Blobs ChangeFeed
       href: ~/api/overview/azure/{moniker}/storage.blobs.changefeed-readme.md
@@ -4278,7 +4359,7 @@
       href: ~/api/overview/azure/{moniker}/analytics.synapse.accesscontrol-readme.md
       children:
       - Azure.Analytics.Synapse.AccessControl
-      - Azure.Analytics.Synapse.AccessControl.Models
+      - Microsoft.Extensions.Azure
     - name: Synapse - Artifacts
       href: ~/api/overview/azure/{moniker}/analytics.synapse.artifacts-readme.md
       children:
@@ -4380,6 +4461,60 @@
         children:
         - Microsoft.WindowsAzure.Management.TrafficManager
         - Microsoft.WindowsAzure.Management.TrafficManager.Models
+  - name: unknown
+    href: ~/api/overview/azure/{moniker}/unknown.md
+    landingPageType: Service
+    items:
+    - name: unknown
+      href: ~/api/overview/azure/{moniker}/communication.callingserver-readme.md
+      children:
+      - Azure.Communication.CallingServer
+    - name: unknown
+      href: ~/api/overview/azure/{moniker}/core.expressions.datafactory-readme.md
+      children:
+      - Azure.Core.Expressions.DataFactory
+    - name: unknown
+      href: ~/api/overview/azure/{moniker}/iot.modelsrepository-readme.md
+      children:
+      - Azure.IoT.ModelsRepository
+    - name: unknown
+      href: ~/api/overview/azure/{moniker}/iot.timeseriesinsights-readme.md
+      children:
+      - Azure.IoT.TimeSeriesInsights
+    - name: unknown
+      href: ~/api/overview/azure/{moniker}/provisioning-readme.md
+      children:
+      - Azure.Provisioning
+      - Azure.Provisioning.AppConfiguration
+      - Azure.Provisioning.ApplicationInsights
+      - Azure.Provisioning.Authorization
+      - Azure.Provisioning.CognitiveServices
+      - Azure.Provisioning.CosmosDB
+      - Azure.Provisioning.EventHubs
+      - Azure.Provisioning.KeyVaults
+      - Azure.Provisioning.ManagedServiceIdentities
+      - Azure.Provisioning.OperationalInsights
+      - Azure.Provisioning.PostgreSql
+      - Azure.Provisioning.Redis
+      - Azure.Provisioning.ResourceManager
+      - Azure.Provisioning.Resources
+      - Azure.Provisioning.Search
+      - Azure.Provisioning.ServiceBus
+      - Azure.Provisioning.SignalR
+      - Azure.Provisioning.Sql
+      - Azure.Provisioning.Storage
+    - name: unknown
+      href: ~/api/overview/azure/{moniker}/quantum.jobs-readme.md
+      children:
+      - Azure.Quantum
+      - Azure.Quantum.Jobs
+      - Azure.Quantum.Jobs.Models
+    - name: unknown
+      href: ~/api/overview/azure/{moniker}/security.codetransparency-readme.md
+      children:
+      - Azure.Security.CodeTransparency
+      - Azure.Security.CodeTransparency.Receipt
+      - Microsoft.Extensions.Azure
   - name: Unknown Service
     href: ~/api/overview/azure/{moniker}/unknown-service.md
     landingPageType: Service
@@ -4499,10 +4634,6 @@
         - Microsoft.Rest
         - Microsoft.Rest.Serialization
         - Microsoft.Rest.TransientFaultHandling
-    - name: Azure.Core.Expressions.DataFactory
-      href: ~/api/overview/azure/{moniker}/core.expressions.datafactory-readme.md
-      children:
-      - Azure.Core.Expressions.DataFactory
     - name: Core
       landingPageType: Service
       items:
