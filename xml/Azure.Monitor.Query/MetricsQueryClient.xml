@@ -18,7 +18,7 @@
   <Interfaces />
   <Docs>
     <summary>
-            The <see cref="T:Azure.Monitor.Query.MetricsQueryClient" /> allows you to query the Azure Monitor Metrics service.
+            The <see cref="T:Azure.Monitor.Query.MetricsQueryClient" /> allows you to query the Azure Monitor Metrics service for a single Azure resource.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -60,8 +60,9 @@
       <Docs>
         <param name="credential">The <see cref="T:Azure.Core.TokenCredential" /> instance to use for authentication.</param>
         <summary>
-            Initializes a new instance of <see cref="T:Azure.Monitor.Query.MetricsQueryClient" />. Uses the default 'https://management.azure.com' endpoint.
-            <code snippet="Snippet:CreateMetricsClient" language="csharp">
+            Creates an instance of <see cref="T:Azure.Monitor.Query.MetricsQueryClient" /> for Azure Public Cloud usage. Uses the default 'https://management.azure.com' endpoint.
+            To access an Azure sovereign cloud, use the following constructor overload:
+            <see cref="M:Azure.Monitor.Query.MetricsQueryClient.#ctor(Azure.Core.TokenCredential,Azure.Monitor.Query.MetricsQueryClientOptions)" /><code snippet="Snippet:CreateMetricsQueryClient" language="csharp">
             var client = new MetricsQueryClient(new DefaultAzureCredential());
             </code></summary>
         <remarks>To be added.</remarks>
@@ -85,9 +86,9 @@
       </Parameters>
       <Docs>
         <param name="credential">The <see cref="T:Azure.Core.TokenCredential" /> instance to use for authentication.</param>
-        <param name="options">The <see cref="T:Azure.Monitor.Query.MetricsQueryClientOptions" /> instance to as client configuration.</param>
+        <param name="options">The <see cref="T:Azure.Monitor.Query.MetricsQueryClientOptions" /> instance to use as client configuration.</param>
         <summary>
-            Initializes a new instance of <see cref="T:Azure.Monitor.Query.MetricsQueryClient" />. Uses the default 'https://management.azure.com' endpoint.
+            Creates an instance of <see cref="T:Azure.Monitor.Query.MetricsQueryClient" /> for Azure Public Cloud usage. Uses the default 'https://management.azure.com' endpoint, unless <see cref="P:Azure.Monitor.Query.MetricsQueryClientOptions.Audience" /> is set to an Azure sovereign cloud.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -110,11 +111,12 @@
         <Parameter Name="options" Type="Azure.Monitor.Query.MetricsQueryClientOptions" />
       </Parameters>
       <Docs>
-        <param name="endpoint">The resource manager service endpoint to use. For example <c>https://management.azure.com/</c> for public cloud.</param>
+        <param name="endpoint">The Azure Resource Manager service endpoint to use. Some examples include:
+            <list type="bullet"><item><c>https://management.usgovcloudapi.net</c> for Azure US Government Cloud</item><item><c>https://management.chinacloudapi.cn</c> for Azure China Cloud</item></list></param>
         <param name="credential">The <see cref="T:Azure.Core.TokenCredential" /> instance to use for authentication.</param>
-        <param name="options">The <see cref="T:Azure.Monitor.Query.MetricsQueryClientOptions" /> instance to as client configuration.</param>
+        <param name="options">The <see cref="T:Azure.Monitor.Query.MetricsQueryClientOptions" /> instance to use as client configuration.</param>
         <summary>
-            Initializes a new instance of <see cref="T:Azure.Monitor.Query.MetricsQueryClient" />.
+            Creates an instance of <see cref="T:Azure.Monitor.Query.MetricsQueryClient" /> for the Azure cloud represented by <paramref name="endpoint" />.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -308,7 +310,7 @@
             
              Response&lt;MetricsQueryResult&gt; results = await client.QueryResourceAsync(
                  resourceId,
-                 new[] { "AvailabilityRate_Query", "Query Count" }
+                 new[] { "Average_% Free Space", "Average_% Used Space" }
              );
             
              foreach (MetricResult metric in results.Value.Metrics)
@@ -366,7 +368,7 @@
             
              Response&lt;MetricsQueryResult&gt; results = await client.QueryResourceAsync(
                  resourceId,
-                 new[] { "AvailabilityRate_Query", "Query Count" }
+                 new[] { "Average_% Free Space", "Average_% Used Space" }
              );
             
              foreach (MetricResult metric in results.Value.Metrics)

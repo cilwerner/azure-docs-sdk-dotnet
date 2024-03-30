@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource&gt;</ReturnType>
@@ -64,7 +67,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -81,6 +84,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource&gt;&gt;</ReturnType>
@@ -96,7 +100,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -113,6 +117,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -141,6 +146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResourceData</ReturnType>
@@ -162,6 +168,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -178,7 +185,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a NewRelicMonitorResource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Delete</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -195,6 +202,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -211,7 +219,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a NewRelicMonitorResource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Delete</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -228,6 +236,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource&gt;</ReturnType>
@@ -239,7 +248,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a NewRelicMonitorResource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -254,6 +263,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NewRelicObservability.Models.NewRelicObservabilityAppServiceInfo&gt;</ReturnType>
@@ -267,7 +277,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the app service resources currently being monitored by the NewRelic resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/listAppServices</description></item><item><term>Operation Id</term><description>Monitors_ListAppServices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/listAppServices</description></item><item><term>Operation Id</term><description>Monitors_ListAppServices</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NewRelicObservability.Models.NewRelicObservabilityAppServiceInfo" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -284,6 +294,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NewRelicObservability.Models.NewRelicObservabilityAppServiceInfo&gt;</ReturnType>
@@ -297,7 +308,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the app service resources currently being monitored by the NewRelic resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/listAppServices</description></item><item><term>Operation Id</term><description>Monitors_ListAppServices</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/listAppServices</description></item><item><term>Operation Id</term><description>Monitors_ListAppServices</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NewRelicObservability.Models.NewRelicObservabilityAppServiceInfo" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -314,6 +325,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource&gt;&gt;</ReturnType>
@@ -325,7 +337,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a NewRelicMonitorResource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -340,6 +352,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NewRelicObservability.Models.NewRelicObservabilityVmInfo&gt;</ReturnType>
@@ -353,7 +366,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the compute vm resources currently being monitored by the NewRelic resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/listHosts</description></item><item><term>Operation Id</term><description>Monitors_ListHosts</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/listHosts</description></item><item><term>Operation Id</term><description>Monitors_ListHosts</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NewRelicObservability.Models.NewRelicObservabilityVmInfo" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -370,6 +383,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NewRelicObservability.Models.NewRelicObservabilityVmInfo&gt;</ReturnType>
@@ -383,7 +397,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the compute vm resources currently being monitored by the NewRelic resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/listHosts</description></item><item><term>Operation Id</term><description>Monitors_ListHosts</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/listHosts</description></item><item><term>Operation Id</term><description>Monitors_ListHosts</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NewRelicObservability.Models.NewRelicObservabilityVmInfo" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -400,6 +414,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.Models.NewRelicObservabilityMetricRules&gt;</ReturnType>
@@ -413,7 +428,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get metric rules
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/getMetricRules</description></item><item><term>Operation Id</term><description>Monitors_GetMetricRules</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/getMetricRules</description></item><item><term>Operation Id</term><description>Monitors_GetMetricRules</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -430,6 +445,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.Models.NewRelicObservabilityMetricRules&gt;&gt;</ReturnType>
@@ -443,7 +459,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get metric rules
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/getMetricRules</description></item><item><term>Operation Id</term><description>Monitors_GetMetricRules</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/getMetricRules</description></item><item><term>Operation Id</term><description>Monitors_GetMetricRules</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -460,6 +476,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.Models.NewRelicMetricsStatusResult&gt;</ReturnType>
@@ -473,7 +490,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get metric status
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/getMetricStatus</description></item><item><term>Operation Id</term><description>Monitors_GetMetricStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/getMetricStatus</description></item><item><term>Operation Id</term><description>Monitors_GetMetricStatus</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -490,6 +507,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.Models.NewRelicMetricsStatusResult&gt;&gt;</ReturnType>
@@ -503,7 +521,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get metric status
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/getMetricStatus</description></item><item><term>Operation Id</term><description>Monitors_GetMetricStatus</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/getMetricStatus</description></item><item><term>Operation Id</term><description>Monitors_GetMetricStatus</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -520,6 +538,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.NewRelicObservability.Models.NewRelicResourceMonitorResult&gt;</ReturnType>
@@ -531,7 +550,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the resources currently being monitored by the NewRelic monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/monitoredResources</description></item><item><term>Operation Id</term><description>Monitors_ListMonitoredResources</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/monitoredResources</description></item><item><term>Operation Id</term><description>Monitors_ListMonitoredResources</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.NewRelicObservability.Models.NewRelicResourceMonitorResult" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -546,6 +565,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.NewRelicObservability.Models.NewRelicResourceMonitorResult&gt;</ReturnType>
@@ -557,7 +577,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             List the resources currently being monitored by the NewRelic monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/monitoredResources</description></item><item><term>Operation Id</term><description>Monitors_ListMonitoredResources</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/monitoredResources</description></item><item><term>Operation Id</term><description>Monitors_ListMonitoredResources</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.NewRelicObservability.Models.NewRelicResourceMonitorResult" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -572,6 +592,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.NewRelicObservabilityTagRuleResource&gt;</ReturnType>
@@ -585,7 +606,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a TagRule
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/tagRules/{ruleSetName}</description></item><item><term>Operation Id</term><description>TagRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/tagRules/{ruleSetName}</description></item><item><term>Operation Id</term><description>TagRules_Get</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicObservabilityTagRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -604,6 +625,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.NewRelicObservabilityTagRuleResource&gt;&gt;</ReturnType>
@@ -617,7 +639,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a TagRule
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/tagRules/{ruleSetName}</description></item><item><term>Operation Id</term><description>TagRules_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/tagRules/{ruleSetName}</description></item><item><term>Operation Id</term><description>TagRules_Get</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicObservabilityTagRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -636,6 +658,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NewRelicObservability.NewRelicObservabilityTagRuleCollection</ReturnType>
@@ -657,6 +680,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -677,6 +701,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource&gt;</ReturnType>
@@ -690,7 +715,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -707,6 +732,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource&gt;&gt;</ReturnType>
@@ -720,7 +746,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -737,6 +763,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -756,6 +783,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource&gt;</ReturnType>
@@ -769,7 +797,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -786,6 +814,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource&gt;&gt;</ReturnType>
@@ -799,7 +828,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Get</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -816,6 +845,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource&gt;</ReturnType>
@@ -829,7 +859,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Switches the billing for NewRelic monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/switchBilling</description></item><item><term>Operation Id</term><description>Monitors_SwitchBilling</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/switchBilling</description></item><item><term>Operation Id</term><description>Monitors_SwitchBilling</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -846,6 +876,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource&gt;&gt;</ReturnType>
@@ -859,7 +890,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Switches the billing for NewRelic monitor resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/switchBilling</description></item><item><term>Operation Id</term><description>Monitors_SwitchBilling</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/switchBilling</description></item><item><term>Operation Id</term><description>Monitors_SwitchBilling</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -876,6 +907,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource&gt;</ReturnType>
@@ -889,7 +921,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a NewRelicMonitorResource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Update</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -906,6 +938,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource&gt;&gt;</ReturnType>
@@ -919,7 +952,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a NewRelicMonitorResource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}</description></item><item><term>Operation Id</term><description>Monitors_Update</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -936,6 +969,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.Models.NewRelicObservabilityVmExtensionPayload&gt;</ReturnType>
@@ -947,7 +981,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the payload that needs to be passed in the request body for installing NewRelic agent on a VM.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/vmHostPayloads</description></item><item><term>Operation Id</term><description>Monitors_VmHostPayload</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/vmHostPayloads</description></item><item><term>Operation Id</term><description>Monitors_VmHostPayload</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -962,6 +996,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NewRelicObservability</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NewRelicObservability.Models.NewRelicObservabilityVmExtensionPayload&gt;&gt;</ReturnType>
@@ -973,7 +1008,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the payload that needs to be passed in the request body for installing NewRelic agent on a VM.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/vmHostPayloads</description></item><item><term>Operation Id</term><description>Monitors_VmHostPayload</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/NewRelic.Observability/monitors/{monitorName}/vmHostPayloads</description></item><item><term>Operation Id</term><description>Monitors_VmHostPayload</description></item><item><term>Default Api Version</term><description>2022-07-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NewRelicObservability.NewRelicMonitorResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

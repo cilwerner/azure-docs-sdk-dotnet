@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource&gt;</ReturnType>
@@ -64,7 +67,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -81,6 +84,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource&gt;&gt;</ReturnType>
@@ -96,7 +100,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -113,6 +117,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -141,6 +146,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallData</ReturnType>
@@ -162,6 +168,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -176,7 +183,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a FirewallResource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Delete</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -191,6 +198,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -205,7 +213,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a FirewallResource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Delete</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -220,6 +228,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource&gt;</ReturnType>
@@ -231,7 +240,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a FirewallResource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -246,6 +255,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource&gt;&gt;</ReturnType>
@@ -257,7 +267,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a FirewallResource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -272,6 +282,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.GlobalRulestackInfo&gt;</ReturnType>
@@ -283,7 +294,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Global Rulestack associated with the Firewall
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/getGlobalRulestack</description></item><item><term>Operation Id</term><description>Firewalls_getGlobalRulestack</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/getGlobalRulestack</description></item><item><term>Operation Id</term><description>Firewalls_getGlobalRulestack</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -298,6 +309,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.GlobalRulestackInfo&gt;&gt;</ReturnType>
@@ -309,7 +321,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Global Rulestack associated with the Firewall
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/getGlobalRulestack</description></item><item><term>Operation Id</term><description>Firewalls_getGlobalRulestack</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/getGlobalRulestack</description></item><item><term>Operation Id</term><description>Firewalls_getGlobalRulestack</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -324,6 +336,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.FirewallLogSettings&gt;</ReturnType>
@@ -335,7 +348,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Log Profile for Firewall
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/getLogProfile</description></item><item><term>Operation Id</term><description>Firewalls_getLogProfile</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/getLogProfile</description></item><item><term>Operation Id</term><description>Firewalls_getLogProfile</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -350,6 +363,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.FirewallLogSettings&gt;&gt;</ReturnType>
@@ -361,7 +375,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Log Profile for Firewall
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/getLogProfile</description></item><item><term>Operation Id</term><description>Firewalls_getLogProfile</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/getLogProfile</description></item><item><term>Operation Id</term><description>Firewalls_getLogProfile</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -376,6 +390,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallStatusResource</ReturnType>
@@ -397,6 +412,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.FirewallSupportInfo&gt;</ReturnType>
@@ -410,7 +426,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             support info for firewall.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/getSupportInfo</description></item><item><term>Operation Id</term><description>Firewalls_getSupportInfo</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/getSupportInfo</description></item><item><term>Operation Id</term><description>Firewalls_getSupportInfo</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -425,6 +441,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.Models.FirewallSupportInfo&gt;&gt;</ReturnType>
@@ -438,7 +455,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             support info for firewall.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/getSupportInfo</description></item><item><term>Operation Id</term><description>Firewalls_getSupportInfo</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/getSupportInfo</description></item><item><term>Operation Id</term><description>Firewalls_getSupportInfo</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -453,6 +470,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -473,6 +491,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource&gt;</ReturnType>
@@ -486,7 +505,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -503,6 +522,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource&gt;&gt;</ReturnType>
@@ -516,7 +536,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -533,6 +553,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -552,6 +573,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -565,7 +587,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Log Profile for Firewall
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/saveLogProfile</description></item><item><term>Operation Id</term><description>Firewalls_saveLogProfile</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/saveLogProfile</description></item><item><term>Operation Id</term><description>Firewalls_saveLogProfile</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -580,6 +602,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -593,7 +616,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Log Profile for Firewall
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/saveLogProfile</description></item><item><term>Operation Id</term><description>Firewalls_saveLogProfile</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}/saveLogProfile</description></item><item><term>Operation Id</term><description>Firewalls_saveLogProfile</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -608,6 +631,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource&gt;</ReturnType>
@@ -621,7 +645,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -638,6 +662,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource&gt;&gt;</ReturnType>
@@ -651,7 +676,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -668,6 +693,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource&gt;</ReturnType>
@@ -681,7 +707,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a FirewallResource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Update</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -698,6 +724,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.PaloAltoNetworks.Ngfw</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource&gt;&gt;</ReturnType>
@@ -711,7 +738,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a FirewallResource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/PaloAltoNetworks.Cloudngfw/firewalls/{firewallName}</description></item><item><term>Operation Id</term><description>Firewalls_Update</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.PaloAltoNetworks.Ngfw.PaloAltoNetworksFirewallResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

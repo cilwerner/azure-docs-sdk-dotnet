@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.CdnCustomDomainData</ReturnType>
@@ -60,7 +62,7 @@
             </param>
         <param name="validationData"> Special validation or data may be required when delivering CDN to some regions due to local compliance reasons. E.g. ICP license number of a custom domain is required to deliver content in China. </param>
         <param name="provisioningState"> Provisioning status of Custom Https of the custom domain. </param>
-        <summary> Initializes a new instance of CdnCustomDomainData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.CdnCustomDomainData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.CdnCustomDomainData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -75,6 +77,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.CdnEndpointData</ReturnType>
@@ -134,7 +137,7 @@
         <param name="customDomains"> The custom domains under the endpoint. </param>
         <param name="resourceState"> Resource status of the endpoint. </param>
         <param name="provisioningState"> Provisioning status of the endpoint. </param>
-        <summary> Initializes a new instance of CdnEndpointData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.CdnEndpointData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.CdnEndpointData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -149,6 +152,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.CdnNameAvailabilityResult</ReturnType>
@@ -162,7 +166,7 @@
         <param name="nameAvailable"> Indicates whether the name is available. </param>
         <param name="reason"> The reason why the name is not available. </param>
         <param name="message"> The detailed error message describing why the name is not available. </param>
-        <summary> Initializes a new instance of CdnNameAvailabilityResult. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.CdnNameAvailabilityResult" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.CdnNameAvailabilityResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -177,6 +181,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.CdnOriginData</ReturnType>
@@ -220,7 +225,7 @@
         <param name="resourceState"> Resource status of the origin. </param>
         <param name="provisioningState"> Provisioning status of the origin. </param>
         <param name="privateEndpointStatus"> The approval status for the connection to the Private Link. </param>
-        <summary> Initializes a new instance of CdnOriginData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.CdnOriginData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.CdnOriginData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -235,6 +240,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.CdnOriginGroupData</ReturnType>
@@ -262,7 +268,7 @@
         <param name="responseBasedOriginErrorDetectionSettings"> The JSON object that contains the properties to determine origin health using real requests/responses. This property is currently not supported. </param>
         <param name="resourceState"> Resource status of the origin group. </param>
         <param name="provisioningState"> Provisioning status of the origin group. </param>
-        <summary> Initializes a new instance of CdnOriginGroupData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.CdnOriginGroupData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.CdnOriginGroupData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -277,6 +283,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.CdnUsage</ReturnType>
@@ -292,7 +299,7 @@
         <param name="unit"> Unit of the usage. e.g. count. </param>
         <param name="currentValue"> Actual value of usage on the specified resource type. </param>
         <param name="limit"> Quota of the specified resource type. </param>
-        <summary> Initializes a new instance of CdnUsage. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.CdnUsage" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.CdnUsage" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -307,6 +314,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.CdnWebApplicationFirewallPolicyData</ReturnType>
@@ -344,7 +352,7 @@
         <param name="endpointLinks"> Describes Azure CDN endpoints associated with this Web Application Firewall policy. </param>
         <param name="provisioningState"> Provisioning state of the WebApplicationFirewallPolicy. </param>
         <param name="resourceState"> Resource status of the policy. </param>
-        <summary> Initializes a new instance of CdnWebApplicationFirewallPolicyData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.CdnWebApplicationFirewallPolicyData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.CdnWebApplicationFirewallPolicyData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -359,6 +367,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.Components18OrqelSchemasWafmetricsresponsePropertiesSeriesItemsPropertiesDataItems</ReturnType>
@@ -370,7 +379,7 @@
       <Docs>
         <param name="dateOn" />
         <param name="value" />
-        <summary> Initializes a new instance of Components18OrqelSchemasWafmetricsresponsePropertiesSeriesItemsPropertiesDataItems. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.Components18OrqelSchemasWafmetricsresponsePropertiesSeriesItemsPropertiesDataItems" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.Components18OrqelSchemasWafmetricsresponsePropertiesSeriesItemsPropertiesDataItems" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -385,6 +394,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.Components1Gs0LlpSchemasMetricsresponsePropertiesSeriesItemsPropertiesDataItems</ReturnType>
@@ -396,7 +406,7 @@
       <Docs>
         <param name="dateOn" />
         <param name="value" />
-        <summary> Initializes a new instance of Components1Gs0LlpSchemasMetricsresponsePropertiesSeriesItemsPropertiesDataItems. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.Components1Gs0LlpSchemasMetricsresponsePropertiesSeriesItemsPropertiesDataItems" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.Components1Gs0LlpSchemasMetricsresponsePropertiesSeriesItemsPropertiesDataItems" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -411,6 +421,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.ComponentsKpo1PjSchemasWafrankingsresponsePropertiesDataItemsPropertiesMetricsItems</ReturnType>
@@ -424,7 +435,7 @@
         <param name="metric" />
         <param name="value" />
         <param name="percentage" />
-        <summary> Initializes a new instance of ComponentsKpo1PjSchemasWafrankingsresponsePropertiesDataItemsPropertiesMetricsItems. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.ComponentsKpo1PjSchemasWafrankingsresponsePropertiesDataItemsPropertiesMetricsItems" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.ComponentsKpo1PjSchemasWafrankingsresponsePropertiesDataItemsPropertiesMetricsItems" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -439,6 +450,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.ContinentsResponse</ReturnType>
@@ -450,7 +462,7 @@
       <Docs>
         <param name="continents" />
         <param name="countryOrRegions" />
-        <summary> Initializes a new instance of ContinentsResponse. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.ContinentsResponse" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.ContinentsResponse" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -465,6 +477,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.ContinentsResponseContinentsItem</ReturnType>
@@ -474,7 +487,7 @@
       </Parameters>
       <Docs>
         <param name="id" />
-        <summary> Initializes a new instance of ContinentsResponseContinentsItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.ContinentsResponseContinentsItem" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.ContinentsResponseContinentsItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -489,6 +502,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.ContinentsResponseCountryOrRegionsItem</ReturnType>
@@ -500,7 +514,7 @@
       <Docs>
         <param name="id" />
         <param name="continentId" />
-        <summary> Initializes a new instance of ContinentsResponseCountryOrRegionsItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.ContinentsResponseCountryOrRegionsItem" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.ContinentsResponseCountryOrRegionsItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -515,6 +529,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.CustomerCertificateProperties</ReturnType>
@@ -538,7 +553,7 @@
         <param name="certificateAuthority"> Certificate issuing authority. </param>
         <param name="subjectAlternativeNames"> The list of SANs. </param>
         <param name="thumbprint"> Certificate thumbprint. </param>
-        <summary> Initializes a new instance of CustomerCertificateProperties. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.CustomerCertificateProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.CustomerCertificateProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -553,6 +568,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.DeepCreatedOrigin</ReturnType>
@@ -586,7 +602,7 @@
         <param name="privateLinkLocation"> The location of the Private Link resource. Required only if 'privateLinkResourceId' is populated. </param>
         <param name="privateLinkApprovalMessage"> A custom message to be included in the approval request to connect to the Private Link. </param>
         <param name="privateEndpointStatus"> The approval status for the connection to the Private Link. </param>
-        <summary> Initializes a new instance of DeepCreatedOrigin. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.DeepCreatedOrigin" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.DeepCreatedOrigin" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -601,6 +617,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.DomainValidationProperties</ReturnType>
@@ -612,7 +629,7 @@
       <Docs>
         <param name="validationToken"> Challenge used for DNS TXT record or file based validation. </param>
         <param name="expiresOn"> The date time that the token expires. </param>
-        <summary> Initializes a new instance of DomainValidationProperties. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.DomainValidationProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.DomainValidationProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -627,6 +644,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.EdgeNode</ReturnType>
@@ -644,8 +662,36 @@
         <param name="resourceType"> The resourceType. </param>
         <param name="systemData"> The systemData. </param>
         <param name="ipAddressGroups"> List of ip address groups. </param>
-        <summary> Initializes a new instance of EdgeNode. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.EdgeNode" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.EdgeNode" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndpointNameAvailabilityContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Cdn.Models.EndpointNameAvailabilityContent EndpointNameAvailabilityContent (string name = default, Azure.ResourceManager.Cdn.Models.CdnResourceType resourceType = default, Azure.ResourceManager.Cdn.Models.DomainNameLabelScope? autoGeneratedDomainNameLabelScope = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Cdn.Models.EndpointNameAvailabilityContent EndpointNameAvailabilityContent(string name, valuetype Azure.ResourceManager.Cdn.Models.CdnResourceType resourceType, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Cdn.Models.DomainNameLabelScope&gt; autoGeneratedDomainNameLabelScope) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.Models.ArmCdnModelFactory.EndpointNameAvailabilityContent(System.String,Azure.ResourceManager.Cdn.Models.CdnResourceType,System.Nullable{Azure.ResourceManager.Cdn.Models.DomainNameLabelScope})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function EndpointNameAvailabilityContent (Optional name As String = Nothing, Optional resourceType As CdnResourceType = Nothing, Optional autoGeneratedDomainNameLabelScope As Nullable(Of DomainNameLabelScope) = Nothing) As EndpointNameAvailabilityContent" />
+      <MemberSignature Language="F#" Value="static member EndpointNameAvailabilityContent : string * Azure.ResourceManager.Cdn.Models.CdnResourceType * Nullable&lt;Azure.ResourceManager.Cdn.Models.DomainNameLabelScope&gt; -&gt; Azure.ResourceManager.Cdn.Models.EndpointNameAvailabilityContent" Usage="Azure.ResourceManager.Cdn.Models.ArmCdnModelFactory.EndpointNameAvailabilityContent (name, resourceType, autoGeneratedDomainNameLabelScope)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Cdn.Models.EndpointNameAvailabilityContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceType" Type="Azure.ResourceManager.Cdn.Models.CdnResourceType" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="autoGeneratedDomainNameLabelScope" Type="System.Nullable&lt;Azure.ResourceManager.Cdn.Models.DomainNameLabelScope&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="name"> The resource name to validate. </param>
+        <param name="resourceType"> The type of the resource whose name is to be validated. </param>
+        <param name="autoGeneratedDomainNameLabelScope"> Indicates the endpoint name reuse scope. The default value is TenantReuse. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.EndpointNameAvailabilityContent" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.EndpointNameAvailabilityContent" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -659,6 +705,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.EndpointNameAvailabilityResult</ReturnType>
@@ -674,7 +721,7 @@
         <param name="availableHostname"> Returns the available hostname generated based on the AutoGeneratedDomainNameLabelScope when the name is available, otherwise it returns empty string. </param>
         <param name="reason"> The reason why the name is not available. </param>
         <param name="message"> The detailed error message describing why the name is not available. </param>
-        <summary> Initializes a new instance of EndpointNameAvailabilityResult. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.EndpointNameAvailabilityResult" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.EndpointNameAvailabilityResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -689,6 +736,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.FrontDoorActivatedResourceInfo</ReturnType>
@@ -700,7 +748,7 @@
       <Docs>
         <param name="id"> Resource ID. </param>
         <param name="isActive"> Whether the resource is active or inactive. </param>
-        <summary> Initializes a new instance of FrontDoorActivatedResourceInfo. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorActivatedResourceInfo" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorActivatedResourceInfo" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -715,6 +763,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.FrontDoorCustomDomainData</ReturnType>
@@ -748,8 +797,38 @@
         <param name="domainValidationState"> Provisioning substate shows the progress of custom HTTPS enabling/disabling process step by step. DCV stands for DomainControlValidation. </param>
         <param name="hostName"> The host name of the domain. Must be a domain name. </param>
         <param name="validationProperties"> Values the customer needs to validate domain ownership. </param>
-        <summary> Initializes a new instance of FrontDoorCustomDomainData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.FrontDoorCustomDomainData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.FrontDoorCustomDomainData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FrontDoorCustomDomainPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Cdn.Models.FrontDoorCustomDomainPatch FrontDoorCustomDomainPatch (string profileName = default, Azure.ResourceManager.Cdn.Models.FrontDoorCustomDomainHttpsContent tlsSettings = default, Azure.Core.ResourceIdentifier dnsZoneId = default, Azure.Core.ResourceIdentifier preValidatedCustomDomainResourceId = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Cdn.Models.FrontDoorCustomDomainPatch FrontDoorCustomDomainPatch(string profileName, class Azure.ResourceManager.Cdn.Models.FrontDoorCustomDomainHttpsContent tlsSettings, class Azure.Core.ResourceIdentifier dnsZoneId, class Azure.Core.ResourceIdentifier preValidatedCustomDomainResourceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.Models.ArmCdnModelFactory.FrontDoorCustomDomainPatch(System.String,Azure.ResourceManager.Cdn.Models.FrontDoorCustomDomainHttpsContent,Azure.Core.ResourceIdentifier,Azure.Core.ResourceIdentifier)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FrontDoorCustomDomainPatch (Optional profileName As String = Nothing, Optional tlsSettings As FrontDoorCustomDomainHttpsContent = Nothing, Optional dnsZoneId As ResourceIdentifier = Nothing, Optional preValidatedCustomDomainResourceId As ResourceIdentifier = Nothing) As FrontDoorCustomDomainPatch" />
+      <MemberSignature Language="F#" Value="static member FrontDoorCustomDomainPatch : string * Azure.ResourceManager.Cdn.Models.FrontDoorCustomDomainHttpsContent * Azure.Core.ResourceIdentifier * Azure.Core.ResourceIdentifier -&gt; Azure.ResourceManager.Cdn.Models.FrontDoorCustomDomainPatch" Usage="Azure.ResourceManager.Cdn.Models.ArmCdnModelFactory.FrontDoorCustomDomainPatch (profileName, tlsSettings, dnsZoneId, preValidatedCustomDomainResourceId)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Cdn.Models.FrontDoorCustomDomainPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="profileName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="tlsSettings" Type="Azure.ResourceManager.Cdn.Models.FrontDoorCustomDomainHttpsContent" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="dnsZoneId" Type="Azure.Core.ResourceIdentifier" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="preValidatedCustomDomainResourceId" Type="Azure.Core.ResourceIdentifier" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="profileName"> The name of the profile which holds the domain. </param>
+        <param name="tlsSettings"> The configuration specifying how to enable HTTPS for the domain - using AzureFrontDoor managed certificate or user's own certificate. If not specified, enabling ssl uses AzureFrontDoor managed certificate by default. </param>
+        <param name="dnsZoneId"> Resource reference to the Azure DNS zone. </param>
+        <param name="preValidatedCustomDomainResourceId"> Resource reference to the Azure resource where custom domain ownership was prevalidated. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorCustomDomainPatch" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorCustomDomainPatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -763,6 +842,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.FrontDoorEndpointData</ReturnType>
@@ -794,8 +874,36 @@
         <param name="deploymentStatus" />
         <param name="hostName"> The host name of the endpoint structured as {endpointName}.{DNSZone}, e.g. contoso.azureedge.net. </param>
         <param name="autoGeneratedDomainNameLabelScope"> Indicates the endpoint name reuse scope. The default value is TenantReuse. </param>
-        <summary> Initializes a new instance of FrontDoorEndpointData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.FrontDoorEndpointData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.FrontDoorEndpointData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FrontDoorEndpointPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Cdn.Models.FrontDoorEndpointPatch FrontDoorEndpointPatch (System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, string profileName = default, Azure.ResourceManager.Cdn.Models.EnabledState? enabledState = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Cdn.Models.FrontDoorEndpointPatch FrontDoorEndpointPatch(class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, string profileName, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Cdn.Models.EnabledState&gt; enabledState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.Models.ArmCdnModelFactory.FrontDoorEndpointPatch(System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.Nullable{Azure.ResourceManager.Cdn.Models.EnabledState})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FrontDoorEndpointPatch (Optional tags As IDictionary(Of String, String) = Nothing, Optional profileName As String = Nothing, Optional enabledState As Nullable(Of EnabledState) = Nothing) As FrontDoorEndpointPatch" />
+      <MemberSignature Language="F#" Value="static member FrontDoorEndpointPatch : System.Collections.Generic.IDictionary&lt;string, string&gt; * string * Nullable&lt;Azure.ResourceManager.Cdn.Models.EnabledState&gt; -&gt; Azure.ResourceManager.Cdn.Models.FrontDoorEndpointPatch" Usage="Azure.ResourceManager.Cdn.Models.ArmCdnModelFactory.FrontDoorEndpointPatch (tags, profileName, enabledState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Cdn.Models.FrontDoorEndpointPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="profileName" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="enabledState" Type="System.Nullable&lt;Azure.ResourceManager.Cdn.Models.EnabledState&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="tags"> Endpoint tags. </param>
+        <param name="profileName"> The name of the profile which holds the endpoint. </param>
+        <param name="enabledState"> Whether to enable use of this rule. Permitted values are 'Enabled' or 'Disabled'. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorEndpointPatch" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorEndpointPatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -809,6 +917,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.FrontDoorOriginData</ReturnType>
@@ -850,7 +959,7 @@
         <param name="enforceCertificateNameCheck"> Whether to enable certificate name check at origin level. </param>
         <param name="provisioningState"> Provisioning status. </param>
         <param name="deploymentStatus" />
-        <summary> Initializes a new instance of FrontDoorOriginData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.FrontDoorOriginData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.FrontDoorOriginData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -865,6 +974,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.FrontDoorOriginGroupData</ReturnType>
@@ -894,8 +1004,84 @@
         <param name="sessionAffinityState"> Whether to allow session affinity on this host. Valid options are 'Enabled' or 'Disabled'. </param>
         <param name="provisioningState"> Provisioning status. </param>
         <param name="deploymentStatus" />
-        <summary> Initializes a new instance of FrontDoorOriginGroupData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.FrontDoorOriginGroupData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.FrontDoorOriginGroupData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FrontDoorOriginGroupPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Cdn.Models.FrontDoorOriginGroupPatch FrontDoorOriginGroupPatch (string profileName = default, Azure.ResourceManager.Cdn.Models.LoadBalancingSettings loadBalancingSettings = default, Azure.ResourceManager.Cdn.Models.HealthProbeSettings healthProbeSettings = default, int? trafficRestorationTimeInMinutes = default, Azure.ResourceManager.Cdn.Models.EnabledState? sessionAffinityState = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Cdn.Models.FrontDoorOriginGroupPatch FrontDoorOriginGroupPatch(string profileName, class Azure.ResourceManager.Cdn.Models.LoadBalancingSettings loadBalancingSettings, class Azure.ResourceManager.Cdn.Models.HealthProbeSettings healthProbeSettings, valuetype System.Nullable`1&lt;int32&gt; trafficRestorationTimeInMinutes, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Cdn.Models.EnabledState&gt; sessionAffinityState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.Models.ArmCdnModelFactory.FrontDoorOriginGroupPatch(System.String,Azure.ResourceManager.Cdn.Models.LoadBalancingSettings,Azure.ResourceManager.Cdn.Models.HealthProbeSettings,System.Nullable{System.Int32},System.Nullable{Azure.ResourceManager.Cdn.Models.EnabledState})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FrontDoorOriginGroupPatch (Optional profileName As String = Nothing, Optional loadBalancingSettings As LoadBalancingSettings = Nothing, Optional healthProbeSettings As HealthProbeSettings = Nothing, Optional trafficRestorationTimeInMinutes As Nullable(Of Integer) = Nothing, Optional sessionAffinityState As Nullable(Of EnabledState) = Nothing) As FrontDoorOriginGroupPatch" />
+      <MemberSignature Language="F#" Value="static member FrontDoorOriginGroupPatch : string * Azure.ResourceManager.Cdn.Models.LoadBalancingSettings * Azure.ResourceManager.Cdn.Models.HealthProbeSettings * Nullable&lt;int&gt; * Nullable&lt;Azure.ResourceManager.Cdn.Models.EnabledState&gt; -&gt; Azure.ResourceManager.Cdn.Models.FrontDoorOriginGroupPatch" Usage="Azure.ResourceManager.Cdn.Models.ArmCdnModelFactory.FrontDoorOriginGroupPatch (profileName, loadBalancingSettings, healthProbeSettings, trafficRestorationTimeInMinutes, sessionAffinityState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Cdn.Models.FrontDoorOriginGroupPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="profileName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="loadBalancingSettings" Type="Azure.ResourceManager.Cdn.Models.LoadBalancingSettings" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="healthProbeSettings" Type="Azure.ResourceManager.Cdn.Models.HealthProbeSettings" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="trafficRestorationTimeInMinutes" Type="System.Nullable&lt;System.Int32&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="sessionAffinityState" Type="System.Nullable&lt;Azure.ResourceManager.Cdn.Models.EnabledState&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="profileName"> The name of the profile which holds the origin group. </param>
+        <param name="loadBalancingSettings"> Load balancing settings for a backend pool. </param>
+        <param name="healthProbeSettings"> Health probe settings to the origin that is used to determine the health of the origin. </param>
+        <param name="trafficRestorationTimeInMinutes"> Time in minutes to shift the traffic to the endpoint gradually when an unhealthy endpoint comes healthy or a new endpoint is added. Default is 10 mins. This property is currently not supported. </param>
+        <param name="sessionAffinityState"> Whether to allow session affinity on this host. Valid options are 'Enabled' or 'Disabled'. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorOriginGroupPatch" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorOriginGroupPatch" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FrontDoorOriginPatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Cdn.Models.FrontDoorOriginPatch FrontDoorOriginPatch (string originGroupName = default, Azure.Core.ResourceIdentifier originId = default, string hostName = default, int? httpPort = default, int? httpsPort = default, string originHostHeader = default, int? priority = default, int? weight = default, Azure.ResourceManager.Cdn.Models.SharedPrivateLinkResourceProperties sharedPrivateLinkResource = default, Azure.ResourceManager.Cdn.Models.EnabledState? enabledState = default, bool? enforceCertificateNameCheck = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Cdn.Models.FrontDoorOriginPatch FrontDoorOriginPatch(string originGroupName, class Azure.Core.ResourceIdentifier originId, string hostName, valuetype System.Nullable`1&lt;int32&gt; httpPort, valuetype System.Nullable`1&lt;int32&gt; httpsPort, string originHostHeader, valuetype System.Nullable`1&lt;int32&gt; priority, valuetype System.Nullable`1&lt;int32&gt; weight, class Azure.ResourceManager.Cdn.Models.SharedPrivateLinkResourceProperties sharedPrivateLinkResource, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Cdn.Models.EnabledState&gt; enabledState, valuetype System.Nullable`1&lt;bool&gt; enforceCertificateNameCheck) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.Models.ArmCdnModelFactory.FrontDoorOriginPatch(System.String,Azure.Core.ResourceIdentifier,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},Azure.ResourceManager.Cdn.Models.SharedPrivateLinkResourceProperties,System.Nullable{Azure.ResourceManager.Cdn.Models.EnabledState},System.Nullable{System.Boolean})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FrontDoorOriginPatch (Optional originGroupName As String = Nothing, Optional originId As ResourceIdentifier = Nothing, Optional hostName As String = Nothing, Optional httpPort As Nullable(Of Integer) = Nothing, Optional httpsPort As Nullable(Of Integer) = Nothing, Optional originHostHeader As String = Nothing, Optional priority As Nullable(Of Integer) = Nothing, Optional weight As Nullable(Of Integer) = Nothing, Optional sharedPrivateLinkResource As SharedPrivateLinkResourceProperties = Nothing, Optional enabledState As Nullable(Of EnabledState) = Nothing, Optional enforceCertificateNameCheck As Nullable(Of Boolean) = Nothing) As FrontDoorOriginPatch" />
+      <MemberSignature Language="F#" Value="static member FrontDoorOriginPatch : string * Azure.Core.ResourceIdentifier * string * Nullable&lt;int&gt; * Nullable&lt;int&gt; * string * Nullable&lt;int&gt; * Nullable&lt;int&gt; * Azure.ResourceManager.Cdn.Models.SharedPrivateLinkResourceProperties * Nullable&lt;Azure.ResourceManager.Cdn.Models.EnabledState&gt; * Nullable&lt;bool&gt; -&gt; Azure.ResourceManager.Cdn.Models.FrontDoorOriginPatch" Usage="Azure.ResourceManager.Cdn.Models.ArmCdnModelFactory.FrontDoorOriginPatch (originGroupName, originId, hostName, httpPort, httpsPort, originHostHeader, priority, weight, sharedPrivateLinkResource, enabledState, enforceCertificateNameCheck)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Cdn.Models.FrontDoorOriginPatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="originGroupName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="originId" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="hostName" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="httpPort" Type="System.Nullable&lt;System.Int32&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="httpsPort" Type="System.Nullable&lt;System.Int32&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="originHostHeader" Type="System.String" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="priority" Type="System.Nullable&lt;System.Int32&gt;" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="weight" Type="System.Nullable&lt;System.Int32&gt;" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="sharedPrivateLinkResource" Type="Azure.ResourceManager.Cdn.Models.SharedPrivateLinkResourceProperties" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="enabledState" Type="System.Nullable&lt;Azure.ResourceManager.Cdn.Models.EnabledState&gt;" Index="9" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="enforceCertificateNameCheck" Type="System.Nullable&lt;System.Boolean&gt;" Index="10" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="originGroupName"> The name of the origin group which contains this origin. </param>
+        <param name="originId"> Resource reference to the Azure origin resource. </param>
+        <param name="hostName"> The address of the origin. Domain names, IPv4 addresses, and IPv6 addresses are supported.This should be unique across all origins in an endpoint. </param>
+        <param name="httpPort"> The value of the HTTP port. Must be between 1 and 65535. </param>
+        <param name="httpsPort"> The value of the HTTPS port. Must be between 1 and 65535. </param>
+        <param name="originHostHeader"> The host header value sent to the origin with each request. If you leave this blank, the request hostname determines this value. Azure CDN origins, such as Web Apps, Blob Storage, and Cloud Services require this host header value to match the origin hostname by default. This overrides the host header defined at Endpoint. </param>
+        <param name="priority"> Priority of origin in given origin group for load balancing. Higher priorities will not be used for load balancing if any lower priority origin is healthy.Must be between 1 and 5. </param>
+        <param name="weight"> Weight of the origin in given origin group for load balancing. Must be between 1 and 1000. </param>
+        <param name="sharedPrivateLinkResource"> The properties of the private link resource for private origin. </param>
+        <param name="enabledState"> Whether to enable health probes to be made against backends defined under backendPools. Health probes can only be disabled if there is a single enabled backend in single enabled backend pool. </param>
+        <param name="enforceCertificateNameCheck"> Whether to enable certificate name check at origin level. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorOriginPatch" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorOriginPatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -909,6 +1095,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.FrontDoorRouteData</ReturnType>
@@ -952,8 +1139,54 @@
         <param name="enabledState"> Whether to enable use of this rule. Permitted values are 'Enabled' or 'Disabled'. </param>
         <param name="provisioningState"> Provisioning status. </param>
         <param name="deploymentStatus" />
-        <summary> Initializes a new instance of FrontDoorRouteData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.FrontDoorRouteData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.FrontDoorRouteData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FrontDoorRoutePatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Cdn.Models.FrontDoorRoutePatch FrontDoorRoutePatch (string endpointName = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Cdn.Models.FrontDoorActivatedResourceInfo&gt; customDomains = default, Azure.Core.ResourceIdentifier originGroupId = default, string originPath = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.WritableSubResource&gt; ruleSets = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Cdn.Models.FrontDoorEndpointProtocol&gt; supportedProtocols = default, System.Collections.Generic.IEnumerable&lt;string&gt; patternsToMatch = default, Azure.ResourceManager.Cdn.Models.FrontDoorRouteCacheConfiguration cacheConfiguration = default, Azure.ResourceManager.Cdn.Models.ForwardingProtocol? forwardingProtocol = default, Azure.ResourceManager.Cdn.Models.LinkToDefaultDomain? linkToDefaultDomain = default, Azure.ResourceManager.Cdn.Models.HttpsRedirect? httpsRedirect = default, Azure.ResourceManager.Cdn.Models.EnabledState? enabledState = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Cdn.Models.FrontDoorRoutePatch FrontDoorRoutePatch(string endpointName, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.Cdn.Models.FrontDoorActivatedResourceInfo&gt; customDomains, class Azure.Core.ResourceIdentifier originGroupId, string originPath, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.Resources.Models.WritableSubResource&gt; ruleSets, class System.Collections.Generic.IEnumerable`1&lt;valuetype Azure.ResourceManager.Cdn.Models.FrontDoorEndpointProtocol&gt; supportedProtocols, class System.Collections.Generic.IEnumerable`1&lt;string&gt; patternsToMatch, class Azure.ResourceManager.Cdn.Models.FrontDoorRouteCacheConfiguration cacheConfiguration, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Cdn.Models.ForwardingProtocol&gt; forwardingProtocol, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Cdn.Models.LinkToDefaultDomain&gt; linkToDefaultDomain, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Cdn.Models.HttpsRedirect&gt; httpsRedirect, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Cdn.Models.EnabledState&gt; enabledState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.Models.ArmCdnModelFactory.FrontDoorRoutePatch(System.String,System.Collections.Generic.IEnumerable{Azure.ResourceManager.Cdn.Models.FrontDoorActivatedResourceInfo},Azure.Core.ResourceIdentifier,System.String,System.Collections.Generic.IEnumerable{Azure.ResourceManager.Resources.Models.WritableSubResource},System.Collections.Generic.IEnumerable{Azure.ResourceManager.Cdn.Models.FrontDoorEndpointProtocol},System.Collections.Generic.IEnumerable{System.String},Azure.ResourceManager.Cdn.Models.FrontDoorRouteCacheConfiguration,System.Nullable{Azure.ResourceManager.Cdn.Models.ForwardingProtocol},System.Nullable{Azure.ResourceManager.Cdn.Models.LinkToDefaultDomain},System.Nullable{Azure.ResourceManager.Cdn.Models.HttpsRedirect},System.Nullable{Azure.ResourceManager.Cdn.Models.EnabledState})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FrontDoorRoutePatch (Optional endpointName As String = Nothing, Optional customDomains As IEnumerable(Of FrontDoorActivatedResourceInfo) = Nothing, Optional originGroupId As ResourceIdentifier = Nothing, Optional originPath As String = Nothing, Optional ruleSets As IEnumerable(Of WritableSubResource) = Nothing, Optional supportedProtocols As IEnumerable(Of FrontDoorEndpointProtocol) = Nothing, Optional patternsToMatch As IEnumerable(Of String) = Nothing, Optional cacheConfiguration As FrontDoorRouteCacheConfiguration = Nothing, Optional forwardingProtocol As Nullable(Of ForwardingProtocol) = Nothing, Optional linkToDefaultDomain As Nullable(Of LinkToDefaultDomain) = Nothing, Optional httpsRedirect As Nullable(Of HttpsRedirect) = Nothing, Optional enabledState As Nullable(Of EnabledState) = Nothing) As FrontDoorRoutePatch" />
+      <MemberSignature Language="F#" Value="static member FrontDoorRoutePatch : string * seq&lt;Azure.ResourceManager.Cdn.Models.FrontDoorActivatedResourceInfo&gt; * Azure.Core.ResourceIdentifier * string * seq&lt;Azure.ResourceManager.Resources.Models.WritableSubResource&gt; * seq&lt;Azure.ResourceManager.Cdn.Models.FrontDoorEndpointProtocol&gt; * seq&lt;string&gt; * Azure.ResourceManager.Cdn.Models.FrontDoorRouteCacheConfiguration * Nullable&lt;Azure.ResourceManager.Cdn.Models.ForwardingProtocol&gt; * Nullable&lt;Azure.ResourceManager.Cdn.Models.LinkToDefaultDomain&gt; * Nullable&lt;Azure.ResourceManager.Cdn.Models.HttpsRedirect&gt; * Nullable&lt;Azure.ResourceManager.Cdn.Models.EnabledState&gt; -&gt; Azure.ResourceManager.Cdn.Models.FrontDoorRoutePatch" Usage="Azure.ResourceManager.Cdn.Models.ArmCdnModelFactory.FrontDoorRoutePatch (endpointName, customDomains, originGroupId, originPath, ruleSets, supportedProtocols, patternsToMatch, cacheConfiguration, forwardingProtocol, linkToDefaultDomain, httpsRedirect, enabledState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Cdn.Models.FrontDoorRoutePatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="endpointName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="customDomains" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Cdn.Models.FrontDoorActivatedResourceInfo&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="originGroupId" Type="Azure.Core.ResourceIdentifier" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="originPath" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="ruleSets" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Resources.Models.WritableSubResource&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="supportedProtocols" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Cdn.Models.FrontDoorEndpointProtocol&gt;" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="patternsToMatch" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cacheConfiguration" Type="Azure.ResourceManager.Cdn.Models.FrontDoorRouteCacheConfiguration" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="forwardingProtocol" Type="System.Nullable&lt;Azure.ResourceManager.Cdn.Models.ForwardingProtocol&gt;" Index="8" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="linkToDefaultDomain" Type="System.Nullable&lt;Azure.ResourceManager.Cdn.Models.LinkToDefaultDomain&gt;" Index="9" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="httpsRedirect" Type="System.Nullable&lt;Azure.ResourceManager.Cdn.Models.HttpsRedirect&gt;" Index="10" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="enabledState" Type="System.Nullable&lt;Azure.ResourceManager.Cdn.Models.EnabledState&gt;" Index="11" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="endpointName"> The name of the endpoint which holds the route. </param>
+        <param name="customDomains"> Domains referenced by this endpoint. </param>
+        <param name="originGroupId"> A reference to the origin group. </param>
+        <param name="originPath"> A directory path on the origin that AzureFrontDoor can use to retrieve content from, e.g. contoso.cloudapp.net/originpath. </param>
+        <param name="ruleSets"> rule sets referenced by this endpoint. </param>
+        <param name="supportedProtocols"> List of supported protocols for this route. </param>
+        <param name="patternsToMatch"> The route patterns of the rule. </param>
+        <param name="cacheConfiguration"> The caching configuration for this route. To disable caching, do not provide a cacheConfiguration object. </param>
+        <param name="forwardingProtocol"> Protocol this rule will use when forwarding traffic to backends. </param>
+        <param name="linkToDefaultDomain"> whether this route will be linked to the default endpoint domain. </param>
+        <param name="httpsRedirect"> Whether to automatically redirect HTTP traffic to HTTPS traffic. Note that this is a easy way to set up this rule and it will be the first rule that gets executed. </param>
+        <param name="enabledState"> Whether to enable use of this rule. Permitted values are 'Enabled' or 'Disabled'. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorRoutePatch" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorRoutePatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -967,6 +1200,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.FrontDoorRuleData</ReturnType>
@@ -1004,8 +1238,48 @@
         <param name="matchProcessingBehavior"> If this rule is a match should the rules engine continue running the remaining rules or stop. If not present, defaults to Continue. </param>
         <param name="provisioningState"> Provisioning status. </param>
         <param name="deploymentStatus" />
-        <summary> Initializes a new instance of FrontDoorRuleData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.FrontDoorRuleData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.FrontDoorRuleData" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FrontDoorRulePatch">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Cdn.Models.FrontDoorRulePatch FrontDoorRulePatch (string ruleSetName = default, int? order = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Cdn.Models.DeliveryRuleCondition&gt; conditions = default, System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Cdn.Models.DeliveryRuleAction&gt; actions = default, Azure.ResourceManager.Cdn.Models.MatchProcessingBehavior? matchProcessingBehavior = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Cdn.Models.FrontDoorRulePatch FrontDoorRulePatch(string ruleSetName, valuetype System.Nullable`1&lt;int32&gt; order, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.Cdn.Models.DeliveryRuleCondition&gt; conditions, class System.Collections.Generic.IEnumerable`1&lt;class Azure.ResourceManager.Cdn.Models.DeliveryRuleAction&gt; actions, valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Cdn.Models.MatchProcessingBehavior&gt; matchProcessingBehavior) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Cdn.Models.ArmCdnModelFactory.FrontDoorRulePatch(System.String,System.Nullable{System.Int32},System.Collections.Generic.IEnumerable{Azure.ResourceManager.Cdn.Models.DeliveryRuleCondition},System.Collections.Generic.IEnumerable{Azure.ResourceManager.Cdn.Models.DeliveryRuleAction},System.Nullable{Azure.ResourceManager.Cdn.Models.MatchProcessingBehavior})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FrontDoorRulePatch (Optional ruleSetName As String = Nothing, Optional order As Nullable(Of Integer) = Nothing, Optional conditions As IEnumerable(Of DeliveryRuleCondition) = Nothing, Optional actions As IEnumerable(Of DeliveryRuleAction) = Nothing, Optional matchProcessingBehavior As Nullable(Of MatchProcessingBehavior) = Nothing) As FrontDoorRulePatch" />
+      <MemberSignature Language="F#" Value="static member FrontDoorRulePatch : string * Nullable&lt;int&gt; * seq&lt;Azure.ResourceManager.Cdn.Models.DeliveryRuleCondition&gt; * seq&lt;Azure.ResourceManager.Cdn.Models.DeliveryRuleAction&gt; * Nullable&lt;Azure.ResourceManager.Cdn.Models.MatchProcessingBehavior&gt; -&gt; Azure.ResourceManager.Cdn.Models.FrontDoorRulePatch" Usage="Azure.ResourceManager.Cdn.Models.ArmCdnModelFactory.FrontDoorRulePatch (ruleSetName, order, conditions, actions, matchProcessingBehavior)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Cdn.Models.FrontDoorRulePatch</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ruleSetName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="order" Type="System.Nullable&lt;System.Int32&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="conditions" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Cdn.Models.DeliveryRuleCondition&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="actions" Type="System.Collections.Generic.IEnumerable&lt;Azure.ResourceManager.Cdn.Models.DeliveryRuleAction&gt;" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="matchProcessingBehavior" Type="System.Nullable&lt;Azure.ResourceManager.Cdn.Models.MatchProcessingBehavior&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="ruleSetName"> The name of the rule set containing the rule. </param>
+        <param name="order"> The order in which the rules are applied for the endpoint. Possible values {0,1,2,3,………}. A rule with a lesser order will be applied before a rule with a greater order. Rule with order 0 is a special rule. It does not require any condition and actions listed in it will always be applied. </param>
+        <param name="conditions">
+            A list of conditions that must be matched for the actions to be executed
+            Please note <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleCondition" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleClientPortCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleCookiesCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleHostNameCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleHttpVersionCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleIsDeviceCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRulePostArgsCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleQueryStringCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleRemoteAddressCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleRequestBodyCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleRequestHeaderCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleRequestMethodCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleRequestSchemeCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleRequestUriCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleServerPortCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleSocketAddressCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleSslProtocolCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleUriFileExtensionCondition" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleUriFileNameCondition" /> and <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleUriPathCondition" />.
+            </param>
+        <param name="actions">
+            A list of actions that are executed when all the conditions of a rule are satisfied.
+            Please note <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleAction" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleCacheExpirationAction" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleCacheKeyQueryStringAction" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleRequestHeaderAction" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleResponseHeaderAction" />, <see cref="T:Azure.ResourceManager.Cdn.Models.OriginGroupOverrideAction" />, <see cref="T:Azure.ResourceManager.Cdn.Models.DeliveryRuleRouteConfigurationOverrideAction" />, <see cref="T:Azure.ResourceManager.Cdn.Models.UriRedirectAction" />, <see cref="T:Azure.ResourceManager.Cdn.Models.UriRewriteAction" /> and <see cref="T:Azure.ResourceManager.Cdn.Models.UriSigningAction" />.
+            </param>
+        <param name="matchProcessingBehavior"> If this rule is a match should the rules engine continue running the remaining rules or stop. If not present, defaults to Continue. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorRulePatch" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorRulePatch" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1019,6 +1293,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.FrontDoorRuleSetData</ReturnType>
@@ -1040,7 +1315,7 @@
         <param name="provisioningState"> Provisioning status. </param>
         <param name="deploymentStatus" />
         <param name="profileName"> The name of the profile which holds the rule set. </param>
-        <summary> Initializes a new instance of FrontDoorRuleSetData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.FrontDoorRuleSetData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.FrontDoorRuleSetData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1055,6 +1330,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.FrontDoorSecretData</ReturnType>
@@ -1082,7 +1358,7 @@
             Please note <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorSecretProperties" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
             The available derived classes include <see cref="T:Azure.ResourceManager.Cdn.Models.AzureFirstPartyManagedCertificateProperties" />, <see cref="T:Azure.ResourceManager.Cdn.Models.CustomerCertificateProperties" />, <see cref="T:Azure.ResourceManager.Cdn.Models.ManagedCertificateProperties" /> and <see cref="T:Azure.ResourceManager.Cdn.Models.UriSigningKeyProperties" />.
             </param>
-        <summary> Initializes a new instance of FrontDoorSecretData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.FrontDoorSecretData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.FrontDoorSecretData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1097,6 +1373,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.FrontDoorSecurityPolicyData</ReturnType>
@@ -1124,7 +1401,7 @@
             Please note <see cref="T:Azure.ResourceManager.Cdn.Models.SecurityPolicyProperties" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
             The available derived classes include <see cref="T:Azure.ResourceManager.Cdn.Models.SecurityPolicyWebApplicationFirewall" />.
             </param>
-        <summary> Initializes a new instance of FrontDoorSecurityPolicyData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.FrontDoorSecurityPolicyData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.FrontDoorSecurityPolicyData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1139,6 +1416,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.FrontDoorUsage</ReturnType>
@@ -1156,7 +1434,7 @@
         <param name="currentValue"> The current value of the usage. </param>
         <param name="limit"> The limit of usage. </param>
         <param name="name"> The name of the type of usage. </param>
-        <summary> Initializes a new instance of FrontDoorUsage. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorUsage" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorUsage" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1171,6 +1449,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.FrontDoorUsageResourceName</ReturnType>
@@ -1182,7 +1461,7 @@
       <Docs>
         <param name="value"> A string describing the resource name. </param>
         <param name="localizedValue"> A localized string describing the resource name. </param>
-        <summary> Initializes a new instance of FrontDoorUsageResourceName. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorUsageResourceName" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.FrontDoorUsageResourceName" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1197,6 +1476,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.ManagedCertificateProperties</ReturnType>
@@ -1208,7 +1488,7 @@
       <Docs>
         <param name="subject"> Subject name in the certificate. </param>
         <param name="expiresOn"> Certificate expiration date. </param>
-        <summary> Initializes a new instance of ManagedCertificateProperties. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.ManagedCertificateProperties" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.ManagedCertificateProperties" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1223,6 +1503,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.ManagedRuleDefinition</ReturnType>
@@ -1234,7 +1515,7 @@
       <Docs>
         <param name="ruleId"> Identifier for the managed rule. </param>
         <param name="description"> Describes the functionality of the managed rule. </param>
-        <summary> Initializes a new instance of ManagedRuleDefinition. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.ManagedRuleDefinition" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.ManagedRuleDefinition" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1249,6 +1530,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.ManagedRuleGroupDefinition</ReturnType>
@@ -1262,7 +1544,7 @@
         <param name="ruleGroupName"> Name of the managed rule group. </param>
         <param name="description"> Description of the managed rule group. </param>
         <param name="rules"> List of rules within the managed rule group. </param>
-        <summary> Initializes a new instance of ManagedRuleGroupDefinition. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.ManagedRuleGroupDefinition" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.ManagedRuleGroupDefinition" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1277,6 +1559,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.ManagedRuleSetDefinition</ReturnType>
@@ -1302,7 +1585,7 @@
         <param name="ruleSetType"> Type of the managed rule set. </param>
         <param name="ruleSetVersion"> Version of the managed rule set type. </param>
         <param name="ruleGroups"> Rule groups of the managed rule set. </param>
-        <summary> Initializes a new instance of ManagedRuleSetDefinition. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.ManagedRuleSetDefinition" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.ManagedRuleSetDefinition" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1317,6 +1600,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.MetricsResponse</ReturnType>
@@ -1332,7 +1616,7 @@
         <param name="dateTimeEnd" />
         <param name="granularity" />
         <param name="series" />
-        <summary> Initializes a new instance of MetricsResponse. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.MetricsResponse" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.MetricsResponse" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1347,6 +1631,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.MetricsResponseSeriesItem</ReturnType>
@@ -1362,7 +1647,7 @@
         <param name="unit" />
         <param name="groups" />
         <param name="data" />
-        <summary> Initializes a new instance of MetricsResponseSeriesItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.MetricsResponseSeriesItem" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.MetricsResponseSeriesItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1377,6 +1662,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.MetricsResponseSeriesPropertiesItemsItem</ReturnType>
@@ -1388,7 +1674,7 @@
       <Docs>
         <param name="name" />
         <param name="value" />
-        <summary> Initializes a new instance of MetricsResponseSeriesPropertiesItemsItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.MetricsResponseSeriesPropertiesItemsItem" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.MetricsResponseSeriesPropertiesItemsItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1403,6 +1689,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.ProfileData</ReturnType>
@@ -1434,7 +1721,7 @@
         <param name="provisioningState"> Provisioning status of the profile. </param>
         <param name="frontDoorId"> The Id of the frontdoor. </param>
         <param name="originResponseTimeoutSeconds"> Send and receive timeout on forwarding request to the origin. When timeout is reached, the request fails and returns. </param>
-        <summary> Initializes a new instance of ProfileData. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.ProfileData" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.ProfileData" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1449,6 +1736,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.RankingsResponse</ReturnType>
@@ -1462,7 +1750,7 @@
         <param name="dateTimeBegin" />
         <param name="dateTimeEnd" />
         <param name="tables" />
-        <summary> Initializes a new instance of RankingsResponse. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.RankingsResponse" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.RankingsResponse" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1477,6 +1765,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.RankingsResponseTablesItem</ReturnType>
@@ -1488,7 +1777,7 @@
       <Docs>
         <param name="ranking" />
         <param name="data" />
-        <summary> Initializes a new instance of RankingsResponseTablesItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.RankingsResponseTablesItem" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.RankingsResponseTablesItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1503,6 +1792,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.RankingsResponseTablesPropertiesItemsItem</ReturnType>
@@ -1514,7 +1804,7 @@
       <Docs>
         <param name="name" />
         <param name="metrics" />
-        <summary> Initializes a new instance of RankingsResponseTablesPropertiesItemsItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.RankingsResponseTablesPropertiesItemsItem" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.RankingsResponseTablesPropertiesItemsItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1529,6 +1819,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.RankingsResponseTablesPropertiesItemsMetricsItem</ReturnType>
@@ -1542,7 +1833,7 @@
         <param name="metric" />
         <param name="value" />
         <param name="percentage" />
-        <summary> Initializes a new instance of RankingsResponseTablesPropertiesItemsMetricsItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.RankingsResponseTablesPropertiesItemsMetricsItem" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.RankingsResponseTablesPropertiesItemsMetricsItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1557,6 +1848,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.ResourcesResponse</ReturnType>
@@ -1568,7 +1860,7 @@
       <Docs>
         <param name="endpoints" />
         <param name="customDomains" />
-        <summary> Initializes a new instance of ResourcesResponse. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.ResourcesResponse" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.ResourcesResponse" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1583,6 +1875,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.ResourcesResponseCustomDomainsItem</ReturnType>
@@ -1598,7 +1891,7 @@
         <param name="name" />
         <param name="endpointId" />
         <param name="history" />
-        <summary> Initializes a new instance of ResourcesResponseCustomDomainsItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.ResourcesResponseCustomDomainsItem" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.ResourcesResponseCustomDomainsItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1613,6 +1906,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.ResourcesResponseEndpointsItem</ReturnType>
@@ -1628,7 +1922,7 @@
         <param name="name" />
         <param name="history" />
         <param name="customDomains" />
-        <summary> Initializes a new instance of ResourcesResponseEndpointsItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.ResourcesResponseEndpointsItem" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.ResourcesResponseEndpointsItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1643,6 +1937,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.ResourcesResponseEndpointsPropertiesItemsItem</ReturnType>
@@ -1658,7 +1953,7 @@
         <param name="name" />
         <param name="endpointId" />
         <param name="history" />
-        <summary> Initializes a new instance of ResourcesResponseEndpointsPropertiesItemsItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.ResourcesResponseEndpointsPropertiesItemsItem" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.ResourcesResponseEndpointsPropertiesItemsItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1673,6 +1968,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.SsoUri</ReturnType>
@@ -1682,7 +1978,7 @@
       </Parameters>
       <Docs>
         <param name="availableSsoUri"> The URI used to login to the supplemental portal. </param>
-        <summary> Initializes a new instance of SsoUri. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.SsoUri" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.SsoUri" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1697,6 +1993,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.SupportedOptimizationTypesListResult</ReturnType>
@@ -1706,7 +2003,7 @@
       </Parameters>
       <Docs>
         <param name="supportedOptimizationTypes"> Supported optimization types for a profile. </param>
-        <summary> Initializes a new instance of SupportedOptimizationTypesListResult. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.SupportedOptimizationTypesListResult" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.SupportedOptimizationTypesListResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1721,6 +2018,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.ValidateCustomDomainResult</ReturnType>
@@ -1734,7 +2032,7 @@
         <param name="isCustomDomainValid"> Indicates whether the custom domain is valid or not. </param>
         <param name="reason"> The reason why the custom domain is not valid. </param>
         <param name="message"> Error message describing why the custom domain is not valid. </param>
-        <summary> Initializes a new instance of ValidateCustomDomainResult. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.ValidateCustomDomainResult" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.ValidateCustomDomainResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1749,6 +2047,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.ValidateProbeResult</ReturnType>
@@ -1762,7 +2061,7 @@
         <param name="isValid"> Indicates whether the probe URL is accepted or not. </param>
         <param name="errorCode"> Specifies the error code when the probe url is not accepted. </param>
         <param name="message"> The detailed error message describing why the probe URL is not accepted. </param>
-        <summary> Initializes a new instance of ValidateProbeResult. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.ValidateProbeResult" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.ValidateProbeResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1777,6 +2076,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.WafMetricsResponse</ReturnType>
@@ -1792,7 +2092,7 @@
         <param name="dateTimeEnd" />
         <param name="granularity" />
         <param name="series" />
-        <summary> Initializes a new instance of WafMetricsResponse. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.WafMetricsResponse" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.WafMetricsResponse" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1807,6 +2107,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.WafMetricsResponseSeriesItem</ReturnType>
@@ -1822,7 +2123,7 @@
         <param name="unit" />
         <param name="groups" />
         <param name="data" />
-        <summary> Initializes a new instance of WafMetricsResponseSeriesItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.WafMetricsResponseSeriesItem" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.WafMetricsResponseSeriesItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1837,6 +2138,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.WafMetricsResponseSeriesPropertiesItemsItem</ReturnType>
@@ -1848,7 +2150,7 @@
       <Docs>
         <param name="name" />
         <param name="value" />
-        <summary> Initializes a new instance of WafMetricsResponseSeriesPropertiesItemsItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.WafMetricsResponseSeriesPropertiesItemsItem" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.WafMetricsResponseSeriesPropertiesItemsItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1863,6 +2165,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.WafRankingsResponse</ReturnType>
@@ -1878,7 +2181,7 @@
         <param name="dateTimeEnd" />
         <param name="groups" />
         <param name="data" />
-        <summary> Initializes a new instance of WafRankingsResponse. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.WafRankingsResponse" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.WafRankingsResponse" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1893,6 +2196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Cdn</AssemblyName>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Cdn.Models.WafRankingsResponseDataItem</ReturnType>
@@ -1904,7 +2208,7 @@
       <Docs>
         <param name="groupValues" />
         <param name="metrics" />
-        <summary> Initializes a new instance of WafRankingsResponseDataItem. </summary>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.Cdn.Models.WafRankingsResponseDataItem" />. </summary>
         <returns> A new <see cref="T:Azure.ResourceManager.Cdn.Models.WafRankingsResponseDataItem" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
       </Docs>

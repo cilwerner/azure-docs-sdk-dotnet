@@ -100,7 +100,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> the resource identifier of the metric definition. </summary>
+        <summary> The resource identifier of the metric definition. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -142,7 +142,7 @@
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.Monitor.Query.Models.MetricAvailability&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> the collection of what aggregation intervals are available to be queried. </summary>
+        <summary> The collection of what aggregation intervals are available to be queried. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -205,7 +205,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> the namespace the metric belongs to. </summary>
+        <summary> The namespace the metric belongs to. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -226,7 +226,7 @@
         <ReturnType>System.Nullable&lt;Azure.Monitor.Query.Models.MetricAggregationType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> the primary aggregation type value defining how to use the values for display. </summary>
+        <summary> The primary aggregation type value defining how to use the values for display. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -247,7 +247,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> the resource identifier of the resource that emitted the metric. </summary>
+        <summary> The resource identifier of the resource that emitted the metric. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -268,7 +268,7 @@
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.Monitor.Query.Models.MetricAggregationType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> the collection of what aggregation types are supported. </summary>
+        <summary> The collection of what aggregation types are supported. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
