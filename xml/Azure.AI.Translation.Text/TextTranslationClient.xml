@@ -189,12 +189,40 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TextTranslationClient (Azure.Core.TokenCredential credential, string resourceId, string region = &quot;global&quot;, Azure.AI.Translation.Text.TextTranslationClientOptions options = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Azure.Core.TokenCredential credential, string resourceId, string region, class Azure.AI.Translation.Text.TextTranslationClientOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.#ctor(Azure.Core.TokenCredential,System.String,System.String,Azure.AI.Translation.Text.TextTranslationClientOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (credential As TokenCredential, resourceId As String, Optional region As String = &quot;global&quot;, Optional options As TextTranslationClientOptions = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.AI.Translation.Text.TextTranslationClient : Azure.Core.TokenCredential * string * string * Azure.AI.Translation.Text.TextTranslationClientOptions -&gt; Azure.AI.Translation.Text.TextTranslationClient" Usage="new Azure.AI.Translation.Text.TextTranslationClient (credential, resourceId, region, options)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
+        <Parameter Name="resourceId" Type="System.String" />
+        <Parameter Name="region" Type="System.String" />
+        <Parameter Name="options" Type="Azure.AI.Translation.Text.TextTranslationClientOptions" />
+      </Parameters>
+      <Docs>
+        <param name="credential">Cognitive Services Token</param>
+        <param name="resourceId">The value is the Resource ID for your Translator resource instance.</param>
+        <param name="region">Azure Resource Region</param>
+        <param name="options">Translate Client Options</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Azure.AI.Translation.Text.TextTranslationClient" /> class.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="FindSentenceBoundaries">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt; FindSentenceBoundaries (System.Collections.Generic.IEnumerable&lt;string&gt; content, string clientTraceId = default, string language = default, string script = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt; FindSentenceBoundaries(class System.Collections.Generic.IEnumerable`1&lt;string&gt; content, string clientTraceId, string language, string script, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.FindSentenceBoundaries(System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function FindSentenceBoundaries (content As IEnumerable(Of String), Optional clientTraceId As String = Nothing, Optional language As String = Nothing, Optional script As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of BreakSentenceItem))" />
-      <MemberSignature Language="F#" Value="abstract member FindSentenceBoundaries : seq&lt;string&gt; * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&#xA;override this.FindSentenceBoundaries : seq&lt;string&gt; * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;" Usage="textTranslationClient.FindSentenceBoundaries (content, clientTraceId, language, script, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt; FindSentenceBoundaries (System.Collections.Generic.IEnumerable&lt;string&gt; content, Guid clientTraceId = default, string language = default, string script = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt; FindSentenceBoundaries(class System.Collections.Generic.IEnumerable`1&lt;string&gt; content, valuetype System.Guid clientTraceId, string language, string script, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.FindSentenceBoundaries(System.Collections.Generic.IEnumerable{System.String},System.Guid,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function FindSentenceBoundaries (content As IEnumerable(Of String), Optional clientTraceId As Guid = Nothing, Optional language As String = Nothing, Optional script As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of BreakSentenceItem))" />
+      <MemberSignature Language="F#" Value="abstract member FindSentenceBoundaries : seq&lt;string&gt; * Guid * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&#xA;override this.FindSentenceBoundaries : seq&lt;string&gt; * Guid * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;" Usage="textTranslationClient.FindSentenceBoundaries (content, clientTraceId, language, script, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -205,7 +233,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="content" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="language" Type="System.String" />
         <Parameter Name="script" Type="System.String" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -230,11 +258,11 @@
       </Docs>
     </Member>
     <Member MemberName="FindSentenceBoundaries">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt; FindSentenceBoundaries (string text, string clientTraceId = default, string language = default, string script = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt; FindSentenceBoundaries(string text, string clientTraceId, string language, string script, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.FindSentenceBoundaries(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function FindSentenceBoundaries (text As String, Optional clientTraceId As String = Nothing, Optional language As String = Nothing, Optional script As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of BreakSentenceItem))" />
-      <MemberSignature Language="F#" Value="abstract member FindSentenceBoundaries : string * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&#xA;override this.FindSentenceBoundaries : string * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;" Usage="textTranslationClient.FindSentenceBoundaries (text, clientTraceId, language, script, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt; FindSentenceBoundaries (string text, Guid clientTraceId = default, string language = default, string script = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt; FindSentenceBoundaries(string text, valuetype System.Guid clientTraceId, string language, string script, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.FindSentenceBoundaries(System.String,System.Guid,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function FindSentenceBoundaries (text As String, Optional clientTraceId As Guid = Nothing, Optional language As String = Nothing, Optional script As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of BreakSentenceItem))" />
+      <MemberSignature Language="F#" Value="abstract member FindSentenceBoundaries : string * Guid * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&#xA;override this.FindSentenceBoundaries : string * Guid * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;" Usage="textTranslationClient.FindSentenceBoundaries (text, clientTraceId, language, script, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -245,7 +273,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="text" Type="System.String" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="language" Type="System.String" />
         <Parameter Name="script" Type="System.String" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -270,11 +298,11 @@
       </Docs>
     </Member>
     <Member MemberName="FindSentenceBoundariesAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt; FindSentenceBoundariesAsync (System.Collections.Generic.IEnumerable&lt;string&gt; content, string clientTraceId = default, string language = default, string script = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt; FindSentenceBoundariesAsync(class System.Collections.Generic.IEnumerable`1&lt;string&gt; content, string clientTraceId, string language, string script, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.FindSentenceBoundariesAsync(System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function FindSentenceBoundariesAsync (content As IEnumerable(Of String), Optional clientTraceId As String = Nothing, Optional language As String = Nothing, Optional script As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of BreakSentenceItem)))" />
-      <MemberSignature Language="F#" Value="abstract member FindSentenceBoundariesAsync : seq&lt;string&gt; * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt;&#xA;override this.FindSentenceBoundariesAsync : seq&lt;string&gt; * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt;" Usage="textTranslationClient.FindSentenceBoundariesAsync (content, clientTraceId, language, script, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt; FindSentenceBoundariesAsync (System.Collections.Generic.IEnumerable&lt;string&gt; content, Guid clientTraceId = default, string language = default, string script = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt; FindSentenceBoundariesAsync(class System.Collections.Generic.IEnumerable`1&lt;string&gt; content, valuetype System.Guid clientTraceId, string language, string script, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.FindSentenceBoundariesAsync(System.Collections.Generic.IEnumerable{System.String},System.Guid,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function FindSentenceBoundariesAsync (content As IEnumerable(Of String), Optional clientTraceId As Guid = Nothing, Optional language As String = Nothing, Optional script As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of BreakSentenceItem)))" />
+      <MemberSignature Language="F#" Value="abstract member FindSentenceBoundariesAsync : seq&lt;string&gt; * Guid * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt;&#xA;override this.FindSentenceBoundariesAsync : seq&lt;string&gt; * Guid * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt;" Usage="textTranslationClient.FindSentenceBoundariesAsync (content, clientTraceId, language, script, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -285,7 +313,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="content" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="language" Type="System.String" />
         <Parameter Name="script" Type="System.String" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -310,11 +338,11 @@
       </Docs>
     </Member>
     <Member MemberName="FindSentenceBoundariesAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt; FindSentenceBoundariesAsync (string text, string clientTraceId = default, string language = default, string script = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt; FindSentenceBoundariesAsync(string text, string clientTraceId, string language, string script, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.FindSentenceBoundariesAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function FindSentenceBoundariesAsync (text As String, Optional clientTraceId As String = Nothing, Optional language As String = Nothing, Optional script As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of BreakSentenceItem)))" />
-      <MemberSignature Language="F#" Value="abstract member FindSentenceBoundariesAsync : string * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt;&#xA;override this.FindSentenceBoundariesAsync : string * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt;" Usage="textTranslationClient.FindSentenceBoundariesAsync (text, clientTraceId, language, script, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt; FindSentenceBoundariesAsync (string text, Guid clientTraceId = default, string language = default, string script = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt; FindSentenceBoundariesAsync(string text, valuetype System.Guid clientTraceId, string language, string script, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.FindSentenceBoundariesAsync(System.String,System.Guid,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function FindSentenceBoundariesAsync (text As String, Optional clientTraceId As Guid = Nothing, Optional language As String = Nothing, Optional script As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of BreakSentenceItem)))" />
+      <MemberSignature Language="F#" Value="abstract member FindSentenceBoundariesAsync : string * Guid * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt;&#xA;override this.FindSentenceBoundariesAsync : string * Guid * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.BreakSentenceItem&gt;&gt;&gt;" Usage="textTranslationClient.FindSentenceBoundariesAsync (text, clientTraceId, language, script, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -325,7 +353,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="text" Type="System.String" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="language" Type="System.String" />
         <Parameter Name="script" Type="System.String" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -350,11 +378,66 @@
       </Docs>
     </Member>
     <Member MemberName="GetLanguages">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.AI.Translation.Text.GetLanguagesResult&gt; GetLanguages (string clientTraceId = default, string scope = default, string acceptLanguage = default, string ifNoneMatch = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.AI.Translation.Text.GetLanguagesResult&gt; GetLanguages(string clientTraceId, string scope, string acceptLanguage, string ifNoneMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.GetLanguages(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetLanguages (Optional clientTraceId As String = Nothing, Optional scope As String = Nothing, Optional acceptLanguage As String = Nothing, Optional ifNoneMatch As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of GetLanguagesResult)" />
-      <MemberSignature Language="F#" Value="abstract member GetLanguages : string * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.Translation.Text.GetLanguagesResult&gt;&#xA;override this.GetLanguages : string * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.Translation.Text.GetLanguagesResult&gt;" Usage="textTranslationClient.GetLanguages (clientTraceId, scope, acceptLanguage, ifNoneMatch, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response GetLanguages (string clientTraceId, string scope, string acceptLanguage, Azure.ETag? ifNoneMatch, Azure.RequestContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response GetLanguages(string clientTraceId, string scope, string acceptLanguage, valuetype System.Nullable`1&lt;valuetype Azure.ETag&gt; ifNoneMatch, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.GetLanguages(System.String,System.String,System.String,System.Nullable{Azure.ETag},Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetLanguages (clientTraceId As String, scope As String, acceptLanguage As String, ifNoneMatch As Nullable(Of ETag), context As RequestContext) As Response" />
+      <MemberSignature Language="F#" Value="abstract member GetLanguages : string * string * string * Nullable&lt;Azure.ETag&gt; * Azure.RequestContext -&gt; Azure.Response&#xA;override this.GetLanguages : string * string * string * Nullable&lt;Azure.ETag&gt; * Azure.RequestContext -&gt; Azure.Response" Usage="textTranslationClient.GetLanguages (clientTraceId, scope, acceptLanguage, ifNoneMatch, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="scope" Type="System.String" />
+        <Parameter Name="acceptLanguage" Type="System.String" />
+        <Parameter Name="ifNoneMatch" Type="System.Nullable&lt;Azure.ETag&gt;" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="clientTraceId"> A client-generated GUID to uniquely identify the request. </param>
+        <param name="scope">
+            A comma-separated list of names defining the group of languages to return.
+            Allowed group names are: `translation`, `transliteration` and `dictionary`.
+            If no scope is given, then all groups are returned, which is equivalent to passing
+            `scope=translation,transliteration,dictionary`. To decide which set of supported languages
+            is appropriate for your scenario, see the description of the [response object](#response-body).
+            </param>
+        <param name="acceptLanguage">
+            The language to use for user interface strings. Some of the fields in the response are names of languages or
+            names of regions. Use this parameter to define the language in which these names are returned.
+            The language is specified by providing a well-formed BCP 47 language tag. For instance, use the value `fr`
+            to request names in French or use the value `zh-Hant` to request names in Chinese Traditional.
+            Names are provided in the English language when a target language is not specified or when localization
+            is not available.
+            </param>
+        <param name="ifNoneMatch">
+            Passing the value of the ETag response header in an If-None-Match field will allow the service to optimize the response.
+            If the resource has not been modified, the service will return status code 304 and an empty response body.
+            </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Gets the set of languages currently supported by other operations of the Translator.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item><item><description>
+            Please try the simpler <see cref="M:Azure.AI.Translation.Text.TextTranslationClient.GetLanguages(System.String,System.String,System.String,System.Nullable{Azure.ETag},System.Threading.CancellationToken)" /> convenience overload with strongly typed models first.
+            </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLanguages">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.AI.Translation.Text.GetLanguagesResult&gt; GetLanguages (string clientTraceId = default, string scope = default, string acceptLanguage = default, Azure.ETag? ifNoneMatch = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.AI.Translation.Text.GetLanguagesResult&gt; GetLanguages(string clientTraceId, string scope, string acceptLanguage, valuetype System.Nullable`1&lt;valuetype Azure.ETag&gt; ifNoneMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.GetLanguages(System.String,System.String,System.String,System.Nullable{Azure.ETag},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetLanguages (Optional clientTraceId As String = Nothing, Optional scope As String = Nothing, Optional acceptLanguage As String = Nothing, Optional ifNoneMatch As Nullable(Of ETag) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of GetLanguagesResult)" />
+      <MemberSignature Language="F#" Value="abstract member GetLanguages : string * string * string * Nullable&lt;Azure.ETag&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.Translation.Text.GetLanguagesResult&gt;&#xA;override this.GetLanguages : string * string * string * Nullable&lt;Azure.ETag&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.Translation.Text.GetLanguagesResult&gt;" Usage="textTranslationClient.GetLanguages (clientTraceId, scope, acceptLanguage, ifNoneMatch, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -367,7 +450,7 @@
         <Parameter Name="clientTraceId" Type="System.String" />
         <Parameter Name="scope" Type="System.String" />
         <Parameter Name="acceptLanguage" Type="System.String" />
-        <Parameter Name="ifNoneMatch" Type="System.String" />
+        <Parameter Name="ifNoneMatch" Type="System.Nullable&lt;Azure.ETag&gt;" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -375,20 +458,20 @@
         <param name="scope">
             A comma-separated list of names defining the group of languages to return.
             Allowed group names are: `translation`, `transliteration` and `dictionary`.
-            If no scope is given, then all groups are returned, which is equivalent to passing 
-            `scope=translation,transliteration,dictionary`. To decide which set of supported languages 
+            If no scope is given, then all groups are returned, which is equivalent to passing
+            `scope=translation,transliteration,dictionary`. To decide which set of supported languages
             is appropriate for your scenario, see the description of the [response object](#response-body).
             </param>
         <param name="acceptLanguage">
-            The language to use for user interface strings. Some of the fields in the response are names of languages or 
-            names of regions. Use this parameter to define the language in which these names are returned. 
-            The language is specified by providing a well-formed BCP 47 language tag. For instance, use the value `fr` 
+            The language to use for user interface strings. Some of the fields in the response are names of languages or
+            names of regions. Use this parameter to define the language in which these names are returned.
+            The language is specified by providing a well-formed BCP 47 language tag. For instance, use the value `fr`
             to request names in French or use the value `zh-Hant` to request names in Chinese Traditional.
-            Names are provided in the English language when a target language is not specified or when localization 
+            Names are provided in the English language when a target language is not specified or when localization
             is not available.
             </param>
         <param name="ifNoneMatch">
-            Passing the value of the ETag response header in an If-None-Match field will allow the service to optimize the response. 
+            Passing the value of the ETag response header in an If-None-Match field will allow the service to optimize the response.
             If the resource has not been modified, the service will return status code 304 and an empty response body.
             </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
@@ -398,11 +481,66 @@
       </Docs>
     </Member>
     <Member MemberName="GetLanguagesAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.Translation.Text.GetLanguagesResult&gt;&gt; GetLanguagesAsync (string clientTraceId = default, string scope = default, string acceptLanguage = default, string ifNoneMatch = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.AI.Translation.Text.GetLanguagesResult&gt;&gt; GetLanguagesAsync(string clientTraceId, string scope, string acceptLanguage, string ifNoneMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.GetLanguagesAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetLanguagesAsync (Optional clientTraceId As String = Nothing, Optional scope As String = Nothing, Optional acceptLanguage As String = Nothing, Optional ifNoneMatch As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of GetLanguagesResult))" />
-      <MemberSignature Language="F#" Value="abstract member GetLanguagesAsync : string * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.Translation.Text.GetLanguagesResult&gt;&gt;&#xA;override this.GetLanguagesAsync : string * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.Translation.Text.GetLanguagesResult&gt;&gt;" Usage="textTranslationClient.GetLanguagesAsync (clientTraceId, scope, acceptLanguage, ifNoneMatch, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&gt; GetLanguagesAsync (string clientTraceId, string scope, string acceptLanguage, Azure.ETag? ifNoneMatch, Azure.RequestContext context);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response&gt; GetLanguagesAsync(string clientTraceId, string scope, string acceptLanguage, valuetype System.Nullable`1&lt;valuetype Azure.ETag&gt; ifNoneMatch, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.GetLanguagesAsync(System.String,System.String,System.String,System.Nullable{Azure.ETag},Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetLanguagesAsync (clientTraceId As String, scope As String, acceptLanguage As String, ifNoneMatch As Nullable(Of ETag), context As RequestContext) As Task(Of Response)" />
+      <MemberSignature Language="F#" Value="abstract member GetLanguagesAsync : string * string * string * Nullable&lt;Azure.ETag&gt; * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;&#xA;override this.GetLanguagesAsync : string * string * string * Nullable&lt;Azure.ETag&gt; * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Response&gt;" Usage="textTranslationClient.GetLanguagesAsync (clientTraceId, scope, acceptLanguage, ifNoneMatch, context)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="scope" Type="System.String" />
+        <Parameter Name="acceptLanguage" Type="System.String" />
+        <Parameter Name="ifNoneMatch" Type="System.Nullable&lt;Azure.ETag&gt;" />
+        <Parameter Name="context" Type="Azure.RequestContext" />
+      </Parameters>
+      <Docs>
+        <param name="clientTraceId"> A client-generated GUID to uniquely identify the request. </param>
+        <param name="scope">
+            A comma-separated list of names defining the group of languages to return.
+            Allowed group names are: `translation`, `transliteration` and `dictionary`.
+            If no scope is given, then all groups are returned, which is equivalent to passing
+            `scope=translation,transliteration,dictionary`. To decide which set of supported languages
+            is appropriate for your scenario, see the description of the [response object](#response-body).
+            </param>
+        <param name="acceptLanguage">
+            The language to use for user interface strings. Some of the fields in the response are names of languages or
+            names of regions. Use this parameter to define the language in which these names are returned.
+            The language is specified by providing a well-formed BCP 47 language tag. For instance, use the value `fr`
+            to request names in French or use the value `zh-Hant` to request names in Chinese Traditional.
+            Names are provided in the English language when a target language is not specified or when localization
+            is not available.
+            </param>
+        <param name="ifNoneMatch">
+            Passing the value of the ETag response header in an If-None-Match field will allow the service to optimize the response.
+            If the resource has not been modified, the service will return status code 304 and an empty response body.
+            </param>
+        <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
+        <summary>
+            [Protocol Method] Gets the set of languages currently supported by other operations of the Translator.
+            <list type="bullet"><item><description>
+            This <see href="https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/core/Azure.Core/samples/ProtocolMethods.md">protocol method</see> allows explicit creation of the request and processing of the response for advanced scenarios.
+            </description></item><item><description>
+            Please try the simpler <see cref="M:Azure.AI.Translation.Text.TextTranslationClient.GetLanguagesAsync(System.String,System.String,System.String,System.Nullable{Azure.ETag},System.Threading.CancellationToken)" /> convenience overload with strongly typed models first.
+            </description></item></list></summary>
+        <returns> The response returned from the service. </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLanguagesAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.Translation.Text.GetLanguagesResult&gt;&gt; GetLanguagesAsync (string clientTraceId = default, string scope = default, string acceptLanguage = default, Azure.ETag? ifNoneMatch = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.AI.Translation.Text.GetLanguagesResult&gt;&gt; GetLanguagesAsync(string clientTraceId, string scope, string acceptLanguage, valuetype System.Nullable`1&lt;valuetype Azure.ETag&gt; ifNoneMatch, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.GetLanguagesAsync(System.String,System.String,System.String,System.Nullable{Azure.ETag},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetLanguagesAsync (Optional clientTraceId As String = Nothing, Optional scope As String = Nothing, Optional acceptLanguage As String = Nothing, Optional ifNoneMatch As Nullable(Of ETag) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of GetLanguagesResult))" />
+      <MemberSignature Language="F#" Value="abstract member GetLanguagesAsync : string * string * string * Nullable&lt;Azure.ETag&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.Translation.Text.GetLanguagesResult&gt;&gt;&#xA;override this.GetLanguagesAsync : string * string * string * Nullable&lt;Azure.ETag&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.Translation.Text.GetLanguagesResult&gt;&gt;" Usage="textTranslationClient.GetLanguagesAsync (clientTraceId, scope, acceptLanguage, ifNoneMatch, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -415,7 +553,7 @@
         <Parameter Name="clientTraceId" Type="System.String" />
         <Parameter Name="scope" Type="System.String" />
         <Parameter Name="acceptLanguage" Type="System.String" />
-        <Parameter Name="ifNoneMatch" Type="System.String" />
+        <Parameter Name="ifNoneMatch" Type="System.Nullable&lt;Azure.ETag&gt;" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -423,20 +561,20 @@
         <param name="scope">
             A comma-separated list of names defining the group of languages to return.
             Allowed group names are: `translation`, `transliteration` and `dictionary`.
-            If no scope is given, then all groups are returned, which is equivalent to passing 
-            `scope=translation,transliteration,dictionary`. To decide which set of supported languages 
+            If no scope is given, then all groups are returned, which is equivalent to passing
+            `scope=translation,transliteration,dictionary`. To decide which set of supported languages
             is appropriate for your scenario, see the description of the [response object](#response-body).
             </param>
         <param name="acceptLanguage">
-            The language to use for user interface strings. Some of the fields in the response are names of languages or 
-            names of regions. Use this parameter to define the language in which these names are returned. 
-            The language is specified by providing a well-formed BCP 47 language tag. For instance, use the value `fr` 
+            The language to use for user interface strings. Some of the fields in the response are names of languages or
+            names of regions. Use this parameter to define the language in which these names are returned.
+            The language is specified by providing a well-formed BCP 47 language tag. For instance, use the value `fr`
             to request names in French or use the value `zh-Hant` to request names in Chinese Traditional.
-            Names are provided in the English language when a target language is not specified or when localization 
+            Names are provided in the English language when a target language is not specified or when localization
             is not available.
             </param>
         <param name="ifNoneMatch">
-            Passing the value of the ETag response header in an If-None-Match field will allow the service to optimize the response. 
+            Passing the value of the ETag response header in an If-None-Match field will allow the service to optimize the response.
             If the resource has not been modified, the service will return status code 304 and an empty response body.
             </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
@@ -446,11 +584,11 @@
       </Docs>
     </Member>
     <Member MemberName="LookupDictionaryEntries">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt; LookupDictionaryEntries (string from, string to, System.Collections.Generic.IEnumerable&lt;string&gt; words, string clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt; LookupDictionaryEntries(string from, string to, class System.Collections.Generic.IEnumerable`1&lt;string&gt; words, string clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryEntries(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryEntries (from As String, to As String, words As IEnumerable(Of String), Optional clientTraceId As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of DictionaryLookupItem))" />
-      <MemberSignature Language="F#" Value="abstract member LookupDictionaryEntries : string * string * seq&lt;string&gt; * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&#xA;override this.LookupDictionaryEntries : string * string * seq&lt;string&gt; * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;" Usage="textTranslationClient.LookupDictionaryEntries (from, to, words, clientTraceId, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt; LookupDictionaryEntries (string from, string to, System.Collections.Generic.IEnumerable&lt;string&gt; words, Guid clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt; LookupDictionaryEntries(string from, string to, class System.Collections.Generic.IEnumerable`1&lt;string&gt; words, valuetype System.Guid clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryEntries(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Guid,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryEntries (from As String, to As String, words As IEnumerable(Of String), Optional clientTraceId As Guid = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of DictionaryLookupItem))" />
+      <MemberSignature Language="F#" Value="abstract member LookupDictionaryEntries : string * string * seq&lt;string&gt; * Guid * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&#xA;override this.LookupDictionaryEntries : string * string * seq&lt;string&gt; * Guid * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;" Usage="textTranslationClient.LookupDictionaryEntries (from, to, words, clientTraceId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -463,7 +601,7 @@
         <Parameter Name="from" Type="System.String" />
         <Parameter Name="to" Type="System.String" />
         <Parameter Name="words" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -486,11 +624,11 @@
       </Docs>
     </Member>
     <Member MemberName="LookupDictionaryEntries">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt; LookupDictionaryEntries (string from, string to, string word, string clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt; LookupDictionaryEntries(string from, string to, string word, string clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryEntries(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryEntries (from As String, to As String, word As String, Optional clientTraceId As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of DictionaryLookupItem))" />
-      <MemberSignature Language="F#" Value="abstract member LookupDictionaryEntries : string * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&#xA;override this.LookupDictionaryEntries : string * string * string * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;" Usage="textTranslationClient.LookupDictionaryEntries (from, to, word, clientTraceId, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt; LookupDictionaryEntries (string from, string to, string word, Guid clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt; LookupDictionaryEntries(string from, string to, string word, valuetype System.Guid clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryEntries(System.String,System.String,System.String,System.Guid,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryEntries (from As String, to As String, word As String, Optional clientTraceId As Guid = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of DictionaryLookupItem))" />
+      <MemberSignature Language="F#" Value="abstract member LookupDictionaryEntries : string * string * string * Guid * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&#xA;override this.LookupDictionaryEntries : string * string * string * Guid * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;" Usage="textTranslationClient.LookupDictionaryEntries (from, to, word, clientTraceId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -503,7 +641,7 @@
         <Parameter Name="from" Type="System.String" />
         <Parameter Name="to" Type="System.String" />
         <Parameter Name="word" Type="System.String" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -526,11 +664,11 @@
       </Docs>
     </Member>
     <Member MemberName="LookupDictionaryEntriesAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt; LookupDictionaryEntriesAsync (string from, string to, System.Collections.Generic.IEnumerable&lt;string&gt; words, string clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt; LookupDictionaryEntriesAsync(string from, string to, class System.Collections.Generic.IEnumerable`1&lt;string&gt; words, string clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryEntriesAsync(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryEntriesAsync (from As String, to As String, words As IEnumerable(Of String), Optional clientTraceId As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of DictionaryLookupItem)))" />
-      <MemberSignature Language="F#" Value="abstract member LookupDictionaryEntriesAsync : string * string * seq&lt;string&gt; * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt;&#xA;override this.LookupDictionaryEntriesAsync : string * string * seq&lt;string&gt; * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt;" Usage="textTranslationClient.LookupDictionaryEntriesAsync (from, to, words, clientTraceId, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt; LookupDictionaryEntriesAsync (string from, string to, System.Collections.Generic.IEnumerable&lt;string&gt; words, Guid clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt; LookupDictionaryEntriesAsync(string from, string to, class System.Collections.Generic.IEnumerable`1&lt;string&gt; words, valuetype System.Guid clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryEntriesAsync(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Guid,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryEntriesAsync (from As String, to As String, words As IEnumerable(Of String), Optional clientTraceId As Guid = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of DictionaryLookupItem)))" />
+      <MemberSignature Language="F#" Value="abstract member LookupDictionaryEntriesAsync : string * string * seq&lt;string&gt; * Guid * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt;&#xA;override this.LookupDictionaryEntriesAsync : string * string * seq&lt;string&gt; * Guid * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt;" Usage="textTranslationClient.LookupDictionaryEntriesAsync (from, to, words, clientTraceId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -543,7 +681,7 @@
         <Parameter Name="from" Type="System.String" />
         <Parameter Name="to" Type="System.String" />
         <Parameter Name="words" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -566,11 +704,11 @@
       </Docs>
     </Member>
     <Member MemberName="LookupDictionaryEntriesAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt; LookupDictionaryEntriesAsync (string from, string to, string word, string clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt; LookupDictionaryEntriesAsync(string from, string to, string word, string clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryEntriesAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryEntriesAsync (from As String, to As String, word As String, Optional clientTraceId As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of DictionaryLookupItem)))" />
-      <MemberSignature Language="F#" Value="abstract member LookupDictionaryEntriesAsync : string * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt;&#xA;override this.LookupDictionaryEntriesAsync : string * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt;" Usage="textTranslationClient.LookupDictionaryEntriesAsync (from, to, word, clientTraceId, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt; LookupDictionaryEntriesAsync (string from, string to, string word, Guid clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt; LookupDictionaryEntriesAsync(string from, string to, string word, valuetype System.Guid clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryEntriesAsync(System.String,System.String,System.String,System.Guid,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryEntriesAsync (from As String, to As String, word As String, Optional clientTraceId As Guid = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of DictionaryLookupItem)))" />
+      <MemberSignature Language="F#" Value="abstract member LookupDictionaryEntriesAsync : string * string * string * Guid * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt;&#xA;override this.LookupDictionaryEntriesAsync : string * string * string * Guid * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryLookupItem&gt;&gt;&gt;" Usage="textTranslationClient.LookupDictionaryEntriesAsync (from, to, word, clientTraceId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -583,7 +721,7 @@
         <Parameter Name="from" Type="System.String" />
         <Parameter Name="to" Type="System.String" />
         <Parameter Name="word" Type="System.String" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -606,11 +744,11 @@
       </Docs>
     </Member>
     <Member MemberName="LookupDictionaryExamples">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt; LookupDictionaryExamples (string from, string to, Azure.AI.Translation.Text.InputTextWithTranslation content, string clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt; LookupDictionaryExamples(string from, string to, class Azure.AI.Translation.Text.InputTextWithTranslation content, string clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryExamples(System.String,System.String,Azure.AI.Translation.Text.InputTextWithTranslation,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryExamples (from As String, to As String, content As InputTextWithTranslation, Optional clientTraceId As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of DictionaryExampleItem))" />
-      <MemberSignature Language="F#" Value="abstract member LookupDictionaryExamples : string * string * Azure.AI.Translation.Text.InputTextWithTranslation * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&#xA;override this.LookupDictionaryExamples : string * string * Azure.AI.Translation.Text.InputTextWithTranslation * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;" Usage="textTranslationClient.LookupDictionaryExamples (from, to, content, clientTraceId, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt; LookupDictionaryExamples (string from, string to, Azure.AI.Translation.Text.InputTextWithTranslation content, Guid clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt; LookupDictionaryExamples(string from, string to, class Azure.AI.Translation.Text.InputTextWithTranslation content, valuetype System.Guid clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryExamples(System.String,System.String,Azure.AI.Translation.Text.InputTextWithTranslation,System.Guid,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryExamples (from As String, to As String, content As InputTextWithTranslation, Optional clientTraceId As Guid = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of DictionaryExampleItem))" />
+      <MemberSignature Language="F#" Value="abstract member LookupDictionaryExamples : string * string * Azure.AI.Translation.Text.InputTextWithTranslation * Guid * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&#xA;override this.LookupDictionaryExamples : string * string * Azure.AI.Translation.Text.InputTextWithTranslation * Guid * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;" Usage="textTranslationClient.LookupDictionaryExamples (from, to, content, clientTraceId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -623,7 +761,7 @@
         <Parameter Name="from" Type="System.String" />
         <Parameter Name="to" Type="System.String" />
         <Parameter Name="content" Type="Azure.AI.Translation.Text.InputTextWithTranslation" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -646,11 +784,11 @@
       </Docs>
     </Member>
     <Member MemberName="LookupDictionaryExamples">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt; LookupDictionaryExamples (string from, string to, System.Collections.Generic.IEnumerable&lt;Azure.AI.Translation.Text.InputTextWithTranslation&gt; content, string clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt; LookupDictionaryExamples(string from, string to, class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.Translation.Text.InputTextWithTranslation&gt; content, string clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryExamples(System.String,System.String,System.Collections.Generic.IEnumerable{Azure.AI.Translation.Text.InputTextWithTranslation},System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryExamples (from As String, to As String, content As IEnumerable(Of InputTextWithTranslation), Optional clientTraceId As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of DictionaryExampleItem))" />
-      <MemberSignature Language="F#" Value="abstract member LookupDictionaryExamples : string * string * seq&lt;Azure.AI.Translation.Text.InputTextWithTranslation&gt; * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&#xA;override this.LookupDictionaryExamples : string * string * seq&lt;Azure.AI.Translation.Text.InputTextWithTranslation&gt; * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;" Usage="textTranslationClient.LookupDictionaryExamples (from, to, content, clientTraceId, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt; LookupDictionaryExamples (string from, string to, System.Collections.Generic.IEnumerable&lt;Azure.AI.Translation.Text.InputTextWithTranslation&gt; content, Guid clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt; LookupDictionaryExamples(string from, string to, class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.Translation.Text.InputTextWithTranslation&gt; content, valuetype System.Guid clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryExamples(System.String,System.String,System.Collections.Generic.IEnumerable{Azure.AI.Translation.Text.InputTextWithTranslation},System.Guid,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryExamples (from As String, to As String, content As IEnumerable(Of InputTextWithTranslation), Optional clientTraceId As Guid = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of DictionaryExampleItem))" />
+      <MemberSignature Language="F#" Value="abstract member LookupDictionaryExamples : string * string * seq&lt;Azure.AI.Translation.Text.InputTextWithTranslation&gt; * Guid * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&#xA;override this.LookupDictionaryExamples : string * string * seq&lt;Azure.AI.Translation.Text.InputTextWithTranslation&gt; * Guid * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;" Usage="textTranslationClient.LookupDictionaryExamples (from, to, content, clientTraceId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -663,7 +801,7 @@
         <Parameter Name="from" Type="System.String" />
         <Parameter Name="to" Type="System.String" />
         <Parameter Name="content" Type="System.Collections.Generic.IEnumerable&lt;Azure.AI.Translation.Text.InputTextWithTranslation&gt;" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -686,11 +824,11 @@
       </Docs>
     </Member>
     <Member MemberName="LookupDictionaryExamplesAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt; LookupDictionaryExamplesAsync (string from, string to, Azure.AI.Translation.Text.InputTextWithTranslation content, string clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt; LookupDictionaryExamplesAsync(string from, string to, class Azure.AI.Translation.Text.InputTextWithTranslation content, string clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryExamplesAsync(System.String,System.String,Azure.AI.Translation.Text.InputTextWithTranslation,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryExamplesAsync (from As String, to As String, content As InputTextWithTranslation, Optional clientTraceId As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of DictionaryExampleItem)))" />
-      <MemberSignature Language="F#" Value="abstract member LookupDictionaryExamplesAsync : string * string * Azure.AI.Translation.Text.InputTextWithTranslation * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt;&#xA;override this.LookupDictionaryExamplesAsync : string * string * Azure.AI.Translation.Text.InputTextWithTranslation * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt;" Usage="textTranslationClient.LookupDictionaryExamplesAsync (from, to, content, clientTraceId, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt; LookupDictionaryExamplesAsync (string from, string to, Azure.AI.Translation.Text.InputTextWithTranslation content, Guid clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt; LookupDictionaryExamplesAsync(string from, string to, class Azure.AI.Translation.Text.InputTextWithTranslation content, valuetype System.Guid clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryExamplesAsync(System.String,System.String,Azure.AI.Translation.Text.InputTextWithTranslation,System.Guid,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryExamplesAsync (from As String, to As String, content As InputTextWithTranslation, Optional clientTraceId As Guid = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of DictionaryExampleItem)))" />
+      <MemberSignature Language="F#" Value="abstract member LookupDictionaryExamplesAsync : string * string * Azure.AI.Translation.Text.InputTextWithTranslation * Guid * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt;&#xA;override this.LookupDictionaryExamplesAsync : string * string * Azure.AI.Translation.Text.InputTextWithTranslation * Guid * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt;" Usage="textTranslationClient.LookupDictionaryExamplesAsync (from, to, content, clientTraceId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -703,7 +841,7 @@
         <Parameter Name="from" Type="System.String" />
         <Parameter Name="to" Type="System.String" />
         <Parameter Name="content" Type="Azure.AI.Translation.Text.InputTextWithTranslation" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -726,11 +864,11 @@
       </Docs>
     </Member>
     <Member MemberName="LookupDictionaryExamplesAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt; LookupDictionaryExamplesAsync (string from, string to, System.Collections.Generic.IEnumerable&lt;Azure.AI.Translation.Text.InputTextWithTranslation&gt; content, string clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt; LookupDictionaryExamplesAsync(string from, string to, class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.Translation.Text.InputTextWithTranslation&gt; content, string clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryExamplesAsync(System.String,System.String,System.Collections.Generic.IEnumerable{Azure.AI.Translation.Text.InputTextWithTranslation},System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryExamplesAsync (from As String, to As String, content As IEnumerable(Of InputTextWithTranslation), Optional clientTraceId As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of DictionaryExampleItem)))" />
-      <MemberSignature Language="F#" Value="abstract member LookupDictionaryExamplesAsync : string * string * seq&lt;Azure.AI.Translation.Text.InputTextWithTranslation&gt; * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt;&#xA;override this.LookupDictionaryExamplesAsync : string * string * seq&lt;Azure.AI.Translation.Text.InputTextWithTranslation&gt; * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt;" Usage="textTranslationClient.LookupDictionaryExamplesAsync (from, to, content, clientTraceId, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt; LookupDictionaryExamplesAsync (string from, string to, System.Collections.Generic.IEnumerable&lt;Azure.AI.Translation.Text.InputTextWithTranslation&gt; content, Guid clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt; LookupDictionaryExamplesAsync(string from, string to, class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.Translation.Text.InputTextWithTranslation&gt; content, valuetype System.Guid clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.LookupDictionaryExamplesAsync(System.String,System.String,System.Collections.Generic.IEnumerable{Azure.AI.Translation.Text.InputTextWithTranslation},System.Guid,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function LookupDictionaryExamplesAsync (from As String, to As String, content As IEnumerable(Of InputTextWithTranslation), Optional clientTraceId As Guid = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of DictionaryExampleItem)))" />
+      <MemberSignature Language="F#" Value="abstract member LookupDictionaryExamplesAsync : string * string * seq&lt;Azure.AI.Translation.Text.InputTextWithTranslation&gt; * Guid * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt;&#xA;override this.LookupDictionaryExamplesAsync : string * string * seq&lt;Azure.AI.Translation.Text.InputTextWithTranslation&gt; * Guid * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.DictionaryExampleItem&gt;&gt;&gt;" Usage="textTranslationClient.LookupDictionaryExamplesAsync (from, to, content, clientTraceId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -743,7 +881,7 @@
         <Parameter Name="from" Type="System.String" />
         <Parameter Name="to" Type="System.String" />
         <Parameter Name="content" Type="System.Collections.Generic.IEnumerable&lt;Azure.AI.Translation.Text.InputTextWithTranslation&gt;" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -783,6 +921,34 @@
         <summary> The HTTP pipeline for sending and receiving REST requests and responses. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Translate">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt; Translate (Azure.AI.Translation.Text.TextTranslationTranslateOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt; Translate(class Azure.AI.Translation.Text.TextTranslationTranslateOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.Translate(Azure.AI.Translation.Text.TextTranslationTranslateOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Translate (options As TextTranslationTranslateOptions, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of TranslatedTextItem))" />
+      <MemberSignature Language="F#" Value="abstract member Translate : Azure.AI.Translation.Text.TextTranslationTranslateOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&#xA;override this.Translate : Azure.AI.Translation.Text.TextTranslationTranslateOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;" Usage="textTranslationClient.Translate (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.AI.Translation.Text.TextTranslationTranslateOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options">The client translation options. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Translate Text. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="options" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="Translate">
@@ -874,11 +1040,11 @@
       </Docs>
     </Member>
     <Member MemberName="Translate">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt; Translate (System.Collections.Generic.IEnumerable&lt;string&gt; targetLanguages, System.Collections.Generic.IEnumerable&lt;string&gt; content, string clientTraceId = default, string sourceLanguage = default, Azure.AI.Translation.Text.TextType? textType = default, string category = default, Azure.AI.Translation.Text.ProfanityAction? profanityAction = default, Azure.AI.Translation.Text.ProfanityMarker? profanityMarker = default, bool? includeAlignment = default, bool? includeSentenceLength = default, string suggestedFrom = default, string fromScript = default, string toScript = default, bool? allowFallback = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt; Translate(class System.Collections.Generic.IEnumerable`1&lt;string&gt; targetLanguages, class System.Collections.Generic.IEnumerable`1&lt;string&gt; content, string clientTraceId, string sourceLanguage, valuetype System.Nullable`1&lt;valuetype Azure.AI.Translation.Text.TextType&gt; textType, string category, valuetype System.Nullable`1&lt;valuetype Azure.AI.Translation.Text.ProfanityAction&gt; profanityAction, valuetype System.Nullable`1&lt;valuetype Azure.AI.Translation.Text.ProfanityMarker&gt; profanityMarker, valuetype System.Nullable`1&lt;bool&gt; includeAlignment, valuetype System.Nullable`1&lt;bool&gt; includeSentenceLength, string suggestedFrom, string fromScript, string toScript, valuetype System.Nullable`1&lt;bool&gt; allowFallback, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.Translate(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Nullable{Azure.AI.Translation.Text.TextType},System.String,System.Nullable{Azure.AI.Translation.Text.ProfanityAction},System.Nullable{Azure.AI.Translation.Text.ProfanityMarker},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.String,System.String,System.Nullable{System.Boolean},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function Translate (targetLanguages As IEnumerable(Of String), content As IEnumerable(Of String), Optional clientTraceId As String = Nothing, Optional sourceLanguage As String = Nothing, Optional textType As Nullable(Of TextType) = Nothing, Optional category As String = Nothing, Optional profanityAction As Nullable(Of ProfanityAction) = Nothing, Optional profanityMarker As Nullable(Of ProfanityMarker) = Nothing, Optional includeAlignment As Nullable(Of Boolean) = Nothing, Optional includeSentenceLength As Nullable(Of Boolean) = Nothing, Optional suggestedFrom As String = Nothing, Optional fromScript As String = Nothing, Optional toScript As String = Nothing, Optional allowFallback As Nullable(Of Boolean) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of TranslatedTextItem))" />
-      <MemberSignature Language="F#" Value="abstract member Translate : seq&lt;string&gt; * seq&lt;string&gt; * string * string * Nullable&lt;Azure.AI.Translation.Text.TextType&gt; * string * Nullable&lt;Azure.AI.Translation.Text.ProfanityAction&gt; * Nullable&lt;Azure.AI.Translation.Text.ProfanityMarker&gt; * Nullable&lt;bool&gt; * Nullable&lt;bool&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&#xA;override this.Translate : seq&lt;string&gt; * seq&lt;string&gt; * string * string * Nullable&lt;Azure.AI.Translation.Text.TextType&gt; * string * Nullable&lt;Azure.AI.Translation.Text.ProfanityAction&gt; * Nullable&lt;Azure.AI.Translation.Text.ProfanityMarker&gt; * Nullable&lt;bool&gt; * Nullable&lt;bool&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;" Usage="textTranslationClient.Translate (targetLanguages, content, clientTraceId, sourceLanguage, textType, category, profanityAction, profanityMarker, includeAlignment, includeSentenceLength, suggestedFrom, fromScript, toScript, allowFallback, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt; Translate (System.Collections.Generic.IEnumerable&lt;string&gt; targetLanguages, System.Collections.Generic.IEnumerable&lt;string&gt; content, Guid clientTraceId = default, string sourceLanguage = default, Azure.AI.Translation.Text.TextType? textType = default, string category = default, Azure.AI.Translation.Text.ProfanityAction? profanityAction = default, Azure.AI.Translation.Text.ProfanityMarker? profanityMarker = default, bool? includeAlignment = default, bool? includeSentenceLength = default, string suggestedFrom = default, string fromScript = default, string toScript = default, bool? allowFallback = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt; Translate(class System.Collections.Generic.IEnumerable`1&lt;string&gt; targetLanguages, class System.Collections.Generic.IEnumerable`1&lt;string&gt; content, valuetype System.Guid clientTraceId, string sourceLanguage, valuetype System.Nullable`1&lt;valuetype Azure.AI.Translation.Text.TextType&gt; textType, string category, valuetype System.Nullable`1&lt;valuetype Azure.AI.Translation.Text.ProfanityAction&gt; profanityAction, valuetype System.Nullable`1&lt;valuetype Azure.AI.Translation.Text.ProfanityMarker&gt; profanityMarker, valuetype System.Nullable`1&lt;bool&gt; includeAlignment, valuetype System.Nullable`1&lt;bool&gt; includeSentenceLength, string suggestedFrom, string fromScript, string toScript, valuetype System.Nullable`1&lt;bool&gt; allowFallback, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.Translate(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Guid,System.String,System.Nullable{Azure.AI.Translation.Text.TextType},System.String,System.Nullable{Azure.AI.Translation.Text.ProfanityAction},System.Nullable{Azure.AI.Translation.Text.ProfanityMarker},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.String,System.String,System.Nullable{System.Boolean},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Translate (targetLanguages As IEnumerable(Of String), content As IEnumerable(Of String), Optional clientTraceId As Guid = Nothing, Optional sourceLanguage As String = Nothing, Optional textType As Nullable(Of TextType) = Nothing, Optional category As String = Nothing, Optional profanityAction As Nullable(Of ProfanityAction) = Nothing, Optional profanityMarker As Nullable(Of ProfanityMarker) = Nothing, Optional includeAlignment As Nullable(Of Boolean) = Nothing, Optional includeSentenceLength As Nullable(Of Boolean) = Nothing, Optional suggestedFrom As String = Nothing, Optional fromScript As String = Nothing, Optional toScript As String = Nothing, Optional allowFallback As Nullable(Of Boolean) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of TranslatedTextItem))" />
+      <MemberSignature Language="F#" Value="abstract member Translate : seq&lt;string&gt; * seq&lt;string&gt; * Guid * string * Nullable&lt;Azure.AI.Translation.Text.TextType&gt; * string * Nullable&lt;Azure.AI.Translation.Text.ProfanityAction&gt; * Nullable&lt;Azure.AI.Translation.Text.ProfanityMarker&gt; * Nullable&lt;bool&gt; * Nullable&lt;bool&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&#xA;override this.Translate : seq&lt;string&gt; * seq&lt;string&gt; * Guid * string * Nullable&lt;Azure.AI.Translation.Text.TextType&gt; * string * Nullable&lt;Azure.AI.Translation.Text.ProfanityAction&gt; * Nullable&lt;Azure.AI.Translation.Text.ProfanityMarker&gt; * Nullable&lt;bool&gt; * Nullable&lt;bool&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;" Usage="textTranslationClient.Translate (targetLanguages, content, clientTraceId, sourceLanguage, textType, category, profanityAction, profanityMarker, includeAlignment, includeSentenceLength, suggestedFrom, fromScript, toScript, allowFallback, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -890,7 +1056,7 @@
       <Parameters>
         <Parameter Name="targetLanguages" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
         <Parameter Name="content" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="sourceLanguage" Type="System.String" />
         <Parameter Name="textType" Type="System.Nullable&lt;Azure.AI.Translation.Text.TextType&gt;" />
         <Parameter Name="category" Type="System.String" />
@@ -969,6 +1135,34 @@
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="targetLanguages" /> or <paramref name="content" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="TranslateAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&gt; TranslateAsync (Azure.AI.Translation.Text.TextTranslationTranslateOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&gt; TranslateAsync(class Azure.AI.Translation.Text.TextTranslationTranslateOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.TranslateAsync(Azure.AI.Translation.Text.TextTranslationTranslateOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function TranslateAsync (options As TextTranslationTranslateOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of TranslatedTextItem)))" />
+      <MemberSignature Language="F#" Value="abstract member TranslateAsync : Azure.AI.Translation.Text.TextTranslationTranslateOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&gt;&#xA;override this.TranslateAsync : Azure.AI.Translation.Text.TextTranslationTranslateOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&gt;" Usage="textTranslationClient.TranslateAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.AI.Translation.Text.TextTranslationTranslateOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options">The client translation options. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Translate Text. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="options" /> is null. </exception>
       </Docs>
     </Member>
     <Member MemberName="TranslateAsync">
@@ -1060,11 +1254,11 @@
       </Docs>
     </Member>
     <Member MemberName="TranslateAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&gt; TranslateAsync (System.Collections.Generic.IEnumerable&lt;string&gt; targetLanguages, System.Collections.Generic.IEnumerable&lt;string&gt; content, string clientTraceId = default, string sourceLanguage = default, Azure.AI.Translation.Text.TextType? textType = default, string category = default, Azure.AI.Translation.Text.ProfanityAction? profanityAction = default, Azure.AI.Translation.Text.ProfanityMarker? profanityMarker = default, bool? includeAlignment = default, bool? includeSentenceLength = default, string suggestedFrom = default, string fromScript = default, string toScript = default, bool? allowFallback = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&gt; TranslateAsync(class System.Collections.Generic.IEnumerable`1&lt;string&gt; targetLanguages, class System.Collections.Generic.IEnumerable`1&lt;string&gt; content, string clientTraceId, string sourceLanguage, valuetype System.Nullable`1&lt;valuetype Azure.AI.Translation.Text.TextType&gt; textType, string category, valuetype System.Nullable`1&lt;valuetype Azure.AI.Translation.Text.ProfanityAction&gt; profanityAction, valuetype System.Nullable`1&lt;valuetype Azure.AI.Translation.Text.ProfanityMarker&gt; profanityMarker, valuetype System.Nullable`1&lt;bool&gt; includeAlignment, valuetype System.Nullable`1&lt;bool&gt; includeSentenceLength, string suggestedFrom, string fromScript, string toScript, valuetype System.Nullable`1&lt;bool&gt; allowFallback, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.TranslateAsync(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Nullable{Azure.AI.Translation.Text.TextType},System.String,System.Nullable{Azure.AI.Translation.Text.ProfanityAction},System.Nullable{Azure.AI.Translation.Text.ProfanityMarker},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.String,System.String,System.Nullable{System.Boolean},System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function TranslateAsync (targetLanguages As IEnumerable(Of String), content As IEnumerable(Of String), Optional clientTraceId As String = Nothing, Optional sourceLanguage As String = Nothing, Optional textType As Nullable(Of TextType) = Nothing, Optional category As String = Nothing, Optional profanityAction As Nullable(Of ProfanityAction) = Nothing, Optional profanityMarker As Nullable(Of ProfanityMarker) = Nothing, Optional includeAlignment As Nullable(Of Boolean) = Nothing, Optional includeSentenceLength As Nullable(Of Boolean) = Nothing, Optional suggestedFrom As String = Nothing, Optional fromScript As String = Nothing, Optional toScript As String = Nothing, Optional allowFallback As Nullable(Of Boolean) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of TranslatedTextItem)))" />
-      <MemberSignature Language="F#" Value="abstract member TranslateAsync : seq&lt;string&gt; * seq&lt;string&gt; * string * string * Nullable&lt;Azure.AI.Translation.Text.TextType&gt; * string * Nullable&lt;Azure.AI.Translation.Text.ProfanityAction&gt; * Nullable&lt;Azure.AI.Translation.Text.ProfanityMarker&gt; * Nullable&lt;bool&gt; * Nullable&lt;bool&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&gt;&#xA;override this.TranslateAsync : seq&lt;string&gt; * seq&lt;string&gt; * string * string * Nullable&lt;Azure.AI.Translation.Text.TextType&gt; * string * Nullable&lt;Azure.AI.Translation.Text.ProfanityAction&gt; * Nullable&lt;Azure.AI.Translation.Text.ProfanityMarker&gt; * Nullable&lt;bool&gt; * Nullable&lt;bool&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&gt;" Usage="textTranslationClient.TranslateAsync (targetLanguages, content, clientTraceId, sourceLanguage, textType, category, profanityAction, profanityMarker, includeAlignment, includeSentenceLength, suggestedFrom, fromScript, toScript, allowFallback, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&gt; TranslateAsync (System.Collections.Generic.IEnumerable&lt;string&gt; targetLanguages, System.Collections.Generic.IEnumerable&lt;string&gt; content, Guid clientTraceId = default, string sourceLanguage = default, Azure.AI.Translation.Text.TextType? textType = default, string category = default, Azure.AI.Translation.Text.ProfanityAction? profanityAction = default, Azure.AI.Translation.Text.ProfanityMarker? profanityMarker = default, bool? includeAlignment = default, bool? includeSentenceLength = default, string suggestedFrom = default, string fromScript = default, string toScript = default, bool? allowFallback = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&gt; TranslateAsync(class System.Collections.Generic.IEnumerable`1&lt;string&gt; targetLanguages, class System.Collections.Generic.IEnumerable`1&lt;string&gt; content, valuetype System.Guid clientTraceId, string sourceLanguage, valuetype System.Nullable`1&lt;valuetype Azure.AI.Translation.Text.TextType&gt; textType, string category, valuetype System.Nullable`1&lt;valuetype Azure.AI.Translation.Text.ProfanityAction&gt; profanityAction, valuetype System.Nullable`1&lt;valuetype Azure.AI.Translation.Text.ProfanityMarker&gt; profanityMarker, valuetype System.Nullable`1&lt;bool&gt; includeAlignment, valuetype System.Nullable`1&lt;bool&gt; includeSentenceLength, string suggestedFrom, string fromScript, string toScript, valuetype System.Nullable`1&lt;bool&gt; allowFallback, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.TranslateAsync(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Guid,System.String,System.Nullable{Azure.AI.Translation.Text.TextType},System.String,System.Nullable{Azure.AI.Translation.Text.ProfanityAction},System.Nullable{Azure.AI.Translation.Text.ProfanityMarker},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.String,System.String,System.Nullable{System.Boolean},System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function TranslateAsync (targetLanguages As IEnumerable(Of String), content As IEnumerable(Of String), Optional clientTraceId As Guid = Nothing, Optional sourceLanguage As String = Nothing, Optional textType As Nullable(Of TextType) = Nothing, Optional category As String = Nothing, Optional profanityAction As Nullable(Of ProfanityAction) = Nothing, Optional profanityMarker As Nullable(Of ProfanityMarker) = Nothing, Optional includeAlignment As Nullable(Of Boolean) = Nothing, Optional includeSentenceLength As Nullable(Of Boolean) = Nothing, Optional suggestedFrom As String = Nothing, Optional fromScript As String = Nothing, Optional toScript As String = Nothing, Optional allowFallback As Nullable(Of Boolean) = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of TranslatedTextItem)))" />
+      <MemberSignature Language="F#" Value="abstract member TranslateAsync : seq&lt;string&gt; * seq&lt;string&gt; * Guid * string * Nullable&lt;Azure.AI.Translation.Text.TextType&gt; * string * Nullable&lt;Azure.AI.Translation.Text.ProfanityAction&gt; * Nullable&lt;Azure.AI.Translation.Text.ProfanityMarker&gt; * Nullable&lt;bool&gt; * Nullable&lt;bool&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&gt;&#xA;override this.TranslateAsync : seq&lt;string&gt; * seq&lt;string&gt; * Guid * string * Nullable&lt;Azure.AI.Translation.Text.TextType&gt; * string * Nullable&lt;Azure.AI.Translation.Text.ProfanityAction&gt; * Nullable&lt;Azure.AI.Translation.Text.ProfanityMarker&gt; * Nullable&lt;bool&gt; * Nullable&lt;bool&gt; * string * string * string * Nullable&lt;bool&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TranslatedTextItem&gt;&gt;&gt;" Usage="textTranslationClient.TranslateAsync (targetLanguages, content, clientTraceId, sourceLanguage, textType, category, profanityAction, profanityMarker, includeAlignment, includeSentenceLength, suggestedFrom, fromScript, toScript, allowFallback, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -1076,7 +1270,7 @@
       <Parameters>
         <Parameter Name="targetLanguages" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
         <Parameter Name="content" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="sourceLanguage" Type="System.String" />
         <Parameter Name="textType" Type="System.Nullable&lt;Azure.AI.Translation.Text.TextType&gt;" />
         <Parameter Name="category" Type="System.String" />
@@ -1158,6 +1352,34 @@
       </Docs>
     </Member>
     <Member MemberName="Transliterate">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt; Transliterate (Azure.AI.Translation.Text.TextTranslationTransliterateOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.TransliteratedText&gt;&gt; Transliterate(class Azure.AI.Translation.Text.TextTranslationTransliterateOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.Transliterate(Azure.AI.Translation.Text.TextTranslationTransliterateOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Transliterate (options As TextTranslationTransliterateOptions, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of TransliteratedText))" />
+      <MemberSignature Language="F#" Value="abstract member Transliterate : Azure.AI.Translation.Text.TextTranslationTransliterateOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&#xA;override this.Transliterate : Azure.AI.Translation.Text.TextTranslationTransliterateOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;" Usage="textTranslationClient.Transliterate (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.AI.Translation.Text.TextTranslationTransliterateOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options">The configuration options for the transliterate call. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary> Transliterate Text. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="options" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Transliterate">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt; Transliterate (string language, string fromScript, string toScript, string text, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.TransliteratedText&gt;&gt; Transliterate(string language, string fromScript, string toScript, string text, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.Transliterate(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
@@ -1202,11 +1424,11 @@
       </Docs>
     </Member>
     <Member MemberName="Transliterate">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt; Transliterate (string language, string fromScript, string toScript, System.Collections.Generic.IEnumerable&lt;string&gt; content, string clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.TransliteratedText&gt;&gt; Transliterate(string language, string fromScript, string toScript, class System.Collections.Generic.IEnumerable`1&lt;string&gt; content, string clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.Transliterate(System.String,System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function Transliterate (language As String, fromScript As String, toScript As String, content As IEnumerable(Of String), Optional clientTraceId As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of TransliteratedText))" />
-      <MemberSignature Language="F#" Value="abstract member Transliterate : string * string * string * seq&lt;string&gt; * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&#xA;override this.Transliterate : string * string * string * seq&lt;string&gt; * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;" Usage="textTranslationClient.Transliterate (language, fromScript, toScript, content, clientTraceId, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt; Transliterate (string language, string fromScript, string toScript, System.Collections.Generic.IEnumerable&lt;string&gt; content, Guid clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.TransliteratedText&gt;&gt; Transliterate(string language, string fromScript, string toScript, class System.Collections.Generic.IEnumerable`1&lt;string&gt; content, valuetype System.Guid clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.Transliterate(System.String,System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Guid,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Transliterate (language As String, fromScript As String, toScript As String, content As IEnumerable(Of String), Optional clientTraceId As Guid = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of IReadOnlyList(Of TransliteratedText))" />
+      <MemberSignature Language="F#" Value="abstract member Transliterate : string * string * string * seq&lt;string&gt; * Guid * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&#xA;override this.Transliterate : string * string * string * seq&lt;string&gt; * Guid * System.Threading.CancellationToken -&gt; Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;" Usage="textTranslationClient.Transliterate (language, fromScript, toScript, content, clientTraceId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -1220,7 +1442,7 @@
         <Parameter Name="fromScript" Type="System.String" />
         <Parameter Name="toScript" Type="System.String" />
         <Parameter Name="content" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -1245,6 +1467,32 @@
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="language" />, <paramref name="fromScript" />, <paramref name="toScript" /> or <paramref name="content" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="TransliterateAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&gt; TransliterateAsync (Azure.AI.Translation.Text.TextTranslationTransliterateOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&gt; TransliterateAsync(class Azure.AI.Translation.Text.TextTranslationTransliterateOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.TransliterateAsync(Azure.AI.Translation.Text.TextTranslationTransliterateOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function TransliterateAsync (options As TextTranslationTransliterateOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of TransliteratedText)))" />
+      <MemberSignature Language="F#" Value="abstract member TransliterateAsync : Azure.AI.Translation.Text.TextTranslationTransliterateOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&gt;&#xA;override this.TransliterateAsync : Azure.AI.Translation.Text.TextTranslationTransliterateOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&gt;" Usage="textTranslationClient.TransliterateAsync (options, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="options" Type="Azure.AI.Translation.Text.TextTranslationTransliterateOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="options" />
+        <param name="cancellationToken" />
+        <summary>Transliterate Text. </summary>
+        <returns>A <see cref="T:System.Threading.Tasks.Task`1" /> representing the result of the asynchronous operation.</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="TransliterateAsync">
@@ -1292,11 +1540,11 @@
       </Docs>
     </Member>
     <Member MemberName="TransliterateAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&gt; TransliterateAsync (string language, string fromScript, string toScript, System.Collections.Generic.IEnumerable&lt;string&gt; content, string clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&gt; TransliterateAsync(string language, string fromScript, string toScript, class System.Collections.Generic.IEnumerable`1&lt;string&gt; content, string clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.TransliterateAsync(System.String,System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function TransliterateAsync (language As String, fromScript As String, toScript As String, content As IEnumerable(Of String), Optional clientTraceId As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of TransliteratedText)))" />
-      <MemberSignature Language="F#" Value="abstract member TransliterateAsync : string * string * string * seq&lt;string&gt; * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&gt;&#xA;override this.TransliterateAsync : string * string * string * seq&lt;string&gt; * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&gt;" Usage="textTranslationClient.TransliterateAsync (language, fromScript, toScript, content, clientTraceId, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&gt; TransliterateAsync (string language, string fromScript, string toScript, System.Collections.Generic.IEnumerable&lt;string&gt; content, Guid clientTraceId = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class System.Collections.Generic.IReadOnlyList`1&lt;class Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&gt; TransliterateAsync(string language, string fromScript, string toScript, class System.Collections.Generic.IEnumerable`1&lt;string&gt; content, valuetype System.Guid clientTraceId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.Translation.Text.TextTranslationClient.TransliterateAsync(System.String,System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Guid,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function TransliterateAsync (language As String, fromScript As String, toScript As String, content As IEnumerable(Of String), Optional clientTraceId As Guid = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of IReadOnlyList(Of TransliteratedText)))" />
+      <MemberSignature Language="F#" Value="abstract member TransliterateAsync : string * string * string * seq&lt;string&gt; * Guid * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&gt;&#xA;override this.TransliterateAsync : string * string * string * seq&lt;string&gt; * Guid * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.AI.Translation.Text.TransliteratedText&gt;&gt;&gt;" Usage="textTranslationClient.TransliterateAsync (language, fromScript, toScript, content, clientTraceId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.Translation.Text</AssemblyName>
@@ -1310,7 +1558,7 @@
         <Parameter Name="fromScript" Type="System.String" />
         <Parameter Name="toScript" Type="System.String" />
         <Parameter Name="content" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
-        <Parameter Name="clientTraceId" Type="System.String" />
+        <Parameter Name="clientTraceId" Type="System.Guid" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>

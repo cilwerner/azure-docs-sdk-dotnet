@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,8 +28,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.Models.AuthorizationClassicAdministrator</ReturnType>
@@ -62,8 +63,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.Models.AuthorizationProviderOperationInfo</ReturnType>
@@ -97,8 +98,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.AuthorizationProviderOperationsMetadataData</ReturnType>
@@ -134,8 +135,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.Models.AuthorizationProviderResourceType</ReturnType>
@@ -163,8 +164,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.AuthorizationRoleDefinitionData</ReturnType>
@@ -204,8 +205,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.DenyAssignmentData</ReturnType>
@@ -251,8 +252,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.Models.DenyAssignmentPermission</ReturnType>
@@ -286,8 +287,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.Models.EligibleChildResource</ReturnType>
@@ -315,8 +316,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.Models.PolicyAssignmentProperties</ReturnType>
@@ -365,23 +366,24 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.Models.RoleAssignmentCreateOrUpdateContent</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="scope" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="roleDefinitionId" Type="Azure.Core.ResourceIdentifier" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="principalId" Type="System.Guid" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="principalType" Type="System.Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleManagementPrincipalType&gt;" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="description" Type="System.String" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="condition" Type="System.String" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="conditionVersion" Type="System.String" Index="6" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="createdOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="7" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="updatedOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" Index="8" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="createdBy" Type="System.String" Index="9" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="updatedBy" Type="System.String" Index="10" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="delegatedManagedIdentityResourceId" Type="Azure.Core.ResourceIdentifier" Index="11" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="scope" Type="System.String" />
+        <Parameter Name="roleDefinitionId" Type="Azure.Core.ResourceIdentifier" />
+        <Parameter Name="principalId" Type="System.Guid" />
+        <Parameter Name="principalType" Type="System.Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleManagementPrincipalType&gt;" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="condition" Type="System.String" />
+        <Parameter Name="conditionVersion" Type="System.String" />
+        <Parameter Name="createdOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="updatedOn" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
+        <Parameter Name="createdBy" Type="System.String" />
+        <Parameter Name="updatedBy" Type="System.String" />
+        <Parameter Name="delegatedManagedIdentityResourceId" Type="Azure.Core.ResourceIdentifier" />
       </Parameters>
       <Docs>
         <param name="scope"> The role assignment scope. </param>
@@ -410,8 +412,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentData</ReturnType>
@@ -465,8 +467,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentScheduleData</ReturnType>
@@ -528,8 +530,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentScheduleInstanceData</ReturnType>
@@ -593,8 +595,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestData</ReturnType>
@@ -666,8 +668,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleEligibilityScheduleData</ReturnType>
@@ -725,8 +727,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleEligibilityScheduleInstanceData</ReturnType>
@@ -782,8 +784,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestData</ReturnType>
@@ -853,8 +855,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.Models.RoleManagementExpandedProperties</ReturnType>
@@ -896,8 +898,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleManagementPolicyAssignmentData</ReturnType>
@@ -941,8 +943,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleManagementPolicyData</ReturnType>
@@ -998,8 +1000,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.Models.RoleManagementPolicyProperties</ReturnType>
@@ -1027,8 +1029,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
-        <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.Models.RoleManagementPrincipal</ReturnType>

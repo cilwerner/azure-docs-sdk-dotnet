@@ -11,6 +11,7 @@
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <AssemblyVersion>1.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -31,8 +32,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -51,8 +52,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
@@ -60,10 +61,10 @@
       <Docs>
         <param name="credential">The <see cref="T:Azure.Core.TokenCredential" /> instance to use for authentication.</param>
         <summary>
-            Initializes a new instance of <see cref="T:Azure.Monitor.Query.LogsQueryClient" />. Uses the default 'https://api.loganalytics.io' endpoint.
-            <example snippet="Snippet:CreateLogsClient"><code language="csharp">
+            Creates an instance of <see cref="T:Azure.Monitor.Query.LogsQueryClient" /> for Azure Public Cloud usage. Uses the default 'https://api.loganalytics.io' endpoint.
+            <code snippet="Snippet:CreateLogsClient" language="csharp">
             var client = new LogsQueryClient(new DefaultAzureCredential());
-            </code></example></summary>
+            </code></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -76,8 +77,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="credential" Type="Azure.Core.TokenCredential" />
@@ -87,7 +88,7 @@
         <param name="credential">The <see cref="T:Azure.Core.TokenCredential" /> instance to use for authentication.</param>
         <param name="options">The <see cref="T:Azure.Monitor.Query.LogsQueryClientOptions" /> instance to use as client configuration.</param>
         <summary>
-            Initializes a new instance of <see cref="T:Azure.Monitor.Query.LogsQueryClient" />. Uses the default 'https://api.loganalytics.io' endpoint.
+            Creates an instance of <see cref="T:Azure.Monitor.Query.LogsQueryClient" /> for Azure Public Cloud usage. Uses the default 'https://api.loganalytics.io' endpoint, unless <see cref="P:Azure.Monitor.Query.LogsQueryClientOptions.Audience" /> is set to an Azure sovereign cloud.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -101,8 +102,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
@@ -112,7 +113,7 @@
         <param name="endpoint">The service endpoint to use.</param>
         <param name="credential">The <see cref="T:Azure.Core.TokenCredential" /> instance to use for authentication.</param>
         <summary>
-            Initializes a new instance of <see cref="T:Azure.Monitor.Query.LogsQueryClient" />.
+            Creates an instance of <see cref="T:Azure.Monitor.Query.LogsQueryClient" /> for the Azure cloud represented by <paramref name="endpoint" />.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -126,8 +127,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="endpoint" Type="System.Uri" />
@@ -139,7 +140,7 @@
         <param name="credential">The <see cref="T:Azure.Core.TokenCredential" /> instance to use for authentication.</param>
         <param name="options">The <see cref="T:Azure.Monitor.Query.LogsQueryClientOptions" /> instance to use as client configuration.</param>
         <summary>
-            Initializes a new instance of <see cref="T:Azure.Monitor.Query.LogsQueryClient" />.
+            Creates an instance of <see cref="T:Azure.Monitor.Query.LogsQueryClient" /> for the Azure cloud represented by <paramref name="endpoint" />.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -153,8 +154,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -180,8 +181,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -203,8 +204,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Monitor.Query.Models.LogsBatchQueryResultCollection&gt;</ReturnType>
@@ -260,8 +261,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Monitor.Query.Models.LogsBatchQueryResultCollection&gt;&gt;</ReturnType>
@@ -317,8 +318,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Monitor.Query.Models.LogsQueryResult&gt;</ReturnType>
@@ -374,8 +375,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;T&gt;&gt;</ReturnType>
@@ -433,8 +434,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Monitor.Query.Models.LogsQueryResult&gt;&gt;</ReturnType>
@@ -490,8 +491,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;T&gt;&gt;&gt;</ReturnType>
@@ -551,8 +552,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.Monitor.Query.Models.LogsQueryResult&gt;</ReturnType>
@@ -588,8 +589,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;T&gt;&gt;</ReturnType>
@@ -644,8 +645,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Monitor.Query.Models.LogsQueryResult&gt;&gt;</ReturnType>
@@ -681,8 +682,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Monitor.Query</AssemblyName>
-        <AssemblyVersion>1.2.0.0</AssemblyVersion>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>1.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;System.Collections.Generic.IReadOnlyList&lt;T&gt;&gt;&gt;</ReturnType>
