@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Provisioning",
-  "Version": "0.1.0-beta.2",
-  "DevVersion": null,
+  "Version": "0.1.0-alpha.20240401.1",
+  "DevVersion": "0.1.0-alpha.20240401.1",
   "DirectoryPath": "sdk/provisioning/Azure.Provisioning",
   "ServiceDirectory": "provisioning",
   "ReadMePath": "sdk/provisioning/Azure.Provisioning/README.md",
@@ -10,7 +10,7 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Provisioning",
-  "ReleaseStatus": "2024-03-28",
+  "ReleaseStatus": null,
   "Namespaces": [
     "Azure.Provisioning",
     "Azure.Provisioning.AppConfiguration",
