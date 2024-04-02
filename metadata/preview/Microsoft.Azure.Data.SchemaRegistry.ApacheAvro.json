@@ -1,7 +1,7 @@
 {
   "Name": "Microsoft.Azure.Data.SchemaRegistry.ApacheAvro",
-  "Version": "1.1.0-alpha.20240401.2",
-  "DevVersion": "1.1.0-alpha.20240401.2",
+  "Version": "1.1.0-alpha.20240402.1",
+  "DevVersion": "1.1.0-alpha.20240402.1",
   "DirectoryPath": "sdk/schemaregistry/Microsoft.Azure.Data.SchemaRegistry.ApacheAvro",
   "ServiceDirectory": "schemaregistry",
   "ReadMePath": "sdk/schemaregistry/Microsoft.Azure.Data.SchemaRegistry.ApacheAvro/README.md",
