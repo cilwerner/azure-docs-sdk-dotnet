@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.NotificationHubAuthorizationRuleData</ReturnType>
@@ -71,6 +73,44 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="NotificationHubAvailabilityContent">
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityContent NotificationHubAvailabilityContent (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, Azure.ResourceManager.NotificationHubs.Models.NotificationHubSku sku = default, bool? isAvailiable = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityContent NotificationHubAvailabilityContent(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, class Azure.ResourceManager.NotificationHubs.Models.NotificationHubSku sku, valuetype System.Nullable`1&lt;bool&gt; isAvailiable) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.NotificationHubs.Models.ArmNotificationHubsModelFactory.NotificationHubAvailabilityContent(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,System.Collections.Generic.IDictionary{System.String,System.String},Azure.Core.AzureLocation,Azure.ResourceManager.NotificationHubs.Models.NotificationHubSku,System.Nullable{System.Boolean})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NotificationHubAvailabilityContent (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional location As AzureLocation = Nothing, Optional sku As NotificationHubSku = Nothing, Optional isAvailiable As Nullable(Of Boolean) = Nothing) As NotificationHubAvailabilityContent" />
+      <MemberSignature Language="F#" Value="static member NotificationHubAvailabilityContent : Azure.Core.ResourceIdentifier * string * Azure.Core.ResourceType * Azure.ResourceManager.Models.SystemData * System.Collections.Generic.IDictionary&lt;string, string&gt; * Azure.Core.AzureLocation * Azure.ResourceManager.NotificationHubs.Models.NotificationHubSku * Nullable&lt;bool&gt; -&gt; Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityContent" Usage="Azure.ResourceManager.NotificationHubs.Models.ArmNotificationHubsModelFactory.NotificationHubAvailabilityContent (id, name, resourceType, systemData, tags, location, sku, isAvailiable)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityContent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="Azure.Core.ResourceIdentifier" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="name" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="resourceType" Type="Azure.Core.ResourceType" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="systemData" Type="Azure.ResourceManager.Models.SystemData" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="location" Type="Azure.Core.AzureLocation" Index="5" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="sku" Type="Azure.ResourceManager.NotificationHubs.Models.NotificationHubSku" Index="6" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="isAvailiable" Type="System.Nullable&lt;System.Boolean&gt;" Index="7" FrameworkAlternate="azure-dotnet-preview" />
+      </Parameters>
+      <Docs>
+        <param name="id"> The id. </param>
+        <param name="name"> The name. </param>
+        <param name="resourceType"> The resourceType. </param>
+        <param name="systemData"> The systemData. </param>
+        <param name="tags"> The tags. </param>
+        <param name="location"> The location. </param>
+        <param name="sku"> The sku of the created namespace. </param>
+        <param name="isAvailiable"> True if the name is available and can be used to create new Namespace/NotificationHub. Otherwise false. </param>
+        <summary> Initializes a new instance of <see cref="T:Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityContent" />. </summary>
+        <returns> A new <see cref="T:Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityContent" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="NotificationHubAvailabilityResult">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityResult NotificationHubAvailabilityResult (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, Azure.Core.AzureLocation location = default, bool? isAvailiable = default, Azure.ResourceManager.NotificationHubs.Models.NotificationHubSku sku = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityResult NotificationHubAvailabilityResult(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, valuetype Azure.Core.AzureLocation location, valuetype System.Nullable`1&lt;bool&gt; isAvailiable, class Azure.ResourceManager.NotificationHubs.Models.NotificationHubSku sku) cil managed" />
@@ -81,6 +121,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityResult</ReturnType>
@@ -119,6 +160,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.Models.NotificationHubCreateOrUpdateContent</ReturnType>
@@ -173,6 +215,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.NotificationHubData</ReturnType>
@@ -227,6 +270,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.Models.NotificationHubNamespaceCreateOrUpdateContent</ReturnType>
@@ -291,6 +335,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceData</ReturnType>
@@ -355,6 +400,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.Models.NotificationHubPatch</ReturnType>
@@ -409,6 +455,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.Models.NotificationHubPnsCredentials</ReturnType>
@@ -457,6 +504,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.Models.NotificationHubResourceKeys</ReturnType>
@@ -489,6 +537,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.Models.NotificationHubTestSendResult</ReturnType>
@@ -531,6 +580,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.Models.SharedAccessAuthorizationRuleProperties</ReturnType>

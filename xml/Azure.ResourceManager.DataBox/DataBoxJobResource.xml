@@ -10,6 +10,7 @@
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
     <AssemblyVersion>1.0.3.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -34,6 +35,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -51,6 +53,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataBox.DataBoxJobResource&gt;</ReturnType>
@@ -66,7 +69,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -83,6 +86,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataBox.DataBoxJobResource&gt;&gt;</ReturnType>
@@ -98,7 +102,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -115,6 +119,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataBox.Models.DataBoxShipmentPickUpResult&gt;</ReturnType>
@@ -128,7 +133,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Book shipment pick up.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/bookShipmentPickUp</description></item><item><term>Operation Id</term><description>Jobs_BookShipmentPickUp</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/bookShipmentPickUp</description></item><item><term>Operation Id</term><description>Jobs_BookShipmentPickUp</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -145,6 +150,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataBox.Models.DataBoxShipmentPickUpResult&gt;&gt;</ReturnType>
@@ -158,7 +164,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Book shipment pick up.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/bookShipmentPickUp</description></item><item><term>Operation Id</term><description>Jobs_BookShipmentPickUp</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/bookShipmentPickUp</description></item><item><term>Operation Id</term><description>Jobs_BookShipmentPickUp</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -175,6 +181,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -188,7 +195,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             CancelJob.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/cancel</description></item><item><term>Operation Id</term><description>Jobs_Cancel</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/cancel</description></item><item><term>Operation Id</term><description>Jobs_Cancel</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -205,6 +212,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -218,7 +226,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             CancelJob.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/cancel</description></item><item><term>Operation Id</term><description>Jobs_Cancel</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/cancel</description></item><item><term>Operation Id</term><description>Jobs_Cancel</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -235,6 +243,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -263,6 +272,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.DataBox.DataBoxJobData</ReturnType>
@@ -284,6 +294,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -298,7 +309,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Delete</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -313,6 +324,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -327,7 +339,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Delete</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -342,6 +354,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataBox.DataBoxJobResource&gt;</ReturnType>
@@ -355,7 +368,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -370,6 +383,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataBox.DataBoxJobResource&gt;&gt;</ReturnType>
@@ -383,7 +397,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -398,6 +412,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.DataBox.Models.UnencryptedCredentials&gt;</ReturnType>
@@ -409,7 +424,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             This method gets the unencrypted secrets related to the job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/listCredentials</description></item><item><term>Operation Id</term><description>Jobs_ListCredentials</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/listCredentials</description></item><item><term>Operation Id</term><description>Jobs_ListCredentials</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.DataBox.Models.UnencryptedCredentials" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -424,6 +439,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.DataBox.Models.UnencryptedCredentials&gt;</ReturnType>
@@ -435,7 +451,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             This method gets the unencrypted secrets related to the job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/listCredentials</description></item><item><term>Operation Id</term><description>Jobs_ListCredentials</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/listCredentials</description></item><item><term>Operation Id</term><description>Jobs_ListCredentials</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.DataBox.Models.UnencryptedCredentials" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -450,6 +466,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -470,6 +487,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -483,7 +501,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Request to mark devices for a given job as shipped
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/markDevicesShipped</description></item><item><term>Operation Id</term><description>Jobs_MarkDevicesShipped</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/markDevicesShipped</description></item><item><term>Operation Id</term><description>Jobs_MarkDevicesShipped</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -500,6 +518,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -513,7 +532,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Request to mark devices for a given job as shipped
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/markDevicesShipped</description></item><item><term>Operation Id</term><description>Jobs_MarkDevicesShipped</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/markDevicesShipped</description></item><item><term>Operation Id</term><description>Jobs_MarkDevicesShipped</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -530,6 +549,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -543,7 +563,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Request to mitigate for a given job
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/mitigate</description></item><item><term>Operation Id</term><description>Mitigate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/mitigate</description></item><item><term>Operation Id</term><description>Mitigate</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -560,6 +580,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -573,7 +594,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Request to mitigate for a given job
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/mitigate</description></item><item><term>Operation Id</term><description>Mitigate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}/mitigate</description></item><item><term>Operation Id</term><description>Mitigate</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -590,6 +611,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataBox.DataBoxJobResource&gt;</ReturnType>
@@ -603,7 +625,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -620,6 +642,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataBox.DataBoxJobResource&gt;&gt;</ReturnType>
@@ -633,7 +656,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -650,6 +673,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -669,6 +693,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.DataBox.DataBoxJobResource&gt;</ReturnType>
@@ -682,7 +707,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -699,6 +724,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.DataBox.DataBoxJobResource&gt;&gt;</ReturnType>
@@ -712,7 +738,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Get</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -729,6 +755,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DataBox.DataBoxJobResource&gt;</ReturnType>
@@ -747,7 +774,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the properties of an existing job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Update</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -764,6 +791,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.DataBox</AssemblyName>
         <AssemblyVersion>1.0.3.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.DataBox.DataBoxJobResource&gt;&gt;</ReturnType>
@@ -782,7 +810,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates the properties of an existing job.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DataBox/jobs/{jobName}</description></item><item><term>Operation Id</term><description>Jobs_Update</description></item><item><term>Default Api Version</term><description>2022-12-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataBox.DataBoxJobResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

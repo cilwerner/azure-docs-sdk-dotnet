@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -33,6 +34,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource&gt;</ReturnType>
@@ -65,7 +68,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -82,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource&gt;&gt;</ReturnType>
@@ -97,7 +101,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -114,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityResult&gt;</ReturnType>
@@ -127,7 +132,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks the availability of the given notificationHub in a namespace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/checkNotificationHubAvailability</description></item><item><term>Operation Id</term><description>NotificationHubs_CheckNotificationHubAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/checkNotificationHubAvailability</description></item><item><term>Operation Id</term><description>NotificationHubs_CheckNotificationHubAvailability</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -144,6 +149,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NotificationHubs.Models.NotificationHubAvailabilityResult&gt;&gt;</ReturnType>
@@ -157,7 +163,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks the availability of the given notificationHub in a namespace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/checkNotificationHubAvailability</description></item><item><term>Operation Id</term><description>NotificationHubs_CheckNotificationHubAvailability</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/checkNotificationHubAvailability</description></item><item><term>Operation Id</term><description>NotificationHubs_CheckNotificationHubAvailability</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -174,6 +180,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -202,6 +209,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceData</ReturnType>
@@ -223,6 +231,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -237,7 +246,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes an existing namespace. This operation also removes all associated notificationHubs under the namespace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Delete</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -252,6 +261,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -266,7 +276,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes an existing namespace. This operation also removes all associated notificationHubs under the namespace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Delete</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -281,6 +291,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource&gt;</ReturnType>
@@ -292,7 +303,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the description for the specified namespace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -307,6 +318,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource&gt;&gt;</ReturnType>
@@ -318,7 +330,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the description for the specified namespace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -333,6 +345,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubResource&gt;</ReturnType>
@@ -346,7 +359,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the notification hubs associated with a namespace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/notificationHubs/{notificationHubName}</description></item><item><term>Operation Id</term><description>NotificationHubs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/notificationHubs/{notificationHubName}</description></item><item><term>Operation Id</term><description>NotificationHubs_Get</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -365,6 +378,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubResource&gt;&gt;</ReturnType>
@@ -378,7 +392,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists the notification hubs associated with a namespace.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/notificationHubs/{notificationHubName}</description></item><item><term>Operation Id</term><description>NotificationHubs_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/notificationHubs/{notificationHubName}</description></item><item><term>Operation Id</term><description>NotificationHubs_Get</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -397,6 +411,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource&gt;</ReturnType>
@@ -410,7 +425,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an authorization rule for a namespace by name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/AuthorizationRules/{authorizationRuleName}</description></item><item><term>Operation Id</term><description>Namespaces_GetAuthorizationRule</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/AuthorizationRules/{authorizationRuleName}</description></item><item><term>Operation Id</term><description>Namespaces_GetAuthorizationRule</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -429,6 +444,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource&gt;&gt;</ReturnType>
@@ -442,7 +458,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets an authorization rule for a namespace by name.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/AuthorizationRules/{authorizationRuleName}</description></item><item><term>Operation Id</term><description>Namespaces_GetAuthorizationRule</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/AuthorizationRules/{authorizationRuleName}</description></item><item><term>Operation Id</term><description>Namespaces_GetAuthorizationRule</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -461,6 +477,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceAuthorizationRuleCollection</ReturnType>
@@ -482,6 +499,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.NotificationHubs.NotificationHubCollection</ReturnType>
@@ -503,6 +521,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -523,6 +542,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource&gt;</ReturnType>
@@ -536,7 +556,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -553,6 +573,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource&gt;&gt;</ReturnType>
@@ -566,7 +587,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -583,6 +604,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -602,6 +624,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource&gt;</ReturnType>
@@ -615,7 +638,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -632,6 +655,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource&gt;&gt;</ReturnType>
@@ -645,7 +669,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Get</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -662,6 +686,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource&gt;</ReturnType>
@@ -675,7 +700,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Patches the existing namespace
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Patch</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Patch</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -692,6 +717,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.NotificationHubs</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource&gt;&gt;</ReturnType>
@@ -705,7 +731,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Patches the existing namespace
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Patch</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}</description></item><item><term>Operation Id</term><description>Namespaces_Patch</description></item><item><term>Default Api Version</term><description>2017-04-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.NotificationHubs.NotificationHubNamespaceResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

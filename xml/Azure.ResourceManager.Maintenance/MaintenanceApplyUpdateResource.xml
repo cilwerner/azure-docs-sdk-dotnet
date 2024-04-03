@@ -122,7 +122,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Track maintenance updates to resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Maintenance.MaintenanceApplyUpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -149,7 +149,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Track maintenance updates to resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_Get</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Maintenance.MaintenanceApplyUpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -221,7 +221,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Apply maintenance updates to resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_CreateOrUpdateOrCancel</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_CreateOrUpdateOrCancel</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Maintenance.MaintenanceApplyUpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -254,7 +254,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Apply maintenance updates to resource
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_CreateOrUpdateOrCancel</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/{providerName}/{resourceType}/{resourceName}/providers/Microsoft.Maintenance/applyUpdates/{applyUpdateName}</description></item><item><term>Operation Id</term><description>ApplyUpdates_CreateOrUpdateOrCancel</description></item><item><term>Default Api Version</term><description>2023-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Maintenance.MaintenanceApplyUpdateResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

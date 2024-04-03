@@ -64,7 +64,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Stop on going migration for the database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}/cancel</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_cancel</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}/cancel</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_cancel</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlDBResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -97,7 +97,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Stop on going migration for the database.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}/cancel</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_cancel</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}/cancel</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_cancel</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlDBResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -181,7 +181,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete Database Migration resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_Delete</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlDBResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -212,7 +212,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete Database Migration resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_Delete</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlDBResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -242,7 +242,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieve the Database Migration resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlDBResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -272,7 +272,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Retrieve the Database Migration resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_Get</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlDBResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -342,7 +342,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create or Update Database Migration resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlDBResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -375,7 +375,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create or Update Database Migration resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Sql/servers/{sqlDbInstanceName}/providers/Microsoft.DataMigration/databaseMigrations/{targetDbName}</description></item><item><term>Operation Id</term><description>DatabaseMigrationsSqlDb_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2022-03-30-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.DataMigration.DatabaseMigrationSqlDBResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
