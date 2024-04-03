@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Provisioning.Redis",
-  "Version": "0.1.0-alpha.20240403.1",
-  "DevVersion": "0.1.0-alpha.20240403.1",
+  "Version": "0.1.0-alpha.20240403.2",
+  "DevVersion": "0.1.0-alpha.20240403.2",
   "DirectoryPath": "sdk/provisioning/Azure.Provisioning.Redis",
   "ServiceDirectory": "provisioning",
   "ReadMePath": "sdk/provisioning/Azure.Provisioning.Redis/README.md",

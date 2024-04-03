@@ -6,7 +6,7 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: provisioning
 ---
-# Azure Provisioning client library for .NET - version 0.1.0-alpha.20240403.1 
+# Azure Provisioning client library for .NET - version 0.1.0-alpha.20240403.2 
 
 
 Azure.Provisioning is a cloud development kit that allows you to declaritively specify your Azure infrastructure natively in dotnet.
