@@ -1,0 +1,17 @@
+{
+  "Name": "Azure.Provisioning.SignalR",
+  "Version": "0.1.0-alpha.20240403.1",
+  "DevVersion": "0.1.0-alpha.20240403.1",
+  "DirectoryPath": "sdk/provisioning/Azure.Provisioning.SignalR",
+  "ServiceDirectory": "provisioning",
+  "ReadMePath": "sdk/provisioning/Azure.Provisioning.SignalR/README.md",
+  "ChangeLogPath": "sdk/provisioning/Azure.Provisioning.SignalR/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.Provisioning.SignalR",
+  "ReleaseStatus": null,
+  "Namespaces": [
+    "Azure.Provisioning.SignalR"
+  ]
+}

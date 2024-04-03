@@ -1,0 +1,17 @@
+{
+  "Name": "Azure.Provisioning.ApplicationInsights",
+  "Version": "0.1.0-alpha.20240403.1",
+  "DevVersion": "0.1.0-alpha.20240403.1",
+  "DirectoryPath": "sdk/provisioning/Azure.Provisioning.ApplicationInsights",
+  "ServiceDirectory": "provisioning",
+  "ReadMePath": "sdk/provisioning/Azure.Provisioning.ApplicationInsights/README.md",
+  "ChangeLogPath": "sdk/provisioning/Azure.Provisioning.ApplicationInsights/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.Provisioning.ApplicationInsights",
+  "ReleaseStatus": null,
+  "Namespaces": [
+    "Azure.Provisioning.ApplicationInsights"
+  ]
+}

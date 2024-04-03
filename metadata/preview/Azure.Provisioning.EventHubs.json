@@ -1,0 +1,17 @@
+{
+  "Name": "Azure.Provisioning.EventHubs",
+  "Version": "0.1.0-alpha.20240403.1",
+  "DevVersion": "0.1.0-alpha.20240403.1",
+  "DirectoryPath": "sdk/provisioning/Azure.Provisioning.EventHubs",
+  "ServiceDirectory": "provisioning",
+  "ReadMePath": "sdk/provisioning/Azure.Provisioning.EventHubs/README.md",
+  "ChangeLogPath": "sdk/provisioning/Azure.Provisioning.EventHubs/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.Provisioning.EventHubs",
+  "ReleaseStatus": null,
+  "Namespaces": [
+    "Azure.Provisioning.EventHubs"
+  ]
+}

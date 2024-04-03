@@ -1,0 +1,17 @@
+{
+  "Name": "Azure.Provisioning.Sql",
+  "Version": "0.1.0-alpha.20240403.1",
+  "DevVersion": "0.1.0-alpha.20240403.1",
+  "DirectoryPath": "sdk/provisioning/Azure.Provisioning.Sql",
+  "ServiceDirectory": "provisioning",
+  "ReadMePath": "sdk/provisioning/Azure.Provisioning.Sql/README.md",
+  "ChangeLogPath": "sdk/provisioning/Azure.Provisioning.Sql/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.Provisioning.Sql",
+  "ReleaseStatus": null,
+  "Namespaces": [
+    "Azure.Provisioning.Sql"
+  ]
+}

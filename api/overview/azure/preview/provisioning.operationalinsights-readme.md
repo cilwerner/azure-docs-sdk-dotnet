@@ -1,6 +1,6 @@
 ---
 title: Azure Provisioning client library for .NET
-keywords: Azure, dotnet, SDK, API, Azure.Provisioning, provisioning
+keywords: Azure, dotnet, SDK, API, Azure.Provisioning.OperationalInsights, provisioning
 ms.date: 04/03/2024
 ms.topic: reference
 ms.devlang: dotnet
@@ -9,7 +9,7 @@ ms.service: provisioning
 # Azure Provisioning client library for .NET - version 0.1.0-alpha.20240403.1 
 
 
-Azure.Provisioning is a cloud development kit that allows you to declaritively specify your Azure infrastructure natively in dotnet.
+Azure.Provisioning.OperationalInsights simplifies declarative resource provisioning in .NET for Azure Operational Insights.
 
 ## Getting started
 
@@ -18,7 +18,7 @@ Azure.Provisioning is a cloud development kit that allows you to declaritively s
 Install the client library for .NET with [NuGet](https://www.nuget.org/ ):
 
 ```dotnetcli
-dotnet add package Azure.Provisioning --prerelease
+dotnet add package Azure.Provisioning.ApplicationInsights --prerelease
 ```
 
 ### Prerequisites
