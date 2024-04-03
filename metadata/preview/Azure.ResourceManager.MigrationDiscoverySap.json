@@ -1,0 +1,19 @@
+{
+  "Name": "Azure.ResourceManager.MigrationDiscoverySap",
+  "Version": "1.0.0-alpha.20240403.3",
+  "DevVersion": "1.0.0-alpha.20240403.3",
+  "DirectoryPath": "sdk/migrationdiscoverysap/Azure.ResourceManager.MigrationDiscoverySap",
+  "ServiceDirectory": "migrationdiscoverysap",
+  "ReadMePath": "sdk/migrationdiscoverysap/Azure.ResourceManager.MigrationDiscoverySap/README.md",
+  "ChangeLogPath": "sdk/migrationdiscoverysap/Azure.ResourceManager.MigrationDiscoverySap/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.ResourceManager.MigrationDiscoverySap",
+  "ReleaseStatus": null,
+  "Namespaces": [
+    "Azure.ResourceManager.MigrationDiscoverySap",
+    "Azure.ResourceManager.MigrationDiscoverySap.Mocking",
+    "Azure.ResourceManager.MigrationDiscoverySap.Models"
+  ]
+}
