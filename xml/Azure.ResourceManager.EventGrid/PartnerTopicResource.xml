@@ -63,7 +63,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Activate a newly created partner topic.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}/activate</description></item><item><term>Operation Id</term><description>PartnerTopics_Activate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}/activate</description></item><item><term>Operation Id</term><description>PartnerTopics_Activate</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -90,7 +90,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Activate a newly created partner topic.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}/activate</description></item><item><term>Operation Id</term><description>PartnerTopics_Activate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}/activate</description></item><item><term>Operation Id</term><description>PartnerTopics_Activate</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -121,7 +121,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -154,7 +154,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -234,7 +234,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deactivate specific partner topic.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}/deactivate</description></item><item><term>Operation Id</term><description>PartnerTopics_Deactivate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}/deactivate</description></item><item><term>Operation Id</term><description>PartnerTopics_Deactivate</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -261,7 +261,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deactivate specific partner topic.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}/deactivate</description></item><item><term>Operation Id</term><description>PartnerTopics_Deactivate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}/deactivate</description></item><item><term>Operation Id</term><description>PartnerTopics_Deactivate</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -291,7 +291,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete existing partner topic.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Delete</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -321,7 +321,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete existing partner topic.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Delete</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -348,7 +348,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of a partner topic.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -375,7 +375,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of a partner topic.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -404,7 +404,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of an event subscription of a partner topic.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}/eventSubscriptions/{eventSubscriptionName}</description></item><item><term>Operation Id</term><description>PartnerTopicEventSubscriptions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}/eventSubscriptions/{eventSubscriptionName}</description></item><item><term>Operation Id</term><description>PartnerTopicEventSubscriptions_Get</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicEventSubscriptionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -437,7 +437,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get properties of an event subscription of a partner topic.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}/eventSubscriptions/{eventSubscriptionName}</description></item><item><term>Operation Id</term><description>PartnerTopicEventSubscriptions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}/eventSubscriptions/{eventSubscriptionName}</description></item><item><term>Operation Id</term><description>PartnerTopicEventSubscriptions_Get</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicEventSubscriptionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -513,7 +513,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -544,7 +544,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -595,7 +595,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -626,7 +626,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Get</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -657,7 +657,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Asynchronously updates a partner topic with the specified parameters.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Update</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -688,7 +688,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Asynchronously updates a partner topic with the specified parameters.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.EventGrid/partnerTopics/{partnerTopicName}</description></item><item><term>Operation Id</term><description>PartnerTopics_Update</description></item><item><term>Default Api Version</term><description>2023-12-15-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.EventGrid.PartnerTopicResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

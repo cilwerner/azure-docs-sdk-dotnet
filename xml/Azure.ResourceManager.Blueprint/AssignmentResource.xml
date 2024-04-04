@@ -111,7 +111,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a blueprint assignment.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>Assignments_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>Assignments_Delete</description></item><item><term>Default Api Version</term><description>2018-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Blueprint.AssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -142,7 +142,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a blueprint assignment.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>Assignments_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>Assignments_Delete</description></item><item><term>Default Api Version</term><description>2018-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Blueprint.AssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -168,7 +168,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a blueprint assignment.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>Assignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>Assignments_Get</description></item><item><term>Default Api Version</term><description>2018-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Blueprint.AssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -196,7 +196,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a blueprint assignment operation.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}/assignmentOperations/{assignmentOperationName}</description></item><item><term>Operation Id</term><description>AssignmentOperations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}/assignmentOperations/{assignmentOperationName}</description></item><item><term>Operation Id</term><description>AssignmentOperations_Get</description></item><item><term>Default Api Version</term><description>2018-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Blueprint.AssignmentOperationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -228,7 +228,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a blueprint assignment operation.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}/assignmentOperations/{assignmentOperationName}</description></item><item><term>Operation Id</term><description>AssignmentOperations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}/assignmentOperations/{assignmentOperationName}</description></item><item><term>Operation Id</term><description>AssignmentOperations_Get</description></item><item><term>Default Api Version</term><description>2018-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Blueprint.AssignmentOperationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -279,7 +279,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a blueprint assignment.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>Assignments_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>Assignments_Get</description></item><item><term>Default Api Version</term><description>2018-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Blueprint.AssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -349,7 +349,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create or update a blueprint assignment.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>Assignments_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>Assignments_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2018-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Blueprint.AssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -382,7 +382,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create or update a blueprint assignment.
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>Assignments_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}</description></item><item><term>Operation Id</term><description>Assignments_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2018-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Blueprint.AssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -410,7 +410,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Blueprints service SPN objectId
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}/whoIsBlueprint</description></item><item><term>Operation Id</term><description>Assignments_WhoIsBlueprint</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}/whoIsBlueprint</description></item><item><term>Operation Id</term><description>Assignments_WhoIsBlueprint</description></item><item><term>Default Api Version</term><description>2018-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Blueprint.AssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -436,7 +436,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Blueprints service SPN objectId
-            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}/whoIsBlueprint</description></item><item><term>Operation Id</term><description>Assignments_WhoIsBlueprint</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/{resourceScope}/providers/Microsoft.Blueprint/blueprintAssignments/{assignmentName}/whoIsBlueprint</description></item><item><term>Operation Id</term><description>Assignments_WhoIsBlueprint</description></item><item><term>Default Api Version</term><description>2018-11-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Blueprint.AssignmentResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

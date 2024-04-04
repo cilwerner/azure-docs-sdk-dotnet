@@ -146,9 +146,9 @@
         <ReturnType>Azure.Response&lt;Azure.Communication.NetworkTraversal.CommunicationRelayConfiguration&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="communicationUser" Type="Azure.Communication.CommunicationUserIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="routeType" Type="System.Nullable&lt;Azure.Communication.NetworkTraversal.RouteType&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="communicationUser" Type="Azure.Communication.CommunicationUserIdentifier" Index="0" FrameworkAlternate="azure-dotnet-legacy" />
+        <Parameter Name="routeType" Type="System.Nullable&lt;Azure.Communication.NetworkTraversal.RouteType&gt;" Index="1" FrameworkAlternate="azure-dotnet-legacy" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-legacy" />
       </Parameters>
       <Docs>
         <param name="communicationUser">The <see cref="T:Azure.Communication.CommunicationUserIdentifier" /> for whom to issue a token.</param>
@@ -206,9 +206,9 @@
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.Communication.NetworkTraversal.CommunicationRelayConfiguration&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="communicationUser" Type="Azure.Communication.CommunicationUserIdentifier" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="routeType" Type="System.Nullable&lt;Azure.Communication.NetworkTraversal.RouteType&gt;" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="communicationUser" Type="Azure.Communication.CommunicationUserIdentifier" Index="0" FrameworkAlternate="azure-dotnet-legacy" />
+        <Parameter Name="routeType" Type="System.Nullable&lt;Azure.Communication.NetworkTraversal.RouteType&gt;" Index="1" FrameworkAlternate="azure-dotnet-legacy" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-legacy" />
       </Parameters>
       <Docs>
         <param name="communicationUser">The <see cref="T:Azure.Communication.CommunicationUserIdentifier" /> for whom to issue a token.</param>

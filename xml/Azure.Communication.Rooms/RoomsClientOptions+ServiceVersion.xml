@@ -41,12 +41,12 @@
             </summary>
       </Docs>
     </Member>
-    <Member MemberName="V2023_10_30_Preview">
-      <MemberSignature Language="C#" Value="V2023_10_30_Preview" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.Rooms.RoomsClientOptions/ServiceVersion V2023_10_30_Preview = int32(2)" />
-      <MemberSignature Language="DocId" Value="F:Azure.Communication.Rooms.RoomsClientOptions.ServiceVersion.V2023_10_30_Preview" />
-      <MemberSignature Language="VB.NET" Value="V2023_10_30_Preview" />
-      <MemberSignature Language="F#" Value="V2023_10_30_Preview = 2" Usage="Azure.Communication.Rooms.RoomsClientOptions.ServiceVersion.V2023_10_30_Preview" />
+    <Member MemberName="V2024_04_15">
+      <MemberSignature Language="C#" Value="V2024_04_15" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Azure.Communication.Rooms.RoomsClientOptions/ServiceVersion V2024_04_15 = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Azure.Communication.Rooms.RoomsClientOptions.ServiceVersion.V2024_04_15" />
+      <MemberSignature Language="VB.NET" Value="V2024_04_15" />
+      <MemberSignature Language="F#" Value="V2024_04_15 = 2" Usage="Azure.Communication.Rooms.RoomsClientOptions.ServiceVersion.V2024_04_15" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.Rooms</AssemblyName>
@@ -58,7 +58,7 @@
       <MemberValue>2</MemberValue>
       <Docs>
         <summary>
-            Rooms service preview version V2023_10_30_Preview
+            Rooms service preview version V2024-04-15
             </summary>
       </Docs>
     </Member>

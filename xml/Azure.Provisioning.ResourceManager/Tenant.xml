@@ -75,5 +75,26 @@
         <exception cref="T:System.ArgumentException">If the resource name violates rules that cannot be sanitized.</exception>
       </Docs>
     </Member>
+    <Member MemberName="TenantIdExpression">
+      <MemberSignature Language="C#" Value="public const string TenantIdExpression;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string TenantIdExpression" />
+      <MemberSignature Language="DocId" Value="F:Azure.Provisioning.ResourceManager.Tenant.TenantIdExpression" />
+      <MemberSignature Language="VB.NET" Value="Public Const TenantIdExpression As String " />
+      <MemberSignature Language="F#" Value="val mutable TenantIdExpression : string" Usage="Azure.Provisioning.ResourceManager.Tenant.TenantIdExpression" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Provisioning</AssemblyName>
+        <AssemblyVersion>0.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The tenant id Bicep expression.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
   </Members>
 </Type>
