@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -81,6 +84,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -105,23 +109,19 @@
       </Docs>
     </Member>
     <Member MemberName="CountDevices">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt; CountDevices (System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt; CountDevices(valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt; CountDevices (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt; CountDevices(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sphere.SphereDeviceGroupResource.CountDevices(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CountDevices (Optional cancellationToken As CancellationToken = Nothing) As Response(Of CountDevicesResult)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="abstract member CountDevices : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&#xA;override this.CountDevices : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;" Usage="sphereDeviceGroupResource.CountDevices cancellationToken" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt; CountDevices (System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt; CountDevices(valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CountDevices (Optional cancellationToken As CancellationToken = Nothing) As Response(Of CountDeviceResult)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="abstract member CountDevices : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&#xA;override this.CountDevices : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;" Usage="sphereDeviceGroupResource.CountDevices cancellationToken" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CountDevices (Optional cancellationToken As CancellationToken = Nothing) As Response(Of CountDevicesResult)" />
+      <MemberSignature Language="F#" Value="abstract member CountDevices : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&#xA;override this.CountDevices : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;" Usage="sphereDeviceGroupResource.CountDevices cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -136,23 +136,19 @@
       </Docs>
     </Member>
     <Member MemberName="CountDevicesAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt; CountDevicesAsync (System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt; CountDevicesAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt; CountDevicesAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt; CountDevicesAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Sphere.SphereDeviceGroupResource.CountDevicesAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CountDevicesAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of CountDevicesResult))" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="abstract member CountDevicesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt;&#xA;override this.CountDevicesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt;" Usage="sphereDeviceGroupResource.CountDevicesAsync cancellationToken" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&gt; CountDevicesAsync (System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&gt; CountDevicesAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CountDevicesAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of CountDeviceResult))" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="abstract member CountDevicesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&gt;&#xA;override this.CountDevicesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&gt;" Usage="sphereDeviceGroupResource.CountDevicesAsync cancellationToken" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CountDevicesAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of CountDevicesResult))" />
+      <MemberSignature Language="F#" Value="abstract member CountDevicesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt;&#xA;override this.CountDevicesAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt;" Usage="sphereDeviceGroupResource.CountDevicesAsync cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDeviceResult&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.Models.CountDevicesResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -176,6 +172,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -208,6 +205,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Sphere.SphereDeviceGroupData</ReturnType>
@@ -229,6 +227,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -258,6 +257,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -287,6 +287,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.SphereDeviceGroupResource&gt;</ReturnType>
@@ -313,6 +314,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.SphereDeviceGroupResource&gt;&gt;</ReturnType>
@@ -339,6 +341,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.SphereDeploymentResource&gt;</ReturnType>
@@ -371,6 +374,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.SphereDeploymentResource&gt;&gt;</ReturnType>
@@ -403,6 +407,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Sphere.SphereDeploymentCollection</ReturnType>
@@ -424,6 +429,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Sphere.SphereDeviceResource&gt;</ReturnType>
@@ -456,6 +462,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Sphere.SphereDeviceResource&gt;&gt;</ReturnType>
@@ -488,6 +495,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Sphere.SphereDeviceCollection</ReturnType>
@@ -509,6 +517,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -529,6 +538,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -548,6 +558,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Sphere.SphereDeviceGroupResource&gt;</ReturnType>
@@ -581,6 +592,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sphere</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Sphere.SphereDeviceGroupResource&gt;&gt;</ReturnType>
