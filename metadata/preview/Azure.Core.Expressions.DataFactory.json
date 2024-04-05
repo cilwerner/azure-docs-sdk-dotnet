@@ -1,7 +1,7 @@
 {
   "Name": "Azure.Core.Expressions.DataFactory",
-  "Version": "1.1.0-alpha.20240405.1",
-  "DevVersion": "1.1.0-alpha.20240405.1",
+  "Version": "1.1.0-alpha.20240405.6",
+  "DevVersion": "1.1.0-alpha.20240405.6",
   "DirectoryPath": "sdk/core/Azure.Core.Expressions.DataFactory",
   "ServiceDirectory": "core",
   "ReadMePath": "sdk/core/Azure.Core.Expressions.DataFactory/README.md",
@@ -10,7 +10,7 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "Azure.Core.Expressions.DataFactory",
-  "ReleaseStatus": null,
+  "ReleaseStatus": "Unreleased",
   "Namespaces": [
     "Azure.Core.Expressions.DataFactory"
   ],
