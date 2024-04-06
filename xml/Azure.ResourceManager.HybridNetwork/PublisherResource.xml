@@ -63,7 +63,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.PublisherResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -95,7 +95,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.PublisherResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -175,7 +175,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified publisher.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Delete</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.PublisherResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -204,7 +204,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified publisher.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Delete</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.PublisherResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -230,7 +230,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified publisher.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.PublisherResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -258,7 +258,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified artifact store.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/artifactStores/{artifactStoreName}</description></item><item><term>Operation Id</term><description>ArtifactStores_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/artifactStores/{artifactStoreName}</description></item><item><term>Operation Id</term><description>ArtifactStores_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.ArtifactStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -290,7 +290,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified artifact store.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/artifactStores/{artifactStoreName}</description></item><item><term>Operation Id</term><description>ArtifactStores_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/artifactStores/{artifactStoreName}</description></item><item><term>Operation Id</term><description>ArtifactStores_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.ArtifactStoreResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -341,7 +341,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified publisher.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.PublisherResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -369,7 +369,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified configuration group schema.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/configurationGroupSchemas/{configurationGroupSchemaName}</description></item><item><term>Operation Id</term><description>ConfigurationGroupSchemas_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/configurationGroupSchemas/{configurationGroupSchemaName}</description></item><item><term>Operation Id</term><description>ConfigurationGroupSchemas_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.ConfigurationGroupSchemaResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -401,7 +401,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified configuration group schema.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/configurationGroupSchemas/{configurationGroupSchemaName}</description></item><item><term>Operation Id</term><description>ConfigurationGroupSchemas_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/configurationGroupSchemas/{configurationGroupSchemaName}</description></item><item><term>Operation Id</term><description>ConfigurationGroupSchemas_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.ConfigurationGroupSchemaResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -454,7 +454,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified networkFunctionDefinition group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkFunctionDefinitionGroups/{networkFunctionDefinitionGroupName}</description></item><item><term>Operation Id</term><description>NetworkFunctionDefinitionGroups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkFunctionDefinitionGroups/{networkFunctionDefinitionGroupName}</description></item><item><term>Operation Id</term><description>NetworkFunctionDefinitionGroups_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkFunctionDefinitionGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -486,7 +486,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified networkFunctionDefinition group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkFunctionDefinitionGroups/{networkFunctionDefinitionGroupName}</description></item><item><term>Operation Id</term><description>NetworkFunctionDefinitionGroups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkFunctionDefinitionGroups/{networkFunctionDefinitionGroupName}</description></item><item><term>Operation Id</term><description>NetworkFunctionDefinitionGroups_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkFunctionDefinitionGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -539,7 +539,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified networkServiceDesign group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignGroups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignGroups_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -571,7 +571,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets information about the specified networkServiceDesign group.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignGroups_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}/networkServiceDesignGroups/{networkServiceDesignGroupName}</description></item><item><term>Operation Id</term><description>NetworkServiceDesignGroups_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.NetworkServiceDesignGroupResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -644,7 +644,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.PublisherResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -674,7 +674,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.PublisherResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -723,7 +723,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.PublisherResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -753,7 +753,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Get</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.PublisherResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -783,7 +783,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a publisher resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Update</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.PublisherResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -813,7 +813,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a publisher resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridNetwork/publishers/{publisherName}</description></item><item><term>Operation Id</term><description>Publishers_Update</description></item><item><term>Default Api Version</term><description>2023-09-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.HybridNetwork.PublisherResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

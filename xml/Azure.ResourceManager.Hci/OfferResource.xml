@@ -120,7 +120,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Offer resource details within a publisher of HCI Cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/publishers/{publisherName}/offers/{offerName}</description></item><item><term>Operation Id</term><description>Offers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/publishers/{publisherName}/offers/{offerName}</description></item><item><term>Operation Id</term><description>Offers_Get</description></item><item><term>Default Api Version</term><description>2023-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.OfferResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -149,7 +149,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Offer resource details within a publisher of HCI Cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/publishers/{publisherName}/offers/{offerName}</description></item><item><term>Operation Id</term><description>Offers_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/publishers/{publisherName}/offers/{offerName}</description></item><item><term>Operation Id</term><description>Offers_Get</description></item><item><term>Default Api Version</term><description>2023-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.OfferResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -180,7 +180,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get SKU resource details within a offer of HCI Cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/publishers/{publisherName}/offers/{offerName}/skus/{skuName}</description></item><item><term>Operation Id</term><description>Skus_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/publishers/{publisherName}/offers/{offerName}/skus/{skuName}</description></item><item><term>Operation Id</term><description>Skus_Get</description></item><item><term>Default Api Version</term><description>2023-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.HciSkuResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -215,7 +215,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get SKU resource details within a offer of HCI Cluster.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/publishers/{publisherName}/offers/{offerName}/skus/{skuName}</description></item><item><term>Operation Id</term><description>Skus_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AzureStackHCI/clusters/{clusterName}/publishers/{publisherName}/offers/{offerName}/skus/{skuName}</description></item><item><term>Operation Id</term><description>Skus_Get</description></item><item><term>Default Api Version</term><description>2023-02-01</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.Hci.HciSkuResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

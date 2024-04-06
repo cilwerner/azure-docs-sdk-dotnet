@@ -15,6 +15,7 @@
     <AssemblyVersion>1.6.0.0</AssemblyVersion>
     <AssemblyVersion>1.7.0.0</AssemblyVersion>
     <AssemblyVersion>1.7.1.0</AssemblyVersion>
+    <AssemblyVersion>1.8.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -34,8 +35,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.Models.TemplateHashResult&gt;</ReturnType>
@@ -67,8 +68,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.Models.TemplateHashResult&gt;&gt;</ReturnType>
@@ -100,8 +101,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.ArmApplicationResource&gt;</ReturnType>
@@ -135,8 +136,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.ArmApplicationResource&gt;&gt;</ReturnType>
@@ -170,8 +171,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.ArmApplicationDefinitionResource&gt;</ReturnType>
@@ -205,8 +206,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.ArmApplicationDefinitionResource&gt;&gt;</ReturnType>
@@ -240,8 +241,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmApplicationDefinitionResource</ReturnType>
@@ -272,8 +273,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmApplicationDefinitionCollection</ReturnType>
@@ -301,8 +302,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmApplicationResource</ReturnType>
@@ -333,8 +334,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmApplicationCollection</ReturnType>
@@ -362,8 +363,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Resources.ArmApplicationResource&gt;</ReturnType>
@@ -393,8 +394,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Resources.ArmApplicationResource&gt;</ReturnType>
@@ -424,8 +425,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;</ReturnType>
@@ -459,8 +460,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;</ReturnType>
@@ -494,8 +495,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;</ReturnType>
@@ -529,8 +530,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;</ReturnType>
@@ -564,8 +565,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;&gt;</ReturnType>
@@ -599,8 +600,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;&gt;</ReturnType>
@@ -634,8 +635,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;&gt;</ReturnType>
@@ -669,8 +670,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentResource&gt;&gt;</ReturnType>
@@ -704,8 +705,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmDeploymentResource</ReturnType>
@@ -736,8 +737,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmDeploymentCollection</ReturnType>
@@ -765,8 +766,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmDeploymentCollection</ReturnType>
@@ -794,8 +795,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmDeploymentCollection</ReturnType>
@@ -823,8 +824,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmDeploymentCollection</ReturnType>
@@ -852,8 +853,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentScriptResource&gt;</ReturnType>
@@ -887,8 +888,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.ArmDeploymentScriptResource&gt;&gt;</ReturnType>
@@ -922,8 +923,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmDeploymentScriptResource</ReturnType>
@@ -954,8 +955,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmDeploymentScriptCollection</ReturnType>
@@ -983,8 +984,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Resources.ArmDeploymentScriptResource&gt;</ReturnType>
@@ -1014,8 +1015,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Resources.ArmDeploymentScriptResource&gt;</ReturnType>
@@ -1045,8 +1046,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.JitRequestResource&gt;</ReturnType>
@@ -1080,8 +1081,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.JitRequestResource&gt;&gt;</ReturnType>
@@ -1115,8 +1116,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Resources.JitRequestResource&gt;</ReturnType>
@@ -1146,8 +1147,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Resources.JitRequestResource&gt;</ReturnType>
@@ -1177,8 +1178,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.JitRequestResource</ReturnType>
@@ -1209,8 +1210,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.JitRequestCollection</ReturnType>
@@ -1238,8 +1239,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ScriptLogResource</ReturnType>
@@ -1270,8 +1271,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Resources.TemplateSpecResource&gt;</ReturnType>
@@ -1307,8 +1308,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Resources.TemplateSpecResource&gt;&gt;</ReturnType>
@@ -1344,8 +1345,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.TemplateSpecResource</ReturnType>
@@ -1376,8 +1377,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.TemplateSpecCollection</ReturnType>
@@ -1405,8 +1406,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Resources.TemplateSpecResource&gt;</ReturnType>
@@ -1438,8 +1439,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Resources.TemplateSpecResource&gt;</ReturnType>
@@ -1471,8 +1472,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.TemplateSpecVersionResource</ReturnType>

@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -32,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ProviderHub.Models.CheckinManifestInfo&gt;</ReturnType>
@@ -62,7 +65,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checkin the manifest.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/checkinManifest</description></item><item><term>Operation Id</term><description>CheckinManifest</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/checkinManifest</description></item><item><term>Operation Id</term><description>CheckinManifest</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -79,6 +82,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ProviderHub.Models.CheckinManifestInfo&gt;&gt;</ReturnType>
@@ -92,7 +96,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checkin the manifest.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/checkinManifest</description></item><item><term>Operation Id</term><description>CheckinManifest</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/checkinManifest</description></item><item><term>Operation Id</term><description>CheckinManifest</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -109,6 +113,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -135,6 +140,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.ProviderRegistrationData</ReturnType>
@@ -156,6 +162,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -170,7 +177,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a provider registration.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_Delete</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ProviderHub.ProviderRegistrationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -185,6 +192,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -199,7 +207,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a provider registration.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_Delete</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ProviderHub.ProviderRegistrationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -214,6 +222,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderManifest&gt;</ReturnType>
@@ -225,7 +234,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Generates the manifest for the given provider.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/generateManifest</description></item><item><term>Operation Id</term><description>GenerateManifest</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/generateManifest</description></item><item><term>Operation Id</term><description>GenerateManifest</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -240,6 +249,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ProviderHub.Models.ResourceProviderManifest&gt;&gt;</ReturnType>
@@ -251,7 +261,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Generates the manifest for the given provider.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/generateManifest</description></item><item><term>Operation Id</term><description>GenerateManifest</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/generateManifest</description></item><item><term>Operation Id</term><description>GenerateManifest</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -266,6 +276,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ProviderHub.ProviderRegistrationResource&gt;</ReturnType>
@@ -277,7 +288,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the provider registration details.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_Get</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ProviderHub.ProviderRegistrationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -292,6 +303,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ProviderHub.ProviderRegistrationResource&gt;&gt;</ReturnType>
@@ -303,7 +315,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the provider registration details.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_Get</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ProviderHub.ProviderRegistrationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -318,6 +330,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ProviderHub.CustomRolloutResource&gt;</ReturnType>
@@ -331,7 +344,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the custom rollout details.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/customRollouts/{rolloutName}</description></item><item><term>Operation Id</term><description>CustomRollouts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/customRollouts/{rolloutName}</description></item><item><term>Operation Id</term><description>CustomRollouts_Get</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ProviderHub.CustomRolloutResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -350,6 +363,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ProviderHub.CustomRolloutResource&gt;&gt;</ReturnType>
@@ -363,7 +377,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the custom rollout details.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/customRollouts/{rolloutName}</description></item><item><term>Operation Id</term><description>CustomRollouts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/customRollouts/{rolloutName}</description></item><item><term>Operation Id</term><description>CustomRollouts_Get</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ProviderHub.CustomRolloutResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -382,6 +396,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.CustomRolloutCollection</ReturnType>
@@ -403,6 +418,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ProviderHub.DefaultRolloutResource&gt;</ReturnType>
@@ -416,7 +432,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the default rollout details.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/defaultRollouts/{rolloutName}</description></item><item><term>Operation Id</term><description>DefaultRollouts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/defaultRollouts/{rolloutName}</description></item><item><term>Operation Id</term><description>DefaultRollouts_Get</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ProviderHub.DefaultRolloutResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -435,6 +451,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ProviderHub.DefaultRolloutResource&gt;&gt;</ReturnType>
@@ -448,7 +465,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the default rollout details.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/defaultRollouts/{rolloutName}</description></item><item><term>Operation Id</term><description>DefaultRollouts_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/defaultRollouts/{rolloutName}</description></item><item><term>Operation Id</term><description>DefaultRollouts_Get</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ProviderHub.DefaultRolloutResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -467,6 +484,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.DefaultRolloutCollection</ReturnType>
@@ -488,6 +506,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ProviderHub.NotificationRegistrationResource&gt;</ReturnType>
@@ -501,7 +520,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the notification registration details.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/notificationRegistrations/{notificationRegistrationName}</description></item><item><term>Operation Id</term><description>NotificationRegistrations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/notificationRegistrations/{notificationRegistrationName}</description></item><item><term>Operation Id</term><description>NotificationRegistrations_Get</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ProviderHub.NotificationRegistrationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -520,6 +539,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ProviderHub.NotificationRegistrationResource&gt;&gt;</ReturnType>
@@ -533,7 +553,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the notification registration details.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/notificationRegistrations/{notificationRegistrationName}</description></item><item><term>Operation Id</term><description>NotificationRegistrations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/notificationRegistrations/{notificationRegistrationName}</description></item><item><term>Operation Id</term><description>NotificationRegistrations_Get</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ProviderHub.NotificationRegistrationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -552,6 +572,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.NotificationRegistrationCollection</ReturnType>
@@ -573,6 +594,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.ProviderHub.ResourceTypeRegistrationResource&gt;</ReturnType>
@@ -586,7 +608,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a resource type details in the given subscription and provider.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/resourcetypeRegistrations/{resourceType}</description></item><item><term>Operation Id</term><description>ResourceTypeRegistrations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/resourcetypeRegistrations/{resourceType}</description></item><item><term>Operation Id</term><description>ResourceTypeRegistrations_Get</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ProviderHub.ResourceTypeRegistrationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -605,6 +627,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.ProviderHub.ResourceTypeRegistrationResource&gt;&gt;</ReturnType>
@@ -618,7 +641,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a resource type details in the given subscription and provider.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/resourcetypeRegistrations/{resourceType}</description></item><item><term>Operation Id</term><description>ResourceTypeRegistrations_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}/resourcetypeRegistrations/{resourceType}</description></item><item><term>Operation Id</term><description>ResourceTypeRegistrations_Get</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ProviderHub.ResourceTypeRegistrationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -637,6 +660,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ProviderHub.ResourceTypeRegistrationCollection</ReturnType>
@@ -658,6 +682,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -678,6 +703,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -697,6 +723,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ProviderHub.ProviderRegistrationResource&gt;</ReturnType>
@@ -713,7 +740,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates or updates the provider registration.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ProviderHub.ProviderRegistrationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -730,6 +757,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.ProviderHub</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.ProviderHub.ProviderRegistrationResource&gt;&gt;</ReturnType>
@@ -746,7 +774,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates or updates the provider registration.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_CreateOrUpdate</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/providers/Microsoft.ProviderHub/providerRegistrations/{providerNamespace}</description></item><item><term>Operation Id</term><description>ProviderRegistrations_CreateOrUpdate</description></item><item><term>Default Api Version</term><description>2020-11-20</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.ProviderHub.ProviderRegistrationResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

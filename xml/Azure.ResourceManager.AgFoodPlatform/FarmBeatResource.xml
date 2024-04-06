@@ -63,7 +63,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.FarmBeatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -95,7 +95,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.FarmBeatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -175,7 +175,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a FarmBeats resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Delete</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.FarmBeatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -204,7 +204,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a FarmBeats resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Delete</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Delete</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.FarmBeatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -230,7 +230,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get FarmBeats resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.FarmBeatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -258,7 +258,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Private endpoint connection object.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.AgFoodPlatformPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -290,7 +290,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Private endpoint connection object.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.AgFoodPlatformPrivateEndpointConnectionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -343,7 +343,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Private link resource object.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/privateLinkResources/{subResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/privateLinkResources/{subResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.AgFoodPlatformPrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -375,7 +375,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get Private link resource object.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/privateLinkResources/{subResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/privateLinkResources/{subResourceName}</description></item><item><term>Operation Id</term><description>PrivateLinkResources_Get</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.AgFoodPlatformPrivateLinkResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -426,7 +426,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get FarmBeats resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.FarmBeatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -454,7 +454,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get installed extension details by extension id.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/extensions/{extensionId}</description></item><item><term>Operation Id</term><description>Extensions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/extensions/{extensionId}</description></item><item><term>Operation Id</term><description>Extensions_Get</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.ExtensionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -486,7 +486,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get installed extension details by extension id.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/extensions/{extensionId}</description></item><item><term>Operation Id</term><description>Extensions_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/extensions/{extensionId}</description></item><item><term>Operation Id</term><description>Extensions_Get</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.ExtensionResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -539,7 +539,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get operationResults for a FarmBeats resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/operationResults/{operationResultsId}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_GetOperationResult</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/operationResults/{operationResultsId}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_GetOperationResult</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.FarmBeatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -571,7 +571,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get operationResults for a FarmBeats resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/operationResults/{operationResultsId}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_GetOperationResult</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}/operationResults/{operationResultsId}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_GetOperationResult</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.FarmBeatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -623,7 +623,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.FarmBeatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -653,7 +653,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.FarmBeatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -702,7 +702,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.FarmBeatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -732,7 +732,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Get</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.FarmBeatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -765,7 +765,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a FarmBeats resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Update</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.FarmBeatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -798,7 +798,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Update a FarmBeats resource.
-            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Update</description></item></list></summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AgFoodPlatform/farmBeats/{farmBeatsResourceName}</description></item><item><term>Operation Id</term><description>FarmBeatsModels_Update</description></item><item><term>Default Api Version</term><description>2021-09-01-preview</description></item><item><term>Resource</term><description><see cref="T:Azure.ResourceManager.AgFoodPlatform.FarmBeatResource" /></description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

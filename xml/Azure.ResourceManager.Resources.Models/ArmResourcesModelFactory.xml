@@ -9,6 +9,7 @@
     <AssemblyVersion>1.6.0.0</AssemblyVersion>
     <AssemblyVersion>1.7.0.0</AssemblyVersion>
     <AssemblyVersion>1.7.1.0</AssemblyVersion>
+    <AssemblyVersion>1.8.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,8 +29,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmApplicationArtifact</ReturnType>
@@ -59,8 +60,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmApplicationData</ReturnType>
@@ -134,8 +135,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmApplicationDefinitionData</ReturnType>
@@ -201,8 +202,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmApplicationDetails</ReturnType>
@@ -230,8 +231,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmApplicationManagedIdentity</ReturnType>
@@ -261,8 +262,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmApplicationPackageContact</ReturnType>
@@ -290,8 +291,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmApplicationPackageSupportUris</ReturnType>
@@ -317,8 +318,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmApplicationPatch</ReturnType>
@@ -392,8 +393,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmApplicationResourceData</ReturnType>
@@ -431,8 +432,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmApplicationUserAssignedIdentity</ReturnType>
@@ -458,8 +459,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmDependency</ReturnType>
@@ -490,14 +491,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmDeploymentContent</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="properties" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentProperties" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentProperties" />
+        <Parameter Name="tags" Type="System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;" />
       </Parameters>
       <Docs>
         <param name="location"> The location to store the deployment data. </param>
@@ -517,8 +519,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmDeploymentData</ReturnType>
@@ -554,8 +556,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmDeploymentExportResult</ReturnType>
@@ -579,8 +581,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmDeploymentOperation</ReturnType>
@@ -608,8 +610,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmDeploymentOperationProperties</ReturnType>
@@ -652,19 +654,20 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmDeploymentProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="template" Type="System.BinaryData" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="templateLink" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentTemplateLink" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="parameters" Type="System.BinaryData" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="parametersLink" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentParametersLink" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="mode" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentMode" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="debugSettingDetailLevel" Type="System.String" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="errorDeployment" Type="Azure.ResourceManager.Resources.Models.ErrorDeployment" Index="6" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expressionEvaluationScope" Type="System.Nullable&lt;Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope&gt;" Index="7" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="template" Type="System.BinaryData" />
+        <Parameter Name="templateLink" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentTemplateLink" />
+        <Parameter Name="parameters" Type="System.BinaryData" />
+        <Parameter Name="parametersLink" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentParametersLink" />
+        <Parameter Name="mode" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentMode" />
+        <Parameter Name="debugSettingDetailLevel" Type="System.String" />
+        <Parameter Name="errorDeployment" Type="Azure.ResourceManager.Resources.Models.ErrorDeployment" />
+        <Parameter Name="expressionEvaluationScope" Type="System.Nullable&lt;Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope&gt;" />
       </Parameters>
       <Docs>
         <param name="template"> The template content. You use this element when you want to pass the template syntax directly in the request rather than link to an existing template. It can be a JObject or well-formed JSON string. Use either the templateLink property or the template property, but not both. </param>
@@ -689,8 +692,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmDeploymentPropertiesExtended</ReturnType>
@@ -738,16 +741,18 @@
       </Docs>
     </Member>
     <Member MemberName="ArmDeploymentScriptData">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Resources.ArmDeploymentScriptData ArmDeploymentScriptData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, Azure.ResourceManager.Resources.Models.ArmDeploymentScriptManagedIdentity identity = default, Azure.Core.AzureLocation location = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, string kind = &quot;Unknown&quot;);" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Resources.ArmDeploymentScriptData ArmDeploymentScriptData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, Azure.ResourceManager.Resources.Models.ArmDeploymentScriptManagedIdentity identity = default, Azure.Core.AzureLocation location = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, string kind = &quot;Unknown&quot;);" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.ResourceManager.Resources.ArmDeploymentScriptData ArmDeploymentScriptData(class Azure.Core.ResourceIdentifier id, string name, valuetype Azure.Core.ResourceType resourceType, class Azure.ResourceManager.Models.SystemData systemData, class Azure.ResourceManager.Resources.Models.ArmDeploymentScriptManagedIdentity identity, valuetype Azure.Core.AzureLocation location, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, string kind) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Resources.Models.ArmResourcesModelFactory.ArmDeploymentScriptData(Azure.Core.ResourceIdentifier,System.String,Azure.Core.ResourceType,Azure.ResourceManager.Models.SystemData,Azure.ResourceManager.Resources.Models.ArmDeploymentScriptManagedIdentity,Azure.Core.AzureLocation,System.Collections.Generic.IDictionary{System.String,System.String},System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ArmDeploymentScriptData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional identity As ArmDeploymentScriptManagedIdentity = Nothing, Optional location As AzureLocation = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional kind As String = &quot;Unknown&quot;) As ArmDeploymentScriptData" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ArmDeploymentScriptData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional identity As ArmDeploymentScriptManagedIdentity = Nothing, Optional location As AzureLocation = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional kind As String = &quot;Unknown&quot;) As ArmDeploymentScriptData" FrameworkAlternate="azure-dotnet" />
       <MemberSignature Language="F#" Value="static member ArmDeploymentScriptData : Azure.Core.ResourceIdentifier * string * Azure.Core.ResourceType * Azure.ResourceManager.Models.SystemData * Azure.ResourceManager.Resources.Models.ArmDeploymentScriptManagedIdentity * Azure.Core.AzureLocation * System.Collections.Generic.IDictionary&lt;string, string&gt; * string -&gt; Azure.ResourceManager.Resources.ArmDeploymentScriptData" Usage="Azure.ResourceManager.Resources.Models.ArmResourcesModelFactory.ArmDeploymentScriptData (id, name, resourceType, systemData, identity, location, tags, kind)" />
+      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.Resources.ArmDeploymentScriptData ArmDeploymentScriptData (Azure.Core.ResourceIdentifier id = default, string name = default, Azure.Core.ResourceType resourceType = default, Azure.ResourceManager.Models.SystemData systemData = default, Azure.ResourceManager.Resources.Models.ArmDeploymentScriptManagedIdentity identity = default, Azure.Core.AzureLocation location = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, string kind = default);" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ArmDeploymentScriptData (Optional id As ResourceIdentifier = Nothing, Optional name As String = Nothing, Optional resourceType As ResourceType = Nothing, Optional systemData As SystemData = Nothing, Optional identity As ArmDeploymentScriptManagedIdentity = Nothing, Optional location As AzureLocation = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional kind As String = Nothing) As ArmDeploymentScriptData" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ArmDeploymentScriptData</ReturnType>
@@ -785,8 +790,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmDeploymentScriptManagedIdentity</ReturnType>
@@ -814,8 +819,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmDeploymentScriptPatch</ReturnType>
@@ -847,8 +852,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmDeploymentValidateResult</ReturnType>
@@ -875,13 +880,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmDeploymentWhatIfContent</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="properties" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentWhatIfProperties" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="location" Type="System.Nullable&lt;Azure.Core.AzureLocation&gt;" />
+        <Parameter Name="properties" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentWhatIfProperties" />
       </Parameters>
       <Docs>
         <param name="location"> The location to store the deployment data, only required at the tenant and management group scope. </param>
@@ -901,20 +907,21 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ArmDeploymentWhatIfProperties</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="template" Type="System.BinaryData" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="templateLink" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentTemplateLink" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="parameters" Type="System.BinaryData" Index="2" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="parametersLink" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentParametersLink" Index="3" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="mode" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentMode" Index="4" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="debugSettingDetailLevel" Type="System.String" Index="5" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="errorDeployment" Type="Azure.ResourceManager.Resources.Models.ErrorDeployment" Index="6" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="expressionEvaluationScope" Type="System.Nullable&lt;Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope&gt;" Index="7" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="whatIfResultFormat" Type="System.Nullable&lt;Azure.ResourceManager.Resources.Models.WhatIfResultFormat&gt;" Index="8" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="template" Type="System.BinaryData" />
+        <Parameter Name="templateLink" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentTemplateLink" />
+        <Parameter Name="parameters" Type="System.BinaryData" />
+        <Parameter Name="parametersLink" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentParametersLink" />
+        <Parameter Name="mode" Type="Azure.ResourceManager.Resources.Models.ArmDeploymentMode" />
+        <Parameter Name="debugSettingDetailLevel" Type="System.String" />
+        <Parameter Name="errorDeployment" Type="Azure.ResourceManager.Resources.Models.ErrorDeployment" />
+        <Parameter Name="expressionEvaluationScope" Type="System.Nullable&lt;Azure.ResourceManager.Resources.Models.ExpressionEvaluationScope&gt;" />
+        <Parameter Name="whatIfResultFormat" Type="System.Nullable&lt;Azure.ResourceManager.Resources.Models.WhatIfResultFormat&gt;" />
       </Parameters>
       <Docs>
         <param name="template"> The template content. You use this element when you want to pass the template syntax directly in the request rather than link to an existing template. It can be a JObject or well-formed JSON string. Use either the templateLink property or the template property, but not both. </param>
@@ -940,8 +947,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.AzureCliScript</ReturnType>
@@ -1007,8 +1014,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.AzurePowerShellScript</ReturnType>
@@ -1074,8 +1081,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.BasicArmDependency</ReturnType>
@@ -1103,8 +1110,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ErrorDeploymentExtended</ReturnType>
@@ -1132,8 +1139,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.JitRequestData</ReturnType>
@@ -1183,8 +1190,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.ScriptLogData</ReturnType>
@@ -1216,8 +1223,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.ScriptStatus</ReturnType>
@@ -1251,8 +1258,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.StatusMessage</ReturnType>
@@ -1278,8 +1285,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.TargetResource</ReturnType>
@@ -1307,8 +1314,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.TemplateHashResult</ReturnType>
@@ -1334,8 +1341,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.TemplateSpecData</ReturnType>
@@ -1377,8 +1384,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.TemplateSpecPatch</ReturnType>
@@ -1410,8 +1417,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.TemplateSpecVersionData</ReturnType>
@@ -1455,8 +1462,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.TemplateSpecVersionInfo</ReturnType>
@@ -1484,8 +1491,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.TemplateSpecVersionPatch</ReturnType>
@@ -1517,8 +1524,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.WhatIfChange</ReturnType>
@@ -1552,8 +1559,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.WhatIfOperationResult</ReturnType>
@@ -1581,8 +1588,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Resources</AssemblyName>
-        <AssemblyVersion>1.7.0.0</AssemblyVersion>
         <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Resources.Models.WhatIfPropertyChange</ReturnType>

@@ -1,0 +1,350 @@
+<Type Name="AcsAdvanceMessageDeliveryStatus" FullName="Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus">
+  <TypeSignature Language="C#" Value="public readonly struct AcsAdvanceMessageDeliveryStatus : IEquatable&lt;Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit AcsAdvanceMessageDeliveryStatus extends System.ValueType implements class System.IEquatable`1&lt;valuetype Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Structure AcsAdvanceMessageDeliveryStatus&#xA;Implements IEquatable(Of AcsAdvanceMessageDeliveryStatus)" />
+  <TypeSignature Language="F#" Value="type AcsAdvanceMessageDeliveryStatus = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+    <AssemblyVersion>4.24.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary> The updated message status. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AcsAdvanceMessageDeliveryStatus (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As String)" />
+      <MemberSignature Language="F#" Value="new Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus : string -&gt; Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" Usage="new Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Initializes a new instance of <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" />. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="value" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Delivered">
+      <MemberSignature Language="C#" Value="public static Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus Delivered { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus Delivered" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.Delivered" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Delivered As AcsAdvanceMessageDeliveryStatus" />
+      <MemberSignature Language="F#" Value="static member Delivered : Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" Usage="Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.Delivered" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> delivered. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.Equals(Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As AcsAdvanceMessageDeliveryStatus) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus -&gt; bool" Usage="acsAdvanceMessageDeliveryStatus.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" />
+      </Parameters>
+      <Docs>
+        <param name="other">An object to compare with this object.</param>
+        <summary>Indicates whether the current object is equal to another object of the same type.</summary>
+        <returns>
+          <see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="acsAdvanceMessageDeliveryStatus.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to compare with the current instance.</param>
+        <summary>Indicates whether this instance and a specified object are equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Failed">
+      <MemberSignature Language="C#" Value="public static Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus Failed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus Failed" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.Failed" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Failed As AcsAdvanceMessageDeliveryStatus" />
+      <MemberSignature Language="F#" Value="static member Failed : Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" Usage="Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.Failed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> failed. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="acsAdvanceMessageDeliveryStatus.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the hash code for this instance.</summary>
+        <returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus left, Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus left, valuetype Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.op_Equality(Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus,Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As AcsAdvanceMessageDeliveryStatus, right As AcsAdvanceMessageDeliveryStatus) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus * Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" />
+        <Parameter Name="right" Type="Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" /> values are the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.op_Implicit(System.String)~Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As AcsAdvanceMessageDeliveryStatus" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" Usage="Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Converts a string to a <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus left, Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus left, valuetype Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.op_Inequality(Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus,Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As AcsAdvanceMessageDeliveryStatus, right As AcsAdvanceMessageDeliveryStatus) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus * Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus -&gt; bool" Usage="Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" />
+        <Parameter Name="right" Type="Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" /> values are not the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="public static Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus Read { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus Read" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.Read" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Read As AcsAdvanceMessageDeliveryStatus" />
+      <MemberSignature Language="F#" Value="static member Read : Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" Usage="Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.Read" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> read. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sent">
+      <MemberSignature Language="C#" Value="public static Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus Sent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus Sent" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.Sent" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Sent As AcsAdvanceMessageDeliveryStatus" />
+      <MemberSignature Language="F#" Value="static member Sent : Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" Usage="Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.Sent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> sent. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="acsAdvanceMessageDeliveryStatus.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the fully qualified type name of this instance.</summary>
+        <returns>The fully qualified type name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="public static Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus Unknown { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus Unknown" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Unknown As AcsAdvanceMessageDeliveryStatus" />
+      <MemberSignature Language="F#" Value="static member Unknown : Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" Usage="Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.Unknown" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> unknown. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Warning">
+      <MemberSignature Language="C#" Value="public static Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus Warning { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus Warning" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.Warning" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Warning As AcsAdvanceMessageDeliveryStatus" />
+      <MemberSignature Language="F#" Value="static member Warning : Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus" Usage="Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus.Warning" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsAdvanceMessageDeliveryStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> warning. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

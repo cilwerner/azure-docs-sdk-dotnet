@@ -744,7 +744,11 @@
         <param name="isOption"> The option value indicates whether or not the sentence containing the recommendation includes an optional statement. Keywords for optional statements include 'recommend', 'consider', and so on. </param>
         <param name="isGuideline"> The guideline value indicates whether or not the recommendation is part of a guideline section that compiles all recommendations applicable to various findings. </param>
         <param name="isHedging"> Hedging refers to ambiguous, vague or imprecise language within the sentence of the recommendation. Keywords for hedging are 'can be','may be',and so on. </param>
-        <param name="recommendedProcedure"> The procedure recommendation can be a generic procedure or an imaging procedure. </param>
+        <param name="recommendedProcedure">
+            The procedure recommendation can be a generic procedure or an imaging procedure.
+            Please note <see cref="T:Azure.Health.Insights.RadiologyInsights.ProcedureRecommendation" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Health.Insights.RadiologyInsights.GenericProcedureRecommendation" /> and <see cref="T:Azure.Health.Insights.RadiologyInsights.ImagingProcedureRecommendation" />.
+            </param>
         <summary> Initializes a new instance of <see cref="T:Azure.Health.Insights.RadiologyInsights.FollowupRecommendationInference" />. </summary>
         <returns> A new <see cref="T:Azure.Health.Insights.RadiologyInsights.FollowupRecommendationInference" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
@@ -1060,7 +1064,11 @@
       </Parameters>
       <Docs>
         <param name="patientId"> Identifier given for the patient in the request. </param>
-        <param name="inferences"> The model's inferences for the given patient. </param>
+        <param name="inferences">
+            The model's inferences for the given patient.
+            Please note <see cref="T:Azure.Health.Insights.RadiologyInsights.RadiologyInsightsInference" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Health.Insights.RadiologyInsights.AgeMismatchInference" />, <see cref="T:Azure.Health.Insights.RadiologyInsights.CompleteOrderDiscrepancyInference" />, <see cref="T:Azure.Health.Insights.RadiologyInsights.CriticalResultInference" />, <see cref="T:Azure.Health.Insights.RadiologyInsights.FindingInference" />, <see cref="T:Azure.Health.Insights.RadiologyInsights.FollowupCommunicationInference" />, <see cref="T:Azure.Health.Insights.RadiologyInsights.FollowupRecommendationInference" />, <see cref="T:Azure.Health.Insights.RadiologyInsights.LateralityDiscrepancyInference" />, <see cref="T:Azure.Health.Insights.RadiologyInsights.LimitedOrderDiscrepancyInference" />, <see cref="T:Azure.Health.Insights.RadiologyInsights.RadiologyProcedureInference" /> and <see cref="T:Azure.Health.Insights.RadiologyInsights.SexMismatchInference" />.
+            </param>
         <summary> Initializes a new instance of <see cref="T:Azure.Health.Insights.RadiologyInsights.RadiologyInsightsPatientResult" />. </summary>
         <returns> A new <see cref="T:Azure.Health.Insights.RadiologyInsights.RadiologyInsightsPatientResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>

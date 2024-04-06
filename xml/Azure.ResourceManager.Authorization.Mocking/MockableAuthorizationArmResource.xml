@@ -8,6 +8,7 @@
     <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.1.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -44,6 +46,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.AuthorizationRoleDefinitionResource&gt;</ReturnType>
@@ -74,6 +77,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.AuthorizationRoleDefinitionResource&gt;&gt;</ReturnType>
@@ -104,6 +108,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.AuthorizationRoleDefinitionCollection</ReturnType>
@@ -125,6 +130,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.DenyAssignmentResource&gt;</ReturnType>
@@ -157,6 +163,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.DenyAssignmentResource&gt;&gt;</ReturnType>
@@ -189,6 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.DenyAssignmentCollection</ReturnType>
@@ -210,6 +218,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentResource&gt;</ReturnType>
@@ -242,6 +251,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentResource&gt;&gt;</ReturnType>
@@ -274,6 +284,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentCollection</ReturnType>
@@ -295,6 +306,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentScheduleResource&gt;</ReturnType>
@@ -327,6 +339,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentScheduleResource&gt;&gt;</ReturnType>
@@ -359,6 +372,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentScheduleInstanceResource&gt;</ReturnType>
@@ -391,6 +405,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentScheduleInstanceResource&gt;&gt;</ReturnType>
@@ -423,6 +438,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentScheduleInstanceCollection</ReturnType>
@@ -444,6 +460,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestResource&gt;</ReturnType>
@@ -476,6 +493,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestResource&gt;&gt;</ReturnType>
@@ -508,6 +526,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestCollection</ReturnType>
@@ -529,6 +548,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleAssignmentScheduleCollection</ReturnType>
@@ -550,6 +570,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleEligibilityScheduleResource&gt;</ReturnType>
@@ -582,6 +603,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleEligibilityScheduleResource&gt;&gt;</ReturnType>
@@ -614,6 +636,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleEligibilityScheduleInstanceResource&gt;</ReturnType>
@@ -646,6 +669,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleEligibilityScheduleInstanceResource&gt;&gt;</ReturnType>
@@ -678,6 +702,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleEligibilityScheduleInstanceCollection</ReturnType>
@@ -699,6 +724,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestResource&gt;</ReturnType>
@@ -731,6 +757,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestResource&gt;&gt;</ReturnType>
@@ -763,6 +790,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleEligibilityScheduleRequestCollection</ReturnType>
@@ -784,6 +812,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleEligibilityScheduleCollection</ReturnType>
@@ -805,6 +834,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleManagementPolicyCollection</ReturnType>
@@ -826,6 +856,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleManagementPolicyResource&gt;</ReturnType>
@@ -858,6 +889,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Authorization.RoleManagementPolicyAssignmentResource&gt;</ReturnType>
@@ -890,6 +922,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleManagementPolicyAssignmentResource&gt;&gt;</ReturnType>
@@ -922,6 +955,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.RoleManagementPolicyAssignmentCollection</ReturnType>
@@ -943,6 +977,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.1.1.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Authorization.RoleManagementPolicyResource&gt;&gt;</ReturnType>

@@ -1,0 +1,81 @@
+<Type Name="AcsAdvancedMessageInteractiveContent" FullName="Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveContent">
+  <TypeSignature Language="C#" Value="public class AcsAdvancedMessageInteractiveContent" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AcsAdvancedMessageInteractiveContent extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveContent" />
+  <TypeSignature Language="VB.NET" Value="Public Class AcsAdvancedMessageInteractiveContent" />
+  <TypeSignature Language="F#" Value="type AcsAdvancedMessageInteractiveContent = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+    <AssemblyVersion>4.24.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Advanced Message Interactive Content. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ButtonReply">
+      <MemberSignature Language="C#" Value="public Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveButtonReplyContent ButtonReply { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveButtonReplyContent ButtonReply" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveContent.ButtonReply" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ButtonReply As AcsAdvancedMessageInteractiveButtonReplyContent" />
+      <MemberSignature Language="F#" Value="member this.ButtonReply : Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveButtonReplyContent" Usage="Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveContent.ButtonReply" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveButtonReplyContent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The Message Sent when a customer clicks a button. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListReply">
+      <MemberSignature Language="C#" Value="public Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveListReplyContent ListReply { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveListReplyContent ListReply" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveContent.ListReply" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListReply As AcsAdvancedMessageInteractiveListReplyContent" />
+      <MemberSignature Language="F#" Value="member this.ListReply : Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveListReplyContent" Usage="Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveContent.ListReply" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveListReplyContent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The Message Sent when a customer selects an item from a list. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyKind">
+      <MemberSignature Language="C#" Value="public Azure.Messaging.EventGrid.SystemEvents.AcsInteractiveReplyKind? ReplyKind { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.Messaging.EventGrid.SystemEvents.AcsInteractiveReplyKind&gt; ReplyKind" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveContent.ReplyKind" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReplyKind As Nullable(Of AcsInteractiveReplyKind)" />
+      <MemberSignature Language="F#" Value="member this.ReplyKind : Nullable&lt;Azure.Messaging.EventGrid.SystemEvents.AcsInteractiveReplyKind&gt;" Usage="Azure.Messaging.EventGrid.SystemEvents.AcsAdvancedMessageInteractiveContent.ReplyKind" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
+        <AssemblyVersion>4.24.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Azure.Messaging.EventGrid.SystemEvents.AcsInteractiveReplyKind&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The Message interactive reply type. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
